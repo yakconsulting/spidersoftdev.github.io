@@ -85,6 +85,32 @@
 <main class="main list" role=main>
 <article class="list__item post">
 <figure class=list__thumbnail>
+<a href=http://www.spidersoft.com.au/2021/how-to-replace-all-links-in-html-to-markup/>
+<img src=/images/uploads/2021/09/replace_hub3add3c283a1ffdbe768e6d75176aa37_402920_640x0_resize_box_3.png alt="How to replace all links in html to markup">
+</a>
+</figure>
+<header class=list__header>
+<h2 class="list__title post__title">
+<a href=/2021/how-to-replace-all-links-in-html-to-markup/ rel=bookmark>
+How to replace all links in html to markup
+</a>
+</h2>
+<p class="list__lead post__lead">Regular expression to replace href to markup</p>
+<div class="list__meta meta">
+<div class="meta__item-datetime meta__item">
+<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class=meta__text datetime=2021-09-03T13:06:00Z>2021-09-03</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2 1 2h8v11H0V2z"/></svg><span class=meta__text><a class=meta__link href=/categories/technologies/ rel=category>Technologies</a>
+</span>
+</div></div>
+</header>
+<div class="content list__excerpt post__content clearfix">
+Recently I moved my blog from Wordpress to Hugo, and that involved a lot of content fixing. One of the problems was that during the export not all HTML code was correctly transferred to markup. So I needed fix (replace) all pending [aaa](http://) to [aaa](http://).
+What we need is just 2 simple regular expressions.
+One to find links [(.+?)]((.+?))
+Second one to replace them in reverse order [$2]($1)
+You can run this in basically any IDE - Sublime will do the job, I was using PHPStorm
+</div>
+</article><article class="list__item post">
+<figure class=list__thumbnail>
 <a href=http://www.spidersoft.com.au/2021/how-to-install-mysql8-on-ami-linux/>
 <img src=/images/uploads/2021/08/mysql-logo.png alt="How to upgrade MySQL on old Linux AMI">
 </a>
@@ -174,38 +200,12 @@ How to force clean cached DNS records
 </div></div>
 </header>
 <div class="content list__excerpt post__content clearfix">
-Dealing with DNS changes can be annyoying and frustrating. Changes are not visible straight away, you have to wait to see them. Thet are not even. Here you can find links to clear cached records in popular public DNS servers:
+Dealing with DNS changes can be annoying and frustrating. Changes are not visible straight away, you have to wait to see them. Thet are not even. Here you can find links to clear cached records in popular public DNS servers:
 Flushing DNS cache Flush Google Public DNS Cache Purge Cloudflare Public DNS Cache Checking results You can check results here:
 IntoDNS Refresh OpenDNS Cache DNSSEC Tools DNSViz.
 </div>
 <div class="list__footer clearfix">
 <a class="list__footer-readmore btn" href=/2021/how-to-clean-cached-dns-records/>Read more…</a>
-</div>
-</article><article class="list__item post">
-<figure class=list__thumbnail>
-<a href=http://www.spidersoft.com.au/posts/2020-07-14-vips-and-go-does-not-play-together/>
-<img src=/images/uploads/2021/07/gopher.png alt="Why VIPS and Go it’s not a good match for production environment">
-</a>
-</figure>
-<header class=list__header>
-<h2 class="list__title post__title">
-<a href=/posts/2020-07-14-vips-and-go-does-not-play-together/ rel=bookmark>
-Why VIPS and Go it’s not a good match for production environment
-</a>
-</h2>
-<p class="list__lead post__lead">using cgo bindings in go is a not an easy way</p>
-<div class="list__meta meta">
-<div class="meta__item-datetime meta__item">
-<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class=meta__text datetime=2021-07-14T07:19:08Z>2021-07-14</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2 1 2h8v11H0V2z"/></svg><span class=meta__text><a class=meta__link href=/categories/software/ rel=category>Software</a>, <a class=meta__link href=/categories/go-lang/ rel=category>Go Lang</a>
-</span>
-</div></div>
-</header>
-<div class="content list__excerpt post__content clearfix">
-I was building simple worker using Go & VIPS o do some kind of magic with images. I chose VIPS because is blazing fast in comparison with other Go image processing libraries. So this is the story about what went wrong.
-Because my DEV setup is Apple MacBook Pro with M1 Apple Silicon it’s always tricky to compile something to the proper architecture. Installing VIPS on my machine it’s pretty straight forward:
-</div>
-<div class="list__footer clearfix">
-<a class="list__footer-readmore btn" href=/posts/2020-07-14-vips-and-go-does-not-play-together/>Read more…</a>
 </div>
 </article>
 </main>

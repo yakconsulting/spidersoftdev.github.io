@@ -2,4 +2,6 @@
 &lt;a href="https://angularjs.org">Angular&lt;/a>
 . Apparently Angular went the same path like all good and slim solutions. It’s getting slower and bigger. With this type of framework we have at least couple of options:&lt;/p></description></item><item><title>interesting jQuery alternative – laroux.js</title><link>http://www.spidersoft.com.au/2015/interesting-jquery-alternative-laroux-js/</link><pubDate>Mon, 02 Mar 2015 05:45:54 +0000</pubDate><guid>http://www.spidersoft.com.au/2015/interesting-jquery-alternative-laroux-js/</guid><description>&lt;p>If we are talking about
 &lt;a href="http://jquery.com">jQuery&lt;/a>
-alternatives there is not much on the market. With age jQuery put a little bit on weight, not mentioning it’s speed. If we are talking about weight and speed we have &lt;!-- raw HTML omitted -->Zepto.js&lt;!-- raw HTML omitted --> and… we can use pure JavaScript which isn’t especially convenient in larger  projects. But definitely it’s much more but… it’s faster.&lt;/p></description></item></channel></rss>
+alternatives there is not much on the market. With age jQuery put a little bit on weight, not mentioning it’s speed. If we are talking about weight and speed we have
+&lt;a href="http://zeptojs.com">Zepto.js&lt;/a>
+and… we can use pure JavaScript which isn’t especially convenient in larger  projects. But definitely it’s much more but… it’s faster.&lt;/p></description></item></channel></rss>

@@ -84,6 +84,32 @@
 <div class=primary>
 <main class="main list" role=main>
 <article class="list__item post">
+<figure class=list__thumbnail>
+<a href=http://www.spidersoft.com.au/posts/2020-07-14-vips-and-go-does-not-play-together/>
+<img src=/images/uploads/2021/07/gopher.png alt="Why VIPS and Go it’s not a good match for production environment">
+</a>
+</figure>
+<header class=list__header>
+<h2 class="list__title post__title">
+<a href=/posts/2020-07-14-vips-and-go-does-not-play-together/ rel=bookmark>
+Why VIPS and Go it’s not a good match for production environment
+</a>
+</h2>
+<p class="list__lead post__lead">using cgo bindings in go is a not an easy way</p>
+<div class="list__meta meta">
+<div class="meta__item-datetime meta__item">
+<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class=meta__text datetime=2021-07-14T07:19:08Z>2021-07-14</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2 1 2h8v11H0V2z"/></svg><span class=meta__text><a class=meta__link href=/categories/software/ rel=category>Software</a>, <a class=meta__link href=/categories/go-lang/ rel=category>Go Lang</a>
+</span>
+</div></div>
+</header>
+<div class="content list__excerpt post__content clearfix">
+I was building simple worker using Go & VIPS o do some kind of magic with images. I chose VIPS because is blazing fast in comparison with other Go image processing libraries. So this is the story about what went wrong.
+Because my DEV setup is Apple MacBook Pro with M1 Apple Silicon it’s always tricky to compile something to the proper architecture. Installing VIPS on my machine it’s pretty straight forward:
+</div>
+<div class="list__footer clearfix">
+<a class="list__footer-readmore btn" href=/posts/2020-07-14-vips-and-go-does-not-play-together/>Read more…</a>
+</div>
+</article><article class="list__item post">
 <header class=list__header>
 <h2 class="list__title post__title">
 <a href=/2021/quickest-in-house-html-to-pdf-solution/ rel=bookmark>
@@ -166,32 +192,6 @@ From the author of my beloved Caddy server there is a tool called curl-to-Go whi
 </div>
 <div class="list__footer clearfix">
 <a class="list__footer-readmore btn" href=/2019/curl-to-go/>Read more…</a>
-</div>
-</article><article class="list__item post">
-<figure class=list__thumbnail>
-<a href=http://www.spidersoft.com.au/2019/automated-email-parser/>
-<img src=/images/uploads/2019/03/email-parser.png alt="Automated email parser">
-</a>
-</figure>
-<header class=list__header>
-<h2 class="list__title post__title">
-<a href=/2019/automated-email-parser/ rel=bookmark>
-Automated email parser
-</a>
-</h2>
-<div class="list__meta meta">
-<div class="meta__item-datetime meta__item">
-<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class=meta__text datetime=2019-03-27T08:43:27Z>2019-03-27</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2 1 2h8v11H0V2z"/></svg><span class=meta__text><a class=meta__link href=/categories/case-studies/ rel=category>Case studies</a>, <a class=meta__link href=/categories/go-lang/ rel=category>Go Lang</a>
-</span>
-</div></div>
-</header>
-<div class="content list__excerpt post__content clearfix">
-It’s a simple mechanic to decompose emails into useful parts, like some markup (to squiz emails directly into internal systems) and create file attachments – and extract inline images.
-Flow is pretty simple, but we have couple components.
-We need something to “receive” emails. Easiest way is to use Amazon SES or mailgun or… something else. There is a couple SASS solutions for that Next step is to be notified when email arrive, so we don’t have overhead with checking email every couple of minutes We have to “decompose” – decode email from it’s raw format to text, and attachments.
-</div>
-<div class="list__footer clearfix">
-<a class="list__footer-readmore btn" href=/2019/automated-email-parser/>Read more…</a>
 </div>
 </article>
 </main>

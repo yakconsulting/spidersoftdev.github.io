@@ -15,7 +15,7 @@
 <meta itemprop=name content="Web Server on AMI Linux 2">
 <meta itemprop=description content="Welcome in 2019 – it’s time to upgrade out outdated LAMP stack series articles, with new “How To” setup basic web server for our stack."><meta itemprop=datePublished content="2019-01-28T09:46:20+00:00">
 <meta itemprop=dateModified content="2019-01-28T09:46:20+00:00">
-<meta itemprop=wordCount content="520">
+<meta itemprop=wordCount content="521">
 <meta itemprop=keywords content="ami linux,apache,caddy,lamp,linux,php,">
 <meta name=twitter:card content="summary">
 <meta name=twitter:title content="Web Server on AMI Linux 2">
@@ -148,7 +148,9 @@ post_max_size=32M
 sudo rm -rf localtime &amp;&amp; sudo ln -s /usr/share/zoneinfo/Australia/Sydney localtime
 date
 Thu Jan 10 21:06:05 AEDT 2019
-</code></pre><p>Looks like in the pretty good spot. Time to install actual web server. You can go with Apache, but I’m huge fan of Caddy server. It’s light, it’s fast and configuration is super easy. You can pull it from the website, compile it locally or… Use my caddy linux thin build:</p>
+</code></pre><p>Looks like in the pretty good spot. Time to install actual web server. You can go with Apache, but I’m huge fan of Caddy server. It’s light, it’s fast and configuration is super easy. You can pull it from the website, compile it locally or… Use my
+<a href=http://public.spidersoft.com.au/download/caddy>caddy linux thin</a>
+build:</p>
 <pre tabindex=0><code>cd /usr/local/bin
 wget http://public.spidersoft.com.au/download/caddy
 chmod a+x caddy

@@ -7,19 +7,91 @@
 <script>(function(a,b){a[b]=a[b].replace("no-js","js")})(document.documentElement,"className")</script>
 <meta name=description content>
 <meta property="og:title" content="Lighttpd and mod_expire">
-<meta property="og:description" content="Google Page Speed Online is really good service for measuring and optimising your website. After deep analysis we get a lot if clues how to improve speed of your website. But how to Leverage browser caching if we have Lighttpd instead default Apache? We need to use mod_expire.">
+<meta property="og:description" content="Google  
+ 
+ 
+     
+ 
+ Page Speed Online
+  is really good service for measuring and optimising your website. After deep analysis we get a lot if clues how to improve speed of your website. But how to  
+ 
+ 
+     
+ 
+ Leverage browser caching
+  if we have  
+ 
+ 
+     
+ 
+ Lighttpd
+  instead default Apache? We need to use  
+ 
+ 
+     
+ 
+ mod_expire
+ .">
 <meta property="og:type" content="article">
 <meta property="og:url" content="http://www.spidersoft.com.au/2011/lighttpd-and-mod_expire/"><meta property="article:section" content="posts">
 <meta property="article:published_time" content="2011-08-27T03:39:40+00:00">
 <meta property="article:modified_time" content="2011-08-27T03:39:40+00:00">
 <meta itemprop=name content="Lighttpd and mod_expire">
-<meta itemprop=description content="Google Page Speed Online is really good service for measuring and optimising your website. After deep analysis we get a lot if clues how to improve speed of your website. But how to Leverage browser caching if we have Lighttpd instead default Apache? We need to use mod_expire."><meta itemprop=datePublished content="2011-08-27T03:39:40+00:00">
+<meta itemprop=description content="Google  
+ 
+ 
+     
+ 
+ Page Speed Online
+  is really good service for measuring and optimising your website. After deep analysis we get a lot if clues how to improve speed of your website. But how to  
+ 
+ 
+     
+ 
+ Leverage browser caching
+  if we have  
+ 
+ 
+     
+ 
+ Lighttpd
+  instead default Apache? We need to use  
+ 
+ 
+     
+ 
+ mod_expire
+ ."><meta itemprop=datePublished content="2011-08-27T03:39:40+00:00">
 <meta itemprop=dateModified content="2011-08-27T03:39:40+00:00">
-<meta itemprop=wordCount content="111">
+<meta itemprop=wordCount content="115">
 <meta itemprop=keywords content="lighttpd,linux,pagespeed,server,">
 <meta name=twitter:card content="summary">
 <meta name=twitter:title content="Lighttpd and mod_expire">
-<meta name=twitter:description content="Google Page Speed Online is really good service for measuring and optimising your website. After deep analysis we get a lot if clues how to improve speed of your website. But how to Leverage browser caching if we have Lighttpd instead default Apache? We need to use mod_expire.">
+<meta name=twitter:description content="Google  
+ 
+ 
+     
+ 
+ Page Speed Online
+  is really good service for measuring and optimising your website. After deep analysis we get a lot if clues how to improve speed of your website. But how to  
+ 
+ 
+     
+ 
+ Leverage browser caching
+  if we have  
+ 
+ 
+     
+ 
+ Lighttpd
+  instead default Apache? We need to use  
+ 
+ 
+     
+ 
+ mod_expire
+ .">
 <link rel=preconnect href=https://fonts.gstatic.com crossorigin>
 <link rel=dns-prefetch href=//fonts.googleapis.com>
 <link rel=dns-prefetch href=//fonts.gstatic.com>
@@ -98,7 +170,15 @@
 <figure class=post__thumbnail>
 <img src=/images/uploads/2011/08/lighttpd.jpg alt="Lighttpd and mod_expire">
 </figure><div class="content post__content clearfix">
-<p>Google Page Speed Online is really good service for measuring and optimising your website. After deep analysis we get a lot if clues how to improve speed of your website. But how to Leverage browser caching if we have Lighttpd instead default Apache? We need to use mod_expire.</p>
+<p>Google
+<a href=http://pagespeed.googlelabs.com/>Page Speed Online</a>
+is really good service for measuring and optimising your website. After deep analysis we get a lot if clues how to improve speed of your website. But how to
+<a href=http://code.google.com/speed/page-speed/docs/caching.html#LeverageBrowserCaching>Leverage browser caching</a>
+if we have
+<a href=http://www.lighttpd.net/>Lighttpd</a>
+ instead default Apache? We need to use
+<a href=http://redmine.lighttpd.net/wiki/lighttpd/Docs:ModExpire>mod_expire</a>
+.</p>
 <p>All you need to do is decide which type of files you wan to cache “longer”. For example for images, CSS and JavaScript files you can use this code in you lighttpd config file</p>
 <p><code>/etc/lighttpd/lighttpd.conf</code>:</p>
 <p>don’t forget to restart lighttpd: <code>service lighttpd restart</code> after that, you can check how this is actually working using curl:</p>

@@ -29,7 +29,7 @@ Couple ideas: sending emails, processing images, making heavy queries into datab
   is a simple, fast work queue. Idea is pretty simple – you can just throw tasks into queue and then have background worker which is pulling data from pipe and executes task.
 Couple ideas: sending emails, processing images, making heavy queries into database. But the best part of it – you don’t have to use PHP for back processing. It could be anything, because protocol us universal and worker and client doesn’t have to be in the same language. So you can schedule task in PHP, and run it in Go. I’m not going to much into details. Just run some examples."><meta itemprop=datePublished content="2014-08-21T04:30:27+00:00">
 <meta itemprop=dateModified content="2014-08-21T04:30:27+00:00">
-<meta itemprop=wordCount content="262">
+<meta itemprop=wordCount content="264">
 <meta itemprop=keywords content="php,samples,">
 <meta name=twitter:card content="summary">
 <meta name=twitter:title content="PHP, work queues">
@@ -124,12 +124,16 @@ Couple ideas: sending emails, processing images, making heavy queries into datab
 is a simple, fast work queue. Idea is pretty simple – you can just throw tasks into queue and then have background worker which is pulling data from pipe and executes task.</p>
 <p>Couple ideas: sending emails, processing images, making heavy queries into database. But the best part of it – you don’t have to use PHP for back processing. It could be anything, because protocol us universal and worker and client doesn’t have to be in the same language. So you can schedule task in PHP, and run it in Go. I’m not going to much into details. Just run some examples.</p>
 <p>You can install it on probably any Linux instance just pulling from repositories: <code>yum install beanstalkd</code>. Don’t forget to check port 11300 if you are connecting remotely. You just call <code>telnet hostname 113000</code> – you can run simple command like <code>stats</code> to see if you got anything in queue.</p>
-<p>For PHP Client i’m using pheanstalk which can be installed from composer.</p>
+<p>For PHP Client i’m using
+<a href=https://github.com/pda/pheanstalk>pheanstalk</a>
+which can be installed from composer.</p>
 <p>Code sample for creating task in PHP</p>
 <p>And worker:</p>
 <p>Most important thinks to now:</p>
 <ol>
-<li>Worker needs to be running all time, so that’s why is looped – so run it in screen or as a bg process on your server: <code>php worker.php &</code></li>
+<li>Worker needs to be running all time, so that’s why is looped – so run it in
+<a href=http://linux.die.net/man/1/screen>screen</a>
+or as a bg process on your server: <code>php worker.php &</code></li>
 <li>Don’t forget to remove job when it’s finished.</li>
 </ol>
 </div>

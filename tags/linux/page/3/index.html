@@ -105,7 +105,9 @@ Apache 2.4, PHP 5.4 on EC2 instance
 <div class="content list__excerpt post__content clearfix">
 <p>This tutorial just updated version of my
 <a href=http://www.spidersoft.com.au/2013/apache-php-config-boilerplate/ title="Amazon EC2 – Installing Apache and PHP boilerplate">previous one</a>
-. This time we are going to install newer version of apache (httpd 2.4), PHP 5.4 but as a PHP-FPM. Instructions are pretty simple. You can just copy and paste command to get working stack in less then 15 minutes.</p>
+. This time we are going to install newer version of apache (httpd 2.4), PHP 5.4 but as a
+<a href=http://wiki.apache.org/httpd/PHP-FPM>PHP-FPM</a>
+. Instructions are pretty simple. You can just copy and paste command to get working stack in less then 15 minutes.</p>
 <p>What you can learn from it? How to install Apache 2.4 and PHP 5.4, how to enable and APC, and how to install HTTPS on your server, with purchasing SSL certificate.</p>
 </div>
 <div class="list__footer clearfix">
@@ -125,7 +127,9 @@ Shuttle XS35 V2 and CentOs drivers
 </div></div>
 </header>
 <div class="content list__excerpt post__content clearfix">
-<p>Some time ago I bought extremely quiet Shuttle XS35 V2 device to have something “seperate” for my web development work. Right now this awesome fan less device has many purposes. Works as full web dev stack, with Apache, PHP, MySQL, mongoDB, and even Jenkins machine.</p>
+<p>Some time ago I bought extremely quiet Shuttle
+<a href="http://global.shuttle.com/main/productsDetail?productId=1487">XS35 V2</a>
+ device to have something “seperate” for my web development work. Right now this awesome fan less device has many purposes. Works as full web dev stack, with Apache, PHP, MySQL, mongoDB, and even Jenkins machine.</p>
 <p>Recently I realised that this small ugly device got also WiFi cart into it. Because I’m running out of cables and space in my apartment i figure out, that I could move it easily without plugging into it more cables.</p>
 </div>
 <div class="list__footer clearfix">
@@ -150,7 +154,7 @@ Utilizing multi core for tar+gzip/bzip compression/decompression
 </div></div>
 </header>
 <div class="content list__excerpt post__content clearfix">
-We have couple options: pigzand pbzip2.
+We have couple options: pigz and pbzip2 .
 tar -c --use-compress-program=pigz -f my_archive.tar.gz /home/archive The other trick useful trick is that you can exclude some directories or files
 tar -zcvf my_archive.tar.gz --exclude='cache' --exclude='.git' /home/archive
 </div>
@@ -200,7 +204,9 @@ Gearman installation on CentOS and AMI Linux
 </div></div>
 </header>
 <div class="content list__excerpt post__content clearfix">
-<p>Gearman provides a generic application framework to farm out work to other machines or processes that are better suited to do the work.</p>
+<p>
+<a href=http://gearman.org/>Gearman</a>
+provides a generic application framework to farm out work to other machines or processes that are better suited to do the work.</p>
 <p>This solution is truly multiplatform, so we have Client API and Wordkres in multiple languages like Shell, Perl, NodeJS any couple of others (PHP!)</p>
 </div>
 <div class="list__footer clearfix">

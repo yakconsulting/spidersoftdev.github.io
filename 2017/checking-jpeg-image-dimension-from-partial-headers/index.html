@@ -7,19 +7,37 @@
 <script>(function(a,b){a[b]=a[b].replace("no-js","js")})(document.documentElement,"className")</script>
 <meta name=description content>
 <meta property="og:title" content="Checking JPEG image dimension from partial headers">
-<meta property="og:description" content="The goal was to read image dimension from image file. Pretty easy task with standard “image” library and DecodeConfig. The tricky part was – file wasn’t completed – I had only beginning of the file . Obviously I tried to decode headers by myself. I didn’t found exact recipe in GO, and found a lot of people looking for correct answer in many languages.">
+<meta property="og:description" content="The goal was to read image dimension from image file. Pretty easy task with standard “ 
+ 
+ 
+     
+ 
+ image
+ ” library and DecodeConfig. The tricky part was – file wasn’t completed – I had only beginning of the file . Obviously I tried to decode headers by myself. I didn’t found exact recipe in GO, and found a lot of people looking for correct answer in many languages.">
 <meta property="og:type" content="article">
 <meta property="og:url" content="http://www.spidersoft.com.au/2017/checking-jpeg-image-dimension-from-partial-headers/"><meta property="article:section" content="posts">
 <meta property="article:published_time" content="2017-12-13T07:43:11+00:00">
 <meta property="article:modified_time" content="2017-12-13T07:43:11+00:00">
 <meta itemprop=name content="Checking JPEG image dimension from partial headers">
-<meta itemprop=description content="The goal was to read image dimension from image file. Pretty easy task with standard “image” library and DecodeConfig. The tricky part was – file wasn’t completed – I had only beginning of the file . Obviously I tried to decode headers by myself. I didn’t found exact recipe in GO, and found a lot of people looking for correct answer in many languages."><meta itemprop=datePublished content="2017-12-13T07:43:11+00:00">
+<meta itemprop=description content="The goal was to read image dimension from image file. Pretty easy task with standard “ 
+ 
+ 
+     
+ 
+ image
+ ” library and DecodeConfig. The tricky part was – file wasn’t completed – I had only beginning of the file . Obviously I tried to decode headers by myself. I didn’t found exact recipe in GO, and found a lot of people looking for correct answer in many languages."><meta itemprop=datePublished content="2017-12-13T07:43:11+00:00">
 <meta itemprop=dateModified content="2017-12-13T07:43:11+00:00">
-<meta itemprop=wordCount content="201">
+<meta itemprop=wordCount content="203">
 <meta itemprop=keywords content>
 <meta name=twitter:card content="summary">
 <meta name=twitter:title content="Checking JPEG image dimension from partial headers">
-<meta name=twitter:description content="The goal was to read image dimension from image file. Pretty easy task with standard “image” library and DecodeConfig. The tricky part was – file wasn’t completed – I had only beginning of the file . Obviously I tried to decode headers by myself. I didn’t found exact recipe in GO, and found a lot of people looking for correct answer in many languages.">
+<meta name=twitter:description content="The goal was to read image dimension from image file. Pretty easy task with standard “ 
+ 
+ 
+     
+ 
+ image
+ ” library and DecodeConfig. The tricky part was – file wasn’t completed – I had only beginning of the file . Obviously I tried to decode headers by myself. I didn’t found exact recipe in GO, and found a lot of people looking for correct answer in many languages.">
 <link rel=preconnect href=https://fonts.gstatic.com crossorigin>
 <link rel=dns-prefetch href=//fonts.googleapis.com>
 <link rel=dns-prefetch href=//fonts.gstatic.com>
@@ -110,9 +128,11 @@
 </nav>
 </div>
 </div><div class="content post__content clearfix">
-<p>The goal was to read image dimension from image file. Pretty easy task with standard “image” library and DecodeConfig. The tricky part was – file wasn’t completed – I had only beginning of the file . Obviously I tried to decode headers by myself. I didn’t found exact recipe in GO, and found a lot of people looking for correct answer in many languages.</p>
+<p>The goal was to read image dimension from image file. Pretty easy task with standard “
+<a href=https://golang.org/pkg/image/#DecodeConfig>image</a>
+” library and DecodeConfig. The tricky part was – file wasn’t completed – I had only beginning of the file . Obviously I tried to decode headers by myself. I didn’t found exact recipe in GO, and found a lot of people looking for correct answer in many languages.</p>
 <h3 id=png-headers>PNG headers</h3>
-<p>Let’s start with the easy one. PNG headers are pretty standard – everything is in place. Just need to read begining of the file to array, and decode it like that</p>
+<p>Let’s start with the easy one. PNG headers are pretty standard – everything is in place. Just need to read beginning of the file to array, and decode it like that</p>
 <pre tabindex=0><code>var body []byte
     offset := 16
     width := int32(binary.BigEndian.Uint32(body[offset : offset+4]))

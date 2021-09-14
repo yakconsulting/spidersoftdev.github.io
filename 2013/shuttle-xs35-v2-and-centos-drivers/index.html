@@ -7,21 +7,39 @@
 <script>(function(a,b){a[b]=a[b].replace("no-js","js")})(document.documentElement,"className")</script>
 <meta name=description content>
 <meta property="og:title" content="Shuttle XS35 V2 and CentOs drivers">
-<meta property="og:description" content="Some time ago I bought extremely quiet Shuttle XS35 V2 device to have something “seperate” for my web development work. Right now this awesome fan less device has many purposes. Works as full web dev stack, with Apache, PHP, MySQL, mongoDB, and even Jenkins machine.
+<meta property="og:description" content="Some time ago I bought extremely quiet Shuttle  
+ 
+ 
+     
+ 
+ XS35 V2
+  device to have something “seperate” for my web development work. Right now this awesome fan less device has many purposes. Works as full web dev stack, with Apache, PHP, MySQL, mongoDB, and even Jenkins machine.
 Recently I realised that this small ugly device got also WiFi cart into it. Because I’m running out of cables and space in my apartment i figure out, that I could move it easily without plugging into it more cables.">
 <meta property="og:type" content="article">
 <meta property="og:url" content="http://www.spidersoft.com.au/2013/shuttle-xs35-v2-and-centos-drivers/"><meta property="article:section" content="posts">
 <meta property="article:published_time" content="2013-12-23T10:43:40+00:00">
 <meta property="article:modified_time" content="2013-12-23T10:43:40+00:00">
 <meta itemprop=name content="Shuttle XS35 V2 and CentOs drivers">
-<meta itemprop=description content="Some time ago I bought extremely quiet Shuttle XS35 V2 device to have something “seperate” for my web development work. Right now this awesome fan less device has many purposes. Works as full web dev stack, with Apache, PHP, MySQL, mongoDB, and even Jenkins machine.
+<meta itemprop=description content="Some time ago I bought extremely quiet Shuttle  
+ 
+ 
+     
+ 
+ XS35 V2
+  device to have something “seperate” for my web development work. Right now this awesome fan less device has many purposes. Works as full web dev stack, with Apache, PHP, MySQL, mongoDB, and even Jenkins machine.
 Recently I realised that this small ugly device got also WiFi cart into it. Because I’m running out of cables and space in my apartment i figure out, that I could move it easily without plugging into it more cables."><meta itemprop=datePublished content="2013-12-23T10:43:40+00:00">
 <meta itemprop=dateModified content="2013-12-23T10:43:40+00:00">
-<meta itemprop=wordCount content="191">
+<meta itemprop=wordCount content="192">
 <meta itemprop=keywords content="centos,drivers,linux,">
 <meta name=twitter:card content="summary">
 <meta name=twitter:title content="Shuttle XS35 V2 and CentOs drivers">
-<meta name=twitter:description content="Some time ago I bought extremely quiet Shuttle XS35 V2 device to have something “seperate” for my web development work. Right now this awesome fan less device has many purposes. Works as full web dev stack, with Apache, PHP, MySQL, mongoDB, and even Jenkins machine.
+<meta name=twitter:description content="Some time ago I bought extremely quiet Shuttle  
+ 
+ 
+     
+ 
+ XS35 V2
+  device to have something “seperate” for my web development work. Right now this awesome fan less device has many purposes. Works as full web dev stack, with Apache, PHP, MySQL, mongoDB, and even Jenkins machine.
 Recently I realised that this small ugly device got also WiFi cart into it. Because I’m running out of cables and space in my apartment i figure out, that I could move it easily without plugging into it more cables.">
 <link rel=preconnect href=https://fonts.gstatic.com crossorigin>
 <link rel=dns-prefetch href=//fonts.googleapis.com>
@@ -98,14 +116,16 @@ Recently I realised that this small ugly device got also WiFi cart into it. Beca
 </span>
 </div></div>
 </header><div class="content post__content clearfix">
-<p>Some time ago I bought extremely quiet Shuttle XS35 V2 device to have something “seperate” for my web development work. Right now this awesome fan less device has many purposes. Works as full web dev stack, with Apache, PHP, MySQL, mongoDB, and even Jenkins machine.</p>
+<p>Some time ago I bought extremely quiet Shuttle
+<a href="http://global.shuttle.com/main/productsDetail?productId=1487">XS35 V2</a>
+ device to have something “seperate” for my web development work. Right now this awesome fan less device has many purposes. Works as full web dev stack, with Apache, PHP, MySQL, mongoDB, and even Jenkins machine.</p>
 <p>Recently I realised that this small ugly device got also WiFi cart into it. Because I’m running out of cables and space in my apartment i figure out, that I could move it easily without plugging into it more cables.</p>
 <p>But… of course – Linux doesn’t not recognise this Card Out of the box. So.. here is recipe how to make it work:</p>
 <p><code>lspci -nn</code></p>
 <p>Gives us<br>
 <code> 02:00.5 Ethernet controller [0200]: JMicron Technology Corp. JMC250 PCI Express Gigabit Ethernet Controller [197b:0250] (rev 03) 03:00.0 Network controller [0280]: Realtek Semiconductor Co., Ltd. RTL8188CE 802.11b/g/n WiFi Adapter [10ec:8176] (rev 01)</code></p>
 <p>Hope brings us
-<a href=http://www.elrepo.org>www.elrepo.org</a>
+<a href=http://ww.elrepo.org>www.elrepo.org</a>
 . You can also check
 <a href=http://elrepo.org/tiki/DeviceIDs>http://elrepo.org/tiki/DeviceIDs</a>
  to find other missing devices. Quick import or youm repo:</p>

@@ -97,17 +97,9 @@
 </header><div class="content post__content clearfix">
 <p>Recently one of my clients contacted me asking if I can make a change. Shrink a little bit huge margins on PDF delivery slips. The task wasn&rsquo;t easy because settings is bit hidden in the files. By modifying templates you can change font size, and amend or remove elements from the printout. Unfortunately you can&rsquo;t actually decrease margin on PDF printout.</p>
 <p>
-<figure>
-<img src=http://www.spidersoft.com.au/images/uploads/2021/01/prestashop-delivery-slips.png alt=prestashop-delivery-slips width=245 height=188 title=images/uploads/2021/01/prestashop-delivery-slips.png>
-<figcaption></figcaption>
-</figure>
 </p>
 <p>All templates are located in folder PDF in root directory of your deployment. You can modify multiple files to achieve desired effect.</p>
 <p>
-<figure>
-<img src=http://www.spidersoft.com.au/images/uploads/2021/01/prestashop-delivery-slips2.png alt=prestashop-delivery-slips2.png width=290 height=386 title=images/uploads/2021/01/prestashop-delivery-slips2.png>
-<figcaption></figcaption>
-</figure>
 </p>
 <p>But what you are really looking for is file <code>classes/pdf/PDFGenerator.php</code> where you can find something like that:</p>
 <p><code>$this->setMargins(10, 40, 10);</code></p>

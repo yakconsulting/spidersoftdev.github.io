@@ -17,7 +17,7 @@ What you can learn from it? How to install Apache and PHP, how to enable and run
 <meta itemprop=description content="In this extremly simply tutorial I’m going to show, how you can deploy basic LAMP stack on EC2 instance. Instruction are pretty basic, without extra comments. You can just copy and paste command to get working stack in lest then 15 minutes.
 What you can learn from it? How to install Apache and PHP, how to enable and run XCache accelerator, and how to run HTTPS on your server, with purchasing SSL certificate."><meta itemprop=datePublished content="2013-02-14T05:22:55+00:00">
 <meta itemprop=dateModified content="2013-02-14T05:22:55+00:00">
-<meta itemprop=wordCount content="828">
+<meta itemprop=wordCount content="829">
 <meta itemprop=keywords content="apache,aws,mod-spdy,php,xcache,">
 <meta name=twitter:card content="summary">
 <meta name=twitter:title content="Amazon EC2 – Installing Apache and PHP boilerplate">
@@ -246,7 +246,9 @@ SSLCertificateChainFile /etc/pki/tls/certs/www_spidersoft_com_au.ca-bundle
 <a href=http://www.sslshopper.com/ssl-checker.html>www.sslshopper.com/ssl-checker.html</a>
 </p>
 <h3 id=mod-spdy-installation>mod-spdy installation</h3>
-<p>Because we love speed, and we already have SSL certificate up and running we can finish our deployment with mod-spdy installation.</p>
+<p>Because we love speed, and we already have SSL certificate up and running we can finish our deployment with
+<a href=http://code.google.com/p/mod-spdy/>mod-spdy</a>
+ installation.</p>
 <pre tabindex=0><code>wget https://dl-ssl.google.com/dl/linux/direct/mod-spdy-beta_current_x86_64.rpm
 rpm -U mod-spdy-beta_current_x86_64.rpm
 service httpd restart

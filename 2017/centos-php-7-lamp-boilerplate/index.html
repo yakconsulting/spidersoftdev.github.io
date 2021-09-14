@@ -29,7 +29,7 @@ What you can learn from it? How to install Apache 2.4 and PHP 7, how to enable a
  . Instructions are pretty simple. You can just copy and paste command to get working stack in less then 15 minutes.
 What you can learn from it? How to install Apache 2.4 and PHP 7, how to enable and opcache, and how to install HTTPS on your server, with purchasing SSL certificate."><meta itemprop=datePublished content="2017-09-05T03:45:48+00:00">
 <meta itemprop=dateModified content="2017-09-05T03:45:48+00:00">
-<meta itemprop=wordCount content="497">
+<meta itemprop=wordCount content="515">
 <meta itemprop=keywords content="apache,centos,lamp,linux,php,">
 <meta name=twitter:card content="summary">
 <meta name=twitter:title content="Centos PHP 7 LAMP boilerplate">
@@ -129,6 +129,8 @@ What you can learn from it? How to install Apache 2.4 and PHP 7, how to enable a
 <li><a href=#centos-7>Centos 7</a></li>
 <li><a href=#firewall>Firewall</a></li>
 <li><a href=#php-configuration>PHP configuration</a></li>
+<li><a href=#server-configuration>Server configuration</a></li>
+<li><a href=#apache-configuration>Apache configuration</a></li>
 </ul>
 </li>
 </ul>
@@ -149,9 +151,15 @@ What you can learn from it? How to install Apache 2.4 and PHP 7, how to enable a
 <li>Upgrade everything to latest versions:<br>
 <code>yum update -y</code></li>
 </ul>
-<p>Lets start with some software:</p>
-<p>After while…</p>
-<p>Done – your LAMP stack works. But it’s not visible from outside world yet…</p>
+<p>Let&rsquo;s start with some software:</p>
+<pre tabindex=0><code>sudo yum install httpd mod_proxy_html php70-fpm 
+sudo yum install php70-php-mcrypt php70-php-mbstring php70-php-gd php70-php-mysqli php70-php-xml hp70-php-opcache
+</code></pre><p>After while…</p>
+<pre tabindex=0><code>sudo service php70-php-fpm start
+sudo service httpd start
+sudo chkconfig --levels 235 httpd on
+sudo chkconfig php-fpm on
+</code></pre><p>Done – your LAMP stack works. But it’s not visible from outside world yet…</p>
 <h3 id=firewall>Firewall</h3>
 <pre tabindex=0><code>firewall-cmd --permanent --add-service=http&lt;br /&gt;
 firewall-cmd --reload&lt;br /&gt;
@@ -164,94 +172,64 @@ expose_php = Off
 </code></pre><p>Don’t forget to restart httpd and php-fpm to see changes</p>
 <pre tabindex=0><code>sudo service httpd restart
 sudo service php-fpm restart
-</code></pre><p>By default PHP has very low limit on  size of uploaded files. It’s very good practice to increase it.<br>
+</code></pre><p>By default, PHP has very low limit on  size of uploaded files. It’s very good practice to increase it.<br>
 We are looking for 2 values</p>
 <pre tabindex=0><code>upload_max_filesize=20M
-post_max_size=32M```
-
-
-### Server configuration
-
-Now we have to update server to proper TimeZone
-
-
-</code></pre><p>cd /etc/
-sudo rm -rf localtime && sudo ln -s /usr/share/zoneinfo/Australia/Sydney localtime</p>
-<pre tabindex=0><code>
-Of course replace Australia/Sydney with proper Time Zone &amp;#8211; pretty nice list is available on &lt;a href=&quot;http://www.php.net/manual/en/timezones.php&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;PHP documentation website&lt;/a&gt;.
-
-&lt;a href=&quot;http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/set-time.html&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/set-time.html&lt;/a&gt;
-
-Good idea is to update time on the server straight away using command
-
-</code></pre><p>sudo ntpdate -u pool.ntp.org</p>
-<pre tabindex=0><code>
-### Apache configuration
-
-We have to push our PHP files from Apache to PHP-FPM deamon.  
-Create file `/etc/httpd/conf.d/proxy.conf`  
-and paste there these lines
-
-</code></pre><p>ProxyPassMatch ^/(.<em>.php(/.</em>)?)$ fcgi://127.0.0.1:9000/var/www/html/$1</p>
-<pre tabindex=0><code>
-If you would like to use sockets instead of TCP connection, yo ucan set it up like this:
-
-</code></pre><p>ProxyPassMatch ^/(.<em>.php(/.</em>)?)$ unix:/var/run/php-sock|fcgi://localhost/var/www/html</p>
-<pre tabindex=0><code>
-Don&amp;#8217;t forget enable proxy module to handle this directives:
-
-</code></pre><p>LoadModule proxy_fcgi_module libexec/apache2/mod_proxy_fcgi.so</p>
-<pre tabindex=0><code>
-Restart Apache again &amp;#8211; sudo service httpd restart and try again using test:
-
-</code></pre><p>echo &ldquo;&lt;?php phpinfo();&rdquo; > /var/www/html/info.php</p>
-<pre tabindex=0><code>
-And test it via browser: http://your-ip/info.php
-
-#### .htaccess support
-
-`sudo nano /etc/httpd/conf/httpd.conf`  
-You are looking for section starting:
-
-&lt;pre&gt;# Further relax access to the default document root:
-&lt;Directory &quot;/var/www/html&quot;&gt;&lt;/pre&gt;
-
-And just change  
-`AllowOverride None`  
-to  
-`AllowOverride All`  
-to enable .htaccess  
-To disable showing up directory content update
-
-</code></pre><p>Options Indexes FollowSymLinks</p>
-<pre tabindex=0><code>
-to
-
-&lt;pre&gt;Options -Indexes 
-Options -FollowSymLinks&lt;/pre&gt;
-
-#### Some security settings (don&amp;#8217;t expose Apache)
-
-&lt;pre&gt;ServerTokens Prod
-ServerSignature Off&lt;/pre&gt;
-
-#### Fontface Apache support
-
-&lt;pre&gt;AddType application/vnd.ms-fontobject .eot
+post_max_size=32M
+</code></pre><h3 id=server-configuration>Server configuration</h3>
+<p>Now we have to update server to proper TimeZone</p>
+<pre tabindex=0><code>cd /etc/
+sudo rm -rf localtime &amp;&amp; sudo ln -s /usr/share/zoneinfo/Australia/Sydney localtime
+</code></pre><p>Of course replace Australia/Sydney with proper Time Zone – pretty nice list is available on
+<a href=http://www.php.net/manual/en/timezones.php>PHP documentation website</a>
+.</p>
+<p>
+<a href=http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/set-time.html>http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/set-time.html</a>
+</p>
+<p>Good idea is to update time on the server straight away using command</p>
+<pre tabindex=0><code>sudo ntpdate -u pool.ntp.org
+</code></pre><h3 id=apache-configuration>Apache configuration</h3>
+<p>We have to push our PHP files from Apache to PHP-FPM deamon.<br>
+Create file <code>/etc/httpd/conf.d/proxy.conf</code><br>
+and paste there these lines</p>
+<pre tabindex=0><code>ProxyPassMatch ^/(.*\.php(/.*)?)$ fcgi://127.0.0.1:9000/var/www/html/$1
+</code></pre><p>If you would like to use sockets instead of TCP connection, yo ucan set it up like this:</p>
+<pre tabindex=0><code>ProxyPassMatch ^/(.*\.php(/.*)?)$ unix:/var/run/php-sock|fcgi://localhost/var/www/html
+</code></pre><p>Don’t forget enable proxy module to handle this directives:</p>
+<pre tabindex=0><code>LoadModule proxy_fcgi_module libexec/apache2/mod_proxy_fcgi.so
+</code></pre><p>Restart Apache again – sudo service httpd restart and try again using test:</p>
+<pre tabindex=0><code>echo &quot;&lt;?php phpinfo();&quot; &gt; /var/www/html/info.php
+</code></pre><p>And test it via browser: http://your-ip/info.php</p>
+<h4 id=htaccess-support>.htaccess support</h4>
+<p><code>sudo nano /etc/httpd/conf/httpd.conf</code></p>
+<p>You are looking for section starting:</p>
+<pre tabindex=0><code># Further relax access to the default document root:
+&lt;Directory &quot;/var/www/html&quot;&gt;
+</code></pre><p>And just change<br>
+<code>AllowOverride None</code><br>
+to<br>
+<code>AllowOverride All</code><br>
+to enable .htaccess<br>
+To disable showing up directory content update</p>
+<pre tabindex=0><code>Options Indexes FollowSymLinks
+</code></pre><p>to</p>
+<pre tabindex=0><code>Options -Indexes 
+Options -FollowSymLinks
+</code></pre><h4 id=some-security-settings-don8217t-expose-apache>Some security settings (don’t expose Apache)</h4>
+<pre tabindex=0><code>ServerTokens Prod
+ServerSignature Off
+</code></pre><h4 id=fontface-apache-support>Fontface Apache support</h4>
+<pre tabindex=0><code>AddType application/vnd.ms-fontobject .eot
 AddType application/x-font-ttf .ttf
-AddType application/x-font-woff .woff&lt;/pre&gt;
-
-#### Get some speed on Apache
-
-&lt;pre&gt;&lt;IfModule mod_headers.c&gt;
+AddType application/x-font-woff .woff
+</code></pre><h4 id=get-some-speed-on-apache>Get some speed on Apache</h4>
+<pre tabindex=0><code>&lt;IfModule mod_headers.c&gt;
   &lt;FilesMatch &quot;\.(js|css|xml|gz)$&quot;&gt;
     Header append Vary: Accept-Encoding
 &lt;/FilesMatch&gt;
-&lt;/IfModule&gt;&lt;/pre&gt;
-
-\# compress text, html, javascript, css, xml:
-
-&lt;pre&gt;AddOutputFilterByType DEFLATE text/plain
+&lt;/IfModule&gt;
+</code></pre><h4 id=compress-text-html-javascript-css-xml>compress text, html, javascript, css, xml:</h4>
+<pre tabindex=0><code>AddOutputFilterByType DEFLATE text/plain
 AddOutputFilterByType DEFLATE text/html
 AddOutputFilterByType DEFLATE text/xml
 AddOutputFilterByType DEFLATE text/css
@@ -261,7 +239,7 @@ AddOutputFilterByType DEFLATE application/xhtml+xml
 AddOutputFilterByType DEFLATE application/rss+xml
 AddOutputFilterByType DEFLATE application/javascript
 AddOutputFilterByType DEFLATE application/x-javascript
-&lt;/pre&gt;</code></pre>
+</code></pre>
 </div>
 <footer class=post__footer>
 <div class="post__tags tags clearfix"><svg class="tags__badge icon icon-tag" width="16" height="16" viewBox="0 0 32 32"><path d="M32 19c0 1-1 2-1 2L21 31s-1 1-2 1-2-1-2-1L2 16c-1-1-1.4-2-1.4-2S0 12.5.0 11V3C0 1.5.8.8.8.8S1.5.0 3 0h8c1.5.0 3 .6 3 .6S15 1 16 2l15 15s1 1 1 2zM7 10a3 3 0 100-6 3 3 0 000 6z"/></svg>

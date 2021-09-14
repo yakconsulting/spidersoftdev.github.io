@@ -7,31 +7,31 @@
 <script>(function(a,b){a[b]=a[b].replace("no-js","js")})(document.documentElement,"className")</script>
 <meta name=description content>
 <meta property="og:title" content="FFmpeg on AMI Linux and CentOS the easy way">
-<meta property="og:description" content="FFmpegis a complete, cross-platform solution to record, convert and stream audio and video.
+<meta property="og:description" content="FFmpeg is a complete, cross-platform solution to record, convert and stream audio and video.
 All you need to do is just install one more repository:
 http://rpmfusion.org/Configuration Done.
 ffmpeg version 0.10.15 Copyright (c) 2000-2014 the FFmpeg developers<br /> built on Aug 30 2014 15:49:19 with gcc 4.4.7 20120313 (Red Hat 4.4.7-3)<br />
-Obviously there is no fun with with FFmpeg if you don’t have anything to convert. I needed to crop vertical videos from iPad to square – Vinelike format.">
+Obviously there is no fun with with FFmpeg if you don’t have anything to convert. I needed to crop vertical videos from iPad to square – Vine like format.">
 <meta property="og:type" content="article">
 <meta property="og:url" content="http://www.spidersoft.com.au/2014/ffmpeg-on-ami-linux-and-centos-the-easy-way/"><meta property="article:section" content="posts">
 <meta property="article:published_time" content="2014-10-28T02:12:32+00:00">
 <meta property="article:modified_time" content="2014-10-28T02:12:32+00:00">
 <meta itemprop=name content="FFmpeg on AMI Linux and CentOS the easy way">
-<meta itemprop=description content="FFmpegis a complete, cross-platform solution to record, convert and stream audio and video.
+<meta itemprop=description content="FFmpeg is a complete, cross-platform solution to record, convert and stream audio and video.
 All you need to do is just install one more repository:
 http://rpmfusion.org/Configuration Done.
 ffmpeg version 0.10.15 Copyright (c) 2000-2014 the FFmpeg developers<br /> built on Aug 30 2014 15:49:19 with gcc 4.4.7 20120313 (Red Hat 4.4.7-3)<br />
-Obviously there is no fun with with FFmpeg if you don’t have anything to convert. I needed to crop vertical videos from iPad to square – Vinelike format."><meta itemprop=datePublished content="2014-10-28T02:12:32+00:00">
+Obviously there is no fun with with FFmpeg if you don’t have anything to convert. I needed to crop vertical videos from iPad to square – Vine like format."><meta itemprop=datePublished content="2014-10-28T02:12:32+00:00">
 <meta itemprop=dateModified content="2014-10-28T02:12:32+00:00">
-<meta itemprop=wordCount content="225">
+<meta itemprop=wordCount content="227">
 <meta itemprop=keywords content="centos,ec2,ffmpeg,linux,">
 <meta name=twitter:card content="summary">
 <meta name=twitter:title content="FFmpeg on AMI Linux and CentOS the easy way">
-<meta name=twitter:description content="FFmpegis a complete, cross-platform solution to record, convert and stream audio and video.
+<meta name=twitter:description content="FFmpeg is a complete, cross-platform solution to record, convert and stream audio and video.
 All you need to do is just install one more repository:
 http://rpmfusion.org/Configuration Done.
 ffmpeg version 0.10.15 Copyright (c) 2000-2014 the FFmpeg developers<br /> built on Aug 30 2014 15:49:19 with gcc 4.4.7 20120313 (Red Hat 4.4.7-3)<br />
-Obviously there is no fun with with FFmpeg if you don’t have anything to convert. I needed to crop vertical videos from iPad to square – Vinelike format.">
+Obviously there is no fun with with FFmpeg if you don’t have anything to convert. I needed to crop vertical videos from iPad to square – Vine like format.">
 <link rel=preconnect href=https://fonts.gstatic.com crossorigin>
 <link rel=dns-prefetch href=//fonts.googleapis.com>
 <link rel=dns-prefetch href=//fonts.gstatic.com>
@@ -110,13 +110,17 @@ Obviously there is no fun with with FFmpeg if you don’t have anything to conve
 <figure class=post__thumbnail>
 <img src=/images/uploads/2014/10/Screen-shot-2014-10-28-at-1.11.11-PM.png alt="FFmpeg on AMI Linux and CentOS the easy way">
 </figure><div class="content post__content clearfix">
-<p>FFmpeg is a complete, cross-platform solution to record, convert and stream audio and video.</p>
+<p>
+<a href=https://www.ffmpeg.org/>FFmpeg</a>
+is a complete, cross-platform solution to record, convert and stream audio and video.</p>
 <p>All you need to do is just install one more repository:<br>
 <a href=http://rpmfusion.org/Configuration>http://rpmfusion.org/Configuration</a>
 </p>
 <p>Done.<br>
 <code>ffmpeg version 0.10.15 Copyright (c) 2000-2014 the FFmpeg developers&lt;br /> built on Aug 30 2014 15:49:19 with gcc 4.4.7 20120313 (Red Hat 4.4.7-3)&lt;br /></code></p>
-<p>Obviously there is no fun with with FFmpeg if you don’t have anything to convert. I needed to crop vertical videos from iPad to square – Vine like format.</p>
+<p>Obviously there is no fun with with FFmpeg if you don’t have anything to convert. I needed to crop vertical videos from iPad to square –
+<a href="https://itunes.apple.com/au/app/vine/id592447445?mt=8">Vine</a>
+like format.</p>
 <p>Initial size of video was 1280×720 – I wanted to make them square, and crop from top and bottom.</p>
 <p>Magical line for me was:</p>
 <pre tabindex=0><code>/usr/bin/ffmpeg -strict experimental -c:v h264 -i in.MOV -c:a copy -filter:v &quot;crop=720:720:280:0&quot; out.mp4
