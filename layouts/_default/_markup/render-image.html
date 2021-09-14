@@ -1,0 +1,11 @@
+{{ $myImg := resources.Get .Destination }}
+    {{ $altText := .PlainText }}
+    {{ $imgTitle := .Title }}
+    {{ with $myImg }}
+    <figure>
+    <img src="{{ .Permalink }}" alt="{{ $altText }}" {{ with $imgTitle }} title="{{ . }}" {{ end }} width="{{ .Width }}" height="{{ .Height }}" {{ with .Title }} title="{{ . }}" {{ end }}/>
+    {{ with .Title}}<figcaption>{{  $imgTitle | markdownify }}</figcaption>{{ end }}
+</figure>
+    {{ else }}
+        <p>Image not found</p>
+    {{ end }}

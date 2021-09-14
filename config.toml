@@ -1,0 +1,221 @@
+baseurl = "http://www.spidersoft.com.au"
+title = "SpiderSoft"
+languageCode = "en-us"
+paginate = "5" # Number of posts per page
+theme = "mainroad"
+disqusShortname = "spidersoft" # Enable Disqus comments by entering your Disqus shortname
+googleAnalytics = "UA-629893-49" # Enable Google Analytics by entering your tracking id
+assetDir = "assets"
+comments = true
+
+[menu]
+
+[[menu.main]]
+identifier = 'about'
+name = 'About Us'
+url = '/about'
+weight = 1
+
+[[menu.main]]
+identifier = 'projects'
+name = 'Projects'
+url = '/projects'
+weight = 10
+
+[[menu.main]]
+identifier = 'case-studies'
+name = 'Case studies'
+url = '/categories/case-studies'
+weight = 20
+
+[[menu.main]]
+identifier = 'Agencies'
+name = 'Agencies'
+url = '/services'
+weight = 30
+
+[[menu.main]]
+identifier = 'Contact'
+name = 'Contact'
+url = '/contact-us'
+weight = 50
+
+[[menu.side]]
+identifier = 'namecheap'
+name = 'Namecheap'
+url = 'http://www.namecheap.com?aff=9312'
+
+[[menu.side]]
+identifier = 'dropbox'
+name = 'Dropbox'
+url = 'https://db.tt/ijgUW8i1'
+
+[[menu.side]]
+identifier = 'digitalocean'
+name = 'DigitalOcean'
+url = 'https://m.do.co/c/4d3f8f5c4118'
+
+[[menu.footer]]
+name = 'Privacy Policy'
+identifier = 'privacy-policy'
+url = '/privacy-policy'
+
+[[menu.footer]]
+name = 'Term and conditions'
+identifier = 'terms-and-conditions'
+url = '/terms-and-conditions'
+
+[[menu.footer]]
+name = 'Refund Policy'
+identifier = 'refund'
+url = '/refund-policy'
+
+[Author] # Used in authorbox
+name = "Slawomir Jasinski"
+bio = "John Doe's true identity is unknown. Maybe he is a successful blogger or writer. Nobody knows it."
+avatar = "img/avatar.png"
+
+[Params]
+subtitle = "" # Deprecated in favor of .Site.Params.logo.subtitle
+description = "John Doe's Personal blog about everything" # Site description. Used in meta description
+copyright = "SpiderSoft" # Footer copyright holder, otherwise will use site title
+opengraph = true # Enable OpenGraph if true
+schema = true # Enable Schema
+twitter_cards = true # Enable Twitter Cards if true
+readmore = true # Show "Read more" button in list if true
+authorbox = false # Show authorbox at bottom of pages if true
+toc = true # Enable Table of Contents
+pager = true # Show pager navigation (prev/next links) at the bottom of pages if true
+post_meta = [ "date", "categories"] # Order of post meta information
+mainSections = ["post", "blog", "news"] # Specify section pages to show on home page and the "Recent articles" widget
+dateformat = "2006-01-02" # Change the format of dates
+mathjax = false # Enable MathJax
+mathjaxPath = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js" # Specify MathJax path
+mathjaxConfig = "TeX-AMS-MML_HTMLorMML" # Specify MathJax config
+googleFontsLink = "https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700" # Load Google Fonts
+highlightColor = "" # Deprecated in favor of .Site.Params.style.vars.highlightColor
+customCSS = ["css/custom.css"] # Include custom CSS files
+customJS = ["js/custom.js"] # Include custom JS files
+
+[Params.style.vars]
+highlightColor = "#e22d30" # Override highlight color
+
+# Override font-family sets. Secondary font-family set responsible for pre, code, kbd, and samp tags font
+# Take care of different quotes OR escaping symbols in these params if necessary
+fontFamilyPrimary = "'Open Sans', Helvetica, Arial, sans-serif"
+fontFamilySecondary = "SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace"
+
+[Params.logo]
+image = "images/logo-sq-trans-250.png" # Logo image. Path relative to "static"
+title = "SpiderSoft" # Logo title, otherwise will use site title
+subtitle = "Software development" # Logo subtitle
+
+[Params.sidebar]
+home = "left" # Configure layout for home page
+list = "left"  # Configure layout for list pages
+single = "left" # Configure layout for single pages
+# Enable widgets in given order
+widgets = ["ddg-search",  "categories", "social", "sidemenu"]
+# alternatively "ddg-search" can be used, to search via DuckDuckGo
+# widgets = ["ddg-search", "recent", "categories", "taglist", "social", "languages"]
+
+[Params.widgets]
+recent_num = 5 # Set the number of articles in the "Recent articles" widget
+categories_counter = false # Enable counter for each category in "Categories" widget
+tags_counter = true # Enable counter for each tag in "Tags" widget
+
+[Params.widgets.social]
+# Enable parts of social widget
+github = "slav123"
+facebook = "spidersoftau"
+twitter = "slavomirj"
+linkedin = "slawomirjasinski"
+email = "info@spidersoft.com.au"
+
+[[Params.widgets.social.custom]]
+title = "SpiderSoft Poland"
+url = "https://www.spidersoft.pl"
+
+[taxonomies]
+category = 'categories'
+tags = 'tags'
+
+[related]
+includeNewer = true
+threshold = 80
+toLower = false
+[[related.indices]]
+name = 'tags'
+weight = 100
+[[related.indices]]
+name = 'date'
+weight = 10
+
+
+
+
+[deployment]
+# By default, files are uploaded in an arbitrary order.
+# Files that match the regular expressions in the "Order" list
+# will be uploaded first, in the listed order.
+order = [".jpg$", ".gif$"]
+
+
+[[deployment.targets]]
+# An arbitrary name for this target.
+name = "mydeployment"
+# The Go Cloud Development Kit URL to deploy to. Examples:
+# GCS; see https://gocloud.dev/howto/blob/#gcs
+# URL = "gs://<Bucket Name>"
+
+# S3; see https://gocloud.dev/howto/blob/#s3
+# For S3-compatible endpoints, see https://gocloud.dev/howto/blob/#s3-compatible
+# URL = "s3://<Bucket Name>?region=<AWS region>"
+
+# Azure Blob Storage; see https://gocloud.dev/howto/blob/#azure
+# URL = "azblob://$web"
+
+# You can use a "prefix=" query parameter to target a subfolder of the bucket:
+# URL = "gs://<Bucket Name>?prefix=a/subfolder/"
+
+# If you are using a CloudFront CDN, deploy will invalidate the cache as needed.
+# cloudFrontDistributionID = <ID>
+
+# Optionally, you can include or exclude specific files.
+# See https://godoc.org/github.com/gobwas/glob#Glob for the glob pattern syntax.
+# If non-empty, the pattern is matched against the local path.
+# All paths are matched against in their filepath.ToSlash form.
+# If exclude is non-empty, and a local or remote file's path matches it, that file is not synced.
+# If include is non-empty, and a local or remote file's path does not match it, that file is not synced.
+# As a result, local files that don't pass the include/exclude filters are not uploaded to remote,
+# and remote files that don't pass the include/exclude filters are not deleted.
+# include = "**.html" # would only include files with ".html" suffix
+# exclude = "**.{jpg, png}" # would exclude files with ".jpg" or ".png" suffix
+
+
+# [[deployment.matchers]] configure behavior for files that match the Pattern.
+# See https://golang.org/pkg/regexp/syntax/ for pattern syntax.
+# Pattern searching is stopped on first match.
+
+# Samples:
+
+[[deployment.matchers]]
+# Cache static assets for 1 year.
+pattern = "^.+\\.(js|css|svg|ttf)$"
+cacheControl = "max-age=31536000, no-transform, public"
+gzip = true
+
+[[deployment.matchers]]
+pattern = "^.+\\.(png|jpg)$"
+cacheControl = "max-age=31536000, no-transform, public"
+gzip = false
+
+[[deployment.matchers]]
+# Set custom content type for /sitemap.xml
+pattern = "^sitemap\\.xml$"
+contentType = "application/xml"
+gzip = true
+
+[[deployment.matchers]]
+pattern = "^.+\\.(html|xml|json)$"
+gzip = true
