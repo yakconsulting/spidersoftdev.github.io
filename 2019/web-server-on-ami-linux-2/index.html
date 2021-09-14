@@ -15,7 +15,7 @@
 <meta itemprop=name content="Web Server on AMI Linux 2">
 <meta itemprop=description content="Welcome in 2019 – it’s time to upgrade out outdated LAMP stack series articles, with new “How To” setup basic web server for our stack."><meta itemprop=datePublished content="2019-01-28T09:46:20+00:00">
 <meta itemprop=dateModified content="2019-01-28T09:46:20+00:00">
-<meta itemprop=wordCount content="521">
+<meta itemprop=wordCount content="559">
 <meta itemprop=keywords content="ami linux,apache,caddy,lamp,linux,php,">
 <meta name=twitter:card content="summary">
 <meta name=twitter:title content="Web Server on AMI Linux 2">
@@ -173,11 +173,20 @@ Caddy (untracked dev build) (unofficial)
 	errors /var/log/error.log
 	fastcgi / /run/php-fpm/www.sock php
 }
-</code></pre><p>At this time it’s worth while to upgrade our PHP configuration:</p>
+</code></pre><p>At this time it’s worthwhile to upgrade our PHP configuration:</p>
+<p><code>nano /etc/php-fpm.d/www.conf</code></p>
 <p>We have to replace user <strong>apache</strong> with <strong>caddy</strong></p>
-<p>And. restart php-fpm:</p>
+<pre tabindex=0><code>; RPM: apache user chosen to provide access to the same directories as httpd
+user = caddy
+; RPM: Keep a group allowed to write in log dir.
+group = caddy
+</code></pre><p>And. restart php-fpm:</p>
+<p><code>systemctl restart php-fpm.service</code></p>
 <p>At this stage we should be able to run working webserver:</p>
-<p>Looks cool – isn’t it ? Finally we can add service to run our caddy in magical way. Won’t describe it in detail, just look here for detailed instructions.</p>
+<p><code>/usr/local/bin/caddy -conf=/etc/caddy/Caddyfile</code></p>
+<p>Looks cool – isn’t it ? Finally we can add service to run our caddy in magical way. Won’t describe it in detail, just
+<a href=https://github.com/mholt/caddy/tree/master/dist/init/linux-systemd>look here</a>
+for detailed instructions.</p>
 </div>
 <footer class=post__footer>
 <div class="post__tags tags clearfix"><svg class="tags__badge icon icon-tag" width="16" height="16" viewBox="0 0 32 32"><path d="M32 19c0 1-1 2-1 2L21 31s-1 1-2 1-2-1-2-1L2 16c-1-1-1.4-2-1.4-2S0 12.5.0 11V3C0 1.5.8.8.8.8S1.5.0 3 0h8c1.5.0 3 .6 3 .6S15 1 16 2l15 15s1 1 1 2zM7 10a3 3 0 100-6 3 3 0 000 6z"/></svg>

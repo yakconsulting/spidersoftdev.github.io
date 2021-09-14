@@ -39,7 +39,7 @@
  XCache
  . But… as long APC is no lonager maintained (last upgrade 2012) I make a call about going to XCache. Run some benchmarks, and here what we got."><meta itemprop=datePublished content="2015-04-24T08:13:23+00:00">
 <meta itemprop=dateModified content="2015-04-24T08:13:23+00:00">
-<meta itemprop=wordCount content="355">
+<meta itemprop=wordCount content="222">
 <meta itemprop=keywords content>
 <meta name=twitter:card content="summary">
 <meta name=twitter:title content="XCache vs APC PHP 5.4.x">
@@ -143,219 +143,77 @@ for a while (convenience) – usually is also bundled with all available reposit
 <p>2.3 GHz Intel Core i7 – 8GB of ram, SSD drives. Website which I was benchmarking was a have WordPress installation with multiple running scripts.</p>
 <p>I run <code>ab -n 100 -c 20</code></p>
 <p>Here is what I got:</p>
-<p> </p>
-<pre><code>&lt;td data-sheets-value=&quot;[null,2,&amp;quot;ap-clean&amp;quot;]&quot;&gt;
-  apache 1st
-&lt;/td&gt;
-
-&lt;td&gt;
-  apache 2nd
-&lt;/td&gt;
-
-&lt;td data-sheets-value=&quot;[null,2,&amp;quot;xcache&amp;quot;]&quot;&gt;
-  XCache 1st
-&lt;/td&gt;
-
-&lt;td&gt;
-  &amp;nbsp;XCache 2nd
-&lt;/td&gt;
-
-&lt;td data-sheets-value=&quot;[null,2,&amp;quot;apc&amp;quot;]&quot;&gt;
-  APC 1st
-&lt;/td&gt;
-
-&lt;td&gt;
-  &amp;nbsp;APC 2nd
-&lt;/td&gt;
-</code></pre>
-<pre><code>&lt;td data-sheets-value=&quot;[null,3,null,11.11]&quot;&gt;
-  11.11
-&lt;/td&gt;
-
-&lt;td data-sheets-value=&quot;[null,3,null,11.11]&quot;&gt;
-  11.11
-&lt;/td&gt;
-
-&lt;td data-sheets-value=&quot;[null,3,null,9.029]&quot;&gt;
-  9.029
-&lt;/td&gt;
-
-&lt;td data-sheets-value=&quot;[null,3,null,9.073]&quot;&gt;
-  9.073
-&lt;/td&gt;
-
-&lt;td data-sheets-value=&quot;[null,3,null,5.474]&quot;&gt;
-  5.474
-&lt;/td&gt;
-
-&lt;td data-sheets-value=&quot;[null,3,null,5.343]&quot;&gt;
-  5.343
-&lt;/td&gt;
-</code></pre>
-<pre><code>&lt;td data-sheets-value=&quot;[null,3,null,100]&quot;&gt;
-  100
-&lt;/td&gt;
-
-&lt;td data-sheets-value=&quot;[null,3,null,100]&quot;&gt;
-  100
-&lt;/td&gt;
-
-&lt;td data-sheets-value=&quot;[null,3,null,100]&quot;&gt;
-  100
-&lt;/td&gt;
-
-&lt;td data-sheets-value=&quot;[null,3,null,100]&quot;&gt;
-  100
-&lt;/td&gt;
-
-&lt;td data-sheets-value=&quot;[null,3,null,100]&quot;&gt;
-  100
-&lt;/td&gt;
-
-&lt;td data-sheets-value=&quot;[null,3,null,100]&quot;&gt;
-  100
-&lt;/td&gt;
-</code></pre>
-<pre><code>&lt;td data-sheets-value=&quot;[null,3,null,69]&quot;&gt;
-  69
-&lt;/td&gt;
-
-&lt;td data-sheets-value=&quot;[null,3,null,69]&quot;&gt;
-  69
-&lt;/td&gt;
-
-&lt;td data-sheets-value=&quot;[null,3,null,69]&quot;&gt;
-  69
-&lt;/td&gt;
-
-&lt;td data-sheets-value=&quot;[null,3,null,41]&quot;&gt;
-  41
-&lt;/td&gt;
-
-&lt;td data-sheets-value=&quot;[null,3,null,46]&quot;&gt;
-  46
-&lt;/td&gt;
-
-&lt;td data-sheets-value=&quot;[null,3,null,40]&quot;&gt;
-  40
-&lt;/td&gt;
-</code></pre>
-<pre><code>&lt;td data-sheets-value=&quot;[null,3,null,9]&quot;&gt;
-  9
-&lt;/td&gt;
-
-&lt;td data-sheets-value=&quot;[null,3,null,9]&quot;&gt;
-  9
-&lt;/td&gt;
-
-&lt;td data-sheets-value=&quot;[null,3,null,11.08]&quot;&gt;
-  11.08
-&lt;/td&gt;
-
-&lt;td data-sheets-value=&quot;[null,3,null,11.02]&quot;&gt;
-  11.02
-&lt;/td&gt;
-
-&lt;td data-sheets-value=&quot;[null,3,null,18.27]&quot;&gt;
-  18.27
-&lt;/td&gt;
-
-&lt;td data-sheets-value=&quot;[null,3,null,18.72]&quot;&gt;
-  18.72
-&lt;/td&gt;
-</code></pre>
-<pre><code>&lt;td&gt;
-&lt;/td&gt;
-
-&lt;td&gt;
-&lt;/td&gt;
-
-&lt;td&gt;
-&lt;/td&gt;
-
-&lt;td&gt;
-&lt;/td&gt;
-
-&lt;td&gt;
-&lt;/td&gt;
-
-&lt;td&gt;
-&lt;/td&gt;
-</code></pre>
-<pre><code>&lt;td data-sheets-value=&quot;[null,3,null,2221.978]&quot;&gt;
-  2221.978
-&lt;/td&gt;
-
-&lt;td data-sheets-value=&quot;[null,3,null,2221.978]&quot;&gt;
-  2221.978
-&lt;/td&gt;
-
-&lt;td data-sheets-value=&quot;[null,3,null,1805.76]&quot;&gt;
-  1805.76
-&lt;/td&gt;
-
-&lt;td data-sheets-value=&quot;[null,3,null,1814.617]&quot;&gt;
-  1814.617
-&lt;/td&gt;
-
-&lt;td data-sheets-value=&quot;[null,3,null,1094.74]&quot;&gt;
-  1094.74
-&lt;/td&gt;
-
-&lt;td data-sheets-value=&quot;[null,3,null,1068.568]&quot;&gt;
-  1068.568
-&lt;/td&gt;
-</code></pre>
-<pre><code>&lt;td data-sheets-value=&quot;[null,3,null,111.099]&quot;&gt;
-  111.099
-&lt;/td&gt;
-
-&lt;td data-sheets-value=&quot;[null,3,null,111.099]&quot;&gt;
-  111.099
-&lt;/td&gt;
-
-&lt;td data-sheets-value=&quot;[null,3,null,90.288]&quot;&gt;
-  90.288
-&lt;/td&gt;
-
-&lt;td data-sheets-value=&quot;[null,3,null,90.731]&quot;&gt;
-  90.731
-&lt;/td&gt;
-
-&lt;td data-sheets-value=&quot;[null,3,null,54.737]&quot;&gt;
-  54.737
-&lt;/td&gt;
-
-&lt;td data-sheets-value=&quot;[null,3,null,53.428]&quot;&gt;
-  53.428
-&lt;/td&gt;
-</code></pre>
-<pre><code>&lt;td data-sheets-value=&quot;[null,3,null,420.67]&quot;&gt;
-  420.67
-&lt;/td&gt;
-
-&lt;td data-sheets-value=&quot;[null,3,null,420.67]&quot;&gt;
-  420.67
-&lt;/td&gt;
-
-&lt;td data-sheets-value=&quot;[null,3,null,517.63]&quot;&gt;
-  517.63
-&lt;/td&gt;
-
-&lt;td data-sheets-value=&quot;[null,3,null,515.11]&quot;&gt;
-  515.11
-&lt;/td&gt;
-
-&lt;td data-sheets-value=&quot;[null,3,null,853.83]&quot;&gt;
-  853.83
-&lt;/td&gt;
-
-&lt;td data-sheets-value=&quot;[null,3,null,874.73]&quot;&gt;
-  874.73
-&lt;/td&gt;
-</code></pre>
-<p> </p>
-<p>Surprisingly  XCache is much slower then APC – I was expecting better results, but as long we are losing support for APC in PHP 5.5 doesn’t make any sense to keep it runing.</p>
+<table>
+<thead>
+<tr>
+<th> </th>
+<th style=text-align:right>apache 1st</th>
+<th style=text-align:right>apache 2nd</th>
+<th style=text-align:right>XCache 1st</th>
+<th style=text-align:right>XCache 2nd</th>
+<th style=text-align:right> APC 2nd</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Time taken for tests [seconds]</td>
+<td style=text-align:right>11.11</td>
+<td style=text-align:right>11.11</td>
+<td style=text-align:right>9.029</td>
+<td style=text-align:right>9.073</td>
+<td style=text-align:right>5.474</td>
+</tr>
+<tr>
+<td>Complete requests</td>
+<td style=text-align:right>100</td>
+<td style=text-align:right>100</td>
+<td style=text-align:right>100</td>
+<td style=text-align:right>100</td>
+<td style=text-align:right>100</td>
+</tr>
+<tr>
+<td>Failed requests</td>
+<td style=text-align:right>69</td>
+<td style=text-align:right>69</td>
+<td style=text-align:right>69</td>
+<td style=text-align:right>41</td>
+<td style=text-align:right>46</td>
+</tr>
+<tr>
+<td>Requests per second [#/sec] (mean)</td>
+<td style=text-align:right>9</td>
+<td style=text-align:right>9</td>
+<td style=text-align:right>11.08</td>
+<td style=text-align:right>11.02</td>
+<td style=text-align:right>18.27</td>
+</tr>
+<tr>
+<td>Time per request: [ms] (mean)</td>
+<td style=text-align:right>2221.978</td>
+<td style=text-align:right>2221.978</td>
+<td style=text-align:right>1805.76</td>
+<td style=text-align:right>1814.617</td>
+<td style=text-align:right>1094.74</td>
+</tr>
+<tr>
+<td>Transfer rate:[ms] (mean, across all concurrent requests)</td>
+<td style=text-align:right>111.099</td>
+<td style=text-align:right>111.099</td>
+<td style=text-align:right>90.288</td>
+<td style=text-align:right>90.731</td>
+<td style=text-align:right>54.737</td>
+</tr>
+<tr>
+<td>Transfer rate[Kbytes/sec] received</td>
+<td style=text-align:right>420.67</td>
+<td style=text-align:right>420.67</td>
+<td style=text-align:right>517.63</td>
+<td style=text-align:right>515.11</td>
+<td style=text-align:right>853.83</td>
+</tr>
+</tbody>
+</table>
+<p>Surprisingly  XCache is much slower than APC – I was expecting better results, but as long we are losing support for APC in PHP 5.5 doesn’t make any sense to keep it running.</p>
 </div>
 </article>
 </main>
