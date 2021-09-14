@@ -35,15 +35,13 @@ A **Web Content Management System** (WCMS) is a software system which provides�
 
 In most cases system use a database to store content, but this not a rule. Sometimes if website is simple CMS allows you only change content od static HTML files.
 
-There are thousands of CMS, most popular are <a href="http://wordpress.org/" target="_blank">WordPress</a>, <a href="http://drupal.org/" target="_blank">Drupal</a> and <a href="http://www.joomla.org/" target="_blank">Joomla</a>. For you as our client &#8211; it doesn&#8217;t matter. We find solution which is best for  you. All you need to know, that you can in easy way change content of your website.
+There are thousands of CMS, most popular are [WordPress](http://wordpress.org/), [Drupal](http://drupal.org/) and [Joomla](http://www.joomla.org/). For you as our client &#8211; it doesn&#8217;t matter. We find solution which is best for  you. All you need to know, that you can in easy way change content of your website.
 
 In our offer you can find also newer solutions for easy manage your website content:
 
-  * <a href="http://expressionengine.com/" target="_blank">ExpressionEngine</a> &#8211; The choice of top designers & web professionals. Based on CodeIgniter.
-  * <a href="http://www.wordpress.org/" target="_blank">WordPress</a> &#8211; Popular OpenSource solution for everybody.
-  * <a href="http://www.concrete5.org/" target="_blank">Concrete5</a> &#8211; CMS made for Marketing, but built for Geeks!
-  * <a href="http://www.getfuelcms.com/" target="_blank">FuelCMS</a> &#8211; quite new but powerful CMS system
-
+  * [WordPress](http://wordpress.org/) &#8211; Popular OpenSource solution for everybody.
+  * [Concrete5](http://www.concrete5.org/) &#8211; CMS made for Marketing, but built for Geeks!
+  
 If you are doing updates really rare, you can check our [website maintenance offer][1].
 
  [1]: /services/website-maintenance/

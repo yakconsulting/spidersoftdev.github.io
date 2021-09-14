@@ -22,7 +22,7 @@ tags:
   - linux
 
 ---
-Pretty easy but annoying task. Especially when you want to send email using specific SMTP server, or from GMAIL using SSL or add some attachment, or send RAW emails. Solution is there &#8211; <a href="https://github.com/muquit/mailsend/" target="_blank" rel="noopener">mailsend</a>. Extremely simple command line tool for Linux, Mac OS X and even Windows ;). Compile / download binary and you cam enjoy freedom of sending emails from command line. Or you can also download Max OS X Binary of mailsend from [here][1]
+Pretty easy but annoying task. Especially when you want to send email using specific SMTP server, or from GMAIL using SSL or add some attachment, or send RAW emails. Solution is there &#8211; [mailsend](https://github.com/muquit/mailsend/). Extremely simple command line tool for Linux, Mac OS X and even Windows ;). Compile / download binary and you can enjoy freedom of sending emails from command line.
 
 <!--more-->
 
@@ -45,5 +45,3 @@ Send email using Amazon SES
 ```
 mailsend -starttls -auth -smtp email-smtp.us-east-1.amazonaws.com -user KEY -pass PASS -t to@email.address -name me -f confimed@email.address -sub test -M "message"
 ```
-
- [1]: http://demo.spidersoft.com.au/download/mailsend
