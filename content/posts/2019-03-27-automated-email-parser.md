@@ -41,5 +41,5 @@ To decompose e-mails we need simple micro service, I used this go library: [http
 Moving on &#8211; point 4 &#8211; super easy. You can upload your &#8220;elements&#8221; to S3, or anywhere and expose it to public (or not)  
 
 
-> I gave you all ingredients to make this cake. If you wan&#8217;t me to bake it &#8211; you can [hire me](contact-us/).
+> I gave you all ingredients to make this cake. If you wan&#8217;t me to bake it &#8211; you can [hire me](/contact-us/).
  

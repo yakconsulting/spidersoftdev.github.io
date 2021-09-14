@@ -30,4 +30,4 @@ Areas where are specialized in:
 Check out our [OpenSource PROJECTS][1] and [GET IN TOUCH][2]!
 
  [1]: /projects/ "Projects"
- [2]: contact-us/ "Contact"
+ [2]: /contact-us/ "Contact"

@@ -16,4 +16,4 @@ tags:
   - twitter
 
 ---
-[Twitter Bootstrap](http://twitter.github.com/bootstrap/) revolutionised work of backend developer. It’s powerful front-end framework for faster and easier web development. No longer we have to worry about “how to create prototype our apps in fast and efficient way.” But… sometimes we need to move one step back, and create mockup / or wireframes using Twitter Bootstrap elements – how? It’s quite simple – we can use [Photoshop Template](http://www.bentdesignstudio.com/v2/2012/03/twitter-bootstrap-2-photoshop-template-psd/) for Designers by Utah Web Design.
+[Twitter Bootstrap](https://getbootstrap.com) revolutionised work of backend developer. It’s powerful front-end framework for faster and easier web development. No longer we have to worry about “how to create prototype our apps in fast and efficient way.” But… sometimes we need to move one step back, and create mockup / or wireframes using Twitter Bootstrap elements – how? It’s quite simple – we can use [Photoshop Template](http://www.bentdesignstudio.com/v2/2012/03/twitter-bootstrap-2-photoshop-template-psd/) for Designers by Utah Web Design.
