@@ -28,7 +28,7 @@ tags:
   - php
 
 ---
-This tutorial just updated version of my [previous one][1]. This time we are going to install newer version of apache (httpd 2.4), PHP 5.4 but as a <a href="http://wiki.apache.org/httpd/PHP-FPM" target="_blank">PHP-FPM</a>. Instructions are pretty simple. You can just copy and paste command to get working stack in less then 15 minutes.
+This tutorial just updated version of my [previous one][1]. This time we are going to install newer version of apache (httpd 2.4), PHP 5.4 but as a [PHP-FPM](http://wiki.apache.org/httpd/PHP-FPM). Instructions are pretty simple. You can just copy and paste command to get working stack in less then 15 minutes.
 
 What you can learn from it? How to install Apache 2.4 and PHP 5.4, how to enable and APC, and how to install HTTPS on your server, with purchasing SSL certificate.
 
@@ -86,9 +86,9 @@ Now we have to update server to proper TimeZone
 sudo rm -rf localtime && sudo ln -s /usr/share/zoneinfo/Australia/Sydney localtime
 </pre>
 
-Of course replace Australia/Sydney with proper Time Zone &#8211; pretty nice list is available on <a href="http://www.php.net/manual/en/timezones.php" target="_blank">PHP documentation website</a>.
+Of course replace Australia/Sydney with proper Time Zone &#8211; pretty nice list is available on [PHP documentation website](http://www.php.net/manual/en/timezones.php).
 
-<a href="http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/set-time.html" target="_blank">http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/set-time.html</a>
+[http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/set-time.html](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/set-time.html)
 
 Good idea is to update time on the server straight away using command
 
@@ -213,6 +213,6 @@ SSLCertificateKeyFile /etc/pki/tls/private/localhost.key
 
 &nbsp;
 
-Don’t forget to check if your certificate was installed properly. I’m using this website <a href="http://www.sslshopper.com/ssl-checker.html" target="_blank">www.sslshopper.com/ssl-checker.html</a>
+Don’t forget to check if your certificate was installed properly. I’m using this website [www.sslshopper.com/ssl-checker.html](http://www.sslshopper.com/ssl-checker.html)
 
  [1]: http://www.spidersoft.com.au/2013/apache-php-config-boilerplate/ "Amazon EC2 – Installing Apache and PHP boilerplate"

@@ -81,4 +81,4 @@ Documentation is located at [https://github.com/slav123/CodeIgniter-Img/wiki](ht
 
 Just put img.php file in libraries path.
 
-<A href="https://github.com/slav123/CodeIgniter-Img" style="large red rect" target="_blank">Download CodeIgniter IMG</a>
+[Download CodeIgniter IMG](https://github.com/slav123/CodeIgniter-Img)

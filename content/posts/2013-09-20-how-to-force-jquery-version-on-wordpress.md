@@ -37,6 +37,6 @@ So&#8230; edit functions.php in your theme directory, and user snippet below
 
 <div class="oembed-gist">
   <noscript>
-    View the code on <a href="https://gist.github.com/6508035">Gist</a>.
+    View the code on [Gist](https://gist.github.com/6508035).
   </noscript>
 </div>

@@ -35,7 +35,7 @@ Simple FAQ gives you ability to create very simple FAQ on your site (questions a
 
 You can add question and answer using WordPress panel.
 
-Read more on <a href="http://wordpress.org/extend/plugins/simple-faq/" target="_blank">WordPress Simple FAQ plugin page</a>.
+Read more on [WordPress Simple FAQ plugin page](http://wordpress.org/extend/plugins/simple-faq/).
 
 ## Installation
 
@@ -47,10 +47,10 @@ Because that is general idea. If you want more functions &#8211; put post on for
 
 ## Screenshot
 
-## <a href="http://www.spidersoft.com.au/wp-content/uploads/2010/12/simple-faq1.png" data-rel="lightbox-image-0" data-rl\_title="" data-rl\_caption="" title=""><img loading="lazy" class="aligncenter size-medium wp-image-423" title="simple-faq1" src="http://www.spidersoft.com.au/wp-content/uploads/2010/12/simple-faq1.png" alt="Simple FAQ" width="560" height="324" srcset="https://www.spidersoft.com.au/wp-content/uploads/2010/12/simple-faq1.png 806w,images/uploads/2010/12/simple-faq1-320x185.png 320w,images/uploads/2010/12/simple-faq1-560x324.png 560w" sizes="(max-width: 560px) 100vw, 560px" /></a>
+## [<img loading="lazy" class="aligncenter size-medium wp-image-423" title="simple-faq1" src="http://www.spidersoft.com.au/wp-content/uploads/2010/12/simple-faq1.png" alt="Simple FAQ" width="560" height="324" srcset="https://www.spidersoft.com.au/wp-content/uploads/2010/12/simple-faq1.png 806w,images/uploads/2010/12/simple-faq1-320x185.png 320w,images/uploads/2010/12/simple-faq1-560x324.png 560w" sizes="(max-width: 560px) 100vw, 560px" />](http://www.spidersoft.com.au/wp-content/uploads/2010/12/simple-faq1.png)
 
 <p style="text-align: center;">
-  <a href="http://www.spidersoft.com.au/wp-content/uploads/2010/12/simple-faq2.png" data-rel="lightbox-image-1" data-rl_title="" data-rl_caption="" title=""><img loading="lazy" class="aligncenter size-medium wp-image-424" title="simple-faq2" src="http://www.spidersoft.com.au/wp-content/uploads/2010/12/simple-faq2-560x368.png" alt="Simple FAQ 2" width="560" height="368" srcset="https://www.spidersoft.com.au/wp-content/uploads/2010/12/simple-faq2-560x368.png 560w,images/uploads/2010/12/simple-faq2-320x210.png 320w,images/uploads/2010/12/simple-faq2.png 808w" sizes="(max-width: 560px) 100vw, 560px" /></a>
+  [<img loading="lazy" class="aligncenter size-medium wp-image-424" title="simple-faq2" src="http://www.spidersoft.com.au/wp-content/uploads/2010/12/simple-faq2-560x368.png" alt="Simple FAQ 2" width="560" height="368" srcset="https://www.spidersoft.com.au/wp-content/uploads/2010/12/simple-faq2-560x368.png 560w,images/uploads/2010/12/simple-faq2-320x210.png 320w,images/uploads/2010/12/simple-faq2.png 808w" sizes="(max-width: 560px) 100vw, 560px" />](http://www.spidersoft.com.au/wp-content/uploads/2010/12/simple-faq2.png)
 </p>
 
 ## Example

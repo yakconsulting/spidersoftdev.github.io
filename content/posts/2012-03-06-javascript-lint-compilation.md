@@ -28,7 +28,7 @@ tags:
   - linux
 
 ---
-<a href="http://www.javascriptlint.com/" target="_blank">JavaScript Lint</a> allows you to validate JavaScript files from command line. For Windows and Mac OS Boxex we can <a href="http://www.javascriptlint.com/download.htm" target="_blank">download precompiled binaries</a>.
+[JavaScript Lint](http://www.javascriptlint.com/) allows you to validate JavaScript files from command line. For Windows and Mac OS Boxex we can [download precompiled binaries](http://www.javascriptlint.com/download.htm).
 
 I don&#8217;t know why authors missed part in documentation which describes how to compile this under Linux box.
 

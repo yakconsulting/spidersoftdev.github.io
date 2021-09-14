@@ -30,8 +30,8 @@ tags:
   - vm
 
 ---
-<a href="http://www.browserstack.com/" target="_blank">BrowserStack</a> is well known service which provides awesome tools to test your website against different browsers and operating systems. It&#8217;s very handy when it comes to professional QA testing.
+[BrowserStack](http://www.browserstack.com/) is well known service which provides awesome tools to test your website against different browsers and operating systems. It&#8217;s very handy when it comes to professional QA testing.
 
-Not everyone knows, that from that place  you can also download virtual machines for free. On this page <a href="http://www.modern.ie/en-us/virtualization-tools#downloads" target="_blank">Virtual Machine</a> you can pull multiple VM images with IE8 / IE 9 and different versions of windows.
+Not everyone knows, that from that place  you can also download virtual machines for free. On this page [Virtual Machine](http://www.modern.ie/en-us/virtualization-tools#downloads) you can pull multiple VM images with IE8 / IE 9 and different versions of windows.
 
 &nbsp;

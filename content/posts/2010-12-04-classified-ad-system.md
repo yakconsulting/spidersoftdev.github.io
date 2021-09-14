@@ -36,4 +36,4 @@ Classified Ad System is web application which allows you to create unlimited
 Our goal was to achieve most user (and admin) service for customers. Application is multilingual &#8211; by default all visitor can view ads using english, german and polish language.
 
 Screenshots:  
-<a href="https://lh5.googleusercontent.com/\_jUqovhf37DY/TVS9cVmznAI/AAAAAAAAC34/8\_SS5jCjGHI/s640/cads1.jpg" class="fancybox" data-rel="lightbox-image-0" data-rl\_title="" data-rl\_caption="" title=""><img style="width: 512px;" src="https://lh5.googleusercontent.com/_jUqovhf37DY/TVS9cVmznAI/AAAAAAAAC34/8_SS5jCjGHI/s640/cads1.jpg?imgmax=512" alt="" /></a>
+[<img style="width: 512px;" src="https://lh5.googleusercontent.com/_jUqovhf37DY/TVS9cVmznAI/AAAAAAAAC34/8_SS5jCjGHI/s640/cads1.jpg?imgmax=512" alt="" />](https://lh5.googleusercontent.com/\_jUqovhf37DY/TVS9cVmznAI/AAAAAAAAC34/8\_SS5jCjGHI/s640/cads1.jpg)

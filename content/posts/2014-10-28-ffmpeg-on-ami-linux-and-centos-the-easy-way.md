@@ -16,10 +16,10 @@ tags:
   - linux
 
 ---
-<a href="https://www.ffmpeg.org/" target="_blank">FFmpeg</a> is a complete, cross-platform solution to record, convert and stream audio and video.
+[FFmpeg](https://www.ffmpeg.org/) is a complete, cross-platform solution to record, convert and stream audio and video.
 
 All you need to do is just install one more repository:  
-<a href="http://rpmfusion.org/Configuration" target="_blank">http://rpmfusion.org/Configuration</a>
+[http://rpmfusion.org/Configuration](http://rpmfusion.org/Configuration)
 
 <pre>wget http://download1.rpmfusion.org/free/el/updates/6/i386/rpmfusion-free-release-6-1.noarch.rpm
 sudo rpm -Uhv rpmfusion-free-release-6-1.noarch.rpm
@@ -33,7 +33,7 @@ Done.
 built on Aug 30 2014 15:49:19 with gcc 4.4.7 20120313 (Red Hat 4.4.7-3)<br />
 ` 
 
-Obviously there is no fun with with FFmpeg if you don&#8217;t have anything to convert. I needed to crop vertical videos from iPad to square &#8211; <a href="https://itunes.apple.com/au/app/vine/id592447445?mt=8" target="_blank">Vine</a> like format.
+Obviously there is no fun with with FFmpeg if you don&#8217;t have anything to convert. I needed to crop vertical videos from iPad to square &#8211; [Vine](https://itunes.apple.com/au/app/vine/id592447445?mt=8) like format.
 
 Initial size of video was 1280&#215;720 &#8211; I wanted to make them square, and crop from top and bottom.
 

@@ -90,7 +90,7 @@ date
 Thu Jan 10 21:06:05 AEDT 2019
 ```
 
-Looks like in the pretty good spot. Time to install actual web server. You can go with Apache, but I&#8217;m huge fan of <a rel="noreferrer noopener" aria-label=" (opens in a new tab)" href="https://caddyserver.com/" target="_blank">Caddy server.</a> It&#8217;s light, it&#8217;s fast and configuration is super easy. You can pull it from the website, compile it locally or&#8230; Use my <a href="http://public.spidersoft.com.au/download/caddy" target="_blank" rel="noreferrer noopener" aria-label="caddy linux thin (opens in a new tab)">caddy linux thin</a> build:
+Looks like in the pretty good spot. Time to install actual web server. You can go with Apache, but I&#8217;m huge fan of <a rel="noreferrer noopener" aria-label=" (opens in a new tab)" href="https://caddyserver.com/" target="_blank">Caddy server.</a> It&#8217;s light, it&#8217;s fast and configuration is super easy. You can pull it from the website, compile it locally or&#8230; Use my [caddy linux thin](http://public.spidersoft.com.au/download/caddy) build:
 
 ```
 cd /usr/local/bin

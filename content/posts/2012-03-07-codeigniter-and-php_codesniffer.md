@@ -29,6 +29,6 @@ tags:
   - php_codesniffer
 
 ---
-<a href="http://codeigniter.com/" target="_blank">CodeIgniter</a> is the king 😉 But if we want to create good quality code, we should be aware about <a href="http://codeigniter.com/user_guide/general/styleguide.html" target="_blank">CodeIgniter style guide</a> standards. What can be better than <a href="http://pear.php.net/package/PHP_CodeSniffer/" target="_blank">PHP_CodeSniffer</a> for keeping our code consistent and clean as much as it possible.
+[CodeIgniter](http://codeigniter.com/) is the king 😉 But if we want to create good quality code, we should be aware about [CodeIgniter style guide](http://codeigniter.com/user_guide/general/styleguide.html) standards. What can be better than [PHP_CodeSniffer](http://pear.php.net/package/PHP_CodeSniffer/) for keeping our code consistent and clean as much as it possible.
 
-Unfortunately standard rules from PHP_CodeSniffer doesn&#8217;t apply for CodeIgniter. You have to install additional set of rules &#8211; you can download them from here: <a href="https://github.com/thomas-ernest/CodeIgniter-for-PHP_CodeSniffer" target="_blank">PHP_CodeSniffer rules for CI</a>.
+Unfortunately standard rules from PHP_CodeSniffer doesn&#8217;t apply for CodeIgniter. You have to install additional set of rules &#8211; you can download them from here: [PHP_CodeSniffer rules for CI](https://github.com/thomas-ernest/CodeIgniter-for-PHP_CodeSniffer).

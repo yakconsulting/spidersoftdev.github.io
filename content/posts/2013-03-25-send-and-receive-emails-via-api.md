@@ -42,33 +42,33 @@ SendGrid&#8217;s cloud-based email infrastructure relieves businesses of the cos
 
 This is the biggest one, and i think &#8211; most expensive.
 
-<a href="http://sendgrid.com/" target="_blank"><img loading="lazy" class="alignnone size-medium wp-image-863" src="http://www.spidersoft.com.au/wp-content/uploads/2013/03/sendgrid-560x398.png" alt="sendgrid" width="560" height="398" srcset="https://www.spidersoft.com.au/wp-content/uploads/2013/03/sendgrid-560x398.png 560w,images/uploads/2013/03/sendgrid-320x227.png 320w,images/uploads/2013/03/sendgrid-1024x728.png 1024w,images/uploads/2013/03/sendgrid.png 1254w" sizes="(max-width: 560px) 100vw, 560px" /></a>
+[<img loading="lazy" class="alignnone size-medium wp-image-863" src="http://www.spidersoft.com.au/wp-content/uploads/2013/03/sendgrid-560x398.png" alt="sendgrid" width="560" height="398" srcset="https://www.spidersoft.com.au/wp-content/uploads/2013/03/sendgrid-560x398.png 560w,images/uploads/2013/03/sendgrid-320x227.png 320w,images/uploads/2013/03/sendgrid-1024x728.png 1024w,images/uploads/2013/03/sendgrid.png 1254w" sizes="(max-width: 560px) 100vw, 560px" />](http://sendgrid.com/)
 
-<a href="http://sendgrid.com/" target="_blank">http://sendgrid.com/</a>
+[http://sendgrid.com/](http://sendgrid.com/)
 
 ## Mailgun
 
 Mailgun is a set of **powerful APIs** that allow you to **send, receive** and **track**email effortlessly.
 
-<a href="http://www.mailgun.com/" target="_blank"><img loading="lazy" src="http://www.spidersoft.com.au/wp-content/uploads/2013/03/mailgun-560x323.png" alt="mailgun" width="560" height="323" /></a>
+[<img loading="lazy" src="http://www.spidersoft.com.au/wp-content/uploads/2013/03/mailgun-560x323.png" alt="mailgun" width="560" height="323" />](http://www.mailgun.com/)
 
-<a href="http://mailgun.com" target="_blank">http://www.mailgun.com/</a>
+[http://www.mailgun.com/](http://mailgun.com)
 
 ## Postmark
 
 **Postmark** removes the headaches of delivering and parsing transactional email for webapps with minimal setup time and zero maintenance.We have years of experience getting email to the inbox, so you can work and rest easier.
 
-<a href="https://postmarkapp.com/" target="_blank"><img loading="lazy" class="alignnone size-medium wp-image-861" src="http://www.spidersoft.com.au/wp-content/uploads/2013/03/postmark-560x398.png" alt="postmark" width="560" height="398" srcset="https://www.spidersoft.com.au/wp-content/uploads/2013/03/postmark-560x398.png 560w,images/uploads/2013/03/postmark-320x227.png 320w,images/uploads/2013/03/postmark-1024x728.png 1024w,images/uploads/2013/03/postmark.png 1254w" sizes="(max-width: 560px) 100vw, 560px" /></a>
+[<img loading="lazy" class="alignnone size-medium wp-image-861" src="http://www.spidersoft.com.au/wp-content/uploads/2013/03/postmark-560x398.png" alt="postmark" width="560" height="398" srcset="https://www.spidersoft.com.au/wp-content/uploads/2013/03/postmark-560x398.png 560w,images/uploads/2013/03/postmark-320x227.png 320w,images/uploads/2013/03/postmark-1024x728.png 1024w,images/uploads/2013/03/postmark.png 1254w" sizes="(max-width: 560px) 100vw, 560px" />](https://postmarkapp.com/)
 
-<a href="https://postmarkapp.com/" target="_blank">https://postmarkapp.com/</a>
+[https://postmarkapp.com/](https://postmarkapp.com/)
 
 ## Email Yak
 
 Definetly the most ugly website from whole list. But it works, API is really simple.  
-<a href="http://www.emailyak.com/" target="_blank"><img loading="lazy" class="alignnone size-medium wp-image-862" src="http://www.spidersoft.com.au/wp-content/uploads/2013/03/email-yak-560x398.png" alt="email-yak" width="560" height="398" srcset="https://www.spidersoft.com.au/wp-content/uploads/2013/03/email-yak-560x398.png 560w,images/uploads/2013/03/email-yak-320x227.png 320w,images/uploads/2013/03/email-yak-1024x728.png 1024w,images/uploads/2013/03/email-yak.png 1254w" sizes="(max-width: 560px) 100vw, 560px" /></a>
+[<img loading="lazy" class="alignnone size-medium wp-image-862" src="http://www.spidersoft.com.au/wp-content/uploads/2013/03/email-yak-560x398.png" alt="email-yak" width="560" height="398" srcset="https://www.spidersoft.com.au/wp-content/uploads/2013/03/email-yak-560x398.png 560w,images/uploads/2013/03/email-yak-320x227.png 320w,images/uploads/2013/03/email-yak-1024x728.png 1024w,images/uploads/2013/03/email-yak.png 1254w" sizes="(max-width: 560px) 100vw, 560px" />](http://www.emailyak.com/)
 
-<a href="http://www.emailyak.com/" target="_blank">http://www.emailyak.com/</a>
+[http://www.emailyak.com/](http://www.emailyak.com/)
 
-Finaly &#8211; if you are looking for more &#8211; please check this website:  <a href="http://www.programmableweb.com/" target="_blank">ProgrammableWeb</a> is more than a directory and community, it&#8217;s programmable.
+Finaly &#8211; if you are looking for more &#8211; please check this website:  [ProgrammableWeb](http://www.programmableweb.com/) is more than a directory and community, it&#8217;s programmable.
 
 <em id="__mceDel">Our <strong>&#8220;API for APIs&#8221;</strong> gives you a simple and structured way to access the powerful registry and repository capabilities of PW</em>

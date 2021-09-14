@@ -28,7 +28,7 @@ tags:
   - linux
 
 ---
-Some time ago I bought extremely quiet Shuttle <a href="http://global.shuttle.com/main/productsDetail?productId=1487" target="_blank">XS35 V2</a> device to have something &#8220;seperate&#8221; for my web development work. Right now this awesome fan less device has many purposes. Works as full web dev stack, with Apache, PHP, MySQL, mongoDB, and even Jenkins machine.
+Some time ago I bought extremely quiet Shuttle [XS35 V2](http://global.shuttle.com/main/productsDetail?productId=1487) device to have something &#8220;seperate&#8221; for my web development work. Right now this awesome fan less device has many purposes. Works as full web dev stack, with Apache, PHP, MySQL, mongoDB, and even Jenkins machine.
 
 Recently I realised that this small ugly device got also WiFi cart into it. Because I&#8217;m running out of cables and space in my apartment i figure out, that I could move it easily without plugging into it more cables.
 
@@ -41,7 +41,7 @@ But&#8230; of course &#8211; Linux doesn&#8217;t not recognise this Card Out of 
 Gives us  
 ` 02:00.5 Ethernet controller [0200]: JMicron Technology Corp. JMC250 PCI Express Gigabit Ethernet Controller [197b:0250] (rev 03) 03:00.0 Network controller [0280]: Realtek Semiconductor Co., Ltd. RTL8188CE 802.11b/g/n WiFi Adapter [10ec:8176] (rev 01)`  
 
-Hope brings us <a href="http://ww.elrepo.org" target="_blank">www.elrepo.org</a>. You can also check <a href="http://elrepo.org/tiki/DeviceIDs" target="_blank">http://elrepo.org/tiki/DeviceIDs</a> to find other missing devices. Quick import or youm repo:  
+Hope brings us [www.elrepo.org](http://ww.elrepo.org). You can also check [http://elrepo.org/tiki/DeviceIDs](http://elrepo.org/tiki/DeviceIDs) to find other missing devices. Quick import or youm repo:  
 
 `rpm --import https://www.elrepo.org/RPM-GPG-KEY-elrepo.org rpm -Uvh http://www.elrepo.org/elrepo-release-6-5.el6.elrepo.noarch.rpm`
 

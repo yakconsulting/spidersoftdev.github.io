@@ -39,11 +39,11 @@ Backbone.js gives structure to web applications by providing models with key-val
 
 This time only short list of good backbone.js tutorials:
 
-  * <a href="http://net.tutsplus.com/sessions/build-a-contacts-manager-using-backbone-js/" target="_blank">Getting to Know Backbone.js</a> &#8211; Nettuts+
-  * <a href="http://coenraets.org/blog/2011/12/backbone-js-wine-cellar-tutorial-part-1-getting-started/" target="_blank">Backbone.js Wine Cellar Tutorial</a>
-  * <a href="http://arturadib.com/hello-backbonejs" target="_blank">Hello Backbone.js</a>
-  * <a href="http://readystate4.com/2011/10/22/common-backbone-errors-and-what-they-mean/" target="_blank">Common Backbone errors and what they mean</a>
+  * [Getting to Know Backbone.js](http://net.tutsplus.com/sessions/build-a-contacts-manager-using-backbone-js/) &#8211; Nettuts+
+  * [Backbone.js Wine Cellar Tutorial](http://coenraets.org/blog/2011/12/backbone-js-wine-cellar-tutorial-part-1-getting-started/)
+  * [Hello Backbone.js](http://arturadib.com/hello-backbonejs)
+  * [Common Backbone errors and what they mean](http://readystate4.com/2011/10/22/common-backbone-errors-and-what-they-mean/)
 
 If you like CodeIgniter &#8211; this tutorial also will be helpful
 
-  * <a href="http://net.tutsplus.com/tutorials/php/working-with-restful-services-in-codeigniter-2/" target="_blank">Working with RESTful Services in CodeIgniter</a> &#8211; source library can be found jere: <a href="https://github.com/philsturgeon/codeigniter-restserver#readme" target="_blank">CodeIgniter Rest Server</a>
+  * [Working with RESTful Services in CodeIgniter](http://net.tutsplus.com/tutorials/php/working-with-restful-services-in-codeigniter-2/) &#8211; source library can be found jere: [CodeIgniter Rest Server](https://github.com/philsturgeon/codeigniter-restserver#readme)

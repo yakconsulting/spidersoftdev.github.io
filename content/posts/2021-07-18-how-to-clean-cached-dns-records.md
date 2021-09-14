@@ -15,7 +15,7 @@ tags:
 lead: "links to clear cached records in popular public DNS servers:" # Lead text
 ---
 
-Dealing with DNS changes can be annyoying and frustrating. Changes are not visible straight away, you have to wait to see them. Thet are not even. Here you can find links to clear cached records in popular public DNS servers:
+Dealing with DNS changes can be annoying and frustrating. Changes are not visible straight away, you have to wait to see them. Thet are not even. Here you can find links to clear cached records in popular public DNS servers:
 
 ## Flushing DNS cache
 
@@ -29,7 +29,7 @@ You can check results here:
 
 
 ## DNSSEC Tools
-* DNSViz. A [DNS] Visualization Tool(http://dnsviz.net/)
+* DNSViz. A [DNS Visualization Tool](http://dnsviz.net/)
 * [DNS Check](http://dnscheck.iis.se/ "Domain Name System")
-* [DNSSEC](http://dnssec-debugger.verisignlabs.com/) Analyzer]
+* [DNSSEC Analyzer](http://dnssec-debugger.verisignlabs.com/) 
 * [SIDN DNSSEC Test](http://dnssectest.sidn.nl/)

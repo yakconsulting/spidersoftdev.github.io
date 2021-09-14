@@ -31,13 +31,13 @@ tags:
   - pagespeed
 
 ---
-Short &#8220;How to&#8221; install Google mod-pagespeed on CentOs. You can read more about this Apache module on this page: Google <a href="http://code.google.com/speed/page-speed/docs/module.html" target="_blank">mod_pagespeed overview</a>. Basicly it&#8217;s a module which gives your website speedup. Many simple techniques to reduce size and number of requests.
+Short &#8220;How to&#8221; install Google mod-pagespeed on CentOs. You can read more about this Apache module on this page: Google [mod_pagespeed overview](http://code.google.com/speed/page-speed/docs/module.html). Basicly it&#8217;s a module which gives your website speedup. Many simple techniques to reduce size and number of requests.
 
 <!--more-->
 
 > mod\_pagespeed is an open-source Apache module that automatically optimizes web pages and resources on them. It does this by rewriting the resources using filters that implement web performance best practices. Webmasters and web developers can use mod\_pagespeed to improve the performance of their web pages when serving content with the Apache HTTP Server.
 
-Firsting first download <a href="http://code.google.com/speed/page-speed/download.html" target="_blank">mod_pagespeed for Apache</a>. Next import Google public key for .rpm archives.
+Firsting first download [mod_pagespeed for Apache](http://code.google.com/speed/page-speed/download.html). Next import Google public key for .rpm archives.
 
 <pre class="brush: plain; title: ; notranslate" title="">rpm --import http://dl.google.com/linux/linux_signing_key.pub
 wget https://dl-ssl.google.com/dl/linux/direct/mod-pagespeed-beta_current_x86_64.rpm

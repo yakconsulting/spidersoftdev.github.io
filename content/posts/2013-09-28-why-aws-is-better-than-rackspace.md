@@ -29,7 +29,7 @@ tags:
   - rackspace
 
 ---
-I&#8217;m huge fan fan ow <a href="http://aws.amazon.com" target="_blank">AWS</a> services. It just works &#8211; don&#8217;t need any kind of support, prices are really good. No issues whatsoever. But &#8211; of course my nature ask me to check out other options. For example <a href="http://www.rackspace.com.au/" target="_blank">Rackspace</a>. So I registered account, filled out my business and credit details. Just to give a small background &#8211; got registered business since 2011 in Australia. I filled out my CC details, phone number and so on. Pretty standard process. I logged in, and start playing with their interface (pretty slow, but I shouldn&#8217;t complain yet). The best is about to come&#8230;
+I&#8217;m huge fan fan ow [AWS](http://aws.amazon.com) services. It just works &#8211; don&#8217;t need any kind of support, prices are really good. No issues whatsoever. But &#8211; of course my nature ask me to check out other options. For example [Rackspace](http://www.rackspace.com.au/). So I registered account, filled out my business and credit details. Just to give a small background &#8211; got registered business since 2011 in Australia. I filled out my CC details, phone number and so on. Pretty standard process. I logged in, and start playing with their interface (pretty slow, but I shouldn&#8217;t complain yet). The best is about to come&#8230;
 
 <!--more-->
 

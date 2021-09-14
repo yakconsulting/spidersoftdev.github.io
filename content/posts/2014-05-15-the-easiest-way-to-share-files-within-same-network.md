@@ -20,7 +20,7 @@ Sometimes you are just to lazy to copy files to local storage server. Sending fi
 
 If you are on Mac &#8211; AirDrop is an answer but &#8211; you have to be on wireless. What if you are using old fashion cable ?
 
-There is a solution for that &#8211; web experiment called <a href="https://www.sharedrop.io/" target="_blank">www.sharedrop.io</a>
+There is a solution for that &#8211; web experiment called [www.sharedrop.io](https://www.sharedrop.io/)
 
 > ShareDrop is a free app that allows you to easily and securely share files directly between devices in the same local network*, without having to upload them to any server first.
 

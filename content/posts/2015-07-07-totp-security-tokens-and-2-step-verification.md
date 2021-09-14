@@ -27,9 +27,9 @@ This application that implements [TOTP][3] [security tokens][4]. Usually is br
 
 <!--more-->
 
-You can use it on [iPhone][6] or [Android][7] and obviously you are note forced to use it all. There are plenty of other solutions like <a href="http://www.nongnu.org/oath-toolkit/" target="_blank">OATH Toolkit</a> &#8211; just install it via brew `brew install oauth-toolkit` and then generate token using command line `oathtool --totp -b yourkeyhere`. Or if you are fan of go &#8211; you can use this library <a href="https://github.com/vbatts/go-google-authenticator" target="_blank">go-google-authenticator</a>.
+You can use it on [iPhone][6] or [Android][7] and obviously you are note forced to use it all. There are plenty of other solutions like [OATH Toolkit](http://www.nongnu.org/oath-toolkit/) &#8211; just install it via brew `brew install oauth-toolkit` and then generate token using command line `oathtool --totp -b yourkeyhere`. Or if you are fan of go &#8211; you can use this library [go-google-authenticator](https://github.com/vbatts/go-google-authenticator).
 
-There is a plenty of other solutions &#8211; even for smartwatches like <a href="http://www.connectedly.com/how-get-your-two-step-verification-codes-your-pebble" target="_blank">Pebble time</a>. Obviously except big players using 2-step verification you also impelement your own quite easly using libraries like <a href="https://github.com/PHPGangsta/GoogleAuthenticator" target="_blank">GoogleAuthenticator</a> or  https://github.com/PHPGangsta/GoogleAuthenticator
+There is a plenty of other solutions &#8211; even for smartwatches like [Pebble time](http://www.connectedly.com/how-get-your-two-step-verification-codes-your-pebble). Obviously except big players using 2-step verification you also impelement your own quite easly using libraries like [GoogleAuthenticator](https://github.com/PHPGangsta/GoogleAuthenticator) or  https://github.com/PHPGangsta/GoogleAuthenticator
 
  [1]: https://en.wikipedia.org/wiki/One-time_password "One-time password"
  [2]: https://en.wikipedia.org/wiki/Shared_secret "Shared secret"

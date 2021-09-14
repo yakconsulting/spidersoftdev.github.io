@@ -26,4 +26,4 @@ tags:
   - browser
 
 ---
-Quite often we are asking this simple question. Where we can answer for that ? On this website: <a href="http://gs.statcounter.com/" target="_blank">gs.statcounter.com</a>
+Quite often we are asking this simple question. Where we can answer for that ? On this website: [gs.statcounter.com](http://gs.statcounter.com/)

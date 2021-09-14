@@ -30,15 +30,15 @@ tags:
 ---
 ## Codeception
 
-Modern PHP testing for everyone <a href="http://codeception.com/" target="_blank">codeception.com</a>
+Modern PHP testing for everyone [codeception.com](http://codeception.com/)
 
 ## FileAPI
 
-FileAPI — a set of javascript tools for working with files. Multiupload, drag&#8217;n&#8217;drop and chunked file upload. Images: crop, resize and auto orientation by EXIF <a href="https://github.com/mailru/FileAPI" target="_blank">github.com/mailru/FileAPI</a>
+FileAPI — a set of javascript tools for working with files. Multiupload, drag&#8217;n&#8217;drop and chunked file upload. Images: crop, resize and auto orientation by EXIF [github.com/mailru/FileAPI](https://github.com/mailru/FileAPI)
 
 ## RainLoop
 
-FREE, MODERN & FAST WEB-BASED EMAIL CLIENT <a href="http://rainloop.net/" target="_blank">rainloop.net</a>
+FREE, MODERN & FAST WEB-BASED EMAIL CLIENT [rainloop.net](http://rainloop.net/)
 
 ## ANIMATED CHECKBOXES
 
@@ -46,6 +46,6 @@ ANIMATED CHECKBOXES AND RADIO BUTTONS WITH SVG [tympanus.net][1]
 
 ## Odometer
 
-TRANSITION NUMBERS WITH EASE  <a href="http://github.hubspot.com/odometer/docs/welcome/" target="_blank">github.hubspot.com/odometer/docs/welcome/</a>
+TRANSITION NUMBERS WITH EASE  [github.hubspot.com/odometer/docs/welcome/](http://github.hubspot.com/odometer/docs/welcome/)
 
  [1]: http://tympanus.net/codrops/2013/10/15/animated-checkboxes-and-radio-buttons-with-svg/

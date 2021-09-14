@@ -32,7 +32,7 @@ You can find plenty of tutorials how to setup tinyMCE and iBrowser, but non of t
 
 <!--more-->
 
-Firsting first &#8211; download <a href="http://www.net4visions.com/ibrowser.html" target="_blank">iBrowser</a>, and <a href="http://www.tinymce.com/download/download.php" target="_blank">TinyMCE</a>. After that you need to of course unzip/untar everything. After this operation you will get TinyMCE installed, next step will by upload iBrowser to plugins directory. Be aware about lowercase in `iBrowser` directory name. Finally you should get something like this: `/plugins/iBrowser` with all iBrowser files.
+Firsting first &#8211; download [iBrowser](http://www.net4visions.com/ibrowser.html), and [TinyMCE](http://www.tinymce.com/download/download.php). After that you need to of course unzip/untar everything. After this operation you will get TinyMCE installed, next step will by upload iBrowser to plugins directory. Be aware about lowercase in `iBrowser` directory name. Finally you should get something like this: `/plugins/iBrowser` with all iBrowser files.
 
 Remember about permission on this two directories:
 
@@ -66,7 +66,7 @@ What is our goal? We want to get additional button to upload images via iBrowser
 
 And second goal is to extend default image browser with &#8220;browse&#8221; function:
 
-<a href="http://www.spidersoft.com.au/2012/ibrowser-and-tinymce/t2/" rel="attachment wp-att-505"><img loading="lazy" class="size-full wp-image-505" title="t2" src="http://www.spidersoft.com.au/wp-content/uploads/2012/02/t2.png" alt="" width="470" height="376" srcset="https://www.spidersoft.com.au/wp-content/uploads/2012/02/t2.png 470w,images/uploads/2012/02/t2-300x240.png 300w" sizes="(max-width: 470px) 100vw, 470px" /></a>  
+[<img loading="lazy" class="size-full wp-image-505" title="t2" src="http://www.spidersoft.com.au/wp-content/uploads/2012/02/t2.png" alt="" width="470" height="376" srcset="https://www.spidersoft.com.au/wp-content/uploads/2012/02/t2.png 470w,images/uploads/2012/02/t2-300x240.png 300w" sizes="(max-width: 470px) 100vw, 470px" />](http://www.spidersoft.com.au/2012/ibrowser-and-tinymce/t2/)  
 Basic configuration:
 
 <pre class="brush: jscript; title: ; notranslate" title="">plugins: "ibrowser",
@@ -109,4 +109,4 @@ and create callback for **myFileBrowser**
 </pre>
 
 Final effect:  
-<a href="http://www.spidersoft.com.au/2012/ibrowser-and-tinymce/t3/" rel="attachment wp-att-506"><img loading="lazy" class="alignright size-medium wp-image-506" title="t3" src="http://www.spidersoft.com.au/wp-content/uploads/2012/02/t3-560x409.png" alt="" width="560" height="409" srcset="https://www.spidersoft.com.au/wp-content/uploads/2012/02/t3-560x409.png 560w,images/uploads/2012/02/t3-320x233.png 320w,images/uploads/2012/02/t3.png 673w" sizes="(max-width: 560px) 100vw, 560px" /></a>
+[<img loading="lazy" class="alignright size-medium wp-image-506" title="t3" src="http://www.spidersoft.com.au/wp-content/uploads/2012/02/t3-560x409.png" alt="" width="560" height="409" srcset="https://www.spidersoft.com.au/wp-content/uploads/2012/02/t3-560x409.png 560w,images/uploads/2012/02/t3-320x233.png 320w,images/uploads/2012/02/t3.png 673w" sizes="(max-width: 560px) 100vw, 560px" />](http://www.spidersoft.com.au/2012/ibrowser-and-tinymce/t3/)

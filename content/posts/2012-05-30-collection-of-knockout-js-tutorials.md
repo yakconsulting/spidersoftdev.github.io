@@ -33,7 +33,7 @@ tags:
   - tutorial
 
 ---
-<a href="http://knockoutjs.com/" target="_blank">Knockout.js</a> is a JavaScript library that helps you to create rich, responsive display and editor user interfaces with a clean underlying data model. Any time you have sections of UI that update dynamically (e.g., changing depending on the user’s actions or when an external data source changes), KO can help you implement it more simply and maintainably.
+[Knockout.js](http://knockoutjs.com/) is a JavaScript library that helps you to create rich, responsive display and editor user interfaces with a clean underlying data model. Any time you have sections of UI that update dynamically (e.g., changing depending on the user’s actions or when an external data source changes), KO can help you implement it more simply and maintainably.
 
 <!--more-->
 
@@ -52,13 +52,13 @@ Here is small collection of good tutorials:
 
 ![learn knockoutjs](images/uploads/2012/05/learn.png)
 
-Other tutorials:<a href="http://blog.monnet-usa.com/?p=354" target="_blank"><br /> </a>
+Other tutorials:[<br /> ](http://blog.monnet-usa.com/?p=354)
 
-  * <a href="http://blog.monnet-usa.com/?p=354" target="_blank">Creating Rich Interactive Web Apps With KnockoutJS</a>
-  * <a href="http://opensoul.org/blog/archives/2011/06/23/live-search-with-knockoutjs/" target="_blank">Live search with knockout.js</a>
-  * <a href="http://www.knockmeout.net/2011/06/10-things-to-know-about-knockoutjs-on.html" target="_blank">10 Things to Know About KnockoutJS on Day one</a>
+  * [Creating Rich Interactive Web Apps With KnockoutJS](http://blog.monnet-usa.com/?p=354)
+  * [Live search with knockout.js](http://opensoul.org/blog/archives/2011/06/23/live-search-with-knockoutjs/)
+  * [10 Things to Know About KnockoutJS on Day one](http://www.knockmeout.net/2011/06/10-things-to-know-about-knockoutjs-on.html)
 
 Extensions and plugins
 
-  * <a href="http://rniemeyer.github.com/knockout-kendo/index.html" target="_blank">Knockout-Kendo.js</a>
-  * <a href="http://ericmbarnard.github.com/Knockout-Validation/" target="_blank">Knockout-Validation</a>
+  * [Knockout-Kendo.js](http://rniemeyer.github.com/knockout-kendo/index.html)
+  * [Knockout-Validation](http://ericmbarnard.github.com/Knockout-Validation/)

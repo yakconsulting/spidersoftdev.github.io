@@ -56,7 +56,7 @@ Sprite Cow helps you get the background-position, width and height of sprites wi
 
 Automated spritesheet generators are pretty cool, but I prefer the control over optimisation and compression you get by making them manually.
 
-<a href="http://www.spritecow.com/" target="_blank">www.spritecow.com</a>
+[www.spritecow.com](http://www.spritecow.com/)
 
 ![spritecow](images/uploads/2013/03/SpriteCow.png)
 

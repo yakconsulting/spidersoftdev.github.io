@@ -28,7 +28,7 @@ tags:
   - linux
 
 ---
-We have couple options: <a href="http://www.zlib.net/pigz/" target="_blank">pigz</a> and <a href="http://compression.ca/pbzip2/" target="_blank">pbzip2</a>.
+We have couple options: [pigz](http://www.zlib.net/pigz/) and [pbzip2](http://compression.ca/pbzip2/).
 
 ```
 tar -c --use-compress-program=pigz -f my_archive.tar.gz /home/archive 

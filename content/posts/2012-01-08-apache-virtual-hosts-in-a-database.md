@@ -31,7 +31,7 @@ tags:
   - www
 
 ---
-As much as I love <a href="http://www.lighttpd.net/" target="_blank">lighttpd</a> sometimes I can&#8217;t avoid <a href="http://httpd.apache.org/" target="_blank">Apache</a>. For me &#8211; &#8220;the best&#8221; thing in lighttpd is support for keeping vhost names in MySQL database. I don&#8217;t have to use any config files, I can just put record into MySQL database with virtual host server name, path to document root and it&#8217;s done. But &#8211; I can do the same witch Apache! How? With third party modules, belov you can find short tutorial &#8220;how to&#8221;.
+As much as I love [lighttpd](http://www.lighttpd.net/) sometimes I can&#8217;t avoid [Apache](http://httpd.apache.org/). For me &#8211; &#8220;the best&#8221; thing in lighttpd is support for keeping vhost names in MySQL database. I don&#8217;t have to use any config files, I can just put record into MySQL database with virtual host server name, path to document root and it&#8217;s done. But &#8211; I can do the same witch Apache! How? With third party modules, belov you can find short tutorial &#8220;how to&#8221;.
 
 <!--more-->
 
@@ -43,7 +43,7 @@ Ok. Lets upgrade apache with devel module, for APXS:
 yum install apr-util-mysql
 </pre>
 
-We als need <a href="http://code.google.com/p/dbd-modules/" target="_blank">dbd-modules</a> &#8211; Apache modules to allow Apache 2.2+ to access databases using DBD.
+We als need [dbd-modules](http://code.google.com/p/dbd-modules/) &#8211; Apache modules to allow Apache 2.2+ to access databases using DBD.
 
 <pre class="brush: bash; title: ; notranslate" title="">wget http://dbd-modules.googlecode.com/files/dbd-modules-1.0.5.zip
 unzip -d dbd dbd-modules-1.0.5.zip

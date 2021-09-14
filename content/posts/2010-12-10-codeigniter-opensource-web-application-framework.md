@@ -20,7 +20,7 @@ tags:
   - zend
 
 ---
-For many years we was searching for for really good [framework](http://en.wikipedia.org/wiki/Framework) for our application core. After trying <a href="http://framework.zend.com/" target="_blank">Zend Framework</a> which is really power-full, but quite heavy for regular use, we tried to use some lighter &#8211; <a href="http://cakephp.org/" target="_blank">CakePHP</a> which is better, but still many solutions are to complicated for real rapid development and freedom, we found what we are looking for &#8211; <a href="http://codeigniter.com/" target="_blank">CodeIgniter</a> .
+For many years we was searching for for really good [framework](http://en.wikipedia.org/wiki/Framework) for our application core. After trying [Zend Framework](http://framework.zend.com/) which is really power-full, but quite heavy for regular use, we tried to use some lighter &#8211; [CakePHP](http://cakephp.org/) which is better, but still many solutions are to complicated for real rapid development and freedom, we found what we are looking for &#8211; [CodeIgniter](http://codeigniter.com/) .
 
 <!--more-->
 

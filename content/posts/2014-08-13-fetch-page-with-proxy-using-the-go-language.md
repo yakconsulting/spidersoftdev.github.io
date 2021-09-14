@@ -16,12 +16,12 @@ tags:
   - golang
 
 ---
-For a while i&#8217;m playing with <a href="http://golang.org/" target="_blank">The Go Programming Language</a> &#8211; so far I loved it. I figure out that I&#8217;ll push some code snippets from time to time.  
+For a while i&#8217;m playing with [The Go Programming Language](http://golang.org/) &#8211; so far I loved it. I figure out that I&#8217;ll push some code snippets from time to time.  
 Today I spend some time creating simple not ever crawler, but website fetcher.
 
-Idea is very simple &#8211; download page, run xpath query on it and spit out results. I was looking for decent xpath library for Go and couldn&#8217;t find any. I tried to use <a href="http://gopkg.in/xmlpath.v2" target="_blank">xmlpath</a> but it sucks. I couldn&#8217;t even run queries like `id('product-details')/div[@class='product-price']"` Then I found something nicer &#8211; <a href="https://github.com/moovweb/gokogiri" target="_blank">Gokogiri</a> &#8211; which works pretty nicely, but &#8211; couldn&#8217;t find any examples except this <a href="https://www.moovweb.com/blog/gokogiri-the-best-way-to-parse-xml-in-go/" target="_blank">small article</a>.
+Idea is very simple &#8211; download page, run xpath query on it and spit out results. I was looking for decent xpath library for Go and couldn&#8217;t find any. I tried to use [xmlpath](http://gopkg.in/xmlpath.v2) but it sucks. I couldn&#8217;t even run queries like `id('product-details')/div[@class='product-price']"` Then I found something nicer &#8211; [Gokogiri](https://github.com/moovweb/gokogiri) &#8211; which works pretty nicely, but &#8211; couldn&#8217;t find any examples except this [small article](https://www.moovweb.com/blog/gokogiri-the-best-way-to-parse-xml-in-go/).
 
-The only problem with running Gokogiri is that it uses `libxml2` which is not a huge problem on Linux based systems, but on Mac OS X you have to install it via <a href="http://brew.sh/" target="_blank">homebrew</a>  
+The only problem with running Gokogiri is that it uses `libxml2` which is not a huge problem on Linux based systems, but on Mac OS X you have to install it via [homebrew](http://brew.sh/)  
 `brew install libxml2`
 
 <!--more-->

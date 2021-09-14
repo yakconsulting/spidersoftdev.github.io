@@ -49,6 +49,6 @@ But neither of them it&#8217;s easy to modify. Really useful snippet &#8211; ser
 
 <div class="oembed-gist">
   <noscript>
-    View the code on <a href="https://gist.github.com/6569966">Gist</a>.
+    View the code on [Gist](https://gist.github.com/6569966).
   </noscript>
 </div>

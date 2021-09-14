@@ -30,7 +30,7 @@ tags:
   - php
 
 ---
-<a href="http://gearman.org/" target="_blank">Gearman</a> provides a generic application framework to farm out work to other machines or processes that are better suited to do the work.
+[Gearman](http://gearman.org/) provides a generic application framework to farm out work to other machines or processes that are better suited to do the work.
 
 This solution is truly multiplatform, so we have Client API and Wordkres in multiple languages like Shell, Perl, NodeJS any couple of others (PHP!)
 

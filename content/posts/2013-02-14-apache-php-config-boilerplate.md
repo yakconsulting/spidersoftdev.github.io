@@ -209,11 +209,11 @@ Small update: apparently some SSL providers are not giving you ca-bundle file, b
 cat COMODORSADomainValidationSecureServerCA.crt COMODORSAAddTrustCA.crt AddTrustExternalCARoot.crt  > www_spidersoft_com_au.ca-bundle
 ```
 
-Don&#8217;t forget to check if your certificate was installed properly. I&#8217;m using this website <a href="http://www.sslshopper.com/ssl-checker.html" target="_blank">www.sslshopper.com/ssl-checker.html</a>
+Don&#8217;t forget to check if your certificate was installed properly. I&#8217;m using this website [www.sslshopper.com/ssl-checker.html](http://www.sslshopper.com/ssl-checker.html)
 
 ### mod-spdy installation
 
-Because we love speed, and we already have SSL certificate up and running we can finish our deployment with <a href="http://code.google.com/p/mod-spdy/" target="_blank">mod-spdy</a> installation.
+Because we love speed, and we already have SSL certificate up and running we can finish our deployment with [mod-spdy](http://code.google.com/p/mod-spdy/) installation.
 
 ```
 wget https://dl-ssl.google.com/dl/linux/direct/mod-spdy-beta_current_x86_64.rpm

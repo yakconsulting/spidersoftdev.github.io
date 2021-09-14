@@ -29,7 +29,7 @@ tags:
   - server
 
 ---
-Google <a href="http://pagespeed.googlelabs.com/" target="_blank">Page Speed Online</a> is really good service for measuring and optimising your website. After deep analysis we get a lot if clues how to improve speed of your website. But how to <a href="http://code.google.com/speed/page-speed/docs/caching.html#LeverageBrowserCaching" target="_blank">Leverage browser caching</a> if we have <a href="http://www.lighttpd.net/" target="_blank">Lighttpd</a> instead default Apache? We need to use <a href="http://redmine.lighttpd.net/wiki/lighttpd/Docs:ModExpire" target="_blank">mod_expire</a>.
+Google [Page Speed Online](http://pagespeed.googlelabs.com/) is really good service for measuring and optimising your website. After deep analysis we get a lot if clues how to improve speed of your website. But how to [Leverage browser caching](http://code.google.com/speed/page-speed/docs/caching.html#LeverageBrowserCaching) if we have [Lighttpd](http://www.lighttpd.net/) instead default Apache? We need to use [mod_expire](http://redmine.lighttpd.net/wiki/lighttpd/Docs:ModExpire).
 
 <!--more-->All you need to do is decide which type of files you wan to cache &#8220;longer&#8221;. For example for images, CSS and JavaScript files you can use this code in you lighttpd config file 
 

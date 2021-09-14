@@ -28,7 +28,7 @@ tags:
   - tool
 
 ---
-<a href="http://en.wikipedia.org/wiki/Image_maps" target="_blank">Image Maps</a> is quite ancient technology (1993!) to create &#8220;clickable&#8221; areas on images. Sometimes there is just no other way to handle some some images. Recently I found quite useful tool to create them.
+[Image Maps](http://en.wikipedia.org/wiki/Image_maps) is quite ancient technology (1993!) to create &#8220;clickable&#8221; areas on images. Sometimes there is just no other way to handle some some images. Recently I found quite useful tool to create them.
 
 <!--more-->
 

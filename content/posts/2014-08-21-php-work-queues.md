@@ -22,7 +22,7 @@ Couple ideas: sending emails, processing images, making heavy queries into datab
 
 You can install it on probably any Linux instance just pulling from repositories: `yum install beanstalkd`. Don&#8217;t forget to check port 11300 if you are connecting remotely. You just call `telnet hostname 113000` &#8211; you can run simple command like `stats` to see if you got anything in queue.
 
-For PHP Client i&#8217;m using <a href="https://github.com/pda/pheanstalk" target="&quot;_blank">pheanstalk</a> which can be installed from composer.
+For PHP Client i&#8217;m using [pheanstalk](https://github.com/pda/pheanstalk) which can be installed from composer.
 
 Code sample for creating task in PHP
 
@@ -46,7 +46,7 @@ And worker:
 
 Most important thinks to now:
 
-  1. Worker needs to be running all time, so that&#8217;s why is looped &#8211; so run it in <a href="http://linux.die.net/man/1/screen" target="_blank">screen</a> or as a bg process on your server: `php worker.php &`
+  1. Worker needs to be running all time, so that&#8217;s why is looped &#8211; so run it in [screen](http://linux.die.net/man/1/screen) or as a bg process on your server: `php worker.php &`
   2. Don&#8217;t forget to remove job when it&#8217;s finished.
 
  [1]: http://kr.github.io/beanstalkd/

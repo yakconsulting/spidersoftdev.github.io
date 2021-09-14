@@ -4,27 +4,19 @@ author: admin
 type: post
 date: 2017-12-13T07:43:11+00:00
 url: /2017/checking-jpeg-image-dimension-from-partial-headers/
-nkweb_code_in_head:
-  - default
-nkweb_Use_Custom_js:
-  - default
-nkweb_Use_Custom_Values:
-  - default
-nkweb_Use_Custom:
-  - 'false'
 dsq_thread_id:
   - 6347467434
 categories:
   - Go Lang
 
 ---
-The goal was to read image dimension from image file. Pretty easy task with standard &#8220;<a href="https://golang.org/pkg/image/#DecodeConfig" target="_blank" rel="noopener">image</a>&#8221; library and DecodeConfig. The tricky part was &#8211; file wasn&#8217;t completed &#8211; I had only beginning of the file . Obviously I tried to decode headers by myself. I didn&#8217;t found exact recipe in GO, and found a lot of people looking for correct answer in many languages.
+The goal was to read image dimension from image file. Pretty easy task with standard &#8220;[image](https://golang.org/pkg/image/#DecodeConfig)&#8221; library and DecodeConfig. The tricky part was &#8211; file wasn&#8217;t completed &#8211; I had only beginning of the file . Obviously I tried to decode headers by myself. I didn&#8217;t found exact recipe in GO, and found a lot of people looking for correct answer in many languages.
 
 <!--more-->
 
 ### PNG headers
 
-Let&#8217;s start with the easy one. PNG headers are pretty standard &#8211; everything is in place. Just need to read begining of the file to array, and decode it like that
+Let&#8217;s start with the easy one. PNG headers are pretty standard &#8211; everything is in place. Just need to read beginning of the file to array, and decode it like that
 
 ```
 var body []byte

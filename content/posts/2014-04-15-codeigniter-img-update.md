@@ -34,7 +34,7 @@ tags:
   - img
 
 ---
-It&#8217;s been a while since my library <a href="https://github.com/slav123/CodeIgniter-Img" target="_blank">CodeIgniter img</a> was updated. Purpose of this library is pretty clear &#8211; to scale images on the fly using CodeIgniter. It&#8217;s very useful in all kinds of website and CMS-like projects. All you need to do, is just load library and inside view use it like that
+It&#8217;s been a while since my library [CodeIgniter img](https://github.com/slav123/CodeIgniter-Img) was updated. Purpose of this library is pretty clear &#8211; to scale images on the fly using CodeIgniter. It&#8217;s very useful in all kinds of website and CMS-like projects. All you need to do, is just load library and inside view use it like that
 
 ```
 $this->img->rimg('path/to/image.jpg', array('width' => 100, 'height' => 200, 'alt'='my awesome image'));

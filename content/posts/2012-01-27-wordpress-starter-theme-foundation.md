@@ -29,4 +29,4 @@ tags:
   - wordpress
 
 ---
-<a href="http://foundation.zurb.com/" target="_blank">Foundation</a> is a rapid prototyping and building library from ZURB. Which is basically great CSS framework. Light, quick in development and good looking. In last days I just discover great based starter theme based on this CSS framework &#8211; check it out <a href="http://fwp.drewsymo.com/" target="_blank">Foundation for WordPress</a> or just download directly from <a href="https://github.com/drewsymo/Foundation" target="_blank">GitHub</a>
+[Foundation](http://foundation.zurb.com/) is a rapid prototyping and building library from ZURB. Which is basically great CSS framework. Light, quick in development and good looking. In last days I just discover great based starter theme based on this CSS framework &#8211; check it out [Foundation for WordPress](http://fwp.drewsymo.com/) or just download directly from [GitHub](https://github.com/drewsymo/Foundation)

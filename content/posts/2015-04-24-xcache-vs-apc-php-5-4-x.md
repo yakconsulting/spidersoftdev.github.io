@@ -12,7 +12,7 @@ categories:
   - PHP
 
 ---
-Recently I&nbsp;decided to run some upgrades on my servers, and go up to PHP 5.5. I&#8217;ve been using <a href="http://pecl.php.net/package/APC" target="_blank">APC</a> for a while (convenience) &#8211; usually is also bundled with all available repositories, or you can just grab it via PECL. Before that I was always with <a href="http://xcache.lighttpd.net/" target="_blank">XCache</a>. But&#8230; as long APC is no lonager maintained (last upgrade 2012) I make a call about going to XCache. Run some benchmarks, and here what we got.
+Recently I&nbsp;decided to run some upgrades on my servers, and go up to PHP 5.5. I&#8217;ve been using [APC](http://pecl.php.net/package/APC) for a while (convenience) &#8211; usually is also bundled with all available repositories, or you can just grab it via PECL. Before that I was always with [XCache](http://xcache.lighttpd.net/). But&#8230; as long APC is no lonager maintained (last upgrade 2012) I make a call about going to XCache. Run some benchmarks, and here what we got.
 
 <!--more-->
 

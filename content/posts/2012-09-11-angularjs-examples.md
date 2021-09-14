@@ -28,7 +28,7 @@ tags:
   - javascript
 
 ---
-Did I mentioned before that I love <a href="http://angularjs.org/" target="_blank">AngularJS</a>? No? &#8211; I love it.
+Did I mentioned before that I love [AngularJS](http://angularjs.org/)? No? &#8211; I love it.
 
 Whole bunch of examples, but not of them are working: 
 * [JSFiddle-Examples](https://github.com/angular/angular.js/wiki/JSFiddle-Examples)\-Angular JS examples 
