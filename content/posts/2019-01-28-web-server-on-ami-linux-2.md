@@ -121,23 +121,25 @@ nano /etc/caddy/Caddyfile
 }
 ```
 
-At this time it&#8217;s worth while to upgrade our PHP configuration:
+At this time it&#8217;s worthwhile to upgrade our PHP configuration:
 
-<pre class="wp-block-code"><code>nano /etc/php-fpm.d/www.conf</code></pre>
+`nano /etc/php-fpm.d/www.conf`
 
 We have to replace user **apache** with **caddy**
 
-<pre class="wp-block-code"><code>; RPM: apache user chosen to provide access to the same directories as httpd
+```
+; RPM: apache user chosen to provide access to the same directories as httpd
 user = caddy
 ; RPM: Keep a group allowed to write in log dir.
-group = caddy</code></pre>
+group = caddy
+```
 
 And. restart php-fpm:
 
-<pre class="wp-block-code"><code>systemctl restart php-fpm.service</code></pre>
+`systemctl restart php-fpm.service`
 
 At this stage we should be able to run working webserver:
 
-<pre class="wp-block-code"><code>/usr/local/bin/caddy -conf=/etc/caddy/Caddyfile</code></pre>
+`/usr/local/bin/caddy -conf=/etc/caddy/Caddyfile`
 
-Looks cool &#8211; isn&#8217;t it ? Finally we can add service to run our caddy in magical way. Won&#8217;t describe it in detail, just <a rel="noreferrer noopener" aria-label="look here (opens in a new tab)" href="https://github.com/mholt/caddy/tree/master/dist/init/linux-systemd" target="_blank">look here</a> for detailed instructions.
+Looks cool &#8211; isn&#8217;t it ? Finally we can add service to run our caddy in magical way. Won&#8217;t describe it in detail, just [look here](https://github.com/mholt/caddy/tree/master/dist/init/linux-systemd) for detailed instructions.
