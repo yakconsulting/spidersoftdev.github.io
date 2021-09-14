@@ -835,7 +835,7 @@ $ vi themes/zafta/layouts/index.html
 <html>
 <body>
   {{ range first 10 .Data.Pages }}
-    <h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
+    <h1>[{{ .Title }}]({{ .Permalink }})</h1>
   {{ end }}
 </body>
 </html>
@@ -869,9 +869,9 @@ $ cat public/index.html
 <html>
 <body>
 
-    <h1><a href="/post/second/">second</a></h1>
+    <h1>[second](/post/second/)</h1>
 
-    <h1><a href="/post/first/">first</a></h1>
+    <h1>[first](/post/first/)</h1>
 
 </body>
 </html>
@@ -933,10 +933,10 @@ $ cat public/index.html
 <!DOCTYPE html>
 <html>
 <body>
-    <h1><a href="http://localhost:1313/post/theme/">creating a new theme</a></h1>
-    <h1><a href="http://localhost:1313/about-time/">about</a></h1>
-    <h1><a href="http://localhost:1313/post/second-post/">second</a></h1>
-    <h1><a href="http://localhost:1313/post/first-post/">first</a></h1>
+    <h1>[creating a new theme](http://localhost:1313/post/theme/)</h1>
+    <h1>[about](http://localhost:1313/about-time/)</h1>
+    <h1>[second](http://localhost:1313/post/second-post/)</h1>
+    <h1>[first](http://localhost:1313/post/first-post/)</h1>
 <script>document.write('<script src="http://'
         + (location.host || 'localhost').split(':')[0]
         + ':1313/livereload.js?mindelay=10"></'
@@ -954,14 +954,14 @@ $ vi themes/zafta/layouts/index.html
   <h1>posts</h1>
   {{ range first 10 .Data.Pages }}
     {{ if eq .Type "post"}}
-      <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+      <h2>[{{ .Title }}]({{ .Permalink }})</h2>
     {{ end }}
   {{ end }}
 
   <h1>pages</h1>
   {{ range .Data.Pages }}
     {{ if eq .Type "page" }}
-      <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+      <h2>[{{ .Title }}]({{ .Permalink }})</h2>
     {{ end }}
   {{ end }}
 </body>
@@ -1041,14 +1041,14 @@ $ vi themes/zafta/layouts/index.html
   <h1>posts</h1>
   {{ range first 10 .Data.Pages }}
     {{ if eq .Type "post"}}
-      <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+      <h2>[{{ .Title }}]({{ .Permalink }})</h2>
     {{ end }}
   {{ end }}
 
   <h1>pages</h1>
   {{ range .Data.Pages }}
     {{ if or (eq .Type "page") (eq .Type "about") }}
-      <h2><a href="{{ .Permalink }}">{{ .Type }} - {{ .Title }} - {{ .RelPermalink }}</a></h2>
+      <h2>[{{ .Type }} - {{ .Title }} - {{ .RelPermalink }}]({{ .Permalink }})</h2>
     {{ end }}
   {{ end }}
 

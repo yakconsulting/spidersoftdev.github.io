@@ -240,7 +240,7 @@ instead of depending on the context.
 
       {{ $title := .Site.Title }}
       {{ range .Params.tags }}
-        <li> <a href="{{ $baseurl }}/tags/{{ . | urlize }}">{{ . }}</a> - {{ $title }} </li>
+        <li> [{{ . }}]({{ $baseurl }}/tags/{{ . | urlize }}) - {{ $title }} </li>
       {{ end }}
 
 Notice how once we have entered the loop the value of {{ . }} has changed. We
@@ -334,7 +334,7 @@ so, such as in this example:
 <nav class="recent">
   <h1>Recent Posts</h1>
   <ul>{{range first .Site.Params.SidebarRecentLimit .Site.Recent}}
-    <li><a href="{{.RelPermalink}}">{{.Title}}</a></li>
+    <li>[{{.Title}}]({{.RelPermalink}})</li>
   {{end}}</ul>
 </nav>
 ```
