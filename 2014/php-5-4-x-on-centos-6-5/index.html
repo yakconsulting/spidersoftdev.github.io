@@ -8,30 +8,30 @@
 <meta name=description content>
 <meta property="og:title" content="PHP 5.4.x on CentOS 6.5">
 <meta property="og:description" content="Quick copy and paste list of commands to get PHP 5.4 on CentOS boxes
-Enable remi repo
-sudo nano /etc/yum.repos.d/remi.repo Update
-sudo yum update done…
-now you can follow these instructions to install LAMP stack">
+wget http://dl.fedoraproject.org/pub/epel/6/x86_64/epel-release-6-8.noarch.rpm wget http://rpms.famillecollet.com/enterprise/remi-release-6.rpm sudo rpm -Uvh remi-release-6*.rpm epel-release-6*.rpm Enable remi repo
+sudo nano /etc/yum.repos.d/remi.repo
+Update
+sudo yum update sudo yum info php Loaded plugins: fastestmirror, refresh-packagekit, security Loading mirror speeds from cached hostfile * base: mirror.optus.net * epel: fedora.mirror.serversaustralia.com.au * extras: ftp.swin.edu.au * remi: remi.kazukioishi.net * updates: ftp.swin.edu.au Available Packages Name : php Arch : x86_64 Version : 5.">
 <meta property="og:type" content="article">
-<meta property="og:url" content="http://www.spidersoft.com.au/2014/php-5-4-x-on-centos-6-5/"><meta property="article:section" content="posts">
+<meta property="og:url" content="https://www.spidersoft.com.au/2014/php-5-4-x-on-centos-6-5/"><meta property="article:section" content="posts">
 <meta property="article:published_time" content="2014-10-07T04:22:38+00:00">
 <meta property="article:modified_time" content="2014-10-07T04:22:38+00:00">
 <meta itemprop=name content="PHP 5.4.x on CentOS 6.5">
 <meta itemprop=description content="Quick copy and paste list of commands to get PHP 5.4 on CentOS boxes
-Enable remi repo
-sudo nano /etc/yum.repos.d/remi.repo Update
-sudo yum update done…
-now you can follow these instructions to install LAMP stack"><meta itemprop=datePublished content="2014-10-07T04:22:38+00:00">
+wget http://dl.fedoraproject.org/pub/epel/6/x86_64/epel-release-6-8.noarch.rpm wget http://rpms.famillecollet.com/enterprise/remi-release-6.rpm sudo rpm -Uvh remi-release-6*.rpm epel-release-6*.rpm Enable remi repo
+sudo nano /etc/yum.repos.d/remi.repo
+Update
+sudo yum update sudo yum info php Loaded plugins: fastestmirror, refresh-packagekit, security Loading mirror speeds from cached hostfile * base: mirror.optus.net * epel: fedora.mirror.serversaustralia.com.au * extras: ftp.swin.edu.au * remi: remi.kazukioishi.net * updates: ftp.swin.edu.au Available Packages Name : php Arch : x86_64 Version : 5."><meta itemprop=datePublished content="2014-10-07T04:22:38+00:00">
 <meta itemprop=dateModified content="2014-10-07T04:22:38+00:00">
-<meta itemprop=wordCount content="35">
+<meta itemprop=wordCount content="95">
 <meta itemprop=keywords content="centos,linux,php54,remi,repo,">
 <meta name=twitter:card content="summary">
 <meta name=twitter:title content="PHP 5.4.x on CentOS 6.5">
 <meta name=twitter:description content="Quick copy and paste list of commands to get PHP 5.4 on CentOS boxes
-Enable remi repo
-sudo nano /etc/yum.repos.d/remi.repo Update
-sudo yum update done…
-now you can follow these instructions to install LAMP stack">
+wget http://dl.fedoraproject.org/pub/epel/6/x86_64/epel-release-6-8.noarch.rpm wget http://rpms.famillecollet.com/enterprise/remi-release-6.rpm sudo rpm -Uvh remi-release-6*.rpm epel-release-6*.rpm Enable remi repo
+sudo nano /etc/yum.repos.d/remi.repo
+Update
+sudo yum update sudo yum info php Loaded plugins: fastestmirror, refresh-packagekit, security Loading mirror speeds from cached hostfile * base: mirror.optus.net * epel: fedora.mirror.serversaustralia.com.au * extras: ftp.swin.edu.au * remi: remi.kazukioishi.net * updates: ftp.swin.edu.au Available Packages Name : php Arch : x86_64 Version : 5.">
 <link rel=preconnect href=https://fonts.gstatic.com crossorigin>
 <link rel=dns-prefetch href=//fonts.googleapis.com>
 <link rel=dns-prefetch href=//fonts.gstatic.com>
@@ -108,17 +108,34 @@ now you can follow these instructions to install LAMP stack">
 </div></div>
 </header>
 <figure class=post__thumbnail>
-<img src=/images/uploads/2011/10/Centos-Logo.png alt="PHP 5.4.x on CentOS 6.5">
+<img src=/images/2011/10/Centos-Logo.png alt="PHP 5.4.x on CentOS 6.5">
 </figure><div class="content post__content clearfix">
 <p>Quick copy and paste list of commands to get PHP 5.4 on CentOS boxes</p>
-<p>Enable remi repo</p>
-<pre tabindex=0><code>sudo nano /etc/yum.repos.d/remi.repo
-</code></pre><p>Update</p>
+<pre tabindex=0><code>wget http://dl.fedoraproject.org/pub/epel/6/x86_64/epel-release-6-8.noarch.rpm
+wget http://rpms.famillecollet.com/enterprise/remi-release-6.rpm
+sudo rpm -Uvh remi-release-6*.rpm epel-release-6*.rpm
+</code></pre><p>Enable remi repo</p>
+<p><code>sudo nano /etc/yum.repos.d/remi.repo</code></p>
+<p>Update</p>
 <pre tabindex=0><code>sudo yum update
-</code></pre>
-<p>done…</p>
+sudo yum info php
+Loaded plugins: fastestmirror, refresh-packagekit, security
+Loading mirror speeds from cached hostfile
+ * base: mirror.optus.net
+ * epel: fedora.mirror.serversaustralia.com.au
+ * extras: ftp.swin.edu.au
+ * remi: remi.kazukioishi.net
+ * updates: ftp.swin.edu.au
+Available Packages
+Name        : php
+Arch        : x86_64
+Version     : 5.4.33
+Release     : 2.el6.remi
+Size        : 2.7 M
+Repo        : remi
+</code></pre><p>done…</p>
 <p>now you can follow
-<a href=http://www.spidersoft.com.au/2013/apache-php-config-boilerplate/ title="Amazon EC2 – Installing Apache and PHP boilerplate">these instructions</a>
+<a href=/2013/apache-php-config-boilerplate/ title="Amazon EC2 – Installing Apache and PHP boilerplate" target=_blank rel=noopener>these instructions</a>
 to install LAMP stack</p>
 </div>
 <footer class=post__footer>
@@ -183,7 +200,7 @@ to install LAMP stack</p>
 <input class=widget-search__field type=search placeholder=SEARCH… name=q aria-label=SEARCH…>
 </label>
 <input class=widget-search__submit type=submit value=Search>
-<input type=hidden name=sites value=http://www.spidersoft.com.au>
+<input type=hidden name=sites value=https://www.spidersoft.com.au>
 </form>
 </div>
 <div class="widget-categories widget">

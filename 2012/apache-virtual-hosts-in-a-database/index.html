@@ -19,9 +19,9 @@
      
  
  Apache
- . For me – “the best” thing in lighttpd is support for keeping vhost names in MySQL database. I don’t have to use any config files, I can just put record into MySQL database with virtual host server name, path to document root and it’s done. But – I can do the same witch Apache! How? With third party modules, belov you can find short tutorial “how to”.">
+ . For me – “the best” thing in lighttpd is support for keeping vhost names in MySQL database. I don’t have to use any config files, I can just put record into MySQL database with virtual host server name, path to document root and it’s done. But – I can do the same witch Apache! How? With third party modules, below you can find short tutorial “how to”.">
 <meta property="og:type" content="article">
-<meta property="og:url" content="http://www.spidersoft.com.au/2012/apache-virtual-hosts-in-a-database/"><meta property="article:section" content="posts">
+<meta property="og:url" content="https://www.spidersoft.com.au/2012/apache-virtual-hosts-in-a-database/"><meta property="article:section" content="posts">
 <meta property="article:published_time" content="2012-01-08T11:34:00+00:00">
 <meta property="article:modified_time" content="2012-01-08T11:34:00+00:00">
 <meta itemprop=name content="Apache Virtual Hosts in a Database">
@@ -37,9 +37,9 @@
      
  
  Apache
- . For me – “the best” thing in lighttpd is support for keeping vhost names in MySQL database. I don’t have to use any config files, I can just put record into MySQL database with virtual host server name, path to document root and it’s done. But – I can do the same witch Apache! How? With third party modules, belov you can find short tutorial “how to”."><meta itemprop=datePublished content="2012-01-08T11:34:00+00:00">
+ . For me – “the best” thing in lighttpd is support for keeping vhost names in MySQL database. I don’t have to use any config files, I can just put record into MySQL database with virtual host server name, path to document root and it’s done. But – I can do the same witch Apache! How? With third party modules, below you can find short tutorial “how to”."><meta itemprop=datePublished content="2012-01-08T11:34:00+00:00">
 <meta itemprop=dateModified content="2012-01-08T11:34:00+00:00">
-<meta itemprop=wordCount content="207">
+<meta itemprop=wordCount content="273">
 <meta itemprop=keywords content="apache,configuration,linux,server,www,">
 <meta name=twitter:card content="summary">
 <meta name=twitter:title content="Apache Virtual Hosts in a Database">
@@ -55,7 +55,7 @@
      
  
  Apache
- . For me – “the best” thing in lighttpd is support for keeping vhost names in MySQL database. I don’t have to use any config files, I can just put record into MySQL database with virtual host server name, path to document root and it’s done. But – I can do the same witch Apache! How? With third party modules, belov you can find short tutorial “how to”.">
+ . For me – “the best” thing in lighttpd is support for keeping vhost names in MySQL database. I don’t have to use any config files, I can just put record into MySQL database with virtual host server name, path to document root and it’s done. But – I can do the same witch Apache! How? With third party modules, below you can find short tutorial “how to”.">
 <link rel=preconnect href=https://fonts.gstatic.com crossorigin>
 <link rel=dns-prefetch href=//fonts.googleapis.com>
 <link rel=dns-prefetch href=//fonts.gstatic.com>
@@ -135,19 +135,41 @@
 <a href=http://www.lighttpd.net/>lighttpd</a>
  sometimes I can’t avoid
 <a href=http://httpd.apache.org/>Apache</a>
-. For me – “the best” thing in lighttpd is support for keeping vhost names in MySQL database. I don’t have to use any config files, I can just put record into MySQL database with virtual host server name, path to document root and it’s done. But – I can do the same witch Apache! How? With third party modules, belov you can find short tutorial “how to”.</p>
+. For me – “the best” thing in lighttpd is support for keeping vhost names in MySQL database. I don’t have to use any config files, I can just put record into MySQL database with virtual host server name, path to document root and it’s done. But – I can do the same witch Apache! How? With third party modules, below you can find short tutorial “how to”.</p>
 <p>I assume that you have already Apache and MySQL running. What we need to do to install some modules. Examples are based on AMI Linux, but probably this instructions will work on any RedHat based installation like CentOs or others.</p>
-<p>Ok. Lets upgrade apache with devel module, for APXS:</p>
+<p>Ok. Let&rsquo;s upgrade apache with devel module, for APXS:</p>
+<p><code>yum install httpd-devel apr-util-mysql</code></p>
 <p>We als need 
 <a href=http://code.google.com/p/dbd-modules/>dbd-modules</a>
 – Apache modules to allow Apache 2.2+ to access databases using DBD.</p>
-<p>Now we need to create entries in httpd.conf in my case this will be:</p>
-<p>and</p>
-<p>Where <code>dbhost,dbuser,dbpass,dbname</code> will be our MySQL details to login. Now we need to create mysql table:</p>
+<pre tabindex=0><code>wget http://dbd-modules.googlecode.com/files/dbd-modules-1.0.5.zip
+unzip -d dbd dbd-modules-1.0.5.zip
+cd dbd
+apxs -c mod_vhost_dbd.c
+apxs -i mod_vhost_dbd.la
+</code></pre><p>Now we need to create entries in httpd.conf in my case this will be:</p>
+<pre tabindex=0><code>LoadModule dbd_module modules/mod_dbd.so
+LoadModule vhost_dbd_module modules/mod_vhost_dbd.so
+</code></pre><p>and</p>
+<pre tabindex=0><code>&lt;VirtualHost *:80&gt;
+    ServerName *
+    DocumentRoot &quot;/var/www/html&quot;
+
+    DBDriver mysql
+    DBDParams host=dbhost,user=dbuser,pass=dbpass,dbname=dbname
+
+    DBDocRoot &quot;SELECT DocumentRoot FROM apache WHERE ServerName = %s&quot;  HOSTNAME
+&lt;/VirtualHost&gt;
+</code></pre><p>Where <code>dbhost,dbuser,dbpass,dbname</code> will be our MySQL details to login. Now we need to create mysql table:</p>
 <p>MySQL tables configuration:</p>
-<p>Done. Now you can restart your MySQL server:<br>
+<pre tabindex=0><code>CREATE TABLE IF NOT EXISTS `apache` (
+  `ServerName` varchar(128) NOT NULL,
+  `DocumentRoot` varchar(256) NOT NULL,
+  PRIMARY KEY (`ServerName`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+</code></pre><p>Done. Now you can restart your MySQL server:<br>
 <code>service httpd restart</code><br>
-and add some entries to MySQL database – where <strong>ServerName</strong> will be hostname, and <strong>DocumentRoot</strong> is self explanatory.</p>
+and add some entries to MySQL database – where <strong>ServerName</strong> will be hostname, and <strong>DocumentRoot</strong> is self-explanatory.</p>
 </div>
 <footer class=post__footer>
 <div class="post__tags tags clearfix"><svg class="tags__badge icon icon-tag" width="16" height="16" viewBox="0 0 32 32"><path d="M32 19c0 1-1 2-1 2L21 31s-1 1-2 1-2-1-2-1L2 16c-1-1-1.4-2-1.4-2S0 12.5.0 11V3C0 1.5.8.8.8.8S1.5.0 3 0h8c1.5.0 3 .6 3 .6S15 1 16 2l15 15s1 1 1 2zM7 10a3 3 0 100-6 3 3 0 000 6z"/></svg>
@@ -211,7 +233,7 @@ and add some entries to MySQL database – where <strong>ServerName</strong> wil
 <input class=widget-search__field type=search placeholder=SEARCH… name=q aria-label=SEARCH…>
 </label>
 <input class=widget-search__submit type=submit value=Search>
-<input type=hidden name=sites value=http://www.spidersoft.com.au>
+<input type=hidden name=sites value=https://www.spidersoft.com.au>
 </form>
 </div>
 <div class="widget-categories widget">

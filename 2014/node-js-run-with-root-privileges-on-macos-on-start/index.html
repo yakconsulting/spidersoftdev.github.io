@@ -9,13 +9,13 @@
 <meta property="og:title" content="node.js run with root privileges on MacOS on start">
 <meta property="og:description" content="How long it’s quite easy to setup init.d services on linux boxes, same task on Max OS machines is pretty hard. Especially if you need to run it with root privileges.">
 <meta property="og:type" content="article">
-<meta property="og:url" content="http://www.spidersoft.com.au/2014/node-js-run-with-root-privileges-on-macos-on-start/"><meta property="article:section" content="posts">
+<meta property="og:url" content="https://www.spidersoft.com.au/2014/node-js-run-with-root-privileges-on-macos-on-start/"><meta property="article:section" content="posts">
 <meta property="article:published_time" content="2014-01-16T08:37:58+00:00">
 <meta property="article:modified_time" content="2014-01-16T08:37:58+00:00">
 <meta itemprop=name content="node.js run with root privileges on MacOS on start">
 <meta itemprop=description content="How long it’s quite easy to setup init.d services on linux boxes, same task on Max OS machines is pretty hard. Especially if you need to run it with root privileges."><meta itemprop=datePublished content="2014-01-16T08:37:58+00:00">
 <meta itemprop=dateModified content="2014-01-16T08:37:58+00:00">
-<meta itemprop=wordCount content="42">
+<meta itemprop=wordCount content="81">
 <meta itemprop=keywords content="javascript,mac os,nodejs,server,">
 <meta name=twitter:card content="summary">
 <meta name=twitter:title content="node.js run with root privileges on MacOS on start">
@@ -96,14 +96,43 @@
 </div></div>
 </header>
 <figure class=post__thumbnail>
-<img src=/images/uploads/2013/07/node-logo.png alt="node.js run with root privileges on MacOS on start">
+<img src=/images/2013/07/node-logo.png alt="node.js run with root privileges on MacOS on start">
 </figure><div class="content post__content clearfix">
 <p>How long it’s quite easy to setup init.d services on linux boxes, same task on Max OS machines is pretty hard. Especially if you need to run it with root privileges.</p>
 <p>Create file</p>
 <pre tabindex=0><code>/Library/LaunchDaemons/com.spidersoft.cms.plist
 </code></pre><p>Content of this file should be like that:</p>
-<blockquote>
-</blockquote>
+<pre tabindex=0><code>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE plist PUBLIC &quot;-//Apple//DTD PLIST 1.0//EN&quot; &quot;http://www.apple.com/DTDs/PropertyList-1.0.dtd&quot;&gt;
+&lt;plist version=&quot;1.0&quot;&gt;
+&lt;dict&gt;
+&lt;key&gt;KeepAlive&lt;/key&gt;
+&lt;dict&gt;
+&lt;key&gt;SuccessfulExit&lt;/key&gt;
+&lt;false/&gt;
+&lt;/dict&gt;
+&lt;key&gt;OnDemand&lt;/key&gt;
+&lt;false/&gt;
+&lt;key&gt;Label&lt;/key&gt;
+&lt;string&gt;com.imagination.cms&lt;/string&gt;
+&lt;key&gt;ProgramArguments&lt;/key&gt;
+&lt;array&gt;
+&lt;string&gt;/usr/local/bin/node&lt;/string&gt;
+&lt;string&gt;/usr/local/bin/forever&lt;/string&gt;
+&lt;string&gt;-a&lt;/string&gt;
+&lt;string&gt;-l&lt;/string&gt;
+&lt;string&gt;/Users/admin/Documents/cms/app.log&lt;/string&gt;
+&lt;string&gt;-e&lt;/string&gt;
+&lt;string&gt;/Users/admin/Documents/cms/app_error.log&lt;/string&gt;
+&lt;string&gt;/Users/admin/Documents/cms/app.js&lt;/string&gt;
+&lt;/array&gt;
+&lt;key&gt;RunAtLoad&lt;/key&gt;
+&lt;true/&gt;
+&lt;key&gt;UserName&lt;/key&gt;
+&lt;string&gt;root&lt;/string&gt;
+&lt;/dict&gt;
+&lt;/plist&gt;
+</code></pre>
 </div>
 <footer class=post__footer>
 <div class="post__tags tags clearfix"><svg class="tags__badge icon icon-tag" width="16" height="16" viewBox="0 0 32 32"><path d="M32 19c0 1-1 2-1 2L21 31s-1 1-2 1-2-1-2-1L2 16c-1-1-1.4-2-1.4-2S0 12.5.0 11V3C0 1.5.8.8.8.8S1.5.0 3 0h8c1.5.0 3 .6 3 .6S15 1 16 2l15 15s1 1 1 2zM7 10a3 3 0 100-6 3 3 0 000 6z"/></svg>
@@ -164,7 +193,7 @@
 <input class=widget-search__field type=search placeholder=SEARCH… name=q aria-label=SEARCH…>
 </label>
 <input class=widget-search__submit type=submit value=Search>
-<input type=hidden name=sites value=http://www.spidersoft.com.au>
+<input type=hidden name=sites value=https://www.spidersoft.com.au>
 </form>
 </div>
 <div class="widget-categories widget">
