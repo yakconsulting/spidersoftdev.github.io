@@ -4,7 +4,7 @@ author: admin
 type: post
 date: 2015-04-29T23:58:12+00:00
 url: /2015/vips-on-ami-linux/
-thumbnail: images/uploads/2015/04/gpu_amazon_ec2_logo.png
+thumbnail: images/2015/04/gpu_amazon_ec2_logo.png
 dsq_thread_id:
   - 3723931539
 nkweb_code_in_head:

@@ -31,22 +31,22 @@ This time, we are going to create separate volume.
 
 We start with creating new Volume:
 
-![EC2-Management-Console](images/uploads/2017/09/EC2-Management-Console.jpg)
+![EC2-Management-Console](images/2017/09/EC2-Management-Console.jpg)
 
 Make sure that your volume is in the same zone, as your instance:
 
-![EC2-Management-Console-1](images/uploads/2017/09/EC2-Management-Console-1.jpg)
+![EC2-Management-Console-1](images/2017/09/EC2-Management-Console-1.jpg)
 
 Attach volume to your desired instance:
 
 &nbsp;
 
-![attach-volume](images/uploads/2017/09/attach-volume.png)
+![attach-volume](images/2017/09/attach-volume.png)
 
 
 After attaching &#8211; don&#8217;t forget to note Device &#8211; `/dev/sdf` in our case&#8230;
 
-![](images/uploads/2017/09/attach-volume-1.png)
+![](images/2017/09/attach-volume-1.png)
 
 &nbsp;
 

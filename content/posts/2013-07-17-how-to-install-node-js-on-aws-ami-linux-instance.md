@@ -4,7 +4,7 @@ author: admin
 type: post
 date: 2013-07-17T00:25:57+00:00
 url: /2013/how-to-install-node-js-on-aws-ami-linux-instance/
-thumbnail: images/uploads/2013/07/node-logo.png
+thumbnail: images/2013/07/node-logo.png
 layout:
   - default
 hide_post_title:

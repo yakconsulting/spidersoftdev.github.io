@@ -4,7 +4,7 @@ author: admin
 type: post
 date: 2014-09-20T23:18:54+00:00
 url: /2014/hhvm-on-amazon-ec2-in-2-minutes/
-thumbnail: images/uploads/2014/09/hhvm.png
+thumbnail: images/2014/09/hhvm.png
 dsq_thread_id:
   - 3037758859
 nkweb_code_in_head:

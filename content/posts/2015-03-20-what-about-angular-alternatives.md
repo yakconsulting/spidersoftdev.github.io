@@ -4,7 +4,7 @@ author: admin
 type: post
 date: 2015-03-20T05:56:58+00:00
 url: /2015/what-about-angular-alternatives/
-thumbnail: images/uploads/2015/03/AngularJS-large.png
+thumbnail: images/2015/03/AngularJS-large.png
 dsq_thread_id:
   - 3611112466
 categories:

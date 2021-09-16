@@ -4,7 +4,7 @@ author: admin
 type: post
 date: 2010-12-02T21:41:50+00:00
 url: /2010/piwik-as-a-alternative-to-google-analytics/
-thumbnail: images/uploads/2010/12/piwik.png
+thumbnail: images/2010/12/piwik.png
 aktt_notify_twitter:
   - no
 dsq_thread_id:
@@ -33,19 +33,19 @@ Actually we are offering **hosted Piwik statics for free**. If your are interes
 <div id='gallery-1' class='gallery galleryid-78 gallery-columns-3 gallery-size-thumbnail'>
   <dl class='gallery-item'>
     <dt class='gallery-icon landscape'>
-      <a href='https://www.spidersoft.com.au/wp-content/uploads/2010/12/piwik.png' title="" data-rl_title="" class="rl-gallery-link" data-rl_caption="" data-rel="lightbox-gallery-1"><img width="320" height="173" src="https://www.spidersoft.com.au/wp-content/uploads/2010/12/piwik-320x173.png" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" srcset="https://www.spidersoft.com.au/wp-content/uploads/2010/12/piwik-320x173.png 320w,images/uploads/2010/12/piwik-560x303.png 560w,images/uploads/2010/12/piwik.png 700w" sizes="(max-width: 320px) 100vw, 320px" /></a>
+      <a href='https://www.spidersoft.com.au/wp-content/uploads/2010/12/piwik.png' title="" data-rl_title="" class="rl-gallery-link" data-rl_caption="" data-rel="lightbox-gallery-1"><img width="320" height="173" src="https://www.spidersoft.com.au/wp-content/uploads/2010/12/piwik-320x173.png" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" srcset="https://www.spidersoft.com.au/wp-content/uploads/2010/12/piwik-320x173.png 320w,images/2010/12/piwik-560x303.png 560w,images/2010/12/piwik.png 700w" sizes="(max-width: 320px) 100vw, 320px" /></a>
     </dt>
   </dl>
   
   <dl class='gallery-item'>
     <dt class='gallery-icon landscape'>
-      <a href='https://www.spidersoft.com.au/wp-content/uploads/2010/12/piwik1.png' title="" data-rl_title="" class="rl-gallery-link" data-rl_caption="" data-rel="lightbox-gallery-1"><img width="320" height="220" src="https://www.spidersoft.com.au/wp-content/uploads/2010/12/piwik1-320x220.png" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" srcset="https://www.spidersoft.com.au/wp-content/uploads/2010/12/piwik1-320x220.png 320w,images/uploads/2010/12/piwik1-560x385.png 560w,images/uploads/2010/12/piwik1.png 800w" sizes="(max-width: 320px) 100vw, 320px" /></a>
+      <a href='https://www.spidersoft.com.au/wp-content/uploads/2010/12/piwik1.png' title="" data-rl_title="" class="rl-gallery-link" data-rl_caption="" data-rel="lightbox-gallery-1"><img width="320" height="220" src="https://www.spidersoft.com.au/wp-content/uploads/2010/12/piwik1-320x220.png" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" srcset="https://www.spidersoft.com.au/wp-content/uploads/2010/12/piwik1-320x220.png 320w,images/2010/12/piwik1-560x385.png 560w,images/2010/12/piwik1.png 800w" sizes="(max-width: 320px) 100vw, 320px" /></a>
     </dt>
   </dl>
   
   <dl class='gallery-item'>
     <dt class='gallery-icon landscape'>
-      <a href='https://www.spidersoft.com.au/wp-content/uploads/2010/12/piwik2.png' title="" data-rl_title="" class="rl-gallery-link" data-rl_caption="" data-rel="lightbox-gallery-1"><img width="320" height="143" src="https://www.spidersoft.com.au/wp-content/uploads/2010/12/piwik2-320x143.png" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" srcset="https://www.spidersoft.com.au/wp-content/uploads/2010/12/piwik2-320x143.png 320w,images/uploads/2010/12/piwik2-560x250.png 560w,images/uploads/2010/12/piwik2.png 800w" sizes="(max-width: 320px) 100vw, 320px" /></a>
+      <a href='https://www.spidersoft.com.au/wp-content/uploads/2010/12/piwik2.png' title="" data-rl_title="" class="rl-gallery-link" data-rl_caption="" data-rel="lightbox-gallery-1"><img width="320" height="143" src="https://www.spidersoft.com.au/wp-content/uploads/2010/12/piwik2-320x143.png" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" srcset="https://www.spidersoft.com.au/wp-content/uploads/2010/12/piwik2-320x143.png 320w,images/2010/12/piwik2-560x250.png 560w,images/2010/12/piwik2.png 800w" sizes="(max-width: 320px) 100vw, 320px" /></a>
     </dt>
   </dl>
   
@@ -53,19 +53,19 @@ Actually we are offering **hosted Piwik statics for free**. If your are interes
   
   <dl class='gallery-item'>
     <dt class='gallery-icon portrait'>
-      <a href='https://www.spidersoft.com.au/wp-content/uploads/2010/12/piwik3.png' title="" data-rl_title="" class="rl-gallery-link" data-rl_caption="" data-rel="lightbox-gallery-1"><img width="217" height="240" src="https://www.spidersoft.com.au/wp-content/uploads/2010/12/piwik3-217x240.png" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" srcset="https://www.spidersoft.com.au/wp-content/uploads/2010/12/piwik3-217x240.png 217w,images/uploads/2010/12/piwik3-380x420.png 380w,images/uploads/2010/12/piwik3.png 510w" sizes="(max-width: 217px) 100vw, 217px" /></a>
+      <a href='https://www.spidersoft.com.au/wp-content/uploads/2010/12/piwik3.png' title="" data-rl_title="" class="rl-gallery-link" data-rl_caption="" data-rel="lightbox-gallery-1"><img width="217" height="240" src="https://www.spidersoft.com.au/wp-content/uploads/2010/12/piwik3-217x240.png" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" srcset="https://www.spidersoft.com.au/wp-content/uploads/2010/12/piwik3-217x240.png 217w,images/2010/12/piwik3-380x420.png 380w,images/2010/12/piwik3.png 510w" sizes="(max-width: 217px) 100vw, 217px" /></a>
     </dt>
   </dl>
   
   <dl class='gallery-item'>
     <dt class='gallery-icon landscape'>
-      <a href='https://www.spidersoft.com.au/wp-content/uploads/2010/12/piwik4.png' title="" data-rl_title="" class="rl-gallery-link" data-rl_caption="" data-rel="lightbox-gallery-1"><img width="320" height="110" src="https://www.spidersoft.com.au/wp-content/uploads/2010/12/piwik4-320x110.png" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" srcset="https://www.spidersoft.com.au/wp-content/uploads/2010/12/piwik4-320x110.png 320w,images/uploads/2010/12/piwik4-560x193.png 560w,images/uploads/2010/12/piwik4.png 800w" sizes="(max-width: 320px) 100vw, 320px" /></a>
+      <a href='https://www.spidersoft.com.au/wp-content/uploads/2010/12/piwik4.png' title="" data-rl_title="" class="rl-gallery-link" data-rl_caption="" data-rel="lightbox-gallery-1"><img width="320" height="110" src="https://www.spidersoft.com.au/wp-content/uploads/2010/12/piwik4-320x110.png" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" srcset="https://www.spidersoft.com.au/wp-content/uploads/2010/12/piwik4-320x110.png 320w,images/2010/12/piwik4-560x193.png 560w,images/2010/12/piwik4.png 800w" sizes="(max-width: 320px) 100vw, 320px" /></a>
     </dt>
   </dl>
   
   <dl class='gallery-item'>
     <dt class='gallery-icon landscape'>
-      <a href='https://www.spidersoft.com.au/wp-content/uploads/2010/12/piwik5.png' title="" data-rl_title="" class="rl-gallery-link" data-rl_caption="" data-rel="lightbox-gallery-1"><img width="268" height="240" src="https://www.spidersoft.com.au/wp-content/uploads/2010/12/piwik5-268x240.png" class="attachment-thumbnail size-thumbnail" alt="Piwik Visitors Settings page" loading="lazy" srcset="https://www.spidersoft.com.au/wp-content/uploads/2010/12/piwik5-268x240.png 268w,images/uploads/2010/12/piwik5-470x420.png 470w,images/uploads/2010/12/piwik5.png 800w" sizes="(max-width: 268px) 100vw, 268px" /></a>
+      <a href='https://www.spidersoft.com.au/wp-content/uploads/2010/12/piwik5.png' title="" data-rl_title="" class="rl-gallery-link" data-rl_caption="" data-rel="lightbox-gallery-1"><img width="268" height="240" src="https://www.spidersoft.com.au/wp-content/uploads/2010/12/piwik5-268x240.png" class="attachment-thumbnail size-thumbnail" alt="Piwik Visitors Settings page" loading="lazy" srcset="https://www.spidersoft.com.au/wp-content/uploads/2010/12/piwik5-268x240.png 268w,images/2010/12/piwik5-470x420.png 470w,images/2010/12/piwik5.png 800w" sizes="(max-width: 268px) 100vw, 268px" /></a>
     </dt>
   </dl>
   

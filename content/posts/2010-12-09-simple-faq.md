@@ -4,7 +4,7 @@ author: admin
 type: post
 date: 2010-12-09T09:26:26+00:00
 url: /2010/simple-faq/
-thumbnail: images/uploads/2010/12/wp.png
+thumbnail: images/2010/12/wp.png
 aktt_notify_twitter:
   - no
 layout:
@@ -47,10 +47,10 @@ Because that is general idea. If you want more functions &#8211; put post on for
 
 ## Screenshot
 
-## [<img loading="lazy" class="aligncenter size-medium wp-image-423" title="simple-faq1" src="http://www.spidersoft.com.au/wp-content/uploads/2010/12/simple-faq1.png" alt="Simple FAQ" width="560" height="324" srcset="https://www.spidersoft.com.au/wp-content/uploads/2010/12/simple-faq1.png 806w,images/uploads/2010/12/simple-faq1-320x185.png 320w,images/uploads/2010/12/simple-faq1-560x324.png 560w" sizes="(max-width: 560px) 100vw, 560px" />](http://www.spidersoft.com.au/wp-content/uploads/2010/12/simple-faq1.png)
+## [<img loading="lazy" class="aligncenter size-medium wp-image-423" title="simple-faq1" src="http://www.spidersoft.com.au/wp-content/uploads/2010/12/simple-faq1.png" alt="Simple FAQ" width="560" height="324" srcset="https://www.spidersoft.com.au/wp-content/uploads/2010/12/simple-faq1.png 806w,images/2010/12/simple-faq1-320x185.png 320w,images/2010/12/simple-faq1-560x324.png 560w" sizes="(max-width: 560px) 100vw, 560px" />](http://www.spidersoft.com.au/wp-content/uploads/2010/12/simple-faq1.png)
 
 <p style="text-align: center;">
-  [<img loading="lazy" class="aligncenter size-medium wp-image-424" title="simple-faq2" src="http://www.spidersoft.com.au/wp-content/uploads/2010/12/simple-faq2-560x368.png" alt="Simple FAQ 2" width="560" height="368" srcset="https://www.spidersoft.com.au/wp-content/uploads/2010/12/simple-faq2-560x368.png 560w,images/uploads/2010/12/simple-faq2-320x210.png 320w,images/uploads/2010/12/simple-faq2.png 808w" sizes="(max-width: 560px) 100vw, 560px" />](http://www.spidersoft.com.au/wp-content/uploads/2010/12/simple-faq2.png)
+  [<img loading="lazy" class="aligncenter size-medium wp-image-424" title="simple-faq2" src="http://www.spidersoft.com.au/wp-content/uploads/2010/12/simple-faq2-560x368.png" alt="Simple FAQ 2" width="560" height="368" srcset="https://www.spidersoft.com.au/wp-content/uploads/2010/12/simple-faq2-560x368.png 560w,images/2010/12/simple-faq2-320x210.png 320w,images/2010/12/simple-faq2.png 808w" sizes="(max-width: 560px) 100vw, 560px" />](http://www.spidersoft.com.au/wp-content/uploads/2010/12/simple-faq2.png)
 </p>
 
 ## Example

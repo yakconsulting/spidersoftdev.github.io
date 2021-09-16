@@ -4,7 +4,7 @@ author: admin
 type: post
 date: 2019-01-14T10:58:34+00:00
 url: /2019/html5-video-tag-and-webm/
-thumbnail: images/uploads/2019/01/children-593313_1280.jpg
+thumbnail: images/2019/01/children-593313_1280.jpg
 categories:
   - Technologies
   - Web Development

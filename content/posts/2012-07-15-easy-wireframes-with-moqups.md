@@ -4,7 +4,7 @@ author: admin
 type: post
 date: 2012-07-15T12:50:20+00:00
 url: /2012/easy-wireframes-with-moqups/
-thumbnail: images/uploads/2012/07/moqups.png
+thumbnail: images/2012/07/moqups.png
 layout:
   - default
 hide_post_title:

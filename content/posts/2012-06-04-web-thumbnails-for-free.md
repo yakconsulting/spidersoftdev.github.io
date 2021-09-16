@@ -4,7 +4,7 @@ author: admin
 type: post
 date: 2012-06-03T23:45:08+00:00
 url: /2012/web-thumbnails-for-free/
-thumbnail: images/uploads/2012/06/webthumbnail.jpg
+thumbnail: images/2012/06/webthumbnail.jpg
 layout:
   - default
 hide_post_title:

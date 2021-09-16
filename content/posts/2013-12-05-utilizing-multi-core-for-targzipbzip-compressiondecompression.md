@@ -4,7 +4,7 @@ author: admin
 type: post
 date: 2013-12-05T03:03:14+00:00
 url: /2013/utilizing-multi-core-for-targzipbzip-compressiondecompression/
-thumbnail: images/uploads/2013/12/multicore.jpg
+thumbnail: images/2013/12/multicore.jpg
 layout:
   - default
 hide_post_title:

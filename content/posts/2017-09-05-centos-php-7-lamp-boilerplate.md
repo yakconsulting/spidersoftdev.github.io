@@ -4,7 +4,7 @@ author: admin
 type: post
 date: 2017-09-05T03:45:48+00:00
 url: /2017/centos-php-7-lamp-boilerplate/
-thumbnail: images/uploads/2017/09/CentOSLogo.png
+thumbnail: images/2017/09/CentOSLogo.png
 dsq_thread_id:
   - 6120377031
 categories:

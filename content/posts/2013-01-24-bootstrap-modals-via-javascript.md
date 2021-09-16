@@ -4,7 +4,7 @@ author: admin
 type: post
 date: 2013-01-24T00:58:47+00:00
 url: /2013/bootstrap-modals-via-javascript/
-thumbnail: images/uploads/2013/01/Bootbox.png
+thumbnail: images/2013/01/Bootbox.png
 layout:
   - default
 hide_post_title:

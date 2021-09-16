@@ -5,7 +5,7 @@ author: admin
 type: post
 date: 2018-07-24T10:59:44+00:00
 url: /2018/australian-postcode-to-state-conversion/
-thumbnail: images/uploads/2018/07/australian-428009_1280.jpg
+thumbnail: images/2018/07/australian-428009_1280.jpg
 nkweb_code_in_head:
   - default
 nkweb_Use_Custom_js:

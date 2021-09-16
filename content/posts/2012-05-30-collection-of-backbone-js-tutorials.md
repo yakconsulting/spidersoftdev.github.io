@@ -4,7 +4,7 @@ author: admin
 type: post
 date: 2012-05-30T00:38:06+00:00
 url: /2012/collection-of-backbone-js-tutorials/
-thumbnail: images/uploads/2012/05/backbone.png
+thumbnail: images/2012/05/backbone.png
 layout:
   - default
 hide_post_title:

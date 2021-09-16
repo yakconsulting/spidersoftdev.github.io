@@ -11,7 +11,7 @@ categories:
   - "Blog"
 tags:
   - "hugo"
-thumbnail: images/uploads/2021/08/hugo-logo-wide.png
+thumbnail: images/2021/08/hugo-logo-wide.png
 lead: "Bunch of resources related with scaling images in hugo" # Lead text
 ---
 

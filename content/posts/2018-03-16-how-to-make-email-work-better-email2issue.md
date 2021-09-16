@@ -4,7 +4,7 @@ author: admin
 type: post
 date: 2018-03-16T09:02:56+00:00
 url: /2018/how-to-make-email-work-better-email2issue/
-thumbnail: images/uploads/2018/03/mail-bug-interface-symbol.png
+thumbnail: images/2018/03/mail-bug-interface-symbol.png
 nkweb_code_in_head:
   - default
 nkweb_Use_Custom_js:

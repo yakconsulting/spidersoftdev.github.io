@@ -4,7 +4,7 @@ author: slav
 type: post
 date: 2014-01-16T08:37:58+00:00
 url: /2014/node-js-run-with-root-privileges-on-macos-on-start/
-thumbnail: images/uploads/2013/07/node-logo.png
+thumbnail: images/2013/07/node-logo.png
 layout:
   - default
 hide_post_title:
@@ -42,7 +42,8 @@ Create file
 
 Content of this file should be like that:
 
-<pre><?xml version="1.0" encoding="UTF-8"?>
+```
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
@@ -72,4 +73,4 @@ Content of this file should be like that:
 <string>root</string>
 </dict>
 </plist>
-</pre>
+```

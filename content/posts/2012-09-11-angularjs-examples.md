@@ -4,7 +4,7 @@ author: admin
 type: post
 date: 2012-09-11T09:20:40+00:00
 url: /2012/angularjs-examples/
-thumbnail: images/uploads/2012/07/angularjs.png
+thumbnail: images/2012/07/angularjs.png
 layout:
   - default
 hide_post_title:

@@ -4,7 +4,7 @@ author: admin
 type: post
 date: 2011-07-03T20:19:57+00:00
 url: /2011/codeigniter-img-thumbnails-on-the-fly/
-thumbnail: images/uploads/2011/07/CodeIgniter.jpg
+thumbnail: images/2011/07/CodeIgniter.jpg
 dsq_thread_id:
   - 1160997566
 categories:

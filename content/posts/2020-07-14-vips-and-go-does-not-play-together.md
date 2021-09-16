@@ -3,7 +3,7 @@ title: Why VIPS and Go it’s not a good match for production environment
 author: admin
 type: post
 date: 2021-07-14T07:19:08+00:00
-thumbnail: images/uploads/2021/07/gopher.png
+thumbnail: images/2021/07/gopher.png
 lead: using cgo bindings in go is a not an easy way
 categories:
   - Software

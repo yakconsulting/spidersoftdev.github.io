@@ -4,7 +4,7 @@ author: admin
 type: post
 date: 2012-09-13T05:24:14+00:00
 url: /2012/phpstorm-5-released/
-thumbnail: images/uploads/2012/09/phpstorm5.png
+thumbnail: images/2012/09/phpstorm5.png
 layout:
   - default
 hide_post_title:

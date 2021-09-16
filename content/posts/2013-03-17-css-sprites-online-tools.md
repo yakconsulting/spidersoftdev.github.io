@@ -4,7 +4,7 @@ author: admin
 type: post
 date: 2013-03-17T10:26:01+00:00
 url: /2013/css-sprites-online-tools/
-thumbnail: images/uploads/2013/03/SpriteCow.png
+thumbnail: images/2013/03/SpriteCow.png
 layout:
   - default
 hide_post_title:
@@ -41,14 +41,14 @@ With SpritePad you can create your CSS sprites within minutes seconds. Simply dr
 
 [spritepad.wearekiss.com](http://spritepad.wearekiss.com)
 
-![SpritePad](images/uploads/2013/03/spritepad.png "SpritePad")
+![SpritePad](images/2013/03/spritepad.png "SpritePad")
 
 
 ## [ZeroSprites](https://zerosprites.github.io) &#8211; minimise space taken by images
 
 ZeroSprites is a CSS sprites generator aimed at area minimization using VLSI floorplaning algorithms.
 
-![ZeroSprites](images/uploads/2013/03/ZeroSprites.png)
+![ZeroSprites](images/2013/03/ZeroSprites.png)
 
 ## [Sprite Cow](http://www.spritecow.com) &#8211; find position of the sprite
 
@@ -58,10 +58,10 @@ Automated spritesheet generators are pretty cool, but I prefer the control over 
 
 [www.spritecow.com](http://www.spritecow.com/)
 
-![spritecow](images/uploads/2013/03/SpriteCow.png)
+![spritecow](images/2013/03/SpriteCow.png)
 
 ## [Stitches](https://draeton.github.io/stitches/) is an HTML5 sprite sheet generator.
 
-![](images/uploads/2013/03/Stitches.png)
+![](images/2013/03/Stitches.png)
 
 [https://draeton.github.io/stitches/](https://draeton.github.io/stitches/)

@@ -4,7 +4,7 @@ author: admin
 type: post
 date: 2011-08-15T02:37:29+00:00
 url: /2011/attribute-value-in-magento/
-thumbnail: images/uploads/2011/08/magento_logo.png
+thumbnail: images/2011/08/magento_logo.png
 dsq_thread_id:
   - 1158950137
 categories:

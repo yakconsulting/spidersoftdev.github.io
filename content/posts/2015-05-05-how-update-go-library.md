@@ -4,7 +4,7 @@ author: admin
 type: post
 date: 2015-05-05T04:49:24+00:00
 url: /2015/how-update-go-library/
-thumbnail: images/uploads/2014/08/gopher.jpg
+thumbnail: images/2014/08/gopher.jpg
 dsq_thread_id:
   - 3736974794
 categories:

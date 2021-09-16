@@ -4,7 +4,7 @@ author: admin
 type: post
 date: 2014-04-15T03:49:25+00:00
 url: /2014/codeigniter-img-update/
-thumbnail: images/uploads/2014/04/codeigniter-img.png
+thumbnail: images/2014/04/codeigniter-img.png
 post_image:
   - http://www.spidersoft.com.au/wp-content/uploads/2014/04/codeigniter-img.png
 layout:

@@ -29,7 +29,7 @@ Quick and easy dynamic picker view in Swift 3.
 
 What we are building:
 
-![PickerView](images/uploads/2016/11/PickerView.gif)
+![PickerView](images/2016/11/PickerView.gif)
 
 &nbsp;
 

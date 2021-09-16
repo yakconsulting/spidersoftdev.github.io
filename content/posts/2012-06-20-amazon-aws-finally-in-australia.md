@@ -4,7 +4,7 @@ author: admin
 type: post
 date: 2012-06-20T09:51:12+00:00
 url: /2012/amazon-aws-finally-in-australia/
-thumbnail: images/uploads/2012/06/gi-map-pr-06182012.png
+thumbnail: images/2012/06/gi-map-pr-06182012.png
 layout:
   - default
 hide_post_title:

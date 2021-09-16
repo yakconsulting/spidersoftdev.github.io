@@ -4,7 +4,7 @@ author: admin
 type: post
 date: 2014-07-13T06:42:43+00:00
 url: /2014/getting-started-with-go-language-on-mac-os-x/
-thumbnail: images/uploads/2014/08/gopher.jpg
+thumbnail: images/2014/08/gopher.jpg
 dsq_thread_id:
   - 2922773325
 nkweb_code_in_head:

@@ -4,7 +4,7 @@ author: admin
 type: post
 date: 2013-03-19T23:34:40+00:00
 url: /2013/cut-and-slice-photoshop-really-easy/
-thumbnail: images/uploads/2013/03/CutSliceme.png
+thumbnail: images/2013/03/CutSliceme.png
 layout:
   - default
 hide_post_title:
@@ -34,4 +34,4 @@ This is one if these rare plugins which make my live lot easier. Actually can&
 
 <!--more-->
 
-![](images/uploads/2013/03/rules.png)
+![](images/2013/03/rules.png)

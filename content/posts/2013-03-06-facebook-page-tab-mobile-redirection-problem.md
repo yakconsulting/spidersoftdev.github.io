@@ -17,7 +17,7 @@ Yes… we have ongoing problem with that really simple function. So – what’s
 
 <!--more-->
 
-!["facebook-mobile-error"](images/uploads/2013/03/facebook-mobile-error.png)
+!["facebook-mobile-error"](images/2013/03/facebook-mobile-error.png)
 
 > &#8220;The page you requested was not found.&#8221;
 

@@ -4,7 +4,7 @@ author: admin
 type: post
 date: 2012-11-02T01:53:09+00:00
 url: /2012/gearman-installation-on-centos-and-ami-linux/
-thumbnail: images/uploads/2012/11/gearman.png
+thumbnail: images/2012/11/gearman.png
 layout:
   - default
 hide_post_title:

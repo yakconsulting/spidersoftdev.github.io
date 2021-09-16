@@ -4,7 +4,7 @@ author: admin
 type: post
 date: 2014-09-01T04:48:36+00:00
 url: /2014/mongodb-vs-mysql-using-golang/
-thumbnail: images/uploads/2014/09/mongo-vs-mysql.jpg
+thumbnail: images/2014/09/mongo-vs-mysql.jpg
 dsq_thread_id:
   - 2977645860
 categories:

@@ -5,7 +5,7 @@ type: post
 date: 2011-10-16T02:43:22+00:00
 excerpt: "By default CentOS 6 does not have support for Mac OS Extended (HFS Plus) support. But it's quite easy to enable this support for this file system."
 url: /2011/centos-6-and-mac-os-extended-hfs-plus-support/
-thumbnail: images/uploads/2011/10/Centos-Logo.png
+thumbnail: images/2011/10/Centos-Logo.png
 layout:
   - default
 hide_post_title:

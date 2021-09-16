@@ -4,7 +4,7 @@ author: admin
 type: post
 date: 2011-08-07T04:16:23+00:00
 url: /2011/magento-generate-url-from-model/
-thumbnail: images/uploads/2011/08/magento_logo.png
+thumbnail: images/2011/08/magento_logo.png
 layout:
   - default
 hide_post_title:

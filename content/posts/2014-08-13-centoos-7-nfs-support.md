@@ -4,7 +4,7 @@ author: admin
 type: post
 date: 2014-08-13T06:45:44+00:00
 url: /2014/centoos-7-nfs-support/
-thumbnail: images/uploads/2014/08/centos-org-new-website.png
+thumbnail: images/2014/08/centos-org-new-website.png
 dsq_thread_id:
   - 2923079213
 categories:

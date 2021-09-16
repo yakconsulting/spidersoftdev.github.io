@@ -4,7 +4,7 @@ author: admin
 type: post
 date: 2014-06-27T07:11:17+00:00
 url: /2014/phalcon-is-a-new-php-framework-of-my-choice/
-thumbnail: images/uploads/2014/06/High-performance-PHP-framework.jpg
+thumbnail: images/2014/06/High-performance-PHP-framework.jpg
 dsq_thread_id:
   - 2798822317
 categories:

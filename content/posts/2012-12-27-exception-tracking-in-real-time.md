@@ -4,7 +4,7 @@ author: admin
 type: post
 date: 2012-12-27T01:26:38+00:00
 url: /2012/exception-tracking-in-real-time/
-thumbnail: images/uploads/2012/12/sentry.jpg
+thumbnail: images/2012/12/sentry.jpg
 layout:
   - default
 hide_post_title:

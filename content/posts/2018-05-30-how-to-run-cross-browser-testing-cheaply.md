@@ -4,7 +4,7 @@ author: admin
 type: post
 date: 2018-05-30T10:35:59+00:00
 url: /2018/how-to-run-cross-browser-testing-cheaply/
-thumbnail: images/uploads/2018/05/browser-773215_1920.png
+thumbnail: images/2018/05/browser-773215_1920.png
 nkweb_code_in_head:
   - default
 nkweb_Use_Custom_js:

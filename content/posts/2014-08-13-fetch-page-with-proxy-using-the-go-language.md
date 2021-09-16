@@ -4,7 +4,7 @@ author: admin
 type: post
 date: 2014-08-13T06:16:24+00:00
 url: /2014/fetch-page-with-proxy-using-the-go-language/
-thumbnail: images/uploads/2014/08/gopher.jpg
+thumbnail: images/2014/08/gopher.jpg
 dsq_thread_id:
   - 2922723383
 categories:

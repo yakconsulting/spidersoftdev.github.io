@@ -4,7 +4,7 @@ author: admin
 type: post
 date: 2015-03-02T05:45:54+00:00
 url: /2015/interesting-jquery-alternative-laroux-js/
-thumbnail: images/uploads/2015/03/laroux-js.png
+thumbnail: images/2015/03/laroux-js.png
 dsq_thread_id:
   - 3580780149
 categories:

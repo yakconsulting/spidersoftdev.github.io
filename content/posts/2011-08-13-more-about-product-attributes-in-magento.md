@@ -4,7 +4,7 @@ author: admin
 type: post
 date: 2011-08-13T05:10:41+00:00
 url: /2011/more-about-product-attributes-in-magento/
-thumbnail: images/uploads/2011/08/magento_logo.png
+thumbnail: images/2011/08/magento_logo.png
 dsq_thread_id:
   - 1163140157
 categories:

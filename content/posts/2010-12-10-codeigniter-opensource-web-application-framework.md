@@ -4,7 +4,7 @@ author: slav
 type: post
 date: 2010-12-10T10:09:25+00:00
 url: /2010/codeigniter-opensource-web-application-framework/
-thumbnail: images/uploads/2010/12/codeigniter.png
+thumbnail: images/2010/12/codeigniter.png
 aktt_notify_twitter:
   - no
 dsq_thread_id:

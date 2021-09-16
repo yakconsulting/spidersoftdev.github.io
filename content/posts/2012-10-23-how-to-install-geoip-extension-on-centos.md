@@ -4,7 +4,7 @@ author: admin
 type: post
 date: 2012-10-23T02:32:56+00:00
 url: /2012/how-to-install-geoip-extension-on-centos/
-thumbnail: images/uploads/2012/10/geoip_icon.jpg
+thumbnail: images/2012/10/geoip_icon.jpg
 layout:
   - default
 hide_post_title:

@@ -4,7 +4,7 @@ author: admin
 type: post
 date: 2011-08-25T03:38:54+00:00
 url: /2011/drupal-and-lighttpd-mod_rewrite-settings/
-thumbnail: images/uploads/2011/08/lighttpd.jpg
+thumbnail: images/2011/08/lighttpd.jpg
 layout:
   - default
 hide_post_title:

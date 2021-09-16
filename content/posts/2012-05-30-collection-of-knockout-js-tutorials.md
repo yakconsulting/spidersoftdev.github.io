@@ -4,7 +4,7 @@ author: admin
 type: post
 date: 2012-05-30T01:08:12+00:00
 url: /2012/collection-of-knockout-js-tutorials/
-thumbnail: images/uploads/2012/05/knockout.jpg
+thumbnail: images/2012/05/knockout.jpg
 layout:
   - default
 hide_post_title:
@@ -46,11 +46,11 @@ Here is small collection of good tutorials:
 
 [Into the Ring with knockout.js](http://net.tutsplus.com/tutorials/javascript-ajax/into-the-ring-with-knockout-js/)
 
-![into-the-ring](images/uploads/2012/05/into-the-ring.jpg)
+![into-the-ring](images/2012/05/into-the-ring.jpg)
 
 <a href="http://learn.knockoutjs.com/" target="_blank">Learn knockout.js<br /> 
 
-![learn knockoutjs](images/uploads/2012/05/learn.png)
+![learn knockoutjs](images/2012/05/learn.png)
 
 Other tutorials:[<br /> ](http://blog.monnet-usa.com/?p=354)
 

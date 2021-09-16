@@ -5,7 +5,7 @@ type: post
 date: 2014-08-18T07:19:08+00:00
 lastmod: 2021-08-24
 url: /2014/reading-unknown-json-object-in-go-language/
-thumbnail: images/uploads/2014/08/gopher.jpg
+thumbnail: images/2014/08/gopher.jpg
 dsq_thread_id:
   - 2945479591
 categories:
@@ -45,7 +45,8 @@ func getrecord() {
 	}
 	fmt.Printf("%+v\n", f)
 	m := f.(map[string]interface{})
-	fmt.Printf("\n:%s:", m["price"])</pre>
+	fmt.Printf("\n:%s:", m["price"])
+```
 
 }
 ```

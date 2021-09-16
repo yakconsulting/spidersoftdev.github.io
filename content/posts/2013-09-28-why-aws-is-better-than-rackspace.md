@@ -4,7 +4,7 @@ author: admin
 type: post
 date: 2013-09-27T23:28:00+00:00
 url: /2013/why-aws-is-better-than-rackspace/
-thumbnail: images/uploads/2013/09/cloudproviders.jpg
+thumbnail: images/2013/09/cloudproviders.jpg
 layout:
   - default
 hide_post_title:

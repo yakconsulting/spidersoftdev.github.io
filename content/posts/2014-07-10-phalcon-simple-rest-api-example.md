@@ -4,7 +4,7 @@ author: admin
 type: post
 date: 2014-07-10T04:24:38+00:00
 url: /2014/phalcon-simple-rest-api-example/
-thumbnail: images/uploads/2014/06/High-performance-PHP-framework.jpg
+thumbnail: images/2014/06/High-performance-PHP-framework.jpg
 dsq_thread_id:
   - 2831572619
 categories:

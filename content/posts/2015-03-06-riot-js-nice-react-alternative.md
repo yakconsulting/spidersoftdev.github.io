@@ -4,7 +4,7 @@ author: admin
 type: post
 date: 2015-03-06T05:46:55+00:00
 url: /2015/riot-js-nice-react-alternative/
-thumbnail: images/uploads/2015/03/riotjs.jpg
+thumbnail: images/2015/03/riotjs.jpg
 dsq_thread_id:
   - 3579277210
 categories:

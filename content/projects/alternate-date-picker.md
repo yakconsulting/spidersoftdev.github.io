@@ -20,4 +20,4 @@ Written in pure JavaScript &#8211; no dependencies.
 
 [demo.spidersoft.com.au/dp/](http://demo.spidersoft.com.au/dp/)
 
-![Date Picker](images/uploads/2015/05/date-picker.jpg)
+![Date Picker](images/2015/05/date-picker.jpg)

@@ -4,7 +4,7 @@ author: admin
 type: post
 date: 2021-08-19T12:44:18+00:00
 url: /2021/clearing-up-git-submodule-problem
-thumbnail: images/uploads/2021/08/hugo-logo-wide.png
+thumbnail: images/2021/08/hugo-logo-wide.png
 categories:
  - Software
 tags:

@@ -4,7 +4,7 @@ author: slav
 type: post
 date: 2012-06-14T07:52:04+00:00
 url: /2012/amazon-rds-for-20-monthly/
-thumbnail: images/uploads/2012/06/amazon-web-services-logo3.jpg
+thumbnail: images/2012/06/amazon-web-services-logo3.jpg
 layout:
   - default
 hide_post_title:

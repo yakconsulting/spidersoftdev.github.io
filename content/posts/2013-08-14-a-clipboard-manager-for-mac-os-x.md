@@ -4,7 +4,7 @@ author: admin
 type: post
 date: 2013-08-14T01:58:30+00:00
 url: /2013/a-clipboard-manager-for-mac-os-x/
-thumbnail: images/uploads/2013/08/clipmenu.png
+thumbnail: images/2013/08/clipmenu.png
 layout:
   - default
 hide_post_title:
@@ -34,4 +34,4 @@ There is also snippet function &#8211; you can also register texts you frequentl
 
 <!--more-->
 
-![clipboard-manager](images/uploads/2013/08/clipboard-manager.jpg)
+![clipboard-manager](images/2013/08/clipboard-manager.jpg)

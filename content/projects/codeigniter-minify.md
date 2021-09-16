@@ -3,7 +3,7 @@ title: CodeIgniter minify
 author: admin
 type: page
 date: 2011-08-10T04:08:44+00:00
-thumbnail: images/uploads/2011/07/CodeIgniter.jpg
+thumbnail: images/2011/07/CodeIgniter.jpg
 layout:
   - list-post
 page_layout:

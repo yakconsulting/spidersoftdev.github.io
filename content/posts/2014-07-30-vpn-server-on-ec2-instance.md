@@ -4,7 +4,7 @@ author: admin
 type: post
 date: 2014-07-30T05:44:17+00:00
 url: /2014/vpn-server-on-ec2-instance/
-thumbnail: images/uploads/2014/07/Static-IP-VPN.png
+thumbnail: images/2014/07/Static-IP-VPN.png
 dsq_thread_id:
   - 2884431315
 categories:
@@ -84,4 +84,4 @@ and make changes permanent
 
 Final step is to open ports on firewall:
 
-!()[images/uploads/2014/07/rules.png]
+!()[images/2014/07/rules.png]

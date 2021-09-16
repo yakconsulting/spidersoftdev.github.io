@@ -4,7 +4,7 @@ author: admin
 type: post
 date: 2018-03-07T14:34:57+00:00
 url: /2018/binary-compression-still-alive-golang-binary-compression/
-thumbnail: images/uploads/2018/03/stress-624220_1920.jpg
+thumbnail: images/2018/03/stress-624220_1920.jpg
 nkweb_code_in_head:
   - default
 nkweb_Use_Custom_js:

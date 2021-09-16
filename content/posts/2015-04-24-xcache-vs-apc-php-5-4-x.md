@@ -4,7 +4,7 @@ author: admin
 type: post
 date: 2015-04-24T08:13:23+00:00
 url: /2015/xcache-vs-apc-php-5-4-x/
-thumbnail: images/uploads/2014/08/php-logo.png
+thumbnail: images/2014/08/php-logo.png
 dsq_thread_id:
   - 3707943134
 categories:

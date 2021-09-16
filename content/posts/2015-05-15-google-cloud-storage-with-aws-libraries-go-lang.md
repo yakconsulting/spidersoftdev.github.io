@@ -4,7 +4,7 @@ author: admin
 type: post
 date: 2015-05-15T01:08:15+00:00
 url: /2015/google-cloud-storage-with-aws-libraries-go-lang/
-thumbnail: images/uploads/2014/08/gopher.jpg
+thumbnail: images/2014/08/gopher.jpg
 dsq_thread_id:
   - 3764913122
 categories:
@@ -26,7 +26,7 @@ Google wanted to steel some clients from Amazon and they introduced [Google Clo
 
 You have to enable it using Google Developers Console
 
-![Storage-access-Google-Server](images/uploads/2015/05/Storage-access-Google-Server.jpg)
+![Storage-access-Google-Server](images/2015/05/Storage-access-Google-Server.jpg)
 
 grab Access Key and Secret.
 

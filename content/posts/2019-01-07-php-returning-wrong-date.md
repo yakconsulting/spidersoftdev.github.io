@@ -4,7 +4,7 @@ author: admin
 type: post
 date: 2019-01-07T10:56:37+00:00
 url: /2019/php-returning-wrong-date/
-thumbnail: images/uploads/2019/01/stress-2883648_1280.jpg
+thumbnail: images/2019/01/stress-2883648_1280.jpg
 categories:
   - Technologies
   - PHP

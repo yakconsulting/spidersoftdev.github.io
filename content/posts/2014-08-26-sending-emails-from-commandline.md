@@ -4,7 +4,7 @@ author: admin
 type: post
 date: 2014-08-26T04:41:08+00:00
 url: /2014/sending-emails-from-commandline/
-thumbnail: images/uploads/2014/08/email-logo.jpg
+thumbnail: images/2014/08/email-logo.jpg
 dsq_thread_id:
   - 2964950902
 nkweb_code_in_head:

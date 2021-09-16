@@ -4,7 +4,7 @@ author: admin
 type: post
 date: 2013-09-15T11:35:24+00:00
 url: /2013/serialize-form-to-object-jquery/
-thumbnail: images/uploads/2013/09/jquery-mark-light.gif
+thumbnail: images/2013/09/jquery-mark-light.gif
 layout:
   - default
 hide_post_title:

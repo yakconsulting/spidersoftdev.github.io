@@ -4,7 +4,7 @@ author: admin
 type: post
 date: 2014-10-29T03:27:31+00:00
 url: /2014/apache-and-php-on-os-x-yosemite/
-thumbnail: images/uploads/2014/10/OS_X_Yosemite_Desktop.png
+thumbnail: images/2014/10/OS_X_Yosemite_Desktop.png
 dsq_thread_id:
   - 3167601558
 categories:

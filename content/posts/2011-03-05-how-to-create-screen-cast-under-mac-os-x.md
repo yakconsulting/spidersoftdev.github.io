@@ -4,7 +4,7 @@ author: admin
 type: post
 date: 2011-03-04T18:37:20+00:00
 url: /2011/how-to-create-screen-cast-under-mac-os-x/
-thumbnail: images/uploads/2011/03/jing1.jpg
+thumbnail: images/2011/03/jing1.jpg
 aktt_notify_twitter:
   - no
 layout:

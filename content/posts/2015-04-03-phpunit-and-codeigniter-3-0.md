@@ -4,7 +4,7 @@ author: admin
 type: post
 date: 2015-04-02T22:00:22+00:00
 url: /2015/phpunit-and-codeigniter-3-0/
-thumbnail: images/uploads/2015/04/codeigniter.png
+thumbnail: images/2015/04/codeigniter.png
 dsq_thread_id:
   - 3651338496
 categories:

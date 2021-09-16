@@ -4,7 +4,7 @@ author: admin
 type: post
 date: 2012-07-16T11:01:01+00:00
 url: /2012/sublime2-favourite-configuration/
-thumbnail: images/uploads/2012/07/sublime.png
+thumbnail: images/2012/07/sublime.png
 layout:
   - default
 hide_post_title:

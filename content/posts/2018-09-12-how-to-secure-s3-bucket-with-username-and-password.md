@@ -4,7 +4,7 @@ author: admin
 type: post
 date: 2018-09-12T08:00:16+00:00
 url: /2018/how-to-secure-s3-bucket-with-username-and-password/
-thumbnail: images/uploads/2018/09/data-1590455_1280.jpg
+thumbnail: images/2018/09/data-1590455_1280.jpg
 nkweb_code_in_head:
   - default
 nkweb_Use_Custom_js:

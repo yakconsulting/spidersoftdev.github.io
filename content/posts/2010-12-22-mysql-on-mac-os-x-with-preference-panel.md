@@ -4,7 +4,7 @@ author: slav
 type: post
 date: 2010-12-22T10:06:56+00:00
 url: /2010/mysql-on-mac-os-x-with-preference-panel/
-thumbnail: images/uploads/2010/12/mysql_logo.jpg
+thumbnail: images/2010/12/mysql_logo.jpg
 aktt_notify_twitter:
   - no
 dsq_thread_id:
@@ -34,4 +34,4 @@ and modify to
 `basedir=/usr/local/mysql`  
 Then save it, and... MySQL preference panel is working!
 
-![MySQL preference panel](images/uploads/2010/12/mysql-preference-pane.png)
+![MySQL preference panel](images/2010/12/mysql-preference-pane.png)

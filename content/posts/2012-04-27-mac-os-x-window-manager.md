@@ -4,7 +4,7 @@ author: slav
 type: post
 date: 2012-04-27T08:08:09+00:00
 url: /2012/mac-os-x-window-manager/
-thumbnail: images/uploads/2012/04/shiftit.jpg
+thumbnail: images/2012/04/shiftit.jpg
 dsq_thread_id:
   - 1181140145
 categories:
@@ -24,7 +24,7 @@ First choice was quite popular [Divvy](http://mizage.com/divvy/), but as long as
 
 It&#8217;s really simple, and it&#8217;s working &#8211; basically you have predefined shortcuts for placing window on the top/left/bottom/upper part of screen. You can also centre APP or expand it to full screen.
 
-![ShiftIt-pref](images/uploads/2012/04/ShiftIt-pref.png "ShiftIt preferences panel")
+![ShiftIt-pref](images/2012/04/ShiftIt-pref.png "ShiftIt preferences panel")
 
 
-![ShiftIt](images/uploads/2012/04/ShiftIt.png)
+![ShiftIt](images/2012/04/ShiftIt.png)

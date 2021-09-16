@@ -4,7 +4,7 @@ author: admin
 type: post
 date: 2021-07-23T06:16:24+00:00
 url: /2021/docker-go-cgo
-thumbnail: images/uploads/2014/08/gopher.jpg
+thumbnail: images/2014/08/gopher.jpg
 categories:
   - Technologies
   - Go Lang

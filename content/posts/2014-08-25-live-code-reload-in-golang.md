@@ -4,7 +4,7 @@ author: admin
 type: post
 date: 2014-08-25T04:46:44+00:00
 url: /2014/live-code-reload-in-golang/
-thumbnail: images/uploads/2014/08/gopher.jpg
+thumbnail: images/2014/08/gopher.jpg
 dsq_thread_id:
   - 2957213838
 categories:

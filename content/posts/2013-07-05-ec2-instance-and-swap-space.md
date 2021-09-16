@@ -4,7 +4,7 @@ author: admin
 type: post
 date: 2013-07-04T23:07:23+00:00
 url: /2013/ec2-instance-and-swap-space/
-thumbnail: images/uploads/2012/06/amazon-web-services-logo3.jpg
+thumbnail: images/2012/06/amazon-web-services-logo3.jpg
 layout:
   - default
 hide_post_title:

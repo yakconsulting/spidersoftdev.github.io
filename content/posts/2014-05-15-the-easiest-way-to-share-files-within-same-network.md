@@ -4,7 +4,7 @@ author: admin
 type: post
 date: 2014-05-15T04:51:25+00:00
 url: /2014/the-easiest-way-to-share-files-within-same-network/
-thumbnail: images/uploads/2014/05/ShareDrop.jpg
+thumbnail: images/2014/05/ShareDrop.jpg
 dsq_thread_id:
   - 2686503008
 categories:

@@ -4,7 +4,7 @@ author: admin
 type: post
 date: 2013-11-28T05:22:57+00:00
 url: /2013/free-virtual-machines-with-internet-explorer/
-thumbnail: images/uploads/2013/11/Cross-browser-testing.png
+thumbnail: images/2013/11/Cross-browser-testing.png
 layout:
   - default
 hide_post_title:

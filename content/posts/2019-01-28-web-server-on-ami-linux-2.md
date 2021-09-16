@@ -4,7 +4,7 @@ author: admin
 type: post
 date: 2019-01-28T09:46:20+00:00
 url: /2019/web-server-on-ami-linux-2/
-thumbnail: images/uploads/2015/04/gpu_amazon_ec2_logo.png
+thumbnail: images/2015/04/gpu_amazon_ec2_logo.png
 categories:
   - Open Source
   - Technologies

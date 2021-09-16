@@ -4,7 +4,7 @@ author: admin
 type: post
 date: 2015-05-11T06:45:01+00:00
 url: /2015/useful-libraries-for-swift-beginners/
-thumbnail: images/uploads/2015/05/swift.png
+thumbnail: images/2015/05/swift.png
 dsq_thread_id:
   - 3753589231
 categories:

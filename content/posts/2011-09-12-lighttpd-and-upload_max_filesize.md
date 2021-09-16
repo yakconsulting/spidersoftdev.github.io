@@ -4,7 +4,7 @@ author: admin
 type: post
 date: 2011-09-12T01:11:20+00:00
 url: /2011/lighttpd-and-upload_max_filesize/
-thumbnail: images/uploads/2011/08/lighttpd.jpg
+thumbnail: images/2011/08/lighttpd.jpg
 layout:
   - default
 hide_post_title:

@@ -4,7 +4,7 @@ author: admin
 type: post
 date: 2012-07-08T11:27:19+00:00
 url: /2012/angularjs-awesome-javascript-framework/
-thumbnail: images/uploads/2012/07/angularjs.png
+thumbnail: images/2012/07/angularjs.png
 dsq_thread_id:
   - 1162016228
 categories:

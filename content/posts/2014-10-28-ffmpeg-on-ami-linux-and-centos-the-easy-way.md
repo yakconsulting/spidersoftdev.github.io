@@ -4,7 +4,7 @@ author: admin
 type: post
 date: 2014-10-28T02:12:32+00:00
 url: /2014/ffmpeg-on-ami-linux-and-centos-the-easy-way/
-thumbnail: images/uploads/2014/10/Screen-shot-2014-10-28-at-1.11.11-PM.png
+thumbnail: images/2014/10/Screen-shot-2014-10-28-at-1.11.11-PM.png
 dsq_thread_id:
   - 3164530439
 categories:
@@ -21,19 +21,20 @@ tags:
 All you need to do is just install one more repository:  
 [http://rpmfusion.org/Configuration](http://rpmfusion.org/Configuration)
 
-<pre>wget http://download1.rpmfusion.org/free/el/updates/6/i386/rpmfusion-free-release-6-1.noarch.rpm
+```
+wget http://download1.rpmfusion.org/free/el/updates/6/i386/rpmfusion-free-release-6-1.noarch.rpm
 sudo rpm -Uhv rpmfusion-free-release-6-1.noarch.rpm
 wget http://download1.rpmfusion.org/nonfree/el/updates/6/i386/rpmfusion-nonfree-release-6-1.noarch.rpm
 sudo rpm -Uhv rpmfusion-nonfree-release-6-1.noarch.rpm
 sudo yum install ffmpeg
-</pre>
+```
 
 Done.  
 `ffmpeg version 0.10.15 Copyright (c) 2000-2014 the FFmpeg developers<br />
 built on Aug 30 2014 15:49:19 with gcc 4.4.7 20120313 (Red Hat 4.4.7-3)<br />
 ` 
 
-Obviously there is no fun with with FFmpeg if you don&#8217;t have anything to convert. I needed to crop vertical videos from iPad to square &#8211; [Vine](https://itunes.apple.com/au/app/vine/id592447445?mt=8) like format.
+Obviously there is no fun with FFmpeg if you don&#8217;t have anything to convert. I needed to crop vertical videos from iPad to square &#8211; [Vine](https://itunes.apple.com/au/app/vine/id592447445?mt=8) like format.
 
 Initial size of video was 1280&#215;720 &#8211; I wanted to make them square, and crop from top and bottom.
 

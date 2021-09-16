@@ -39,7 +39,7 @@ Code:
 
 Visual reference:
 
-![custom-httpd-config-2x](images/uploads/2017/01/custom-httpd-config-2x.png) 
+![custom-httpd-config-2x](images/2017/01/custom-httpd-config-2x.png) 
 
 Or there is another way. You can use code below and use it as on image:
 
@@ -49,4 +49,4 @@ Or there is another way. You can use code below and use it as on image:
 </directory>
 ```
 
-![GET_POST_OPTIONS_directadmin](images/uploads/2019/12/GET_POST_OPTIONS_directadmin.png) 
+![GET_POST_OPTIONS_directadmin](images/2019/12/GET_POST_OPTIONS_directadmin.png) 

@@ -12,7 +12,7 @@ tags:
   - "linux"
   - "mysql"
 lead: "Upgrading old Linux AMI with MySQL 8" 
-thumbnail: images/uploads/2021/08/mysql-logo.png
+thumbnail: images/2021/08/mysql-logo.png
 ---
 I have really "old" AMI Linux instances, and I need to go with more recent MySQL versions. 
 

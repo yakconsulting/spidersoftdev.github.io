@@ -34,9 +34,9 @@ tags:
 
   
 Application is extremely simple. Just upload or give URL into the image:  
-![summer-image-map](images/uploads/2013/04/summer-image-map.png)
+![summer-image-map](images/2013/04/summer-image-map.png)
 
 And then draw areas and get HMTL  
-![Summer-html-image-map-creator.png](images/uploads/2013/04/Summer-html-image-map-creator.png)
+![Summer-html-image-map-creator.png](images/2013/04/Summer-html-image-map-creator.png)
 
 Checkout here :[Summer html image map creator](http://summerstyle.github.io/summer/). It&#8217;s even better &#8211; you can get sources of this app here: [http://github.com/summerstyle/summer](http://github.com/summerstyle/summer)

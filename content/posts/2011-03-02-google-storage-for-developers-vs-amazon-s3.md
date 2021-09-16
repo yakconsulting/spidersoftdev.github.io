@@ -4,7 +4,7 @@ author: admin
 type: post
 date: 2011-03-01T18:35:40+00:00
 url: /2011/google-storage-for-developers-vs-amazon-s3/
-thumbnail: images/uploads/2011/03/Mme.png
+thumbnail: images/2011/03/Mme.png
 aktt_notify_twitter:
   - no
 layout:
@@ -41,11 +41,11 @@ In general &#8211; all functions are the same. You get the unlimited storage, yo
 
 Google UI look pretty &#8220;poor&#8221; &#8211; especially if you compare it to Amazon S3:
 
-![Google UI](images/uploads/2012/10/gsd.png "Google UI")
+![Google UI](images/2012/10/gsd.png "Google UI")
 
 Amazon S3 :
 
-![S3 UI](images/uploads/2012/10/s3.png "S3 UI")
+![S3 UI](images/2012/10/s3.png "S3 UI")
 
 ## Pricing
 

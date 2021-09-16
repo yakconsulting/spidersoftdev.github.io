@@ -4,7 +4,7 @@ author: admin
 type: post
 date: 2012-08-24T07:45:34+00:00
 url: /2012/how-to-install-phing-on-centos/
-thumbnail: images/uploads/2012/08/phing.gif
+thumbnail: images/2012/08/phing.gif
 layout:
   - default
 hide_post_title:

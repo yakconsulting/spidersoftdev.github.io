@@ -4,7 +4,7 @@ author: admin
 type: post
 date: 2012-06-20T10:11:53+00:00
 url: /2012/moste-complete-twitter-bootstrap-psd-template/
-thumbnail: images/uploads/2012/06/bootstrap-header.jpg
+thumbnail: images/2012/06/bootstrap-header.jpg
 dsq_thread_id:
   - 1158888032
 categories:

@@ -4,7 +4,7 @@ author: admin
 type: post
 date: 2014-05-23T00:48:31+00:00
 url: /2014/this-week-findings-in-webdev-21/
-thumbnail: images/uploads/2014/05/Fotor0521105621.jpg
+thumbnail: images/2014/05/Fotor0521105621.jpg
 dsq_thread_id:
   - 2700924664
 categories:

@@ -51,13 +51,13 @@ resources:
 
 Some ReadyNAS popular downloads:
 
-- ![Transmission for ReadyNAS](images/uploads/2013/10/transmission_logo.png) **Transmission for ReadyNAS &#8211; ARM** is a cross-platform BitTorrent client that is easy  
+- ![Transmission for ReadyNAS](images/2013/10/transmission_logo.png) **Transmission for ReadyNAS &#8211; ARM** is a cross-platform BitTorrent client that is easy  
     Transmission is designed for easy, powerful use. We’ve set the defaults to Just Work and it only takes a few clicks to configure advanced features like watch directories, bad peer blocklists, and the web interface.  
     
     Download here: [transmission_2.82-0.06-ssurba-arm.bin][3] ([www.sergeysurba.com][1])
 -  **PHP 5.4.30 for ReadyNAS OS5** &#8211; [PHP5_5.4.30-arm-1-2.bin][4]
 -  OwnCloud ReadyNAS R5ARM &#8211; [ownCloud_8.0.2-arm-1-2.bin][5]
--  ![MLDonkey (R5ARM)](images/uploads/2013/10/mldonkey_logo.png) **MLDonkey (R5ARM)** is a door to the ‘donkey’ network, a decentralized network used to exchange big files on the Internet. It is written in a wonderful language, called Objective-Caml, and present most features of the basic Windows donkey client, plus some more: 
+-  ![MLDonkey (R5ARM)](images/2013/10/mldonkey_logo.png) **MLDonkey (R5ARM)** is a door to the ‘donkey’ network, a decentralized network used to exchange big files on the Internet. It is written in a wonderful language, called Objective-Caml, and present most features of the basic Windows donkey client, plus some more: 
   - works on UNIX-compatible platforms.
   - remote control by telnet, WEB browser or GTK+ interface.
   - access to EDonkey (edonkey2000, overnet, emule)

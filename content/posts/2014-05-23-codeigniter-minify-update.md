@@ -4,7 +4,7 @@ author: admin
 type: post
 date: 2014-05-23T00:05:52+00:00
 url: /2014/codeigniter-minify-update/
-thumbnail: images/uploads/2014/05/minify.png
+thumbnail: images/2014/05/minify.png
 dsq_thread_id:
   - 2705975539
 categories:

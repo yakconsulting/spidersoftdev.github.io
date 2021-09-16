@@ -5,7 +5,7 @@ type: post
 date: 2018-07-16T09:53:42+00:00
 lastmod: 2019-06-16
 url: /2018/geoip-extension-php-7-x-ami-redhat-centos-linux/
-thumbnail: images/uploads/2018/07/travel-2650303_1920.jpg
+thumbnail: images/2018/07/travel-2650303_1920.jpg
 nkweb_code_in_head:
   - default
 nkweb_Use_Custom_js:

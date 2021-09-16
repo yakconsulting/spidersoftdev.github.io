@@ -4,7 +4,7 @@ author: admin
 type: post
 date: 2012-01-26T18:33:56+00:00
 url: /2012/wordpress-starter-theme-foundation/
-thumbnail: images/uploads/2012/01/foundation-css-wordpress.png
+thumbnail: images/2012/01/foundation-css-wordpress.png
 layout:
   - default
 hide_post_title:

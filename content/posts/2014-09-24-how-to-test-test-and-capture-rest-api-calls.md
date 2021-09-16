@@ -5,7 +5,7 @@ author: admin
 type: post
 date: 2014-09-24T03:21:37+00:00
 url: /2014/how-to-test-test-and-capture-rest-api-calls/
-thumbnail: images/uploads/2014/08/api1.gif
+thumbnail: images/2014/08/api1.gif
 dsq_thread_id:
   - 3048098941
 categories:

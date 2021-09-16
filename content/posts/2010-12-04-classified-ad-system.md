@@ -4,7 +4,7 @@ author: admin
 type: post
 date: 2010-12-03T17:18:35+00:00
 url: /2010/classified-ad-system/
-thumbnail: images/uploads/2010/12/cads-login.png
+thumbnail: images/2010/12/cads-login.png
 aktt_notify_twitter:
   - no
 layout:

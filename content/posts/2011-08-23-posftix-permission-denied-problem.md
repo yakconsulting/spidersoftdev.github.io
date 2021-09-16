@@ -4,7 +4,7 @@ author: admin
 type: post
 date: 2011-08-23T02:18:47+00:00
 url: /2011/posftix-permission-denied-problem/
-thumbnail: images/uploads/2011/08/logo-postfix.png
+thumbnail: images/2011/08/logo-postfix.png
 layout:
   - default
 hide_post_title:

@@ -4,7 +4,7 @@ author: admin
 type: post
 date: 2016-06-02T14:53:57+00:00
 url: /2016/how-schedule-start-and-stop-ec2-instance-on-aws/
-thumbnail: images/uploads/2016/06/gpu_amazon_ec2_logo.png
+thumbnail: images/2016/06/gpu_amazon_ec2_logo.png
 nkweb_code_in_head:
   - default
 nkweb_Use_Custom_js:
@@ -33,8 +33,8 @@ We have to collect some information from our Management Console. What exactly do
 
   1. Our instance ids,
   2. Our Route53 Zone ID
-![instance Id](../../images/uploads/2016/06/ec2-instance-id.jpg)
-![zone Id](../../images/uploads/2016/06/route53-zoneid.jpg)
+![instance Id](../../images/2016/06/ec2-instance-id.jpg)
+![zone Id](../../images/2016/06/route53-zoneid.jpg)
   
   
 ## 2. AWS command line setup

@@ -4,7 +4,7 @@ author: admin
 type: post
 date: 2013-02-14T05:22:55+00:00
 url: /2013/apache-php-config-boilerplate/
-thumbnail: images/uploads/2013/02/lap.png
+thumbnail: images/2013/02/lap.png
 layout:
   - default
 hide_post_title:

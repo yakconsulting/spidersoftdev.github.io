@@ -23,12 +23,12 @@ Recently one of my clients contacted me asking if I can make a change. Shrink a 
 
 <!--more-->
 
-![prestashop-delivery-slips](images/uploads/2021/01/prestashop-delivery-slips.png)
+![prestashop-delivery-slips](images/2021/01/prestashop-delivery-slips.png)
   
 
 All templates are located in folder PDF in root directory of your deployment. You can modify multiple files to achieve desired effect.
 
-![prestashop-delivery-slips2.png](images/uploads/2021/01/prestashop-delivery-slips2.png)
+![prestashop-delivery-slips2.png](images/2021/01/prestashop-delivery-slips2.png)
   
 But what you are really looking for is file `classes/pdf/PDFGenerator.php` where you can find something like that:
     

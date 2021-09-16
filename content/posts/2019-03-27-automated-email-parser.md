@@ -4,7 +4,7 @@ author: admin
 type: post
 date: 2019-03-27T08:43:27+00:00
 url: /2019/automated-email-parser/
-thumbnail: /images/uploads/2019/03/email-parser.png
+thumbnail: /images/2019/03/email-parser.png
 nkweb_code_in_head:
   - default
 nkweb_Use_Custom_js:

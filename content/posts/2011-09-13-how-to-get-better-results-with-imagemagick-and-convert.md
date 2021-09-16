@@ -5,7 +5,7 @@ type: post
 date: 2011-09-12T23:33:53+00:00
 excerpt: "In last two days I'm trying to find best way to convert PDF files to good quality JPEG files. Of course size does matter, not only in case of women breasts."
 url: /2011/how-to-get-better-results-with-imagemagick-and-convert/
-thumbnail: images/uploads/2011/09/200px-Imagemagick-logo.png
+thumbnail: images/2011/09/200px-Imagemagick-logo.png
 layout:
   - default
 hide_post_title:

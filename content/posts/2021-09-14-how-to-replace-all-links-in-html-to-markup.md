@@ -4,7 +4,7 @@ author: admin
 type: post
 date: 2021-09-03T13:06:00+00:00
 url: /2021/how-to-replace-all-links-in-html-to-markup
-thumbnail: /images/uploads/2021/09/replace.png
+thumbnail: /images/2021/09/replace.png
 description: ""
 categories:
   - Technologies

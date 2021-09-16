@@ -4,7 +4,7 @@ author: admin
 type: post
 date: 2016-02-08T09:03:34+00:00
 url: /2016/setting-up-caddy-server-for-wordpress/
-thumbnail: images/uploads/2016/02/caddy.jpg
+thumbnail: images/2016/02/caddy.jpg
 nkweb_code_in_head:
   - default
 nkweb_Use_Custom_js:

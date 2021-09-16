@@ -4,7 +4,7 @@ author: admin
 type: post
 date: 2013-12-19T00:28:41+00:00
 url: /2013/phpunit-and-pear-install-on-macos/
-thumbnail: images/uploads/2013/12/pphunit.jpg
+thumbnail: images/2013/12/pphunit.jpg
 layout:
   - default
 hide_post_title:
