@@ -85,6 +85,27 @@
 <header class=main__header>
 <h1 class=main__title>Posts</h1>
 </header><article class="list__item post">
+<header class=list__header>
+<h2 class="list__title post__title">
+<a href=/2021/never-use-file-get-contents/ rel=bookmark>
+Never use file_get_contents to make URL queries
+</a>
+</h2>
+<p class="list__lead post__lead">Why you shouldn't over use file_get_contents</p>
+<div class="list__meta meta">
+<div class="meta__item-datetime meta__item">
+<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class=meta__text datetime=2021-09-17T11:16:00Z>2021-09-17</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2 1 2h8v11H0V2z"/></svg><span class=meta__text><a class=meta__link href=/categories/technologies/ rel=category>Technologies</a>, <a class=meta__link href=/categories/php/ rel=category>PHP</a>
+</span>
+</div></div>
+</header>
+<div class="content list__excerpt post__content clearfix">
+<p>As each programmer by nature I&rsquo;m lazy. I try to accomplish as much as possible in minimum effort.</p>
+<p>So whenever I use PHP to fetch something I&rsquo;m using <code>file_get_contents</code> to make queries, and pull data from other services. So basically my favourite snippet is this guy here:</p>
+</div>
+<div class="list__footer clearfix">
+<a class="list__footer-readmore btn" href=/2021/never-use-file-get-contents/>Read more…</a>
+</div>
+</article><article class="list__item post">
 <figure class=list__thumbnail>
 <a href=https://www.spidersoft.com.au/2021/how-to-replace-all-links-in-html-to-markup/>
 <img src=/images/2021/09/replace_hub3add3c283a1ffdbe768e6d75176aa37_402920_640x0_resize_box_3.png alt="How to replace all links in html to markup">
@@ -187,28 +208,6 @@ Docker, GO and CGO application build
 </div>
 <div class="list__footer clearfix">
 <a class="list__footer-readmore btn" href=/2021/docker-go-cgo/>Read more…</a>
-</div>
-</article><article class="list__item post">
-<header class=list__header>
-<h2 class="list__title post__title">
-<a href=/2021/how-to-clean-cached-dns-records/ rel=bookmark>
-How to force clean cached DNS records
-</a>
-</h2>
-<p class="list__lead post__lead">links to clear cached records in popular public DNS servers:</p>
-<div class="list__meta meta">
-<div class="meta__item-datetime meta__item">
-<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class=meta__text datetime=2021-07-18T07:19:08Z>2021-07-18</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2 1 2h8v11H0V2z"/></svg><span class=meta__text><a class=meta__link href=/categories/software/ rel=category>Software</a>, <a class=meta__link href=/categories/linux/ rel=category>Linux</a>
-</span>
-</div></div>
-</header>
-<div class="content list__excerpt post__content clearfix">
-Dealing with DNS changes can be annoying and frustrating. Changes are not visible straight away, you have to wait to see them. Thet are not even. Here you can find links to clear cached records in popular public DNS servers:
-Flushing DNS cache Flush Google Public DNS Cache Purge Cloudflare Public DNS Cache Checking results You can check results here:
-IntoDNS Refresh OpenDNS Cache DNSSEC Tools DNSViz.
-</div>
-<div class="list__footer clearfix">
-<a class="list__footer-readmore btn" href=/2021/how-to-clean-cached-dns-records/>Read more…</a>
 </div>
 </article>
 </main>
