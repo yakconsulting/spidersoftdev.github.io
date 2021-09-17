@@ -103,11 +103,13 @@ How to replace all links in html to markup
 </div></div>
 </header>
 <div class="content list__excerpt post__content clearfix">
-Recently I moved my blog from Wordpress to Hugo, and that involved a lot of content fixing. One of the problems was that during the export not all HTML code was correctly transferred to markup. So I needed fix (replace) all pending [aaa](http://) to [aaa](http://).
+Recently I moved my blog from Wordpress to Hugo , and that involved a lot of content fixing. One of the problems was that during the export not all HTML code was correctly transferred to markup. So I needed fix (replace) all pending &lt;a href="https://spidersoft.com.au">spidersoft&lt;/a> to [spidersoft](https://spidersoft.com.au).
 What we need is just 2 simple regular expressions.
-One to find links [(.+?)]((.+?))
+One to find links &lt;a.*?href="(.+?)".*?>(.+?)&lt;/a>
 Second one to replace them in reverse order [$2]($1)
-You can run this in basically any IDE - Sublime will do the job, I was using PHPStorm
+</div>
+<div class="list__footer clearfix">
+<a class="list__footer-readmore btn" href=/2021/how-to-replace-all-links-in-html-to-markup/>Read more…</a>
 </div>
 </article><article class="list__item post">
 <figure class=list__thumbnail>

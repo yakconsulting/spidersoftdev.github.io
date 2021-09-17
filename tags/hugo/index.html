@@ -86,6 +86,34 @@
 <h1 class=main__title>hugo</h1>
 </header><article class="list__item post">
 <figure class=list__thumbnail>
+<a href=https://www.spidersoft.com.au/2021/how-to-replace-all-links-in-html-to-markup/>
+<img src=/images/2021/09/replace_hub3add3c283a1ffdbe768e6d75176aa37_402920_640x0_resize_box_3.png alt="How to replace all links in html to markup">
+</a>
+</figure>
+<header class=list__header>
+<h2 class="list__title post__title">
+<a href=/2021/how-to-replace-all-links-in-html-to-markup/ rel=bookmark>
+How to replace all links in html to markup
+</a>
+</h2>
+<p class="list__lead post__lead">Regular expression to replace href to markup</p>
+<div class="list__meta meta">
+<div class="meta__item-datetime meta__item">
+<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class=meta__text datetime=2021-09-03T13:06:00Z>2021-09-03</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2 1 2h8v11H0V2z"/></svg><span class=meta__text><a class=meta__link href=/categories/technologies/ rel=category>Technologies</a>
+</span>
+</div></div>
+</header>
+<div class="content list__excerpt post__content clearfix">
+Recently I moved my blog from Wordpress to Hugo , and that involved a lot of content fixing. One of the problems was that during the export not all HTML code was correctly transferred to markup. So I needed fix (replace) all pending &lt;a href="https://spidersoft.com.au">spidersoft&lt;/a> to [spidersoft](https://spidersoft.com.au).
+What we need is just 2 simple regular expressions.
+One to find links &lt;a.*?href="(.+?)".*?>(.+?)&lt;/a>
+Second one to replace them in reverse order [$2]($1)
+</div>
+<div class="list__footer clearfix">
+<a class="list__footer-readmore btn" href=/2021/how-to-replace-all-links-in-html-to-markup/>Read more…</a>
+</div>
+</article><article class="list__item post">
+<figure class=list__thumbnail>
 <a href=https://www.spidersoft.com.au/2021/clearing-up-git-submodule-problem/>
 <img src=/images/2021/08/hugo-logo-wide_hub6a7bda62d313f70fa472a5142c3f337_59790_640x0_resize_box_3.png alt="Clearing up git submodules problems">
 </a>

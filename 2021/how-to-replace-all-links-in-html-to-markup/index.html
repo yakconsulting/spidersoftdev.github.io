@@ -7,31 +7,28 @@
 <script>(function(a,b){a[b]=a[b].replace("no-js","js")})(document.documentElement,"className")</script>
 <meta name=description content>
 <meta property="og:title" content="How to replace all links in html to markup">
-<meta property="og:description" content="Recently I moved my blog from Wordpress to Hugo, and that involved a lot of content fixing. One of the problems was that during the export not all HTML code was correctly transferred to markup. So I needed fix (replace) all pending [aaa](http://) to [aaa](http://).
+<meta property="og:description" content="Recently I moved my blog from Wordpress to Hugo , and that involved a lot of content fixing. One of the problems was that during the export not all HTML code was correctly transferred to markup. So I needed fix (replace) all pending <a href=&#34;https://spidersoft.com.au&#34;>spidersoft</a> to [spidersoft](https://spidersoft.com.au).
 What we need is just 2 simple regular expressions.
-One to find links [(.+?)]((.+?))
-Second one to replace them in reverse order [$2]($1)
-You can run this in basically any IDE - Sublime will do the job, I was using PHPStorm">
+One to find links <a.*?href=&#34;(.+?)&#34;.*?>(.+?)</a>
+Second one to replace them in reverse order [$2]($1)">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://www.spidersoft.com.au/2021/how-to-replace-all-links-in-html-to-markup/"><meta property="article:section" content="posts">
 <meta property="article:published_time" content="2021-09-03T13:06:00+00:00">
 <meta property="article:modified_time" content="2021-09-03T13:06:00+00:00">
 <meta itemprop=name content="How to replace all links in html to markup">
-<meta itemprop=description content="Recently I moved my blog from Wordpress to Hugo, and that involved a lot of content fixing. One of the problems was that during the export not all HTML code was correctly transferred to markup. So I needed fix (replace) all pending [aaa](http://) to [aaa](http://).
+<meta itemprop=description content="Recently I moved my blog from Wordpress to Hugo , and that involved a lot of content fixing. One of the problems was that during the export not all HTML code was correctly transferred to markup. So I needed fix (replace) all pending <a href=&#34;https://spidersoft.com.au&#34;>spidersoft</a> to [spidersoft](https://spidersoft.com.au).
 What we need is just 2 simple regular expressions.
-One to find links [(.+?)]((.+?))
-Second one to replace them in reverse order [$2]($1)
-You can run this in basically any IDE - Sublime will do the job, I was using PHPStorm"><meta itemprop=datePublished content="2021-09-03T13:06:00+00:00">
+One to find links <a.*?href=&#34;(.+?)&#34;.*?>(.+?)</a>
+Second one to replace them in reverse order [$2]($1)"><meta itemprop=datePublished content="2021-09-03T13:06:00+00:00">
 <meta itemprop=dateModified content="2021-09-03T13:06:00+00:00">
-<meta itemprop=wordCount content="86">
-<meta itemprop=keywords content="regexp,phpstorm,">
+<meta itemprop=wordCount content="98">
+<meta itemprop=keywords content="regexp,phpstorm,hugo,">
 <meta name=twitter:card content="summary">
 <meta name=twitter:title content="How to replace all links in html to markup">
-<meta name=twitter:description content="Recently I moved my blog from Wordpress to Hugo, and that involved a lot of content fixing. One of the problems was that during the export not all HTML code was correctly transferred to markup. So I needed fix (replace) all pending [aaa](http://) to [aaa](http://).
+<meta name=twitter:description content="Recently I moved my blog from Wordpress to Hugo , and that involved a lot of content fixing. One of the problems was that during the export not all HTML code was correctly transferred to markup. So I needed fix (replace) all pending <a href=&#34;https://spidersoft.com.au&#34;>spidersoft</a> to [spidersoft](https://spidersoft.com.au).
 What we need is just 2 simple regular expressions.
-One to find links [(.+?)]((.+?))
-Second one to replace them in reverse order [$2]($1)
-You can run this in basically any IDE - Sublime will do the job, I was using PHPStorm">
+One to find links <a.*?href=&#34;(.+?)&#34;.*?>(.+?)</a>
+Second one to replace them in reverse order [$2]($1)">
 <link rel=preconnect href=https://fonts.gstatic.com crossorigin>
 <link rel=dns-prefetch href=//fonts.googleapis.com>
 <link rel=dns-prefetch href=//fonts.gstatic.com>
@@ -111,15 +108,18 @@ You can run this in basically any IDE - Sublime will do the job, I was using PHP
 <figure class=post__thumbnail>
 <img src=/images/2021/09/replace_hub3add3c283a1ffdbe768e6d75176aa37_402920_640x0_resize_box_3.png alt="How to replace all links in html to markup">
 </figure><div class="content post__content clearfix">
-<p>Recently I moved my blog from Wordpress to Hugo, and that involved a lot of content fixing. One of the problems was that during the export not all HTML code was correctly transferred to markup. So I needed fix (replace) all pending <code>[aaa](http://)</code> to <code>[aaa](http://)</code>.</p>
+<p>Recently I moved my blog from Wordpress to
+<a href=https://gohugo.io>Hugo</a>
+, and that involved a lot of content fixing. One of the problems was that during the export not all HTML code was correctly transferred to markup. So I needed fix (replace) all pending <code>&lt;a href="https://spidersoft.com.au">spidersoft&lt;/a></code> to <code>[spidersoft](https://spidersoft.com.au)</code>.</p>
 <p>What we need is just 2 simple regular expressions.</p>
 <p>One to find links
-<code>[(.+?)]((.+?))</code></p>
+<code>&lt;a.*?href="(.+?)".*?>(.+?)&lt;/a></code></p>
 <p>Second one to replace them in reverse order
 <code>[$2]($1)</code></p>
 <p>You can run this in basically any IDE -
 <a href=https://www.sublimetext.com>Sublime</a>
 will do the job, I was using PHPStorm</p>
+<p>Same thing you can do with <code>&lt;pre></code> or embedded images.</p>
 </div>
 <footer class=post__footer>
 <div class="post__tags tags clearfix"><svg class="tags__badge icon icon-tag" width="16" height="16" viewBox="0 0 32 32"><path d="M32 19c0 1-1 2-1 2L21 31s-1 1-2 1-2-1-2-1L2 16c-1-1-1.4-2-1.4-2S0 12.5.0 11V3C0 1.5.8.8.8.8S1.5.0 3 0h8c1.5.0 3 .6 3 .6S15 1 16 2l15 15s1 1 1 2zM7 10a3 3 0 100-6 3 3 0 000 6z"/></svg>
@@ -130,11 +130,18 @@ will do the job, I was using PHPStorm</p>
 <li class=tags__item>
 <a class="tags__link btn" href=/tags/phpstorm/ rel=tag>phpstorm</a>
 </li>
+<li class=tags__item>
+<a class="tags__link btn" href=/tags/hugo/ rel=tag>hugo</a>
+</li>
 </ul>
 </div>
 </footer>
 <footer class=post__related>
 <section>
+<h3>See Also</h3>
+<ul>
+<li><a href=/2021/clearing-up-git-submodule-problem/>Clearing up git submodules problems</a></li>
+</ul>
 </section>
 </footer>
 </article>
