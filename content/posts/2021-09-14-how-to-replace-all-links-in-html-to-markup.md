@@ -11,16 +11,19 @@ categories:
 tags:
   - regexp
   - phpstorm
+  - hugo
 lead: "Regular expression to replace href to markup" 
 ---
-Recently I moved my blog from Wordpress to Hugo, and that involved a lot of content fixing. One of the problems was that during the export not all HTML code was correctly transferred to markup. So I needed fix (replace) all pending `[aaa](http://)` to `[aaa](http://)`.
+Recently I moved my blog from Wordpress to [Hugo](https://gohugo.io), and that involved a lot of content fixing. One of the problems was that during the export not all HTML code was correctly transferred to markup. So I needed fix (replace) all pending `<a href="https://spidersoft.com.au">spidersoft</a>` to `[spidersoft](https://spidersoft.com.au)`.
 
 What we need is just 2 simple regular expressions. 
 
 One to find links
-```[(.+?)]((.+?))```
+`<a.*?href="(.+?)".*?>(.+?)</a>`
 
 Second one to replace them in reverse order
-```[$2]($1)```
+`[$2]($1)`
 
 You can run this in basically any IDE - [Sublime](https://www.sublimetext.com) will do the job, I was using PHPStorm
+
+Same thing you can do with `<pre>` or embedded images.
