@@ -86,6 +86,34 @@
 <h1 class=main__title>Linux</h1>
 </header><article class="list__item post">
 <figure class=list__thumbnail>
+<a href=https://www.spidersoft.com.au/2014/php-5-4-x-on-centos-6-5/>
+<img src=/images/2011/10/Centos-Logo.png alt="PHP 5.4.x on CentOS 6.5">
+</a>
+</figure>
+<header class=list__header>
+<h2 class="list__title post__title">
+<a href=/2014/php-5-4-x-on-centos-6-5/ rel=bookmark>
+PHP 5.4.x on CentOS 6.5
+</a>
+</h2>
+<div class="list__meta meta">
+<div class="meta__item-datetime meta__item">
+<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class=meta__text datetime=2014-10-07T04:22:38Z>2014-10-07</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2 1 2h8v11H0V2z"/></svg><span class=meta__text><a class=meta__link href=/categories/linux/ rel=category>Linux</a>, <a class=meta__link href=/categories/open-source/ rel=category>Open Source</a>
+</span>
+</div></div>
+</header>
+<div class="content list__excerpt post__content clearfix">
+Quick copy and paste list of commands to get PHP 5.4 on CentOS boxes
+wget http://dl.fedoraproject.org/pub/epel/6/x86_64/epel-release-6-8.noarch.rpm wget http://rpms.famillecollet.com/enterprise/remi-release-6.rpm sudo rpm -Uvh remi-release-6*.rpm epel-release-6*.rpm Enable remi repo
+sudo nano /etc/yum.repos.d/remi.repo
+Update
+sudo yum update sudo yum info php Loaded plugins: fastestmirror, refresh-packagekit, security Loading mirror speeds from cached hostfile * base: mirror.optus.net * epel: fedora.mirror.serversaustralia.com.au * extras: ftp.swin.edu.au * remi: remi.kazukioishi.net * updates: ftp.swin.edu.au Available Packages Name : php Arch : x86_64 Version : 5.
+</div>
+<div class="list__footer clearfix">
+<a class="list__footer-readmore btn" href=/2014/php-5-4-x-on-centos-6-5/>Read more…</a>
+</div>
+</article><article class="list__item post">
+<figure class=list__thumbnail>
 <a href=https://www.spidersoft.com.au/2014/hhvm-on-amazon-ec2-in-2-minutes/>
 <img src=/images/2014/09/hhvm.png alt="HHVM on Amazon EC2 in 2 minutes">
 </a>
@@ -201,30 +229,6 @@ mount -a to make it parmament
 edit /etc/fstab
 192.168.1.15:/c/share /mnt/nfs nfs defaults 0 0
 </div>
-</article><article class="list__item post">
-<figure class=list__thumbnail>
-<a href=https://www.spidersoft.com.au/2014/vpn-server-on-ec2-instance/>
-<img src=/images/2014/07/Static-IP-VPN.png alt="VPN server on EC2 instance">
-</a>
-</figure>
-<header class=list__header>
-<h2 class="list__title post__title">
-<a href=/2014/vpn-server-on-ec2-instance/ rel=bookmark>
-VPN server on EC2 instance
-</a>
-</h2>
-<div class="list__meta meta">
-<div class="meta__item-datetime meta__item">
-<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class=meta__text datetime=2014-07-30T05:44:17Z>2014-07-30</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2 1 2h8v11H0V2z"/></svg><span class=meta__text><a class=meta__link href=/categories/linux/ rel=category>Linux</a>, <a class=meta__link href=/categories/open-source/ rel=category>Open Source</a>
-</span>
-</div></div>
-</header>
-<div class="content list__excerpt post__content clearfix">
-<p>The easiest way to setup VPN server on Amazon EC2 instance.</p>
-</div>
-<div class="list__footer clearfix">
-<a class="list__footer-readmore btn" href=/2014/vpn-server-on-ec2-instance/>Read more…</a>
-</div>
 </article>
 </main>
 <div class=pagination>
@@ -261,9 +265,13 @@ VPN server on EC2 instance
 <li class=widget__item>
 <a class=widget__link href=/categories/linux/>Linux</a></li>
 <li class=widget__item>
+<a class=widget__link href=/categories/mac/>Mac</a></li>
+<li class=widget__item>
 <a class=widget__link href=/categories/open-source/>Open Source</a></li>
 <li class=widget__item>
 <a class=widget__link href=/categories/php/>PHP</a></li>
+<li class=widget__item>
+<a class=widget__link href=/categories/programming/>Programming</a></li>
 <li class=widget__item>
 <a class=widget__link href=/categories/software/>Software</a></li>
 <li class=widget__item>

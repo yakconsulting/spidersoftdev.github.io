@@ -134,6 +134,26 @@ PHP returning wrong date
 <a class="list__footer-readmore btn" href=/2019/php-returning-wrong-date/>Read more…</a>
 </div>
 </article><article class="list__item post">
+<header class=list__header>
+<h2 class="list__title post__title">
+<a href=/2018/iframe-wont-display-content/ rel=bookmark>
+iframe won’t display content..
+</a>
+</h2>
+<div class="list__meta meta">
+<div class="meta__item-datetime meta__item">
+<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class=meta__text datetime=2018-11-29T09:40:18Z>2018-11-29</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2 1 2h8v11H0V2z"/></svg><span class=meta__text><a class=meta__link href=/categories/programming/ rel=category>Programming</a>
+</span>
+</div></div>
+</header>
+<div class="content list__excerpt post__content clearfix">
+There is a website, with iframe. I frame source is correct, but won’t display content of the website. No visible errors. There only small detail in the console:
+Load denied by X-Frame-Options: https://... does not permit cross-origin framing.
+Some crazy admin figure out that it’s going to be better… and put some crazy code into headers:
+X-Frame-Options: SAMEORIGINX-XSS-Protection: 1; mode=blockX-Content-Type-Options: nosniff
+Solution: talk to the hand, because admin won’t listen ;P
+</div>
+</article><article class="list__item post">
 <figure class=list__thumbnail>
 <a href=https://www.spidersoft.com.au/2018/how-to-secure-s3-bucket-with-username-and-password/>
 <img src=/images/2018/09/data-1590455_1280_hu1c31cd1faa98ad098c17944cb8d78466_244474_640x0_resize_q75_box.jpg alt="How to secure S3 bucket with username and password">
@@ -186,37 +206,6 @@ Australian postcode to state conversion
 <div class="list__footer clearfix">
 <a class="list__footer-readmore btn" href=/2018/australian-postcode-to-state-conversion/>Read more…</a>
 </div>
-</article><article class="list__item post">
-<figure class=list__thumbnail>
-<a href=https://www.spidersoft.com.au/2018/geoip-extension-php-7-x-ami-redhat-centos-linux/>
-<img src=/images/2018/07/travel-2650303_1920_hue9065219167d4c9d307072bbbe45decf_474299_640x0_resize_q75_box.jpg alt="GeoIP extension PHP 7.x + AMI / Redhat / CentOs Linux">
-</a>
-</figure>
-<header class=list__header>
-<h2 class="list__title post__title">
-<a href=/2018/geoip-extension-php-7-x-ami-redhat-centos-linux/ rel=bookmark>
-GeoIP extension PHP 7.x + AMI / Redhat / CentOs Linux
-</a>
-</h2>
-<div class="list__meta meta">
-<div class="meta__item-datetime meta__item">
-<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class=meta__text datetime=2018-07-16T09:53:42Z>2018-07-16</time>
-<time class=meta__text datetime=2019-06-16T00:00:00Z>(Last Modified: 2019-06-16)</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2 1 2h8v11H0V2z"/></svg><span class=meta__text><a class=meta__link href=/categories/linux/ rel=category>Linux</a>, <a class=meta__link href=/categories/php/ rel=category>PHP</a>
-</span>
-</div></div>
-</header>
-<div class="content list__excerpt post__content clearfix">
-Small 2019 update – Please check out this library – github.com/maxmind/MaxMind-DB-Reader-php It’s a straight replacement of PHP module.
-GeoIP extensions is quite use-full, but it requires some server – side magic. If you are looking for something simpler, just go with ipstack.com or something similar – GeoIP .
-Otherwise:
-wget http://pear.php.net/go-pear.phar php go-pear.phar We need geoip-devel libraries:
-yum install geoip-devel
-And newest (not stable) version of geoip:
-sudo ./pecl install geoip-1.
-</div>
-<div class="list__footer clearfix">
-<a class="list__footer-readmore btn" href=/2018/geoip-extension-php-7-x-ami-redhat-centos-linux/>Read more…</a>
-</div>
 </article>
 </main>
 <div class=pagination>
@@ -253,9 +242,13 @@ sudo ./pecl install geoip-1.
 <li class=widget__item>
 <a class=widget__link href=/categories/linux/>Linux</a></li>
 <li class=widget__item>
+<a class=widget__link href=/categories/mac/>Mac</a></li>
+<li class=widget__item>
 <a class=widget__link href=/categories/open-source/>Open Source</a></li>
 <li class=widget__item>
 <a class=widget__link href=/categories/php/>PHP</a></li>
+<li class=widget__item>
+<a class=widget__link href=/categories/programming/>Programming</a></li>
 <li class=widget__item>
 <a class=widget__link href=/categories/software/>Software</a></li>
 <li class=widget__item>
