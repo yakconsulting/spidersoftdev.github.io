@@ -4,7 +4,7 @@ author: admin
 type: post
 date: 2021-09-17T11:16:00+00:00
 url: /2021/never-use-file-get-contents
-lead: Why you shouldn't over use file_get_contents
+lead: Why you should nt ever use file_get_contents
 categories:
   - Technologies
   - PHP
