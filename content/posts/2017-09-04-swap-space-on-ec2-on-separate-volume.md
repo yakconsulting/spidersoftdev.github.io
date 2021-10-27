@@ -4,16 +4,6 @@ author: admin
 type: post
 date: 2017-09-04T04:27:20+00:00
 url: /2017/swap-space-on-ec2-on-separate-volume/
-nkweb_code_in_head:
-  - default
-nkweb_Use_Custom_js:
-  - default
-nkweb_Use_Custom_Values:
-  - default
-nkweb_Use_Custom:
-  - 'false'
-dsq_thread_id:
-  - 6118009543
 categories:
   - Linux
 tags:
@@ -31,22 +21,22 @@ This time, we are going to create separate volume.
 
 We start with creating new Volume:
 
-![EC2-Management-Console](images/2017/09/EC2-Management-Console.jpg)
+![EC2-Management-Console](/images/2017/09/EC2-Management-Console.jpg)
 
 Make sure that your volume is in the same zone, as your instance:
 
-![EC2-Management-Console-1](images/2017/09/EC2-Management-Console-1.jpg)
+![EC2-Management-Console-1](/images/2017/09/EC2-Management-Console-1.jpg)
 
 Attach volume to your desired instance:
 
 &nbsp;
 
-![attach-volume](images/2017/09/attach-volume.png)
+![attach-volume](/images/2017/09/attach-volume.png)
 
 
 After attaching &#8211; don&#8217;t forget to note Device &#8211; `/dev/sdf` in our case&#8230;
 
-![](images/2017/09/attach-volume-1.png)
+![attach-volume](/images/2017/09/attach-volume-1.png)
 
 &nbsp;
 
