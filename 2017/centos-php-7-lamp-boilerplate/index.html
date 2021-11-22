@@ -29,7 +29,7 @@ What you can learn from it? How to install Apache 2.4 and PHP 7, how to enable a
  . Instructions are pretty simple. You can just copy and paste command to get working stack in less then 15 minutes.
 What you can learn from it? How to install Apache 2.4 and PHP 7, how to enable and opcache, and how to install HTTPS on your server, with purchasing SSL certificate."><meta itemprop=datePublished content="2017-09-05T03:45:48+00:00">
 <meta itemprop=dateModified content="2017-09-05T03:45:48+00:00">
-<meta itemprop=wordCount content="515">
+<meta itemprop=wordCount content="513">
 <meta itemprop=keywords content="apache,centos,lamp,linux,php,">
 <meta name=twitter:card content="summary">
 <meta name=twitter:title content="Centos PHP 7 LAMP boilerplate">
@@ -147,8 +147,8 @@ What you can learn from it? How to install Apache 2.4 and PHP 7, how to enable a
 <li>To save some time, switch to sudo user:<br>
 <code>sudo -i</code></li>
 <li>we are going to need REMI repository for PHP 7<br>
-<code>wget http://rpms.famillecollet.com/enterprise/remi-release-7.rpm&lt;br /> rpm -Uvh remi-release-7.rpm</code></li>
-<li>Upgrade everything to latest versions:<br>
+<code>wget http://rpms.famillecollet.com/enterprise/remi-release-7.rpm rpm -Uvh remi-release-7.rpm</code></li>
+<li>Upgrade everything to the latest versions:<br>
 <code>yum update -y</code></li>
 </ul>
 <p>Let&rsquo;s start with some software:</p>
@@ -161,8 +161,8 @@ sudo chkconfig --levels 235 httpd on
 sudo chkconfig php-fpm on
 </code></pre><p>Done – your LAMP stack works. But it’s not visible from outside world yet…</p>
 <h3 id=firewall>Firewall</h3>
-<pre tabindex=0><code>firewall-cmd --permanent --add-service=http&lt;br /&gt;
-firewall-cmd --reload&lt;br /&gt;
+<pre tabindex=0><code>firewall-cmd --permanent --add-service=http
+firewall-cmd --reload
 </code></pre><h3 id=php-configuration>PHP configuration</h3>
 <p>Let’s do some more configuration around PHP:<br>
 We have to find php.ini – <code>php70 -i | grep php.ini</code> gives us:<br>
