@@ -30,8 +30,8 @@ sudo yum install ffmpeg
 ```
 
 Done.  
-`ffmpeg version 0.10.15 Copyright (c) 2000-2014 the FFmpeg developers<br />
-built on Aug 30 2014 15:49:19 with gcc 4.4.7 20120313 (Red Hat 4.4.7-3)<br />
+`ffmpeg version 0.10.15 Copyright (c) 2000-2014 the FFmpeg developers
+built on Aug 30 2014 15:49:19 with gcc 4.4.7 20120313 (Red Hat 4.4.7-3)
 ` 
 
 Obviously there is no fun with FFmpeg if you don&#8217;t have anything to convert. I needed to crop vertical videos from iPad to square &#8211; [Vine](https://itunes.apple.com/au/app/vine/id592447445?mt=8) like format.

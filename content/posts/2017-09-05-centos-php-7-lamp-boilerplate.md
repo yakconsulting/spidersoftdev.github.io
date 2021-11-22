@@ -31,9 +31,9 @@ What you can learn from it? How to install Apache 2.4 and PHP 7, how to enable a
   * To save some time, switch to sudo user:  
     `sudo -i`
   * we are going to need REMI repository for PHP 7  
-    `wget http://rpms.famillecollet.com/enterprise/remi-release-7.rpm<br />
+    `wget http://rpms.famillecollet.com/enterprise/remi-release-7.rpm
 rpm -Uvh remi-release-7.rpm`
-  * Upgrade everything to latest versions:  
+  * Upgrade everything to the latest versions:  
     `yum update -y`
 
 Let's start with some software:
@@ -57,8 +57,8 @@ Done &#8211; your LAMP stack works. But it&#8217;s not visible from outside worl
 ### Firewall
 
 ```
-firewall-cmd --permanent --add-service=http<br />
-firewall-cmd --reload<br />
+firewall-cmd --permanent --add-service=http
+firewall-cmd --reload
 ```
 
 ### PHP configuration

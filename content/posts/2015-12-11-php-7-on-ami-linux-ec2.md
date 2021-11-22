@@ -62,7 +62,7 @@ expose_php = Off
 Server configuration  
 ```
 cd /etc/
-sudo rm -rf localtime && sudo ln -s /usr/share/zoneinfo/Australia/Sydney localtime<br />
+sudo rm -rf localtime && sudo ln -s /usr/share/zoneinfo/Australia/Sydney localtime
 ```
 
  [1]: /2014/apache-2-4-php-5-4-on-ec2-instance/
