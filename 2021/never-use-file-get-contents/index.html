@@ -115,12 +115,11 @@ So whenever I use PHP to fetch something I&rsquo;m using file_get_contents to ma
 <script type=application/javascript src=https://gist.github.com/slav123/4e3a6c2f671cf0c2960a.js></script>
 <h2 id=problem>Problem</h2>
 <p>It&rsquo;s not to bad - the only issue is error handling, if something goes wrong - it&rsquo;s really hard to know what is happening. Obviously you can do something like this:</p>
-<pre tabindex=0><code>  $result = file_get_contents(&quot;http://example.com&quot;);
-  if ($result === false) {
-    var_dump($http_response_header);
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-PHP data-lang=PHP>  $result <span style=color:#f92672>=</span> <span style=color:#a6e22e>file_get_contents</span>(<span style=color:#e6db74>&#34;http://example.com&#34;</span>);
+  <span style=color:#66d9ef>if</span> ($result <span style=color:#f92672>===</span> <span style=color:#66d9ef>false</span>) {
+    <span style=color:#a6e22e>var_dump</span>($http_response_header);
   }
-  
-</code></pre><p>but it&rsquo;s pretty shitty way to handle errors, and then look into array for details.</p>
+</code></pre></div><p>but it&rsquo;s pretty shitty way to handle errors, and then look into array for details.</p>
 <h2 id=solution>Solution</h2>
 <p>So what is the solution ? It&rsquo;s quite simple use <code>CURL</code> library instead:</p>
 <script type=application/javascript src=https://gist.github.com/slav123/cf7779073ed16914b2ec9368140e067a.js></script>
@@ -265,7 +264,7 @@ So whenever I use PHP to fetch something I&rsquo;m using file_get_contents to ma
 <a class=footer__link href=/privacy-policy>Privacy Policy</a> | <a class=footer__link href=/refund-policy>Refund Policy</a> | <a class=footer__link href=/terms-and-conditions>Term and conditions</a>
 </div>
 <div class=footer__copyright>
-&copy; 2021 SpiderSoft.
+&copy; 2022 SpiderSoft.
 <span class=footer__copyright-credits>Generated with <a href=https://gohugo.io/ rel="nofollow noopener" target=_blank>Hugo</a> and <a href=https://github.com/Vimux/Mainroad/ rel="nofollow noopener" target=_blank>Mainroad</a> theme.</span>
 </div>
 </div>

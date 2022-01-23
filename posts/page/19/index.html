@@ -85,6 +85,29 @@
 <header class=main__header>
 <h1 class=main__title>Posts</h1>
 </header><article class="list__item post">
+<figure class=list__thumbnail>
+<a href=https://www.spidersoft.com.au/2013/utilizing-multi-core-for-targzipbzip-compressiondecompression/>
+<img src=/images/2013/12/multicore.jpg alt="Utilizing multi core for tar+gzip/bzip compression/decompression">
+</a>
+</figure>
+<header class=list__header>
+<h2 class="list__title post__title">
+<a href=/2013/utilizing-multi-core-for-targzipbzip-compressiondecompression/ rel=bookmark>
+Utilizing multi core for tar+gzip/bzip compression/decompression
+</a>
+</h2>
+<div class="list__meta meta">
+<div class="meta__item-datetime meta__item">
+<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class=meta__text datetime=2013-12-05T03:03:14Z>2013-12-05</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2 1 2h8v11H0V2z"/></svg><span class=meta__text><a class=meta__link href=/categories/linux/ rel=category>Linux</a>
+</span>
+</div></div>
+</header>
+<div class="content list__excerpt post__content clearfix">
+We have couple options: pigz and pbzip2 .
+tar -c --use-compress-program=pigz -f my_archive.tar.gz /home/archive The other trick useful trick is that you can exclude some directories or files
+tar -zcvf my_archive.tar.gz --exclude='cache' --exclude='.git' /home/archive
+</div>
+</article><article class="list__item post">
 <header class=list__header>
 <h2 class="list__title post__title">
 <a href=/2013/top-screen-resolutions/ rel=bookmark>
@@ -155,39 +178,11 @@ Latest discoveries
 <div class="content list__excerpt post__content clearfix">
 Codeception Modern PHP testing for everyone codeception.com FileAPI FileAPI — a set of javascript tools for working with files. Multiupload, drag’n’drop and chunked file upload. Images: crop, resize and auto orientation by EXIF github.com/mailru/FileAPI RainLoop FREE, MODERN & FAST WEB-BASED EMAIL CLIENT rainloop.net ANIMATED CHECKBOXES ANIMATED CHECKBOXES AND RADIO BUTTONS WITH SVG tympanus.net Odometer TRANSITION NUMBERS WITH EASE github.hubspot.com/odometer/docs/welcome/
 </div>
-</article><article class="list__item post">
-<figure class=list__thumbnail>
-<a href=https://www.spidersoft.com.au/2013/why-aws-is-better-than-rackspace/>
-<img src=/images/2013/09/cloudproviders_hu991bb6ada0709f831b9581e5fce96157_90853_640x0_resize_q75_box.jpg alt="Why AWS is better than Rackspace">
-</a>
-</figure>
-<header class=list__header>
-<h2 class="list__title post__title">
-<a href=/2013/why-aws-is-better-than-rackspace/ rel=bookmark>
-Why AWS is better than Rackspace
-</a>
-</h2>
-<div class="list__meta meta">
-<div class="meta__item-datetime meta__item">
-<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class=meta__text datetime=2013-09-27T23:28:00Z>2013-09-27</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2 1 2h8v11H0V2z"/></svg><span class=meta__text><a class=meta__link href=/categories/blog/ rel=category>Blog</a>
-</span>
-</div></div>
-</header>
-<div class="content list__excerpt post__content clearfix">
-<p>I’m huge fan fan ow
-<a href=http://aws.amazon.com>AWS</a>
-services. It just works – don’t need any kind of support, prices are really good. No issues whatsoever. But – of course my nature ask me to check out other options. For example
-<a href=http://www.rackspace.com.au/>Rackspace</a>
-. So I registered account, filled out my business and credit details. Just to give a small background – got registered business since 2011 in Australia. I filled out my CC details, phone number and so on. Pretty standard process. I logged in, and start playing with their interface (pretty slow, but I shouldn’t complain yet). The best is about to come…</p>
-</div>
-<div class="list__footer clearfix">
-<a class="list__footer-readmore btn" href=/2013/why-aws-is-better-than-rackspace/>Read more…</a>
-</div>
 </article>
 </main>
 <div class=pagination>
 <a class="pagination__item pagination__item--prev btn" href=/posts/page/18/>«</a>
-<span class="pagination__item pagination__item--current">19/32</span>
+<span class="pagination__item pagination__item--current">19/33</span>
 <a class="pagination__item pagination__item--next btn" href=/posts/page/20/>»</a>
 </div>
 </div>
@@ -294,7 +289,7 @@ services. It just works – don’t need any kind of support, prices are really 
 <a class=footer__link href=/privacy-policy>Privacy Policy</a> | <a class=footer__link href=/refund-policy>Refund Policy</a> | <a class=footer__link href=/terms-and-conditions>Term and conditions</a>
 </div>
 <div class=footer__copyright>
-&copy; 2021 SpiderSoft.
+&copy; 2022 SpiderSoft.
 <span class=footer__copyright-credits>Generated with <a href=https://gohugo.io/ rel="nofollow noopener" target=_blank>Hugo</a> and <a href=https://github.com/Vimux/Mainroad/ rel="nofollow noopener" target=_blank>Mainroad</a> theme.</span>
 </div>
 </div>

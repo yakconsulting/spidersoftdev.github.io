@@ -85,6 +85,33 @@
 <header class=main__header>
 <h1 class=main__title>PHP</h1>
 </header><article class="list__item post">
+<header class=list__header>
+<h2 class="list__title post__title">
+<a href=/2015/phpstorm-phpcodesniffer-and-codeigniter-style-guide/ rel=bookmark>
+PhpStorm PHPCodeSniffer and… CodeIgniter style guide
+</a>
+</h2>
+<div class="list__meta meta">
+<div class="meta__item-datetime meta__item">
+<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class=meta__text datetime=2015-07-10T01:26:14Z>2015-07-10</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2 1 2h8v11H0V2z"/></svg><span class=meta__text><a class=meta__link href=/categories/continuous-integration/ rel=category>Continuous Integration</a>, <a class=meta__link href=/categories/php/ rel=category>PHP</a>, <a class=meta__link href=/categories/software/ rel=category>Software</a>
+</span>
+</div></div>
+</header>
+<div class="content list__excerpt post__content clearfix">
+This article is related to my previous one about setting up PHPCodeSniffer with CodeIgniter coding standards.
+Installation on Linux boxes is pretty yeasy:
+sudo pear channel-update pear.php.net yum install php-pear-PHP-CodeSniffer php-phpunit-phpcpd On Mac OS X you have couple options. Pear or Homebrew:
+brew install php-code-sniffer
+And following that, on regular boxes CodeSniffer will be here:
+/usr/share/pear/PHP/CodeSniffer/Standards
+on Mac OS CodeSniffer will be located here:
+/usr/lib/php/pear/PHP/CodeSniffer/Standards or… /usr/local/Cellar/php-code-sniffer/1.5.6/CodeSniffer/Standards
+CodeIgniter standard can be downloaded from this location https://github.
+</div>
+<div class="list__footer clearfix">
+<a class="list__footer-readmore btn" href=/2015/phpstorm-phpcodesniffer-and-codeigniter-style-guide/>Read more…</a>
+</div>
+</article><article class="list__item post">
 <figure class=list__thumbnail>
 <a href=https://www.spidersoft.com.au/2015/xcache-vs-apc-php-5-4-x/>
 <img src=/images/2014/08/php-logo.png alt="XCache vs APC PHP 5.4.x">
@@ -211,33 +238,6 @@ virtual machine designed for executing programs written in
 <div class="list__footer clearfix">
 <a class="list__footer-readmore btn" href=/2014/hhvm-on-amazon-ec2-in-2-minutes/>Read more…</a>
 </div>
-</article><article class="list__item post">
-<figure class=list__thumbnail>
-<a href=https://www.spidersoft.com.au/2014/php-work-queues/>
-<img src=/images/2014/08/php-logo.png alt="PHP, work queues">
-</a>
-</figure>
-<header class=list__header>
-<h2 class="list__title post__title">
-<a href=/2014/php-work-queues/ rel=bookmark>
-PHP, work queues
-</a>
-</h2>
-<div class="list__meta meta">
-<div class="meta__item-datetime meta__item">
-<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class=meta__text datetime=2014-08-21T04:30:27Z>2014-08-21</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2 1 2h8v11H0V2z"/></svg><span class=meta__text><a class=meta__link href=/categories/php/ rel=category>PHP</a>
-</span>
-</div></div>
-</header>
-<div class="content list__excerpt post__content clearfix">
-<p>Biggest pain point in PHP is lack of asynchronous calls. The only reasonable way is to use some kind of “backend” processing and task list to execute. Some people use cron to run given script each n-minutes and execute tasks. But there is a little bit more “professional” approach. 
-<a href=http://kr.github.io/beanstalkd/>Beanstalk</a>
-is a simple, fast work queue. Idea is pretty simple – you can just throw tasks into queue and then have background worker which is pulling data from pipe and executes task.</p>
-<p>Couple ideas: sending emails, processing images, making heavy queries into database. But the best part of it – you don’t have to use PHP for back processing. It could be anything, because protocol us universal and worker and client doesn’t have to be in the same language. So you can schedule task in PHP, and run it in Go. I’m not going too much into details. Just run some examples.</p>
-</div>
-<div class="list__footer clearfix">
-<a class="list__footer-readmore btn" href=/2014/php-work-queues/>Read more…</a>
-</div>
 </article>
 </main>
 <div class=pagination>
@@ -349,7 +349,7 @@ is a simple, fast work queue. Idea is pretty simple – you can just throw tasks
 <a class=footer__link href=/privacy-policy>Privacy Policy</a> | <a class=footer__link href=/refund-policy>Refund Policy</a> | <a class=footer__link href=/terms-and-conditions>Term and conditions</a>
 </div>
 <div class=footer__copyright>
-&copy; 2021 SpiderSoft.
+&copy; 2022 SpiderSoft.
 <span class=footer__copyright-credits>Generated with <a href=https://gohugo.io/ rel="nofollow noopener" target=_blank>Hugo</a> and <a href=https://github.com/Vimux/Mainroad/ rel="nofollow noopener" target=_blank>Mainroad</a> theme.</span>
 </div>
 </div>
