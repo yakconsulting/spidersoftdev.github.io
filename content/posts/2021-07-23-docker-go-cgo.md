@@ -21,13 +21,13 @@ I’ve been avoid Docker for a very long time. I started my career as a sysadmin
 But today history is not about my love & hate relationship with docker, but about trying to deploy Go application and VIPS library. Couple problems appeared during the process and it’s worth mentioning it for future generations because could find much help around my issues.
 <!--more-->
 
-## So… you thing you can get away with golang:alpine building go GCO app?
+## So… you think you can get away with golang:alpine building go GCO app?
 Ain’t gonna happen. Why? Without going into details — because alpine is “lightweight” version of linux, and it does not contain all necessary tools to properly build and run applications with CGO bindings.
 
 ## How to pimp up your docker image with never versions of packages
 Long story short: golang:latest is build on Debian buster, and it contains pretty old version of VIPS — I figure out, that I can update it with never version coming from “bullseye” distribution. Because we can’t just hack our image with modifying image, the way to go is to install software-properties-common and then add bullseye repository before installing actual dependencies. It works :)
 
-```
+```DOCKER
 FROM golang:latest AS base
 
 RUN apt-get update && \
@@ -41,7 +41,7 @@ RUN apt-get update && \
 ## Making sure about correct build architecture
 So… As I mentioned before I do have M1 chip, so without setting up anything “default” GOARCH is arm64 — I wasn’t aware of that until I couldn’t run it on my “regular” Intel based server.
 
-```
+```DOCKER
 FROM base AS build
 ARG TARGETOS
 ARG TARGETARCH

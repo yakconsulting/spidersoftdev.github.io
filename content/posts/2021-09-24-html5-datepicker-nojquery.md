@@ -26,7 +26,7 @@ I'm using `data-id` to indicate future use this to save data in DB.
 
 Then we need bind `Double Click` event to our date and create actual replacement:
 
-``` 
+```JAVASCRIPT
 editable[i].addEventListener("dblclick", function (ev) {
   var input = document.createElement("input");
   input.type = "date";
@@ -41,7 +41,7 @@ editable[i].addEventListener("dblclick", function (ev) {
 
 This is basic version, which will give us date to calendar replacement. We have to handle data save, and going back to "text" version
 
-```
+```JAVASCRIPT
 function saveAction(ev) {
   const element = ev.currentTarget;
   console.log("saving... ", element.value);

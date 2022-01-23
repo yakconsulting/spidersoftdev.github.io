@@ -22,12 +22,11 @@ So whenever I use PHP to fetch something I'm using `file_get_contents` to make q
 ## Problem
 It's not to bad - the only issue is error handling, if something goes wrong - it's really hard to know what is happening. Obviously you can do something like this:
 
-```
+```PHP
   $result = file_get_contents("http://example.com");
   if ($result === false) {
     var_dump($http_response_header);
   }
-  
 ```
 
 but it's pretty shitty way to handle errors, and then look into array for details. 

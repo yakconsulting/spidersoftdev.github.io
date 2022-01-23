@@ -27,7 +27,7 @@ Wed Dec 12 18:46:11 AEDT 2018
 Unfortunately PHP turns something completely diffrerent:  
 
 
-```
+```PHP
 $today = date('YmdHi');
 var_dump($today);
 string(12) "201812120746"
