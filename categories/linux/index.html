@@ -85,6 +85,29 @@
 <header class=main__header>
 <h1 class=main__title>Linux</h1>
 </header><article class="list__item post">
+<header class=list__header>
+<h2 class="list__title post__title">
+<a href=/2022/caddy-ssl-error/ rel=bookmark>
+Caddy & Error code SEC_ERROR_REVOKED_CERTIFICATE
+</a>
+</h2>
+<p class="list__lead post__lead">How to deal with SEC_ERROR_REVOKED_CERTIFICATE</p>
+<div class="list__meta meta">
+<div class="meta__item-datetime meta__item">
+<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class=meta__text datetime=2022-01-31T08:30:00Z>2022-01-31</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2 1 2h8v11H0V2z"/></svg><span class=meta__text><a class=meta__link href=/categories/technologies/ rel=category>Technologies</a>, <a class=meta__link href=/categories/web-development/ rel=category>Web Development</a>, <a class=meta__link href=/categories/linux/ rel=category>Linux</a>
+</span>
+</div></div>
+</header>
+<div class="content list__excerpt post__content clearfix">
+<p>Recently I had a problem with my
+<a href=https://caddyserver.com/>Caddy server</a>
+. I wasn&rsquo;t aware that it&rsquo;s related with Caddy - initial thought was that something went wrong with the SSL certificate. But I was wrong. Message was pretty &ldquo;platonic&rdquo;</p>
+<p><code>Error code: SEC_ERROR_REVOKED_CERTIFICATE</code></p>
+</div>
+<div class="list__footer clearfix">
+<a class="list__footer-readmore btn" href=/2022/caddy-ssl-error/>Read more…</a>
+</div>
+</article><article class="list__item post">
 <figure class=list__thumbnail>
 <a href=https://www.spidersoft.com.au/2021/how-to-install-mysql8-on-ami-linux/>
 <img src=/images/2021/08/mysql-logo.png alt="How to upgrade MySQL on old Linux AMI">
@@ -170,37 +193,6 @@ FTP server on EC2 Ami Linux instance
 </div>
 <div class="list__footer clearfix">
 <a class="list__footer-readmore btn" href=/2019/ftp-server-on-ec2-ami-linux-instance/>Read more…</a>
-</div>
-</article><article class="list__item post">
-<figure class=list__thumbnail>
-<a href=https://www.spidersoft.com.au/2018/geoip-extension-php-7-x-ami-redhat-centos-linux/>
-<img src=/images/2018/07/travel-2650303_1920_hue9065219167d4c9d307072bbbe45decf_474299_640x0_resize_q75_box.jpg alt="GeoIP extension PHP 7.x + AMI / Redhat / CentOs Linux">
-</a>
-</figure>
-<header class=list__header>
-<h2 class="list__title post__title">
-<a href=/2018/geoip-extension-php-7-x-ami-redhat-centos-linux/ rel=bookmark>
-GeoIP extension PHP 7.x + AMI / Redhat / CentOs Linux
-</a>
-</h2>
-<div class="list__meta meta">
-<div class="meta__item-datetime meta__item">
-<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class=meta__text datetime=2018-07-16T09:53:42Z>2018-07-16</time>
-<time class=meta__text datetime=2019-06-16T00:00:00Z>(Last Modified: 2019-06-16)</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2 1 2h8v11H0V2z"/></svg><span class=meta__text><a class=meta__link href=/categories/linux/ rel=category>Linux</a>, <a class=meta__link href=/categories/php/ rel=category>PHP</a>
-</span>
-</div></div>
-</header>
-<div class="content list__excerpt post__content clearfix">
-Small 2019 update – Please check out this library – github.com/maxmind/MaxMind-DB-Reader-php It’s a straight replacement of PHP module.
-GeoIP extensions is quite use-full, but it requires some server – side magic. If you are looking for something simpler, just go with ipstack.com or something similar – GeoIP .
-Otherwise:
-wget http://pear.php.net/go-pear.phar php go-pear.phar We need geoip-devel libraries:
-yum install geoip-devel
-And newest (not stable) version of geoip:
-sudo ./pecl install geoip-1.
-</div>
-<div class="list__footer clearfix">
-<a class="list__footer-readmore btn" href=/2018/geoip-extension-php-7-x-ami-redhat-centos-linux/>Read more…</a>
 </div>
 </article>
 </main>

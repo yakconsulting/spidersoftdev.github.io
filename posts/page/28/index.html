@@ -85,6 +85,27 @@
 <header class=main__header>
 <h1 class=main__title>Posts</h1>
 </header><article class="list__item post">
+<header class=list__header>
+<h2 class="list__title post__title">
+<a href=/2012/codeigniter-uploadify-problem/ rel=bookmark>
+CodeIgniter Uploadify problem
+</a>
+</h2>
+<div class="list__meta meta">
+<div class="meta__item-datetime meta__item">
+<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class=meta__text datetime=2012-01-01T02:37:27Z>2012-01-01</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2 1 2h8v11H0V2z"/></svg><span class=meta__text><a class=meta__link href=/categories/blog/ rel=category>Blog</a>
+</span>
+</div></div>
+</header>
+<div class="content list__excerpt post__content clearfix">
+<p>I tried to implement Uploadify with
+<a href=http://codeigniter.com/user_guide/libraries/file_uploading.html>CodeIgniter upload class</a>
+, and had some issues with recognising proper mime types.</p>
+</div>
+<div class="list__footer clearfix">
+<a class="list__footer-readmore btn" href=/2012/codeigniter-uploadify-problem/>Read more…</a>
+</div>
+</article><article class="list__item post">
 <figure class=list__thumbnail>
 <a href=https://www.spidersoft.com.au/2011/centos-6-and-mac-os-extended-hfs-plus-support/>
 <img src=/images/2011/10/Centos-Logo.png alt="CentOS 6 and Mac OS Extended (HFS Plus) support">
@@ -177,32 +198,6 @@ As I result I get file with pretty huge size: 496.8K
 </div>
 <div class="list__footer clearfix">
 <a class="list__footer-readmore btn" href=/2011/how-to-get-better-results-with-imagemagick-and-convert/>Read more…</a>
-</div>
-</article><article class="list__item post">
-<figure class=list__thumbnail>
-<a href=https://www.spidersoft.com.au/2011/lighttpd-and-upload_max_filesize/>
-<img src=/images/2011/08/lighttpd.jpg alt="Lighttpd and upload_max_filesize">
-</a>
-</figure>
-<header class=list__header>
-<h2 class="list__title post__title">
-<a href=/2011/lighttpd-and-upload_max_filesize/ rel=bookmark>
-Lighttpd and upload_max_filesize
-</a>
-</h2>
-<div class="list__meta meta">
-<div class="meta__item-datetime meta__item">
-<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class=meta__text datetime=2011-09-12T01:11:20Z>2011-09-12</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2 1 2h8v11H0V2z"/></svg><span class=meta__text><a class=meta__link href=/categories/blog/ rel=category>Blog</a>
-</span>
-</div></div>
-</header>
-<div class="content list__excerpt post__content clearfix">
-Default setting for uploading file size in PHP is really small. Usually it’s about 2MB. To increase this limit, you need to change one obvious variable:
-upload_max_filesize = 20M Eventually you can also increase max number of files to upload:
-max_file_uploads = 20 But… this is not enough. Because on lighttpd PHP is working as a FastCGI process when you start uploading bigger files, you can get this bad message:
-</div>
-<div class="list__footer clearfix">
-<a class="list__footer-readmore btn" href=/2011/lighttpd-and-upload_max_filesize/>Read more…</a>
 </div>
 </article>
 </main>

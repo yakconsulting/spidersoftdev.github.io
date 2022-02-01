@@ -1,6 +1,6 @@
 <!doctype html><html class=no-js lang=en>
 <head>
-<meta name=generator content="Hugo 0.92.0">
+<meta name=generator content="Hugo 0.92.1">
 <meta charset=utf-8>
 <meta name=viewport content="width=device-width,initial-scale=1">
 <meta http-equiv=x-ua-compatible content="IE=edge">
@@ -84,6 +84,33 @@
 <div class=primary>
 <main class="main list" role=main>
 <article class="list__item post">
+<header class=list__header>
+<h2 class="list__title post__title">
+<a href=/2015/phpstorm-phpcodesniffer-and-codeigniter-style-guide/ rel=bookmark>
+PhpStorm PHPCodeSniffer and… CodeIgniter style guide
+</a>
+</h2>
+<div class="list__meta meta">
+<div class="meta__item-datetime meta__item">
+<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class=meta__text datetime=2015-07-10T01:26:14Z>2015-07-10</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2 1 2h8v11H0V2z"/></svg><span class=meta__text><a class=meta__link href=/categories/continuous-integration/ rel=category>Continuous Integration</a>, <a class=meta__link href=/categories/php/ rel=category>PHP</a>, <a class=meta__link href=/categories/software/ rel=category>Software</a>
+</span>
+</div></div>
+</header>
+<div class="content list__excerpt post__content clearfix">
+This article is related to my previous one about setting up PHPCodeSniffer with CodeIgniter coding standards.
+Installation on Linux boxes is pretty yeasy:
+sudo pear channel-update pear.php.net yum install php-pear-PHP-CodeSniffer php-phpunit-phpcpd On Mac OS X you have couple options. Pear or Homebrew:
+brew install php-code-sniffer
+And following that, on regular boxes CodeSniffer will be here:
+/usr/share/pear/PHP/CodeSniffer/Standards
+on Mac OS CodeSniffer will be located here:
+/usr/lib/php/pear/PHP/CodeSniffer/Standards or… /usr/local/Cellar/php-code-sniffer/1.5.6/CodeSniffer/Standards
+CodeIgniter standard can be downloaded from this location https://github.
+</div>
+<div class="list__footer clearfix">
+<a class="list__footer-readmore btn" href=/2015/phpstorm-phpcodesniffer-and-codeigniter-style-guide/>Read more…</a>
+</div>
+</article><article class="list__item post">
 <header class=list__header>
 <h2 class="list__title post__title">
 <a href=/2015/totp-security-tokens-and-2-step-verification/ rel=bookmark>
@@ -190,29 +217,6 @@ language. It’s pretty simple but very power full language. Learning curve is h
 </div>
 <div class="list__footer clearfix">
 <a class="list__footer-readmore btn" href=/2015/useful-libraries-for-swift-beginners/>Read more…</a>
-</div>
-</article><article class="list__item post">
-<figure class=list__thumbnail>
-<a href=https://www.spidersoft.com.au/2015/how-update-go-library/>
-<img src=/images/2014/08/gopher_hu2a77eb7af4424590982cc1d0563ec132_135882_640x0_resize_q75_box.jpg alt="How update Go library">
-</a>
-</figure>
-<header class=list__header>
-<h2 class="list__title post__title">
-<a href=/2015/how-update-go-library/ rel=bookmark>
-How update Go library
-</a>
-</h2>
-<div class="list__meta meta">
-<div class="meta__item-datetime meta__item">
-<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class=meta__text datetime=2015-05-05T04:49:24Z>2015-05-05</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2 1 2h8v11H0V2z"/></svg><span class=meta__text><a class=meta__link href=/categories/technologies/ rel=category>Technologies</a>, <a class=meta__link href=/categories/go-lang/ rel=category>Go Lang</a>
-</span>
-</div></div>
-</header>
-<div class="content list__excerpt post__content clearfix">
-Installation of go library is pretty simple: go get github.com/garyburd/redigo/redis
-From time to time, you want to get fresh version of it. If you run that command again it will NOT update the library – because it’s already there. To update it you need to use the -u switch:
-go get -u github.com/garyburd/redigo/redis
 </div>
 </article>
 </main>
