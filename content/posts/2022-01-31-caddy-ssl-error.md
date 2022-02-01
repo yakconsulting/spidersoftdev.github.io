@@ -1,5 +1,5 @@
 ---
-title: Caddy & Error code: SEC_ERROR_REVOKED_CERTIFICATE
+title: Caddy & Error code SEC_ERROR_REVOKED_CERTIFICATE
 author: admin
 type: post
 date: 2022-01-31T08:30:00+00:00
@@ -31,7 +31,7 @@ The issue was with the certificate, which wasn't renewed. I had to do a lot of r
 }
 ```
 
-which means that you can point any domain to the server, and it will be served with the correct SSL certificate. The only condition is to pass checks on `http://localhost:5555/check` service.
+which means that you can point any domain to the server, and it will be served with the correct SSL certificate. The only condition is to pass checks on `http://localhost:5555/check` service. More details on this setup can be [found here](https://caddy.community/t/serving-tens-of-thousands-of-domains-over-https-with-caddy/11179).
 
 After that I had also couple other services with standard like: 
 
