@@ -82,10 +82,11 @@ How to replace all links in html to markup
 <svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class=meta__text datetime=2021-09-03T13:06:00Z>2021-09-03</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2 1 2h8v11H0V2z"/></svg><span class=meta__text><a class=meta__link href=/categories/technologies/ rel=category>Technologies</a>
 </span>
 </div></div></header><div class="content list__excerpt post__content clearfix">
-Recently I moved my blog from Wordpress to Hugo , and that involved a lot of content fixing. One of the problems was that during the export not all HTML code was correctly transferred to markup. So I needed fix (replace) all pending &lt;a href="https://spidersoft.com.au">spidersoft&lt;/a> to [spidersoft](https://spidersoft.com.au).
-What we need is just 2 simple regular expressions.
+I recently moved my blog from WordPress to Hugo , which involved a lot of content fixing. One of the problems was that not all HTML code was correctly transferred to markup during the export. So I needed fix (replace) all pending &lt;a href="https://spidersoft.com.au">spidersoft&lt;/a> to [spidersoft](https://spidersoft.com.au).
+What we need are just two simple regular expressions.
 One to find links &lt;a.*?href="(.+?)".*?>(.+?)&lt;/a>
 Second one to replace them in reverse order [$2]($1)
+You can run this in basically any IDE - Sublime will do the job, I was using PHPStorm
 </div><div class="list__footer clearfix">
 <a class="list__footer-readmore btn" href=/2021/how-to-replace-all-links-in-html-to-markup/>Read more…</a>
 </div></article><article class="list__item post">
@@ -103,9 +104,9 @@ Clearing up git submodules problems
 <svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class=meta__text datetime=2021-08-19T12:44:18Z>2021-08-19</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2 1 2h8v11H0V2z"/></svg><span class=meta__text><a class=meta__link href=/categories/software/ rel=category>Software</a>
 </span>
 </div></div></header><div class="content list__excerpt post__content clearfix">
-<p>As some of you noted I moved by blog into
+<p>As some of you noted, I moved my blog into
 <a href=https://gohugo.io>Hugo</a>
-. During the build process you have to pull many git repositories to compile full project. Because begging are always hard. For me it&rsquo;s always trial and error I ended up with having many sub-repositories missing. I’m not going to show whole journey how to solve “the issue”.</p></div><div class="list__footer clearfix">
+. You have to pull many git repositories during the build process to compile the entire project. Because begging is always challenging, for me, it&rsquo;s always trial and error, and I ended up having many sub-repositories missing. I&rsquo;m not going to show the whole journey how to solve &ldquo;the issue&rdquo;.</p></div><div class="list__footer clearfix">
 <a class="list__footer-readmore btn" href=/2021/clearing-up-git-submodule-problem/>Read more…</a>
 </div></article></main></div><aside class="sidebar sidebar--left"><div class="widget-search widget">
 <form class=widget-search__form role=search method=get action=https://duckduckgo.com/>
