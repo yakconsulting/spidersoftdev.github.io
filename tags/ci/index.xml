@@ -2,7 +2,7 @@
 Basically each decent IDE has FTP client build in, but sometimes you don’t have access to your IDE but obviously you got your code in GIT repository. If you are using Bitbucket or Github you are lucky – you can use FTPloy .</description></item><item><title>PHPUnit and CodeIgniter 3.0</title><link>https://www.spidersoft.com.au/2015/phpunit-and-codeigniter-3-0/</link><pubDate>Thu, 02 Apr 2015 22:00:22 +0000</pubDate><guid>https://www.spidersoft.com.au/2015/phpunit-and-codeigniter-3-0/</guid><description>Quick tutorial how to setup proper unit testing with PHPUnit and CodeIgniter 3.0.
 We need couple elements
 CodeIgniter – we are working with version 3.0rc3 PHPUnit – latest one If you don’t have phpunit installed globally, you can go with composer, just add section to your composer.json
-{ &amp;quot;require-dev&amp;quot;: { &amp;quot;phpunit/phpunit&amp;quot;: &amp;quot;4.1.*&amp;quot; } } and then
+{ &amp;#34;require-dev&amp;#34;: { &amp;#34;phpunit/phpunit&amp;#34;: &amp;#34;4.1.*&amp;#34; } } and then
 composer.phar install
 and after while we have
 ./vendor/bin/phpunit
