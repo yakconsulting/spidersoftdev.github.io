@@ -8,13 +8,16 @@ categories:
   - Open Source
   - Software
   - Web Development
+tags:
+  - postcode
+  - australia
 
 ---
 Don&#8217;t know how accurate it is. I was working on a project that needed something like that, so&#8230; maybe someone else will use it.
 
 <!--more-->
 
-|||
+|region|breakdown|
 |--- |--- |
 |Canberra CBD|2600 – 2601,2610|
 |Canberra|2600 – 2609|
