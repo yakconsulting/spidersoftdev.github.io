@@ -12,9 +12,9 @@ tags:
   - html5
 
 ---
-I do write a lot of frontend, despite fact that I'm born to be backend guy. Long story short - we do have a lot of inline editing features especially elements like dates are pretty painful. HTML5 Introduced [input type=date](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/date) which is good enough to cover most of the cases, and we no longer need ugly and slow `.datepicker()` component from jQuery od 3rd party suppliers. 
+I do write a lot of front-end code, despite being born to be a back-end guy. Long story short - we do have many inline editing features, especially elements like dates, which are pretty painful. HTML5 Introduced [input type=date](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/date), which is good enough to cover most of the cases, and we no longer need ugly and slow `.datepicker()` component from jQuery od 3rd party suppliers. 
 
-So if you do have _edit_ you can just use `<input type="date" value="yyyy-mm-dd">` field, and nice calendar will pop up. But we are looking for _inline_ solution. 
+So if you do have _edit_ you can use `<input type="date" value="yyyy-mm-dd">` field, and a nice calendar will pop up. But we are looking for _inline_ solution. 
 
 <!--more-->
 
@@ -39,7 +39,7 @@ editable[i].addEventListener("dblclick", function (ev) {
 });
 ```
 
-This is basic version, which will give us date to calendar replacement. We have to handle data save, and going back to "text" version
+It is a basic version, which will give us a date for calendar replacement. We have to handle data save, and going back to "text" version
 
 ```JAVASCRIPT
 function saveAction(ev) {
@@ -55,8 +55,6 @@ function saveAction(ev) {
 ```
 
 Final version will handle save on "enter". 
-
-
 
 {{< gist slav123 1eb75e25057aa0e6ac7b16ec3204778b >}}
 

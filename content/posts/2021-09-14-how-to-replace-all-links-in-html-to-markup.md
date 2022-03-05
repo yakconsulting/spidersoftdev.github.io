@@ -14,9 +14,9 @@ tags:
   - hugo
 lead: "Regular expression to replace href to markup" 
 ---
-Recently I moved my blog from Wordpress to [Hugo](https://gohugo.io), and that involved a lot of content fixing. One of the problems was that during the export not all HTML code was correctly transferred to markup. So I needed fix (replace) all pending `<a href="https://spidersoft.com.au">spidersoft</a>` to `[spidersoft](https://spidersoft.com.au)`.
+I recently moved my blog from WordPress to [Hugo](https://gohugo.io), which involved a lot of content fixing. One of the problems was that not all HTML code was correctly transferred to markup during the export. So I needed fix (replace) all pending `<a href="https://spidersoft.com.au">spidersoft</a>` to `[spidersoft](https://spidersoft.com.au)`.
 
-What we need is just 2 simple regular expressions. 
+What we need are just two simple regular expressions. 
 
 One to find links
 `<a.*?href="(.+?)".*?>(.+?)</a>`

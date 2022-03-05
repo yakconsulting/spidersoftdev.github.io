@@ -16,16 +16,16 @@ tags:
   - image
 ---
 
-I’ve been avoid Docker for a very long time. I started my career as a sysadmin setting up servers running FreeBSD and early versions of Debian on bare-bone servers. As soon as “cloud” came into to the market I switch to AWS, and GCE and have been using them since then. EC2 was my always goto choice to quickly deploy something on the internet. But Docker — from some reason I was avoiding it until this 2 years ago, when I actually started using it. Without to much trust but…
+I’ve been avoiding Docker for a very long time. I started as a sysadmin setting up servers running FreeBSD and early versions of Debian on bare-bone servers. As soon as “cloud” came into the market, I switched to AWS and GCE and have been using them since then. EC2 was my always goto choice to deploy something on the internet quickly. But Docker — for some reason, I was avoiding it until this two years ago, when I started using it. Without too much trust.
 
-But today history is not about my love & hate relationship with docker, but about trying to deploy Go application and VIPS library. Couple problems appeared during the process and it’s worth mentioning it for future generations because could find much help around my issues.
+But today, history is not about my love & hate relationship with Docker, but about deploying the GO application and VIPS library. A couple of problems appeared during the process, and it’s worth mentioning them for future generations because I could find much help around my issues.
 <!--more-->
 
 ## So… you think you can get away with golang:alpine building go GCO app?
-Ain’t gonna happen. Why? Without going into details — because alpine is “lightweight” version of linux, and it does not contain all necessary tools to properly build and run applications with CGO bindings.
+It is not going to happen. Why? Without going into details, alpine is a “lightweight” version of Linux, and it does not contain all the necessary tools to build and run applications with CGO bindings properly.
 
-## How to pimp up your docker image with never versions of packages
-Long story short: golang:latest is build on Debian buster, and it contains pretty old version of VIPS — I figure out, that I can update it with never version coming from “bullseye” distribution. Because we can’t just hack our image with modifying image, the way to go is to install software-properties-common and then add bullseye repository before installing actual dependencies. It works :)
+## How to pimp up your docker image with newer versions of packages
+Long story short: golang:latest is built on Debian buster, and it contains a pretty old version of VIPS — I figured out that I can update it with a newer version coming from “bullseye” distribution. Because we can’t just hack our image by modifying the image, the way to go is to install software-properties-common and then add a bullseye repository before installing actual dependencies. It works :)
 
 ```DOCKER
 FROM golang:latest AS base

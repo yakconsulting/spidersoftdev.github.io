@@ -18,11 +18,11 @@ There are plenty of bots, just browsing github fot lost `AWS_SECRET_ACCESS_KEY` 
 
 <!--more-->
 
-I don't exactly now why, but PHP's `getenv()` function is not secure. It's not possible to read variables to PHP from the outside. So, if you want to pass variables to PHP from the outside, you have to use `putenv()` function. Which doesn't make much sense - or you can just set them up in your PHP configuration.
+I don't precisely know why, but PHP's `getenv()` function is not secure. It's not possible to read variables to PHP from the outside. So, if you want to pass variables to PHP from the outside, you have to use `putenv()` function. Which doesn't make much sense - or you can just set them up in your PHP configuration.
 
-The other solution is to use `.env` files and something to read variables in PHP. `.env` files are just plain text files with variables. They are little more secure, but they are still files which you can even accidently drop into your source code repository.
+The other solution is to use `.env` files and read variables in PHP. `.env` files are just plain text files with variables. They are a little more secure, but they are still files that you can accidentally drop into your source code repository.
 
-Locate config file and open it.
+Locate the config file and open it.
 
 `nano /etc/php-fpm-7.3.d/www.conf`
 

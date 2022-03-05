@@ -13,7 +13,7 @@ tags:
   
 ---
 
-As some of you noted I moved by blog into [Hugo](https://gohugo.io). During the build process you have to pull many git repositories to compile full project. Because begging are always hard. For me it's always trial and error I ended up with having many sub-repositories missing. I’m not going to show whole journey how to solve “the issue”.
+As some of you noted, I moved my blog into [Hugo](https://gohugo.io). You have to pull many git repositories during the build process to compile the entire project. Because begging is always challenging, for me, it's always trial and error, and I ended up having many sub-repositories missing. I'm not going to show the whole journey how to solve "the issue".
 
 <!--more-->
 

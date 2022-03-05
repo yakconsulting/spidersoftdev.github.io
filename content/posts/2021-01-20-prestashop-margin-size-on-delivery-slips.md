@@ -19,14 +19,14 @@ tags:
   - prestashop
 
 ---
-Recently one of my clients contacted me asking if I can make a change. Shrink a little bit huge margins on PDF delivery slips. The task wasn't easy because settings is bit hidden in the files. By modifying templates you can change font size, and amend or remove elements from the printout. Unfortunately you can't actually decrease margin on PDF printout. 
+Recently one of my clients contacted me asking if I could make a change. The task was to shrink huge margins on PDF delivery slips. The mission wasn't easy because the settings were hidden in the files. You can change font size and amend or remove elements from the printout by modifying templates. Unfortunately, you can't decrease the margin on PDF printouts. 
 
 <!--more-->
 
 ![prestashop-delivery-slips](images/2021/01/prestashop-delivery-slips.png)
   
 
-All templates are located in folder PDF in root directory of your deployment. You can modify multiple files to achieve desired effect.
+All templates are located in folder PDF in the root directory of your deployment. You can modify multiple files to achieve the desired effect.
 
 ![prestashop-delivery-slips2.png](images/2021/01/prestashop-delivery-slips2.png)
   

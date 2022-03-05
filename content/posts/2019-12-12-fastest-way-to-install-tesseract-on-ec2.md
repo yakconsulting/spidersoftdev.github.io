@@ -4,14 +4,6 @@ author: admin
 type: post
 date: 2019-12-12T12:03:07+00:00
 url: /2019/fastest-way-to-install-tesseract-on-ec2/
-nkweb_code_in_head:
-  - default
-nkweb_Use_Custom_js:
-  - default
-nkweb_Use_Custom_Values:
-  - default
-nkweb_Use_Custom:
-  - 'false'
 categories:
   - Linux
   - Open Source
