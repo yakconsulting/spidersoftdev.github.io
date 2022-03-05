@@ -4,29 +4,13 @@ author: slav
 type: post
 date: 2013-02-12T23:14:01+00:00
 url: /2013/australia-wide-postcode-breakdown/
-layout:
-  - default
-hide_post_title:
-  - default
-unlink_post_title:
-  - default
-hide_post_meta:
-  - default
-hide_post_date:
-  - default
-hide_post_image:
-  - default
-unlink_post_image:
-  - default
-dsq_thread_id:
-  - 1161831905
 categories:
   - Open Source
   - Software
   - Web Development
 
 ---
-Don&#8217;t know how accurate it is. I was working on project, where I needed something like that, so&#8230; maybe someone else will use it.
+Don&#8217;t know how accurate it is. I was working on a project that needed something like that, so&#8230; maybe someone else will use it.
 
 <!--more-->
 
