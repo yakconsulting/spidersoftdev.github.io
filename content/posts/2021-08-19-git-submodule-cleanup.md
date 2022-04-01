@@ -13,8 +13,7 @@ tags:
   
 ---
 
-As some of you noted, I moved my blog into [Hugo](https://gohugo.io). You have to pull many git repositories during the build process to compile the entire project. Because begging is always challenging, for me, it's always trial and error, and I ended up having many sub-repositories missing. I'm not going to show the whole journey how to solve "the issue".
-
+As some of you noted, I moved my blog into [Hugo](https://gohugo.io). You have to pull multiple git repositories to compile the entire project during the build process. Because begging is always challenging, it's always trial and error, and I ended up having many sub-repositories missing. I'm now going to show the whole journey how to solve "the issue".
 <!--more-->
 
 To list submodule you can use something like that:

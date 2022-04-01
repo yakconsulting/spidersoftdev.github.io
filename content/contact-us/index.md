@@ -23,7 +23,7 @@ DUNS: 743856067
 
 Call us: +61 2 8294 2032
 
-SpiderSoft is a an Australian business operating in Sydney since 2010.
+SpiderSoft is an Australian business operating in Sydney since 2010.
 
 Fell free to send us any kind of questions.
 

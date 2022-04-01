@@ -13,13 +13,13 @@ tags:
 - caddy
 
 ---
-Recently I had a problem with my [Caddy server](https://caddyserver.com/). I wasn't aware that it's related with Caddy - initial thought was that something went wrong with the SSL certificate. But I was wrong. Message was pretty "platonic"
+Recently I had a problem with my [Caddy server](https://caddyserver.com/). I wasn't aware that it's related to Caddy - the initial thought was that something went wrong with the SSL certificate. But I was wrong. The message was pretty "platonic"
 
 `Error code: SEC_ERROR_REVOKED_CERTIFICATE`
 
 <!--more-->
 
-The issue was with the certificate, which wasn't renewed. I had to do a lot of research to find out what was wrong. I had not typical configuration: 
+The issue was with the certificate, which didn't renew. I had to do a lot of research to find out what was wrong. I had not typical configuration: 
 
 ```
 {
@@ -31,7 +31,7 @@ The issue was with the certificate, which wasn't renewed. I had to do a lot of r
 }
 ```
 
-which means that you can point any domain to the server, and it will be served with the correct SSL certificate. The only condition is to pass checks on `http://localhost:5555/check` service. More details on this setup can be [found here](https://caddy.community/t/serving-tens-of-thousands-of-domains-over-https-with-caddy/11179).
+Which means that you can point any domain to the server, and it will be served with the correct SSL certificate. The only condition is to pass checks on `http://localhost:5555/check` service. More details on this setup can be [found here](https://caddy.community/t/serving-tens-of-thousands-of-domains-over-https-with-caddy/11179).
 
 After that I had also couple other services with standard like: 
 
@@ -41,8 +41,9 @@ domain.com {
 }
 ```
 
-But apparently if it's `on_demend_tls` all off domains in the configuration must pass this test. So I had to make sure that my regular domains, also passing this test. 
+But apparently, if it's `on_demend_tls`, all off domains in the configuration must pass this test. So I had to make sure that my regular domains also had to pass this test.
 
-Just make sure that you remove old certificates because force caddy to get new ones. They are located here:
+
+Just remove old certificates because this action forces Caddy to get new ones. They are located here:
 
 `/root/.local/share/caddy/certificates/`

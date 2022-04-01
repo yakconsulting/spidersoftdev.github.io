@@ -12,15 +12,15 @@ tags:
 - env
 
 ---
-It's not a good way to store your password in the code. This is well known fact, and in multiple occasion people get hacked because they shared their code (and passwords) accidentally with others. 
+It's not a good practice to store your password in the code. It is a well-known fact, and on multiple occasions, people get hacked because they share their code (and passwords) accidentally with others.
 
-There are plenty of bots, just browsing github fot lost `AWS_SECRET_ACCESS_KEY` or `GCE` credentials. I'm going to show you, how to pass your `AWS_SECRET_ACCESS_KEY` to PHP.
+Many bots are just browsing GitHub for lost `AWS_SECRET_ACCESS_KEY` or `GCE` credentials. I'm going to show you how to pass your `AWS_SECRET_ACCESS_KEY` to PHP.
 
 <!--more-->
 
-I don't precisely know why, but PHP's `getenv()` function is not secure. It's not possible to read variables to PHP from the outside. So, if you want to pass variables to PHP from the outside, you have to use `putenv()` function. Which doesn't make much sense - or you can just set them up in your PHP configuration.
+PHP's `getenv()` function is not secure. It's not possible to read variables to PHP from the outside. So, if you want to pass variables to PHP from the outside, you have to use `putenv()` function. Which doesn't make much sense - or you can just set them up in your PHP configuration.
 
-The other solution is to use `.env` files and read variables in PHP. `.env` files are just plain text files with variables. They are a little more secure, but they are still files that you can accidentally drop into your source code repository.
+The other solution is to use `.env` files and read variables in PHP. `.env` files are just plain text files with variables. They are a little more secure, but they are still files you can accidentally drop into your source code repository.
 
 Locate the config file and open it.
 

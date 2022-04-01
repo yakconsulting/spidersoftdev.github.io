@@ -16,9 +16,10 @@ display_content:
 comments: false
 pager: false
 ---
-SpiderSoft is an Australian software development company. We have presence in Sydney and offshore offices in Poland. We are specializing in custom software solutions.
+SpiderSoft is an Australian software development company. We have a presence in Sydney and offshore offices in Poland. We specialize in custom software solutions.
 
-With a development methodology refined over 10 years, SpiderSoft can provide fully supported custom software. Take advantage of our expertise in building applications for web, desktop, and mobile.
+
+With a development methodology refined over ten years, SpiderSoft can provide fully supported custom software. Please take advantage of our expertise in building web, desktop, and mobile applications.
 
 Areas where are specialized in:
 

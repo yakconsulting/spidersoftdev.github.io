@@ -13,11 +13,11 @@ tags:
   - video
 
 ---
-In ancient times, when youtube was born, we didn&#8217;t have VIDEO tag. We used to have Flash. To play video on the website, we had to convert it to weird Flash video format, leave mp4 for safety and hope that everything will work fine. Later on, when HTML5 became a industry standard, our live become some much easier.
+In ancient times, when youtube was born, we didn&#8217;t have a VIDEO tag. We used to have Flash. To play video on the website, we had to convert it to weird Flash video format, leave mp4 for safety and hope that everything would work fine. Later on, when HTML5 became an industry standard, our lives became much easier.
 
-In the theory VIDEO tag solves all out issues. When browser can handle webm (Chrome family) we play webm. If we deal with other browser &#8211; mp4 should do the work for us. So let&#8217;s test out theory.
+In theory, VIDEO tag solves all our issues. When the browser can handle webm (Chrome family) we play webm. If we deal with other browsers &#8211; mp4 should work for us. So let&#8217;s test our theory.
 
-```
+```HTML
 <video controls="" id="video" width="960" height="720">
   <source src="video.mp4" id="mp4" type="video/mp4">
   <source src="video.webm" id="webm" type="video/webm">
@@ -25,9 +25,9 @@ In the theory VIDEO tag solves all out issues. When browser can handle webm (Chr
 </video>
 ```
 
-Looks good. But if you run this code, on Chrome browser you can notice that browsers still playing &#8220;mp4&#8221; instead of optimized webm. Why ? Because browsers are dumb. They read source tags in order of appearance and chose first &#8220;playable&#8221; video format. So to correct this mistake we need something like that:
+Looks good. But if you run this code on Chrome browser, you can notice that the browser is still playing &#8220;mp4&#8221; instead of optimized webm. Why? Because browsers are dumb. They read source tags in order of appearance and chose first &#8220;playable&#8221; video format. So to correct this mistake, we need something like that:
 
-```
+```HTML
 <video controls="" id="video" width="960" height="720">
   <source src="video.webm" id="webm" type="video/webm">
   <source src="video.mp4" id="mp4" type="video/mp4">
@@ -35,10 +35,10 @@ Your browser does not support the video tag.
 </video>
 ```
 
-The second interesting case is, when we are trying to maniplulate video tag from JavaScript level
+The second interesting case is when we are trying to manipulate video tag from the JavaScript level
 
 
-```
+```JAVASCRIPT
 var video = document.getElementById('video');   
  
 // load and play video

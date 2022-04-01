@@ -16,7 +16,7 @@ tags:
   - image
 ---
 
-I’ve been avoiding Docker for a very long time. I started as a sysadmin setting up servers running FreeBSD and early versions of Debian on bare-bone servers. As soon as “cloud” came into the market, I switched to AWS and GCE and have been using them since then. EC2 was my always goto choice to deploy something on the internet quickly. But Docker — for some reason, I was avoiding it until this two years ago, when I started using it. Without too much trust.
+I’ve been avoiding Docker for a very long time. I started as a sysadmin setting up servers running FreeBSD and early versions of Debian on bare-bone servers. As soon as “cloud” came into the market, I switched to AWS and GCE and have used them since then. EC2 was my always goto choice to deploy something on the internet quickly. But Docker — for some reason, I was avoiding it until this two years ago, when I started using it. Without too much trust.
 
 But today, history is not about my love & hate relationship with Docker, but about deploying the GO application and VIPS library. A couple of problems appeared during the process, and it’s worth mentioning them for future generations because I could find much help around my issues.
 <!--more-->

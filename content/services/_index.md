@@ -14,8 +14,8 @@ We do dedicated software for agencies &#8211; competitions, entry forms, landing
   * Email marketing (build, testing, delivery)
 
 ## Why Us ?
-
-  * technical assistance on all stages of campaign (discovery, design, promotion)
-  * we do care about safety of your clients (never run of out resources, never lose any data)
-  * crafted with efficiency in mind (all major cloud services supported AWS, Azure, Google Cloud) 
-  * full control &#8211; back-end for each project
+ 
+  * Technical assistance on all stages of a campaign (discovery, design, promotion)
+  * We do care about the safety of your clients (never run of out resources, never lose any data)
+  * Crafted with efficiency in mind (all primary cloud services supported AWS, Azure, Google Cloud)
+  * Full control &#8211; back-end for each project

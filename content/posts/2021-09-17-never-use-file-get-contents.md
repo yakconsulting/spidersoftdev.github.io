@@ -11,7 +11,7 @@ categories:
 tags:
   - curl
 ---
-As each programmer by nature, I'm lazy. I try to accomplish as much as possible in minimum effort. 
+As each programmer by nature, I'm lazy. I try to accomplish as much as possible with minimum effort.
 
 So whenever I use PHP to fetch something, I use `file_get_contents` to make queries and pull data from other services. So basically, my favourite snippet is this guy here:
 

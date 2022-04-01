@@ -14,30 +14,7 @@ section_categories:
   - default
 display_content:
   - excerpt
-hide_title:
-  - default
-hide_date:
-  - default
-hide_meta:
-  - default
-hide_image:
-  - default
-hide_navigation:
-  - default
-unlink_title:
-  - default
-unlink_image:
-  - default
-dsq_thread_id:
-  - 1160062344
-nkweb_code_in_head:
-  - default
-nkweb_Use_Custom_js:
-  - default
-nkweb_Use_Custom_Values:
-  - default
-nkweb_Use_Custom:
-  - 'false'
+
 
 ---
 ## CodeIgniter library to generate high-quality thumbnails
