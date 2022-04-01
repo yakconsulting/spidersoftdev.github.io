@@ -31,7 +31,7 @@ GeoIP extensions is quite use-full, but it requires some server &#8211; side mag
 
 Otherwise:
 
-```
+```shell
 wget http://pear.php.net/go-pear.phar
 php go-pear.phar
 ```

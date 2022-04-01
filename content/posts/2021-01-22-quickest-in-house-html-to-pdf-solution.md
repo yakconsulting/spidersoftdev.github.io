@@ -13,7 +13,7 @@ tags:
 
 ---
 
-You can find some online API&#8217;s use free tier to test them, but&#8230; you can make it your own. So without any further intructions, here is a recipe.
+You can find some online APIs and use the free tier to test them, but you can make them your own. So without any further instructions, here is a recipe.
 <!--more-->
 Run headless chrome on your Mac:
 

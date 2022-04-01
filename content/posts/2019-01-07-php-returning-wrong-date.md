@@ -17,14 +17,14 @@ From time to time we are working on small campaigns, where competition starts at
 
 <!--more-->
 
-So firsting first let&#8217;s check server time zone:  
+So first thing first, let&#8217;s check a server time zone:
 
-```
+```shell
 date
 Wed Dec 12 18:46:11 AEDT 2018
 ```
 
-Unfortunately PHP turns something completely diffrerent:  
+Unfortunately, PHP turns something completely different:
 
 
 ```PHP
@@ -33,7 +33,7 @@ var_dump($today);
 string(12) "201812120746"
 ```
 
-Date is a little bit offset. After digging out, PHP needs also timezone setup correctly, either in php.ini:
+The date is a little bit offset. After digging out, PHP also needs timezone setup correctly, either in `php.ini`:
 
 `date.timezone =`
 

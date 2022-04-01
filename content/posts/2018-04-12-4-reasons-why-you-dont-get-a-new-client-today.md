@@ -19,13 +19,13 @@ tags:
   - rant
 
 ---
-Each day &#8211; new company want&#8217;s to make a world better place, and trying to sell you awesome service, API, whatever. I&#8217;m constantly searching for new interesting and useful services which could make &#8220;my&#8221; (my clients) live easier. Everyone has a flashy website, &#8220;Try now&#8221;, &#8220;Try now for free&#8221;, &#8220;Signup for free&#8221; &#8211; just fill the form, no credit-card required&#8230; entry level &#8211; no trouble at all. Let&#8217;s do it.
+Each day – new companies want to make the world a better place and try to sell you fantastic service, API, whatever. I’m constantly searching for new exciting, and valuable services which could make “my” (my clients) live easier. Everyone has a flashy website, “Try now”, “Try now for free”, “Signup for free” – fill the form, no credit card required… entry level – no trouble at all. Let’s do it.
 
 * * *
 
 ## 1. The form
 
-Sometimes it&#8217;s super simple &#8211; Name, Email -> details will be sent via email. Sometimes it&#8217;s more sophisticated &#8211; you have to drop password, so they don&#8217;t even verify if confirmation email lands in Junk email. But with more demanding marketing department they put more stuff into signup form. Like &#8220;why you wan to use our awesome service ?&#8221; Seriously ? You gave me 1000 reasons on landing page to use your service. Our &#8220;where did&nbsp; you found out about our website?&#8221; erm&#8230; you don&#8217;t know how analytics works ? Anyways&#8230; finally you went thru 50 form fields. Click &#8220;sign up&#8221; and wait&#8230;
+Sometimes it’s super simple – Name, Email -> details will be sent via email. Sometimes it’s more sophisticated – you have to drop the password, so they don’t even verify if the confirmation email lands in Junk email. But with a more demanding marketing department, they put more stuff into the signup form. Like, “why do you want to use our awesome service ?” Seriously? You gave me 1000 reasons on a landing page to use your service. Our “where did you find out about our website?” erm… you don’t know how analytics works? Finally, you went thru 50 form fields. Click “sign up” and wait…
 
 ## 2. The activation
 

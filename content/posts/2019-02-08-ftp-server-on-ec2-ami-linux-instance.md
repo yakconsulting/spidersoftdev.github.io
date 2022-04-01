@@ -17,7 +17,7 @@ People say that FTP is dead. But not everyone knows or can use SFTP, SSH whateve
 
 <!--more-->
 
-```
+```shell
 yum install pure-ftpd
 nano /etc/pure-ftpd/pure-ftpd.conf
 ```
@@ -33,7 +33,7 @@ ForcePassiveIP    public_ip
 To add user into &#8220;virtual&#8221; database you have to use similar tool to regular pw command in Linux  
 
 
-```
+```shell
 pure-pw useradd slav -u caddy -d /var/www/html/
 pure-pw mkdb
 ```

@@ -5,14 +5,6 @@ type: post
 date: 2018-09-12T08:00:16+00:00
 url: /2018/how-to-secure-s3-bucket-with-username-and-password/
 thumbnail: images/2018/09/data-1590455_1280.jpg
-nkweb_code_in_head:
-  - default
-nkweb_Use_Custom_js:
-  - default
-nkweb_Use_Custom_Values:
-  - default
-nkweb_Use_Custom:
-  - 'false'
 categories:
   - Open Source
   - Software
@@ -22,7 +14,7 @@ tags:
   - s3
 
 ---
-When you start looking for a solution you will find answers like: use Cloudfront, use lambda, use middleware 3rd party service. And basically you don&#8217;t have any other choice. There is no simple solution to your problem. But &#8211; as long as you are using [Caddy Server][1] solution is super easy.
+When you start looking for a solution, you will find answers like using Cloudfront, lambda, and middleware 3rd party services. And basically, you don&#8217;t have any other choice. There is no simple solution to your problem. But &#8211; as long as you use [Caddy Server][1] solution is super easy.
 
 <!--more-->
 
