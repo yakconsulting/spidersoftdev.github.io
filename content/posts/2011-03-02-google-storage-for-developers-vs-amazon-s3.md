@@ -5,27 +5,10 @@ type: post
 date: 2011-03-01T18:35:40+00:00
 url: /2011/google-storage-for-developers-vs-amazon-s3/
 thumbnail: images/2011/03/Mme.png
-aktt_notify_twitter:
-  - no
-layout:
-  - default
-hide_post_title:
-  - default
-hide_post_meta:
-  - default
-hide_post_date:
-  - default
-hide_post_image:
-  - default
-unlink_post_title:
-  - default
-unlink_post_image:
-  - default
 dsq_thread_id:
   - 1159443096
 categories:
   - Blog
-  - Featured
 tags:
   - amazon
   - aws
