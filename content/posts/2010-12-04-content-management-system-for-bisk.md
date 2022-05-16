@@ -5,18 +5,6 @@ type: post
 date: 2010-12-04T03:28:06+00:00
 url: /2010/content-management-system-for-bisk/
 thumbnail: images/2010/12/bisk2.jpg
-aktt_notify_twitter:
-  - no
-layout:
-  - default
-hide_post_title:
-  - default
-hide_post_meta:
-  - default
-hide_post_date:
-  - default
-hide_post_image:
-  - default
 dsq_thread_id:
   - 1233965742
 categories:

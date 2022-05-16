@@ -3,15 +3,8 @@ title: DirectAdmin enable PUT and DELETE requests
 author: admin
 type: post
 date: 2017-01-13T17:12:30+00:00
+modified: 2022-05-16T09:11:50+00:00
 url: /2017/directadmin-enable-put-and-delete-requests/
-nkweb_code_in_head:
-  - default
-nkweb_Use_Custom_js:
-  - default
-nkweb_Use_Custom_Values:
-  - default
-nkweb_Use_Custom:
-  - 'false'
 dsq_thread_id:
   - 5577618596
 categories:
@@ -39,8 +32,8 @@ Code:
 
 Visual reference:
 
-![custom-httpd-config-2x](images/2017/01/custom-httpd-config-2x.png) 
-
+![custom-httpd-config-2x](/images/2017/01/custom-httpd-config-2x.png)
+                          
 Or there is another way. You can use code below and use it as on image:
 
 ```
@@ -49,4 +42,4 @@ Or there is another way. You can use code below and use it as on image:
 </directory>
 ```
 
-![GET_POST_OPTIONS_directadmin](images/2019/12/GET_POST_OPTIONS_directadmin.png) 
+![GET_POST_OPTIONS_directadmin](/images/2019/12/GET_POST_OPTIONS_directadmin.png) 
