@@ -6,4 +6,6 @@ CodeIgniter – we are working with version 3.0rc3 PHPUnit – latest one If yo
 composer.phar install
 and after while we have
 ./vendor/bin/phpunit
-working phpunit.</description></item></channel></rss>
+working phpunit.
+let’s create phpunit.xml.dist
+next step will require create separate bootstrap file for PHPUnit.</description></item></channel></rss>

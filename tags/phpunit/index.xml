@@ -5,4 +5,6 @@ CodeIgniter – we are working with version 3.0rc3 PHPUnit – latest one If yo
 composer.phar install
 and after while we have
 ./vendor/bin/phpunit
-working phpunit.</description></item><item><title>PHPUnit and PEAR install on MacOS</title><link>https://www.spidersoft.com.au/2013/phpunit-and-pear-install-on-macos/</link><pubDate>Thu, 19 Dec 2013 00:28:41 +0000</pubDate><guid>https://www.spidersoft.com.au/2013/phpunit-and-pear-install-on-macos/</guid><description>&lt;p>There is a plenty of tutorials how to install PEAR and  PHP, but there is always something “missing” in this configuration. So this time, i’m going to “sing the same song again”.&lt;/p></description></item></channel></rss>
+working phpunit.
+let’s create phpunit.xml.dist
+next step will require create separate bootstrap file for PHPUnit.</description></item><item><title>PHPUnit and PEAR install on MacOS</title><link>https://www.spidersoft.com.au/2013/phpunit-and-pear-install-on-macos/</link><pubDate>Thu, 19 Dec 2013 00:28:41 +0000</pubDate><guid>https://www.spidersoft.com.au/2013/phpunit-and-pear-install-on-macos/</guid><description>&lt;p>There is a plenty of tutorials how to install PEAR and  PHP, but there is always something “missing” in this configuration. So this time, i’m going to “sing the same song again”.&lt;/p></description></item></channel></rss>
