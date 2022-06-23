@@ -8,7 +8,7 @@ lead: Dealing with presigned URL
 categories:
 - Technologies
 - Go Lang
-  tags:
+tags:
 - go
 - golang
 - upload
