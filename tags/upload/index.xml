@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>upload on SpiderSoft</title><link>https://www.spidersoft.com.au/tags/upload/</link><description>Recent content in upload on SpiderSoft</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 23 Jun 2022 08:30:00 +0000</lastBuildDate><atom:link href="https://www.spidersoft.com.au/tags/upload/index.xml" rel="self" type="application/rss+xml"/><item><title>How to upload to S3 with presigned URL</title><link>https://www.spidersoft.com.au/2022/upload-with-presigned-url-to-bucket/</link><pubDate>Thu, 23 Jun 2022 08:30:00 +0000</pubDate><guid>https://www.spidersoft.com.au/2022/upload-with-presigned-url-to-bucket/</guid><description>&lt;p>Object storage is getting more and more popular. AWS started, but nowadays, almost every provider has it. Recently
+&lt;a href="https://blog.cloudflare.com/introducing-r2-object-storage/">Cloudflare&lt;/a>
+announced its availability.
+&lt;a href="https://www.digitalocean.com/products/spaces">DigitalOcean&lt;/a>
+call them Spaces.&lt;/p>
+&lt;p>So today, we are trying to upload a file to an S3 type of storage with a presigned URL.&lt;/p>
+&lt;p>TL;DR: how to generate the correct URL and upload data into it.&lt;/p></description></item></channel></rss>
