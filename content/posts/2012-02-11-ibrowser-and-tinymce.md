@@ -72,7 +72,7 @@ remove_script_host : false,
 
 and create callback for **myFileBrowser**
 
-```
+```JAVASCRIPT
 function myFileBrowser (field_name, url, type, win) {
 
     var cmsURL = '/js/tiny_mce/plugins/ibrowser/ibrowser.php'    // script URL - use an absolute path!

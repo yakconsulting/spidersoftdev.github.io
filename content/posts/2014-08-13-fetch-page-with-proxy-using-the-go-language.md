@@ -28,7 +28,7 @@ The only problem with running Gokogiri is that it uses `libxml2` which is not a 
 
 Here is code
 
-```
+```GO
 package main
 
 import (
