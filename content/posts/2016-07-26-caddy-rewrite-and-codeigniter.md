@@ -4,14 +4,6 @@ author: admin
 type: post
 date: 2016-07-25T15:19:54+00:00
 url: /2016/caddy-rewrite-and-codeigniter/
-nkweb_code_in_head:
-  - default
-nkweb_Use_Custom_js:
-  - default
-nkweb_Use_Custom_Values:
-  - default
-nkweb_Use_Custom:
-  - 'false'
 dsq_thread_id:
   - 5586916653
 categories:

@@ -7,14 +7,8 @@ url: /2014/hhvm-on-amazon-ec2-in-2-minutes/
 thumbnail: images/2014/09/hhvm.png
 dsq_thread_id:
   - 3037758859
-nkweb_code_in_head:
-  - default
-nkweb_Use_Custom_js:
-  - default
-nkweb_Use_Custom_Values:
-  - default
-nkweb_Use_Custom:
-  - 'false'
+
+
 categories:
   - Linux
   - PHP

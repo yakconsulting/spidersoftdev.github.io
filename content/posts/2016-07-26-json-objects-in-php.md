@@ -4,14 +4,8 @@ author: admin
 type: post
 date: 2016-07-25T15:05:22+00:00
 url: /2016/json-objects-in-php/
-nkweb_code_in_head:
-  - default
-nkweb_Use_Custom_js:
-  - default
-nkweb_Use_Custom_Values:
-  - default
-nkweb_Use_Custom:
-  - 'false'
+
+
 dsq_thread_id:
   - 5584470432
 categories:

@@ -5,14 +5,8 @@ type: post
 date: 2018-04-12T06:09:36+00:00
 url: /2018/4-reasons-why-you-dont-get-a-new-client-today/
 thumbnail: images/2018/04/client-1529278_1280.jpg
-nkweb_code_in_head:
-  - default
-nkweb_Use_Custom_js:
-  - default
-nkweb_Use_Custom_Values:
-  - default
-nkweb_Use_Custom:
-  - 'false'
+
+
 categories:
   - Blog
 tags:

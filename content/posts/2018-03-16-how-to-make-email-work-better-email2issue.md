@@ -5,14 +5,6 @@ type: post
 date: 2018-03-16T09:02:56+00:00
 url: /2018/how-to-make-email-work-better-email2issue/
 thumbnail: images/2018/03/mail-bug-interface-symbol.png
-nkweb_code_in_head:
-  - default
-nkweb_Use_Custom_js:
-  - default
-nkweb_Use_Custom_Values:
-  - default
-nkweb_Use_Custom:
-  - 'false'
 categories:
   - Case studies
   - Go Lang
@@ -21,21 +13,21 @@ tags:
   - email
 
 ---
-The problem:
+## The problem:
 
-We are using bug tracking system, as most of the software development companies. Creating an issue is quite simple. Open bug tracking system, fill some inputs, upload attachments &#8211; done. Issue is created. Sometimes issue is described with multiple attachments (screenshots). Bug tracking system allows us to embed images into description.  All issues come from users in a form of email.
+We are using a bug tracking system, like most software development companies. Creating an issue is quite simple. Open bug tracking system, fill some inputs, upload attachments &#8211; done. The issue is created. Sometimes an issue is described with multiple attachments (screenshots). A bug tracking system allows us to embed images into a description. All issues come from users in the form of an email.
 
 <!--more-->
 
-Current process:
+## Current process:
 
-It&#8217;s just slow, and time consuming. We have to read email, download attachments. Copy and paste body into proper field. Upload attachments and embed it again into proper place. It&#8217;s not rocket science but just takes a lot of time. Especially when you have multiple issues, with multiple attachments.
+It&#8217;s just slow and time-consuming. We have to read the email and download the attachments. Copy and paste the body into the right field. Upload attachments and embed them again into the correct place. It&#8217;s not rocket science but takes a lot of time, especially when you have multiple issues with multiple attachments.
 
-Solution:
+## Solution:
 
   1.  AWS SES to handle incoming emails. Simple, fast, and reliable. Send email &#8211; get output as an object on S3 bucket &#8211; get notification via SNS with body of the email
   2. Go microservice to explode email to usable parts 
-```
+```JSON
 {
     "From":"",
     "To":"",

@@ -4,14 +4,8 @@ author: admin
 type: post
 date: 2016-08-21T07:01:15+00:00
 url: /2016/powerdns-with-sqlite-backend-as-a-slave-for-bind/
-nkweb_code_in_head:
-  - default
-nkweb_Use_Custom_js:
-  - default
-nkweb_Use_Custom_Values:
-  - default
-nkweb_Use_Custom:
-  - 'false'
+
+
 dsq_thread_id:
   - 5575959728
 categories:

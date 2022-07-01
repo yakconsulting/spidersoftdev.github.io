@@ -5,14 +5,8 @@ type: post
 date: 2017-11-02T07:25:29+00:00
 url: /2017/getting-started-with-aws-cli/
 thumbnail: images/2015/04/gpu_amazon_ec2_logo.png
-nkweb_code_in_head:
-  - default
-nkweb_Use_Custom_js:
-  - default
-nkweb_Use_Custom_Values:
-  - default
-nkweb_Use_Custom:
-  - 'false'
+
+
 dsq_thread_id:
   - 6260317939
 categories:

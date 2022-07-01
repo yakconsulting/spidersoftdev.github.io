@@ -15,7 +15,7 @@ tags:
   - php
 
 ---
-I&#8217;ve been recently trying to install latest Magento and was experiencing some issues with Magento installer unable to detect PHP version. My message was pretty weird:
+I&#8217;ve been recently trying to install the latest Magento and was experiencing some issues with Magento installer unable to detect PHP version. My message was pretty weird:
 
 `Your PHP version is . The required PHP version is`
 

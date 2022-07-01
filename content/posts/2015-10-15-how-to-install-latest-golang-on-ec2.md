@@ -4,14 +4,8 @@ author: admin
 type: post
 date: 2015-10-15T11:41:54+00:00
 url: /2015/how-to-install-latest-golang-on-ec2/
-nkweb_code_in_head:
-  - default
-nkweb_Use_Custom_js:
-  - default
-nkweb_Use_Custom_Values:
-  - default
-nkweb_Use_Custom:
-  - 'false'
+
+
 dsq_thread_id:
   - 4239111981
 categories:

@@ -4,14 +4,6 @@ author: admin
 type: post
 date: 2016-11-30T09:30:43+00:00
 url: /2016/dynamic-pickerview-in-swift-3/
-nkweb_code_in_head:
-  - default
-nkweb_Use_Custom_js:
-  - default
-nkweb_Use_Custom_Values:
-  - default
-nkweb_Use_Custom:
-  - 'false'
 dsq_thread_id:
   - 5577053885
 categories:

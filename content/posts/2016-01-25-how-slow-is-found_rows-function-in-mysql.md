@@ -4,14 +4,8 @@ author: admin
 type: post
 date: 2016-01-25T04:15:16+00:00
 url: /2016/how-slow-is-found_rows-function-in-mysql/
-nkweb_code_in_head:
-  - default
-nkweb_Use_Custom_js:
-  - default
-nkweb_Use_Custom_Values:
-  - default
-nkweb_Use_Custom:
-  - 'false'
+
+
 dsq_thread_id:
   - 4520534537
 categories:

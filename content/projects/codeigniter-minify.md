@@ -30,14 +30,8 @@ unlink_image:
   - default
 dsq_thread_id:
   - 1159353688
-nkweb_code_in_head:
-  - default
-nkweb_Use_Custom_js:
-  - default
-nkweb_Use_Custom_Values:
-  - default
-nkweb_Use_Custom:
-  - 'false'
+
+
 
 ---
 Simple library to minify JavaScript & CSS in CodeIgniter. JavaScript minification is based on [Closure Compiler](http://code.google.com/closure/compiler/). CSS minifcation is based on [minify library](http://code.google.com/p/minify/). Addtionaly all CSS scripts and JavaScript scripts are marget into single files.

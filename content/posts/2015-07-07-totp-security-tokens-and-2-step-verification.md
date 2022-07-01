@@ -4,14 +4,8 @@ author: admin
 type: post
 date: 2015-07-07T05:37:35+00:00
 url: /2015/totp-security-tokens-and-2-step-verification/
-nkweb_code_in_head:
-  - default
-nkweb_Use_Custom_js:
-  - default
-nkweb_Use_Custom_Values:
-  - default
-nkweb_Use_Custom:
-  - 'false'
+
+
 dsq_thread_id:
   - 3958868806
 categories:

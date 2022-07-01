@@ -7,14 +7,8 @@ url: /2014/sending-emails-from-commandline/
 thumbnail: images/2014/08/email-logo.jpg
 dsq_thread_id:
   - 2964950902
-nkweb_code_in_head:
-  - default
-nkweb_Use_Custom_js:
-  - default
-nkweb_Use_Custom_Values:
-  - default
-nkweb_Use_Custom:
-  - 'false'
+
+
 categories:
   - Linux
 tags:

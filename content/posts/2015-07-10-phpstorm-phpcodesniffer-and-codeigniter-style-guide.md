@@ -20,14 +20,8 @@ unlink_post_image:
   - default
 feature_size:
   - blank
-nkweb_code_in_head:
-  - default
-nkweb_Use_Custom_js:
-  - default
-nkweb_Use_Custom_Values:
-  - default
-nkweb_Use_Custom:
-  - 'false'
+
+
 dsq_thread_id:
   - 3920397853
 categories:

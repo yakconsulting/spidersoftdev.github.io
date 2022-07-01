@@ -4,14 +4,8 @@ author: admin
 type: post
 date: 2015-11-10T13:17:00+00:00
 url: /2015/easy-deployment-from-git-to-ftp/
-nkweb_code_in_head:
-  - default
-nkweb_Use_Custom_js:
-  - default
-nkweb_Use_Custom_Values:
-  - default
-nkweb_Use_Custom:
-  - 'false'
+
+
 dsq_thread_id:
   - 4306184642
 categories:

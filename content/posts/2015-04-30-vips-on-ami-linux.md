@@ -7,14 +7,8 @@ url: /2015/vips-on-ami-linux/
 thumbnail: images/2015/04/gpu_amazon_ec2_logo.png
 dsq_thread_id:
   - 3723931539
-nkweb_code_in_head:
-  - default
-nkweb_Use_Custom_js:
-  - default
-nkweb_Use_Custom_Values:
-  - default
-nkweb_Use_Custom:
-  - 'false'
+
+
 categories:
   - Linux
 

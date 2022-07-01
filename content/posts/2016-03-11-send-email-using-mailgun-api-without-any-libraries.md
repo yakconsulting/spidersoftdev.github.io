@@ -4,14 +4,8 @@ author: admin
 type: post
 date: 2016-03-11T10:39:09+00:00
 url: /2016/send-email-using-mailgun-api-without-any-libraries/
-nkweb_code_in_head:
-  - default
-nkweb_Use_Custom_js:
-  - default
-nkweb_Use_Custom_Values:
-  - default
-nkweb_Use_Custom:
-  - 'false'
+
+
 dsq_thread_id:
   - 5574674269
 categories:

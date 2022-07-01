@@ -13,14 +13,8 @@ order:
   - desc
 orderby:
   - content
-nkweb_code_in_head:
-  - default
-nkweb_Use_Custom_js:
-  - default
-nkweb_Use_Custom_Values:
-  - default
-nkweb_Use_Custom:
-  - 'false'
+
+
 
 resources:
   - src: 'images/transmission_logo.png'

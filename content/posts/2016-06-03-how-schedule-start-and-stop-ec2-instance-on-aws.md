@@ -5,14 +5,8 @@ type: post
 date: 2016-06-02T14:53:57+00:00
 url: /2016/how-schedule-start-and-stop-ec2-instance-on-aws/
 thumbnail: images/2016/06/gpu_amazon_ec2_logo.png
-nkweb_code_in_head:
-  - default
-nkweb_Use_Custom_js:
-  - default
-nkweb_Use_Custom_Values:
-  - default
-nkweb_Use_Custom:
-  - 'false'
+
+
 dsq_thread_id:
   - 5577122846
 categories:

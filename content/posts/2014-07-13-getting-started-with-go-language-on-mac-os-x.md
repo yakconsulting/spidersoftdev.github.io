@@ -7,14 +7,8 @@ url: /2014/getting-started-with-go-language-on-mac-os-x/
 thumbnail: images/2014/08/gopher.jpg
 dsq_thread_id:
   - 2922773325
-nkweb_code_in_head:
-  - default
-nkweb_Use_Custom_js:
-  - default
-nkweb_Use_Custom_Values:
-  - default
-nkweb_Use_Custom:
-  - 'false'
+
+
 categories:
   - Go Lang
   - Software

@@ -4,14 +4,8 @@ author: admin
 type: post
 date: 2016-01-22T20:47:04+00:00
 url: /2016/how-to-handle-max_input_vars-restriction/
-nkweb_code_in_head:
-  - default
-nkweb_Use_Custom_js:
-  - default
-nkweb_Use_Custom_Values:
-  - default
-nkweb_Use_Custom:
-  - 'false'
+
+
 dsq_thread_id:
   - 4520503191
 categories:
