@@ -25,17 +25,17 @@ What you can learn from it? How to install Apache 2.4 and PHP 7, how to enable a
 <a href=http://wiki.apache.org/httpd/PHP-FPM>PHP-FPM</a>
 . Instructions are pretty simple. You can just copy and paste command to get working stack in less then 15 minutes.</p><p>What you can learn from it? How to install Apache 2.4 and PHP 7, how to enable and opcache, and how to install HTTPS on your server, with purchasing SSL certificate.</p><h3 id=centos-7>Centos 7</h3><ul><li>Log in to server as user,</li><li>To save some time, switch to sudo user:<br><code>sudo -i</code></li><li>we are going to need REMI repository for PHP 7<br><code>wget http://rpms.famillecollet.com/enterprise/remi-release-7.rpm rpm -Uvh remi-release-7.rpm</code></li><li>Upgrade everything to the latest versions:<br><code>yum update -y</code></li></ul><p>Let&rsquo;s start with some software:</p><pre tabindex=0><code>sudo yum install httpd mod_proxy_html php70-fpm 
 sudo yum install php70-php-mcrypt php70-php-mbstring php70-php-gd php70-php-mysqli php70-php-xml hp70-php-opcache
-</code></pre><p>After while…</p><pre tabindex=0><code>sudo service php70-php-fpm start
-sudo service httpd start
-sudo chkconfig --levels 235 httpd on
-sudo chkconfig php-fpm on
-</code></pre><p>Done – your LAMP stack works. But it’s not visible from outside world yet…</p><h3 id=firewall>Firewall</h3><pre tabindex=0><code>firewall-cmd --permanent --add-service=http
-firewall-cmd --reload
-</code></pre><h3 id=php-configuration>PHP configuration</h3><p>Let’s do some more configuration around PHP:<br>We have to find php.ini – <code>php70 -i | grep php.ini</code> gives us:<br>In <code>/etc/opt/remi/php70/php.ini</code> timezone should be setup like that:</p><pre tabindex=0><code>date.timezone = &#34;Australia/Sydney&#34;
-expose_php = Off
-</code></pre><p>Don’t forget to restart httpd and php-fpm to see changes</p><pre tabindex=0><code>sudo service httpd restart
-sudo service php-fpm restart
-</code></pre><p>By default, PHP has very low limit on  size of uploaded files. It’s very good practice to increase it.<br>We are looking for 2 values</p><pre tabindex=0><code>upload_max_filesize=20M
+</code></pre><p>After while…</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-SHELL data-lang=SHELL><span style=display:flex><span>sudo service php70-php-fpm start
+</span></span><span style=display:flex><span>sudo service httpd start
+</span></span><span style=display:flex><span>sudo chkconfig --levels <span style=color:#ae81ff>235</span> httpd on
+</span></span><span style=display:flex><span>sudo chkconfig php-fpm on
+</span></span></code></pre></div><p>Done – your LAMP stack works. But it’s not visible from outside world yet…</p><h3 id=firewall>Firewall</h3><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-SHELL data-lang=SHELL><span style=display:flex><span>firewall-cmd --permanent --add-service<span style=color:#f92672>=</span>http
+</span></span><span style=display:flex><span>firewall-cmd --reload
+</span></span></code></pre></div><h3 id=php-configuration>PHP configuration</h3><p>Let’s do some more configuration around PHP:<br>We have to find php.ini – <code>php70 -i | grep php.ini</code> gives us:<br>In <code>/etc/opt/remi/php70/php.ini</code> timezone should be setup like that:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-SHELL data-lang=SHELL><span style=display:flex><span>date.timezone <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;Australia/Sydney&#34;</span>
+</span></span><span style=display:flex><span>expose_php <span style=color:#f92672>=</span> Off
+</span></span></code></pre></div><p>Don’t forget to restart httpd and php-fpm to see changes</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-SHELL data-lang=SHELL><span style=display:flex><span>sudo service httpd restart
+</span></span><span style=display:flex><span>sudo service php-fpm restart
+</span></span></code></pre></div><p>By default, PHP has very low limit on  size of uploaded files. It’s very good practice to increase it.<br>We are looking for 2 values</p><pre tabindex=0><code>upload_max_filesize=20M
 post_max_size=32M
 </code></pre><h3 id=server-configuration>Server configuration</h3><p>Now we have to update server to proper TimeZone</p><pre tabindex=0><code>cd /etc/
 sudo rm -rf localtime &amp;&amp; sudo ln -s /usr/share/zoneinfo/Australia/Sydney localtime
