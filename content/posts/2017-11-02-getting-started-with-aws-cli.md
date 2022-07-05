@@ -36,7 +36,7 @@ And now we can use command line, couple useful examples:
 
 To run backup of your instance (create an AMi image) just type:
 
-```
+```SHELL
 #!/bin/bash
 
 m=$( date +"%Y-%m" )
@@ -45,7 +45,7 @@ b1=$(/usr/local/bin/aws ec2 create-image --profile client --instance-id=i-000000
 
 To start/stop multiple instaces EC2/RDS i&#8217;m using something like that:
 
-```
+```SHELL
 #!/bin/bash
 
 case $1 in

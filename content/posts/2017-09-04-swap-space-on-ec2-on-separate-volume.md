@@ -44,7 +44,7 @@ Finally
 
 &nbsp;
 
-```
+```SHELL
 sudo mkswap -f /dev/sdf
 Setting up swapspace version 1, size = 4194300 KiB
 no label, UUID=0d446dc1-bd25-4a51-92e0-44d80a343fb5
@@ -65,7 +65,7 @@ xvdf    202:80   0   4G  0 disk [SWAP]
 
 works as a charm&#8230;
 
-```
+```SHELL
 free -m
              total       used       free     shared    buffers     cached
 Mem:           993        657        336         20         53        277
@@ -76,7 +76,7 @@ Swap:         5119          0       5119
 
 make it permanent:
 
-```
+```SHELL
 nano /etc/fstab
 /dev/sdf	swap	swap	defaults	0	0
 ```

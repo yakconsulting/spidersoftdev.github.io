@@ -22,7 +22,7 @@ PHP 7.0 it's already a while on the market. Let&#8217;s install it on EC2 instan
 
 &nbsp;
 
-```
+```SHELL
 sudo yum upgrade -y
 sudo yum install php70
 php -v
@@ -33,7 +33,7 @@ Zend Engine v3.0.0, Copyright (c) 1998-2017 Zend Technologies
 
 Moving forward with Apache configuration if you are looking to use PHP on your server instead of command line online, you have to install additional packages. So if you are using PHP as an FPM module:
 
-```
+```SHELL
 php70-php-fpm
 ```
 
@@ -41,7 +41,7 @@ then you can just follow instructions in my [previous article][1].
 
 It&#8217;s worthwhile to install some additional PHP packages:
 
-```
+```SHELL
 yum install php70-xml php70-pdo php70-mysqlnd php70-gd php70-mbstring php70-mcrypt php70-mysqlnd php70-opcache
 ```
 

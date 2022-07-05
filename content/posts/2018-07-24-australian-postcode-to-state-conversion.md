@@ -20,4 +20,3 @@ I recently worked on a project with a super dull address form. I figured out tha
 <!--more-->
 
 {{< gist slav123 668964c1d4b96b7b35335c9e7cc8148d >}}
-

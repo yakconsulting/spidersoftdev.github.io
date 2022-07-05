@@ -17,7 +17,7 @@ tags:
   - server-side
 
 ---
-From time to time we could breach [max_input_vars][1] restriction. Which basically limittation for server which allows only limited number of input server to reach out server. Usually this number is around 1000. In this short tutorial I will describe, how to easily avoid this problem.
+From time to time we could breach [max_input_vars][1] restriction. Which basically limitation for server which allows only limited number of input server to reach out server. Usually this number is around 1000. In this short tutorial I will describe, how to easily avoid this problem.
 
 <!--more-->
 
@@ -25,7 +25,7 @@ Recently I had a project, when i was sending super long list of small numbers, a
 
 Here was my buggy code:
 
-```
+```JAVASCRIPT
 var order = $(this).sortable("serialize");
    $.post("admin/sort", {order: order}, function(theResponse){
       ...
@@ -36,7 +36,7 @@ var order = $(this).sortable("serialize");
 Aa you can tell, I was passing data coming from [jQuery UI Sortable Widget](https://api.jqueryui.com/sortable/#method-serialize). Issue there was that data was already serialised. I wanted it as an array… I found [this nice function](https://gist.github.com/slav123/00dd17fa4b44592d0c1f) to deserialise my array, and then I needed to join it to regular string, so I could send it via POST:
 
 
-```
+```JS
 var order = $(this).sortable("serialize");
 var s = $.unserialize(order); 
 order = s["r[]"].join();

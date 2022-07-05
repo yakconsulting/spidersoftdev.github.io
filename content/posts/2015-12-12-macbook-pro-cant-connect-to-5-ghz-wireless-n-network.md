@@ -8,7 +8,7 @@ categories:
   - Mac
 
 ---
-That one was tricky. Got brand new router and couldn&#8217;t connect to 5 Ghz network. My iPhone didn&#8217;t have this issues, neither couple other devices at home. I spend some time randomly changing settings on wireless network, and then I found tricky information &#8211; my MacBook can&#8217;t use all available channels, can work only on specific one.
+That one was tricky. Got brand-new router and couldn&#8217;t connect to 5 Ghz network. My iPhone didn&#8217;t have this issues, neither couple other devices at home. I spend some time randomly changing settings on wireless network, and then I found tricky information &#8211; my MacBook can&#8217;t use all available channels, can work only on specific one.
 
 <!--more-->
 

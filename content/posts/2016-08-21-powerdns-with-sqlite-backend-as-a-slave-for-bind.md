@@ -31,7 +31,7 @@ Then we have to pull schema which PDNS will use to store records:
 
 Let&#8217;s create some some sqlite database:
 
-```
+```SHELL
 mkdir /var/db/pdns
 sqlite3 /var/db/pdns/pdns.db
 .read schema.sqlite3.sql
@@ -50,7 +50,7 @@ Let&#8217;s make sure that pdns.db is writeable:
 
 `nano /etc/pdns/pdns.conf`
 
-```
+```INI
 setuid=pdns
 setgid=pdns
 launch=gsqlite3

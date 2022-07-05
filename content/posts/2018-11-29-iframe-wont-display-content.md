@@ -7,8 +7,6 @@ url: /2018/iframe-wont-display-content/
 categories:
   - Technologies
   - Web Development
-
-
 ---
 There is a website, with iframe. I frame source is correct, but won&#8217;t display content of the website. No visible errors. There only small detail in the console:
 

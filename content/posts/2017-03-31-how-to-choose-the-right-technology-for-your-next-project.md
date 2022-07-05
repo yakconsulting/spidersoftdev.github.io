@@ -37,9 +37,9 @@ Just wondering how many people would hate me if I say go with [PHP](http://php.n
 
 The only way to use PHP – you have to build it, smartly – make [small services](https://en.wikipedia.org/wiki/Microservices) which are working independently. So when the time comes (you reach your 10k, 100k, 1m of users) you can replace some of them with [GoLang](https://golang.org/).
 
-## What about the frontent ?
+## What about the frontend ?
 
-Should we use any frontend framework or just play with vanilla JavaScript and HTML5. The answer depends about scope of the project. If you are prototyping to validate idea, you don't have to go full [React](https://reactjs.org) or [VueJS](https://vuejs.org) - you can start simple with pure JavaScript and decide if you really looking for more, or something is missing.
+Should we use any frontend framework or just play with vanilla JavaScript and HTML5. The answer depends on scope of the project. If you are prototyping to validate idea, you don't have to go full [React](https://reactjs.org) or [VueJS](https://vuejs.org) - you can start simple with pure JavaScript and decide if you're really looking for more, or something is missing.
 
 What I&#8217;m trying to say &#8211; build and deploy fast &#8211; and iterate often.
 

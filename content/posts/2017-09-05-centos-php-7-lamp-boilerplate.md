@@ -45,7 +45,7 @@ sudo yum install php70-php-mcrypt php70-php-mbstring php70-php-gd php70-php-mysq
 
 After while&#8230;
 
-```
+```SHELL
 sudo service php70-php-fpm start
 sudo service httpd start
 sudo chkconfig --levels 235 httpd on
@@ -56,7 +56,7 @@ Done &#8211; your LAMP stack works. But it&#8217;s not visible from outside worl
 
 ### Firewall
 
-```
+```SHELL
 firewall-cmd --permanent --add-service=http
 firewall-cmd --reload
 ```
@@ -67,14 +67,14 @@ Let&#8217;s do some more configuration around PHP:
 We have to find php.ini &#8211; `php70 -i | grep php.ini` gives us:  
 In `/etc/opt/remi/php70/php.ini` timezone should be setup like that:
 
-```
+```SHELL
 date.timezone = "Australia/Sydney"
 expose_php = Off
 ```
 
 Don&#8217;t forget to restart httpd and php-fpm to see changes
 
-```
+```SHELL
 sudo service httpd restart
 sudo service php-fpm restart
 ```

@@ -22,7 +22,7 @@ PHP is easy. You don&#8217;t have to know type of variable, before you use it. B
 
 Here is an example:
 
-```
+```JSON
 {
   "page-size":50,
   "channel":"buy",
@@ -36,7 +36,7 @@ Here is an example:
 ]}
 ```
 
-It&#8217;s a very odd combination of arrays and objects. To build this type of object we have to typecast some of variables:
+It&#8217;s a very odd combination of arrays and objects. To build this type of object we have to typecast some of the variables:
 
 ```
   $builder = [

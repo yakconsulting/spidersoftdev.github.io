@@ -10,8 +10,6 @@ categories:
   - PHP
 tags:
   - date
-  - php
-
 ---
 From time to time we are working on small campaigns, where competition starts at given time. Because in Australia we have &#8220;so many&#8221; timezones, it&#8217;s critical to set things correctly according to the time zone. 
 

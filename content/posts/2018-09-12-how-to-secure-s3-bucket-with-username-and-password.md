@@ -11,8 +11,6 @@ categories:
 tags:
   - caddy
   - password
-  - s3
-
 ---
 When you start looking for a solution, you will find answers like using Cloudfront, lambda, and middleware 3rd party services. And basically, you don&#8217;t have any other choice. There is no simple solution to your problem. But &#8211; as long as you use [Caddy Server][1] solution is super easy.
 
