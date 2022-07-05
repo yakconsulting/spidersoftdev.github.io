@@ -11,11 +11,8 @@ categories:
 tags:
   - aws
   - email
-  - go
-  - golang
   - lambda
-  - parse
-
+ 
 ---
 It's a simple mechanic to decompose emails into valuable parts, like some markup (to push emails directly into internal systems), create file attachments and extract inline images. 
 

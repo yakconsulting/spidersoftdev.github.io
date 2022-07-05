@@ -11,7 +11,7 @@ tags:
   - ec2
   - ocr
   - opensource
-
+  - aws
 ---
 [Tesseract](https://github.com/tesseract-ocr/tesseract) it&#8217;s a great library Open Source library to supply free OCR solutions for multiple libraries. You can use it directly from command line, or in your own software using supplied libraries. 
 

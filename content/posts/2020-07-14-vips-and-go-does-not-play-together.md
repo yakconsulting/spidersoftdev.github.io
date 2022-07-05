@@ -9,7 +9,6 @@ categories:
   - Software
   - Go Lang
 tags:
-  - go
   - vips
 ---
 I built a simple worker to do some magic with images by using Go & [VIPS](https://github.com/libvips/libvips). I chose VIPS because it is [blazing fast](https://github.com/fawick/speedtest-resize) compared to other Go image processing libraries. So this is the story about what went wrong.

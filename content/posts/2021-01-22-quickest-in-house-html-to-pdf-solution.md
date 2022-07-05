@@ -7,7 +7,6 @@ url: /2021/quickest-in-house-html-to-pdf-solution/
 categories:
   - Go Lang
 tags:
-  - golang
   - headless
   - pdf
 

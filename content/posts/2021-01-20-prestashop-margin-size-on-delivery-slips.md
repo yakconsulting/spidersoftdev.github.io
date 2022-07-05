@@ -4,8 +4,6 @@ author: admin
 type: post
 date: 2021-01-20T13:02:23+00:00
 url: /2021/prestashop-margin-size-on-delivery-slips/
-
-
 categories:
   - Technologies
   - PHP

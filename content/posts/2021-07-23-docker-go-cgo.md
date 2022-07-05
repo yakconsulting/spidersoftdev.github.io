@@ -9,8 +9,6 @@ categories:
   - Technologies
   - Go Lang
 tags:
-  - go
-  - golang
   - docker
   - vips
   - image

@@ -9,9 +9,7 @@ categories:
 - Technologies
 - Go Lang
 tags:
-- go
-- golang
-- upload
+- aws
 
 ---
 Object storage is getting more and more popular. AWS started, but nowadays, almost every provider has it. Recently [Cloudflare](https://blog.cloudflare.com/introducing-r2-object-storage/) announced its availability. [DigitalOcean](https://www.digitalocean.com/products/spaces) call them Spaces.
