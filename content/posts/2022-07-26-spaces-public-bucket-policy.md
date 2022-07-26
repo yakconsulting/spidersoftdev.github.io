@@ -4,8 +4,6 @@ author: admin
 type: post
 date: 2022-07-25T08:30:00+00:00
 url: /2022/setup-public-bucket-policy-digitalocean-spaces
-lead: Prometheus and Caddy-metrics
-#thumbnail: /images/2014/08/gopher.jpg
 categories:
 - Technologies
 - Linux
