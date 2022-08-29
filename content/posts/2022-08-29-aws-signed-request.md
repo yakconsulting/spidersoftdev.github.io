@@ -3,7 +3,7 @@ title: How to create AWS Signature on GET POST request
 lead: Signing request with AWS Signature
 author: admin
 type: post
-date: 2022-08-29T08:30:00+00:00
+date: 2022-08-28T08:30:00+00:00
 url: /2022/aws-signature-request
 thumbnail: /images/2014/08/gopher.jpg
 categories:
