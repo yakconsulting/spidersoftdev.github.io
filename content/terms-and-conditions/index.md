@@ -135,5 +135,5 @@ The Company reserves the right to change these conditions from time to time as i
 
 **These terms and conditions form part of the Agreement between the Client and ourselves. Your accessing of this website and/or undertaking of a booking or Agreement indicates your understanding, agreement to and acceptance, of the Disclaimer Notice and the full Terms and Conditions contained herein. Your statutory Consumer Rights are unaffected.**
 
- [1]: http://www.spidersoft.com.au/about/privacy-policy/
- [2]: http://www.spidersoft.com.au/about/refund-policy/
+ [1]: /privacy-policy/
+ [2]: /refund-policy/

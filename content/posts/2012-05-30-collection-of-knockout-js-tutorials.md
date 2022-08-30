@@ -7,18 +7,6 @@ url: /2012/collection-of-knockout-js-tutorials/
 thumbnail: images/2012/05/knockout.jpg
 layout:
   - default
-hide_post_title:
-  - default
-unlink_post_title:
-  - default
-hide_post_meta:
-  - default
-hide_post_date:
-  - default
-hide_post_image:
-  - default
-unlink_post_image:
-  - default
 dsq_thread_id:
   - 1162534828
 categories:
@@ -42,15 +30,15 @@ Here is small collection of good tutorials:
 
 [Rapid and responsive UI development with knockout.js](http://www.netmagazine.com/tutorials/rapid-and-responsive-ui-development-knockoutjs)
 
-![UI development](http://www.spidersoft.com.au/wp-content/uploads/2012/05/ss1.jpg "Rapid and responsive UI development with knockout.js") 
+![UI development](/images/2012/05/ss1.jpg "Rapid and responsive UI development with knockout.js") 
 
 [Into the Ring with knockout.js](http://net.tutsplus.com/tutorials/javascript-ajax/into-the-ring-with-knockout-js/)
 
-![into-the-ring](images/2012/05/into-the-ring.jpg)
+![into-the-ring](/images/2012/05/into-the-ring.jpg)
 
-<a href="http://learn.knockoutjs.com/" target="_blank">Learn knockout.js<br /> 
+[Learn knockout.js](http://learn.knockoutjs.com)
 
-![learn knockoutjs](images/2012/05/learn.png)
+![learn knockoutjs](/images/2012/05/learn.png)
 
 Other tutorials:[<br /> ](http://blog.monnet-usa.com/?p=354)
 

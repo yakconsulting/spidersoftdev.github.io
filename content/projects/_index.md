@@ -17,9 +17,7 @@ Some of our recent projects. Fell free to download and comment.
   * [CodeIgniter IMG][3] &#8211; thumbnails on the fly for CodeIgniter
   * [Cache XCache][4] &#8211; XCache driver for CodeIgniter
 
- [1]: /projects/simple-faq/
  [2]: /projects/codeigniter-minify/
  [3]: /projects/codeigniter-img-thumbnails-on-the-fly
  [4]: /projects/xcache-driver-codeigniter/
  [5]: /projects/jquery-seo-url-plugin
- 

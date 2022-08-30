@@ -31,7 +31,7 @@ iBrowser/temp
 
 Basic configuration of iBrowser:
 
-```
+```PHP
 $cfg['ilibs'] = array (	
 	array ( 
 		'value'	=> '/uploads/images/',  				 
@@ -58,7 +58,7 @@ What is our goal? We want to get additional button to upload images via iBrowser
 And second goal is to extend default image browser with &#8220;browse&#8221; function:
 
 ![t2](/images/2012/02/t2.png)
-[ibrowser-and-tinymce](/2012/ibrowser-and-tinymce/t2/)
+[ibrowser-and-tinymce](/2012/ibrowser-and-tinymce/)
 
 Basic configuration:
 
@@ -106,4 +106,4 @@ function myFileBrowser (field_name, url, type, win) {
 Final effect:  
 ![t2](/images/2012/02/t3.png)
 
-[ibrowser-and-tinymce](http://www.spidersoft.com.au/2012/ibrowser-and-tinymce/t3/)
+[ibrowser-and-tinymce](/2012/ibrowser-and-tinymce/)
