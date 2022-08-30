@@ -19,10 +19,10 @@ tags:
 ---
 I&#8217;m consuming enormous amount of news each day. These is list of my findings from just only these week.
 
-[Envision.js](http://www.humblesoftware.com/envision) is a library for creating fast, dynamic and interactive HTML5 visualisations. 
+[Envision.js](https://www.humblesoftware.com/envision) is a library for creating fast, dynamic and interactive HTML5 visualisations. 
 
 [Apy](https://github.com/goschevski/apy) is a simple client-side library for making rest api ajax calls. 
 
-[Sitespeed.io](http://www.sitespeed.io/) is an open source tool that helps you analyse your website *speed* and *performance* based on *performance best practices* and *metrics*. It collects data from multiple pages on your website, analyze the pages using the [rules](http://www.sitespeed.io/rules/) and output the result as HTML or JUnit XML. 
+[Sitespeed.io](https://www.sitespeed.io/) is an open source tool that helps you analyse your website *speed* and *performance* based on *performance best practices* and *metrics*. It collects data from multiple pages on your website, analyze the pages using the [rules](https://www.sitespeed.io/rules/) and output the result as HTML or JUnit XML. 
 
-[StyleStats](http://www.stylestats.org/) is a Node.js library to collect CSS statistics!
+[StyleStats](https://www.stylestats.org/) is a Node.js library to collect CSS statistics!

@@ -14,7 +14,6 @@ tags:
   - codeigniter
   - css
   - library
-  - minify
   - php
 format: status
 
@@ -23,4 +22,4 @@ Just introduce some new options to my quite popular library [CodeIgniter-minify]
 
 Please feel to checkout library on GitGub &#8211; [CodeIgniter-minify](https://github.com/slav123/CodeIgniter-minify)
 
- [1]: http://www.spidersoft.com.au/projects/codeigniter-minify/ "CodeIgniter minify"
+ [1]: /codeigniter-minify/ "CodeIgniter minify"

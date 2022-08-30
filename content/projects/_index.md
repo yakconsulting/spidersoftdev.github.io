@@ -11,12 +11,13 @@ lead: "SpiderSoft projects"
 ---
 Some of our recent projects. Fell free to download and comment.
 
-  * [Alternate Date Picker](alternate-date-picker) alternate Date Picker
+  * [Alternate Date Picker][1] alternate Date Picker
   * [jQuery SEO URL plugin][5] jQuery SEO URL plugin
   * [CodeIgniter minify][2] &#8211; CodeIgniter library to minify JavaScript and CSS
   * [CodeIgniter IMG][3] &#8211; thumbnails on the fly for CodeIgniter
   * [Cache XCache][4] &#8211; XCache driver for CodeIgniter
 
+ [1]: /projects/alternate-date-picker/
  [2]: /projects/codeigniter-minify/
  [3]: /projects/codeigniter-img-thumbnails-on-the-fly
  [4]: /projects/xcache-driver-codeigniter/

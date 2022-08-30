@@ -26,4 +26,4 @@ tags:
   - tips
 
 ---
-Sometimes you can&#8217;t create only description. Sometimes you need to record a screen cast on your Mac OS X. Under Windows environment I used excelent simple program called [WINK](http://www.debugmode.com/wink/). It is really simple, fast and efficient solution for creating screen cast using Windows. Unfortunately I didn&#8217;t found any similar solution for Mac until now&#8230; It&#8217;s also really simple and it called:  [Jing](http://www.techsmith.com/jing/).
+Sometimes you can&#8217;t create only description. Sometimes you need to record a screen cast on your Mac OS X. Under Windows environment I used excelent simple program called [WINK](https://www.debugmode.com/wink/). It is really simple, fast and efficient solution for creating screen cast using Windows. Unfortunately I didn&#8217;t found any similar solution for Mac until now&#8230; It&#8217;s also really simple and it called:  [Jing](http://www.techsmith.com/jing/).

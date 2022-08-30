@@ -10,35 +10,34 @@ comments = true
 
 [menu]
 
-
 [[menu.main]]
 identifier = 'about'
 name = 'About Us'
-url = '/about'
+url = '/about/'
 weight = 1
 
 [[menu.main]]
 identifier = 'projects'
 name = 'Projects'
-url = '/projects'
+url = '/projects/'
 weight = 10
 
 [[menu.main]]
 identifier = 'case-studies'
 name = 'Case studies'
-url = '/categories/case-studies'
+url = '/categories/case-studies/'
 weight = 20
 
 [[menu.main]]
 identifier = 'Agencies'
 name = 'Agencies'
-url = '/services'
+url = '/services/'
 weight = 30
 
 [[menu.main]]
 identifier = 'Contact'
 name = 'Contact'
-url = '/contact-us'
+url = '/contact-us/'
 weight = 50
 
 [[menu.side]]
@@ -59,17 +58,17 @@ url = 'https://m.do.co/c/4d3f8f5c4118'
 [[menu.footer]]
 name = 'Privacy Policy'
 identifier = 'privacy-policy'
-url = '/privacy-policy'
+url = '/privacy-policy/'
 
 [[menu.footer]]
 name = 'Term and conditions'
 identifier = 'terms-and-conditions'
-url = '/terms-and-conditions'
+url = '/terms-and-conditions/'
 
 [[menu.footer]]
 name = 'Refund Policy'
 identifier = 'refund'
-url = '/refund-policy'
+url = '/refund-policy/'
 
 [Author] # Used in authorbox
 name = "Slawomir Jasinski"
@@ -78,7 +77,7 @@ avatar = "img/avatar.png"
 
 [Params]
 subtitle = "" # Deprecated in favor of .Site.Params.logo.subtitle
-description = "John Doe's Personal blog about everything" # Site description. Used in meta description
+description = SpiderSoft is an Australian software development company. We have a presence in Sydney and offshore offices in Poland. We specialize in custom software solutions.
 copyright = "SpiderSoft" # Footer copyright holder, otherwise will use site title
 opengraph = true # Enable OpenGraph if true
 schema = true # Enable Schema
@@ -135,7 +134,7 @@ email = "info@spidersoft.com.au"
 
 [[Params.widgets.social.custom]]
 title = "SpiderSoft Poland"
-url = "https://www.spidersoft.pl"
+url = "https://www.spidersoft.pl/"
 
 [taxonomies]
 category = 'categories'

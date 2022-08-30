@@ -4,7 +4,7 @@ author: admin
 type: post
 date: 2021-07-18T07:19:08+00:00
 url: 2021/how-to-clean-cached-dns-records
-description: "links to clear cached records in popular public DNS servers."
+description: "Links to websites, where you can clear cached records in popular public DNS servers."
 categories:
   - "Software"
   - "Linux"
@@ -29,7 +29,7 @@ You can check results here:
 
 
 ## DNSSEC Tools
-* DNSViz. A [DNS Visualization Tool](http://dnsviz.net/)
-* [DNS Check](http://dnscheck.iis.se/ "Domain Name System")
-* [DNSSEC Analyzer](http://dnssec-debugger.verisignlabs.com/) 
-* [SIDN DNSSEC Test](http://dnssectest.sidn.nl/)
+* DNSViz. A [DNS Visualization Tool](https://dnsviz.net/)
+* [DNS Check](https://dnscheck.iis.se/ "Domain Name System")
+* [DNSSEC Analyzer](https://dnssec-debugger.verisignlabs.com/) 
+* [SIDN DNSSEC Test](https://dnssectest.sidn.nl/)

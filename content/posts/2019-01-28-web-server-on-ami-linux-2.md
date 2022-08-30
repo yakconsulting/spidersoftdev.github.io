@@ -23,7 +23,7 @@ Welcome in 2019 &#8211; it&#8217;s time to upgrade out outdated LAMP stack serie
 
 <!--more-->
 
-So&#8230; we have nice and shinny EC2 instance of <a rel="noreferrer noopener" aria-label="Amazon Linux 2 (opens in a new tab)" href="https://aws.amazon.com/amazon-linux-2/" target="_blank">Amazon Linux 2</a>. On the website, we can read &#8220;Extras in Amazon Linux 2 provides you with bleeding edge software on a stable base of Amazon Linux 2. You no longer need to tradeoff stability for software freshness.&#8221; So&#8230; it should be easier this time. So let&#8217;s see what we have here:
+So&#8230; we have nice and shinny EC2 instance of [Amazon Linux 2](https://aws.amazon.com/amazon-linux-2/). On the website, we can read &#8220;Extras in Amazon Linux 2 provides you with bleeding edge software on a stable base of Amazon Linux 2. You no longer need to tradeoff stability for software freshness.&#8221; So&#8230; it should be easier this time. So let&#8217;s see what we have here:
 
 ```shell
 amazon-linux-extras
@@ -83,18 +83,18 @@ We can just run PHP-FPM with
 
 We also make sure that out server lives in correct Time Zone:
 
-```
+```shell
 cd /etc/
 sudo rm -rf localtime && sudo ln -s /usr/share/zoneinfo/Australia/Sydney localtime
 date
 Thu Jan 10 21:06:05 AEDT 2019
 ```
 
-Looks like in the pretty good spot. Time to install actual web server. You can go with Apache, but I&#8217;m huge fan of <a rel="noreferrer noopener" aria-label=" (opens in a new tab)" href="https://caddyserver.com/" target="_blank">Caddy server.</a> It&#8217;s light, it&#8217;s fast and configuration is super easy. You can pull it from the website, compile it locally or&#8230; Use my [caddy linux thin](http://public.spidersoft.com.au/download/caddy) build:
+Looks like in the pretty good spot. Time to install actual web server. You can go with Apache, but I&#8217;m huge fan of [Caddy server](https://caddyserver.com/). It&#8217;s light, it&#8217;s fast and configuration is super easy. You can pull it from the website, compile it locally:
 
 ```shell
 cd /usr/local/bin
-wget http://public.spidersoft.com.au/download/caddy
+wget ...
 chmod a+x caddy
 setcap 'cap_net_bind_service=+ep' /usr/local/bin/caddy
 groupadd caddy
