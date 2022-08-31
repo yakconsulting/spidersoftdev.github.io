@@ -1,3 +1,6 @@
 .post__related ul {
 	margin: 0 0 0 20px
 }
+.widget-search.widget {
+	overflow: auto;
+}
