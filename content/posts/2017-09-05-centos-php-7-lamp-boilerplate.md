@@ -7,8 +7,7 @@ url: /2017/centos-php-7-lamp-boilerplate/
 thumbnail: images/2017/09/CentOSLogo.png
 dsq_thread_id:
   - 6120377031
-categories:
-  - Featured
+categories: 
   - Linux
   - PHP
 tags:

@@ -5,20 +5,6 @@ type: post
 date: 2013-02-14T05:22:55+00:00
 url: /2013/apache-php-config-boilerplate/
 thumbnail: images/2013/02/lap.png
-layout:
-  - default
-hide_post_title:
-  - default
-unlink_post_title:
-  - default
-hide_post_meta:
-  - default
-hide_post_date:
-  - default
-hide_post_image:
-  - default
-unlink_post_image:
-  - default
 dsq_thread_id:
   - 1162063461
 feature_size:
@@ -30,12 +16,11 @@ categories:
 tags:
   - apache
   - aws
-  - mod-spdy
   - php
   - xcache
 
 ---
-In this extremly simply tutorial I&#8217;m going to show, how you can deploy basic LAMP stack on EC2 instance. Instruction are pretty basic, without extra comments. You can just copy and paste command to get working stack in lest then 15 minutes.
+In this extremely simply tutorial I&#8217;m going to show, how you can deploy basic LAMP stack on EC2 instance. Instruction are pretty basic, without extra comments. You can just copy and paste command to get working stack in lest then 15 minutes.
 
 What you can learn from it? How to install Apache and PHP, how to enable and run XCache accelerator, and how to run HTTPS on your server, with purchasing SSL certificate.
 
@@ -47,7 +32,7 @@ What you can learn from it? How to install Apache and PHP, how to enable and run
     `ssh -i your_pem_key.pem ec2-user@instance_name_or_ip`
   * To save some time, switch to sudo user:  
     `sudo -i`
-  * Upgrade everything to latest versions:  
+  * Upgrade everything to the latest versions:  
     `yum update`
   * Install basic software:  
     `sudo yum install httpd php php-gd php-mysql php-mcrypt php-mb-string php-pecl-apc`

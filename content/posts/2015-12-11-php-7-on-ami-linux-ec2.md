@@ -8,7 +8,6 @@ thumbnail: images/2015/12/amazon-aws-php70.png
 dsq_thread_id:
   - 4401891925
 categories:
-  - Featured
   - Linux
   - PHP
 tags:

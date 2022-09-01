@@ -23,7 +23,6 @@ dsq_thread_id:
   - 1158812392
 categories:
   - Blog
-  - Featured
   - Linux
 tags:
   - configuration

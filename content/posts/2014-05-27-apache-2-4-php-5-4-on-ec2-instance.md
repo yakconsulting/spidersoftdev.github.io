@@ -9,7 +9,6 @@ dsq_thread_id:
   - 2715191704
 categories:
   - Continuous Integration
-  - Featured
   - Linux
   - PHP
 tags:

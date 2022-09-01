@@ -9,7 +9,6 @@ dsq_thread_id:
   - 1160997566
 categories:
   - Blog
-  - Featured
   - Open Source
 tags:
   - codeigniter
@@ -32,7 +31,7 @@ Library is based on excellent \* Smarty plugin &#8220;Thumb&#8221; \* created in
 
 ## Usage
 
-You need to upload file `img.php` into directory `application/libraries`. In controller you need to load library:
+You need to upload file `img.php` into directory `application/libraries`. In controller, you need to load library:
 
 `$this->load->library('img');`
 
