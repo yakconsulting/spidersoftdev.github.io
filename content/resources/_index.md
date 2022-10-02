@@ -8,8 +8,5 @@ weight: 40
 ---
 
 [Downloads][1]
-
-[Links][2]
   
 [1]: downloads
-[2]: links

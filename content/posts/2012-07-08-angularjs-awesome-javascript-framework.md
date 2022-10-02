@@ -16,7 +16,7 @@ tags:
   - javascript
 
 ---
-I was looking for easy and nice solution to maintain my growing JavaScript. I tried [Backbone.js][1] which is my opinion a little bit &#8220;to&#8221; complicated. Of course &#8211; you can do everything, but.. it was to much hassle with coding in details. Second approach was to [KnockoutJS][2] &#8211; this one is really nice but from the other hand &#8211; I didn&#8217;t have much on control on my code and details, but everything was really nice and sleek. So&#8230; Quite similar like with choosing PHP Framework. I wanted something which will do some job for me, but I also wanted to have control on everything. That&#8217;s why I chose CodeIgniter which was perfect for me. But&#8230; with JavaScript &#8211; Finally i funded: [AngularJS](http://angularjs.org/). Made by Google engineers &#8211; but super nice and sleek.
+I was looking for easy and nice solution to maintain my growing JavaScript. I tried Backbone.js which is my opinion a little bit &#8220;to&#8221; complicated. Of course &#8211; you can do everything, but.. it was to much hassle with coding in details. Second approach was to KnockoutJS &#8211; this one is really nice but from the other hand &#8211; I didn&#8217;t have much on control on my code and details, but everything was really nice and sleek. So&#8230; Quite similar like with choosing PHP Framework. I wanted something which will do some job for me, but I also wanted to have control on everything. That&#8217;s why I chose CodeIgniter which was perfect for me. But&#8230; with JavaScript &#8211; Finally i funded: [AngularJS](http://angularjs.org/). Made by Google engineers &#8211; but super nice and sleek.
 
 <!--more-->
 
@@ -24,7 +24,7 @@ So&#8230; really simple working example:
 
 I wanted to create proportion calculator:
 
-```
+```HTML
 <input class="input-mini" type="number" name="x" /> x
 <input class="input-mini" type="number" name="y" />
 
@@ -36,7 +36,7 @@ I wanted to create proportion calculator:
 and javascript
 
 
-```
+```JAVASCRIPT
 function Controller($scope) {
 
    $scope.change = function(what) {
@@ -50,7 +50,4 @@ function Controller($scope) {
 ```
 
 
-Check [on-line demo](http://jsfiddle.net/slav123/beDRU/).
-
- [1]: http://www.spidersoft.com.au/2012/collection-of-backbone-js-tutorials/ "Collection of Backbone.js tutorials"
- [2]: http://www.spidersoft.com.au/2012/collection-of-knockout-js-tutorials/ "Collection of Knockout.js tutorials"
+Check [on-line demo](https://jsfiddle.net/slav123/beDRU/).

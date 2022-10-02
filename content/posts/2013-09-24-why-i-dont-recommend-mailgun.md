@@ -31,7 +31,7 @@ tags:
 ---
 Couple months ago I listed  services having [API for sending and receiving emails][1]. One of them was [mailgun](http://www.mailgun.com/) &#8211; I was using it for a while since&#8230; yesterday. My account was locked without any valid reason. Something related with SPAM:
 
-> [http://documentation.mailgun.<wbr />com/razor.html](http://documentation.mailgun.com/razor.html) Reference: #rzr01.
+> [http://documentation.mailgun.com/razor.html](http://documentation.mailgun.com/razor.html) Reference: #rzr01.
 
 Because I know exactly what emails are being sent using my accounts (I keep track of each email coming out from the system) I was really interested how it could happen. Who reported message as a SPAM, and which one was that.
 
@@ -43,4 +43,4 @@ So&#8230; you know why you why disabled my account on not ? The truth is that i&
 
 My answer is: no more mailgun. Moving out, closing down accounts &#8211; try to try [SES](http://aws.amazon.com/ses/) or [Sendgrid](http://sendgrid.com/).
 
- [1]: http://www.spidersoft.com.au/2013/send-and-receive-emails-via-api/ "Send and receive emails via API"
+ [1]: /2013/send-and-receive-emails-via-api/ "Send and receive emails via API"
