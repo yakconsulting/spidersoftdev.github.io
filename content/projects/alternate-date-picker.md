@@ -11,6 +11,6 @@ It&#8217;s a very simple prototype of alternative approach to date picker. The g
 
 Written in pure JavaScript &#8211; no dependencies.
 
-[demo.spidersoft.com.au/dp/](https://demo.spidersoft.com.au/dp/)
+[demo.spidersoft.com.au/dp/](https://demo.spidersoft.com.au/dp/index.html)
 
-![Date Picker](images/date-picker.jpg)
+![Date Picker](/images/2015/05/date-picker.jpg)
