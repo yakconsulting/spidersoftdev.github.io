@@ -47,8 +47,6 @@ But neither of them it&#8217;s easy to modify. Really useful snippet &#8211; ser
 
 <!--more-->
 
-<div class="oembed-gist">
-  <noscript>
     View the code on [Gist](https://gist.github.com/6569966).
-  </noscript>
-</div>
+{{< gist slav123 e0221bd97fc904434f76 >}}
+

@@ -36,6 +36,7 @@ The [Closure Compiler](http://code.google.com/closure/compiler/) is a tool for m
 Google provides [Closure Compiler Service](http://closure-compiler.appspot.com/home) which is web application to compile JavaScript, you can also use Java application or REST API. For your convenience we created simple app to use Closure Compiler on your desktop.
 
 You can download [Desktop Closure Compiler](http://goo.gl/0L8pX.qr). Source will be available after we finish beta testing stage.  
-<img loading="lazy" class="alignnone size-full wp-image-188" title="desktop-closure-compiler" src="http://www.spidersoft.com.au/wp-content/uploads/2011/01/desktop-closure-compiler.png" alt="" width="606" height="527" srcset="https://www.spidersoft.com.au/wp-content/uploads/2011/01/desktop-closure-compiler.png 606w,images/2011/01/desktop-closure-compiler-275x240.png 275w,images/2011/01/desktop-closure-compiler-482x420.png 482w" sizes="(max-width: 606px) 100vw, 606px" /> 
 
-<img loading="lazy" class="alignnone" title="Desktop Closure Compiler" src="http://chart.apis.google.com/chart?cht=qr&chs=100x100&choe=UTF-8&chld=H%7C0&chl=http://goo.gl/0L8pX" alt="Desktop Closure Compiler" width="100" height="100" />
+![cc](/images/2011/01/desktop-closure-compiler.png)
+
+![cc](http://chart.apis.google.com/chart?cht=qr&chs=100x100&choe=UTF-8&chld=H%7C0&chl=http://goo.gl/0L8pX)

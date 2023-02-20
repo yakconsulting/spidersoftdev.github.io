@@ -29,7 +29,7 @@ tags:
 All links in Magento should be generated via url model. Here is simple examples working in backend.  
 <!--more-->
 
-```
+```PHP
 $url = Mage::getModel('adminhtml/url');
     $url->setControllerName('adminhtml_settings');
     $url->setActionName('action');
