@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>cakephp on SpiderSoft</title><link>https://www.spidersoft.com.au/tags/cakephp/</link><description>Recent content in cakephp on SpiderSoft</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 10 Dec 2010 10:09:25 +0000</lastBuildDate><atom:link href="https://www.spidersoft.com.au/tags/cakephp/index.xml" rel="self" type="application/rss+xml"/><item><title>CodeIgniter OpenSource Web Application Framework</title><link>https://www.spidersoft.com.au/2010/codeigniter-opensource-web-application-framework/</link><pubDate>Fri, 10 Dec 2010 10:09:25 +0000</pubDate><guid>https://www.spidersoft.com.au/2010/codeigniter-opensource-web-application-framework/</guid><description>&lt;p>For many years we was searching for for really good
-&lt;a href="http://en.wikipedia.org/wiki/Framework">framework&lt;/a>
-for our application core. After trying
-&lt;a href="http://framework.zend.com/">Zend Framework&lt;/a>
-which is really power-full, but quite heavy for regular use, we tried to use some lighter –
-&lt;a href="http://cakephp.org/">CakePHP&lt;/a>
-which is better, but still many solutions are to complicated for real rapid development and freedom, we found what we are looking for –
-&lt;a href="http://codeigniter.com/">CodeIgniter&lt;/a>
-.&lt;/p></description></item></channel></rss>
