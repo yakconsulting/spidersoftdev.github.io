@@ -2,7 +2,7 @@
 title: How to scrape page source with Go and chromedp
 author: admin
 type: post
-date: 2022-11-07T08:00:00+00:00
+date: 2023-02-13T08:00:00+00:00
 url: /2023/scraping-pages-with-go-and-chromedp
 thumbnail: /images/2014/08/gopher.jpg
 categories:
