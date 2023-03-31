@@ -13,9 +13,7 @@ tags:
 - docker
 ---
 
-It's clear what we are trying to achieve, so let's think about the indigents.
-We need something to render a page because, nowadays, almost all pages are rendered with the help of JavaScript. Moving on, we also need something to talk to the browser. Because our browser is headless, we need to use some API. And finally, we need to save the result.
-Getting a result is tricky because browsers are designed to interact with rendered results rather than directly with the source code.
+It's clear what we are trying to achieve, so let's consider the requirements. Firstly, we need a tool to render web pages since JavaScript is commonly used nowadays. Secondly, we require an API to communicate with the headless browser. Lastly, saving the result can be challenging as browsers are designed to interact with rendered results rather than directly with the source code.
 
 ## Headless browser
 
