@@ -130,7 +130,7 @@ github = "slav123"
 facebook = "spidersoftau"
 twitter = "slavomirj"
 linkedin = "slawomirjasinski"
-email = "info@spidersoft.com.au"
+#email = "info@spidersoft.com.au"
 
 [[Params.widgets.social.custom]]
 title = "SpiderSoft Poland"
