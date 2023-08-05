@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>bash on SpiderSoft</title><link>https://www.spidersoft.com.au/tags/bash/</link><description>Recent content in bash on SpiderSoft</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 12 Sep 2011 23:33:53 +0000</lastBuildDate><atom:link href="https://www.spidersoft.com.au/tags/bash/index.xml" rel="self" type="application/rss+xml"/><item><title>How to get better results with ImageMagick and convert</title><link>https://www.spidersoft.com.au/2011/how-to-get-better-results-with-imagemagick-and-convert/</link><pubDate>Mon, 12 Sep 2011 23:33:53 +0000</pubDate><guid>https://www.spidersoft.com.au/2011/how-to-get-better-results-with-imagemagick-and-convert/</guid><description>In last two days I’m trying to find best way to convert PDF files to good quality JPEG files. Of course size does matter, not only in case of women breasts.
-When I was trying convert files directly from PDF to JPEG results was pretty scary:
+When I was trying to convert files directly from PDF to JPEG results was pretty scary:
 convert myfile.pdf[1] dc.jpg
 number 1 in brackets means only one(second) page to process.
-As I result I get file with pretty huge size: 496.8K</description></item></channel></rss>
+As I result I get file with pretty huge size: 496.</description></item></channel></rss>
