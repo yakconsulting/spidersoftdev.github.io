@@ -10,7 +10,7 @@ dsq_thread_id:
 feature_size:
   - blank
 categories:
-  - Linux
+  - DevOps
   - PHP
   - Software
 tags:

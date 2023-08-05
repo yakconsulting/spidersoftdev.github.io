@@ -5,7 +5,7 @@ type: post
 date: 2017-09-04T04:27:20+00:00
 url: /2017/swap-space-on-ec2-on-separate-volume/
 categories:
-  - Linux
+  - DevOps
 tags:
   - ami
   - aws

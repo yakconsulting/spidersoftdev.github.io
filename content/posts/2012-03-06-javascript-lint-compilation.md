@@ -21,11 +21,11 @@ unlink_post_image:
 dsq_thread_id:
   - 1165266460
 categories:
-  - Linux
+  - DevOps
 tags:
   - compile
   - javascript
-  - linux
+  - DevOps
 
 ---
 [JavaScript Lint](http://www.javascriptlint.com/) allows you to validate JavaScript files from command line. For Windows and Mac OS Boxex we can [download precompiled binaries](http://www.javascriptlint.com/download.htm).

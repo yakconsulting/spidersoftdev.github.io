@@ -24,11 +24,11 @@ dsq_thread_id:
 
 
 categories:
-  - Linux
+  - DevOps
 tags:
   - aws
   - ec2
-  - linux
+  - DevOps
   - server
 
 ---

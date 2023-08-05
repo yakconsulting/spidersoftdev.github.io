@@ -7,11 +7,9 @@ url: 2021/how-to-clean-cached-dns-records
 description: "Links to websites, where you can clear cached records in popular public DNS servers."
 categories:
   - "Software"
-  - "Linux"
+  - DevOps
 tags:
   - "dns"
-  - "cache"
-  - "DNSSEC"
 lead: "links to clear cached records in popular public DNS servers:" # Lead text
 ---
 

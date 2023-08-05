@@ -8,10 +8,10 @@ thumbnail: images/2014/08/centos-org-new-website.png
 dsq_thread_id:
   - 2923079213
 categories:
-  - Linux
+  - DevOps
 tags:
   - centos
-  - linux
+  - DevOps
 
 ---
 CentOS is pretty new, and some default stuff is just missing. Like NFS suport out of the box.

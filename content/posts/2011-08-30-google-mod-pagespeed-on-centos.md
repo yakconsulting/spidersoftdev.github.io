@@ -5,30 +5,12 @@ type: post
 date: 2011-08-30T00:48:05+00:00
 url: /2011/google-mod-pagespeed-on-centos/
 thumbnail: images/2011/08/pagespeed-128.png
-layout:
-  - default
-hide_post_title:
-  - default
-unlink_post_title:
-  - default
-hide_post_meta:
-  - default
-hide_post_date:
-  - default
-hide_post_image:
-  - default
-unlink_post_image:
-  - default
-dsq_thread_id:
-  - 1159619671
 categories:
   - Blog
-  - Linux
+  - DevOps
 tags:
   - centos
   - google
-  - linux
-  - pagespeed
 
 ---
 Short &#8220;How to&#8221; install Google mod-pagespeed on CentOs. You can read more about this Apache module on this page: Google [mod_pagespeed overview](http://code.google.com/speed/page-speed/docs/module.html). Basicly it&#8217;s a module which gives your website speedup. Many simple techniques to reduce size and number of requests.

@@ -5,12 +5,12 @@ type: post
 date: 2019-02-08T11:11:41+00:00
 url: /2019/ftp-server-on-ec2-ami-linux-instance/
 categories:
-  - Linux
+  - DevOps
 tags:
   - ami
   - ec2
   - ftp
-  - linux
+  - DevOps
 
 ---
 People say that FTP is dead. But not everyone knows or can use SFTP, SSH whatever to update their website. Sometimes you just need something as simple as good old FTP server on your instance. Let&#8217;s do it.

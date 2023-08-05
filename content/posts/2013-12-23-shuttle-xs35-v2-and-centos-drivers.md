@@ -21,11 +21,11 @@ unlink_post_image:
 dsq_thread_id:
   - 2068397218
 categories:
-  - Linux
+  - DevOps
 tags:
   - centos
   - drivers
-  - linux
+  - DevOps
 
 ---
 Some time ago I bought extremely quiet Shuttle [XS35 V2](http://global.shuttle.com/main/productsDetail?productId=1487) device to have something &#8220;seperate&#8221; for my web development work. Right now this awesome fan less device has many purposes. Works as full web dev stack, with Apache, PHP, MySQL, mongoDB, and even Jenkins machine.

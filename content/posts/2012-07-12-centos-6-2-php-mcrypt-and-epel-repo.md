@@ -21,7 +21,7 @@ unlink_post_image:
 dsq_thread_id:
   - 1162839668
 categories:
-  - Linux
+  - DevOps
 tags:
   - centos
   - epel

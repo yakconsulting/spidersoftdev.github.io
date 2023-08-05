@@ -5,7 +5,7 @@ type: post
 date: 2019-12-12T12:03:07+00:00
 url: /2019/fastest-way-to-install-tesseract-on-ec2/
 categories:
-  - Linux
+  - DevOps
   - Open Source
 tags:
   - ec2

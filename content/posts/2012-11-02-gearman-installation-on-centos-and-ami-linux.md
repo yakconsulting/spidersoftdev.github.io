@@ -23,10 +23,10 @@ dsq_thread_id:
   - 1171405428
 categories:
   - Blog
-  - Linux
+  - DevOps
 tags:
   - gearman
-  - linux
+  - DevOps
   - php
 
 ---

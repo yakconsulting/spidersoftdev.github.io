@@ -8,7 +8,7 @@ lead: How to deal with SEC_ERROR_REVOKED_CERTIFICATE
 categories:
 - Technologies
 - Web Development
-- Linux
+- DevOps
 tags:
 - caddy
 

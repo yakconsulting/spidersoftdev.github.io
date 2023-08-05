@@ -10,7 +10,7 @@ dsq_thread_id:
 
 
 categories:
-  - Linux
+  - DevOps
 
 ---
 [VIPS][1] s a free image processing system (library) – in comparison  to similar libraries is super fast, and does not neet much memory. Checkout this [speed memory usage](http://www.vips.ecs.soton.ac.uk/index.php?title=Speed_and_Memory_Use). In most cases you can install it by using this handy script:

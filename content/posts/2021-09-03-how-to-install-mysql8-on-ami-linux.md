@@ -6,7 +6,7 @@ date: 2021-09-03T10:35:00+00:00
 url: /2021/how-to-install-mysql8-on-ami-linux
 description: "How to upgrade MySQL on old Linux distributions. Quick reciepie"
 categories:
-  - "Linux"
+  - DevOps
 tags:
   - "ami"
   - "linux"

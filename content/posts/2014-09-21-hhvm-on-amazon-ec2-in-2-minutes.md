@@ -10,7 +10,7 @@ dsq_thread_id:
 
 
 categories:
-  - Linux
+  - DevOps
   - PHP
 tags:
   - hhvm

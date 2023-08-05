@@ -8,6 +8,7 @@ thumbnail: images/2014/08/gopher.jpg
 categories:
   - Technologies
   - Go Lang
+  - DevOps
 tags:
   - docker
   - vips

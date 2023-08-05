@@ -10,7 +10,7 @@ thumbnail: images/2015/04/gpu_amazon_ec2_logo.png
 dsq_thread_id:
   - 6260317939
 categories:
-  - Linux
+  - DevOps
 tags:
   - aws
   - cli

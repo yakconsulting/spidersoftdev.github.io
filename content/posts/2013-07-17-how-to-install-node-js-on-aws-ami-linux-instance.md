@@ -22,7 +22,7 @@ unlink_post_image:
 dsq_thread_id:
   - 1505321781
 categories:
-  - Linux
+  - DevOps
 tags:
   - ami linux
   - aws

@@ -8,7 +8,7 @@ thumbnail: images/2014/10/rar-linux.png
 dsq_thread_id:
   - 3116547913
 categories:
-  - Linux
+  - DevOps
 
 ---
 From time to time you have to decompress .rar archives on your Linux. It&#8217;s pretty easy. Just download proper RPM package from [repoforge repository][1]. In my case it was

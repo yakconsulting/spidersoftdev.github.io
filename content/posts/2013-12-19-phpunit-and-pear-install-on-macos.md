@@ -23,7 +23,7 @@ dsq_thread_id:
   - 2059862772
 categories:
   - Continuous Integration
-  - Linux
+  - DevOps
   - Open Source
   - Software
 tags:

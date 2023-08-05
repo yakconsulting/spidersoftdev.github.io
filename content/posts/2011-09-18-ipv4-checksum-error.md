@@ -4,26 +4,8 @@ author: admin
 type: post
 date: 2011-09-18T00:09:49+00:00
 url: /2011/ipv4-checksum-error/
-layout:
-  - default
-hide_post_title:
-  - default
-unlink_post_title:
-  - default
-hide_post_meta:
-  - default
-hide_post_date:
-  - default
-hide_post_image:
-  - default
-unlink_post_image:
-  - default
-dsq_thread_id:
-  - 1164693732
 categories:
-  - Linux
-tags:
-  - linux
+  - DevOps
 
 ---
 One of my Linux boxes started to reporting unexpected

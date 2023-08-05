@@ -9,7 +9,7 @@ thumbnail: images/2018/07/travel-2650303_1920.jpg
 
 
 categories:
-  - Linux
+  - DevOps
   - PHP
 tags:
   - geoip

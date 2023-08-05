@@ -5,28 +5,11 @@ type: post
 date: 2011-08-23T02:18:47+00:00
 url: /2011/posftix-permission-denied-problem/
 thumbnail: images/2011/08/logo-postfix.png
-layout:
-  - default
-hide_post_title:
-  - default
-unlink_post_title:
-  - default
-hide_post_meta:
-  - default
-hide_post_date:
-  - default
-hide_post_image:
-  - default
-unlink_post_image:
-  - default
-dsq_thread_id:
-  - 1158812392
 categories:
-  - Blog
-  - Linux
+  - DevOps
 tags:
   - configuration
-  - linux
+  - DevOps
   - tips
 
 ---

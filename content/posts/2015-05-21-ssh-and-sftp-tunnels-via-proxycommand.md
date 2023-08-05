@@ -7,7 +7,7 @@ url: /2015/ssh-and-sftp-tunnels-via-proxycommand/
 dsq_thread_id:
   - 3781061812
 categories:
-  - Linux
+  - DevOps
 tags: 
   - ssh
 

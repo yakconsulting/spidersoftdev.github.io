@@ -8,7 +8,7 @@ thumbnail: images/2014/08/php-logo.png
 dsq_thread_id:
   - 3707943134
 categories:
-  - Linux
+  - DevOps
   - PHP
 
 ---

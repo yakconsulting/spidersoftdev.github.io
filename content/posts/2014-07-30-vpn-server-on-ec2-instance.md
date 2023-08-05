@@ -8,7 +8,7 @@ thumbnail: images/2014/07/Static-IP-VPN.png
 dsq_thread_id:
   - 2884431315
 categories:
-  - Linux
+  - DevOps
   - Open Source
 tags:
   - aws

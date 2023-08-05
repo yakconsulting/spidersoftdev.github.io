@@ -8,13 +8,13 @@ thumbnail: images/2017/09/CentOSLogo.png
 dsq_thread_id:
   - 6120377031
 categories: 
-  - Linux
+  - DevOps
   - PHP
 tags:
   - apache
   - centos
   - lamp
-  - linux
+  - DevOps
   - php
 
 ---

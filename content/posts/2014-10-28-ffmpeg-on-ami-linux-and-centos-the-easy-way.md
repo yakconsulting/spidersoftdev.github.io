@@ -8,12 +8,12 @@ thumbnail: images/2014/10/Screen-shot-2014-10-28-at-1.11.11-PM.png
 dsq_thread_id:
   - 3164530439
 categories:
-  - Linux
+  - DevOps
 tags:
   - centos
   - ec2
   - ffmpeg
-  - linux
+  - DevOps
 
 ---
 [FFmpeg](https://www.ffmpeg.org/) is a complete, cross-platform solution to record, convert and stream audio and video.

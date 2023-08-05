@@ -9,7 +9,7 @@ url: /2016/powerdns-with-sqlite-backend-as-a-slave-for-bind/
 dsq_thread_id:
   - 5575959728
 categories:
-  - Linux
+  - DevOps
 tags:
   - config
   - dns

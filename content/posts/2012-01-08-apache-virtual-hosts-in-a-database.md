@@ -4,29 +4,13 @@ author: admin
 type: post
 date: 2012-01-08T11:34:00+00:00
 url: /2012/apache-virtual-hosts-in-a-database/
-layout:
-  - default
-hide_post_title:
-  - default
-unlink_post_title:
-  - default
-hide_post_meta:
-  - default
-hide_post_date:
-  - default
-hide_post_image:
-  - default
-unlink_post_image:
-  - default
-dsq_thread_id:
-  - 1158984672
 categories:
   - Blog
-  - Linux
+  - DevOps
 tags:
   - apache
   - configuration
-  - linux
+  - DevOps
   - server
   - www
 

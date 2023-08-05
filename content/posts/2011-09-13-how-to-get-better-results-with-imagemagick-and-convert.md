@@ -6,34 +6,15 @@ date: 2011-09-12T23:33:53+00:00
 excerpt: "In last two days I'm trying to find best way to convert PDF files to good quality JPEG files. Of course size does matter, not only in case of women breasts."
 url: /2011/how-to-get-better-results-with-imagemagick-and-convert/
 thumbnail: images/2011/09/200px-Imagemagick-logo.png
-layout:
-  - default
-hide_post_title:
-  - default
-unlink_post_title:
-  - default
-hide_post_meta:
-  - default
-hide_post_date:
-  - default
-hide_post_image:
-  - default
-unlink_post_image:
-  - default
-dsq_thread_id:
-  - 1161554203
 categories:
   - Blog
 tags:
   - bash
   - image
-  - ImageMagick
-  - linux
-
 ---
 In last two days I&#8217;m trying to find best way to convert PDF files to good quality JPEG files. Of course size does matter, not only in case of women breasts.
 
-When I was trying convert files directly from PDF to JPEG results was pretty scary:
+When I was trying to convert files directly from PDF to JPEG results was pretty scary:
 
 `convert myfile.pdf[1] dc.jpg`
 

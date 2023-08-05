@@ -22,10 +22,10 @@ unlink_post_image:
 dsq_thread_id:
   - 2025769870
 categories:
-  - Linux
+  - DevOps
 tags:
   - compression
-  - linux
+  - DevOps
 
 ---
 We have couple options: [pigz](http://www.zlib.net/pigz/) and [pbzip2](http://compression.ca/pbzip2/).

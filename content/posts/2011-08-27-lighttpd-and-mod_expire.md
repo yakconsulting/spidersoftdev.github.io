@@ -5,14 +5,11 @@ type: post
 date: 2011-08-27T03:39:40+00:00
 url: /2011/lighttpd-and-mod_expire/
 thumbnail: images/2011/08/lighttpd.jpg
-dsq_thread_id:
-  - 1162995605
 categories:
   - Blog
   - Software
 tags:
   - lighttpd
-  - linux
   - pagespeed
   - server
 

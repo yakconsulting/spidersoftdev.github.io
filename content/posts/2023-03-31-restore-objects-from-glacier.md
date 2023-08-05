@@ -7,7 +7,7 @@ url: /2023/how-to-restore-objects-from-glacier-with-a-script/
 thumbnail: /images/2023/03/glacier.jpg
 categories:
 - Technologies
-- Linux
+- DevOps
 tags:
 - aws
 ---

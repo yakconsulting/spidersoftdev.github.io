@@ -6,13 +6,13 @@ date: 2022-07-25T08:30:00+00:00
 url: /2022/setup-public-bucket-policy-digitalocean-spaces
 categories:
 - Technologies
-- Linux
+- DevOps
 tags:
 - storage
 - spaces
 ---
 
-This one is really quick and easy to setup public bucket policy on [DigitalOcean Spaces](https://www.digitalocean.com/products/spaces). Spaces are S3 type object storage, you can check out about it [here](https://docs.digitalocean.com/reference/api/spaces-api/).
+This one is really quick and easy to set up public bucket policy on [DigitalOcean Spaces](https://www.digitalocean.com/products/spaces). Spaces are S3 type object storage, you can check out about it [here](https://docs.digitalocean.com/reference/api/spaces-api/).
 
 <!--more-->
  

@@ -10,7 +10,7 @@ thumbnail: images/2016/02/caddy.jpg
 dsq_thread_id:
   - 5578851343
 categories:
-  - Linux
+  - DevOps
   - Open Source
   - Web Development
 tags:

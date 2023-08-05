@@ -9,13 +9,13 @@ dsq_thread_id:
   - 2715191704
 categories:
   - Continuous Integration
-  - Linux
+  - DevOps
   - PHP
 tags:
   - aws
   - ec2
   - httpd
-  - linux
+  - DevOps
   - php
 ---
 

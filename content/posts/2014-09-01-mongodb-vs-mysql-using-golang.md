@@ -9,7 +9,7 @@ dsq_thread_id:
   - 2977645860
 categories:
   - Go Lang
-  - Linux
+  - DevOps
 tags:
   - fo
   - golang

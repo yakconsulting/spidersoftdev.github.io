@@ -15,7 +15,7 @@ tags:
   - apache
   - caddy
   - lamp
-  - linux
+  - DevOps
   - php
 
 ---

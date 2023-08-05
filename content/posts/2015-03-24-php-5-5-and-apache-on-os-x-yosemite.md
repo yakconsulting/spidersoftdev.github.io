@@ -5,7 +5,7 @@ type: post
 date: 2015-03-24T23:46:10+00:00
 url: /2015/php-5-5-and-apache-on-os-x-yosemite/
 categories:
-  - Linux
+  - DevOps
 
 ---
 Short Video about Apache Configuration with PHP on OS X Yosemite.  

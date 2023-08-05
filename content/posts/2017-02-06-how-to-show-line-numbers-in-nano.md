@@ -7,10 +7,10 @@ url: /2017/how-to-show-line-numbers-in-nano/
 dsq_thread_id:
   - 5582122119
 categories:
-  - Linux
+  - DevOps
 tags:
   - commandline
-  - linux
+  - DevOps
   - nano
 
 ---

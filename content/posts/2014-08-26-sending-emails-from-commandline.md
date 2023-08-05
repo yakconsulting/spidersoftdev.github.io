@@ -10,10 +10,10 @@ dsq_thread_id:
 
 
 categories:
-  - Linux
+  - DevOps
 tags:
   - email
-  - linux
+  - DevOps
 
 ---
 Pretty easy but annoying task. Especially when you want to send email using specific SMTP server, or from GMAIL using SSL or add some attachment, or send RAW emails. Solution is there &#8211; [mailsend](https://github.com/muquit/mailsend/). Extremely simple command line tool for Linux, Mac OS X and even Windows ;). Compile / download binary and you can enjoy freedom of sending emails from command line.
