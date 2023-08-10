@@ -29,7 +29,7 @@ If you go with NoSQL – I have no idea what to advise. So many options. Person
 
 ## Storage
 
-Time, when we kept our data directly on the server, are far gone. Right now we have [Amazon S3](https://aws.amazon.com/s3/), [Cloud Storage](https://cloud.google.com/storage/), [B2 Cloud Storage](https://www.backblaze.com/b2/cloud-storage.html) or even [Azure Storage](https://azure.microsoft.com/en-us/services/storage/); the answer is simple – don’t keep your data on the server. Always use some kind of storage, ideally setup 2 of them with replication with different providers (i.e., S3 as a primary and Cloud Storage as a second one)
+Time, when we kept our data directly on the server, are far gone. Right now we have [Amazon S3](https://aws.amazon.com/s3/), [Cloud Storage](https://cloud.google.com/storage/), [B2 Cloud Storage](https://www.backblaze.com/cloud-storage) or even [Azure Storage](https://azure.microsoft.com/en-us/services/storage/); the answer is simple – don’t keep your data on the server. Always use some kind of storage, ideally setup 2 of them with replication with different providers (i.e., S3 as a primary and Cloud Storage as a second one)
 
 ## Programming Language
 
