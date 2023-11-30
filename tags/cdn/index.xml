@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>cdn on SpiderSoft</title><link>https://www.spidersoft.com.au/tags/cdn/</link><description>Recent content in cdn on SpiderSoft</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 14 Jun 2012 07:52:04 +0000</lastBuildDate><atom:link href="https://www.spidersoft.com.au/tags/cdn/index.xml" rel="self" type="application/rss+xml"/><item><title>Amazon RDS for $20 monthly</title><link>https://www.spidersoft.com.au/2012/amazon-rds-for-20-monthly/</link><pubDate>Thu, 14 Jun 2012 07:52:04 +0000</pubDate><guid>https://www.spidersoft.com.au/2012/amazon-rds-for-20-monthly/</guid><description>&lt;p>Amazon AWS
-&lt;a href="http://aws.amazon.com/about-aws/whats-new/2012/06/11/amazon-rds-micro/">just announced&lt;/a>
-that Micro instances can be used for
-&lt;a href="http://aws.amazon.com/rds/">Amazon RDS&lt;/a>
-with MySQL database engine which is really good news. Previously cheapest option  was Small Instance which was quite “expensive” with $0.105 USD for on hour (without reserved instances). Now we can use RDS with MySQL for $0.025 hourly! We can go even lower with reserved instances. Details about pricing are
-&lt;a href="http://aws.amazon.com/rds/pricing/">available here&lt;/a>
-.&lt;/p></description></item></channel></rss>
