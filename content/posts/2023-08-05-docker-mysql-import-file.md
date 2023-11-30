@@ -3,7 +3,7 @@ title: How to quickly create a docker image with mysql and import sql file
 author: slav
 type: post
 date: 2023-08-04T10:06:56+00:00
-url: /2010/mysql-on-mac-os-x-with-preference-panel/
+url: /2023/docker-mysql-import-file/
 thumbnail: images/2010/12/mysql_logo.jpg
 categories:
   - DevOps
