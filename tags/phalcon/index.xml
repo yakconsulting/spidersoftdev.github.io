@@ -1,8 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>phalcon on SpiderSoft</title><link>https://www.spidersoft.com.au/tags/phalcon/</link><description>Recent content in phalcon on SpiderSoft</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 10 Jul 2014 04:24:38 +0000</lastBuildDate><atom:link href="https://www.spidersoft.com.au/tags/phalcon/index.xml" rel="self" type="application/rss+xml"/><item><title>Phalcon – super simple REST API example</title><link>https://www.spidersoft.com.au/2014/phalcon-simple-rest-api-example/</link><pubDate>Thu, 10 Jul 2014 04:24:38 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/phalcon-simple-rest-api-example/</guid><description>&lt;p>Throughout this first tutorial, i’ll walk you through the creation of an application with a simple REST API from the ground up. I assume you have
-&lt;a href="http://phalconphp.com/en/">Phalcon&lt;/a>
-. installed already.&lt;/p></description></item><item><title>Phalcon is a new PHP Framework of my choice</title><link>https://www.spidersoft.com.au/2014/phalcon-is-a-new-php-framework-of-my-choice/</link><pubDate>Fri, 27 Jun 2014 07:11:17 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/phalcon-is-a-new-php-framework-of-my-choice/</guid><description>&lt;p>I’m working on multiple PHP based projects. Most of them using
-&lt;a href="http://ellislab.com/codeigniter">CodeIgniter&lt;/a>
-as a base framework. I mastered it into stage, where has no secrets for me. The problem is that I also know disadvantages of this bit outdated framework. Recently core
-&lt;a href="http://ellislab.com/blog/entry/ellislab-seeking-new-owner-for-codeigniter">team announced&lt;/a>
-that they are dropping future development so it means that CI is dead. Doesn’t mean that I don’t like it anymore. I just started looking for something new.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>phalcon on SpiderSoft</title><link>https://www.spidersoft.com.au/tags/phalcon/</link><description>Recent content in phalcon on SpiderSoft</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 10 Jul 2014 04:24:38 +0000</lastBuildDate><atom:link href="https://www.spidersoft.com.au/tags/phalcon/index.xml" rel="self" type="application/rss+xml"/><item><title>Phalcon – super simple REST API example</title><link>https://www.spidersoft.com.au/2014/phalcon-simple-rest-api-example/</link><pubDate>Thu, 10 Jul 2014 04:24:38 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/phalcon-simple-rest-api-example/</guid><description>&lt;p>Throughout this first tutorial, i’ll walk you through the creation of an application with a simple REST API from the ground up. I assume you have 
+ 
+ 
+ 
+ 
+ &lt;a href="http://phalconphp.com/en/">Phalcon&lt;/a>
+ . installed already.&lt;/p></description></item><item><title>Phalcon is a new PHP Framework of my choice</title><link>https://www.spidersoft.com.au/2014/phalcon-is-a-new-php-framework-of-my-choice/</link><pubDate>Fri, 27 Jun 2014 07:11:17 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/phalcon-is-a-new-php-framework-of-my-choice/</guid><description>&lt;p>I’m working on multiple PHP based projects. Most of them using 
+ 
+ 
+ 
+ 
+ &lt;a href="http://ellislab.com/codeigniter">CodeIgniter&lt;/a>
+ as a base framework. I mastered it into stage, where has no secrets for me. The problem is that I also know disadvantages of this bit outdated framework. Recently core 
+ 
+ 
+ 
+ 
+ &lt;a href="http://ellislab.com/blog/entry/ellislab-seeking-new-owner-for-codeigniter">team announced&lt;/a>
+ that they are dropping future development so it means that CI is dead. Doesn’t mean that I don’t like it anymore. I just started looking for something new.&lt;/p>
 &lt;p>I like CI because I got control over everything. Modern PHP frameworks trying to solve all problems for you. It’s amazing, but lack of control is what you don’t need in when you developing projects. What do you need it’s this easy flow during development process. Full control over your MVC structure, but also a lot of “help” from framework itself.&lt;/p></description></item></channel></rss>

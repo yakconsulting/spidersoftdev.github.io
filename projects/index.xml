@@ -5,12 +5,28 @@ Change main view $this-&amp;gt;view-&amp;gt;setMainView('public');
 Set headears $this-&amp;gt;response-&amp;gt;setContentType('text/plain')-&amp;gt;sendHeaders();
 Links to documentation Registering Router instance 404 on Micro application $app-&amp;gt;notFound( function () use ($app) { $app-&amp;gt;response-&amp;gt;setStatusCode(404, &amp;#34;Not Found&amp;#34;)-&amp;gt;sendHeaders(); echo &amp;#39;This is crazy, but this page was not found!&amp;#39;; } );</description></item><item><title>jQuery SEO URL plugin</title><link>https://www.spidersoft.com.au/projects/jquery-seo-url-plugin/</link><pubDate>Sat, 27 Apr 2013 13:09:51 +0000</pubDate><guid>https://www.spidersoft.com.au/projects/jquery-seo-url-plugin/</guid><description>It’s just a landing page for my jQuery SEO URL plugin.
 Sources available on github: github.com/slav123/jquery-seo-url Demo it’s available here: demo.spidersoft.com.au/jqseourl/</description></item><item><title>CodeIgniter IMG – thumbnails</title><link>https://www.spidersoft.com.au/projects/codeigniter-img-thumbnails-on-the-fly/</link><pubDate>Wed, 10 Aug 2011 04:20:02 +0000</pubDate><guid>https://www.spidersoft.com.au/projects/codeigniter-img-thumbnails-on-the-fly/</guid><description>CodeIgniter library to generate high-quality thumbnails A library is based on excellent * Smarty plugin “Thumb” * created in 2005 by Christoph Erdmann. This version is a little bit different, we are using the core from Thumb, and some modification which gives more flexibility to work with it.
-Features thumbnails are generated “on the fly” no additional actions required, cache for generated thumbnails, a clear structure for generated thumbnails, thumbnails sharpening function, cropping function, fill space function Usage You need to upload a file img.</description></item><item><title>CodeIgniter minify</title><link>https://www.spidersoft.com.au/projects/codeigniter-minify/</link><pubDate>Wed, 10 Aug 2011 04:08:44 +0000</pubDate><guid>https://www.spidersoft.com.au/projects/codeigniter-minify/</guid><description>&lt;p>Simple library to minify JavaScript &amp;amp; CSS in CodeIgniter. JavaScript minification is based on
-&lt;a href="http://code.google.com/closure/compiler/">Closure Compiler&lt;/a>
-. CSS minifcation is based on
-&lt;a href="http://code.google.com/p/minify/">minify library&lt;/a>
-. Addtionaly all CSS scripts and JavaScript scripts are marget into single files.&lt;/p></description></item><item><title>XCache driver CodeIgniter</title><link>https://www.spidersoft.com.au/projects/xcache-driver-codeigniter/</link><pubDate>Wed, 10 Aug 2011 03:51:44 +0000</pubDate><guid>https://www.spidersoft.com.au/projects/xcache-driver-codeigniter/</guid><description>&lt;p>Here is a missing
-&lt;a href="http://xcache.lighttpd.net/">XCache&lt;/a>
-driver for
-&lt;a href="http://codeigniter.com/user_guide/libraries/caching.html">CodeIgniter Caching Class&lt;/a>
-. All You need to do is to modify &lt;code>/system/libraries/Cache/Cache.php&lt;/code> library and add additional Cache driver to drivers list:&lt;/p></description></item></channel></rss>
+Features thumbnails are generated “on the fly” no additional actions required, cache for generated thumbnails, a clear structure for generated thumbnails, thumbnails sharpening function, cropping function, fill space function Usage You need to upload a file img.</description></item><item><title>CodeIgniter minify</title><link>https://www.spidersoft.com.au/projects/codeigniter-minify/</link><pubDate>Wed, 10 Aug 2011 04:08:44 +0000</pubDate><guid>https://www.spidersoft.com.au/projects/codeigniter-minify/</guid><description>&lt;p>Simple library to minify JavaScript &amp;amp; CSS in CodeIgniter. JavaScript minification is based on 
+ 
+ 
+ 
+ 
+ &lt;a href="http://code.google.com/closure/compiler/">Closure Compiler&lt;/a>
+ . CSS minifcation is based on 
+ 
+ 
+ 
+ 
+ &lt;a href="http://code.google.com/p/minify/">minify library&lt;/a>
+ . Addtionaly all CSS scripts and JavaScript scripts are marget into single files.&lt;/p></description></item><item><title>XCache driver CodeIgniter</title><link>https://www.spidersoft.com.au/projects/xcache-driver-codeigniter/</link><pubDate>Wed, 10 Aug 2011 03:51:44 +0000</pubDate><guid>https://www.spidersoft.com.au/projects/xcache-driver-codeigniter/</guid><description>&lt;p>Here is a missing 
+ 
+ 
+ 
+ 
+ &lt;a href="http://xcache.lighttpd.net/">XCache&lt;/a>
+ driver for 
+ 
+ 
+ 
+ 
+ &lt;a href="http://codeigniter.com/user_guide/libraries/caching.html">CodeIgniter Caching Class&lt;/a>
+ . All You need to do is to modify &lt;code>/system/libraries/Cache/Cache.php&lt;/code> library and add additional Cache driver to drivers list:&lt;/p></description></item></channel></rss>

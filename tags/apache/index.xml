@@ -1,11 +1,23 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>apache on SpiderSoft</title><link>https://www.spidersoft.com.au/tags/apache/</link><description>Recent content in apache on SpiderSoft</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 23 Oct 2022 08:30:00 +0000</lastBuildDate><atom:link href="https://www.spidersoft.com.au/tags/apache/index.xml" rel="self" type="application/rss+xml"/><item><title>How to test mod_rewrite in Apache</title><link>https://www.spidersoft.com.au/2022/how-to-test-mod-htaccess-mod-rewrite/</link><pubDate>Sun, 23 Oct 2022 08:30:00 +0000</pubDate><guid>https://www.spidersoft.com.au/2022/how-to-test-mod-htaccess-mod-rewrite/</guid><description>&lt;p>Documentation for
-&lt;a href="https://httpd.apache.org/docs/current/mod/mod_rewrite.html">mod_rewrite&lt;/a>
-is pretty good, but it is not always easy to test your rules. This is a simple way to test your rules. I found this tool very useful when I was working on a project that required a lot of htaccess rules.&lt;/p>
-&lt;p>
-&lt;a href="https://htaccess.madewithlove.com">htaccess.madewithlove.com&lt;/a>
-&lt;/p></description></item><item><title>Web Server on AMI Linux 2</title><link>https://www.spidersoft.com.au/2019/web-server-on-ami-linux-2/</link><pubDate>Mon, 28 Jan 2019 09:46:20 +0000</pubDate><guid>https://www.spidersoft.com.au/2019/web-server-on-ami-linux-2/</guid><description>&lt;p>Welcome in 2019 – it’s time to upgrade out outdated LAMP stack series articles, with new “How To” setup basic web server for our stack.&lt;/p></description></item><item><title>Centos PHP 7 LAMP boilerplate</title><link>https://www.spidersoft.com.au/2017/centos-php-7-lamp-boilerplate/</link><pubDate>Tue, 05 Sep 2017 03:45:48 +0000</pubDate><guid>https://www.spidersoft.com.au/2017/centos-php-7-lamp-boilerplate/</guid><description>&lt;p>This time we are going to cook Apache (httpd 2.4), PHP 7.0 as a
-&lt;a href="http://wiki.apache.org/httpd/PHP-FPM">PHP-FPM&lt;/a>
-. Instructions are pretty simple. You can just copy and paste command to get working stack in less then 15 minutes.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>apache on SpiderSoft</title><link>https://www.spidersoft.com.au/tags/apache/</link><description>Recent content in apache on SpiderSoft</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 23 Oct 2022 08:30:00 +0000</lastBuildDate><atom:link href="https://www.spidersoft.com.au/tags/apache/index.xml" rel="self" type="application/rss+xml"/><item><title>How to test mod_rewrite in Apache</title><link>https://www.spidersoft.com.au/2022/how-to-test-mod-htaccess-mod-rewrite/</link><pubDate>Sun, 23 Oct 2022 08:30:00 +0000</pubDate><guid>https://www.spidersoft.com.au/2022/how-to-test-mod-htaccess-mod-rewrite/</guid><description>&lt;p>Documentation for 
+ 
+ 
+ 
+ 
+ &lt;a href="https://httpd.apache.org/docs/current/mod/mod_rewrite.html">mod_rewrite&lt;/a>
+ is pretty good, but it is not always easy to test your rules. This is a simple way to test your rules. I found this tool very useful when I was working on a project that required a lot of htaccess rules.&lt;/p>
+&lt;p> 
+ 
+ 
+ 
+ 
+ &lt;a href="https://htaccess.madewithlove.com">htaccess.madewithlove.com&lt;/a>
+ &lt;/p></description></item><item><title>Web Server on AMI Linux 2</title><link>https://www.spidersoft.com.au/2019/web-server-on-ami-linux-2/</link><pubDate>Mon, 28 Jan 2019 09:46:20 +0000</pubDate><guid>https://www.spidersoft.com.au/2019/web-server-on-ami-linux-2/</guid><description>&lt;p>Welcome in 2019 – it’s time to upgrade out outdated LAMP stack series articles, with new “How To” setup basic web server for our stack.&lt;/p></description></item><item><title>Centos PHP 7 LAMP boilerplate</title><link>https://www.spidersoft.com.au/2017/centos-php-7-lamp-boilerplate/</link><pubDate>Tue, 05 Sep 2017 03:45:48 +0000</pubDate><guid>https://www.spidersoft.com.au/2017/centos-php-7-lamp-boilerplate/</guid><description>&lt;p>This time we are going to cook Apache (httpd 2.4), PHP 7.0 as a 
+ 
+ 
+ 
+ 
+ &lt;a href="http://wiki.apache.org/httpd/PHP-FPM">PHP-FPM&lt;/a>
+ . Instructions are pretty simple. You can just copy and paste command to get working stack in less then 15 minutes.&lt;/p>
 &lt;p>What you can learn from it? How to install Apache 2.4 and PHP 7, how to enable and opcache, and how to install HTTPS on your server, with purchasing SSL certificate.&lt;/p></description></item><item><title>Apache and PHP on OS X Yosemite</title><link>https://www.spidersoft.com.au/2014/apache-and-php-on-os-x-yosemite/</link><pubDate>Wed, 29 Oct 2014 03:27:31 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/apache-and-php-on-os-x-yosemite/</guid><description>It’s just a short instructions how to run Apache and PHP on OS X Yosemite.
 PHP and Apache are already there – just need to run Apache and enable PHP. Video showing up whole process is available here:
 Here you can check out exact changes.
@@ -15,8 +27,16 @@ Then make some changes in httpd.conf file
 sudo nano /etc/apache2/httpd.conf
 Find two lines
 LoadModule rewrite_module libexec/apache2/mod_rewrite.</description></item><item><title>Amazon EC2 – Installing Apache and PHP boilerplate</title><link>https://www.spidersoft.com.au/2013/apache-php-config-boilerplate/</link><pubDate>Thu, 14 Feb 2013 05:22:55 +0000</pubDate><guid>https://www.spidersoft.com.au/2013/apache-php-config-boilerplate/</guid><description>&lt;p>In this extremely simply tutorial I’m going to show, how you can deploy basic LAMP stack on EC2 instance. Instruction are pretty basic, without extra comments. You can just copy and paste command to get working stack in lest then 15 minutes.&lt;/p>
-&lt;p>What you can learn from it? How to install Apache and PHP, how to enable and run XCache accelerator, and how to run HTTPS on your server, with purchasing SSL certificate.&lt;/p></description></item><item><title>Apache Virtual Hosts in a Database</title><link>https://www.spidersoft.com.au/2012/apache-virtual-hosts-in-a-database/</link><pubDate>Sun, 08 Jan 2012 11:34:00 +0000</pubDate><guid>https://www.spidersoft.com.au/2012/apache-virtual-hosts-in-a-database/</guid><description>&lt;p>As much as I love
-&lt;a href="http://www.lighttpd.net/">lighttpd&lt;/a>
- sometimes I can’t avoid
-&lt;a href="http://httpd.apache.org/">Apache&lt;/a>
-. For me – “the best” thing in lighttpd is support for keeping vhost names in MySQL database. I don’t have to use any config files, I can just put record into MySQL database with virtual host server name, path to document root and it’s done. But – I can do the same witch Apache! How? With third party modules, below you can find short tutorial “how to”.&lt;/p></description></item></channel></rss>
+&lt;p>What you can learn from it? How to install Apache and PHP, how to enable and run XCache accelerator, and how to run HTTPS on your server, with purchasing SSL certificate.&lt;/p></description></item><item><title>Apache Virtual Hosts in a Database</title><link>https://www.spidersoft.com.au/2012/apache-virtual-hosts-in-a-database/</link><pubDate>Sun, 08 Jan 2012 11:34:00 +0000</pubDate><guid>https://www.spidersoft.com.au/2012/apache-virtual-hosts-in-a-database/</guid><description>&lt;p>As much as I love 
+ 
+ 
+ 
+ 
+ &lt;a href="http://www.lighttpd.net/">lighttpd&lt;/a>
+  sometimes I can’t avoid 
+ 
+ 
+ 
+ 
+ &lt;a href="http://httpd.apache.org/">Apache&lt;/a>
+ . For me – “the best” thing in lighttpd is support for keeping vhost names in MySQL database. I don’t have to use any config files, I can just put record into MySQL database with virtual host server name, path to document root and it’s done. But – I can do the same witch Apache! How? With third party modules, below you can find short tutorial “how to”.&lt;/p></description></item></channel></rss>

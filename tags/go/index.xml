@@ -2,24 +2,48 @@
 Error: Package: golang-bin-1.5.1-0.el6.x86_64 (epel) Requires: go = 1.5.1-0.el6 Installing: golang-1.4.2-3.19.amzn1.x86_64 (amzn-main) Because on amzn-main repo, there is an older version of golang – on epel, there is a newer. Nothing simplier just disable for a momement amzn-main repo, and install golang compeltly from epel.
 sudo yum --disablerepo=amzn-main --enablerepo=epel install golang-bin</description></item><item><title>How update Go library</title><link>https://www.spidersoft.com.au/2015/how-update-go-library/</link><pubDate>Tue, 05 May 2015 04:49:24 +0000</pubDate><guid>https://www.spidersoft.com.au/2015/how-update-go-library/</guid><description>Installation of go library is pretty simple: go get github.com/garyburd/redigo/redis
 From time to time, you want to get fresh version of it. If you run that command again it will NOT update the library – because it’s already there. To update it you need to use the -u switch:
-go get -u github.com/garyburd/redigo/redis</description></item><item><title>Fetch page with proxy using The Go language</title><link>https://www.spidersoft.com.au/2014/fetch-page-with-proxy-using-the-go-language/</link><pubDate>Wed, 13 Aug 2014 06:16:24 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/fetch-page-with-proxy-using-the-go-language/</guid><description>&lt;p>For a while i’m playing with
-&lt;a href="http://golang.org/">The Go Programming Language&lt;/a>
-– so far I loved it. I figure out that I’ll push some code snippets from time to time.&lt;br>
+go get -u github.com/garyburd/redigo/redis</description></item><item><title>Fetch page with proxy using The Go language</title><link>https://www.spidersoft.com.au/2014/fetch-page-with-proxy-using-the-go-language/</link><pubDate>Wed, 13 Aug 2014 06:16:24 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/fetch-page-with-proxy-using-the-go-language/</guid><description>&lt;p>For a while i’m playing with 
+ 
+ 
+ 
+ 
+ &lt;a href="http://golang.org/">The Go Programming Language&lt;/a>
+ – so far I loved it. I figure out that I’ll push some code snippets from time to time.&lt;br>
 Today I spend some time creating simple not ever crawler, but website fetcher.&lt;/p>
-&lt;p>Idea is very simple – download page, run xpath query on it and spit out results. I was looking for decent xpath library for Go and couldn’t find any. I tried to use
-&lt;a href="http://gopkg.in/xmlpath.v2">xmlpath&lt;/a>
-but it sucks. I couldn’t even run queries like &lt;code>id('product-details')/div[@class='product-price']&amp;quot;&lt;/code> Then I found something nicer –
-&lt;a href="https://github.com/moovweb/gokogiri">Gokogiri&lt;/a>
-– which works pretty nicely, but – couldn’t find any examples except this
-&lt;a href="https://www.moovweb.com/blog/gokogiri-the-best-way-to-parse-xml-in-go/">small article&lt;/a>
-.&lt;/p>
-&lt;p>The only problem with running Gokogiri is that it uses &lt;code>libxml2&lt;/code> which is not a huge problem on Linux based systems, but on Mac OS X you have to install it via
-&lt;a href="http://brew.sh/">homebrew&lt;/a>
-&lt;br>
+&lt;p>Idea is very simple – download page, run xpath query on it and spit out results. I was looking for decent xpath library for Go and couldn’t find any. I tried to use 
+ 
+ 
+ 
+ 
+ &lt;a href="http://gopkg.in/xmlpath.v2">xmlpath&lt;/a>
+ but it sucks. I couldn’t even run queries like &lt;code>id('product-details')/div[@class='product-price']&amp;quot;&lt;/code> Then I found something nicer – 
+ 
+ 
+ 
+ 
+ &lt;a href="https://github.com/moovweb/gokogiri">Gokogiri&lt;/a>
+ – which works pretty nicely, but – couldn’t find any examples except this 
+ 
+ 
+ 
+ 
+ &lt;a href="https://www.moovweb.com/blog/gokogiri-the-best-way-to-parse-xml-in-go/">small article&lt;/a>
+ .&lt;/p>
+&lt;p>The only problem with running Gokogiri is that it uses &lt;code>libxml2&lt;/code> which is not a huge problem on Linux based systems, but on Mac OS X you have to install it via 
+ 
+ 
+ 
+ 
+ &lt;a href="http://brew.sh/">homebrew&lt;/a>
+ &lt;br>
 &lt;code>brew install libxml2&lt;/code>&lt;/p></description></item><item><title>Getting started with go language on Mac OS X</title><link>https://www.spidersoft.com.au/2014/getting-started-with-go-language-on-mac-os-x/</link><pubDate>Sun, 13 Jul 2014 06:42:43 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/getting-started-with-go-language-on-mac-os-x/</guid><description>&lt;p>Node.js is like space shuttle – very sophisticated, very fast but one simple mistake and… it goes down.&lt;/p>
-&lt;p>So recently i tried
-&lt;a href="http://golang.org/">The Go Language&lt;/a>
- which is advertised as&lt;/p>
+&lt;p>So recently i tried 
+ 
+ 
+ 
+ 
+ &lt;a href="http://golang.org/">The Go Language&lt;/a>
+  which is advertised as&lt;/p>
 &lt;blockquote>
 &lt;p>Go is an open source programming language that makes it easy to build simple, reliable, and efficient software.&lt;/p>
 &lt;/blockquote>

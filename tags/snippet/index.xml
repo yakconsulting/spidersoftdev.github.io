@@ -1,19 +1,35 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>snippet on SpiderSoft</title><link>https://www.spidersoft.com.au/tags/snippet/</link><description>Recent content in snippet on SpiderSoft</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 05 Oct 2012 05:08:40 +0000</lastBuildDate><atom:link href="https://www.spidersoft.com.au/tags/snippet/index.xml" rel="self" type="application/rss+xml"/><item><title>Twitter Bootstrap add ons and extensions</title><link>https://www.spidersoft.com.au/2012/twitter-bootstrap-add-ons-and-extensions/</link><pubDate>Fri, 05 Oct 2012 05:08:40 +0000</pubDate><guid>https://www.spidersoft.com.au/2012/twitter-bootstrap-add-ons-and-extensions/</guid><description>&lt;p>My collection of
-&lt;a href="http://twitter.github.com/bootstrap/">Twitter Bootstrap&lt;/a>
-addons is growin each day. As at today we have&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>snippet on SpiderSoft</title><link>https://www.spidersoft.com.au/tags/snippet/</link><description>Recent content in snippet on SpiderSoft</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 05 Oct 2012 05:08:40 +0000</lastBuildDate><atom:link href="https://www.spidersoft.com.au/tags/snippet/index.xml" rel="self" type="application/rss+xml"/><item><title>Twitter Bootstrap add ons and extensions</title><link>https://www.spidersoft.com.au/2012/twitter-bootstrap-add-ons-and-extensions/</link><pubDate>Fri, 05 Oct 2012 05:08:40 +0000</pubDate><guid>https://www.spidersoft.com.au/2012/twitter-bootstrap-add-ons-and-extensions/</guid><description>&lt;p>My collection of 
+ 
+ 
+ 
+ 
+ &lt;a href="http://twitter.github.com/bootstrap/">Twitter Bootstrap&lt;/a>
+ addons is growin each day. As at today we have&lt;/p>
 &lt;ul>
 &lt;li>&lt;strong>Bootstrap From Builder&lt;/strong> – really usefool tool for building bootstrap forms. It works based on rag and drop interface,&lt;/li>
 &lt;li>&lt;strong>Time Picker&lt;/strong> – a very cool widget to easily select a time for a text input using your mouse or arrow keys.,&lt;/li>
 &lt;li>&lt;strong>Date Picker&lt;/strong>,&lt;/li>
 &lt;li>&lt;strong>Font Awesome&lt;/strong>,&lt;/li>
-&lt;li>&lt;strong>snippets&lt;/strong> for Bootstrap
-&lt;a href="http://bootsnipp.com/">bootsnipp.com&lt;/a>
-&lt;/li>
-&lt;li>golderBootstrap –
-&lt;a href="http://phildionne.github.com/golden-bootstrap/#goldenBootstrap">phildionne.github.com/golden-bootstrap/#goldenBootstrap&lt;/a>
-&lt;/li>
-&lt;li>&lt;strong>BootStrap Notify&lt;/strong> – 
-&lt;a href="http://nijikokun.github.com/bootstrap-notify/">nijikokun.github.com/bootstrap-notify/&lt;/a>
-&lt;/li>
+&lt;li>&lt;strong>snippets&lt;/strong> for Bootstrap 
+ 
+ 
+ 
+ 
+ &lt;a href="http://bootsnipp.com/">bootsnipp.com&lt;/a>
+ &lt;/li>
+&lt;li>golderBootstrap – 
+ 
+ 
+ 
+ 
+ &lt;a href="http://phildionne.github.com/golden-bootstrap/#goldenBootstrap">phildionne.github.com/golden-bootstrap/#goldenBootstrap&lt;/a>
+ &lt;/li>
+&lt;li>&lt;strong>BootStrap Notify&lt;/strong> –  
+ 
+ 
+ 
+ 
+ &lt;a href="http://nijikokun.github.com/bootstrap-notify/">nijikokun.github.com/bootstrap-notify/&lt;/a>
+ &lt;/li>
 &lt;li>&lt;strong>Pivot.js&lt;/strong> is a simple way to summarize large data sets on the fly,&lt;/li>
 &lt;/ul></description></item><item><title>Attribute value in Magento</title><link>https://www.spidersoft.com.au/2011/attribute-value-in-magento/</link><pubDate>Mon, 15 Aug 2011 02:37:29 +0000</pubDate><guid>https://www.spidersoft.com.au/2011/attribute-value-in-magento/</guid><description>&lt;p>Some useful function for managing attribute values in Magento.&lt;/p></description></item><item><title>More about product attributes in Magento</title><link>https://www.spidersoft.com.au/2011/more-about-product-attributes-in-magento/</link><pubDate>Sat, 13 Aug 2011 05:10:41 +0000</pubDate><guid>https://www.spidersoft.com.au/2011/more-about-product-attributes-in-magento/</guid><description>&lt;p>Last time I mentioned Magento attributes, how to create them from model. Ok – but examples was quite simple. This time a little more explanation.&lt;/p></description></item><item><title>Magento get all categories into array</title><link>https://www.spidersoft.com.au/2011/magento-get-all-categories-into-array/</link><pubDate>Thu, 11 Aug 2011 00:26:49 +0000</pubDate><guid>https://www.spidersoft.com.au/2011/magento-get-all-categories-into-array/</guid><description>&lt;p>You can grab all existing categories in Magento to array, here is quick example:&lt;/p></description></item><item><title>Magento read / write config values from model</title><link>https://www.spidersoft.com.au/2011/magento-read-write-config-values-from-model/</link><pubDate>Tue, 09 Aug 2011 04:23:20 +0000</pubDate><guid>https://www.spidersoft.com.au/2011/magento-read-write-config-values-from-model/</guid><description>&lt;p>You can create Magento config settings using XML files, or… do this directly from model. Here is example:&lt;/p></description></item><item><title>Magento generate url from model</title><link>https://www.spidersoft.com.au/2011/magento-generate-url-from-model/</link><pubDate>Sun, 07 Aug 2011 04:16:23 +0000</pubDate><guid>https://www.spidersoft.com.au/2011/magento-generate-url-from-model/</guid><description>&lt;p>All links in Magento should be generated via url model. Here is simple examples working in backend.&lt;/p></description></item></channel></rss>

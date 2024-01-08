@@ -1,11 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Software on SpiderSoft</title><link>https://www.spidersoft.com.au/categories/software/</link><description>Recent content in Software on SpiderSoft</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 19 Aug 2021 12:44:18 +0000</lastBuildDate><atom:link href="https://www.spidersoft.com.au/categories/software/index.xml" rel="self" type="application/rss+xml"/><item><title>Clearing up git submodules problems</title><link>https://www.spidersoft.com.au/2021/clearing-up-git-submodule-problem/</link><pubDate>Thu, 19 Aug 2021 12:44:18 +0000</pubDate><guid>https://www.spidersoft.com.au/2021/clearing-up-git-submodule-problem/</guid><description>&lt;p>As some of you noted, I moved my blog into
-&lt;a href="https://gohugo.io">Hugo&lt;/a>
-. You have to pull multiple git repositories to compile the entire project during the build process. Because begging is always challenging, it&amp;rsquo;s always trial and error, and I ended up having many sub-repositories missing. I&amp;rsquo;m now going to show the whole journey how to solve &amp;ldquo;the issue&amp;rdquo;.&lt;/p></description></item><item><title>How to force clean cached DNS records</title><link>https://www.spidersoft.com.au/2021/how-to-clean-cached-dns-records/</link><pubDate>Sun, 18 Jul 2021 07:19:08 +0000</pubDate><guid>https://www.spidersoft.com.au/2021/how-to-clean-cached-dns-records/</guid><description>Dealing with DNS changes can be annoying and frustrating. Changes are not visible straight away, you have to wait to see them. Thet are not even. Here you can find links to clear cached records in popular public DNS servers:
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Software on SpiderSoft</title><link>https://www.spidersoft.com.au/categories/software/</link><description>Recent content in Software on SpiderSoft</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 19 Aug 2021 12:44:18 +0000</lastBuildDate><atom:link href="https://www.spidersoft.com.au/categories/software/index.xml" rel="self" type="application/rss+xml"/><item><title>Clearing up git submodules problems</title><link>https://www.spidersoft.com.au/2021/clearing-up-git-submodule-problem/</link><pubDate>Thu, 19 Aug 2021 12:44:18 +0000</pubDate><guid>https://www.spidersoft.com.au/2021/clearing-up-git-submodule-problem/</guid><description>&lt;p>As some of you noted, I moved my blog into 
+ 
+ 
+ 
+ 
+ &lt;a href="https://gohugo.io">Hugo&lt;/a>
+ . You have to pull multiple git repositories to compile the entire project during the build process. Because begging is always challenging, it&amp;rsquo;s always trial and error, and I ended up having many sub-repositories missing. I&amp;rsquo;m now going to show the whole journey how to solve &amp;ldquo;the issue&amp;rdquo;.&lt;/p></description></item><item><title>How to force clean cached DNS records</title><link>https://www.spidersoft.com.au/2021/how-to-clean-cached-dns-records/</link><pubDate>Sun, 18 Jul 2021 07:19:08 +0000</pubDate><guid>https://www.spidersoft.com.au/2021/how-to-clean-cached-dns-records/</guid><description>Dealing with DNS changes can be annoying and frustrating. Changes are not visible straight away, you have to wait to see them. Thet are not even. Here you can find links to clear cached records in popular public DNS servers:
 Flushing DNS cache Flush Google Public DNS Cache Purge Cloudflare Public DNS Cache Checking results You can check results here:
 IntoDNS Refresh OpenDNS Cache DNSSEC Tools DNSViz. A DNS Visualization Tool DNS Check DNSSEC Analyzer SIDN DNSSEC Test</description></item><item><title>Why VIPS and Go it’s not a good match for production environment</title><link>https://www.spidersoft.com.au/posts/2020-07-14-vips-and-go-does-not-play-together/</link><pubDate>Wed, 14 Jul 2021 07:19:08 +0000</pubDate><guid>https://www.spidersoft.com.au/posts/2020-07-14-vips-and-go-does-not-play-together/</guid><description>I built a simple worker to do some magic with images by using Go &amp;amp; VIPS . I chose VIPS because it is blazing fast compared to other Go image processing libraries. So this is the story about what went wrong.
-Because my DEV setup is Apple MacBook Pro with M1 Apple Silicon, it’s always tricky to compile something to the proper architecture. Installing VIPS on my machine, it’s pretty straightforward:</description></item><item><title>How to secure S3 bucket with username and password</title><link>https://www.spidersoft.com.au/2018/how-to-secure-s3-bucket-with-username-and-password/</link><pubDate>Wed, 12 Sep 2018 08:00:16 +0000</pubDate><guid>https://www.spidersoft.com.au/2018/how-to-secure-s3-bucket-with-username-and-password/</guid><description>&lt;p>When you start looking for a solution, you will find answers like using Cloudfront, lambda, and middleware 3rd party services. And basically, you don’t have any other choice. There is no simple solution to your problem. But – as long as you use
-&lt;a href="https://caddyserver.com/">Caddy Server&lt;/a>
-solution is super easy.&lt;/p></description></item><item><title>Windows SMB printer on Mac OS X Sierra</title><link>https://www.spidersoft.com.au/2016/windows-smb-printer-on-mac-os-x-sierra/</link><pubDate>Sun, 18 Dec 2016 13:27:58 +0000</pubDate><guid>https://www.spidersoft.com.au/2016/windows-smb-printer-on-mac-os-x-sierra/</guid><description>&lt;p>Quick tutorial how to add SMB printer on Mac OS X Sierra.&lt;/p></description></item><item><title>PhpStorm PHPCodeSniffer and… CodeIgniter style guide</title><link>https://www.spidersoft.com.au/2015/phpstorm-phpcodesniffer-and-codeigniter-style-guide/</link><pubDate>Fri, 10 Jul 2015 01:26:14 +0000</pubDate><guid>https://www.spidersoft.com.au/2015/phpstorm-phpcodesniffer-and-codeigniter-style-guide/</guid><description>This article is related to my previous one about setting up PHPCodeSniffer with CodeIgniter coding standards.
+Because my DEV setup is Apple MacBook Pro with M1 Apple Silicon, it’s always tricky to compile something to the proper architecture. Installing VIPS on my machine, it’s pretty straightforward:</description></item><item><title>How to secure S3 bucket with username and password</title><link>https://www.spidersoft.com.au/2018/how-to-secure-s3-bucket-with-username-and-password/</link><pubDate>Wed, 12 Sep 2018 08:00:16 +0000</pubDate><guid>https://www.spidersoft.com.au/2018/how-to-secure-s3-bucket-with-username-and-password/</guid><description>&lt;p>When you start looking for a solution, you will find answers like using Cloudfront, lambda, and middleware 3rd party services. And basically, you don’t have any other choice. There is no simple solution to your problem. But – as long as you use 
+ 
+ 
+ 
+ 
+ &lt;a href="https://caddyserver.com/">Caddy Server&lt;/a>
+ solution is super easy.&lt;/p></description></item><item><title>Windows SMB printer on Mac OS X Sierra</title><link>https://www.spidersoft.com.au/2016/windows-smb-printer-on-mac-os-x-sierra/</link><pubDate>Sun, 18 Dec 2016 13:27:58 +0000</pubDate><guid>https://www.spidersoft.com.au/2016/windows-smb-printer-on-mac-os-x-sierra/</guid><description>&lt;p>Quick tutorial how to add SMB printer on Mac OS X Sierra.&lt;/p></description></item><item><title>PhpStorm PHPCodeSniffer and… CodeIgniter style guide</title><link>https://www.spidersoft.com.au/2015/phpstorm-phpcodesniffer-and-codeigniter-style-guide/</link><pubDate>Fri, 10 Jul 2015 01:26:14 +0000</pubDate><guid>https://www.spidersoft.com.au/2015/phpstorm-phpcodesniffer-and-codeigniter-style-guide/</guid><description>This article is related to my previous one about setting up PHPCodeSniffer with CodeIgniter coding standards.
 Installation on Linux boxes is pretty yeasy:
 sudo pear channel-update pear.php.net yum install php-pear-PHP-CodeSniffer php-phpunit-phpcpd On Mac OS X you have couple options. Pear or Homebrew:
 brew install php-code-sniffer
@@ -31,58 +39,126 @@ Then make some changes in httpd.conf file
 sudo nano /etc/apache2/httpd.conf
 Find two lines
 LoadModule rewrite_module libexec/apache2/mod_rewrite.</description></item><item><title>Getting started with go language on Mac OS X</title><link>https://www.spidersoft.com.au/2014/getting-started-with-go-language-on-mac-os-x/</link><pubDate>Sun, 13 Jul 2014 06:42:43 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/getting-started-with-go-language-on-mac-os-x/</guid><description>&lt;p>Node.js is like space shuttle – very sophisticated, very fast but one simple mistake and… it goes down.&lt;/p>
-&lt;p>So recently i tried
-&lt;a href="http://golang.org/">The Go Language&lt;/a>
- which is advertised as&lt;/p>
+&lt;p>So recently i tried 
+ 
+ 
+ 
+ 
+ &lt;a href="http://golang.org/">The Go Language&lt;/a>
+  which is advertised as&lt;/p>
 &lt;blockquote>
 &lt;p>Go is an open source programming language that makes it easy to build simple, reliable, and efficient software.&lt;/p>
 &lt;/blockquote>
-&lt;p>Because google is a creator of this langauge documentation sucks. Plenty of random documents of everwhere, no clean how to documentation.&lt;/p></description></item><item><title>Phalcon – super simple REST API example</title><link>https://www.spidersoft.com.au/2014/phalcon-simple-rest-api-example/</link><pubDate>Thu, 10 Jul 2014 04:24:38 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/phalcon-simple-rest-api-example/</guid><description>&lt;p>Throughout this first tutorial, i’ll walk you through the creation of an application with a simple REST API from the ground up. I assume you have
-&lt;a href="http://phalconphp.com/en/">Phalcon&lt;/a>
-. installed already.&lt;/p></description></item><item><title>PHPUnit and PEAR install on MacOS</title><link>https://www.spidersoft.com.au/2013/phpunit-and-pear-install-on-macos/</link><pubDate>Thu, 19 Dec 2013 00:28:41 +0000</pubDate><guid>https://www.spidersoft.com.au/2013/phpunit-and-pear-install-on-macos/</guid><description>&lt;p>There is a plenty of tutorials how to install PEAR and  PHP, but there is always something “missing” in this configuration. So this time, i’m going to “sing the same song again”.&lt;/p></description></item><item><title>Why I don’t recommend mailgun…</title><link>https://www.spidersoft.com.au/2013/why-i-dont-recommend-mailgun/</link><pubDate>Mon, 23 Sep 2013 23:26:49 +0000</pubDate><guid>https://www.spidersoft.com.au/2013/why-i-dont-recommend-mailgun/</guid><description>Couple months ago I listed services having API for sending and receiving emails . One of them was mailgun – I was using it for a while since… yesterday. My account was locked without any valid reason. Something related with SPAM:
+&lt;p>Because google is a creator of this langauge documentation sucks. Plenty of random documents of everwhere, no clean how to documentation.&lt;/p></description></item><item><title>Phalcon – super simple REST API example</title><link>https://www.spidersoft.com.au/2014/phalcon-simple-rest-api-example/</link><pubDate>Thu, 10 Jul 2014 04:24:38 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/phalcon-simple-rest-api-example/</guid><description>&lt;p>Throughout this first tutorial, i’ll walk you through the creation of an application with a simple REST API from the ground up. I assume you have 
+ 
+ 
+ 
+ 
+ &lt;a href="http://phalconphp.com/en/">Phalcon&lt;/a>
+ . installed already.&lt;/p></description></item><item><title>PHPUnit and PEAR install on MacOS</title><link>https://www.spidersoft.com.au/2013/phpunit-and-pear-install-on-macos/</link><pubDate>Thu, 19 Dec 2013 00:28:41 +0000</pubDate><guid>https://www.spidersoft.com.au/2013/phpunit-and-pear-install-on-macos/</guid><description>&lt;p>There is a plenty of tutorials how to install PEAR and  PHP, but there is always something “missing” in this configuration. So this time, i’m going to “sing the same song again”.&lt;/p></description></item><item><title>Why I don’t recommend mailgun…</title><link>https://www.spidersoft.com.au/2013/why-i-dont-recommend-mailgun/</link><pubDate>Mon, 23 Sep 2013 23:26:49 +0000</pubDate><guid>https://www.spidersoft.com.au/2013/why-i-dont-recommend-mailgun/</guid><description>Couple months ago I listed services having API for sending and receiving emails . One of them was mailgun – I was using it for a while since… yesterday. My account was locked without any valid reason. Something related with SPAM:
 http://documentation.mailgun.com/razor.html Reference: #rzr01.
-Because I know exactly what emails are being sent using my accounts (I keep track of each email coming out from the system) I was really interested how it could happen.</description></item><item><title>A clipboard manager for Mac OS X</title><link>https://www.spidersoft.com.au/2013/a-clipboard-manager-for-mac-os-x/</link><pubDate>Wed, 14 Aug 2013 01:58:30 +0000</pubDate><guid>https://www.spidersoft.com.au/2013/a-clipboard-manager-for-mac-os-x/</guid><description>&lt;p>Really tiny but useful program. 
-&lt;a href="http://www.clipmenu.com/">ClipMenu&lt;/a>
-can manage clipboard history. You can record 8 clipboard types, from plain text to image. To paste a recorded item, you just pop up menu by invoking the shortcut key, and select a menu item from the menu.&lt;/p>
+Because I know exactly what emails are being sent using my accounts (I keep track of each email coming out from the system) I was really interested how it could happen.</description></item><item><title>A clipboard manager for Mac OS X</title><link>https://www.spidersoft.com.au/2013/a-clipboard-manager-for-mac-os-x/</link><pubDate>Wed, 14 Aug 2013 01:58:30 +0000</pubDate><guid>https://www.spidersoft.com.au/2013/a-clipboard-manager-for-mac-os-x/</guid><description>&lt;p>Really tiny but useful program.  
+ 
+ 
+ 
+ 
+ &lt;a href="http://www.clipmenu.com/">ClipMenu&lt;/a>
+ can manage clipboard history. You can record 8 clipboard types, from plain text to image. To paste a recorded item, you just pop up menu by invoking the shortcut key, and select a menu item from the menu.&lt;/p>
 &lt;p>There is also snippet function – you can also register texts you frequently use, like e-mail addresses, user IDs and so on. You can paste these snippets from the menu, too.&lt;/p></description></item><item><title>Send and receive emails via API</title><link>https://www.spidersoft.com.au/2013/send-and-receive-emails-via-api/</link><pubDate>Mon, 25 Mar 2013 03:39:56 +0000</pubDate><guid>https://www.spidersoft.com.au/2013/send-and-receive-emails-via-api/</guid><description>&lt;p>It’s coming with experience. On the beginning you always trying to do everything by your self. No frameworks, no libraries – bare bone solutions written from the scratch. Later – you realising than your time is to expensive, and start using some libraries. After another period of time you are getting to the point, that you are willing to use as many existing solutions as it’s possible.&lt;/p>
-&lt;p>Really typical problem – sending and receiving emails from the apps. Of course – you can send emails using simple
-&lt;a href="http://www.php.net/manual/en/function.mail.php" title="PHP mail">mail&lt;/a>
-() command or using more sophisticated libraries like
-&lt;a href="http://swiftmailer.org/">Swiftmailer&lt;/a>
-but… if there is an option to use API, you can chose from couples:&lt;/p></description></item><item><title>Cut and slice Photoshop files really easy</title><link>https://www.spidersoft.com.au/2013/cut-and-slice-photoshop-really-easy/</link><pubDate>Tue, 19 Mar 2013 23:34:40 +0000</pubDate><guid>https://www.spidersoft.com.au/2013/cut-and-slice-photoshop-really-easy/</guid><description>&lt;p>This is one if these rare plugins which make my live lot easier. Actually can’t imagine my work without it. 
-&lt;a href="http://www.cutandslice.me/">Cut&amp;amp;Slice me&lt;/a>
- is able to export your assets to different devices in seconds. Whole idea is really simple – name objects, or groups in special way. Click one button – and all assets will be exported in proper file names. It’s getting event better – his plugin is able to export all assets in multiple dimensions (retina images). So… if you ever dreamt about perfect tool for you work – this is it.&lt;/p></description></item><item><title>Facebook Page TAB mobile redirection problem</title><link>https://www.spidersoft.com.au/2013/facebook-page-tab-mobile-redirection-problem/</link><pubDate>Wed, 06 Mar 2013 08:16:21 +0000</pubDate><guid>https://www.spidersoft.com.au/2013/facebook-page-tab-mobile-redirection-problem/</guid><description>&lt;p>Yes… we have ongoing problem with that really simple function. So – what’s happening. Let’s assume that we have really simple Page Tab existing inside out Facebook Page. URL usually looks like that: 
-&lt;a href="http://www.facebook.com/spidersoftau/app_334933569956732">http://www.facebook.com/spidersoftau/app_334933569956732&lt;/a>
- – works perfectly on Desktop browser, but if you would like to open this on mobile, you will get nasty error&lt;/p></description></item><item><title>Amazon EC2 – Installing Apache and PHP boilerplate</title><link>https://www.spidersoft.com.au/2013/apache-php-config-boilerplate/</link><pubDate>Thu, 14 Feb 2013 05:22:55 +0000</pubDate><guid>https://www.spidersoft.com.au/2013/apache-php-config-boilerplate/</guid><description>&lt;p>In this extremely simply tutorial I’m going to show, how you can deploy basic LAMP stack on EC2 instance. Instruction are pretty basic, without extra comments. You can just copy and paste command to get working stack in lest then 15 minutes.&lt;/p>
-&lt;p>What you can learn from it? How to install Apache and PHP, how to enable and run XCache accelerator, and how to run HTTPS on your server, with purchasing SSL certificate.&lt;/p></description></item><item><title>AUSTRALIA WIDE POSTCODE BREAKDOWN</title><link>https://www.spidersoft.com.au/2013/australia-wide-postcode-breakdown/</link><pubDate>Tue, 12 Feb 2013 23:14:01 +0000</pubDate><guid>https://www.spidersoft.com.au/2013/australia-wide-postcode-breakdown/</guid><description>&lt;p>Don’t know how accurate it is. I was working on a project that needed something like that, so… maybe someone else will use it.&lt;/p></description></item><item><title>Exception tracking in real time</title><link>https://www.spidersoft.com.au/2012/exception-tracking-in-real-time/</link><pubDate>Thu, 27 Dec 2012 01:26:38 +0000</pubDate><guid>https://www.spidersoft.com.au/2012/exception-tracking-in-real-time/</guid><description>&lt;p>Everyone knows that Exception tracking, debugging and checking logs is pain in the ass. Especially when our APP works on multiple servers, or we have different environments, languages which are working as a part of big project. Recently I found exceptional tool created by
-&lt;a href="http://disqus.com/">Disqus&lt;/a>
-team called 
-&lt;a href="https://getsentry.com/signup/r_D1MT/">Sentry&lt;/a>
-. What is Sentry ?&lt;/p></description></item><item><title>Twitter Bootstrap add ons and extensions</title><link>https://www.spidersoft.com.au/2012/twitter-bootstrap-add-ons-and-extensions/</link><pubDate>Fri, 05 Oct 2012 05:08:40 +0000</pubDate><guid>https://www.spidersoft.com.au/2012/twitter-bootstrap-add-ons-and-extensions/</guid><description>&lt;p>My collection of
-&lt;a href="http://twitter.github.com/bootstrap/">Twitter Bootstrap&lt;/a>
-addons is growin each day. As at today we have&lt;/p>
+&lt;p>Really typical problem – sending and receiving emails from the apps. Of course – you can send emails using simple 
+ 
+ 
+ 
+ 
+ &lt;a href="http://www.php.net/manual/en/function.mail.php" title="PHP mail">mail&lt;/a>
+ () command or using more sophisticated libraries like 
+ 
+ 
+ 
+ 
+ &lt;a href="http://swiftmailer.org/">Swiftmailer&lt;/a>
+ but… if there is an option to use API, you can chose from couples:&lt;/p></description></item><item><title>Cut and slice Photoshop files really easy</title><link>https://www.spidersoft.com.au/2013/cut-and-slice-photoshop-really-easy/</link><pubDate>Tue, 19 Mar 2013 23:34:40 +0000</pubDate><guid>https://www.spidersoft.com.au/2013/cut-and-slice-photoshop-really-easy/</guid><description>&lt;p>This is one if these rare plugins which make my live lot easier. Actually can’t imagine my work without it.  
+ 
+ 
+ 
+ 
+ &lt;a href="http://www.cutandslice.me/">Cut&amp;amp;Slice me&lt;/a>
+  is able to export your assets to different devices in seconds. Whole idea is really simple – name objects, or groups in special way. Click one button – and all assets will be exported in proper file names. It’s getting event better – his plugin is able to export all assets in multiple dimensions (retina images). So… if you ever dreamt about perfect tool for you work – this is it.&lt;/p></description></item><item><title>Facebook Page TAB mobile redirection problem</title><link>https://www.spidersoft.com.au/2013/facebook-page-tab-mobile-redirection-problem/</link><pubDate>Wed, 06 Mar 2013 08:16:21 +0000</pubDate><guid>https://www.spidersoft.com.au/2013/facebook-page-tab-mobile-redirection-problem/</guid><description>&lt;p>Yes… we have ongoing problem with that really simple function. So – what’s happening. Let’s assume that we have really simple Page Tab existing inside out Facebook Page. URL usually looks like that:  
+ 
+ 
+ 
+ 
+ &lt;a href="http://www.facebook.com/spidersoftau/app_334933569956732">http://www.facebook.com/spidersoftau/app_334933569956732&lt;/a>
+  – works perfectly on Desktop browser, but if you would like to open this on mobile, you will get nasty error&lt;/p></description></item><item><title>Amazon EC2 – Installing Apache and PHP boilerplate</title><link>https://www.spidersoft.com.au/2013/apache-php-config-boilerplate/</link><pubDate>Thu, 14 Feb 2013 05:22:55 +0000</pubDate><guid>https://www.spidersoft.com.au/2013/apache-php-config-boilerplate/</guid><description>&lt;p>In this extremely simply tutorial I’m going to show, how you can deploy basic LAMP stack on EC2 instance. Instruction are pretty basic, without extra comments. You can just copy and paste command to get working stack in lest then 15 minutes.&lt;/p>
+&lt;p>What you can learn from it? How to install Apache and PHP, how to enable and run XCache accelerator, and how to run HTTPS on your server, with purchasing SSL certificate.&lt;/p></description></item><item><title>AUSTRALIA WIDE POSTCODE BREAKDOWN</title><link>https://www.spidersoft.com.au/2013/australia-wide-postcode-breakdown/</link><pubDate>Tue, 12 Feb 2013 23:14:01 +0000</pubDate><guid>https://www.spidersoft.com.au/2013/australia-wide-postcode-breakdown/</guid><description>&lt;p>Don’t know how accurate it is. I was working on a project that needed something like that, so… maybe someone else will use it.&lt;/p></description></item><item><title>Exception tracking in real time</title><link>https://www.spidersoft.com.au/2012/exception-tracking-in-real-time/</link><pubDate>Thu, 27 Dec 2012 01:26:38 +0000</pubDate><guid>https://www.spidersoft.com.au/2012/exception-tracking-in-real-time/</guid><description>&lt;p>Everyone knows that Exception tracking, debugging and checking logs is pain in the ass. Especially when our APP works on multiple servers, or we have different environments, languages which are working as a part of big project. Recently I found exceptional tool created by 
+ 
+ 
+ 
+ 
+ &lt;a href="http://disqus.com/">Disqus&lt;/a>
+ team called  
+ 
+ 
+ 
+ 
+ &lt;a href="https://getsentry.com/signup/r_D1MT/">Sentry&lt;/a>
+ . What is Sentry ?&lt;/p></description></item><item><title>Twitter Bootstrap add ons and extensions</title><link>https://www.spidersoft.com.au/2012/twitter-bootstrap-add-ons-and-extensions/</link><pubDate>Fri, 05 Oct 2012 05:08:40 +0000</pubDate><guid>https://www.spidersoft.com.au/2012/twitter-bootstrap-add-ons-and-extensions/</guid><description>&lt;p>My collection of 
+ 
+ 
+ 
+ 
+ &lt;a href="http://twitter.github.com/bootstrap/">Twitter Bootstrap&lt;/a>
+ addons is growin each day. As at today we have&lt;/p>
 &lt;ul>
 &lt;li>&lt;strong>Bootstrap From Builder&lt;/strong> – really usefool tool for building bootstrap forms. It works based on rag and drop interface,&lt;/li>
 &lt;li>&lt;strong>Time Picker&lt;/strong> – a very cool widget to easily select a time for a text input using your mouse or arrow keys.,&lt;/li>
 &lt;li>&lt;strong>Date Picker&lt;/strong>,&lt;/li>
 &lt;li>&lt;strong>Font Awesome&lt;/strong>,&lt;/li>
-&lt;li>&lt;strong>snippets&lt;/strong> for Bootstrap
-&lt;a href="http://bootsnipp.com/">bootsnipp.com&lt;/a>
-&lt;/li>
-&lt;li>golderBootstrap –
-&lt;a href="http://phildionne.github.com/golden-bootstrap/#goldenBootstrap">phildionne.github.com/golden-bootstrap/#goldenBootstrap&lt;/a>
-&lt;/li>
-&lt;li>&lt;strong>BootStrap Notify&lt;/strong> – 
-&lt;a href="http://nijikokun.github.com/bootstrap-notify/">nijikokun.github.com/bootstrap-notify/&lt;/a>
-&lt;/li>
+&lt;li>&lt;strong>snippets&lt;/strong> for Bootstrap 
+ 
+ 
+ 
+ 
+ &lt;a href="http://bootsnipp.com/">bootsnipp.com&lt;/a>
+ &lt;/li>
+&lt;li>golderBootstrap – 
+ 
+ 
+ 
+ 
+ &lt;a href="http://phildionne.github.com/golden-bootstrap/#goldenBootstrap">phildionne.github.com/golden-bootstrap/#goldenBootstrap&lt;/a>
+ &lt;/li>
+&lt;li>&lt;strong>BootStrap Notify&lt;/strong> –  
+ 
+ 
+ 
+ 
+ &lt;a href="http://nijikokun.github.com/bootstrap-notify/">nijikokun.github.com/bootstrap-notify/&lt;/a>
+ &lt;/li>
 &lt;li>&lt;strong>Pivot.js&lt;/strong> is a simple way to summarize large data sets on the fly,&lt;/li>
-&lt;/ul></description></item><item><title>Mac OS X Window Manager</title><link>https://www.spidersoft.com.au/2012/mac-os-x-window-manager/</link><pubDate>Fri, 27 Apr 2012 08:08:09 +0000</pubDate><guid>https://www.spidersoft.com.au/2012/mac-os-x-window-manager/</guid><description>&lt;p>I was looking for some kind of easy to use Window Manager for Mac OS X. Usually I’m working on multiple screen with multiple application open (usually it’s between 4-8). It’s really hard to organise everything in proper order and placement. Arranging windows it’s slow, especially when you need to compare or see results on multiple window at once.&lt;/p></description></item><item><title>Lighttpd and mod_expire</title><link>https://www.spidersoft.com.au/2011/lighttpd-and-mod_expire/</link><pubDate>Sat, 27 Aug 2011 03:39:40 +0000</pubDate><guid>https://www.spidersoft.com.au/2011/lighttpd-and-mod_expire/</guid><description>&lt;p>Google
-&lt;a href="http://pagespeed.googlelabs.com/">Page Speed Online&lt;/a>
-is really good service for measuring and optimising your website. After deep analysis we get a lot if clues how to improve speed of your website. But how to
-&lt;a href="http://code.google.com/speed/page-speed/docs/caching.html#LeverageBrowserCaching">Leverage browser caching&lt;/a>
-if we have
-&lt;a href="http://www.lighttpd.net/">Lighttpd&lt;/a>
- instead default Apache? We need to use
-&lt;a href="http://redmine.lighttpd.net/wiki/lighttpd/Docs:ModExpire">mod_expire&lt;/a>
-.&lt;/p></description></item><item><title>Desktop Closure Compiler beta release</title><link>https://www.spidersoft.com.au/2011/desktop-closure-compiler-beta-release/</link><pubDate>Thu, 20 Jan 2011 03:16:24 +0000</pubDate><guid>https://www.spidersoft.com.au/2011/desktop-closure-compiler-beta-release/</guid><description>The Closure Compiler is a tool for making JavaScript download and run faster. It is a true compiler for JavaScript. Instead of compiling from a source language to machine code, it compiles from JavaScript to better JavaScript. It parses your JavaScript, analyzes it, removes dead code and rewrites and minimizes what’s left. It also checks syntax, variable references, and types, and warns about common JavaScript pitfalls.
+&lt;/ul></description></item><item><title>Mac OS X Window Manager</title><link>https://www.spidersoft.com.au/2012/mac-os-x-window-manager/</link><pubDate>Fri, 27 Apr 2012 08:08:09 +0000</pubDate><guid>https://www.spidersoft.com.au/2012/mac-os-x-window-manager/</guid><description>&lt;p>I was looking for some kind of easy to use Window Manager for Mac OS X. Usually I’m working on multiple screen with multiple application open (usually it’s between 4-8). It’s really hard to organise everything in proper order and placement. Arranging windows it’s slow, especially when you need to compare or see results on multiple window at once.&lt;/p></description></item><item><title>Lighttpd and mod_expire</title><link>https://www.spidersoft.com.au/2011/lighttpd-and-mod_expire/</link><pubDate>Sat, 27 Aug 2011 03:39:40 +0000</pubDate><guid>https://www.spidersoft.com.au/2011/lighttpd-and-mod_expire/</guid><description>&lt;p>Google 
+ 
+ 
+ 
+ 
+ &lt;a href="http://pagespeed.googlelabs.com/">Page Speed Online&lt;/a>
+ is really good service for measuring and optimising your website. After deep analysis we get a lot if clues how to improve speed of your website. But how to 
+ 
+ 
+ 
+ 
+ &lt;a href="http://code.google.com/speed/page-speed/docs/caching.html#LeverageBrowserCaching">Leverage browser caching&lt;/a>
+ if we have 
+ 
+ 
+ 
+ 
+ &lt;a href="http://www.lighttpd.net/">Lighttpd&lt;/a>
+  instead default Apache? We need to use 
+ 
+ 
+ 
+ 
+ &lt;a href="http://redmine.lighttpd.net/wiki/lighttpd/Docs:ModExpire">mod_expire&lt;/a>
+ .&lt;/p></description></item><item><title>Desktop Closure Compiler beta release</title><link>https://www.spidersoft.com.au/2011/desktop-closure-compiler-beta-release/</link><pubDate>Thu, 20 Jan 2011 03:16:24 +0000</pubDate><guid>https://www.spidersoft.com.au/2011/desktop-closure-compiler-beta-release/</guid><description>The Closure Compiler is a tool for making JavaScript download and run faster. It is a true compiler for JavaScript. Instead of compiling from a source language to machine code, it compiles from JavaScript to better JavaScript. It parses your JavaScript, analyzes it, removes dead code and rewrites and minimizes what’s left. It also checks syntax, variable references, and types, and warns about common JavaScript pitfalls.
 Google provides Closure Compiler Service which is web application to compile JavaScript, you can also use Java application or REST API.</description></item><item><title>Classified Ad System</title><link>https://www.spidersoft.com.au/2010/classified-ad-system/</link><pubDate>Fri, 03 Dec 2010 17:18:35 +0000</pubDate><guid>https://www.spidersoft.com.au/2010/classified-ad-system/</guid><description>&lt;p>Classified Ad System is web application which allows you to create unlimited classified ad website. Easy to deploy and use, SEO ready. Users can post their advertisement with images and description.&lt;/p></description></item></channel></rss>

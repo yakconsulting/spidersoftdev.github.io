@@ -6,23 +6,47 @@ Otherwise:
 wget http://pear.php.net/go-pear.phar php go-pear.phar We need geoip-devel libraries:
 yum install geoip-devel
 And newest (not stable) version of geoip:
-sudo ./pecl install geoip-1.</description></item><item><title>Centos PHP 7 LAMP boilerplate</title><link>https://www.spidersoft.com.au/2017/centos-php-7-lamp-boilerplate/</link><pubDate>Tue, 05 Sep 2017 03:45:48 +0000</pubDate><guid>https://www.spidersoft.com.au/2017/centos-php-7-lamp-boilerplate/</guid><description>&lt;p>This time we are going to cook Apache (httpd 2.4), PHP 7.0 as a
-&lt;a href="http://wiki.apache.org/httpd/PHP-FPM">PHP-FPM&lt;/a>
-. Instructions are pretty simple. You can just copy and paste command to get working stack in less then 15 minutes.&lt;/p>
-&lt;p>What you can learn from it? How to install Apache 2.4 and PHP 7, how to enable and opcache, and how to install HTTPS on your server, with purchasing SSL certificate.&lt;/p></description></item><item><title>DirectAdmin enable PUT and DELETE requests</title><link>https://www.spidersoft.com.au/2017/directadmin-enable-put-and-delete-requests/</link><pubDate>Fri, 13 Jan 2017 17:12:30 +0000</pubDate><guid>https://www.spidersoft.com.au/2017/directadmin-enable-put-and-delete-requests/</guid><description>&lt;p>Recently I realised that my
-&lt;a href="https://www.directadmin.com">DirectAdmin&lt;/a>
-hosting doesn’t support PUT and DELETE requests by default. Apparently it’s necessary to make requests to my recent
-&lt;a href="https://www.prestashop.com/en/">PrestaShop&lt;/a>
-API adventures. As usually quick and dirty solution below. All you need to do, just to drop it to custom configuration.&lt;/p></description></item><item><title>Magento 2.1 installation issues</title><link>https://www.spidersoft.com.au/2016/magento-2-1-installation-issues/</link><pubDate>Fri, 23 Dec 2016 11:15:28 +0000</pubDate><guid>https://www.spidersoft.com.au/2016/magento-2-1-installation-issues/</guid><description>&lt;p>I’ve been recently trying to install the latest Magento and was experiencing some issues with Magento installer unable to detect PHP version. My message was pretty weird:&lt;/p>
+sudo ./pecl install geoip-1.</description></item><item><title>Centos PHP 7 LAMP boilerplate</title><link>https://www.spidersoft.com.au/2017/centos-php-7-lamp-boilerplate/</link><pubDate>Tue, 05 Sep 2017 03:45:48 +0000</pubDate><guid>https://www.spidersoft.com.au/2017/centos-php-7-lamp-boilerplate/</guid><description>&lt;p>This time we are going to cook Apache (httpd 2.4), PHP 7.0 as a 
+ 
+ 
+ 
+ 
+ &lt;a href="http://wiki.apache.org/httpd/PHP-FPM">PHP-FPM&lt;/a>
+ . Instructions are pretty simple. You can just copy and paste command to get working stack in less then 15 minutes.&lt;/p>
+&lt;p>What you can learn from it? How to install Apache 2.4 and PHP 7, how to enable and opcache, and how to install HTTPS on your server, with purchasing SSL certificate.&lt;/p></description></item><item><title>DirectAdmin enable PUT and DELETE requests</title><link>https://www.spidersoft.com.au/2017/directadmin-enable-put-and-delete-requests/</link><pubDate>Fri, 13 Jan 2017 17:12:30 +0000</pubDate><guid>https://www.spidersoft.com.au/2017/directadmin-enable-put-and-delete-requests/</guid><description>&lt;p>Recently I realised that my 
+ 
+ 
+ 
+ 
+ &lt;a href="https://www.directadmin.com">DirectAdmin&lt;/a>
+ hosting doesn’t support PUT and DELETE requests by default. Apparently it’s necessary to make requests to my recent 
+ 
+ 
+ 
+ 
+ &lt;a href="https://www.prestashop.com/en/">PrestaShop&lt;/a>
+ API adventures. As usually quick and dirty solution below. All you need to do, just to drop it to custom configuration.&lt;/p></description></item><item><title>Magento 2.1 installation issues</title><link>https://www.spidersoft.com.au/2016/magento-2-1-installation-issues/</link><pubDate>Fri, 23 Dec 2016 11:15:28 +0000</pubDate><guid>https://www.spidersoft.com.au/2016/magento-2-1-installation-issues/</guid><description>&lt;p>I’ve been recently trying to install the latest Magento and was experiencing some issues with Magento installer unable to detect PHP version. My message was pretty weird:&lt;/p>
 &lt;p>&lt;code>Your PHP version is . The required PHP version is&lt;/code>&lt;/p>
 &lt;p>also found couple 500 errors in XHR requests.&lt;/p></description></item><item><title>Caddy rewrite and CodeIgniter</title><link>https://www.spidersoft.com.au/2016/caddy-rewrite-and-codeigniter/</link><pubDate>Mon, 25 Jul 2016 15:19:54 +0000</pubDate><guid>https://www.spidersoft.com.au/2016/caddy-rewrite-and-codeigniter/</guid><description> Caddy it’s a new kid in the block in category super light web servers. Personally – I love it. Same love I feel to CodeIgniter . To marge both of them, we need only basic rewrite rule to drop into caddyfile.
-api.spidersoft.com.au { root /var/www/html/spidersoft.com.au gzip rewrite { to {path} {path}/ /index.php?/{uri} } fastcgi / /var/run/php-sock php }</description></item><item><title>JSON objects in PHP</title><link>https://www.spidersoft.com.au/2016/json-objects-in-php/</link><pubDate>Mon, 25 Jul 2016 15:05:22 +0000</pubDate><guid>https://www.spidersoft.com.au/2016/json-objects-in-php/</guid><description>&lt;p>PHP is easy. You don’t have to know type of variable, before you use it. But sometimes it’s very problematic especially when we are dealing with JSON.&lt;/p></description></item><item><title>Send email using mailgun API without any libraries</title><link>https://www.spidersoft.com.au/2016/send-email-using-mailgun-api-without-any-libraries/</link><pubDate>Fri, 11 Mar 2016 10:39:09 +0000</pubDate><guid>https://www.spidersoft.com.au/2016/send-email-using-mailgun-api-without-any-libraries/</guid><description>&lt;p>Mailgun is well known service provider which allows you send emails via their API or just using regular SMTP servers. SMTP protocol is bit slower, but it’s so common that you can use it everywhere. Each modern application allows you define your own SMTP server to send emails. But… we love speed, SMTP from it’s nature it’s bit slower then regular API call.&lt;/p></description></item><item><title>How slow is FOUND_ROWS function in MySQL</title><link>https://www.spidersoft.com.au/2016/how-slow-is-found_rows-function-in-mysql/</link><pubDate>Mon, 25 Jan 2016 04:15:16 +0000</pubDate><guid>https://www.spidersoft.com.au/2016/how-slow-is-found_rows-function-in-mysql/</guid><description>&lt;p>From many reasons I was always using 
-&lt;a href="http://dev.mysql.com/doc/refman/5.7/en/information-functions.html#function_found-rows">SQL_CALC_FOUND_ROWS&lt;/a>
-to get total number of records, when I was running limited query. Never especially thought about it, until i had some super performance issues with one of my projects. Obviously after quick profiling and googling  i found
-&lt;a href="http://stackoverflow.com/questions/186588/which-is-fastest-select-sql-calc-found-rows-from-table-or-select-count">people complaining about FOUND_ROWS() low performance&lt;/a>
-. I was not aware how big impact it was until I tested.&lt;/p></description></item><item><title>How to handle max_input_vars restriction.</title><link>https://www.spidersoft.com.au/2016/how-to-handle-max_input_vars-restriction/</link><pubDate>Fri, 22 Jan 2016 20:47:04 +0000</pubDate><guid>https://www.spidersoft.com.au/2016/how-to-handle-max_input_vars-restriction/</guid><description>&lt;p>From time to time we could breach 
-&lt;a href="http://php.net/manual/en/info.configuration.php#ini.max-input-vars">max_input_vars&lt;/a>
-restriction. Which basically limitation for server which allows only limited number of input server to reach out server. Usually this number is around 1000. In this short tutorial I will describe, how to easily avoid this problem.&lt;/p></description></item><item><title>PHP 7 on AMI Linux (EC2)</title><link>https://www.spidersoft.com.au/2015/php-7-on-ami-linux-ec2/</link><pubDate>Thu, 10 Dec 2015 14:34:11 +0000</pubDate><guid>https://www.spidersoft.com.au/2015/php-7-on-ami-linux-ec2/</guid><description>&lt;p>PHP 7.0 it&amp;rsquo;s already a while on the market. Let’s install it on EC2 instance.  Here you can find a quick recipe:&lt;/p></description></item><item><title>PhpStorm PHPCodeSniffer and… CodeIgniter style guide</title><link>https://www.spidersoft.com.au/2015/phpstorm-phpcodesniffer-and-codeigniter-style-guide/</link><pubDate>Fri, 10 Jul 2015 01:26:14 +0000</pubDate><guid>https://www.spidersoft.com.au/2015/phpstorm-phpcodesniffer-and-codeigniter-style-guide/</guid><description>This article is related to my previous one about setting up PHPCodeSniffer with CodeIgniter coding standards.
+api.spidersoft.com.au { root /var/www/html/spidersoft.com.au gzip rewrite { to {path} {path}/ /index.php?/{uri} } fastcgi / /var/run/php-sock php }</description></item><item><title>JSON objects in PHP</title><link>https://www.spidersoft.com.au/2016/json-objects-in-php/</link><pubDate>Mon, 25 Jul 2016 15:05:22 +0000</pubDate><guid>https://www.spidersoft.com.au/2016/json-objects-in-php/</guid><description>&lt;p>PHP is easy. You don’t have to know type of variable, before you use it. But sometimes it’s very problematic especially when we are dealing with JSON.&lt;/p></description></item><item><title>Send email using mailgun API without any libraries</title><link>https://www.spidersoft.com.au/2016/send-email-using-mailgun-api-without-any-libraries/</link><pubDate>Fri, 11 Mar 2016 10:39:09 +0000</pubDate><guid>https://www.spidersoft.com.au/2016/send-email-using-mailgun-api-without-any-libraries/</guid><description>&lt;p>Mailgun is well known service provider which allows you send emails via their API or just using regular SMTP servers. SMTP protocol is bit slower, but it’s so common that you can use it everywhere. Each modern application allows you define your own SMTP server to send emails. But… we love speed, SMTP from it’s nature it’s bit slower then regular API call.&lt;/p></description></item><item><title>How slow is FOUND_ROWS function in MySQL</title><link>https://www.spidersoft.com.au/2016/how-slow-is-found_rows-function-in-mysql/</link><pubDate>Mon, 25 Jan 2016 04:15:16 +0000</pubDate><guid>https://www.spidersoft.com.au/2016/how-slow-is-found_rows-function-in-mysql/</guid><description>&lt;p>From many reasons I was always using  
+ 
+ 
+ 
+ 
+ &lt;a href="http://dev.mysql.com/doc/refman/5.7/en/information-functions.html#function_found-rows">SQL_CALC_FOUND_ROWS&lt;/a>
+ to get total number of records, when I was running limited query. Never especially thought about it, until i had some super performance issues with one of my projects. Obviously after quick profiling and googling  i found 
+ 
+ 
+ 
+ 
+ &lt;a href="http://stackoverflow.com/questions/186588/which-is-fastest-select-sql-calc-found-rows-from-table-or-select-count">people complaining about FOUND_ROWS() low performance&lt;/a>
+ . I was not aware how big impact it was until I tested.&lt;/p></description></item><item><title>How to handle max_input_vars restriction.</title><link>https://www.spidersoft.com.au/2016/how-to-handle-max_input_vars-restriction/</link><pubDate>Fri, 22 Jan 2016 20:47:04 +0000</pubDate><guid>https://www.spidersoft.com.au/2016/how-to-handle-max_input_vars-restriction/</guid><description>&lt;p>From time to time we could breach  
+ 
+ 
+ 
+ 
+ &lt;a href="http://php.net/manual/en/info.configuration.php#ini.max-input-vars">max_input_vars&lt;/a>
+ restriction. Which basically limitation for server which allows only limited number of input server to reach out server. Usually this number is around 1000. In this short tutorial I will describe, how to easily avoid this problem.&lt;/p></description></item><item><title>PHP 7 on AMI Linux (EC2)</title><link>https://www.spidersoft.com.au/2015/php-7-on-ami-linux-ec2/</link><pubDate>Thu, 10 Dec 2015 14:34:11 +0000</pubDate><guid>https://www.spidersoft.com.au/2015/php-7-on-ami-linux-ec2/</guid><description>&lt;p>PHP 7.0 it&amp;rsquo;s already a while on the market. Let’s install it on EC2 instance.  Here you can find a quick recipe:&lt;/p></description></item><item><title>PhpStorm PHPCodeSniffer and… CodeIgniter style guide</title><link>https://www.spidersoft.com.au/2015/phpstorm-phpcodesniffer-and-codeigniter-style-guide/</link><pubDate>Fri, 10 Jul 2015 01:26:14 +0000</pubDate><guid>https://www.spidersoft.com.au/2015/phpstorm-phpcodesniffer-and-codeigniter-style-guide/</guid><description>This article is related to my previous one about setting up PHPCodeSniffer with CodeIgniter coding standards.
 Installation on Linux boxes is pretty yeasy:
 sudo pear channel-update pear.php.net yum install php-pear-PHP-CodeSniffer php-phpunit-phpcpd On Mac OS X you have couple options. Pear or Homebrew:
 brew install php-code-sniffer
@@ -30,11 +54,19 @@ And following that, on regular boxes CodeSniffer will be here:
 /usr/share/pear/PHP/CodeSniffer/Standards
 on Mac OS CodeSniffer will be located here:
 /usr/lib/php/pear/PHP/CodeSniffer/Standards or… /usr/local/Cellar/php-code-sniffer/1.5.6/CodeSniffer/Standards
-CodeIgniter standard can be downloaded from this location https://github.</description></item><item><title>XCache vs APC PHP 5.4.x</title><link>https://www.spidersoft.com.au/2015/xcache-vs-apc-php-5-4-x/</link><pubDate>Fri, 24 Apr 2015 08:13:23 +0000</pubDate><guid>https://www.spidersoft.com.au/2015/xcache-vs-apc-php-5-4-x/</guid><description>&lt;p>Recently I decided to run some upgrades on my servers, and go up to PHP 5.5. I’ve been using
-&lt;a href="http://pecl.php.net/package/APC">APC&lt;/a>
-for a while (convenience) – usually is also bundled with all available repositories, or you can just grab it via PECL. Before that I was always with
-&lt;a href="http://xcache.lighttpd.net/">XCache&lt;/a>
-. But… as long APC is no lonager maintained (last upgrade 2012) I make a call about going to XCache. Run some benchmarks, and here what we got.&lt;/p></description></item><item><title>PHPUnit and CodeIgniter 3.0</title><link>https://www.spidersoft.com.au/2015/phpunit-and-codeigniter-3-0/</link><pubDate>Thu, 02 Apr 2015 22:00:22 +0000</pubDate><guid>https://www.spidersoft.com.au/2015/phpunit-and-codeigniter-3-0/</guid><description>Quick tutorial how to setup proper unit testing with PHPUnit and CodeIgniter 3.0.
+CodeIgniter standard can be downloaded from this location https://github.</description></item><item><title>XCache vs APC PHP 5.4.x</title><link>https://www.spidersoft.com.au/2015/xcache-vs-apc-php-5-4-x/</link><pubDate>Fri, 24 Apr 2015 08:13:23 +0000</pubDate><guid>https://www.spidersoft.com.au/2015/xcache-vs-apc-php-5-4-x/</guid><description>&lt;p>Recently I decided to run some upgrades on my servers, and go up to PHP 5.5. I’ve been using 
+ 
+ 
+ 
+ 
+ &lt;a href="http://pecl.php.net/package/APC">APC&lt;/a>
+ for a while (convenience) – usually is also bundled with all available repositories, or you can just grab it via PECL. Before that I was always with 
+ 
+ 
+ 
+ 
+ &lt;a href="http://xcache.lighttpd.net/">XCache&lt;/a>
+ . But… as long APC is no lonager maintained (last upgrade 2012) I make a call about going to XCache. Run some benchmarks, and here what we got.&lt;/p></description></item><item><title>PHPUnit and CodeIgniter 3.0</title><link>https://www.spidersoft.com.au/2015/phpunit-and-codeigniter-3-0/</link><pubDate>Thu, 02 Apr 2015 22:00:22 +0000</pubDate><guid>https://www.spidersoft.com.au/2015/phpunit-and-codeigniter-3-0/</guid><description>Quick tutorial how to setup proper unit testing with PHPUnit and CodeIgniter 3.0.
 We need couple elements
 CodeIgniter – we are working with version 3.0rc3 PHPUnit – latest one If you don’t have phpunit installed globally, you can go with composer, just add section to your composer.json
 { &amp;#34;require-dev&amp;#34;: { &amp;#34;phpunit/phpunit&amp;#34;: &amp;#34;4.1.*&amp;#34; } } and then
@@ -51,42 +83,92 @@ sudo apachectl start
 Then make some changes in httpd.conf file
 sudo nano /etc/apache2/httpd.conf
 Find two lines
-LoadModule rewrite_module libexec/apache2/mod_rewrite.</description></item><item><title>HHVM on Amazon EC2 in 2 minutes</title><link>https://www.spidersoft.com.au/2014/hhvm-on-amazon-ec2-in-2-minutes/</link><pubDate>Sat, 20 Sep 2014 23:18:54 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/hhvm-on-amazon-ec2-in-2-minutes/</guid><description>&lt;p>Probably you already heard about 
-&lt;a href="http://hhvm.com/">HHVM&lt;/a>
-. As on their website:&lt;/p>
+LoadModule rewrite_module libexec/apache2/mod_rewrite.</description></item><item><title>HHVM on Amazon EC2 in 2 minutes</title><link>https://www.spidersoft.com.au/2014/hhvm-on-amazon-ec2-in-2-minutes/</link><pubDate>Sat, 20 Sep 2014 23:18:54 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/hhvm-on-amazon-ec2-in-2-minutes/</guid><description>&lt;p>Probably you already heard about  
+ 
+ 
+ 
+ 
+ &lt;a href="http://hhvm.com/">HHVM&lt;/a>
+ . As on their website:&lt;/p>
 &lt;blockquote>
-&lt;p>HHVM is an
-&lt;a href="http://github.com/facebook/hhvm">open-source&lt;/a>
-virtual machine designed for executing programs written in
-&lt;a href="http://hacklang.org/">Hack&lt;/a>
- and
-&lt;a href="http://php.net/">PHP&lt;/a>
-. HHVM uses a just-in-time (JIT) compilation approach to achieve superior performance while maintaining the development flexibility that PHP provides.&lt;/p>
+&lt;p>HHVM is an 
+ 
+ 
+ 
+ 
+ &lt;a href="http://github.com/facebook/hhvm">open-source&lt;/a>
+ virtual machine designed for executing programs written in 
+ 
+ 
+ 
+ 
+ &lt;a href="http://hacklang.org/">Hack&lt;/a>
+  and 
+ 
+ 
+ 
+ 
+ &lt;a href="http://php.net/">PHP&lt;/a>
+ . HHVM uses a just-in-time (JIT) compilation approach to achieve superior performance while maintaining the development flexibility that PHP provides.&lt;/p>
 &lt;/blockquote>
-&lt;p>Using simple terms – HHVM allows you run scripts written in PHP but much, much more faster. Obviously you the main purpose of HHVM is to run HACK language, but it works pretty good with PHP itself.&lt;/p></description></item><item><title>PHP, work queues</title><link>https://www.spidersoft.com.au/2014/php-work-queues/</link><pubDate>Thu, 21 Aug 2014 04:30:27 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/php-work-queues/</guid><description>&lt;p>Biggest pain point in PHP is lack of asynchronous calls. The only reasonable way is to use some kind of “backend” processing and task list to execute. Some people use cron to run given script each n-minutes and execute tasks. But there is a little bit more “professional” approach. 
-&lt;a href="http://kr.github.io/beanstalkd/">Beanstalk&lt;/a>
-is a simple, fast work queue. Idea is pretty simple – you can just throw tasks into queue and then have background worker which is pulling data from pipe and executes task.&lt;/p>
-&lt;p>Couple ideas: sending emails, processing images, making heavy queries into database. But the best part of it – you don’t have to use PHP for back processing. It could be anything, because protocol us universal and worker and client doesn’t have to be in the same language. So you can schedule task in PHP, and run it in Go. I’m not going too much into details. Just run some examples.&lt;/p></description></item><item><title>Phalcon – super simple REST API example</title><link>https://www.spidersoft.com.au/2014/phalcon-simple-rest-api-example/</link><pubDate>Thu, 10 Jul 2014 04:24:38 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/phalcon-simple-rest-api-example/</guid><description>&lt;p>Throughout this first tutorial, i’ll walk you through the creation of an application with a simple REST API from the ground up. I assume you have
-&lt;a href="http://phalconphp.com/en/">Phalcon&lt;/a>
-. installed already.&lt;/p></description></item><item><title>Phalcon is a new PHP Framework of my choice</title><link>https://www.spidersoft.com.au/2014/phalcon-is-a-new-php-framework-of-my-choice/</link><pubDate>Fri, 27 Jun 2014 07:11:17 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/phalcon-is-a-new-php-framework-of-my-choice/</guid><description>&lt;p>I’m working on multiple PHP based projects. Most of them using
-&lt;a href="http://ellislab.com/codeigniter">CodeIgniter&lt;/a>
-as a base framework. I mastered it into stage, where has no secrets for me. The problem is that I also know disadvantages of this bit outdated framework. Recently core
-&lt;a href="http://ellislab.com/blog/entry/ellislab-seeking-new-owner-for-codeigniter">team announced&lt;/a>
-that they are dropping future development so it means that CI is dead. Doesn’t mean that I don’t like it anymore. I just started looking for something new.&lt;/p>
-&lt;p>I like CI because I got control over everything. Modern PHP frameworks trying to solve all problems for you. It’s amazing, but lack of control is what you don’t need in when you developing projects. What do you need it’s this easy flow during development process. Full control over your MVC structure, but also a lot of “help” from framework itself.&lt;/p></description></item><item><title>Apache 2.4, PHP 5.4 on EC2 instance</title><link>https://www.spidersoft.com.au/2014/apache-2-4-php-5-4-on-ec2-instance/</link><pubDate>Tue, 27 May 2014 04:04:19 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/apache-2-4-php-5-4-on-ec2-instance/</guid><description>&lt;p>This tutorial just updated version of my
-&lt;a href="https://www.spidersoft.com.au/2013/apache-php-config-boilerplate/" title="Amazon EC2 – Installing Apache and PHP boilerplate" target="_blank" rel="noopener">previous one&lt;/a>
-. This time we are going to install newer version of apache (httpd 2.4), PHP 5.4 but as a
-&lt;a href="https://wiki.apache.org/httpd/PHP-FPM">PHP-FPM&lt;/a>
-. Instructions are pretty simple. You can just copy and paste command to get working stack in less then 15 minutes.&lt;/p>
+&lt;p>Using simple terms – HHVM allows you run scripts written in PHP but much, much more faster. Obviously you the main purpose of HHVM is to run HACK language, but it works pretty good with PHP itself.&lt;/p></description></item><item><title>PHP, work queues</title><link>https://www.spidersoft.com.au/2014/php-work-queues/</link><pubDate>Thu, 21 Aug 2014 04:30:27 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/php-work-queues/</guid><description>&lt;p>Biggest pain point in PHP is lack of asynchronous calls. The only reasonable way is to use some kind of “backend” processing and task list to execute. Some people use cron to run given script each n-minutes and execute tasks. But there is a little bit more “professional” approach.  
+ 
+ 
+ 
+ 
+ &lt;a href="http://kr.github.io/beanstalkd/">Beanstalk&lt;/a>
+ is a simple, fast work queue. Idea is pretty simple – you can just throw tasks into queue and then have background worker which is pulling data from pipe and executes task.&lt;/p>
+&lt;p>Couple ideas: sending emails, processing images, making heavy queries into database. But the best part of it – you don’t have to use PHP for back processing. It could be anything, because protocol us universal and worker and client doesn’t have to be in the same language. So you can schedule task in PHP, and run it in Go. I’m not going too much into details. Just run some examples.&lt;/p></description></item><item><title>Phalcon – super simple REST API example</title><link>https://www.spidersoft.com.au/2014/phalcon-simple-rest-api-example/</link><pubDate>Thu, 10 Jul 2014 04:24:38 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/phalcon-simple-rest-api-example/</guid><description>&lt;p>Throughout this first tutorial, i’ll walk you through the creation of an application with a simple REST API from the ground up. I assume you have 
+ 
+ 
+ 
+ 
+ &lt;a href="http://phalconphp.com/en/">Phalcon&lt;/a>
+ . installed already.&lt;/p></description></item><item><title>Phalcon is a new PHP Framework of my choice</title><link>https://www.spidersoft.com.au/2014/phalcon-is-a-new-php-framework-of-my-choice/</link><pubDate>Fri, 27 Jun 2014 07:11:17 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/phalcon-is-a-new-php-framework-of-my-choice/</guid><description>&lt;p>I’m working on multiple PHP based projects. Most of them using 
+ 
+ 
+ 
+ 
+ &lt;a href="http://ellislab.com/codeigniter">CodeIgniter&lt;/a>
+ as a base framework. I mastered it into stage, where has no secrets for me. The problem is that I also know disadvantages of this bit outdated framework. Recently core 
+ 
+ 
+ 
+ 
+ &lt;a href="http://ellislab.com/blog/entry/ellislab-seeking-new-owner-for-codeigniter">team announced&lt;/a>
+ that they are dropping future development so it means that CI is dead. Doesn’t mean that I don’t like it anymore. I just started looking for something new.&lt;/p>
+&lt;p>I like CI because I got control over everything. Modern PHP frameworks trying to solve all problems for you. It’s amazing, but lack of control is what you don’t need in when you developing projects. What do you need it’s this easy flow during development process. Full control over your MVC structure, but also a lot of “help” from framework itself.&lt;/p></description></item><item><title>Apache 2.4, PHP 5.4 on EC2 instance</title><link>https://www.spidersoft.com.au/2014/apache-2-4-php-5-4-on-ec2-instance/</link><pubDate>Tue, 27 May 2014 04:04:19 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/apache-2-4-php-5-4-on-ec2-instance/</guid><description>&lt;p>This tutorial just updated version of my 
+ 
+ 
+ &lt;a href="https://www.spidersoft.com.au/2013/apache-php-config-boilerplate/" title="Amazon EC2 – Installing Apache and PHP boilerplate" target="_blank" rel="noopener">previous one&lt;/a>
+ . This time we are going to install newer version of apache (httpd 2.4), PHP 5.4 but as a 
+ 
+ 
+ 
+ 
+ &lt;a href="https://wiki.apache.org/httpd/PHP-FPM">PHP-FPM&lt;/a>
+ . Instructions are pretty simple. You can just copy and paste command to get working stack in less then 15 minutes.&lt;/p>
 &lt;p>What you can learn from it? How to install Apache 2.4 and PHP 5.4, how to enable and APC, and how to install HTTPS on your server, with purchasing SSL certificate.&lt;/p></description></item><item><title>Amazon EC2 – Installing Apache and PHP boilerplate</title><link>https://www.spidersoft.com.au/2013/apache-php-config-boilerplate/</link><pubDate>Thu, 14 Feb 2013 05:22:55 +0000</pubDate><guid>https://www.spidersoft.com.au/2013/apache-php-config-boilerplate/</guid><description>&lt;p>In this extremely simply tutorial I’m going to show, how you can deploy basic LAMP stack on EC2 instance. Instruction are pretty basic, without extra comments. You can just copy and paste command to get working stack in lest then 15 minutes.&lt;/p>
-&lt;p>What you can learn from it? How to install Apache and PHP, how to enable and run XCache accelerator, and how to run HTTPS on your server, with purchasing SSL certificate.&lt;/p></description></item><item><title>How to Install GeoIP extension on CentOS</title><link>https://www.spidersoft.com.au/2012/how-to-install-geoip-extension-on-centos/</link><pubDate>Tue, 23 Oct 2012 02:32:56 +0000</pubDate><guid>https://www.spidersoft.com.au/2012/how-to-install-geoip-extension-on-centos/</guid><description>&lt;p>Small 2019 update – Please check out this library –
-&lt;a href="https://github.com/maxmind/MaxMind-DB-Reader-php">github.com/maxmind/MaxMind-DB-Reader-php&lt;/a>
-. It’s a straight replacement of PHP module.&lt;/p>
-&lt;p>
-&lt;a href="http://pecl.php.net/package/geoip">GeoIP from PECL&lt;/a>
-is powerful extension used to determine geographical locations of IP addresses and domain names. This is useful if you want to set a language or redirection based on location of your visitor. Check out the PHP docs for a full list of
-&lt;a href="http://www.php.net/manual/en/ref.geoip.php">GeoIP functions&lt;/a>
-.&lt;/p></description></item><item><title>CodeIgniter and PHP_CodeSniffer</title><link>https://www.spidersoft.com.au/2012/codeigniter-and-php_codesniffer/</link><pubDate>Wed, 07 Mar 2012 08:28:40 +0000</pubDate><guid>https://www.spidersoft.com.au/2012/codeigniter-and-php_codesniffer/</guid><description>CodeIgniter is the king 😉 But if we want to create good quality code, we should be aware about CodeIgniter style guide standards. What can be better than PHP_CodeSniffer for keeping our code consistent and clean as much as it possible.
+&lt;p>What you can learn from it? How to install Apache and PHP, how to enable and run XCache accelerator, and how to run HTTPS on your server, with purchasing SSL certificate.&lt;/p></description></item><item><title>How to Install GeoIP extension on CentOS</title><link>https://www.spidersoft.com.au/2012/how-to-install-geoip-extension-on-centos/</link><pubDate>Tue, 23 Oct 2012 02:32:56 +0000</pubDate><guid>https://www.spidersoft.com.au/2012/how-to-install-geoip-extension-on-centos/</guid><description>&lt;p>Small 2019 update – Please check out this library – 
+ 
+ 
+ 
+ 
+ &lt;a href="https://github.com/maxmind/MaxMind-DB-Reader-php">github.com/maxmind/MaxMind-DB-Reader-php&lt;/a>
+ . It’s a straight replacement of PHP module.&lt;/p>
+&lt;p> 
+ 
+ 
+ 
+ 
+ &lt;a href="http://pecl.php.net/package/geoip">GeoIP from PECL&lt;/a>
+ is powerful extension used to determine geographical locations of IP addresses and domain names. This is useful if you want to set a language or redirection based on location of your visitor. Check out the PHP docs for a full list of 
+ 
+ 
+ 
+ 
+ &lt;a href="http://www.php.net/manual/en/ref.geoip.php">GeoIP functions&lt;/a>
+ .&lt;/p></description></item><item><title>CodeIgniter and PHP_CodeSniffer</title><link>https://www.spidersoft.com.au/2012/codeigniter-and-php_codesniffer/</link><pubDate>Wed, 07 Mar 2012 08:28:40 +0000</pubDate><guid>https://www.spidersoft.com.au/2012/codeigniter-and-php_codesniffer/</guid><description>CodeIgniter is the king 😉 But if we want to create good quality code, we should be aware about CodeIgniter style guide standards. What can be better than PHP_CodeSniffer for keeping our code consistent and clean as much as it possible.
 Unfortunately standard rules from PHP_CodeSniffer doesn’t apply for CodeIgniter. You have to install additional set of rules – you can download them from here: PHP_CodeSniffer rules for CI .</description></item><item><title>Attribute value in Magento</title><link>https://www.spidersoft.com.au/2011/attribute-value-in-magento/</link><pubDate>Mon, 15 Aug 2011 02:37:29 +0000</pubDate><guid>https://www.spidersoft.com.au/2011/attribute-value-in-magento/</guid><description>&lt;p>Some useful function for managing attribute values in Magento.&lt;/p></description></item><item><title>Piwik as a alternative to Google Analytics</title><link>https://www.spidersoft.com.au/2010/piwik-as-a-alternative-to-google-analytics/</link><pubDate>Thu, 02 Dec 2010 21:41:50 +0000</pubDate><guid>https://www.spidersoft.com.au/2010/piwik-as-a-alternative-to-google-analytics/</guid><description>Piwik is a downloadable, open source (GPL licensed) real time web analytics software program. It provides you with detailed reports on your website visitors: the search engines and keywords they used, the language they speak, your popular pages… and so much more.
 It’s great free open source alternative for Google Analytics. It’s easier and more readably for regular user to understand traffic on your website.
 What makes Piwik unique from the competition:</description></item></channel></rss>

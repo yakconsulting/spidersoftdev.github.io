@@ -2,6 +2,10 @@
 What we need are just two simple regular expressions.
 One to find links &amp;lt;a.*?href=&amp;quot;(.+?)&amp;quot;.*?&amp;gt;(.+?)&amp;lt;/a&amp;gt;
 Second one to replace them in reverse order [$2]($1)
-You can run this in basically any IDE - Sublime will do the job, I was using PHPStorm</description></item><item><title>Clearing up git submodules problems</title><link>https://www.spidersoft.com.au/2021/clearing-up-git-submodule-problem/</link><pubDate>Thu, 19 Aug 2021 12:44:18 +0000</pubDate><guid>https://www.spidersoft.com.au/2021/clearing-up-git-submodule-problem/</guid><description>&lt;p>As some of you noted, I moved my blog into
-&lt;a href="https://gohugo.io">Hugo&lt;/a>
-. You have to pull multiple git repositories to compile the entire project during the build process. Because begging is always challenging, it&amp;rsquo;s always trial and error, and I ended up having many sub-repositories missing. I&amp;rsquo;m now going to show the whole journey how to solve &amp;ldquo;the issue&amp;rdquo;.&lt;/p></description></item></channel></rss>
+You can run this in basically any IDE - Sublime will do the job, I was using PHPStorm</description></item><item><title>Clearing up git submodules problems</title><link>https://www.spidersoft.com.au/2021/clearing-up-git-submodule-problem/</link><pubDate>Thu, 19 Aug 2021 12:44:18 +0000</pubDate><guid>https://www.spidersoft.com.au/2021/clearing-up-git-submodule-problem/</guid><description>&lt;p>As some of you noted, I moved my blog into 
+ 
+ 
+ 
+ 
+ &lt;a href="https://gohugo.io">Hugo&lt;/a>
+ . You have to pull multiple git repositories to compile the entire project during the build process. Because begging is always challenging, it&amp;rsquo;s always trial and error, and I ended up having many sub-repositories missing. I&amp;rsquo;m now going to show the whole journey how to solve &amp;ldquo;the issue&amp;rdquo;.&lt;/p></description></item></channel></rss>

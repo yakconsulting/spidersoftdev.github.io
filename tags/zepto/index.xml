@@ -1,5 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>zepto on SpiderSoft</title><link>https://www.spidersoft.com.au/tags/zepto/</link><description>Recent content in zepto on SpiderSoft</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 02 Mar 2015 05:45:54 +0000</lastBuildDate><atom:link href="https://www.spidersoft.com.au/tags/zepto/index.xml" rel="self" type="application/rss+xml"/><item><title>interesting jQuery alternative – laroux.js</title><link>https://www.spidersoft.com.au/2015/interesting-jquery-alternative-laroux-js/</link><pubDate>Mon, 02 Mar 2015 05:45:54 +0000</pubDate><guid>https://www.spidersoft.com.au/2015/interesting-jquery-alternative-laroux-js/</guid><description>&lt;p>If we are talking about
-&lt;a href="http://jquery.com">jQuery&lt;/a>
-alternatives there is not much on the market. With age jQuery put a little bit on weight, not mentioning it’s speed. If we are talking about weight and speed we have
-&lt;a href="http://zeptojs.com">Zepto.js&lt;/a>
-and… we can use pure JavaScript which isn’t especially convenient in larger  projects. But definitely it’s much more but… it’s faster.&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>zepto on SpiderSoft</title><link>https://www.spidersoft.com.au/tags/zepto/</link><description>Recent content in zepto on SpiderSoft</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 02 Mar 2015 05:45:54 +0000</lastBuildDate><atom:link href="https://www.spidersoft.com.au/tags/zepto/index.xml" rel="self" type="application/rss+xml"/><item><title>interesting jQuery alternative – laroux.js</title><link>https://www.spidersoft.com.au/2015/interesting-jquery-alternative-laroux-js/</link><pubDate>Mon, 02 Mar 2015 05:45:54 +0000</pubDate><guid>https://www.spidersoft.com.au/2015/interesting-jquery-alternative-laroux-js/</guid><description>&lt;p>If we are talking about 
+ 
+ 
+ 
+ 
+ &lt;a href="http://jquery.com">jQuery&lt;/a>
+ alternatives there is not much on the market. With age jQuery put a little bit on weight, not mentioning it’s speed. If we are talking about weight and speed we have 
+ 
+ 
+ 
+ 
+ &lt;a href="http://zeptojs.com">Zepto.js&lt;/a>
+ and… we can use pure JavaScript which isn’t especially convenient in larger  projects. But definitely it’s much more but… it’s faster.&lt;/p></description></item></channel></rss>

@@ -1,13 +1,29 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>hhvm on SpiderSoft</title><link>https://www.spidersoft.com.au/tags/hhvm/</link><description>Recent content in hhvm on SpiderSoft</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 20 Sep 2014 23:18:54 +0000</lastBuildDate><atom:link href="https://www.spidersoft.com.au/tags/hhvm/index.xml" rel="self" type="application/rss+xml"/><item><title>HHVM on Amazon EC2 in 2 minutes</title><link>https://www.spidersoft.com.au/2014/hhvm-on-amazon-ec2-in-2-minutes/</link><pubDate>Sat, 20 Sep 2014 23:18:54 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/hhvm-on-amazon-ec2-in-2-minutes/</guid><description>&lt;p>Probably you already heard about 
-&lt;a href="http://hhvm.com/">HHVM&lt;/a>
-. As on their website:&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>hhvm on SpiderSoft</title><link>https://www.spidersoft.com.au/tags/hhvm/</link><description>Recent content in hhvm on SpiderSoft</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 20 Sep 2014 23:18:54 +0000</lastBuildDate><atom:link href="https://www.spidersoft.com.au/tags/hhvm/index.xml" rel="self" type="application/rss+xml"/><item><title>HHVM on Amazon EC2 in 2 minutes</title><link>https://www.spidersoft.com.au/2014/hhvm-on-amazon-ec2-in-2-minutes/</link><pubDate>Sat, 20 Sep 2014 23:18:54 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/hhvm-on-amazon-ec2-in-2-minutes/</guid><description>&lt;p>Probably you already heard about  
+ 
+ 
+ 
+ 
+ &lt;a href="http://hhvm.com/">HHVM&lt;/a>
+ . As on their website:&lt;/p>
 &lt;blockquote>
-&lt;p>HHVM is an
-&lt;a href="http://github.com/facebook/hhvm">open-source&lt;/a>
-virtual machine designed for executing programs written in
-&lt;a href="http://hacklang.org/">Hack&lt;/a>
- and
-&lt;a href="http://php.net/">PHP&lt;/a>
-. HHVM uses a just-in-time (JIT) compilation approach to achieve superior performance while maintaining the development flexibility that PHP provides.&lt;/p>
+&lt;p>HHVM is an 
+ 
+ 
+ 
+ 
+ &lt;a href="http://github.com/facebook/hhvm">open-source&lt;/a>
+ virtual machine designed for executing programs written in 
+ 
+ 
+ 
+ 
+ &lt;a href="http://hacklang.org/">Hack&lt;/a>
+  and 
+ 
+ 
+ 
+ 
+ &lt;a href="http://php.net/">PHP&lt;/a>
+ . HHVM uses a just-in-time (JIT) compilation approach to achieve superior performance while maintaining the development flexibility that PHP provides.&lt;/p>
 &lt;/blockquote>
 &lt;p>Using simple terms – HHVM allows you run scripts written in PHP but much, much more faster. Obviously you the main purpose of HHVM is to run HACK language, but it works pretty good with PHP itself.&lt;/p></description></item></channel></rss>

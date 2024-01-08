@@ -1,19 +1,43 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>php on SpiderSoft</title><link>https://www.spidersoft.com.au/tags/php/</link><description>Recent content in php on SpiderSoft</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 28 Jan 2019 09:46:20 +0000</lastBuildDate><atom:link href="https://www.spidersoft.com.au/tags/php/index.xml" rel="self" type="application/rss+xml"/><item><title>Web Server on AMI Linux 2</title><link>https://www.spidersoft.com.au/2019/web-server-on-ami-linux-2/</link><pubDate>Mon, 28 Jan 2019 09:46:20 +0000</pubDate><guid>https://www.spidersoft.com.au/2019/web-server-on-ami-linux-2/</guid><description>&lt;p>Welcome in 2019 – it’s time to upgrade out outdated LAMP stack series articles, with new “How To” setup basic web server for our stack.&lt;/p></description></item><item><title>Centos PHP 7 LAMP boilerplate</title><link>https://www.spidersoft.com.au/2017/centos-php-7-lamp-boilerplate/</link><pubDate>Tue, 05 Sep 2017 03:45:48 +0000</pubDate><guid>https://www.spidersoft.com.au/2017/centos-php-7-lamp-boilerplate/</guid><description>&lt;p>This time we are going to cook Apache (httpd 2.4), PHP 7.0 as a
-&lt;a href="http://wiki.apache.org/httpd/PHP-FPM">PHP-FPM&lt;/a>
-. Instructions are pretty simple. You can just copy and paste command to get working stack in less then 15 minutes.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>php on SpiderSoft</title><link>https://www.spidersoft.com.au/tags/php/</link><description>Recent content in php on SpiderSoft</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 28 Jan 2019 09:46:20 +0000</lastBuildDate><atom:link href="https://www.spidersoft.com.au/tags/php/index.xml" rel="self" type="application/rss+xml"/><item><title>Web Server on AMI Linux 2</title><link>https://www.spidersoft.com.au/2019/web-server-on-ami-linux-2/</link><pubDate>Mon, 28 Jan 2019 09:46:20 +0000</pubDate><guid>https://www.spidersoft.com.au/2019/web-server-on-ami-linux-2/</guid><description>&lt;p>Welcome in 2019 – it’s time to upgrade out outdated LAMP stack series articles, with new “How To” setup basic web server for our stack.&lt;/p></description></item><item><title>Centos PHP 7 LAMP boilerplate</title><link>https://www.spidersoft.com.au/2017/centos-php-7-lamp-boilerplate/</link><pubDate>Tue, 05 Sep 2017 03:45:48 +0000</pubDate><guid>https://www.spidersoft.com.au/2017/centos-php-7-lamp-boilerplate/</guid><description>&lt;p>This time we are going to cook Apache (httpd 2.4), PHP 7.0 as a 
+ 
+ 
+ 
+ 
+ &lt;a href="http://wiki.apache.org/httpd/PHP-FPM">PHP-FPM&lt;/a>
+ . Instructions are pretty simple. You can just copy and paste command to get working stack in less then 15 minutes.&lt;/p>
 &lt;p>What you can learn from it? How to install Apache 2.4 and PHP 7, how to enable and opcache, and how to install HTTPS on your server, with purchasing SSL certificate.&lt;/p></description></item><item><title>How to choose the right technology for your next project</title><link>https://www.spidersoft.com.au/2017/how-to-choose-the-right-technology-for-your-next-project/</link><pubDate>Fri, 31 Mar 2017 06:41:56 +0000</pubDate><guid>https://www.spidersoft.com.au/2017/how-to-choose-the-right-technology-for-your-next-project/</guid><description>&lt;p>People quite often asking me about &lt;em>technology stack&lt;/em>, and where to go with next big project. The answer isn’t simple – it depends. Usually, we have couple components which are critical for the whole system. If we are talking about a web-based solution or any API we have to decide about DATABASE, then we have STORAGE, moving on – some BACKEND service language.&lt;/p></description></item><item><title>Magento 2.1 installation issues</title><link>https://www.spidersoft.com.au/2016/magento-2-1-installation-issues/</link><pubDate>Fri, 23 Dec 2016 11:15:28 +0000</pubDate><guid>https://www.spidersoft.com.au/2016/magento-2-1-installation-issues/</guid><description>&lt;p>I’ve been recently trying to install the latest Magento and was experiencing some issues with Magento installer unable to detect PHP version. My message was pretty weird:&lt;/p>
 &lt;p>&lt;code>Your PHP version is . The required PHP version is&lt;/code>&lt;/p>
-&lt;p>also found couple 500 errors in XHR requests.&lt;/p></description></item><item><title>JSON objects in PHP</title><link>https://www.spidersoft.com.au/2016/json-objects-in-php/</link><pubDate>Mon, 25 Jul 2016 15:05:22 +0000</pubDate><guid>https://www.spidersoft.com.au/2016/json-objects-in-php/</guid><description>&lt;p>PHP is easy. You don’t have to know type of variable, before you use it. But sometimes it’s very problematic especially when we are dealing with JSON.&lt;/p></description></item><item><title>Setting up caddy server for wordpress</title><link>https://www.spidersoft.com.au/2016/setting-up-caddy-server-for-wordpress/</link><pubDate>Mon, 08 Feb 2016 09:03:34 +0000</pubDate><guid>https://www.spidersoft.com.au/2016/setting-up-caddy-server-for-wordpress/</guid><description>&lt;p>
-&lt;a href="https://caddyserver.com">Caddy&lt;/a>
-is a another alternative to
-&lt;a href="https://httpd.apache.org">Apache&lt;/a>
-or
-&lt;a href="http://nginx.org">nginx&lt;/a>
-. For me the biggest advantage is that it’s only one binary file to work with. It’s easy to run, setup and just “works”. It’s super modern – handles HTTP2 and automatic HTTPS encryption using let’s encrypt certificates. Obviously it has plenty of other features but we focus only on speed of deployment.&lt;/p></description></item><item><title>How slow is FOUND_ROWS function in MySQL</title><link>https://www.spidersoft.com.au/2016/how-slow-is-found_rows-function-in-mysql/</link><pubDate>Mon, 25 Jan 2016 04:15:16 +0000</pubDate><guid>https://www.spidersoft.com.au/2016/how-slow-is-found_rows-function-in-mysql/</guid><description>&lt;p>From many reasons I was always using 
-&lt;a href="http://dev.mysql.com/doc/refman/5.7/en/information-functions.html#function_found-rows">SQL_CALC_FOUND_ROWS&lt;/a>
-to get total number of records, when I was running limited query. Never especially thought about it, until i had some super performance issues with one of my projects. Obviously after quick profiling and googling  i found
-&lt;a href="http://stackoverflow.com/questions/186588/which-is-fastest-select-sql-calc-found-rows-from-table-or-select-count">people complaining about FOUND_ROWS() low performance&lt;/a>
-. I was not aware how big impact it was until I tested.&lt;/p></description></item><item><title>PHP 7 on AMI Linux (EC2)</title><link>https://www.spidersoft.com.au/2015/php-7-on-ami-linux-ec2/</link><pubDate>Thu, 10 Dec 2015 14:34:11 +0000</pubDate><guid>https://www.spidersoft.com.au/2015/php-7-on-ami-linux-ec2/</guid><description>&lt;p>PHP 7.0 it&amp;rsquo;s already a while on the market. Let’s install it on EC2 instance.  Here you can find a quick recipe:&lt;/p></description></item><item><title>PhpStorm PHPCodeSniffer and… CodeIgniter style guide</title><link>https://www.spidersoft.com.au/2015/phpstorm-phpcodesniffer-and-codeigniter-style-guide/</link><pubDate>Fri, 10 Jul 2015 01:26:14 +0000</pubDate><guid>https://www.spidersoft.com.au/2015/phpstorm-phpcodesniffer-and-codeigniter-style-guide/</guid><description>This article is related to my previous one about setting up PHPCodeSniffer with CodeIgniter coding standards.
+&lt;p>also found couple 500 errors in XHR requests.&lt;/p></description></item><item><title>JSON objects in PHP</title><link>https://www.spidersoft.com.au/2016/json-objects-in-php/</link><pubDate>Mon, 25 Jul 2016 15:05:22 +0000</pubDate><guid>https://www.spidersoft.com.au/2016/json-objects-in-php/</guid><description>&lt;p>PHP is easy. You don’t have to know type of variable, before you use it. But sometimes it’s very problematic especially when we are dealing with JSON.&lt;/p></description></item><item><title>Setting up caddy server for wordpress</title><link>https://www.spidersoft.com.au/2016/setting-up-caddy-server-for-wordpress/</link><pubDate>Mon, 08 Feb 2016 09:03:34 +0000</pubDate><guid>https://www.spidersoft.com.au/2016/setting-up-caddy-server-for-wordpress/</guid><description>&lt;p> 
+ 
+ 
+ 
+ 
+ &lt;a href="https://caddyserver.com">Caddy&lt;/a>
+ is a another alternative to 
+ 
+ 
+ 
+ 
+ &lt;a href="https://httpd.apache.org">Apache&lt;/a>
+ or 
+ 
+ 
+ 
+ 
+ &lt;a href="http://nginx.org">nginx&lt;/a>
+ . For me the biggest advantage is that it’s only one binary file to work with. It’s easy to run, setup and just “works”. It’s super modern – handles HTTP2 and automatic HTTPS encryption using let’s encrypt certificates. Obviously it has plenty of other features but we focus only on speed of deployment.&lt;/p></description></item><item><title>How slow is FOUND_ROWS function in MySQL</title><link>https://www.spidersoft.com.au/2016/how-slow-is-found_rows-function-in-mysql/</link><pubDate>Mon, 25 Jan 2016 04:15:16 +0000</pubDate><guid>https://www.spidersoft.com.au/2016/how-slow-is-found_rows-function-in-mysql/</guid><description>&lt;p>From many reasons I was always using  
+ 
+ 
+ 
+ 
+ &lt;a href="http://dev.mysql.com/doc/refman/5.7/en/information-functions.html#function_found-rows">SQL_CALC_FOUND_ROWS&lt;/a>
+ to get total number of records, when I was running limited query. Never especially thought about it, until i had some super performance issues with one of my projects. Obviously after quick profiling and googling  i found 
+ 
+ 
+ 
+ 
+ &lt;a href="http://stackoverflow.com/questions/186588/which-is-fastest-select-sql-calc-found-rows-from-table-or-select-count">people complaining about FOUND_ROWS() low performance&lt;/a>
+ . I was not aware how big impact it was until I tested.&lt;/p></description></item><item><title>PHP 7 on AMI Linux (EC2)</title><link>https://www.spidersoft.com.au/2015/php-7-on-ami-linux-ec2/</link><pubDate>Thu, 10 Dec 2015 14:34:11 +0000</pubDate><guid>https://www.spidersoft.com.au/2015/php-7-on-ami-linux-ec2/</guid><description>&lt;p>PHP 7.0 it&amp;rsquo;s already a while on the market. Let’s install it on EC2 instance.  Here you can find a quick recipe:&lt;/p></description></item><item><title>PhpStorm PHPCodeSniffer and… CodeIgniter style guide</title><link>https://www.spidersoft.com.au/2015/phpstorm-phpcodesniffer-and-codeigniter-style-guide/</link><pubDate>Fri, 10 Jul 2015 01:26:14 +0000</pubDate><guid>https://www.spidersoft.com.au/2015/phpstorm-phpcodesniffer-and-codeigniter-style-guide/</guid><description>This article is related to my previous one about setting up PHPCodeSniffer with CodeIgniter coding standards.
 Installation on Linux boxes is pretty yeasy:
 sudo pear channel-update pear.php.net yum install php-pear-PHP-CodeSniffer php-phpunit-phpcpd On Mac OS X you have couple options. Pear or Homebrew:
 brew install php-code-sniffer
@@ -38,46 +62,100 @@ sudo apachectl start
 Then make some changes in httpd.conf file
 sudo nano /etc/apache2/httpd.conf
 Find two lines
-LoadModule rewrite_module libexec/apache2/mod_rewrite.</description></item><item><title>HHVM on Amazon EC2 in 2 minutes</title><link>https://www.spidersoft.com.au/2014/hhvm-on-amazon-ec2-in-2-minutes/</link><pubDate>Sat, 20 Sep 2014 23:18:54 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/hhvm-on-amazon-ec2-in-2-minutes/</guid><description>&lt;p>Probably you already heard about 
-&lt;a href="http://hhvm.com/">HHVM&lt;/a>
-. As on their website:&lt;/p>
+LoadModule rewrite_module libexec/apache2/mod_rewrite.</description></item><item><title>HHVM on Amazon EC2 in 2 minutes</title><link>https://www.spidersoft.com.au/2014/hhvm-on-amazon-ec2-in-2-minutes/</link><pubDate>Sat, 20 Sep 2014 23:18:54 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/hhvm-on-amazon-ec2-in-2-minutes/</guid><description>&lt;p>Probably you already heard about  
+ 
+ 
+ 
+ 
+ &lt;a href="http://hhvm.com/">HHVM&lt;/a>
+ . As on their website:&lt;/p>
 &lt;blockquote>
-&lt;p>HHVM is an
-&lt;a href="http://github.com/facebook/hhvm">open-source&lt;/a>
-virtual machine designed for executing programs written in
-&lt;a href="http://hacklang.org/">Hack&lt;/a>
- and
-&lt;a href="http://php.net/">PHP&lt;/a>
-. HHVM uses a just-in-time (JIT) compilation approach to achieve superior performance while maintaining the development flexibility that PHP provides.&lt;/p>
+&lt;p>HHVM is an 
+ 
+ 
+ 
+ 
+ &lt;a href="http://github.com/facebook/hhvm">open-source&lt;/a>
+ virtual machine designed for executing programs written in 
+ 
+ 
+ 
+ 
+ &lt;a href="http://hacklang.org/">Hack&lt;/a>
+  and 
+ 
+ 
+ 
+ 
+ &lt;a href="http://php.net/">PHP&lt;/a>
+ . HHVM uses a just-in-time (JIT) compilation approach to achieve superior performance while maintaining the development flexibility that PHP provides.&lt;/p>
 &lt;/blockquote>
-&lt;p>Using simple terms – HHVM allows you run scripts written in PHP but much, much more faster. Obviously you the main purpose of HHVM is to run HACK language, but it works pretty good with PHP itself.&lt;/p></description></item><item><title>PHP, work queues</title><link>https://www.spidersoft.com.au/2014/php-work-queues/</link><pubDate>Thu, 21 Aug 2014 04:30:27 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/php-work-queues/</guid><description>&lt;p>Biggest pain point in PHP is lack of asynchronous calls. The only reasonable way is to use some kind of “backend” processing and task list to execute. Some people use cron to run given script each n-minutes and execute tasks. But there is a little bit more “professional” approach. 
-&lt;a href="http://kr.github.io/beanstalkd/">Beanstalk&lt;/a>
-is a simple, fast work queue. Idea is pretty simple – you can just throw tasks into queue and then have background worker which is pulling data from pipe and executes task.&lt;/p>
-&lt;p>Couple ideas: sending emails, processing images, making heavy queries into database. But the best part of it – you don’t have to use PHP for back processing. It could be anything, because protocol us universal and worker and client doesn’t have to be in the same language. So you can schedule task in PHP, and run it in Go. I’m not going too much into details. Just run some examples.&lt;/p></description></item><item><title>Phalcon – super simple REST API example</title><link>https://www.spidersoft.com.au/2014/phalcon-simple-rest-api-example/</link><pubDate>Thu, 10 Jul 2014 04:24:38 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/phalcon-simple-rest-api-example/</guid><description>&lt;p>Throughout this first tutorial, i’ll walk you through the creation of an application with a simple REST API from the ground up. I assume you have
-&lt;a href="http://phalconphp.com/en/">Phalcon&lt;/a>
-. installed already.&lt;/p></description></item><item><title>Phalcon is a new PHP Framework of my choice</title><link>https://www.spidersoft.com.au/2014/phalcon-is-a-new-php-framework-of-my-choice/</link><pubDate>Fri, 27 Jun 2014 07:11:17 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/phalcon-is-a-new-php-framework-of-my-choice/</guid><description>&lt;p>I’m working on multiple PHP based projects. Most of them using
-&lt;a href="http://ellislab.com/codeigniter">CodeIgniter&lt;/a>
-as a base framework. I mastered it into stage, where has no secrets for me. The problem is that I also know disadvantages of this bit outdated framework. Recently core
-&lt;a href="http://ellislab.com/blog/entry/ellislab-seeking-new-owner-for-codeigniter">team announced&lt;/a>
-that they are dropping future development so it means that CI is dead. Doesn’t mean that I don’t like it anymore. I just started looking for something new.&lt;/p>
-&lt;p>I like CI because I got control over everything. Modern PHP frameworks trying to solve all problems for you. It’s amazing, but lack of control is what you don’t need in when you developing projects. What do you need it’s this easy flow during development process. Full control over your MVC structure, but also a lot of “help” from framework itself.&lt;/p></description></item><item><title>Apache 2.4, PHP 5.4 on EC2 instance</title><link>https://www.spidersoft.com.au/2014/apache-2-4-php-5-4-on-ec2-instance/</link><pubDate>Tue, 27 May 2014 04:04:19 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/apache-2-4-php-5-4-on-ec2-instance/</guid><description>&lt;p>This tutorial just updated version of my
-&lt;a href="https://www.spidersoft.com.au/2013/apache-php-config-boilerplate/" title="Amazon EC2 – Installing Apache and PHP boilerplate" target="_blank" rel="noopener">previous one&lt;/a>
-. This time we are going to install newer version of apache (httpd 2.4), PHP 5.4 but as a
-&lt;a href="https://wiki.apache.org/httpd/PHP-FPM">PHP-FPM&lt;/a>
-. Instructions are pretty simple. You can just copy and paste command to get working stack in less then 15 minutes.&lt;/p>
+&lt;p>Using simple terms – HHVM allows you run scripts written in PHP but much, much more faster. Obviously you the main purpose of HHVM is to run HACK language, but it works pretty good with PHP itself.&lt;/p></description></item><item><title>PHP, work queues</title><link>https://www.spidersoft.com.au/2014/php-work-queues/</link><pubDate>Thu, 21 Aug 2014 04:30:27 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/php-work-queues/</guid><description>&lt;p>Biggest pain point in PHP is lack of asynchronous calls. The only reasonable way is to use some kind of “backend” processing and task list to execute. Some people use cron to run given script each n-minutes and execute tasks. But there is a little bit more “professional” approach.  
+ 
+ 
+ 
+ 
+ &lt;a href="http://kr.github.io/beanstalkd/">Beanstalk&lt;/a>
+ is a simple, fast work queue. Idea is pretty simple – you can just throw tasks into queue and then have background worker which is pulling data from pipe and executes task.&lt;/p>
+&lt;p>Couple ideas: sending emails, processing images, making heavy queries into database. But the best part of it – you don’t have to use PHP for back processing. It could be anything, because protocol us universal and worker and client doesn’t have to be in the same language. So you can schedule task in PHP, and run it in Go. I’m not going too much into details. Just run some examples.&lt;/p></description></item><item><title>Phalcon – super simple REST API example</title><link>https://www.spidersoft.com.au/2014/phalcon-simple-rest-api-example/</link><pubDate>Thu, 10 Jul 2014 04:24:38 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/phalcon-simple-rest-api-example/</guid><description>&lt;p>Throughout this first tutorial, i’ll walk you through the creation of an application with a simple REST API from the ground up. I assume you have 
+ 
+ 
+ 
+ 
+ &lt;a href="http://phalconphp.com/en/">Phalcon&lt;/a>
+ . installed already.&lt;/p></description></item><item><title>Phalcon is a new PHP Framework of my choice</title><link>https://www.spidersoft.com.au/2014/phalcon-is-a-new-php-framework-of-my-choice/</link><pubDate>Fri, 27 Jun 2014 07:11:17 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/phalcon-is-a-new-php-framework-of-my-choice/</guid><description>&lt;p>I’m working on multiple PHP based projects. Most of them using 
+ 
+ 
+ 
+ 
+ &lt;a href="http://ellislab.com/codeigniter">CodeIgniter&lt;/a>
+ as a base framework. I mastered it into stage, where has no secrets for me. The problem is that I also know disadvantages of this bit outdated framework. Recently core 
+ 
+ 
+ 
+ 
+ &lt;a href="http://ellislab.com/blog/entry/ellislab-seeking-new-owner-for-codeigniter">team announced&lt;/a>
+ that they are dropping future development so it means that CI is dead. Doesn’t mean that I don’t like it anymore. I just started looking for something new.&lt;/p>
+&lt;p>I like CI because I got control over everything. Modern PHP frameworks trying to solve all problems for you. It’s amazing, but lack of control is what you don’t need in when you developing projects. What do you need it’s this easy flow during development process. Full control over your MVC structure, but also a lot of “help” from framework itself.&lt;/p></description></item><item><title>Apache 2.4, PHP 5.4 on EC2 instance</title><link>https://www.spidersoft.com.au/2014/apache-2-4-php-5-4-on-ec2-instance/</link><pubDate>Tue, 27 May 2014 04:04:19 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/apache-2-4-php-5-4-on-ec2-instance/</guid><description>&lt;p>This tutorial just updated version of my 
+ 
+ 
+ &lt;a href="https://www.spidersoft.com.au/2013/apache-php-config-boilerplate/" title="Amazon EC2 – Installing Apache and PHP boilerplate" target="_blank" rel="noopener">previous one&lt;/a>
+ . This time we are going to install newer version of apache (httpd 2.4), PHP 5.4 but as a 
+ 
+ 
+ 
+ 
+ &lt;a href="https://wiki.apache.org/httpd/PHP-FPM">PHP-FPM&lt;/a>
+ . Instructions are pretty simple. You can just copy and paste command to get working stack in less then 15 minutes.&lt;/p>
 &lt;p>What you can learn from it? How to install Apache 2.4 and PHP 5.4, how to enable and APC, and how to install HTTPS on your server, with purchasing SSL certificate.&lt;/p></description></item><item><title>CodeIgniter-minify update</title><link>https://www.spidersoft.com.au/2014/codeigniter-minify-update/</link><pubDate>Fri, 23 May 2014 00:05:52 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/codeigniter-minify-update/</guid><description>Just introduce some new options to my quite popular library CodeIgniter-minify. From now one you can choose CSS compression engine (cssmin || minify), also FORCE rewrite CSS files. Some speed improvements were also made.
 Please feel to check out library on GitGub – CodeIgniter-minify</description></item><item><title>PHPUnit and PEAR install on MacOS</title><link>https://www.spidersoft.com.au/2013/phpunit-and-pear-install-on-macos/</link><pubDate>Thu, 19 Dec 2013 00:28:41 +0000</pubDate><guid>https://www.spidersoft.com.au/2013/phpunit-and-pear-install-on-macos/</guid><description>&lt;p>There is a plenty of tutorials how to install PEAR and  PHP, but there is always something “missing” in this configuration. So this time, i’m going to “sing the same song again”.&lt;/p></description></item><item><title>Amazon EC2 – Installing Apache and PHP boilerplate</title><link>https://www.spidersoft.com.au/2013/apache-php-config-boilerplate/</link><pubDate>Thu, 14 Feb 2013 05:22:55 +0000</pubDate><guid>https://www.spidersoft.com.au/2013/apache-php-config-boilerplate/</guid><description>&lt;p>In this extremely simply tutorial I’m going to show, how you can deploy basic LAMP stack on EC2 instance. Instruction are pretty basic, without extra comments. You can just copy and paste command to get working stack in lest then 15 minutes.&lt;/p>
-&lt;p>What you can learn from it? How to install Apache and PHP, how to enable and run XCache accelerator, and how to run HTTPS on your server, with purchasing SSL certificate.&lt;/p></description></item><item><title>Gearman installation on CentOS and AMI Linux</title><link>https://www.spidersoft.com.au/2012/gearman-installation-on-centos-and-ami-linux/</link><pubDate>Fri, 02 Nov 2012 01:53:09 +0000</pubDate><guid>https://www.spidersoft.com.au/2012/gearman-installation-on-centos-and-ami-linux/</guid><description>&lt;p>
-&lt;a href="http://gearman.org/">Gearman&lt;/a>
-provides a generic application framework to farm out work to other machines or processes that are better suited to do the work.&lt;/p>
-&lt;p>This solution is truly multiplatform, so we have Client API and Wordkres in multiple languages like Shell, Perl, NodeJS any couple of others (PHP!)&lt;/p></description></item><item><title>How to install Phing on CentOS</title><link>https://www.spidersoft.com.au/2012/how-to-install-phing-on-centos/</link><pubDate>Fri, 24 Aug 2012 07:45:34 +0000</pubDate><guid>https://www.spidersoft.com.au/2012/how-to-install-phing-on-centos/</guid><description>&lt;p>
-&lt;a href="http://phing.info/trac/">PHing&lt;/a>
- &lt;strong>I&lt;/strong>s &lt;strong>N&lt;/strong>ot &lt;strong>G&lt;/strong>NU make; it’s a PHP project build system or build tool based on 
-&lt;a href="http://ant.apache.org/"> Apache Ant&lt;/a>
-. You can do anything with it that you could do with a traditional build system like GNU make, and its use of simple XML build files and extensible PHP “task” classes make it an easy-to-use and highly flexible build framework.&lt;/p>
-&lt;p>This build tool ensures that the process of creating your  web application from source code happens in a proper and repeatable way. This is the best way to reduce the possibility of errors caused by manual uploads via FTP or SSH using desktop client.&lt;/p></description></item><item><title>CodeIgniter Uploadify problem</title><link>https://www.spidersoft.com.au/2012/codeigniter-uploadify-problem/</link><pubDate>Sun, 01 Jan 2012 02:37:27 +0000</pubDate><guid>https://www.spidersoft.com.au/2012/codeigniter-uploadify-problem/</guid><description>&lt;p>I tried to implement Uploadify with
-&lt;a href="http://codeigniter.com/user_guide/libraries/file_uploading.html">CodeIgniter upload class&lt;/a>
-, and had some issues with recognising proper mime types.&lt;/p></description></item><item><title>Lighttpd and upload_max_filesize</title><link>https://www.spidersoft.com.au/2011/lighttpd-and-upload_max_filesize/</link><pubDate>Mon, 12 Sep 2011 01:11:20 +0000</pubDate><guid>https://www.spidersoft.com.au/2011/lighttpd-and-upload_max_filesize/</guid><description>Default setting for uploading file size in PHP is really small. Usually it’s about 2MB. To increase this limit, you need to change one obvious variable:
+&lt;p>What you can learn from it? How to install Apache and PHP, how to enable and run XCache accelerator, and how to run HTTPS on your server, with purchasing SSL certificate.&lt;/p></description></item><item><title>Gearman installation on CentOS and AMI Linux</title><link>https://www.spidersoft.com.au/2012/gearman-installation-on-centos-and-ami-linux/</link><pubDate>Fri, 02 Nov 2012 01:53:09 +0000</pubDate><guid>https://www.spidersoft.com.au/2012/gearman-installation-on-centos-and-ami-linux/</guid><description>&lt;p> 
+ 
+ 
+ 
+ 
+ &lt;a href="http://gearman.org/">Gearman&lt;/a>
+ provides a generic application framework to farm out work to other machines or processes that are better suited to do the work.&lt;/p>
+&lt;p>This solution is truly multiplatform, so we have Client API and Wordkres in multiple languages like Shell, Perl, NodeJS any couple of others (PHP!)&lt;/p></description></item><item><title>How to install Phing on CentOS</title><link>https://www.spidersoft.com.au/2012/how-to-install-phing-on-centos/</link><pubDate>Fri, 24 Aug 2012 07:45:34 +0000</pubDate><guid>https://www.spidersoft.com.au/2012/how-to-install-phing-on-centos/</guid><description>&lt;p> 
+ 
+ 
+ 
+ 
+ &lt;a href="http://phing.info/trac/">PHing&lt;/a>
+  &lt;strong>I&lt;/strong>s &lt;strong>N&lt;/strong>ot &lt;strong>G&lt;/strong>NU make; it’s a PHP project build system or build tool based on  
+ 
+ 
+ 
+ 
+ &lt;a href="http://ant.apache.org/"> Apache Ant&lt;/a>
+ . You can do anything with it that you could do with a traditional build system like GNU make, and its use of simple XML build files and extensible PHP “task” classes make it an easy-to-use and highly flexible build framework.&lt;/p>
+&lt;p>This build tool ensures that the process of creating your  web application from source code happens in a proper and repeatable way. This is the best way to reduce the possibility of errors caused by manual uploads via FTP or SSH using desktop client.&lt;/p></description></item><item><title>CodeIgniter Uploadify problem</title><link>https://www.spidersoft.com.au/2012/codeigniter-uploadify-problem/</link><pubDate>Sun, 01 Jan 2012 02:37:27 +0000</pubDate><guid>https://www.spidersoft.com.au/2012/codeigniter-uploadify-problem/</guid><description>&lt;p>I tried to implement Uploadify with 
+ 
+ 
+ 
+ 
+ &lt;a href="http://codeigniter.com/user_guide/libraries/file_uploading.html">CodeIgniter upload class&lt;/a>
+ , and had some issues with recognising proper mime types.&lt;/p></description></item><item><title>Lighttpd and upload_max_filesize</title><link>https://www.spidersoft.com.au/2011/lighttpd-and-upload_max_filesize/</link><pubDate>Mon, 12 Sep 2011 01:11:20 +0000</pubDate><guid>https://www.spidersoft.com.au/2011/lighttpd-and-upload_max_filesize/</guid><description>Default setting for uploading file size in PHP is really small. Usually it’s about 2MB. To increase this limit, you need to change one obvious variable:
 upload_max_filesize = 20M Eventually you can also increase max number of files to upload:
 max_file_uploads = 20 But… this is not enough. Because on lighttpd PHP is working as a FastCGI process when you start uploading bigger files, you can get this bad message:</description></item><item><title>Attribute value in Magento</title><link>https://www.spidersoft.com.au/2011/attribute-value-in-magento/</link><pubDate>Mon, 15 Aug 2011 02:37:29 +0000</pubDate><guid>https://www.spidersoft.com.au/2011/attribute-value-in-magento/</guid><description>&lt;p>Some useful function for managing attribute values in Magento.&lt;/p></description></item><item><title>Magento get all categories into array</title><link>https://www.spidersoft.com.au/2011/magento-get-all-categories-into-array/</link><pubDate>Thu, 11 Aug 2011 00:26:49 +0000</pubDate><guid>https://www.spidersoft.com.au/2011/magento-get-all-categories-into-array/</guid><description>&lt;p>You can grab all existing categories in Magento to array, here is quick example:&lt;/p></description></item><item><title>Magento read / write config values from model</title><link>https://www.spidersoft.com.au/2011/magento-read-write-config-values-from-model/</link><pubDate>Tue, 09 Aug 2011 04:23:20 +0000</pubDate><guid>https://www.spidersoft.com.au/2011/magento-read-write-config-values-from-model/</guid><description>&lt;p>You can create Magento config settings using XML files, or… do this directly from model. Here is example:&lt;/p></description></item><item><title>Magento generate url from model</title><link>https://www.spidersoft.com.au/2011/magento-generate-url-from-model/</link><pubDate>Sun, 07 Aug 2011 04:16:23 +0000</pubDate><guid>https://www.spidersoft.com.au/2011/magento-generate-url-from-model/</guid><description>&lt;p>All links in Magento should be generated via url model. Here is simple examples working in backend.&lt;/p></description></item><item><title>Magento manage attributes from model</title><link>https://www.spidersoft.com.au/2011/magento-manage-attributes-from-model/</link><pubDate>Fri, 05 Aug 2011 04:05:06 +0000</pubDate><guid>https://www.spidersoft.com.au/2011/magento-manage-attributes-from-model/</guid><description>&lt;p>You can create and remove Magento product attributes from model. It’s quite simple if you know how.&lt;/p></description></item><item><title>CodeIgniter IMG – thumbnails on the fly</title><link>https://www.spidersoft.com.au/2011/codeigniter-img-thumbnails-on-the-fly/</link><pubDate>Sun, 03 Jul 2011 20:19:57 +0000</pubDate><guid>https://www.spidersoft.com.au/2011/codeigniter-img-thumbnails-on-the-fly/</guid><description>CodeIgniter library to generate high quality thumbnails
 Library is based on excellent * Smarty plugin “Thumb” * created in 2005 by Christoph Erdmann. This version is a little different, we are using core from Thumb, and some modification which gives more flexibility to work with it.

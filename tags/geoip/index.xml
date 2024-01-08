@@ -4,11 +4,23 @@ Otherwise:
 wget http://pear.php.net/go-pear.phar php go-pear.phar We need geoip-devel libraries:
 yum install geoip-devel
 And newest (not stable) version of geoip:
-sudo ./pecl install geoip-1.</description></item><item><title>How to Install GeoIP extension on CentOS</title><link>https://www.spidersoft.com.au/2012/how-to-install-geoip-extension-on-centos/</link><pubDate>Tue, 23 Oct 2012 02:32:56 +0000</pubDate><guid>https://www.spidersoft.com.au/2012/how-to-install-geoip-extension-on-centos/</guid><description>&lt;p>Small 2019 update – Please check out this library –
-&lt;a href="https://github.com/maxmind/MaxMind-DB-Reader-php">github.com/maxmind/MaxMind-DB-Reader-php&lt;/a>
-. It’s a straight replacement of PHP module.&lt;/p>
-&lt;p>
-&lt;a href="http://pecl.php.net/package/geoip">GeoIP from PECL&lt;/a>
-is powerful extension used to determine geographical locations of IP addresses and domain names. This is useful if you want to set a language or redirection based on location of your visitor. Check out the PHP docs for a full list of
-&lt;a href="http://www.php.net/manual/en/ref.geoip.php">GeoIP functions&lt;/a>
-.&lt;/p></description></item></channel></rss>
+sudo ./pecl install geoip-1.</description></item><item><title>How to Install GeoIP extension on CentOS</title><link>https://www.spidersoft.com.au/2012/how-to-install-geoip-extension-on-centos/</link><pubDate>Tue, 23 Oct 2012 02:32:56 +0000</pubDate><guid>https://www.spidersoft.com.au/2012/how-to-install-geoip-extension-on-centos/</guid><description>&lt;p>Small 2019 update – Please check out this library – 
+ 
+ 
+ 
+ 
+ &lt;a href="https://github.com/maxmind/MaxMind-DB-Reader-php">github.com/maxmind/MaxMind-DB-Reader-php&lt;/a>
+ . It’s a straight replacement of PHP module.&lt;/p>
+&lt;p> 
+ 
+ 
+ 
+ 
+ &lt;a href="http://pecl.php.net/package/geoip">GeoIP from PECL&lt;/a>
+ is powerful extension used to determine geographical locations of IP addresses and domain names. This is useful if you want to set a language or redirection based on location of your visitor. Check out the PHP docs for a full list of 
+ 
+ 
+ 
+ 
+ &lt;a href="http://www.php.net/manual/en/ref.geoip.php">GeoIP functions&lt;/a>
+ .&lt;/p></description></item></channel></rss>

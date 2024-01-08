@@ -1,11 +1,31 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>www on SpiderSoft</title><link>https://www.spidersoft.com.au/tags/www/</link><description>Recent content in www on SpiderSoft</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 08 Feb 2016 09:03:34 +0000</lastBuildDate><atom:link href="https://www.spidersoft.com.au/tags/www/index.xml" rel="self" type="application/rss+xml"/><item><title>Setting up caddy server for wordpress</title><link>https://www.spidersoft.com.au/2016/setting-up-caddy-server-for-wordpress/</link><pubDate>Mon, 08 Feb 2016 09:03:34 +0000</pubDate><guid>https://www.spidersoft.com.au/2016/setting-up-caddy-server-for-wordpress/</guid><description>&lt;p>
-&lt;a href="https://caddyserver.com">Caddy&lt;/a>
-is a another alternative to
-&lt;a href="https://httpd.apache.org">Apache&lt;/a>
-or
-&lt;a href="http://nginx.org">nginx&lt;/a>
-. For me the biggest advantage is that it’s only one binary file to work with. It’s easy to run, setup and just “works”. It’s super modern – handles HTTP2 and automatic HTTPS encryption using let’s encrypt certificates. Obviously it has plenty of other features but we focus only on speed of deployment.&lt;/p></description></item><item><title>Apache Virtual Hosts in a Database</title><link>https://www.spidersoft.com.au/2012/apache-virtual-hosts-in-a-database/</link><pubDate>Sun, 08 Jan 2012 11:34:00 +0000</pubDate><guid>https://www.spidersoft.com.au/2012/apache-virtual-hosts-in-a-database/</guid><description>&lt;p>As much as I love
-&lt;a href="http://www.lighttpd.net/">lighttpd&lt;/a>
- sometimes I can’t avoid
-&lt;a href="http://httpd.apache.org/">Apache&lt;/a>
-. For me – “the best” thing in lighttpd is support for keeping vhost names in MySQL database. I don’t have to use any config files, I can just put record into MySQL database with virtual host server name, path to document root and it’s done. But – I can do the same witch Apache! How? With third party modules, below you can find short tutorial “how to”.&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>www on SpiderSoft</title><link>https://www.spidersoft.com.au/tags/www/</link><description>Recent content in www on SpiderSoft</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 08 Feb 2016 09:03:34 +0000</lastBuildDate><atom:link href="https://www.spidersoft.com.au/tags/www/index.xml" rel="self" type="application/rss+xml"/><item><title>Setting up caddy server for wordpress</title><link>https://www.spidersoft.com.au/2016/setting-up-caddy-server-for-wordpress/</link><pubDate>Mon, 08 Feb 2016 09:03:34 +0000</pubDate><guid>https://www.spidersoft.com.au/2016/setting-up-caddy-server-for-wordpress/</guid><description>&lt;p> 
+ 
+ 
+ 
+ 
+ &lt;a href="https://caddyserver.com">Caddy&lt;/a>
+ is a another alternative to 
+ 
+ 
+ 
+ 
+ &lt;a href="https://httpd.apache.org">Apache&lt;/a>
+ or 
+ 
+ 
+ 
+ 
+ &lt;a href="http://nginx.org">nginx&lt;/a>
+ . For me the biggest advantage is that it’s only one binary file to work with. It’s easy to run, setup and just “works”. It’s super modern – handles HTTP2 and automatic HTTPS encryption using let’s encrypt certificates. Obviously it has plenty of other features but we focus only on speed of deployment.&lt;/p></description></item><item><title>Apache Virtual Hosts in a Database</title><link>https://www.spidersoft.com.au/2012/apache-virtual-hosts-in-a-database/</link><pubDate>Sun, 08 Jan 2012 11:34:00 +0000</pubDate><guid>https://www.spidersoft.com.au/2012/apache-virtual-hosts-in-a-database/</guid><description>&lt;p>As much as I love 
+ 
+ 
+ 
+ 
+ &lt;a href="http://www.lighttpd.net/">lighttpd&lt;/a>
+  sometimes I can’t avoid 
+ 
+ 
+ 
+ 
+ &lt;a href="http://httpd.apache.org/">Apache&lt;/a>
+ . For me – “the best” thing in lighttpd is support for keeping vhost names in MySQL database. I don’t have to use any config files, I can just put record into MySQL database with virtual host server name, path to document root and it’s done. But – I can do the same witch Apache! How? With third party modules, below you can find short tutorial “how to”.&lt;/p></description></item></channel></rss>

@@ -1,7 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>wordpress on SpiderSoft</title><link>https://www.spidersoft.com.au/tags/wordpress/</link><description>Recent content in wordpress on SpiderSoft</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 08 Feb 2016 09:03:34 +0000</lastBuildDate><atom:link href="https://www.spidersoft.com.au/tags/wordpress/index.xml" rel="self" type="application/rss+xml"/><item><title>Setting up caddy server for wordpress</title><link>https://www.spidersoft.com.au/2016/setting-up-caddy-server-for-wordpress/</link><pubDate>Mon, 08 Feb 2016 09:03:34 +0000</pubDate><guid>https://www.spidersoft.com.au/2016/setting-up-caddy-server-for-wordpress/</guid><description>&lt;p>
-&lt;a href="https://caddyserver.com">Caddy&lt;/a>
-is a another alternative to
-&lt;a href="https://httpd.apache.org">Apache&lt;/a>
-or
-&lt;a href="http://nginx.org">nginx&lt;/a>
-. For me the biggest advantage is that it’s only one binary file to work with. It’s easy to run, setup and just “works”. It’s super modern – handles HTTP2 and automatic HTTPS encryption using let’s encrypt certificates. Obviously it has plenty of other features but we focus only on speed of deployment.&lt;/p></description></item><item><title>How to force jQuery version on WordPress</title><link>https://www.spidersoft.com.au/2013/how-to-force-jquery-version-on-wordpress/</link><pubDate>Fri, 20 Sep 2013 11:35:28 +0000</pubDate><guid>https://www.spidersoft.com.au/2013/how-to-force-jquery-version-on-wordpress/</guid><description>&lt;p>Another really simple code snippet. This time, we are trying to force particular version of jQuery injecting into WordPress.&lt;/p></description></item><item><title>WordPress starter theme – Foundation</title><link>https://www.spidersoft.com.au/2012/wordpress-starter-theme-foundation/</link><pubDate>Thu, 26 Jan 2012 18:33:56 +0000</pubDate><guid>https://www.spidersoft.com.au/2012/wordpress-starter-theme-foundation/</guid><description> Foundation is a rapid prototyping and building library from ZURB. Which is basically great CSS framework. Light, quick in development and good looking. In last days I just discover great based starter theme based on this CSS framework – check it out Foundation for WordPress or just download directly from GitHub</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>wordpress on SpiderSoft</title><link>https://www.spidersoft.com.au/tags/wordpress/</link><description>Recent content in wordpress on SpiderSoft</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 08 Feb 2016 09:03:34 +0000</lastBuildDate><atom:link href="https://www.spidersoft.com.au/tags/wordpress/index.xml" rel="self" type="application/rss+xml"/><item><title>Setting up caddy server for wordpress</title><link>https://www.spidersoft.com.au/2016/setting-up-caddy-server-for-wordpress/</link><pubDate>Mon, 08 Feb 2016 09:03:34 +0000</pubDate><guid>https://www.spidersoft.com.au/2016/setting-up-caddy-server-for-wordpress/</guid><description>&lt;p> 
+ 
+ 
+ 
+ 
+ &lt;a href="https://caddyserver.com">Caddy&lt;/a>
+ is a another alternative to 
+ 
+ 
+ 
+ 
+ &lt;a href="https://httpd.apache.org">Apache&lt;/a>
+ or 
+ 
+ 
+ 
+ 
+ &lt;a href="http://nginx.org">nginx&lt;/a>
+ . For me the biggest advantage is that it’s only one binary file to work with. It’s easy to run, setup and just “works”. It’s super modern – handles HTTP2 and automatic HTTPS encryption using let’s encrypt certificates. Obviously it has plenty of other features but we focus only on speed of deployment.&lt;/p></description></item><item><title>How to force jQuery version on WordPress</title><link>https://www.spidersoft.com.au/2013/how-to-force-jquery-version-on-wordpress/</link><pubDate>Fri, 20 Sep 2013 11:35:28 +0000</pubDate><guid>https://www.spidersoft.com.au/2013/how-to-force-jquery-version-on-wordpress/</guid><description>&lt;p>Another really simple code snippet. This time, we are trying to force particular version of jQuery injecting into WordPress.&lt;/p></description></item><item><title>WordPress starter theme – Foundation</title><link>https://www.spidersoft.com.au/2012/wordpress-starter-theme-foundation/</link><pubDate>Thu, 26 Jan 2012 18:33:56 +0000</pubDate><guid>https://www.spidersoft.com.au/2012/wordpress-starter-theme-foundation/</guid><description> Foundation is a rapid prototyping and building library from ZURB. Which is basically great CSS framework. Light, quick in development and good looking. In last days I just discover great based starter theme based on this CSS framework – check it out Foundation for WordPress or just download directly from GitHub</description></item></channel></rss>

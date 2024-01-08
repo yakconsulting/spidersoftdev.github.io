@@ -1,13 +1,33 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>caddy on SpiderSoft</title><link>https://www.spidersoft.com.au/tags/caddy/</link><description>Recent content in caddy on SpiderSoft</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 23 Jul 2022 08:30:00 +0000</lastBuildDate><atom:link href="https://www.spidersoft.com.au/tags/caddy/index.xml" rel="self" type="application/rss+xml"/><item><title>Setting up Prometheus to collect Caddy metrics</title><link>https://www.spidersoft.com.au/2022/setting-up-prometheus-to-collect-caddy-metrics/</link><pubDate>Sat, 23 Jul 2022 08:30:00 +0000</pubDate><guid>https://www.spidersoft.com.au/2022/setting-up-prometheus-to-collect-caddy-metrics/</guid><description>&lt;p>This is a simple example of how to setup Prometheus to collect Caddy metrics.&lt;/p></description></item><item><title>Caddy &amp; Error code SEC_ERROR_REVOKED_CERTIFICATE</title><link>https://www.spidersoft.com.au/2022/caddy-ssl-error/</link><pubDate>Mon, 31 Jan 2022 08:30:00 +0000</pubDate><guid>https://www.spidersoft.com.au/2022/caddy-ssl-error/</guid><description>&lt;p>Recently I had a problem with my
-&lt;a href="https://caddyserver.com/">Caddy server&lt;/a>
-. I wasn&amp;rsquo;t aware that it&amp;rsquo;s related to Caddy - the initial thought was that something went wrong with the SSL certificate. But I was wrong. The message was pretty &amp;ldquo;platonic&amp;rdquo;&lt;/p>
-&lt;p>&lt;code>Error code: SEC_ERROR_REVOKED_CERTIFICATE&lt;/code>&lt;/p></description></item><item><title>Web Server on AMI Linux 2</title><link>https://www.spidersoft.com.au/2019/web-server-on-ami-linux-2/</link><pubDate>Mon, 28 Jan 2019 09:46:20 +0000</pubDate><guid>https://www.spidersoft.com.au/2019/web-server-on-ami-linux-2/</guid><description>&lt;p>Welcome in 2019 – it’s time to upgrade out outdated LAMP stack series articles, with new “How To” setup basic web server for our stack.&lt;/p></description></item><item><title>How to secure S3 bucket with username and password</title><link>https://www.spidersoft.com.au/2018/how-to-secure-s3-bucket-with-username-and-password/</link><pubDate>Wed, 12 Sep 2018 08:00:16 +0000</pubDate><guid>https://www.spidersoft.com.au/2018/how-to-secure-s3-bucket-with-username-and-password/</guid><description>&lt;p>When you start looking for a solution, you will find answers like using Cloudfront, lambda, and middleware 3rd party services. And basically, you don’t have any other choice. There is no simple solution to your problem. But – as long as you use
-&lt;a href="https://caddyserver.com/">Caddy Server&lt;/a>
-solution is super easy.&lt;/p></description></item><item><title>Caddy rewrite and CodeIgniter</title><link>https://www.spidersoft.com.au/2016/caddy-rewrite-and-codeigniter/</link><pubDate>Mon, 25 Jul 2016 15:19:54 +0000</pubDate><guid>https://www.spidersoft.com.au/2016/caddy-rewrite-and-codeigniter/</guid><description> Caddy it’s a new kid in the block in category super light web servers. Personally – I love it. Same love I feel to CodeIgniter . To marge both of them, we need only basic rewrite rule to drop into caddyfile.
-api.spidersoft.com.au { root /var/www/html/spidersoft.com.au gzip rewrite { to {path} {path}/ /index.php?/{uri} } fastcgi / /var/run/php-sock php }</description></item><item><title>Setting up caddy server for wordpress</title><link>https://www.spidersoft.com.au/2016/setting-up-caddy-server-for-wordpress/</link><pubDate>Mon, 08 Feb 2016 09:03:34 +0000</pubDate><guid>https://www.spidersoft.com.au/2016/setting-up-caddy-server-for-wordpress/</guid><description>&lt;p>
-&lt;a href="https://caddyserver.com">Caddy&lt;/a>
-is a another alternative to
-&lt;a href="https://httpd.apache.org">Apache&lt;/a>
-or
-&lt;a href="http://nginx.org">nginx&lt;/a>
-. For me the biggest advantage is that it’s only one binary file to work with. It’s easy to run, setup and just “works”. It’s super modern – handles HTTP2 and automatic HTTPS encryption using let’s encrypt certificates. Obviously it has plenty of other features but we focus only on speed of deployment.&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>caddy on SpiderSoft</title><link>https://www.spidersoft.com.au/tags/caddy/</link><description>Recent content in caddy on SpiderSoft</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 23 Jul 2022 08:30:00 +0000</lastBuildDate><atom:link href="https://www.spidersoft.com.au/tags/caddy/index.xml" rel="self" type="application/rss+xml"/><item><title>Setting up Prometheus to collect Caddy metrics</title><link>https://www.spidersoft.com.au/2022/setting-up-prometheus-to-collect-caddy-metrics/</link><pubDate>Sat, 23 Jul 2022 08:30:00 +0000</pubDate><guid>https://www.spidersoft.com.au/2022/setting-up-prometheus-to-collect-caddy-metrics/</guid><description>&lt;p>This is a simple example of how to setup Prometheus to collect Caddy metrics.&lt;/p></description></item><item><title>Caddy &amp; Error code SEC_ERROR_REVOKED_CERTIFICATE</title><link>https://www.spidersoft.com.au/2022/caddy-ssl-error/</link><pubDate>Mon, 31 Jan 2022 08:30:00 +0000</pubDate><guid>https://www.spidersoft.com.au/2022/caddy-ssl-error/</guid><description>&lt;p>Recently I had a problem with my 
+ 
+ 
+ 
+ 
+ &lt;a href="https://caddyserver.com/">Caddy server&lt;/a>
+ . I wasn&amp;rsquo;t aware that it&amp;rsquo;s related to Caddy - the initial thought was that something went wrong with the SSL certificate. But I was wrong. The message was pretty &amp;ldquo;platonic&amp;rdquo;&lt;/p>
+&lt;p>&lt;code>Error code: SEC_ERROR_REVOKED_CERTIFICATE&lt;/code>&lt;/p></description></item><item><title>Web Server on AMI Linux 2</title><link>https://www.spidersoft.com.au/2019/web-server-on-ami-linux-2/</link><pubDate>Mon, 28 Jan 2019 09:46:20 +0000</pubDate><guid>https://www.spidersoft.com.au/2019/web-server-on-ami-linux-2/</guid><description>&lt;p>Welcome in 2019 – it’s time to upgrade out outdated LAMP stack series articles, with new “How To” setup basic web server for our stack.&lt;/p></description></item><item><title>How to secure S3 bucket with username and password</title><link>https://www.spidersoft.com.au/2018/how-to-secure-s3-bucket-with-username-and-password/</link><pubDate>Wed, 12 Sep 2018 08:00:16 +0000</pubDate><guid>https://www.spidersoft.com.au/2018/how-to-secure-s3-bucket-with-username-and-password/</guid><description>&lt;p>When you start looking for a solution, you will find answers like using Cloudfront, lambda, and middleware 3rd party services. And basically, you don’t have any other choice. There is no simple solution to your problem. But – as long as you use 
+ 
+ 
+ 
+ 
+ &lt;a href="https://caddyserver.com/">Caddy Server&lt;/a>
+ solution is super easy.&lt;/p></description></item><item><title>Caddy rewrite and CodeIgniter</title><link>https://www.spidersoft.com.au/2016/caddy-rewrite-and-codeigniter/</link><pubDate>Mon, 25 Jul 2016 15:19:54 +0000</pubDate><guid>https://www.spidersoft.com.au/2016/caddy-rewrite-and-codeigniter/</guid><description> Caddy it’s a new kid in the block in category super light web servers. Personally – I love it. Same love I feel to CodeIgniter . To marge both of them, we need only basic rewrite rule to drop into caddyfile.
+api.spidersoft.com.au { root /var/www/html/spidersoft.com.au gzip rewrite { to {path} {path}/ /index.php?/{uri} } fastcgi / /var/run/php-sock php }</description></item><item><title>Setting up caddy server for wordpress</title><link>https://www.spidersoft.com.au/2016/setting-up-caddy-server-for-wordpress/</link><pubDate>Mon, 08 Feb 2016 09:03:34 +0000</pubDate><guid>https://www.spidersoft.com.au/2016/setting-up-caddy-server-for-wordpress/</guid><description>&lt;p> 
+ 
+ 
+ 
+ 
+ &lt;a href="https://caddyserver.com">Caddy&lt;/a>
+ is a another alternative to 
+ 
+ 
+ 
+ 
+ &lt;a href="https://httpd.apache.org">Apache&lt;/a>
+ or 
+ 
+ 
+ 
+ 
+ &lt;a href="http://nginx.org">nginx&lt;/a>
+ . For me the biggest advantage is that it’s only one binary file to work with. It’s easy to run, setup and just “works”. It’s super modern – handles HTTP2 and automatic HTTPS encryption using let’s encrypt certificates. Obviously it has plenty of other features but we focus only on speed of deployment.&lt;/p></description></item></channel></rss>

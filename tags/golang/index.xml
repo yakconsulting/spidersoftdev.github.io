@@ -1,42 +1,106 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>golang on SpiderSoft</title><link>https://www.spidersoft.com.au/tags/golang/</link><description>Recent content in golang on SpiderSoft</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 07 Mar 2018 14:34:57 +0000</lastBuildDate><atom:link href="https://www.spidersoft.com.au/tags/golang/index.xml" rel="self" type="application/rss+xml"/><item><title>Binary compression still alive – golang binary compression.</title><link>https://www.spidersoft.com.au/2018/binary-compression-still-alive-golang-binary-compression/</link><pubDate>Wed, 07 Mar 2018 14:34:57 +0000</pubDate><guid>https://www.spidersoft.com.au/2018/binary-compression-still-alive-golang-binary-compression/</guid><description>In the ancient times, when I was coding mostly in Pascal – size did matter. People were using RAR to shave couple kilobytes from archives, and having 2mb executable was better then having 4mb executable file. In that beautiful time we used UPX – I wasn’t aware that this project is still alive, and works nicely with binaries create bo go lang.
 Ultimate Packer for eXecutables Copyright (C) 1996 - 2017 UPX 3.</description></item><item><title>How to choose the right technology for your next project</title><link>https://www.spidersoft.com.au/2017/how-to-choose-the-right-technology-for-your-next-project/</link><pubDate>Fri, 31 Mar 2017 06:41:56 +0000</pubDate><guid>https://www.spidersoft.com.au/2017/how-to-choose-the-right-technology-for-your-next-project/</guid><description>&lt;p>People quite often asking me about &lt;em>technology stack&lt;/em>, and where to go with next big project. The answer isn’t simple – it depends. Usually, we have couple components which are critical for the whole system. If we are talking about a web-based solution or any API we have to decide about DATABASE, then we have STORAGE, moving on – some BACKEND service language.&lt;/p></description></item><item><title>How to install latest golang on EC2</title><link>https://www.spidersoft.com.au/2015/how-to-install-latest-golang-on-ec2/</link><pubDate>Thu, 15 Oct 2015 11:41:54 +0000</pubDate><guid>https://www.spidersoft.com.au/2015/how-to-install-latest-golang-on-ec2/</guid><description>If you are looking for simple way to upgrade yourt golang installation on EC2, you can experience error like that:
 Error: Package: golang-bin-1.5.1-0.el6.x86_64 (epel) Requires: go = 1.5.1-0.el6 Installing: golang-1.4.2-3.19.amzn1.x86_64 (amzn-main) Because on amzn-main repo, there is an older version of golang – on epel, there is a newer. Nothing simplier just disable for a momement amzn-main repo, and install golang compeltly from epel.
-sudo yum --disablerepo=amzn-main --enablerepo=epel install golang-bin</description></item><item><title>TOTP security tokens and 2-Step Verification</title><link>https://www.spidersoft.com.au/2015/totp-security-tokens-and-2-step-verification/</link><pubDate>Tue, 07 Jul 2015 05:37:35 +0000</pubDate><guid>https://www.spidersoft.com.au/2015/totp-security-tokens-and-2-step-verification/</guid><description>&lt;p>&lt;strong>Time-based One-time Password Algorithm&lt;/strong> (&lt;strong>TOTP&lt;/strong>) is an algorithm that computes a 
-&lt;a href="https://en.wikipedia.org/wiki/One-time_password" title="One-time password">one-time password&lt;/a>
- from a 
-&lt;a href="https://en.wikipedia.org/wiki/Shared_secret" title="Shared secret">shared secret key&lt;/a>
- and the current time. The most popular implementation of this solution is &lt;strong>Google Authenticator.&lt;/strong>&lt;/p>
-&lt;p>This application that implements 
-&lt;a href="https://en.wikipedia.org/wiki/Time-based_One-time_Password_Algorithm" title="Time-based One-time Password Algorithm">TOTP&lt;/a>
- 
-&lt;a href="https://en.wikipedia.org/wiki/Security_token#Mobile_device_tokens" title="Security token">security tokens&lt;/a>
-. Usually is branded as “
-&lt;a href="https://en.wikipedia.org/wiki/Two-step_verification" title="Two-step verification">Two-step verification&lt;/a>
-{.mw-redirect}” (or 2-Step Verification). Authenticator provides a six- to eight-digit 
-&lt;a href="https://en.wikipedia.org/wiki/One-time_password" title="One-time password">one-time password&lt;/a>
- which users must provide in addition to their username and password to log into various services or other sites.&lt;/p></description></item><item><title>Using Google Cloud storage with AWS libraries in GO LANG</title><link>https://www.spidersoft.com.au/2015/google-cloud-storage-with-aws-libraries-go-lang/</link><pubDate>Fri, 15 May 2015 01:08:15 +0000</pubDate><guid>https://www.spidersoft.com.au/2015/google-cloud-storage-with-aws-libraries-go-lang/</guid><description>&lt;p>
-&lt;a href="https://cloud.google.com/storage/docs/overview">Google Cloud storage&lt;/a>
- it’s Google answer to [Amazon S3][1] service. As long one of them is very popular 😉 Second wasn’t so successful amongst developers due to quite complex processes around service. Amazon is super simple, and developer friendly – Google… well not so easy. So the questions – why you may consider using GS instead of well documented, and super easy S3. Not many people realise but Google Cloud Storage is
-&lt;a href="http://www.cloudberrylab.com/blog/amazon-s3-azure-and-google-cloud-prices-compare/">actually cheaper&lt;/a>
-. The other reason to use Google Storage is having different provider as a backup solution. Anyway – let’s show how easy is to use GS with existing S3 libraries.&lt;/p></description></item><item><title>MongoDB vs MySQL using golang</title><link>https://www.spidersoft.com.au/2014/mongodb-vs-mysql-using-golang/</link><pubDate>Mon, 01 Sep 2014 04:48:36 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/mongodb-vs-mysql-using-golang/</guid><description>&lt;p>I’m the guy who like to test. Benchmark is my… middle name. You can find dozens articles about speed one or other solution. I mean
-&lt;a href="http://www.mongodb.org/">MongoDB&lt;/a>
-and
-&lt;a href="http://www.mysql.com/">MySQL&lt;/a>
-. I tried MongoDB couple times, and each time I wasn’t  moved by it speed. Got project coming in, when I have to deal with large amount of concurrent connection. It’s not very big, but bigger then casual MySQL load.&lt;/p>
-&lt;p>So… how did I test – very dump way. Got 2 tables, one around 11k records, second one close to 200k record. Not much. Fields were indexed in both MySQL and MongoDB. And then i run benchmarks. First one had string fields, second one numeric.&lt;/p></description></item><item><title>Live code reload in golang</title><link>https://www.spidersoft.com.au/2014/live-code-reload-in-golang/</link><pubDate>Mon, 25 Aug 2014 04:46:44 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/live-code-reload-in-golang/</guid><description>&lt;p>Recompiling
-&lt;a href="http://golang.org/">go language&lt;/a>
- code during development is bit annoying task. But there is an package for that. Actually I found at least 3:&lt;/p></description></item><item><title>Reading unknown JSON object in go language</title><link>https://www.spidersoft.com.au/2014/reading-unknown-json-object-in-go-language/</link><pubDate>Mon, 18 Aug 2014 07:19:08 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/reading-unknown-json-object-in-go-language/</guid><description>&lt;p>Exploring [The Go Language][1] is so much fun. Everything is brand new, and different then any other language. This time I’m going to show quick snippet which shows how to read JSON object with unknown structure, and map elements to something like hash table.&lt;/p></description></item><item><title>Fetch page with proxy using The Go language</title><link>https://www.spidersoft.com.au/2014/fetch-page-with-proxy-using-the-go-language/</link><pubDate>Wed, 13 Aug 2014 06:16:24 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/fetch-page-with-proxy-using-the-go-language/</guid><description>&lt;p>For a while i’m playing with
-&lt;a href="http://golang.org/">The Go Programming Language&lt;/a>
-– so far I loved it. I figure out that I’ll push some code snippets from time to time.&lt;br>
+sudo yum --disablerepo=amzn-main --enablerepo=epel install golang-bin</description></item><item><title>TOTP security tokens and 2-Step Verification</title><link>https://www.spidersoft.com.au/2015/totp-security-tokens-and-2-step-verification/</link><pubDate>Tue, 07 Jul 2015 05:37:35 +0000</pubDate><guid>https://www.spidersoft.com.au/2015/totp-security-tokens-and-2-step-verification/</guid><description>&lt;p>&lt;strong>Time-based One-time Password Algorithm&lt;/strong> (&lt;strong>TOTP&lt;/strong>) is an algorithm that computes a  
+ 
+ 
+ 
+ 
+ &lt;a href="https://en.wikipedia.org/wiki/One-time_password" title="One-time password">one-time password&lt;/a>
+  from a  
+ 
+ 
+ 
+ 
+ &lt;a href="https://en.wikipedia.org/wiki/Shared_secret" title="Shared secret">shared secret key&lt;/a>
+  and the current time. The most popular implementation of this solution is &lt;strong>Google Authenticator.&lt;/strong>&lt;/p>
+&lt;p>This application that implements  
+ 
+ 
+ 
+ 
+ &lt;a href="https://en.wikipedia.org/wiki/Time-based_One-time_Password_Algorithm" title="Time-based One-time Password Algorithm">TOTP&lt;/a>
+   
+ 
+ 
+ 
+ 
+ &lt;a href="https://en.wikipedia.org/wiki/Security_token#Mobile_device_tokens" title="Security token">security tokens&lt;/a>
+ . Usually is branded as “ 
+ 
+ 
+ 
+ 
+ &lt;a href="https://en.wikipedia.org/wiki/Two-step_verification" title="Two-step verification">Two-step verification&lt;/a>
+ {.mw-redirect}” (or 2-Step Verification). Authenticator provides a six- to eight-digit  
+ 
+ 
+ 
+ 
+ &lt;a href="https://en.wikipedia.org/wiki/One-time_password" title="One-time password">one-time password&lt;/a>
+  which users must provide in addition to their username and password to log into various services or other sites.&lt;/p></description></item><item><title>Using Google Cloud storage with AWS libraries in GO LANG</title><link>https://www.spidersoft.com.au/2015/google-cloud-storage-with-aws-libraries-go-lang/</link><pubDate>Fri, 15 May 2015 01:08:15 +0000</pubDate><guid>https://www.spidersoft.com.au/2015/google-cloud-storage-with-aws-libraries-go-lang/</guid><description>&lt;p> 
+ 
+ 
+ 
+ 
+ &lt;a href="https://cloud.google.com/storage/docs/overview">Google Cloud storage&lt;/a>
+  it’s Google answer to [Amazon S3][1] service. As long one of them is very popular 😉 Second wasn’t so successful amongst developers due to quite complex processes around service. Amazon is super simple, and developer friendly – Google… well not so easy. So the questions – why you may consider using GS instead of well documented, and super easy S3. Not many people realise but Google Cloud Storage is 
+ 
+ 
+ 
+ 
+ &lt;a href="http://www.cloudberrylab.com/blog/amazon-s3-azure-and-google-cloud-prices-compare/">actually cheaper&lt;/a>
+ . The other reason to use Google Storage is having different provider as a backup solution. Anyway – let’s show how easy is to use GS with existing S3 libraries.&lt;/p></description></item><item><title>MongoDB vs MySQL using golang</title><link>https://www.spidersoft.com.au/2014/mongodb-vs-mysql-using-golang/</link><pubDate>Mon, 01 Sep 2014 04:48:36 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/mongodb-vs-mysql-using-golang/</guid><description>&lt;p>I’m the guy who like to test. Benchmark is my… middle name. You can find dozens articles about speed one or other solution. I mean 
+ 
+ 
+ 
+ 
+ &lt;a href="http://www.mongodb.org/">MongoDB&lt;/a>
+ and 
+ 
+ 
+ 
+ 
+ &lt;a href="http://www.mysql.com/">MySQL&lt;/a>
+ . I tried MongoDB couple times, and each time I wasn’t  moved by it speed. Got project coming in, when I have to deal with large amount of concurrent connection. It’s not very big, but bigger then casual MySQL load.&lt;/p>
+&lt;p>So… how did I test – very dump way. Got 2 tables, one around 11k records, second one close to 200k record. Not much. Fields were indexed in both MySQL and MongoDB. And then i run benchmarks. First one had string fields, second one numeric.&lt;/p></description></item><item><title>Live code reload in golang</title><link>https://www.spidersoft.com.au/2014/live-code-reload-in-golang/</link><pubDate>Mon, 25 Aug 2014 04:46:44 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/live-code-reload-in-golang/</guid><description>&lt;p>Recompiling 
+ 
+ 
+ 
+ 
+ &lt;a href="http://golang.org/">go language&lt;/a>
+  code during development is bit annoying task. But there is an package for that. Actually I found at least 3:&lt;/p></description></item><item><title>Reading unknown JSON object in go language</title><link>https://www.spidersoft.com.au/2014/reading-unknown-json-object-in-go-language/</link><pubDate>Mon, 18 Aug 2014 07:19:08 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/reading-unknown-json-object-in-go-language/</guid><description>&lt;p>Exploring [The Go Language][1] is so much fun. Everything is brand new, and different then any other language. This time I’m going to show quick snippet which shows how to read JSON object with unknown structure, and map elements to something like hash table.&lt;/p></description></item><item><title>Fetch page with proxy using The Go language</title><link>https://www.spidersoft.com.au/2014/fetch-page-with-proxy-using-the-go-language/</link><pubDate>Wed, 13 Aug 2014 06:16:24 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/fetch-page-with-proxy-using-the-go-language/</guid><description>&lt;p>For a while i’m playing with 
+ 
+ 
+ 
+ 
+ &lt;a href="http://golang.org/">The Go Programming Language&lt;/a>
+ – so far I loved it. I figure out that I’ll push some code snippets from time to time.&lt;br>
 Today I spend some time creating simple not ever crawler, but website fetcher.&lt;/p>
-&lt;p>Idea is very simple – download page, run xpath query on it and spit out results. I was looking for decent xpath library for Go and couldn’t find any. I tried to use
-&lt;a href="http://gopkg.in/xmlpath.v2">xmlpath&lt;/a>
-but it sucks. I couldn’t even run queries like &lt;code>id('product-details')/div[@class='product-price']&amp;quot;&lt;/code> Then I found something nicer –
-&lt;a href="https://github.com/moovweb/gokogiri">Gokogiri&lt;/a>
-– which works pretty nicely, but – couldn’t find any examples except this
-&lt;a href="https://www.moovweb.com/blog/gokogiri-the-best-way-to-parse-xml-in-go/">small article&lt;/a>
-.&lt;/p>
-&lt;p>The only problem with running Gokogiri is that it uses &lt;code>libxml2&lt;/code> which is not a huge problem on Linux based systems, but on Mac OS X you have to install it via
-&lt;a href="http://brew.sh/">homebrew&lt;/a>
-&lt;br>
+&lt;p>Idea is very simple – download page, run xpath query on it and spit out results. I was looking for decent xpath library for Go and couldn’t find any. I tried to use 
+ 
+ 
+ 
+ 
+ &lt;a href="http://gopkg.in/xmlpath.v2">xmlpath&lt;/a>
+ but it sucks. I couldn’t even run queries like &lt;code>id('product-details')/div[@class='product-price']&amp;quot;&lt;/code> Then I found something nicer – 
+ 
+ 
+ 
+ 
+ &lt;a href="https://github.com/moovweb/gokogiri">Gokogiri&lt;/a>
+ – which works pretty nicely, but – couldn’t find any examples except this 
+ 
+ 
+ 
+ 
+ &lt;a href="https://www.moovweb.com/blog/gokogiri-the-best-way-to-parse-xml-in-go/">small article&lt;/a>
+ .&lt;/p>
+&lt;p>The only problem with running Gokogiri is that it uses &lt;code>libxml2&lt;/code> which is not a huge problem on Linux based systems, but on Mac OS X you have to install it via 
+ 
+ 
+ 
+ 
+ &lt;a href="http://brew.sh/">homebrew&lt;/a>
+ &lt;br>
 &lt;code>brew install libxml2&lt;/code>&lt;/p></description></item></channel></rss>
