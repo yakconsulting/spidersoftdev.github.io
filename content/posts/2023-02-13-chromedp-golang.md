@@ -11,6 +11,7 @@ categories:
 tags:
 - chromedp
 - docker
+description: "Scraping web pages with Go and chromedp is a simple task. In this article, we will show you how to scrape the page source with Go and chromedp and save it to a file."
 ---
 
 It's clear what we are trying to achieve, so let's consider the requirements. Firstly, we need a tool to render web pages since JavaScript is commonly used nowadays. Secondly, we require an API to communicate with the headless browser. Lastly, saving the result can be challenging as browsers are designed to interact with rendered results rather than directly with the source code.

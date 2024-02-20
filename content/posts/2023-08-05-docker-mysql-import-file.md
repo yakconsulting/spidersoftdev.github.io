@@ -10,6 +10,7 @@ categories:
 tags:
   - mysql
   - docker
+description: Generate SEO meta description tag: Restore MySQL databases easily and quickly without installing MySQL on your computer using a simple Bash script with Docker. Our script pulls the latest MySQL image, creates a new container, sets up the database, imports the SQL file, and cleans up after itself. Try it out today!
 ---
 
 I need quick and easy way to restore some of my MySQL databases from sql files. I don't want to install MySQL on my machine, so I decided to use Docker. I created a simple bash script that will do all the work for me.

@@ -7,6 +7,7 @@ date: 2022-11-04T08:00:00+00:00
 url: /2022/how-to-host-static-website-on-aws-cloudfront
 categories:
 - Technologies
+description: I was looking for a way to host a static website on AWS. I found a couple of ways to do that. I decided to use CloudFront as a CDN and S3 as an origin. I will show you how to do that.
 tags:
 - aws
 - cloudfront

@@ -77,7 +77,7 @@ avatar = "img/avatar.png"
 
 [Params]
 subtitle = "" # Deprecated in favor of .Site.Params.logo.subtitle
-description = "SpiderSoft is an Australian software development company. We have a presence in Sydney and offshore offices in Poland. We specialize in custom software solutions."
+description = "Custom software solutions by SpiderSoft, an Australian company with Polish & offshore offices. Specializing in tailored software for businesses."
 copyright = "SpiderSoft" # Footer copyright holder, otherwise will use site title
 opengraph = true # Enable OpenGraph if true
 schema = true # Enable Schema

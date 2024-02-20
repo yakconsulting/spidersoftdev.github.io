@@ -11,6 +11,7 @@ categories:
 tags:
 - aws
 - cloudfront
+description: For a while I was looking for an easy we to test my lambda functions written in golang locally. We have awesome tools like LocalStack but this is not what I was looking for. I wanted to test my lambda function locally, without any dependencies. Something lighter without Docker. I will show you how to do that.
 ---
 For a while I was looking for an easy we to test my lambda functions written in golang locally. We have awesome tools like [LocalStack](https://localstack.cloud/) but this is not what I was looking for. I wanted to test my lambda function locally, without any dependencies. Something lighter without [Docker](https://www.docker.com/). I will show you how to do that.
 

@@ -3,6 +3,7 @@ title: jQuery SEO URL plugin
 author: admin
 type: page
 date: 2013-04-27T13:09:51+00:00
+description: Create SEO-friendly URLs (or slugs) in JavaScript with our plugin. Currently supporting Polish, Czech, and Hungarian languages. Check out the demo at for more information.
 layout:
   - list-post
 unlink_image:

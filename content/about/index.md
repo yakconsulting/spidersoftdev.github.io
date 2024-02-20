@@ -3,8 +3,7 @@ title: About Us
 author: admin
 type: page
 date: 2010-12-04T02:05:55+00:00
-aktt_notify_twitter:
-  - no
+description: Transform your business with SpiderSoft's custom software solutions! With over a decade of expertise, we specialize in new application development, legacy system upgrades, maintenance and enhancement, and custom application integration. Trust our refined development methodology to deliver fully supported software for web, desktop, and mobile applications. Choose SpiderSoft for your next software project!
 layout:
   - home-post
 hide_page_title:
