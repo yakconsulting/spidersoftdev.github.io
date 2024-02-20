@@ -6,6 +6,7 @@ type: post
 date: 2022-11-03T08:30:00+00:00
 url: /2022/how-to-populate-dynamodb-with-golang
 thumbnail: /images/2014/08/gopher.jpg
+description: Discover how one developer overcame their hesitation with Amazon DynamoDB and successfully migrated data from expensive S3 storage. Learn their tips and tricks for storing JSON data without resorting to unconventional object notation, as detailed in this insightful blog post.
 categories:
 - Technologies
 - Go lang
