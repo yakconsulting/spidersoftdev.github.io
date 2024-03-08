@@ -8,7 +8,7 @@ description: "SpiderSoft's Money Back Guarantee: Up to 10 days refund for Dedica
 ---
 ## 1. REFUNDS, DISPUTES AND CANCELLATIONS
 
-1.1 Money Back Guarantee: SpiderSoft provides a 10-Day Money Back Guarantee for Dedicated, VPS, or hosting service ordered under a subscription period of quarterly or greater.
+1.1 Money-Back Guarantee: SpiderSoft provides a 10-Day Money Back Guarantee for Dedicated, VPS, or hosting service ordered under a subscription period of quarterly or greater.
 
 1.2 Refunds: All payments to SpiderSoft are non-refundable, except where the money back period is applicable and the refund request is made within 30 days of the service signup date. One time setup and additional fees are non-refundable except where an ordered hosting or additional service cannot be provided by SpiderSoft. Where an ordered service cannot be provided but an alternative service is provided in its place, all applicable one-time setup fees will remain payable. Refunds are not provided automatically and must be requested by the customer within 30 days of requesting cancellation.
 

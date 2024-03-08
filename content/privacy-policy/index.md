@@ -5,46 +5,66 @@ type: page
 date: 2015-05-07T00:23:40+00:00
 
 ---
-SpiderSoft is dedicated to maintaining the privacy of our customers. Once you have chosen to become a SpiderSoft customer, we assure you that your personal information will be exclusively used to provide you with the services you have purchased.
+**SpiderSoft is dedicated to maintaining the privacy of our customers.** Once you have chosen to become a SpiderSoft customer, we assure you that your personal information will be exclusively used to provide you with the services you have purchased.
 
-1. WHAT WE WILL STORE  
-1.1 Account Information – when you establish  services with SpiderSoft, you will be asked to provide contact and payment information which will be stored in our system for future billing and customer communication requirements.
+## 1. WHAT WE WILL STORE
 
-1.1.1 Contact Information – This will include your name, address, phone number and email address and any.
+### 1.1 Account Information
+When you establish services with SpiderSoft, you will be asked to provide contact and payment information which will be stored in our system for future billing and customer communication requirements.
 
-1.1.2 Payment Information – Typically this includes your credit card number but may also include bank account details.
+#### 1.1.1 Contact Information
+This will include your name, address, phone number, and email address.
 
-1.1.3 Additional Information – In the normal course of providing our web hosting services, we also create and maintain other information such as account status, system usage, plan type and support requests. All information collected by SpiderSoft will be used for the sole purpose of maintaining our relationship with you as The Customer.
+#### 1.1.2 Payment Information
+Typically this includes your credit card number but may also include bank account details.
 
-2. WHAT WE WILL DO WITH STORED INFORMATION?  
-2.1 Notifications – SpiderSoft will use customer information to notify The Customer of important system and service related issues including:
+#### 1.1.3 Additional Information
+In the normal course of providing our web hosting services, we also create and maintain other information such as account status, system usage, plan type, and support requests. All information collected by SpiderSoft will be used for the sole purpose of maintaining our relationship with you as The Customer.
 
-  1. system upgrades;
-  2. scheduled maintenance;
-  3. network downtime;
-  4. newly added services or features;
-  5. any other communication deemed relevant to the continuance of your service.
+## 2. WHAT WE WILL DO WITH STORED INFORMATION?
 
-2.2 Partner Companies – We may share customer information with partner companies when The Customer has requested a service or product provided by that company. The information given will only be that which is necessary to implement the service or product requested.
+### 2.1 Notifications
+SpiderSoft will use customer information to notify The Customer of important system and service related issues including:
 
-2.3 As Required by Law – We will disclose customer information to relevant legal authorities in Australia when instructed to do so under Australian Law. We will also provide this information to the relevant legal authority if it is necessary to bring legal action against persons causing harm or interfering with the rights or property of SpiderSoft, our customers, or others.
+1. System upgrades;
+2. Scheduled maintenance;
+3. Network downtime;
+4. Newly added services or features;
+5. Any other communication deemed relevant to the continuance of your service.
 
-2.4 – We do not sell or rent customer information.
+### 2.2 Partner Companies
+We may share customer information with partner companies when The Customer has requested a service or product provided by that company. The information given will only be that which is necessary to implement the service or product requested.
 
-3. DOMAIN WHOIS INFORMATION  
-3.1 Information Collected – when registering a domain name, the controlling registry responsible for the chosen domain extension will collect contact information through our system to add to the Whois database. This information is used to assist in determining and protecting the authorised owner of the registered domain and to help avoid the domain being hijacked by another party.
+### 2.3 As Required by Law
+We will disclose customer information to relevant legal authorities in Australia when instructed to do so under Australian Law. We will also provide this information to the relevant legal authority if it is necessary to bring legal action against persons causing harm or interfering with the rights or property of SpiderSoft, our customers, or others.
 
-3.1.1 Public Availability of Whois Information – The default nature of whois information attached to a domain registration is that it is publicly available by performing a whois search on the internet.
+#### 2.4
+We do not sell or rent customer information.
 
-3.1.2 Storage and Updating of Whois Information – The whois information delivered when performing a search on the internet is not stored in SpiderSoft systems. However, the information is updated from within the SpiderSoft billing system through API connections to the registry. NOTE: Care should be taken when updating this information as false or fake information can result in your domain name being hijacked and SpiderSoft accepts no liability in the occurrence of such an event.
+## 3. DOMAIN WHOIS INFORMATION
 
-4. HOW DOES SPIDERSOFT USE COOKIES?  
-4.1 Tracking and Storage of Cookies – Cookies are pieces of information generated by a Web server and stored on a user’s computer. SpiderSoft does not use cookies to track or collect information specific to the web activities of our customers. We exclusively uses cookies to authenticate users accessing the various Control Panels used for accessing our services and to securely store login data. We use a session cookie, which allows the cookie to remain active only while your browser is open. After the browser is closed, the cookie expires.
+### 3.1 Information Collected
+When registering a domain name, the controlling registry responsible for the chosen domain extension will collect contact information through our system to add to the Whois database. This information is used to assist in determining and protecting the authorised owner of the registered domain and to help avoid the domain being hijacked by another party.
 
-5. REMOVAL OF STORED INFORMATION  
-5.1 Request to Remove Information – As long as The Customer has no active services under an account, certain details about a customer can be removed on request. However, due to service and invoice tracking for accounting purposes, not all information can be removed. For assistance with removing information, The Customer should contact our billing department by submitting a support ticket.
+#### 3.1.1 Public Availability of Whois Information
+The default nature of whois information attached to a domain registration is that it is publicly available by performing a whois search on the internet.
 
-5.2 While Services are Active – SpiderSoft  is unable to maintain an active hosting or additional service without the storage of the information outlined in section One (1) of this policy.
+#### 3.1.2 Storage and Updating of Whois Information
+The whois information delivered when performing a search on the internet is not stored in SpiderSoft systems. However, the information is updated from within the SpiderSoft billing system through API connections to the registry. NOTE: Care should be taken when updating this information as false or fake information can result in your domain name being hijacked and SpiderSoft accepts no liability in the occurrence of such an event.
 
-6. AUSTRALIAN PRIVACY PRINCIPLES COMPLIANCE  
-We comply with the Australian Privacy Principles. We wish to make it clear how we collect, store and use your personal information.
+## 4. HOW DOES SPIDERSOFT USE COOKIES?
+
+### 4.1 Tracking and Storage of Cookies
+Cookies are pieces of information generated by a Web server and stored on a user's computer. SpiderSoft does not use cookies to track or collect information specific to the web activities of our customers. We exclusively uses cookies to authenticate users accessing the various Control Panels used for accessing our services and to securely store login data. We use a session cookie, which allows the cookie to remain active only while your browser is open. After the browser is closed, the cookie expires.
+
+## 5. REMOVAL OF STORED INFORMATION
+
+### 5.1 Request to Remove Information
+As long as The Customer has no active services under an account, certain details about a customer can be removed on request. However, due to service and invoice tracking for accounting purposes, not all information can be removed. For assistance with removing information, The Customer should contact our billing department by submitting a support ticket.
+
+### 5.2 While Services are Active
+SpiderSoft is unable to maintain an active hosting or additional service without the storage of the information outlined in section One (1) of this policy.
+
+## 6. AUSTRALIAN PRIVACY PRINCIPLES COMPLIANCE
+
+We comply with the Australian Privacy Principles. We wish to make it clear how we collect, store, and use your personal information.
