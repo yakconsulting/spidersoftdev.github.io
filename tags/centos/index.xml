@@ -56,20 +56,4 @@ edit /etc/fstab
  
  &lt;a href="http://ant.apache.org/"> Apache Ant&lt;/a>
  . You can do anything with it that you could do with a traditional build system like GNU make, and its use of simple XML build files and extensible PHP “task” classes make it an easy-to-use and highly flexible build framework.&lt;/p>
-&lt;p>This build tool ensures that the process of creating your  web application from source code happens in a proper and repeatable way. This is the best way to reduce the possibility of errors caused by manual uploads via FTP or SSH using desktop client.&lt;/p></description></item><item><title>CentOS 6.2 php-mcrypt and EPEL repo</title><link>https://www.spidersoft.com.au/2012/centos-6-2-php-mcrypt-and-epel-repo/</link><pubDate>Thu, 12 Jul 2012 10:28:08 +0000</pubDate><guid>https://www.spidersoft.com.au/2012/centos-6-2-php-mcrypt-and-epel-repo/</guid><description>You will find plenty of “how-to” tutorials, but usually with not working url to EPEL repo. So this is mine:
-yum install http://download.fedoraproject.org/pub/epel/6/x86_64/epel-release-6-7.noarch.rpm yum update yum install php-mcrypt</description></item><item><title>CentOS 6 and Mac OS Extended (HFS Plus) support</title><link>https://www.spidersoft.com.au/2011/centos-6-and-mac-os-extended-hfs-plus-support/</link><pubDate>Sun, 16 Oct 2011 02:43:22 +0000</pubDate><guid>https://www.spidersoft.com.au/2011/centos-6-and-mac-os-extended-hfs-plus-support/</guid><description>&lt;p>By default, CentOS 6 does not have support for Mac OS Extended 
- 
- 
- 
- 
- &lt;a href="http://en.wikipedia.org/wiki/HFS_Plus">HFS Plus&lt;/a>
- support.&lt;/p>
-&lt;blockquote>
-&lt;p>HFS Plus or HFS+ is a file system developed by Apple Inc. to replace their Hierarchical File System (HFS) as the primary file system used in Macintosh computers (or other systems running Mac OS). It is also one of the formats used by the iPod digital music player. HFS Plus is also referred to as Mac OS Extended (or, erroneously, “HFS Extended”), where its predecessor, HFS, is also referred to as Mac OS Standard (or, erroneously, as “HFS Standard”)&lt;/p>
-&lt;/blockquote></description></item><item><title>Google mod-pagespeed on CentOS</title><link>https://www.spidersoft.com.au/2011/google-mod-pagespeed-on-centos/</link><pubDate>Tue, 30 Aug 2011 00:48:05 +0000</pubDate><guid>https://www.spidersoft.com.au/2011/google-mod-pagespeed-on-centos/</guid><description>&lt;p>Short “How to” install Google mod-pagespeed on CentOs. You can read more about this Apache module on this page: Google 
- 
- 
- 
- 
- &lt;a href="http://code.google.com/speed/page-speed/docs/module.html">mod_pagespeed overview&lt;/a>
- . Basicly it’s a module which gives your website speedup. Many simple techniques to reduce size and number of requests.&lt;/p></description></item></channel></rss>
+&lt;p>This build tool ensures that the process of creating your  web application from source code happens in a proper and repeatable way. This is the best way to reduce the possibility of errors caused by manual uploads via FTP or SSH using desktop client.&lt;/p></description></item></channel></rss>

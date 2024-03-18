@@ -57,10 +57,7 @@ tar -zcvf my_archive.tar.gz --exclude=&amp;#39;cache&amp;#39; --exclude=&amp;#39
  
  &lt;a href="http://gearman.org/">Gearman&lt;/a>
  provides a generic application framework to farm out work to other machines or processes that are better suited to do the work.&lt;/p>
-&lt;p>This solution is truly multiplatform, so we have Client API and Wordkres in multiple languages like Shell, Perl, NodeJS any couple of others (PHP!)&lt;/p></description></item><item><title>JavaScript Lint compilation</title><link>https://www.spidersoft.com.au/2012/javascript-lint-compilation/</link><pubDate>Tue, 06 Mar 2012 09:28:04 +0000</pubDate><guid>https://www.spidersoft.com.au/2012/javascript-lint-compilation/</guid><description> JavaScript Lint allows you to validate JavaScript files from command line. For Windows and Mac OS Boxex we can download precompiled binaries .
-I don’t know why authors missed part in documentation which describes how to compile this under Linux box.
-Here is missing interaction:
-wget http://www.javascriptlint.com/download/jsl-0.3.0-src.tar.gz tar zxvf jsl-0.3.0-src.tar.gz cd jsl-0.3.0/src/ make -f Makefile.ref sudo cp Linux_All_DBG.OBJ/jsl /usr/local/bin</description></item><item><title>Apache Virtual Hosts in a Database</title><link>https://www.spidersoft.com.au/2012/apache-virtual-hosts-in-a-database/</link><pubDate>Sun, 08 Jan 2012 11:34:00 +0000</pubDate><guid>https://www.spidersoft.com.au/2012/apache-virtual-hosts-in-a-database/</guid><description>&lt;p>As much as I love 
+&lt;p>This solution is truly multiplatform, so we have Client API and Wordkres in multiple languages like Shell, Perl, NodeJS any couple of others (PHP!)&lt;/p></description></item><item><title>Apache Virtual Hosts in a Database</title><link>https://www.spidersoft.com.au/2012/apache-virtual-hosts-in-a-database/</link><pubDate>Sun, 08 Jan 2012 11:34:00 +0000</pubDate><guid>https://www.spidersoft.com.au/2012/apache-virtual-hosts-in-a-database/</guid><description>&lt;p>As much as I love 
  
  
  
