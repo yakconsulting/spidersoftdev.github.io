@@ -4,20 +4,6 @@ author: admin
 type: post
 date: 2015-07-10T01:26:14+00:00
 url: /2015/phpstorm-phpcodesniffer-and-codeigniter-style-guide/
-layout:
-  - default
-hide_post_title:
-  - default
-unlink_post_title:
-  - default
-hide_post_meta:
-  - default
-hide_post_date:
-  - default
-hide_post_image:
-  - default
-unlink_post_image:
-  - default
 feature_size:
   - blank
 

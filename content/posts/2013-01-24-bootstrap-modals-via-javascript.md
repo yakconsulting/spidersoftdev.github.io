@@ -7,18 +7,6 @@ url: /2013/bootstrap-modals-via-javascript/
 thumbnail: images/2013/01/Bootbox.png
 layout:
   - default
-hide_post_title:
-  - default
-unlink_post_title:
-  - default
-hide_post_meta:
-  - default
-hide_post_date:
-  - default
-hide_post_image:
-  - default
-unlink_post_image:
-  - default
 dsq_thread_id:
   - 1163190119
 categories:

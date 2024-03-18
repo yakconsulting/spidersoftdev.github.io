@@ -34,7 +34,7 @@ As long as I&#8217;m not huge fan of [Sublime Text 2](http://www.sublimetext.co
 
 This set of changes in `.sublime-settings` file solves my problems with tabs and autoIdent default preferences:
 
-```
+```JSON
 {
   "autoIndent": true,
   "open_files_in_new_window": false,
