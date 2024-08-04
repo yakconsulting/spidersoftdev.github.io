@@ -1,10 +1,11 @@
-_---
+---
 title: powerDNS with SQLite backend as a slave for BIND
 author: admin
 type: post
 date: 2016-08-21T07:01:15+00:00
 modified: 2024-08-04T14:30:00+01:00
 url: /2016/powerdns-with-sqlite-backend-as-a-slave-for-bind/
+description: Learn how to set up PowerDNS with SQLite backend as a slave for BIND. This guide covers installation, configuration, and troubleshooting for efficient DNS management.
 categories:
   - DevOps
 tags:
