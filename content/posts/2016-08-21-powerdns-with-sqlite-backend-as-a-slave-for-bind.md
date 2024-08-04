@@ -1,23 +1,18 @@
----
+_---
 title: powerDNS with SQLite backend as a slave for BIND
 author: admin
 type: post
 date: 2016-08-21T07:01:15+00:00
+modified: 2024-08-04T14:30:00+01:00
 url: /2016/powerdns-with-sqlite-backend-as-a-slave-for-bind/
-
-
-dsq_thread_id:
-  - 5575959728
 categories:
   - DevOps
 tags:
-  - config
   - dns
-  - pdns
   - sqlite3
 
 ---
-(powerDNS)[https://www.powerdns.com] it&#8217;s a great alternative for huge and bulky BIND server. Light footprint, and quick setup made that server as my obvious choice for slave server for primary BIND server. So let&#8217;s config begins:
+(powerDNS)[https://www.powerdns.com] it&#8217;s a great alternative for large and complex BIND setup. Light footprint, and quick setup made that server as my obvious choice for slave server for primary BIND server. So let&#8217;s config begins:
 
 <!--more-->
 
@@ -42,6 +37,11 @@ If we are setting up slave &#8211; we need tell who is supermaster:
 
 `sqlite3 /var/db/pdns/pdns.db 'insert into supermasters values ('x.x.x.x', 'ns1.domain.com', 'admin');'`
 
+Or we can just use build in commandline tool:
+
+`pdnsutil add-autoprimary x.x.x.x ns1.domain.com admin`
+
+
 Let&#8217;s make sure that pdns.db is writeable:  
 
 `chown -R pdns:pdns /var/db/pdns`
@@ -55,9 +55,11 @@ setuid=pdns
 setgid=pdns
 launch=gsqlite3
 gsqlite3-database=/var/db/pdns/pdns.db
+slave=yes
+superslave=yes
 ```
 
-finaly we can check if master allows us to make tranfer:
+finally we can check if master allows us to make transfer:
 
 `dig @ns1.gex.pl spidersoft.com.au AXFR` 
 
@@ -71,3 +73,11 @@ options {
     allow-transfer { x.x.x.x; y.y.y.y; };
     ...
 ```
+
+you can force zone transfer by:
+
+`rndc notify example.com`
+
+and check on the other end if it&#8217;s working:
+
+`pdnsutil list-all-zones`
