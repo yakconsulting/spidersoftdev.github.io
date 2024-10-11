@@ -1,5 +1,5 @@
 ---
-title: How to set up public bucket policy on Spaces
+title: How to set up public bucket policy on Object Storage
 author: admin
 type: post
 date: 2022-07-25T08:30:00+00:00
@@ -50,3 +50,25 @@ aws --profile=ocean --endpoint-url https://ams3.digitaloceanspaces.com s3api put
 Obviously uoi have to replace `my-public-bucket` with your bucket name and `ams3.digitaloceanspaces.com` with correct endpoint.
 
 After this set of operations, all newly created object will be public by default.
+
+## Bonus tip CORS setup:
+
+Create a `cors.json` file with content like this:
+
+```JSON 
+{
+  "CORSRules": [
+    {
+      "AllowedHeaders": ["*"],
+      "AllowedMethods": ["GET", "POST", "PUT", "DELETE"],
+      "AllowedOrigins": ["*", "https://app.foto.guru"],
+      "ExposeHeaders": ["ETag"],
+      "MaxAgeSeconds": 3000
+    }
+  ]
+}
+```
+and apply it to your bucket
+
+`aws --profile hetzner --endpoint-url https://fsn1.your-objectstorage.com s3api put-bucket-cors --bucket fotoguru-temp --cors-configuration file://cors.json`
+
