@@ -61,7 +61,7 @@ Create a `cors.json` file with content like this:
     {
       "AllowedHeaders": ["*"],
       "AllowedMethods": ["GET", "POST", "PUT", "DELETE"],
-      "AllowedOrigins": ["*", "https://app.foto.guru"],
+      "AllowedOrigins": ["*", "https://my.domain.com"],
       "ExposeHeaders": ["ETag"],
       "MaxAgeSeconds": 3000
     }
@@ -70,5 +70,5 @@ Create a `cors.json` file with content like this:
 ```
 and apply it to your bucket
 
-`aws --profile hetzner --endpoint-url https://fsn1.your-objectstorage.com s3api put-bucket-cors --bucket fotoguru-temp --cors-configuration file://cors.json`
+`aws --profile hetzner --endpoint-url https://fsn1.your-objectstorage.com s3api put-bucket-cors --bucket my-bucket --cors-configuration file://cors.json`
 
