@@ -5,19 +5,66 @@
  
  &lt;a href="http://wiki.apache.org/httpd/PHP-FPM">PHP-FPM&lt;/a>
  . Instructions are pretty simple. You can just copy and paste command to get working stack in less then 15 minutes.&lt;/p>
-&lt;p>What you can learn from it? How to install Apache 2.4 and PHP 7, how to enable and opcache, and how to install HTTPS on your server, with purchasing SSL certificate.&lt;/p></description></item><item><title>FFmpeg on AMI Linux and CentOS the easy way</title><link>https://www.spidersoft.com.au/2014/ffmpeg-on-ami-linux-and-centos-the-easy-way/</link><pubDate>Tue, 28 Oct 2014 02:12:32 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/ffmpeg-on-ami-linux-and-centos-the-easy-way/</guid><description>FFmpeg is a complete, cross-platform solution to record, convert and stream audio and video.
-All you need to do is just install one more repository:
-http://rpmfusion.org/Configuration wget http://download1.rpmfusion.org/free/el/updates/6/i386/rpmfusion-free-release-6-1.noarch.rpm sudo rpm -Uhv rpmfusion-free-release-6-1.noarch.rpm wget http://download1.rpmfusion.org/nonfree/el/updates/6/i386/rpmfusion-nonfree-release-6-1.noarch.rpm sudo rpm -Uhv rpmfusion-nonfree-release-6-1.noarch.rpm sudo yum install ffmpeg Done.
-ffmpeg version 0.10.15 Copyright (c) 2000-2014 the FFmpeg developers built on Aug 30 2014 15:49:19 with gcc 4.4.7 20120313 (Red Hat 4.4.7-3) Obviously there is no fun with FFmpeg if you don’t have anything to convert.</description></item><item><title>PHP 5.4.x on CentOS 6.5</title><link>https://www.spidersoft.com.au/2014/php-5-4-x-on-centos-6-5/</link><pubDate>Tue, 07 Oct 2014 04:22:38 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/php-5-4-x-on-centos-6-5/</guid><description>Quick copy and paste list of commands to get PHP 5.4 on CentOS boxes
-wget http://dl.fedoraproject.org/pub/epel/6/x86_64/epel-release-6-8.noarch.rpm wget http://rpms.famillecollet.com/enterprise/remi-release-6.rpm sudo rpm -Uvh remi-release-6*.rpm epel-release-6*.rpm Enable remi repo
-sudo nano /etc/yum.repos.d/remi.repo
-Update
-sudo yum update sudo yum info php Loaded plugins: fastestmirror, refresh-packagekit, security Loading mirror speeds from cached hostfile * base: mirror.optus.net * epel: fedora.mirror.serversaustralia.com.au * extras: ftp.swin.edu.au * remi: remi.kazukioishi.net * updates: ftp.swin.edu.au Available Packages Name : php Arch : x86_64 Version : 5.</description></item><item><title>CentoOS 7 NFS support</title><link>https://www.spidersoft.com.au/2014/centoos-7-nfs-support/</link><pubDate>Wed, 13 Aug 2014 06:45:44 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/centoos-7-nfs-support/</guid><description>CentOS is pretty new, and some default stuff is just missing. Like NFS suport out of the box.
-We have to install package called nfs-utils
-yum -y install nfs-utils we can mount using standard mount 192.168.1.15:/c/share
-mount -a to make it parmament
-edit /etc/fstab
-192.168.1.15:/c/share /mnt/nfs nfs defaults 0 0</description></item><item><title>Shuttle XS35 V2 and CentOs drivers</title><link>https://www.spidersoft.com.au/2013/shuttle-xs35-v2-and-centos-drivers/</link><pubDate>Mon, 23 Dec 2013 10:43:40 +0000</pubDate><guid>https://www.spidersoft.com.au/2013/shuttle-xs35-v2-and-centos-drivers/</guid><description>&lt;p>Some time ago I bought extremely quiet Shuttle 
+&lt;p>What you can learn from it? How to install Apache 2.4 and PHP 7, how to enable and opcache, and how to install HTTPS on your server, with purchasing SSL certificate.&lt;/p></description></item><item><title>FFmpeg on AMI Linux and CentOS the easy way</title><link>https://www.spidersoft.com.au/2014/ffmpeg-on-ami-linux-and-centos-the-easy-way/</link><pubDate>Tue, 28 Oct 2014 02:12:32 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/ffmpeg-on-ami-linux-and-centos-the-easy-way/</guid><description>&lt;p> 
+ 
+ 
+ 
+ 
+ &lt;a href="https://www.ffmpeg.org/">FFmpeg&lt;/a>
+ is a complete, cross-platform solution to record, convert and stream audio and video.&lt;/p>
+&lt;p>All you need to do is just install one more repository:&lt;br>
+ 
+ 
+ 
+ 
+ 
+ &lt;a href="http://rpmfusion.org/Configuration">http://rpmfusion.org/Configuration&lt;/a>
+ &lt;/p>
+&lt;pre tabindex="0">&lt;code>wget http://download1.rpmfusion.org/free/el/updates/6/i386/rpmfusion-free-release-6-1.noarch.rpm
+sudo rpm -Uhv rpmfusion-free-release-6-1.noarch.rpm
+wget http://download1.rpmfusion.org/nonfree/el/updates/6/i386/rpmfusion-nonfree-release-6-1.noarch.rpm
+sudo rpm -Uhv rpmfusion-nonfree-release-6-1.noarch.rpm
+sudo yum install ffmpeg
+&lt;/code>&lt;/pre>&lt;p>Done.&lt;br>
+&lt;code>ffmpeg version 0.10.15 Copyright (c) 2000-2014 the FFmpeg developers built on Aug 30 2014 15:49:19 with gcc 4.4.7 20120313 (Red Hat 4.4.7-3) &lt;/code>&lt;/p>
+&lt;p>Obviously there is no fun with FFmpeg if you don’t have anything to convert. I needed to crop vertical videos from iPad to square – 
+ 
+ 
+ 
+ 
+ &lt;a href="https://itunes.apple.com/au/app/vine/id592447445?mt=8">Vine&lt;/a>
+ like format.&lt;/p></description></item><item><title>PHP 5.4.x on CentOS 6.5</title><link>https://www.spidersoft.com.au/2014/php-5-4-x-on-centos-6-5/</link><pubDate>Tue, 07 Oct 2014 04:22:38 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/php-5-4-x-on-centos-6-5/</guid><description>&lt;p>Quick copy and paste list of commands to get PHP 5.4 on CentOS boxes&lt;/p>
+&lt;pre tabindex="0">&lt;code>wget http://dl.fedoraproject.org/pub/epel/6/x86_64/epel-release-6-8.noarch.rpm
+wget http://rpms.famillecollet.com/enterprise/remi-release-6.rpm
+sudo rpm -Uvh remi-release-6*.rpm epel-release-6*.rpm
+&lt;/code>&lt;/pre>&lt;p>Enable remi repo&lt;/p>
+&lt;p>&lt;code>sudo nano /etc/yum.repos.d/remi.repo&lt;/code>&lt;/p>
+&lt;p>Update&lt;/p>
+&lt;pre tabindex="0">&lt;code>sudo yum update
+sudo yum info php
+Loaded plugins: fastestmirror, refresh-packagekit, security
+Loading mirror speeds from cached hostfile
+ * base: mirror.optus.net
+ * epel: fedora.mirror.serversaustralia.com.au
+ * extras: ftp.swin.edu.au
+ * remi: remi.kazukioishi.net
+ * updates: ftp.swin.edu.au
+Available Packages
+Name : php
+Arch : x86_64
+Version : 5.4.33
+Release : 2.el6.remi
+Size : 2.7 M
+Repo : remi
+&lt;/code>&lt;/pre>&lt;p>done…&lt;/p></description></item><item><title>CentoOS 7 NFS support</title><link>https://www.spidersoft.com.au/2014/centoos-7-nfs-support/</link><pubDate>Wed, 13 Aug 2014 06:45:44 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/centoos-7-nfs-support/</guid><description>&lt;p>CentOS is pretty new, and some default stuff is just missing. Like NFS suport out of the box.&lt;/p>
+&lt;p>We have to install package called &lt;code>nfs-utils&lt;/code>&lt;/p>
+&lt;pre tabindex="0">&lt;code>yum -y install nfs-utils
+&lt;/code>&lt;/pre>&lt;p>we can mount using standard &lt;code>mount 192.168.1.15:/c/share&lt;/code>&lt;/p>
+&lt;pre tabindex="0">&lt;code>mount -a 
+&lt;/code>&lt;/pre>&lt;p>to make it parmament&lt;/p>
+&lt;p>edit &lt;code>/etc/fstab&lt;/code>&lt;/p>
+&lt;pre tabindex="0">&lt;code>192.168.1.15:/c/share /mnt/nfs nfs defaults 0 0
+&lt;/code>&lt;/pre></description></item><item><title>Shuttle XS35 V2 and CentOs drivers</title><link>https://www.spidersoft.com.au/2013/shuttle-xs35-v2-and-centos-drivers/</link><pubDate>Mon, 23 Dec 2013 10:43:40 +0000</pubDate><guid>https://www.spidersoft.com.au/2013/shuttle-xs35-v2-and-centos-drivers/</guid><description>&lt;p>Some time ago I bought extremely quiet Shuttle 
  
  
  

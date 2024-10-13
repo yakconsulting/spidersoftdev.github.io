@@ -22,5 +22,17 @@
  
  
  &lt;a href="http://aws.amazon.com/s3/">Amazon S3&lt;/a>
- but it’s served by Google and it’s still in beta mode – that’s mean that you can’t just register and use, and you have limited warranty about quality and uptime.&lt;/p></description></item><item><title>Desktop Closure Compiler beta release</title><link>https://www.spidersoft.com.au/2011/desktop-closure-compiler-beta-release/</link><pubDate>Thu, 20 Jan 2011 03:16:24 +0000</pubDate><guid>https://www.spidersoft.com.au/2011/desktop-closure-compiler-beta-release/</guid><description>The Closure Compiler is a tool for making JavaScript download and run faster. It is a true compiler for JavaScript. Instead of compiling from a source language to machine code, it compiles from JavaScript to better JavaScript. It parses your JavaScript, analyzes it, removes dead code and rewrites and minimizes what’s left. It also checks syntax, variable references, and types, and warns about common JavaScript pitfalls.
-Google provides Closure Compiler Service which is web application to compile JavaScript, you can also use Java application or REST API.</description></item></channel></rss>
+ but it’s served by Google and it’s still in beta mode – that’s mean that you can’t just register and use, and you have limited warranty about quality and uptime.&lt;/p></description></item><item><title>Desktop Closure Compiler beta release</title><link>https://www.spidersoft.com.au/2011/desktop-closure-compiler-beta-release/</link><pubDate>Thu, 20 Jan 2011 03:16:24 +0000</pubDate><guid>https://www.spidersoft.com.au/2011/desktop-closure-compiler-beta-release/</guid><description>&lt;p>The 
+ 
+ 
+ 
+ 
+ &lt;a href="http://code.google.com/closure/compiler/">Closure Compiler&lt;/a>
+ is a tool for making JavaScript download and run faster. It is a true compiler for JavaScript. Instead of compiling from a source language to machine code, it compiles from JavaScript to better JavaScript. It parses your JavaScript, analyzes it, removes dead code and rewrites and minimizes what’s left. It also checks syntax, variable references, and types, and warns about common JavaScript pitfalls.&lt;/p>
+&lt;p>Google provides  
+ 
+ 
+ 
+ 
+ &lt;a href="http://closure-compiler.appspot.com/home">Closure Compiler Service&lt;/a>
+ which is web application to compile JavaScript, you can also use Java application or REST API. For your convenience we created simple app to use Closure Compiler on your desktop.&lt;/p></description></item></channel></rss>

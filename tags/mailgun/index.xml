@@ -1,3 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Mailgun on SpiderSoft</title><link>https://www.spidersoft.com.au/tags/mailgun/</link><description>Recent content in Mailgun on SpiderSoft</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 23 Sep 2013 23:26:49 +0000</lastBuildDate><atom:link href="https://www.spidersoft.com.au/tags/mailgun/index.xml" rel="self" type="application/rss+xml"/><item><title>Why I don’t recommend mailgun…</title><link>https://www.spidersoft.com.au/2013/why-i-dont-recommend-mailgun/</link><pubDate>Mon, 23 Sep 2013 23:26:49 +0000</pubDate><guid>https://www.spidersoft.com.au/2013/why-i-dont-recommend-mailgun/</guid><description>Couple months ago I listed services having API for sending and receiving emails . One of them was mailgun – I was using it for a while since… yesterday. My account was locked without any valid reason. Something related with SPAM:
-http://documentation.mailgun.com/razor.html Reference: #rzr01.
-Because I know exactly what emails are being sent using my accounts (I keep track of each email coming out from the system) I was really interested how it could happen.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Mailgun on SpiderSoft</title><link>https://www.spidersoft.com.au/tags/mailgun/</link><description>Recent content in Mailgun on SpiderSoft</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 23 Sep 2013 23:26:49 +0000</lastBuildDate><atom:link href="https://www.spidersoft.com.au/tags/mailgun/index.xml" rel="self" type="application/rss+xml"/><item><title>Why I don’t recommend mailgun…</title><link>https://www.spidersoft.com.au/2013/why-i-dont-recommend-mailgun/</link><pubDate>Mon, 23 Sep 2013 23:26:49 +0000</pubDate><guid>https://www.spidersoft.com.au/2013/why-i-dont-recommend-mailgun/</guid><description>&lt;p>Couple months ago I listed  services having  
+ 
+ 
+ &lt;a href="https://www.spidersoft.com.au/2013/send-and-receive-emails-via-api/" title="Send and receive emails via API" target="_blank" rel="noopener">API for sending and receiving emails&lt;/a>
+ . One of them was 
+ 
+ 
+ 
+ 
+ &lt;a href="http://www.mailgun.com/">mailgun&lt;/a>
+ – I was using it for a while since… yesterday. My account was locked without any valid reason. Something related with SPAM:&lt;/p>
+&lt;blockquote>
+&lt;p> 
+ 
+ 
+ 
+ 
+ &lt;a href="http://documentation.mailgun.com/razor.html">http://documentation.mailgun.com/razor.html&lt;/a>
+  Reference: #rzr01.&lt;/p>
+&lt;/blockquote>
+&lt;p>Because I know exactly what emails are being sent using my accounts (I keep track of each email coming out from the system) I was really interested how it could happen. Who reported message as a SPAM, and which one was that.&lt;/p></description></item></channel></rss>

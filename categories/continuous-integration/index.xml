@@ -1,15 +1,57 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Continuous Integration on SpiderSoft</title><link>https://www.spidersoft.com.au/categories/continuous-integration/</link><description>Recent content in Continuous Integration on SpiderSoft</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 30 May 2018 10:35:59 +0000</lastBuildDate><atom:link href="https://www.spidersoft.com.au/categories/continuous-integration/index.xml" rel="self" type="application/rss+xml"/><item><title>How to run cross browser testing cheaply</title><link>https://www.spidersoft.com.au/2018/how-to-run-cross-browser-testing-cheaply/</link><pubDate>Wed, 30 May 2018 10:35:59 +0000</pubDate><guid>https://www.spidersoft.com.au/2018/how-to-run-cross-browser-testing-cheaply/</guid><description>&lt;p>Cross browser testing is a standard part of the testing process. No matter what you build – small page, online form or huge service. It’s really important to test it across multiple browsers.&lt;/p></description></item><item><title>Easy deployment from GIT to FTP</title><link>https://www.spidersoft.com.au/2015/easy-deployment-from-git-to-ftp/</link><pubDate>Tue, 10 Nov 2015 13:17:00 +0000</pubDate><guid>https://www.spidersoft.com.au/2015/easy-deployment-from-git-to-ftp/</guid><description>I’m huge fan of Continuous Integration and all possible automation which can save me any time during development process. I’m using plenty of different tools in my daily work, but there is always place for something new.
-Basically each decent IDE has FTP client build in, but sometimes you don’t have access to your IDE but obviously you got your code in GIT repository. If you are using Bitbucket or Github you are lucky – you can use FTPloy .</description></item><item><title>PhpStorm PHPCodeSniffer and… CodeIgniter style guide</title><link>https://www.spidersoft.com.au/2015/phpstorm-phpcodesniffer-and-codeigniter-style-guide/</link><pubDate>Fri, 10 Jul 2015 01:26:14 +0000</pubDate><guid>https://www.spidersoft.com.au/2015/phpstorm-phpcodesniffer-and-codeigniter-style-guide/</guid><description>This article is related to my previous one about setting up PHPCodeSniffer with CodeIgniter coding standards.
-Installation on Linux boxes is pretty yeasy:
-sudo pear channel-update pear.php.net yum install php-pear-PHP-CodeSniffer php-phpunit-phpcpd On Mac OS X you have couple options. Pear or Homebrew:
-brew install php-code-sniffer
-And following that, on regular boxes CodeSniffer will be here:
-/usr/share/pear/PHP/CodeSniffer/Standards
-on Mac OS CodeSniffer will be located here:
-/usr/lib/php/pear/PHP/CodeSniffer/Standards or… /usr/local/Cellar/php-code-sniffer/1.5.6/CodeSniffer/Standards
-CodeIgniter standard can be downloaded from this location https://github.</description></item><item><title>How to test and capture REST API calls</title><link>https://www.spidersoft.com.au/2014/how-to-test-test-and-capture-rest-api-calls/</link><pubDate>Wed, 24 Sep 2014 03:21:37 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/how-to-test-test-and-capture-rest-api-calls/</guid><description>Just bunch of very useful tools to help us with testing and building REST API.
-requestb.in – just bin for your API calls. Very easy to capture and test calls from APPS
-www.runscope.com – older brother, or actually mother of requestb.in – full featured serivce to test APIs</description></item><item><title>How to manage logs</title><link>https://www.spidersoft.com.au/2014/how-to-manage-logs/</link><pubDate>Thu, 28 Aug 2014 10:16:31 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/how-to-manage-logs/</guid><description>&lt;p>Capturing and storing longs it’s bit painful task. It’s not so bad if you are running one application on one server, but if you go with multiple servers, or just don’t want to “login” to check logs – you have to go with remote logging tools. I know only 2 and didn’t look for more. First of them is tool called 
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Continuous Integration on SpiderSoft</title><link>https://www.spidersoft.com.au/categories/continuous-integration/</link><description>Recent content in Continuous Integration on SpiderSoft</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 30 May 2018 10:35:59 +0000</lastBuildDate><atom:link href="https://www.spidersoft.com.au/categories/continuous-integration/index.xml" rel="self" type="application/rss+xml"/><item><title>How to run cross browser testing cheaply</title><link>https://www.spidersoft.com.au/2018/how-to-run-cross-browser-testing-cheaply/</link><pubDate>Wed, 30 May 2018 10:35:59 +0000</pubDate><guid>https://www.spidersoft.com.au/2018/how-to-run-cross-browser-testing-cheaply/</guid><description>&lt;p>Cross browser testing is a standard part of the testing process. No matter what you build – small page, online form or huge service. It’s really important to test it across multiple browsers.&lt;/p></description></item><item><title>Easy deployment from GIT to FTP</title><link>https://www.spidersoft.com.au/2015/easy-deployment-from-git-to-ftp/</link><pubDate>Tue, 10 Nov 2015 13:17:00 +0000</pubDate><guid>https://www.spidersoft.com.au/2015/easy-deployment-from-git-to-ftp/</guid><description>&lt;p>I’m huge fan of Continuous Integration and all possible automation which can save me any time during development process. I’m using plenty of different tools in my daily work, but there is always place for something new.&lt;/p>
+&lt;p>Basically each decent IDE has FTP client build in, but sometimes you don’t have access to your IDE but obviously you got your code in GIT repository. If you are using 
+ 
+ 
+ 
+ 
+ &lt;a href="https://bitbucket.org">Bitbucket&lt;/a>
+ or 
+ 
+ 
+ 
+ 
+ &lt;a href="https://github.com">Github&lt;/a>
+ you are lucky – you can use 
+ 
+ 
+ 
+ 
+ &lt;a href="https://github.com/rasshofer/ftploy">FTPloy&lt;/a>
+  . It’s super simple service, which gives you option to bind your repository with FTP server. After change is made – it deploys your files on the server. Nothing more, nothing less.&lt;/p></description></item><item><title>PhpStorm PHPCodeSniffer and… CodeIgniter style guide</title><link>https://www.spidersoft.com.au/2015/phpstorm-phpcodesniffer-and-codeigniter-style-guide/</link><pubDate>Fri, 10 Jul 2015 01:26:14 +0000</pubDate><guid>https://www.spidersoft.com.au/2015/phpstorm-phpcodesniffer-and-codeigniter-style-guide/</guid><description>&lt;p>This article is related to my previous one about setting up 
+ 
+ 
+ &lt;a href="https://www.spidersoft.com.au/2012/codeigniter-and-php_codesniffer/" title="CodeIgniter and PHP_CodeSniffer" target="_blank" rel="noopener">PHPCodeSniffer with CodeIgniter&lt;/a>
+ coding standards.&lt;/p>
+&lt;p>Installation on Linux boxes is pretty yeasy:&lt;/p>
+&lt;pre tabindex="0">&lt;code>sudo pear channel-update pear.php.net
+yum install php-pear-PHP-CodeSniffer php-phpunit-phpcpd
+&lt;/code>&lt;/pre>&lt;p>On Mac OS X you have couple options. Pear or Homebrew:&lt;/p>
+&lt;p>&lt;code>brew install php-code-sniffer&lt;/code>&lt;/p>
+&lt;p>And following that, on regular boxes CodeSniffer will be here:&lt;/p>
+&lt;p>&lt;code>/usr/share/pear/PHP/CodeSniffer/Standards&lt;/code>&lt;/p>
+&lt;p>on Mac OS CodeSniffer will be located here:&lt;/p>
+&lt;p>&lt;code>/usr/lib/php/pear/PHP/CodeSniffer/Standards&lt;/code> or… &lt;code>/usr/local/Cellar/php-code-sniffer/1.5.6/CodeSniffer/Standards&lt;/code>&lt;/p>
+&lt;p>CodeIgniter standard can be downloaded from this location  
+ 
+ 
+ 
+ 
+ &lt;a href="https://github.com/thomas-ernest/CodeIgniter-for-PHP_CodeSniffer" title="https://github.com/thomas-ernest/CodeIgniter-for-PHP_CodeSniffer">https://github.com/thomas-ernest/CodeIgniter-for-PHP_CodeSniffer&lt;/a>
+ &lt;/p></description></item><item><title>How to test and capture REST API calls</title><link>https://www.spidersoft.com.au/2014/how-to-test-test-and-capture-rest-api-calls/</link><pubDate>Wed, 24 Sep 2014 03:21:37 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/how-to-test-test-and-capture-rest-api-calls/</guid><description>&lt;p>Just bunch of very useful tools to help us with testing and building REST API.&lt;/p>
+&lt;p> 
+ 
+ 
+ 
+ 
+ &lt;a href="http://requestb.in/">requestb.in&lt;/a>
+  – just bin for your API calls. Very easy to capture and test calls from APPS&lt;/p>
+&lt;p> 
+ 
+ 
+ 
+ 
+ &lt;a href="https://www.runscope.com/">www.runscope.com&lt;/a>
+  – older brother, or actually mother of requestb.in – full featured serivce to test APIs&lt;/p></description></item><item><title>How to manage logs</title><link>https://www.spidersoft.com.au/2014/how-to-manage-logs/</link><pubDate>Thu, 28 Aug 2014 10:16:31 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/how-to-manage-logs/</guid><description>&lt;p>Capturing and storing longs it’s bit painful task. It’s not so bad if you are running one application on one server, but if you go with multiple servers, or just don’t want to “login” to check logs – you have to go with remote logging tools. I know only 2 and didn’t look for more. First of them is tool called 
  
  
  
@@ -32,8 +74,21 @@ www.runscope.com – older brother, or actually mother of requestb.in – full f
  
  &lt;a href="https://wiki.apache.org/httpd/PHP-FPM">PHP-FPM&lt;/a>
  . Instructions are pretty simple. You can just copy and paste command to get working stack in less then 15 minutes.&lt;/p>
-&lt;p>What you can learn from it? How to install Apache 2.4 and PHP 5.4, how to enable and APC, and how to install HTTPS on your server, with purchasing SSL certificate.&lt;/p></description></item><item><title>PHPUnit and PEAR install on MacOS</title><link>https://www.spidersoft.com.au/2013/phpunit-and-pear-install-on-macos/</link><pubDate>Thu, 19 Dec 2013 00:28:41 +0000</pubDate><guid>https://www.spidersoft.com.au/2013/phpunit-and-pear-install-on-macos/</guid><description>&lt;p>There is a plenty of tutorials how to install PEAR and  PHP, but there is always something “missing” in this configuration. So this time, i’m going to “sing the same song again”.&lt;/p></description></item><item><title>Free virtual machines with Internet Explorer</title><link>https://www.spidersoft.com.au/2013/free-virtual-machines-with-internet-explorer/</link><pubDate>Thu, 28 Nov 2013 05:22:57 +0000</pubDate><guid>https://www.spidersoft.com.au/2013/free-virtual-machines-with-internet-explorer/</guid><description>BrowserStack is well known service which provides awesome tools to test your website against different browsers and operating systems. It’s very handy when it comes to professional QA testing.
-Not everyone knows, that from that place you can also download virtual machines for free. On this page Virtual Machine you can pull multiple VM images with IE8 / IE 9 and different versions of windows.</description></item><item><title>How to install Phing on CentOS</title><link>https://www.spidersoft.com.au/2012/how-to-install-phing-on-centos/</link><pubDate>Fri, 24 Aug 2012 07:45:34 +0000</pubDate><guid>https://www.spidersoft.com.au/2012/how-to-install-phing-on-centos/</guid><description>&lt;p> 
+&lt;p>What you can learn from it? How to install Apache 2.4 and PHP 5.4, how to enable and APC, and how to install HTTPS on your server, with purchasing SSL certificate.&lt;/p></description></item><item><title>PHPUnit and PEAR install on MacOS</title><link>https://www.spidersoft.com.au/2013/phpunit-and-pear-install-on-macos/</link><pubDate>Thu, 19 Dec 2013 00:28:41 +0000</pubDate><guid>https://www.spidersoft.com.au/2013/phpunit-and-pear-install-on-macos/</guid><description>&lt;p>There is a plenty of tutorials how to install PEAR and  PHP, but there is always something “missing” in this configuration. So this time, i’m going to “sing the same song again”.&lt;/p></description></item><item><title>Free virtual machines with Internet Explorer</title><link>https://www.spidersoft.com.au/2013/free-virtual-machines-with-internet-explorer/</link><pubDate>Thu, 28 Nov 2013 05:22:57 +0000</pubDate><guid>https://www.spidersoft.com.au/2013/free-virtual-machines-with-internet-explorer/</guid><description>&lt;p> 
+ 
+ 
+ 
+ 
+ &lt;a href="http://www.browserstack.com/">BrowserStack&lt;/a>
+ is well known service which provides awesome tools to test your website against different browsers and operating systems. It’s very handy when it comes to professional QA testing.&lt;/p>
+&lt;p>Not everyone knows, that from that place  you can also download virtual machines for free. On this page 
+ 
+ 
+ 
+ 
+ &lt;a href="http://www.modern.ie/en-us/virtualization-tools#downloads">Virtual Machine&lt;/a>
+  you can pull multiple VM images with IE8 / IE 9 and different versions of windows.&lt;/p>
+&lt;p> &lt;/p></description></item><item><title>How to install Phing on CentOS</title><link>https://www.spidersoft.com.au/2012/how-to-install-phing-on-centos/</link><pubDate>Fri, 24 Aug 2012 07:45:34 +0000</pubDate><guid>https://www.spidersoft.com.au/2012/how-to-install-phing-on-centos/</guid><description>&lt;p> 
  
  
  

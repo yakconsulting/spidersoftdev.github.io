@@ -1,5 +1,18 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Go Lang on SpiderSoft</title><link>https://www.spidersoft.com.au/categories/go-lang/</link><description>Recent content in Go Lang on SpiderSoft</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 13 Feb 2023 08:00:00 +0000</lastBuildDate><atom:link href="https://www.spidersoft.com.au/categories/go-lang/index.xml" rel="self" type="application/rss+xml"/><item><title>How to scrape page source with Go and chromedp</title><link>https://www.spidersoft.com.au/2023/scraping-pages-with-go-and-chromedp/</link><pubDate>Mon, 13 Feb 2023 08:00:00 +0000</pubDate><guid>https://www.spidersoft.com.au/2023/scraping-pages-with-go-and-chromedp/</guid><description>It&amp;rsquo;s clear what we are trying to achieve, so let&amp;rsquo;s consider the requirements. Firstly, we need a tool to render web pages since JavaScript is commonly used nowadays. Secondly, we require an API to communicate with the headless browser. Lastly, saving the result can be challenging as browsers are designed to interact with rendered results rather than directly with the source code.
-Headless browser So we are looking for a headless browser.</description></item><item><title>How to test golang written lambda function locally</title><link>https://www.spidersoft.com.au/2022/how-to-test-lambda-function-locally/</link><pubDate>Mon, 07 Nov 2022 08:00:00 +0000</pubDate><guid>https://www.spidersoft.com.au/2022/how-to-test-lambda-function-locally/</guid><description>&lt;p>For a while I was looking for an easy we to test my lambda functions written in golang locally. We have awesome tools like 
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Go Lang on SpiderSoft</title><link>https://www.spidersoft.com.au/categories/go-lang/</link><description>Recent content in Go Lang on SpiderSoft</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 13 Feb 2023 08:00:00 +0000</lastBuildDate><atom:link href="https://www.spidersoft.com.au/categories/go-lang/index.xml" rel="self" type="application/rss+xml"/><item><title>How to scrape page source with Go and chromedp</title><link>https://www.spidersoft.com.au/2023/scraping-pages-with-go-and-chromedp/</link><pubDate>Mon, 13 Feb 2023 08:00:00 +0000</pubDate><guid>https://www.spidersoft.com.au/2023/scraping-pages-with-go-and-chromedp/</guid><description>&lt;p>It&amp;rsquo;s clear what we are trying to achieve, so let&amp;rsquo;s consider the requirements. Firstly, we need a tool to render web pages since JavaScript is commonly used nowadays. Secondly, we require an API to communicate with the headless browser. Lastly, saving the result can be challenging as browsers are designed to interact with rendered results rather than directly with the source code.&lt;/p>
+&lt;h2 id="headless-browser">Headless browser&lt;/h2>
+&lt;p>So we are looking for a headless browser. We are going to use 
+ 
+ 
+ 
+ 
+ &lt;a href="https://github.com/chromedp/docker-headless-shell">Chrome&amp;amp;rsquo;s headless-shell&lt;/a>
+ because it&amp;rsquo;s easy to use, and it&amp;rsquo;s based on 
+ 
+ 
+ 
+ 
+ &lt;a href="https://www.chromium.org/Home">Chromium&lt;/a>
+ . The most significant advantage is docker image, which we can efficiently run on our local machine or anywhere in the cloud.&lt;/p></description></item><item><title>How to test golang written lambda function locally</title><link>https://www.spidersoft.com.au/2022/how-to-test-lambda-function-locally/</link><pubDate>Mon, 07 Nov 2022 08:00:00 +0000</pubDate><guid>https://www.spidersoft.com.au/2022/how-to-test-lambda-function-locally/</guid><description>&lt;p>For a while I was looking for an easy we to test my lambda functions written in golang locally. We have awesome tools like 
  
  
  
@@ -59,13 +72,59 @@ This example allows you to submit form with fields, and also attach file&lt;/p><
  call them Spaces.&lt;/p>
 &lt;p>So today, we are trying to upload a file to an S3 type of storage with a presigned URL.&lt;/p>
 &lt;p>TL;DR: how to generate the correct URL and upload data into it.&lt;/p></description></item><item><title>Docker, GO and CGO application build</title><link>https://www.spidersoft.com.au/2021/docker-go-cgo/</link><pubDate>Fri, 23 Jul 2021 06:16:24 +0000</pubDate><guid>https://www.spidersoft.com.au/2021/docker-go-cgo/</guid><description>&lt;p>I’ve been avoiding Docker for a very long time. I started as a sysadmin setting up servers running FreeBSD and early versions of Debian on bare-bone servers. As soon as “cloud” came into the market, I switched to AWS and GCE and have used them since then. EC2 was my always goto choice to deploy something on the internet quickly. But Docker — for some reason, I was avoiding it until this two years ago, when I started using it. Without too much trust.&lt;/p>
-&lt;p>But today, history is not about my love &amp;amp; hate relationship with Docker, but about deploying the GO application and VIPS library. A couple of problems appeared during the process, and it’s worth mentioning them for future generations because I could find much help around my issues.&lt;/p></description></item><item><title>Why VIPS and Go it’s not a good match for production environment</title><link>https://www.spidersoft.com.au/posts/2020-07-14-vips-and-go-does-not-play-together/</link><pubDate>Wed, 14 Jul 2021 07:19:08 +0000</pubDate><guid>https://www.spidersoft.com.au/posts/2020-07-14-vips-and-go-does-not-play-together/</guid><description>I built a simple worker to do some magic with images by using Go &amp;amp; VIPS . I chose VIPS because it is blazing fast compared to other Go image processing libraries. So this is the story about what went wrong.
-Because my DEV setup is Apple MacBook Pro with M1 Apple Silicon, it’s always tricky to compile something to the proper architecture. Installing VIPS on my machine, it’s pretty straightforward:</description></item><item><title>Quickest in-house HTML to PDF solution</title><link>https://www.spidersoft.com.au/2021/quickest-in-house-html-to-pdf-solution/</link><pubDate>Fri, 22 Jan 2021 12:44:18 +0000</pubDate><guid>https://www.spidersoft.com.au/2021/quickest-in-house-html-to-pdf-solution/</guid><description>&lt;p>You can find some online APIs and use the free tier to test them, but you can make them your own. So without any further instructions, here is a recipe.&lt;/p></description></item><item><title>CURL to GO</title><link>https://www.spidersoft.com.au/2019/curl-to-go/</link><pubDate>Fri, 12 Jul 2019 06:44:56 +0000</pubDate><guid>https://www.spidersoft.com.au/2019/curl-to-go/</guid><description>Quite often we are looking for a quick way to make a request in GO, and we have working query tested in CURL. Sometimes it’s problematic to “move” all queries to GO, and build up whole query using client, protocol and so on.
-From the author of my beloved Caddy server there is a tool called curl-to-Go which basically does what is says. Just paste your CURL request and GO lang code to implement that.</description></item><item><title>Automated email parser</title><link>https://www.spidersoft.com.au/2019/automated-email-parser/</link><pubDate>Wed, 27 Mar 2019 08:43:27 +0000</pubDate><guid>https://www.spidersoft.com.au/2019/automated-email-parser/</guid><description>It&amp;rsquo;s a simple mechanic to decompose emails into valuable parts, like some markup (to push emails directly into internal systems), create file attachments and extract inline images.
-Flow is pretty simple, but we have a couple of components.
-We need something to “receive” emails. The easiest way is to use Amazon SES or mailgun or… something else. There are a couple of SASS solutions for that. Next step is to be notified when the email arrives, so we don’t have overhead with checking email every couple of minutes We have to “decompose” – decode email from it’s raw format to text, and attachments.</description></item><item><title>How to make email work better email2issue</title><link>https://www.spidersoft.com.au/2018/how-to-make-email-work-better-email2issue/</link><pubDate>Fri, 16 Mar 2018 09:02:56 +0000</pubDate><guid>https://www.spidersoft.com.au/2018/how-to-make-email-work-better-email2issue/</guid><description>&lt;h2 id="the-problem">The problem:&lt;/h2>
-&lt;p>We are using a bug tracking system, like most software development companies. Creating an issue is quite simple. Open bug tracking system, fill some inputs, upload attachments – done. The issue is created. Sometimes an issue is described with multiple attachments (screenshots). A bug tracking system allows us to embed images into a description. All issues come from users in the form of an email.&lt;/p></description></item><item><title>Binary compression still alive – golang binary compression.</title><link>https://www.spidersoft.com.au/2018/binary-compression-still-alive-golang-binary-compression/</link><pubDate>Wed, 07 Mar 2018 14:34:57 +0000</pubDate><guid>https://www.spidersoft.com.au/2018/binary-compression-still-alive-golang-binary-compression/</guid><description>In the ancient times, when I was coding mostly in Pascal – size did matter. People were using RAR to shave couple kilobytes from archives, and having 2mb executable was better then having 4mb executable file. In that beautiful time we used UPX – I wasn’t aware that this project is still alive, and works nicely with binaries create bo go lang.
-Ultimate Packer for eXecutables Copyright (C) 1996 - 2017 UPX 3.</description></item><item><title>Checking JPEG image dimension from partial headers</title><link>https://www.spidersoft.com.au/2017/checking-jpeg-image-dimension-from-partial-headers/</link><pubDate>Wed, 13 Dec 2017 07:43:11 +0000</pubDate><guid>https://www.spidersoft.com.au/2017/checking-jpeg-image-dimension-from-partial-headers/</guid><description>&lt;p>The goal was to read image dimensions from an image file. Pretty easy task with standard “ 
+&lt;p>But today, history is not about my love &amp;amp; hate relationship with Docker, but about deploying the GO application and VIPS library. A couple of problems appeared during the process, and it’s worth mentioning them for future generations because I could find much help around my issues.&lt;/p></description></item><item><title>Why VIPS and Go it’s not a good match for production environment</title><link>https://www.spidersoft.com.au/posts/2020-07-14-vips-and-go-does-not-play-together/</link><pubDate>Wed, 14 Jul 2021 07:19:08 +0000</pubDate><guid>https://www.spidersoft.com.au/posts/2020-07-14-vips-and-go-does-not-play-together/</guid><description>&lt;p>I built a simple worker to do some magic with images by using Go &amp;amp; 
+ 
+ 
+ 
+ 
+ &lt;a href="https://github.com/libvips/libvips">VIPS&lt;/a>
+ . I chose VIPS because it is 
+ 
+ 
+ 
+ 
+ &lt;a href="https://github.com/fawick/speedtest-resize">blazing fast&lt;/a>
+ compared to other Go image processing libraries. So this is the story about what went wrong.&lt;/p>
+&lt;p>Because my DEV setup is Apple MacBook Pro with M1 Apple Silicon, it’s always tricky to compile something to the proper architecture. Installing VIPS on my machine, it’s pretty straightforward:&lt;/p>
+&lt;p>&lt;code>brew install vips&lt;/code>&lt;/p></description></item><item><title>Quickest in-house HTML to PDF solution</title><link>https://www.spidersoft.com.au/2021/quickest-in-house-html-to-pdf-solution/</link><pubDate>Fri, 22 Jan 2021 12:44:18 +0000</pubDate><guid>https://www.spidersoft.com.au/2021/quickest-in-house-html-to-pdf-solution/</guid><description>&lt;p>You can find some online APIs and use the free tier to test them, but you can make them your own. So without any further instructions, here is a recipe.&lt;/p></description></item><item><title>CURL to GO</title><link>https://www.spidersoft.com.au/2019/curl-to-go/</link><pubDate>Fri, 12 Jul 2019 06:44:56 +0000</pubDate><guid>https://www.spidersoft.com.au/2019/curl-to-go/</guid><description>&lt;p>Quite often we are looking for a quick way to make a request in GO, and we have working query tested in CURL. Sometimes it’s problematic to “move” all queries to GO, and build up whole query using client, protocol and so on.&lt;/p>
+&lt;p>From the author of my beloved 
+ 
+ 
+ 
+ 
+ &lt;a href="https://caddyserver.com">Caddy&lt;/a>
+ server there is a tool called 
+ 
+ 
+ 
+ 
+ &lt;a href="https://mholt.github.io/curl-to-go/">curl-to-Go&lt;/a>
+ which basically does what is says. Just paste your CURL request and GO lang code to implement that.&lt;/p></description></item><item><title>Automated email parser</title><link>https://www.spidersoft.com.au/2019/automated-email-parser/</link><pubDate>Wed, 27 Mar 2019 08:43:27 +0000</pubDate><guid>https://www.spidersoft.com.au/2019/automated-email-parser/</guid><description>&lt;p>It&amp;rsquo;s a simple mechanic to decompose emails into valuable parts, like some markup (to push emails directly into internal systems), create file attachments and extract inline images.&lt;/p>
+&lt;p>Flow is pretty simple, but we have a couple of components.&lt;/p>
+&lt;ol>
+&lt;li>We need something to “receive” emails. The easiest way is to use Amazon SES or mailgun or… something else. There are a couple of SASS solutions for that.&lt;/li>
+&lt;li>Next step is to be notified when the email arrives, so we don’t have overhead with checking email every couple of minutes&lt;/li>
+&lt;li>We have to “decompose” – decode email from it’s raw format to text, and attachments. We can achieve that using couple of existing libraries, but you get the idea&lt;/li>
+&lt;li>We have to save all data and expose it to public&lt;/li>
+&lt;/ol>
+&lt;p>So we know what to do and roughly how to do the whole process. Points 1 and 2 are pretty straightforward for anyone who uses AWS and their services.&lt;/p></description></item><item><title>How to make email work better email2issue</title><link>https://www.spidersoft.com.au/2018/how-to-make-email-work-better-email2issue/</link><pubDate>Fri, 16 Mar 2018 09:02:56 +0000</pubDate><guid>https://www.spidersoft.com.au/2018/how-to-make-email-work-better-email2issue/</guid><description>&lt;h2 id="the-problem">The problem:&lt;/h2>
+&lt;p>We are using a bug tracking system, like most software development companies. Creating an issue is quite simple. Open bug tracking system, fill some inputs, upload attachments – done. The issue is created. Sometimes an issue is described with multiple attachments (screenshots). A bug tracking system allows us to embed images into a description. All issues come from users in the form of an email.&lt;/p></description></item><item><title>Binary compression still alive – golang binary compression.</title><link>https://www.spidersoft.com.au/2018/binary-compression-still-alive-golang-binary-compression/</link><pubDate>Wed, 07 Mar 2018 14:34:57 +0000</pubDate><guid>https://www.spidersoft.com.au/2018/binary-compression-still-alive-golang-binary-compression/</guid><description>&lt;p>In the ancient times, when I was coding mostly in Pascal – size did matter. People were using RAR to shave couple kilobytes from archives, and having 2mb executable was better then having 4mb executable file. In that beautiful time we used  
+ 
+ 
+ 
+ 
+ &lt;a href="https://upx.github.io/">UPX&lt;/a>
+ – I wasn’t aware that this project is still alive, and works nicely with binaries create bo go lang.&lt;/p>
+&lt;pre tabindex="0">&lt;code>Ultimate Packer for eXecutables
+Copyright (C) 1996 - 2017
+UPX 3.94 Markus Oberhumer, Laszlo Molnar &amp;amp; John Reiser May 12th 2017
+
+File size Ratio Format Name
+-------------------- ------ ----------- -----------
+11512772 -&amp;gt; 3547792 30.82% macho/amd64 main
+
+Packed 1 file.
+&lt;/code>&lt;/pre></description></item><item><title>Checking JPEG image dimension from partial headers</title><link>https://www.spidersoft.com.au/2017/checking-jpeg-image-dimension-from-partial-headers/</link><pubDate>Wed, 13 Dec 2017 07:43:11 +0000</pubDate><guid>https://www.spidersoft.com.au/2017/checking-jpeg-image-dimension-from-partial-headers/</guid><description>&lt;p>The goal was to read image dimensions from an image file. Pretty easy task with standard “ 
  
  
  
@@ -83,9 +142,10 @@ Ultimate Packer for eXecutables Copyright (C) 1996 - 2017 UPX 3.</description></
  
  
  &lt;a href="http://www.cloudberrylab.com/blog/amazon-s3-azure-and-google-cloud-prices-compare/">actually cheaper&lt;/a>
- . The other reason to use Google Storage is having different provider as a backup solution. Anyway – let’s show how easy is to use GS with existing S3 libraries.&lt;/p></description></item><item><title>How update Go library</title><link>https://www.spidersoft.com.au/2015/how-update-go-library/</link><pubDate>Tue, 05 May 2015 04:49:24 +0000</pubDate><guid>https://www.spidersoft.com.au/2015/how-update-go-library/</guid><description>Installation of go library is pretty simple: go get github.com/garyburd/redigo/redis
-From time to time, you want to get fresh version of it. If you run that command again it will NOT update the library – because it’s already there. To update it you need to use the -u switch:
-go get -u github.com/garyburd/redigo/redis</description></item><item><title>MongoDB vs MySQL using golang</title><link>https://www.spidersoft.com.au/2014/mongodb-vs-mysql-using-golang/</link><pubDate>Mon, 01 Sep 2014 04:48:36 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/mongodb-vs-mysql-using-golang/</guid><description>&lt;p>I’m the guy who like to test. Benchmark is my… middle name. You can find dozens articles about speed one or other solution. I mean 
+ . The other reason to use Google Storage is having different provider as a backup solution. Anyway – let’s show how easy is to use GS with existing S3 libraries.&lt;/p></description></item><item><title>How update Go library</title><link>https://www.spidersoft.com.au/2015/how-update-go-library/</link><pubDate>Tue, 05 May 2015 04:49:24 +0000</pubDate><guid>https://www.spidersoft.com.au/2015/how-update-go-library/</guid><description>&lt;p>Installation of go library is pretty simple:
+&lt;code>go get github.com/garyburd/redigo/redis&lt;/code>&lt;/p>
+&lt;p>From time to time, you want to get fresh version of it. If you run that command again it will NOT update the library – because it’s already there. To update it you need to use the &lt;code>-u&lt;/code> switch:&lt;/p>
+&lt;p>&lt;code>go get -u github.com/garyburd/redigo/redis&lt;/code>&lt;/p></description></item><item><title>MongoDB vs MySQL using golang</title><link>https://www.spidersoft.com.au/2014/mongodb-vs-mysql-using-golang/</link><pubDate>Mon, 01 Sep 2014 04:48:36 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/mongodb-vs-mysql-using-golang/</guid><description>&lt;p>I’m the guy who like to test. Benchmark is my… middle name. You can find dozens articles about speed one or other solution. I mean 
  
  
  

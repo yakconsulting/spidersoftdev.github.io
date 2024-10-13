@@ -11,8 +11,28 @@
  
  
  &lt;a href="https://caddyserver.com/">Caddy Server&lt;/a>
- solution is super easy.&lt;/p></description></item><item><title>Caddy rewrite and CodeIgniter</title><link>https://www.spidersoft.com.au/2016/caddy-rewrite-and-codeigniter/</link><pubDate>Mon, 25 Jul 2016 15:19:54 +0000</pubDate><guid>https://www.spidersoft.com.au/2016/caddy-rewrite-and-codeigniter/</guid><description> Caddy it’s a new kid in the block in category super light web servers. Personally – I love it. Same love I feel to CodeIgniter . To marge both of them, we need only basic rewrite rule to drop into caddyfile.
-api.spidersoft.com.au { root /var/www/html/spidersoft.com.au gzip rewrite { to {path} {path}/ /index.php?/{uri} } fastcgi / /var/run/php-sock php }</description></item><item><title>Setting up caddy server for wordpress</title><link>https://www.spidersoft.com.au/2016/setting-up-caddy-server-for-wordpress/</link><pubDate>Mon, 08 Feb 2016 09:03:34 +0000</pubDate><guid>https://www.spidersoft.com.au/2016/setting-up-caddy-server-for-wordpress/</guid><description>&lt;p> 
+ solution is super easy.&lt;/p></description></item><item><title>Caddy rewrite and CodeIgniter</title><link>https://www.spidersoft.com.au/2016/caddy-rewrite-and-codeigniter/</link><pubDate>Mon, 25 Jul 2016 15:19:54 +0000</pubDate><guid>https://www.spidersoft.com.au/2016/caddy-rewrite-and-codeigniter/</guid><description>&lt;p> 
+ 
+ 
+ 
+ 
+ &lt;a href="https://caddyserver.com/">Caddy&lt;/a>
+ it’s a new kid in the block in category super light web servers. Personally – I love it. Same love I feel to 
+ 
+ 
+ 
+ 
+ &lt;a href="https://codeigniter.com/">CodeIgniter&lt;/a>
+ . To marge both of them, we need only basic rewrite rule to drop into caddyfile.&lt;/p>
+&lt;pre tabindex="0">&lt;code>api.spidersoft.com.au {
+ root /var/www/html/spidersoft.com.au
+ gzip
+ rewrite {
+ to {path} {path}/ /index.php?/{uri}
+ }
+ fastcgi / /var/run/php-sock php
+}
+&lt;/code>&lt;/pre></description></item><item><title>Setting up caddy server for wordpress</title><link>https://www.spidersoft.com.au/2016/setting-up-caddy-server-for-wordpress/</link><pubDate>Mon, 08 Feb 2016 09:03:34 +0000</pubDate><guid>https://www.spidersoft.com.au/2016/setting-up-caddy-server-for-wordpress/</guid><description>&lt;p> 
  
  
  

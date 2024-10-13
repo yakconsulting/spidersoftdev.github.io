@@ -54,14 +54,38 @@
  
  
  &lt;a href="https://github.com/tesseract-ocr/tesseract">Tesseract&lt;/a>
- it’s a great library Open Source library to supply free OCR solutions for multiple libraries. You can use it directly from command line, or in your own software using supplied libraries.&lt;/p></description></item><item><title>Automated email parser</title><link>https://www.spidersoft.com.au/2019/automated-email-parser/</link><pubDate>Wed, 27 Mar 2019 08:43:27 +0000</pubDate><guid>https://www.spidersoft.com.au/2019/automated-email-parser/</guid><description>It&amp;rsquo;s a simple mechanic to decompose emails into valuable parts, like some markup (to push emails directly into internal systems), create file attachments and extract inline images.
-Flow is pretty simple, but we have a couple of components.
-We need something to “receive” emails. The easiest way is to use Amazon SES or mailgun or… something else. There are a couple of SASS solutions for that. Next step is to be notified when the email arrives, so we don’t have overhead with checking email every couple of minutes We have to “decompose” – decode email from it’s raw format to text, and attachments.</description></item><item><title>Getting started with AWS CLI</title><link>https://www.spidersoft.com.au/2017/getting-started-with-aws-cli/</link><pubDate>Thu, 02 Nov 2017 07:25:29 +0000</pubDate><guid>https://www.spidersoft.com.au/2017/getting-started-with-aws-cli/</guid><description>&lt;p>AWS has extremely nice UI. But – with the time, you need to do something faster than just clicking via an interface. Sometimes you need to automate something (start/stop instances, make a backup. If you are wondering – there is a perfect time for CLI.&lt;/p></description></item><item><title>SWAP space on EC2 on separate volume</title><link>https://www.spidersoft.com.au/2017/swap-space-on-ec2-on-separate-volume/</link><pubDate>Mon, 04 Sep 2017 04:27:20 +0000</pubDate><guid>https://www.spidersoft.com.au/2017/swap-space-on-ec2-on-separate-volume/</guid><description>&lt;p>It’s an extension of my previous article – how to create 
+ it’s a great library Open Source library to supply free OCR solutions for multiple libraries. You can use it directly from command line, or in your own software using supplied libraries.&lt;/p></description></item><item><title>Automated email parser</title><link>https://www.spidersoft.com.au/2019/automated-email-parser/</link><pubDate>Wed, 27 Mar 2019 08:43:27 +0000</pubDate><guid>https://www.spidersoft.com.au/2019/automated-email-parser/</guid><description>&lt;p>It&amp;rsquo;s a simple mechanic to decompose emails into valuable parts, like some markup (to push emails directly into internal systems), create file attachments and extract inline images.&lt;/p>
+&lt;p>Flow is pretty simple, but we have a couple of components.&lt;/p>
+&lt;ol>
+&lt;li>We need something to “receive” emails. The easiest way is to use Amazon SES or mailgun or… something else. There are a couple of SASS solutions for that.&lt;/li>
+&lt;li>Next step is to be notified when the email arrives, so we don’t have overhead with checking email every couple of minutes&lt;/li>
+&lt;li>We have to “decompose” – decode email from it’s raw format to text, and attachments. We can achieve that using couple of existing libraries, but you get the idea&lt;/li>
+&lt;li>We have to save all data and expose it to public&lt;/li>
+&lt;/ol>
+&lt;p>So we know what to do and roughly how to do the whole process. Points 1 and 2 are pretty straightforward for anyone who uses AWS and their services.&lt;/p></description></item><item><title>Getting started with AWS CLI</title><link>https://www.spidersoft.com.au/2017/getting-started-with-aws-cli/</link><pubDate>Thu, 02 Nov 2017 07:25:29 +0000</pubDate><guid>https://www.spidersoft.com.au/2017/getting-started-with-aws-cli/</guid><description>&lt;p>AWS has extremely nice UI. But – with the time, you need to do something faster than just clicking via an interface. Sometimes you need to automate something (start/stop instances, make a backup. If you are wondering – there is a perfect time for CLI.&lt;/p></description></item><item><title>SWAP space on EC2 on separate volume</title><link>https://www.spidersoft.com.au/2017/swap-space-on-ec2-on-separate-volume/</link><pubDate>Mon, 04 Sep 2017 04:27:20 +0000</pubDate><guid>https://www.spidersoft.com.au/2017/swap-space-on-ec2-on-separate-volume/</guid><description>&lt;p>It’s an extension of my previous article – how to create 
  
  
  &lt;a href="https://www.spidersoft.com.au/2013/ec2-instance-and-swap-space/" target="_blank" rel="noopener">SWAP on EC2 instance.&lt;/a>
  &lt;/p>
-&lt;p>This time, we are going to create separate volume.&lt;/p></description></item><item><title>When you are running out of space on your server</title><link>https://www.spidersoft.com.au/2017/when-you-are-running-out-of-space-on-your-server/</link><pubDate>Wed, 18 Jan 2017 10:46:01 +0000</pubDate><guid>https://www.spidersoft.com.au/2017/when-you-are-running-out-of-space-on-your-server/</guid><description>…in most cases you have 2 options. Because we are living in Cloud and VPS era – it’s not a big deal. You can always bump up your volume and after while you can enjoy bigger more expensive instance with more space. But sometimes you need just a space for a while or… just something for a backup ? You can always use s3cmd , gsutil or another tool. Imagine that you have just regular folder on your drive, with almost unlimited space.</description></item><item><title>How schedule start and stop EC2 instance on AWS</title><link>https://www.spidersoft.com.au/2016/how-schedule-start-and-stop-ec2-instance-on-aws/</link><pubDate>Thu, 02 Jun 2016 14:53:57 +0000</pubDate><guid>https://www.spidersoft.com.au/2016/how-schedule-start-and-stop-ec2-instance-on-aws/</guid><description>&lt;p>Biggest advantage with AWS – EC2 service, is that you are paying for each minute of usage. So – why run instances 24/7 if you need them only for 12 hours par day ? You can just start and stop whenever you need them. Obviously we don’t want to forgot to shutdown our instance, or start when we need it. Here is a simple recipe how to automate whole task&lt;/p></description></item><item><title>PHP 7 on AMI Linux (EC2)</title><link>https://www.spidersoft.com.au/2015/php-7-on-ami-linux-ec2/</link><pubDate>Thu, 10 Dec 2015 14:34:11 +0000</pubDate><guid>https://www.spidersoft.com.au/2015/php-7-on-ami-linux-ec2/</guid><description>&lt;p>PHP 7.0 it&amp;rsquo;s already a while on the market. Let’s install it on EC2 instance.  Here you can find a quick recipe:&lt;/p></description></item><item><title>Using Google Cloud storage with AWS libraries in GO LANG</title><link>https://www.spidersoft.com.au/2015/google-cloud-storage-with-aws-libraries-go-lang/</link><pubDate>Fri, 15 May 2015 01:08:15 +0000</pubDate><guid>https://www.spidersoft.com.au/2015/google-cloud-storage-with-aws-libraries-go-lang/</guid><description>&lt;p> 
+&lt;p>This time, we are going to create separate volume.&lt;/p></description></item><item><title>When you are running out of space on your server</title><link>https://www.spidersoft.com.au/2017/when-you-are-running-out-of-space-on-your-server/</link><pubDate>Wed, 18 Jan 2017 10:46:01 +0000</pubDate><guid>https://www.spidersoft.com.au/2017/when-you-are-running-out-of-space-on-your-server/</guid><description>&lt;p>…in most cases you have 2 options. Because we are living in Cloud and VPS era – it’s not a big deal. You can always bump up your volume and after while you can enjoy bigger more expensive instance with more space. But sometimes you need just a space for a while or… just something for a backup ? You can always use 
+ 
+ 
+ 
+ 
+ &lt;a href="http://s3tools.org/s3cmd">s3cmd&lt;/a>
+ , 
+ 
+ 
+ 
+ 
+ &lt;a href="https://cloud.google.com/storage/docs/gsutil">gsutil&lt;/a>
+ or another tool. Imagine that you have just regular folder on your drive, with almost unlimited space. Sounds good ? If so checkout –  
+ 
+ 
+ 
+ 
+ &lt;a href="https://github.com/s3fs-fuse/s3fs-fuse">s3fs-fuse&lt;/a>
+ . Nice tool, which allows you to bind external storage as a director in your system.&lt;/p></description></item><item><title>How schedule start and stop EC2 instance on AWS</title><link>https://www.spidersoft.com.au/2016/how-schedule-start-and-stop-ec2-instance-on-aws/</link><pubDate>Thu, 02 Jun 2016 14:53:57 +0000</pubDate><guid>https://www.spidersoft.com.au/2016/how-schedule-start-and-stop-ec2-instance-on-aws/</guid><description>&lt;p>Biggest advantage with AWS – EC2 service, is that you are paying for each minute of usage. So – why run instances 24/7 if you need them only for 12 hours par day ? You can just start and stop whenever you need them. Obviously we don’t want to forgot to shutdown our instance, or start when we need it. Here is a simple recipe how to automate whole task&lt;/p></description></item><item><title>PHP 7 on AMI Linux (EC2)</title><link>https://www.spidersoft.com.au/2015/php-7-on-ami-linux-ec2/</link><pubDate>Thu, 10 Dec 2015 14:34:11 +0000</pubDate><guid>https://www.spidersoft.com.au/2015/php-7-on-ami-linux-ec2/</guid><description>&lt;p>PHP 7.0 it&amp;rsquo;s already a while on the market. Let’s install it on EC2 instance.  Here you can find a quick recipe:&lt;/p></description></item><item><title>Using Google Cloud storage with AWS libraries in GO LANG</title><link>https://www.spidersoft.com.au/2015/google-cloud-storage-with-aws-libraries-go-lang/</link><pubDate>Fri, 15 May 2015 01:08:15 +0000</pubDate><guid>https://www.spidersoft.com.au/2015/google-cloud-storage-with-aws-libraries-go-lang/</guid><description>&lt;p> 
  
  
  
@@ -84,8 +108,21 @@ We need something to “receive” emails. The easiest way is to use Amazon SES 
  
  &lt;a href="https://wiki.apache.org/httpd/PHP-FPM">PHP-FPM&lt;/a>
  . Instructions are pretty simple. You can just copy and paste command to get working stack in less then 15 minutes.&lt;/p>
-&lt;p>What you can learn from it? How to install Apache 2.4 and PHP 5.4, how to enable and APC, and how to install HTTPS on your server, with purchasing SSL certificate.&lt;/p></description></item><item><title>Free virtual machines with Internet Explorer</title><link>https://www.spidersoft.com.au/2013/free-virtual-machines-with-internet-explorer/</link><pubDate>Thu, 28 Nov 2013 05:22:57 +0000</pubDate><guid>https://www.spidersoft.com.au/2013/free-virtual-machines-with-internet-explorer/</guid><description>BrowserStack is well known service which provides awesome tools to test your website against different browsers and operating systems. It’s very handy when it comes to professional QA testing.
-Not everyone knows, that from that place you can also download virtual machines for free. On this page Virtual Machine you can pull multiple VM images with IE8 / IE 9 and different versions of windows.</description></item><item><title>Why AWS is better than Rackspace</title><link>https://www.spidersoft.com.au/2013/why-aws-is-better-than-rackspace/</link><pubDate>Fri, 27 Sep 2013 23:28:00 +0000</pubDate><guid>https://www.spidersoft.com.au/2013/why-aws-is-better-than-rackspace/</guid><description>&lt;p>I’m huge fan of 
+&lt;p>What you can learn from it? How to install Apache 2.4 and PHP 5.4, how to enable and APC, and how to install HTTPS on your server, with purchasing SSL certificate.&lt;/p></description></item><item><title>Free virtual machines with Internet Explorer</title><link>https://www.spidersoft.com.au/2013/free-virtual-machines-with-internet-explorer/</link><pubDate>Thu, 28 Nov 2013 05:22:57 +0000</pubDate><guid>https://www.spidersoft.com.au/2013/free-virtual-machines-with-internet-explorer/</guid><description>&lt;p> 
+ 
+ 
+ 
+ 
+ &lt;a href="http://www.browserstack.com/">BrowserStack&lt;/a>
+ is well known service which provides awesome tools to test your website against different browsers and operating systems. It’s very handy when it comes to professional QA testing.&lt;/p>
+&lt;p>Not everyone knows, that from that place  you can also download virtual machines for free. On this page 
+ 
+ 
+ 
+ 
+ &lt;a href="http://www.modern.ie/en-us/virtualization-tools#downloads">Virtual Machine&lt;/a>
+  you can pull multiple VM images with IE8 / IE 9 and different versions of windows.&lt;/p>
+&lt;p> &lt;/p></description></item><item><title>Why AWS is better than Rackspace</title><link>https://www.spidersoft.com.au/2013/why-aws-is-better-than-rackspace/</link><pubDate>Fri, 27 Sep 2013 23:28:00 +0000</pubDate><guid>https://www.spidersoft.com.au/2013/why-aws-is-better-than-rackspace/</guid><description>&lt;p>I’m huge fan of 
  
  
  
@@ -97,9 +134,27 @@ Not everyone knows, that from that place you can also download virtual machines 
  
  
  &lt;a href="http://www.rackspace.com.au/">Rackspace&lt;/a>
- . So I registered account, filled out my business and credit details. Just to give a small background – got registered business since 2011 in Australia. I filled out my CC details, phone number and so on. Pretty standard process. I logged in, and start playing with their interface (pretty slow, but I shouldn’t complain yet). The best is about to come…&lt;/p></description></item><item><title>Why I don’t recommend mailgun…</title><link>https://www.spidersoft.com.au/2013/why-i-dont-recommend-mailgun/</link><pubDate>Mon, 23 Sep 2013 23:26:49 +0000</pubDate><guid>https://www.spidersoft.com.au/2013/why-i-dont-recommend-mailgun/</guid><description>Couple months ago I listed services having API for sending and receiving emails . One of them was mailgun – I was using it for a while since… yesterday. My account was locked without any valid reason. Something related with SPAM:
-http://documentation.mailgun.com/razor.html Reference: #rzr01.
-Because I know exactly what emails are being sent using my accounts (I keep track of each email coming out from the system) I was really interested how it could happen.</description></item><item><title>EC2 Instance and SWAP space</title><link>https://www.spidersoft.com.au/2013/ec2-instance-and-swap-space/</link><pubDate>Thu, 04 Jul 2013 23:07:23 +0000</pubDate><guid>https://www.spidersoft.com.au/2013/ec2-instance-and-swap-space/</guid><description>&lt;p>EC2 Instances on Amazon out of the box, does not contain any 
+ . So I registered account, filled out my business and credit details. Just to give a small background – got registered business since 2011 in Australia. I filled out my CC details, phone number and so on. Pretty standard process. I logged in, and start playing with their interface (pretty slow, but I shouldn’t complain yet). The best is about to come…&lt;/p></description></item><item><title>Why I don’t recommend mailgun…</title><link>https://www.spidersoft.com.au/2013/why-i-dont-recommend-mailgun/</link><pubDate>Mon, 23 Sep 2013 23:26:49 +0000</pubDate><guid>https://www.spidersoft.com.au/2013/why-i-dont-recommend-mailgun/</guid><description>&lt;p>Couple months ago I listed  services having  
+ 
+ 
+ &lt;a href="https://www.spidersoft.com.au/2013/send-and-receive-emails-via-api/" title="Send and receive emails via API" target="_blank" rel="noopener">API for sending and receiving emails&lt;/a>
+ . One of them was 
+ 
+ 
+ 
+ 
+ &lt;a href="http://www.mailgun.com/">mailgun&lt;/a>
+ – I was using it for a while since… yesterday. My account was locked without any valid reason. Something related with SPAM:&lt;/p>
+&lt;blockquote>
+&lt;p> 
+ 
+ 
+ 
+ 
+ &lt;a href="http://documentation.mailgun.com/razor.html">http://documentation.mailgun.com/razor.html&lt;/a>
+  Reference: #rzr01.&lt;/p>
+&lt;/blockquote>
+&lt;p>Because I know exactly what emails are being sent using my accounts (I keep track of each email coming out from the system) I was really interested how it could happen. Who reported message as a SPAM, and which one was that.&lt;/p></description></item><item><title>EC2 Instance and SWAP space</title><link>https://www.spidersoft.com.au/2013/ec2-instance-and-swap-space/</link><pubDate>Thu, 04 Jul 2013 23:07:23 +0000</pubDate><guid>https://www.spidersoft.com.au/2013/ec2-instance-and-swap-space/</guid><description>&lt;p>EC2 Instances on Amazon out of the box, does not contain any 
  
  
  

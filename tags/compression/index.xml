@@ -1,4 +1,33 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Compression on SpiderSoft</title><link>https://www.spidersoft.com.au/tags/compression/</link><description>Recent content in Compression on SpiderSoft</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 07 Mar 2018 14:34:57 +0000</lastBuildDate><atom:link href="https://www.spidersoft.com.au/tags/compression/index.xml" rel="self" type="application/rss+xml"/><item><title>Binary compression still alive – golang binary compression.</title><link>https://www.spidersoft.com.au/2018/binary-compression-still-alive-golang-binary-compression/</link><pubDate>Wed, 07 Mar 2018 14:34:57 +0000</pubDate><guid>https://www.spidersoft.com.au/2018/binary-compression-still-alive-golang-binary-compression/</guid><description>In the ancient times, when I was coding mostly in Pascal – size did matter. People were using RAR to shave couple kilobytes from archives, and having 2mb executable was better then having 4mb executable file. In that beautiful time we used UPX – I wasn’t aware that this project is still alive, and works nicely with binaries create bo go lang.
-Ultimate Packer for eXecutables Copyright (C) 1996 - 2017 UPX 3.</description></item><item><title>Utilizing multi core for tar+gzip/bzip compression/decompression</title><link>https://www.spidersoft.com.au/2013/utilizing-multi-core-for-targzipbzip-compressiondecompression/</link><pubDate>Thu, 05 Dec 2013 03:03:14 +0000</pubDate><guid>https://www.spidersoft.com.au/2013/utilizing-multi-core-for-targzipbzip-compressiondecompression/</guid><description>We have couple options: pigz and pbzip2 .
-tar -c --use-compress-program=pigz -f my_archive.tar.gz /home/archive The other trick useful trick is that you can exclude some directories or files
-tar -zcvf my_archive.tar.gz --exclude=&amp;#39;cache&amp;#39; --exclude=&amp;#39;.git&amp;#39; /home/archive</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Compression on SpiderSoft</title><link>https://www.spidersoft.com.au/tags/compression/</link><description>Recent content in Compression on SpiderSoft</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 07 Mar 2018 14:34:57 +0000</lastBuildDate><atom:link href="https://www.spidersoft.com.au/tags/compression/index.xml" rel="self" type="application/rss+xml"/><item><title>Binary compression still alive – golang binary compression.</title><link>https://www.spidersoft.com.au/2018/binary-compression-still-alive-golang-binary-compression/</link><pubDate>Wed, 07 Mar 2018 14:34:57 +0000</pubDate><guid>https://www.spidersoft.com.au/2018/binary-compression-still-alive-golang-binary-compression/</guid><description>&lt;p>In the ancient times, when I was coding mostly in Pascal – size did matter. People were using RAR to shave couple kilobytes from archives, and having 2mb executable was better then having 4mb executable file. In that beautiful time we used  
+ 
+ 
+ 
+ 
+ &lt;a href="https://upx.github.io/">UPX&lt;/a>
+ – I wasn’t aware that this project is still alive, and works nicely with binaries create bo go lang.&lt;/p>
+&lt;pre tabindex="0">&lt;code>Ultimate Packer for eXecutables
+Copyright (C) 1996 - 2017
+UPX 3.94 Markus Oberhumer, Laszlo Molnar &amp;amp; John Reiser May 12th 2017
+
+File size Ratio Format Name
+-------------------- ------ ----------- -----------
+11512772 -&amp;gt; 3547792 30.82% macho/amd64 main
+
+Packed 1 file.
+&lt;/code>&lt;/pre></description></item><item><title>Utilizing multi core for tar+gzip/bzip compression/decompression</title><link>https://www.spidersoft.com.au/2013/utilizing-multi-core-for-targzipbzip-compressiondecompression/</link><pubDate>Thu, 05 Dec 2013 03:03:14 +0000</pubDate><guid>https://www.spidersoft.com.au/2013/utilizing-multi-core-for-targzipbzip-compressiondecompression/</guid><description>&lt;p>We have couple options: 
+ 
+ 
+ 
+ 
+ &lt;a href="http://www.zlib.net/pigz/">pigz&lt;/a>
+  and 
+ 
+ 
+ 
+ 
+ &lt;a href="http://compression.ca/pbzip2/">pbzip2&lt;/a>
+ .&lt;/p>
+&lt;pre tabindex="0">&lt;code>tar -c --use-compress-program=pigz -f my_archive.tar.gz /home/archive 
+&lt;/code>&lt;/pre>&lt;p>The other trick useful trick is that you can exclude some directories or files&lt;/p>
+&lt;pre tabindex="0">&lt;code>tar -zcvf my_archive.tar.gz --exclude=&amp;#39;cache&amp;#39; --exclude=&amp;#39;.git&amp;#39; /home/archive
+&lt;/code>&lt;/pre></description></item></channel></rss>

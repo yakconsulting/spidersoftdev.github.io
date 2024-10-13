@@ -5,11 +5,12 @@
  
  &lt;a href="https://caddyserver.com/">Caddy server&lt;/a>
  . I wasn&amp;rsquo;t aware that it&amp;rsquo;s related to Caddy - the initial thought was that something went wrong with the SSL certificate. But I was wrong. The message was pretty &amp;ldquo;platonic&amp;rdquo;&lt;/p>
-&lt;p>&lt;code>Error code: SEC_ERROR_REVOKED_CERTIFICATE&lt;/code>&lt;/p></description></item><item><title>Web Server on AMI Linux 2</title><link>https://www.spidersoft.com.au/2019/web-server-on-ami-linux-2/</link><pubDate>Mon, 28 Jan 2019 09:46:20 +0000</pubDate><guid>https://www.spidersoft.com.au/2019/web-server-on-ami-linux-2/</guid><description>&lt;p>Welcome in 2019 – it’s time to upgrade out outdated LAMP stack series articles, with new “How To” setup basic web server for our stack.&lt;/p></description></item><item><title>HTML5 Video tag, and webm</title><link>https://www.spidersoft.com.au/2019/html5-video-tag-and-webm/</link><pubDate>Mon, 14 Jan 2019 10:58:34 +0000</pubDate><guid>https://www.spidersoft.com.au/2019/html5-video-tag-and-webm/</guid><description>In ancient times, when youtube was born, we didn’t have a VIDEO tag. We used to have Flash. To play video on the website, we had to convert it to weird Flash video format, leave mp4 for safety and hope that everything would work fine. Later on, when HTML5 became an industry standard, our lives became much easier.
-In theory, VIDEO tag solves all our issues. When the browser can handle webm (Chrome family) we play webm.</description></item><item><title>iframe won’t display content..</title><link>https://www.spidersoft.com.au/2018/iframe-wont-display-content/</link><pubDate>Thu, 29 Nov 2018 09:40:18 +0000</pubDate><guid>https://www.spidersoft.com.au/2018/iframe-wont-display-content/</guid><description>There is a website, with iframe. I frame source is correct, but won’t display content of the website. No visible errors. There only small detail in the console:
-Load denied by X-Frame-Options: https://... does not permit cross-origin framing. Some crazy admin figure out that it&amp;rsquo;s going to be better… and put some crazy code into headers:
-X-Frame-Options: SAMEORIGINX-XSS-Protection: 1; mode=blockX-Content-Type-Options: nosniff
-Solution: talk to the hand, because admin won&amp;rsquo;t listen ;P</description></item><item><title>How to run cross browser testing cheaply</title><link>https://www.spidersoft.com.au/2018/how-to-run-cross-browser-testing-cheaply/</link><pubDate>Wed, 30 May 2018 10:35:59 +0000</pubDate><guid>https://www.spidersoft.com.au/2018/how-to-run-cross-browser-testing-cheaply/</guid><description>&lt;p>Cross browser testing is a standard part of the testing process. No matter what you build – small page, online form or huge service. It’s really important to test it across multiple browsers.&lt;/p></description></item><item><title>Setting up caddy server for wordpress</title><link>https://www.spidersoft.com.au/2016/setting-up-caddy-server-for-wordpress/</link><pubDate>Mon, 08 Feb 2016 09:03:34 +0000</pubDate><guid>https://www.spidersoft.com.au/2016/setting-up-caddy-server-for-wordpress/</guid><description>&lt;p> 
+&lt;p>&lt;code>Error code: SEC_ERROR_REVOKED_CERTIFICATE&lt;/code>&lt;/p></description></item><item><title>Web Server on AMI Linux 2</title><link>https://www.spidersoft.com.au/2019/web-server-on-ami-linux-2/</link><pubDate>Mon, 28 Jan 2019 09:46:20 +0000</pubDate><guid>https://www.spidersoft.com.au/2019/web-server-on-ami-linux-2/</guid><description>&lt;p>Welcome in 2019 – it’s time to upgrade out outdated LAMP stack series articles, with new “How To” setup basic web server for our stack.&lt;/p></description></item><item><title>HTML5 Video tag, and webm</title><link>https://www.spidersoft.com.au/2019/html5-video-tag-and-webm/</link><pubDate>Mon, 14 Jan 2019 10:58:34 +0000</pubDate><guid>https://www.spidersoft.com.au/2019/html5-video-tag-and-webm/</guid><description>&lt;p>In ancient times, when youtube was born, we didn’t have a VIDEO tag. We used to have Flash. To play video on the website, we had to convert it to weird Flash video format, leave mp4 for safety and hope that everything would work fine. Later on, when HTML5 became an industry standard, our lives became much easier.&lt;/p>
+&lt;p>In theory, VIDEO tag solves all our issues. When the browser can handle webm (Chrome family) we play webm. If we deal with other browsers – mp4 should work for us. So let’s test our theory.&lt;/p></description></item><item><title>iframe won’t display content..</title><link>https://www.spidersoft.com.au/2018/iframe-wont-display-content/</link><pubDate>Thu, 29 Nov 2018 09:40:18 +0000</pubDate><guid>https://www.spidersoft.com.au/2018/iframe-wont-display-content/</guid><description>&lt;p>There is a website, with iframe. I frame source is correct, but won’t display content of the website. No visible errors. There only small detail in the console:&lt;/p>
+&lt;p>&lt;code>Load denied by X-Frame-Options: https://... does not permit cross-origin framing. &lt;/code>&lt;/p>
+&lt;p>Some crazy admin figure out that it&amp;rsquo;s going to be better… and put some crazy code into headers:&lt;/p>
+&lt;p>&lt;code>X-Frame-Options: SAMEORIGINX-XSS-Protection: 1; mode=blockX-Content-Type-Options: nosniff&lt;/code>&lt;/p>
+&lt;p>Solution: talk to the hand, because admin won&amp;rsquo;t listen ;P&lt;/p></description></item><item><title>How to run cross browser testing cheaply</title><link>https://www.spidersoft.com.au/2018/how-to-run-cross-browser-testing-cheaply/</link><pubDate>Wed, 30 May 2018 10:35:59 +0000</pubDate><guid>https://www.spidersoft.com.au/2018/how-to-run-cross-browser-testing-cheaply/</guid><description>&lt;p>Cross browser testing is a standard part of the testing process. No matter what you build – small page, online form or huge service. It’s really important to test it across multiple browsers.&lt;/p></description></item><item><title>Setting up caddy server for wordpress</title><link>https://www.spidersoft.com.au/2016/setting-up-caddy-server-for-wordpress/</link><pubDate>Mon, 08 Feb 2016 09:03:34 +0000</pubDate><guid>https://www.spidersoft.com.au/2016/setting-up-caddy-server-for-wordpress/</guid><description>&lt;p> 
  
  
  
@@ -40,7 +41,52 @@ Solution: talk to the hand, because admin won&amp;rsquo;t listen ;P</description
  
  &lt;a href="http://ellislab.com/blog/entry/ellislab-seeking-new-owner-for-codeigniter">team announced&lt;/a>
  that they are dropping future development so it means that CI is dead. Doesn’t mean that I don’t like it anymore. I just started looking for something new.&lt;/p>
-&lt;p>I like CI because I got control over everything. Modern PHP frameworks trying to solve all problems for you. It’s amazing, but lack of control is what you don’t need in when you developing projects. What do you need it’s this easy flow during development process. Full control over your MVC structure, but also a lot of “help” from framework itself.&lt;/p></description></item><item><title>Top Screen Resolutions</title><link>https://www.spidersoft.com.au/2013/top-screen-resolutions/</link><pubDate>Tue, 03 Dec 2013 06:20:01 +0000</pubDate><guid>https://www.spidersoft.com.au/2013/top-screen-resolutions/</guid><description>Quite often we are asking this simple question. Where we can answer for that ? On this website: gs.statcounter.com</description></item><item><title>Latest discoveries</title><link>https://www.spidersoft.com.au/2013/latest-discoveries/</link><pubDate>Tue, 15 Oct 2013 22:08:54 +0000</pubDate><guid>https://www.spidersoft.com.au/2013/latest-discoveries/</guid><description>Codeception Modern PHP testing for everyone codeception.com FileAPI FileAPI — a set of javascript tools for working with files. Multiupload, drag’n’drop and chunked file upload. Images: crop, resize and auto orientation by EXIF github.com/mailru/FileAPI RainLoop FREE, MODERN &amp;amp; FAST WEB-BASED EMAIL CLIENT rainloop.net ANIMATED CHECKBOXES ANIMATED CHECKBOXES AND RADIO BUTTONS WITH SVG tympanus.net Odometer TRANSITION NUMBERS WITH EASE github.hubspot.com/odometer/docs/welcome/</description></item><item><title>Image Maps</title><link>https://www.spidersoft.com.au/2013/image-maps/</link><pubDate>Sat, 20 Apr 2013 00:17:29 +0000</pubDate><guid>https://www.spidersoft.com.au/2013/image-maps/</guid><description>&lt;p> 
+&lt;p>I like CI because I got control over everything. Modern PHP frameworks trying to solve all problems for you. It’s amazing, but lack of control is what you don’t need in when you developing projects. What do you need it’s this easy flow during development process. Full control over your MVC structure, but also a lot of “help” from framework itself.&lt;/p></description></item><item><title>Top Screen Resolutions</title><link>https://www.spidersoft.com.au/2013/top-screen-resolutions/</link><pubDate>Tue, 03 Dec 2013 06:20:01 +0000</pubDate><guid>https://www.spidersoft.com.au/2013/top-screen-resolutions/</guid><description>&lt;p>Quite often we are asking this simple question. Where we can answer for that ? On this website:  
+ 
+ 
+ 
+ 
+ &lt;a href="http://gs.statcounter.com/">gs.statcounter.com&lt;/a>
+ &lt;/p></description></item><item><title>Latest discoveries</title><link>https://www.spidersoft.com.au/2013/latest-discoveries/</link><pubDate>Tue, 15 Oct 2013 22:08:54 +0000</pubDate><guid>https://www.spidersoft.com.au/2013/latest-discoveries/</guid><description>&lt;h2 id="codeception">Codeception&lt;/h2>
+&lt;p>Modern PHP testing for everyone  
+ 
+ 
+ 
+ 
+ &lt;a href="http://codeception.com/">codeception.com&lt;/a>
+ &lt;/p>
+&lt;h2 id="fileapi">FileAPI&lt;/h2>
+&lt;p>FileAPI — a set of javascript tools for working with files. Multiupload, drag’n’drop and chunked file upload. Images: crop, resize and auto orientation by EXIF  
+ 
+ 
+ 
+ 
+ &lt;a href="https://github.com/mailru/FileAPI">github.com/mailru/FileAPI&lt;/a>
+ &lt;/p>
+&lt;h2 id="rainloop">RainLoop&lt;/h2>
+&lt;p>FREE, MODERN &amp;amp; FAST WEB-BASED EMAIL CLIENT  
+ 
+ 
+ 
+ 
+ &lt;a href="http://rainloop.net/">rainloop.net&lt;/a>
+ &lt;/p>
+&lt;h2 id="animated-checkboxes">ANIMATED CHECKBOXES&lt;/h2>
+&lt;p>ANIMATED CHECKBOXES AND RADIO BUTTONS WITH SVG 
+ 
+ 
+ 
+ 
+ &lt;a href="http://tympanus.net/codrops/2013/10/15/animated-checkboxes-and-radio-buttons-with-svg/">tympanus.net&lt;/a>
+ &lt;/p>
+&lt;h2 id="odometer">Odometer&lt;/h2>
+&lt;p>TRANSITION NUMBERS WITH EASE   
+ 
+ 
+ 
+ 
+ &lt;a href="http://github.hubspot.com/odometer/docs/welcome/">github.hubspot.com/odometer/docs/welcome/&lt;/a>
+ &lt;/p></description></item><item><title>Image Maps</title><link>https://www.spidersoft.com.au/2013/image-maps/</link><pubDate>Sat, 20 Apr 2013 00:17:29 +0000</pubDate><guid>https://www.spidersoft.com.au/2013/image-maps/</guid><description>&lt;p> 
  
  
  
@@ -72,7 +118,13 @@ Solution: talk to the hand, because admin won&amp;rsquo;t listen ;P</description
  
  
  &lt;a href="http://www.facebook.com/spidersoftau/app_334933569956732">http://www.facebook.com/spidersoftau/app_334933569956732&lt;/a>
-  – works perfectly on Desktop browser, but if you would like to open this on mobile, you will get nasty error&lt;/p></description></item><item><title>AUSTRALIA WIDE POSTCODE BREAKDOWN</title><link>https://www.spidersoft.com.au/2013/australia-wide-postcode-breakdown/</link><pubDate>Tue, 12 Feb 2013 23:14:01 +0000</pubDate><guid>https://www.spidersoft.com.au/2013/australia-wide-postcode-breakdown/</guid><description>&lt;p>Don’t know how accurate it is. I was working on a project that needed something like that, so… maybe someone else will use it.&lt;/p></description></item><item><title>Bootstrap modals via JavaScript</title><link>https://www.spidersoft.com.au/2013/bootstrap-modals-via-javascript/</link><pubDate>Thu, 24 Jan 2013 00:58:47 +0000</pubDate><guid>https://www.spidersoft.com.au/2013/bootstrap-modals-via-javascript/</guid><description>My recent discovery is quite simple, but really usefull. Bootbox.js is a small JavaScript library which allows you to create programmatic dialog boxes using Twitter’s Bootstrap modals, without having to worry about creating, managing or removing any of the required DOM elements or JS event handlers.</description></item><item><title>Twitter Bootstrap add ons and extensions</title><link>https://www.spidersoft.com.au/2012/twitter-bootstrap-add-ons-and-extensions/</link><pubDate>Fri, 05 Oct 2012 05:08:40 +0000</pubDate><guid>https://www.spidersoft.com.au/2012/twitter-bootstrap-add-ons-and-extensions/</guid><description>&lt;p>My collection of 
+  – works perfectly on Desktop browser, but if you would like to open this on mobile, you will get nasty error&lt;/p></description></item><item><title>AUSTRALIA WIDE POSTCODE BREAKDOWN</title><link>https://www.spidersoft.com.au/2013/australia-wide-postcode-breakdown/</link><pubDate>Tue, 12 Feb 2013 23:14:01 +0000</pubDate><guid>https://www.spidersoft.com.au/2013/australia-wide-postcode-breakdown/</guid><description>&lt;p>Don’t know how accurate it is. I was working on a project that needed something like that, so… maybe someone else will use it.&lt;/p></description></item><item><title>Bootstrap modals via JavaScript</title><link>https://www.spidersoft.com.au/2013/bootstrap-modals-via-javascript/</link><pubDate>Thu, 24 Jan 2013 00:58:47 +0000</pubDate><guid>https://www.spidersoft.com.au/2013/bootstrap-modals-via-javascript/</guid><description>&lt;p>My recent discovery is quite simple, but really usefull. 
+ 
+ 
+ 
+ 
+ &lt;a href="http://bootboxjs.com/">Bootbox.js&lt;/a>
+ is a small JavaScript library which allows you to create programmatic dialog boxes using Twitter’s Bootstrap modals, without having to worry about creating, managing or removing any of the required DOM elements or JS event handlers.&lt;/p></description></item><item><title>Twitter Bootstrap add ons and extensions</title><link>https://www.spidersoft.com.au/2012/twitter-bootstrap-add-ons-and-extensions/</link><pubDate>Fri, 05 Oct 2012 05:08:40 +0000</pubDate><guid>https://www.spidersoft.com.au/2012/twitter-bootstrap-add-ons-and-extensions/</guid><description>&lt;p>My collection of 
  
  
  
@@ -112,4 +164,82 @@ Solution: talk to the hand, because admin won&amp;rsquo;t listen ;P</description
  
  
  &lt;a href="http://angularjs.org/">AngularJS&lt;/a>
- . Made by Google engineers – but super nice and sleek.&lt;/p></description></item><item><title>Dedicated Content Management System for kindergarten</title><link>https://www.spidersoft.com.au/2010/dedicated-cms-system/</link><pubDate>Wed, 29 Dec 2010 03:54:31 +0000</pubDate><guid>https://www.spidersoft.com.au/2010/dedicated-cms-system/</guid><description>Recently we finished dedicated content management system for bilingual kindergarten and school. Whole project includes intranet for parents, where they can find recent information about theirs children’s, information about upcoming events and photo galleries from past events. Some screenshots below.</description></item><item><title>Classified Ad System</title><link>https://www.spidersoft.com.au/2010/classified-ad-system/</link><pubDate>Fri, 03 Dec 2010 17:18:35 +0000</pubDate><guid>https://www.spidersoft.com.au/2010/classified-ad-system/</guid><description>&lt;p>Classified Ad System is web application which allows you to create unlimited classified ad website. Easy to deploy and use, SEO ready. Users can post their advertisement with images and description.&lt;/p></description></item></channel></rss>
+ . Made by Google engineers – but super nice and sleek.&lt;/p></description></item><item><title>Dedicated Content Management System for kindergarten</title><link>https://www.spidersoft.com.au/2010/dedicated-cms-system/</link><pubDate>Wed, 29 Dec 2010 03:54:31 +0000</pubDate><guid>https://www.spidersoft.com.au/2010/dedicated-cms-system/</guid><description>&lt;p>Recently we finished dedicated content management system for bilingual kindergarten and school. Whole project includes intranet for parents, where they can find recent information about theirs children’s, information about upcoming events and photo galleries from past events. Some screenshots below.&lt;/p>
+&lt;p>
+
+
+
+
+
+
+&lt;figure>
+	&lt;img src="https://www.spidersoft.com.au/images/2010/12/teczowy.jpg" alt="teczowy" width="600" height="502" title="/images/2010/12/teczowy.jpg" />
+	&lt;figcaption>&lt;/figcaption>
+&lt;/figure>
+
+&lt;/p>
+&lt;p>
+
+
+
+
+
+
+&lt;figure>
+	&lt;img src="https://www.spidersoft.com.au/images/2010/12/to2.jpg" alt="to2" width="1010" height="657" title="/images/2010/12/to2.jpg" />
+	&lt;figcaption>&lt;/figcaption>
+&lt;/figure>
+
+&lt;/p>
+&lt;p>
+
+
+
+
+
+
+&lt;figure>
+	&lt;img src="https://www.spidersoft.com.au/images/2010/12/to4.jpg" alt="to4" width="800" height="457" title="/images/2010/12/to4.jpg" />
+	&lt;figcaption>&lt;/figcaption>
+&lt;/figure>
+
+&lt;/p>
+&lt;p>
+
+
+
+
+
+
+&lt;figure>
+	&lt;img src="https://www.spidersoft.com.au/images/2010/12/to3.jpg" alt="to3" width="657" height="327" title="/images/2010/12/to3.jpg" />
+	&lt;figcaption>&lt;/figcaption>
+&lt;/figure>
+
+&lt;/p>
+&lt;p>
+
+
+
+
+
+
+&lt;figure>
+	&lt;img src="https://www.spidersoft.com.au/images/2010/12/to5.png" alt="to5" width="193" height="309" title="/images/2010/12/to5.png" />
+	&lt;figcaption>&lt;/figcaption>
+&lt;/figure>
+
+&lt;/p>
+&lt;p>
+
+
+
+
+
+
+&lt;figure>
+	&lt;img src="https://www.spidersoft.com.au/images/2010/12/to1.png" alt="to1" width="751" height="165" title="/images/2010/12/to1.png" />
+	&lt;figcaption>&lt;/figcaption>
+&lt;/figure>
+
+&lt;/p></description></item><item><title>Classified Ad System</title><link>https://www.spidersoft.com.au/2010/classified-ad-system/</link><pubDate>Fri, 03 Dec 2010 17:18:35 +0000</pubDate><guid>https://www.spidersoft.com.au/2010/classified-ad-system/</guid><description>&lt;p>Classified Ad System is web application which allows you to create unlimited classified ad website. Easy to deploy and use, SEO ready. Users can post their advertisement with images and description.&lt;/p></description></item></channel></rss>

@@ -1,11 +1,73 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Projects on SpiderSoft</title><link>https://www.spidersoft.com.au/projects/</link><description>Recent content in Projects on SpiderSoft</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 01 Oct 2022 10:09:00 +0000</lastBuildDate><atom:link href="https://www.spidersoft.com.au/projects/index.xml" rel="self" type="application/rss+xml"/><item><title>JavaScript date picker</title><link>https://www.spidersoft.com.au/projects/alternate-date-picker/</link><pubDate>Thu, 28 May 2015 02:11:06 +0000</pubDate><guid>https://www.spidersoft.com.au/projects/alternate-date-picker/</guid><description>It’s a very simple prototype of alternative approach to date picker. The goal is to provide easiest way to pick date from very wide range of dates (1800-2099).
-Written in pure JavaScript – no dependencies.
-demo.spidersoft.com.au/dp/</description></item><item><title>Phalcon cheat sheet</title><link>https://www.spidersoft.com.au/projects/phalcon-cheat-sheet/</link><pubDate>Fri, 27 Jun 2014 02:02:41 +0000</pubDate><guid>https://www.spidersoft.com.au/projects/phalcon-cheat-sheet/</guid><description>Disable view $this-&amp;gt;view-&amp;gt;disable();
-Change main view $this-&amp;gt;view-&amp;gt;setMainView('public');
-Set headears $this-&amp;gt;response-&amp;gt;setContentType('text/plain')-&amp;gt;sendHeaders();
-Links to documentation Registering Router instance 404 on Micro application $app-&amp;gt;notFound( function () use ($app) { $app-&amp;gt;response-&amp;gt;setStatusCode(404, &amp;#34;Not Found&amp;#34;)-&amp;gt;sendHeaders(); echo &amp;#39;This is crazy, but this page was not found!&amp;#39;; } );</description></item><item><title>jQuery SEO URL plugin</title><link>https://www.spidersoft.com.au/projects/jquery-seo-url-plugin/</link><pubDate>Sat, 27 Apr 2013 13:09:51 +0000</pubDate><guid>https://www.spidersoft.com.au/projects/jquery-seo-url-plugin/</guid><description>It’s just a landing page for my jQuery SEO URL plugin.
-Sources available on github: github.com/slav123/jquery-seo-url Demo it’s available here: demo.spidersoft.com.au/jqseourl/</description></item><item><title>CodeIgniter IMG – thumbnails</title><link>https://www.spidersoft.com.au/projects/codeigniter-img-thumbnails-on-the-fly/</link><pubDate>Wed, 10 Aug 2011 04:20:02 +0000</pubDate><guid>https://www.spidersoft.com.au/projects/codeigniter-img-thumbnails-on-the-fly/</guid><description>CodeIgniter library to generate high-quality thumbnails A library is based on excellent * Smarty plugin “Thumb” * created in 2005 by Christoph Erdmann. This version is a little bit different, we are using the core from Thumb, and some modification which gives more flexibility to work with it.
-Features thumbnails are generated “on the fly” no additional actions required, cache for generated thumbnails, a clear structure for generated thumbnails, thumbnails sharpening function, cropping function, fill space function Usage You need to upload a file img.</description></item><item><title>CodeIgniter minify</title><link>https://www.spidersoft.com.au/projects/codeigniter-minify/</link><pubDate>Wed, 10 Aug 2011 04:08:44 +0000</pubDate><guid>https://www.spidersoft.com.au/projects/codeigniter-minify/</guid><description>&lt;p>Simple library to minify JavaScript &amp;amp; CSS in CodeIgniter. JavaScript minification is based on 
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Projects on SpiderSoft</title><link>https://www.spidersoft.com.au/projects/</link><description>Recent content in Projects on SpiderSoft</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 01 Oct 2022 10:09:00 +0000</lastBuildDate><atom:link href="https://www.spidersoft.com.au/projects/index.xml" rel="self" type="application/rss+xml"/><item><title>JavaScript date picker</title><link>https://www.spidersoft.com.au/projects/alternate-date-picker/</link><pubDate>Thu, 28 May 2015 02:11:06 +0000</pubDate><guid>https://www.spidersoft.com.au/projects/alternate-date-picker/</guid><description>&lt;p>It’s a very simple prototype of alternative approach to date picker. The goal is to provide easiest way to pick date from very wide range of dates (1800-2099).&lt;/p>
+&lt;p>Written in pure JavaScript – no dependencies.&lt;/p>
+&lt;p> 
+ 
+ 
+ 
+ 
+ &lt;a href="https://demo.spidersoft.com.au/dp/index.html">demo.spidersoft.com.au/dp/&lt;/a>
+ &lt;/p>
+&lt;p>
+
+
+
+
+
+
+&lt;figure>
+	&lt;img src="https://www.spidersoft.com.au/images/2015/05/date-picker.jpg" alt="Date Picker" width="324" height="601" title="/images/2015/05/date-picker.jpg" />
+	&lt;figcaption>&lt;/figcaption>
+&lt;/figure>
+
+&lt;/p></description></item><item><title>Phalcon cheat sheet</title><link>https://www.spidersoft.com.au/projects/phalcon-cheat-sheet/</link><pubDate>Fri, 27 Jun 2014 02:02:41 +0000</pubDate><guid>https://www.spidersoft.com.au/projects/phalcon-cheat-sheet/</guid><description>&lt;h2 id="disable-view">Disable view&lt;/h2>
+&lt;p>&lt;code>$this-&amp;gt;view-&amp;gt;disable();&lt;/code>&lt;/p>
+&lt;h2 id="change-main-view">Change main view&lt;/h2>
+&lt;p>&lt;code>$this-&amp;gt;view-&amp;gt;setMainView('public');&lt;/code>&lt;/p>
+&lt;h2 id="set-headears">Set headears&lt;/h2>
+&lt;p>&lt;code>$this-&amp;gt;response-&amp;gt;setContentType('text/plain')-&amp;gt;sendHeaders();&lt;/code>&lt;/p>
+&lt;p> &lt;/p>
+&lt;h2 id="links-to-documentation">Links to documentation&lt;/h2>
+&lt;p> 
+ 
+ 
+ 
+ 
+ &lt;a href="http://docs.phalconphp.com/en/latest/reference/routing.html#registering-router-instance">Registering Router instance&lt;/a>
+ &lt;/p>
+&lt;h2 id="404-on-micro-application">404 on Micro application&lt;/h2>
+&lt;pre tabindex="0">&lt;code>$app-&amp;gt;notFound(
+ function () use ($app) {
+ $app-&amp;gt;response-&amp;gt;setStatusCode(404, &amp;#34;Not Found&amp;#34;)-&amp;gt;sendHeaders();
+ echo &amp;#39;This is crazy, but this page was not found!&amp;#39;;
+ }
+);
+&lt;/code>&lt;/pre></description></item><item><title>jQuery SEO URL plugin</title><link>https://www.spidersoft.com.au/projects/jquery-seo-url-plugin/</link><pubDate>Sat, 27 Apr 2013 13:09:51 +0000</pubDate><guid>https://www.spidersoft.com.au/projects/jquery-seo-url-plugin/</guid><description>&lt;p>It’s just a landing page for my jQuery SEO URL plugin.&lt;/p>
+&lt;p>Sources available on github:  
+ 
+ 
+ 
+ 
+ &lt;a href="https://github.com/slav123/jquery-seo-url">github.com/slav123/jquery-seo-url&lt;/a>
+ &lt;/p>
+&lt;p>Demo it’s available here: 
+ 
+ 
+ 
+ 
+ &lt;a href="http://demo.spidersoft.com.au/jqseourl/index.html">demo.spidersoft.com.au/jqseourl/&lt;/a>
+ &lt;/p></description></item><item><title>CodeIgniter IMG – thumbnails</title><link>https://www.spidersoft.com.au/projects/codeigniter-img-thumbnails-on-the-fly/</link><pubDate>Wed, 10 Aug 2011 04:20:02 +0000</pubDate><guid>https://www.spidersoft.com.au/projects/codeigniter-img-thumbnails-on-the-fly/</guid><description>&lt;h2 id="codeigniter-library-to-generate-high-quality-thumbnails">CodeIgniter library to generate high-quality thumbnails&lt;/h2>
+&lt;p>A library is based on excellent * Smarty plugin “Thumb” * created in 2005 by Christoph Erdmann. This version is a little bit different, we are using the core from Thumb, and some modification which gives more flexibility to work with it.&lt;/p>
+&lt;h2 id="features">Features&lt;/h2>
+&lt;ul>
+&lt;li>thumbnails are generated “on the fly” no additional actions required,&lt;/li>
+&lt;li>cache for generated thumbnails,&lt;/li>
+&lt;li>a clear structure for generated thumbnails,&lt;/li>
+&lt;li>thumbnails sharpening function,&lt;/li>
+&lt;li>cropping function,&lt;/li>
+&lt;li>fill space function&lt;/li>
+&lt;/ul>
+&lt;h2 id="usage">Usage&lt;/h2>
+&lt;p>You need to upload a file &lt;code>img.php&lt;/code> into directory: &lt;code>application/libraries&lt;/code> In controller, you need to load library:&lt;/p></description></item><item><title>CodeIgniter minify</title><link>https://www.spidersoft.com.au/projects/codeigniter-minify/</link><pubDate>Wed, 10 Aug 2011 04:08:44 +0000</pubDate><guid>https://www.spidersoft.com.au/projects/codeigniter-minify/</guid><description>&lt;p>Simple library to minify JavaScript &amp;amp; CSS in CodeIgniter. JavaScript minification is based on 
  
  
  

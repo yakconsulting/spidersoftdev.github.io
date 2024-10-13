@@ -5,25 +5,90 @@
  
  &lt;a href="http://wiki.apache.org/httpd/PHP-FPM">PHP-FPM&lt;/a>
  . Instructions are pretty simple. You can just copy and paste command to get working stack in less then 15 minutes.&lt;/p>
-&lt;p>What you can learn from it? How to install Apache 2.4 and PHP 7, how to enable and opcache, and how to install HTTPS on your server, with purchasing SSL certificate.&lt;/p></description></item><item><title>How to show line numbers in nano</title><link>https://www.spidersoft.com.au/2017/how-to-show-line-numbers-in-nano/</link><pubDate>Mon, 06 Feb 2017 09:16:33 +0000</pubDate><guid>https://www.spidersoft.com.au/2017/how-to-show-line-numbers-in-nano/</guid><description>You can just open file with nano -c filename to make it permanent: nano ~/.nanorc and drop there set const save it… and you are done.</description></item><item><title>When you are running out of space on your server</title><link>https://www.spidersoft.com.au/2017/when-you-are-running-out-of-space-on-your-server/</link><pubDate>Wed, 18 Jan 2017 10:46:01 +0000</pubDate><guid>https://www.spidersoft.com.au/2017/when-you-are-running-out-of-space-on-your-server/</guid><description>…in most cases you have 2 options. Because we are living in Cloud and VPS era – it’s not a big deal. You can always bump up your volume and after while you can enjoy bigger more expensive instance with more space. But sometimes you need just a space for a while or… just something for a backup ? You can always use s3cmd , gsutil or another tool. Imagine that you have just regular folder on your drive, with almost unlimited space.</description></item><item><title>FFmpeg on AMI Linux and CentOS the easy way</title><link>https://www.spidersoft.com.au/2014/ffmpeg-on-ami-linux-and-centos-the-easy-way/</link><pubDate>Tue, 28 Oct 2014 02:12:32 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/ffmpeg-on-ami-linux-and-centos-the-easy-way/</guid><description>FFmpeg is a complete, cross-platform solution to record, convert and stream audio and video.
-All you need to do is just install one more repository:
-http://rpmfusion.org/Configuration wget http://download1.rpmfusion.org/free/el/updates/6/i386/rpmfusion-free-release-6-1.noarch.rpm sudo rpm -Uhv rpmfusion-free-release-6-1.noarch.rpm wget http://download1.rpmfusion.org/nonfree/el/updates/6/i386/rpmfusion-nonfree-release-6-1.noarch.rpm sudo rpm -Uhv rpmfusion-nonfree-release-6-1.noarch.rpm sudo yum install ffmpeg Done.
-ffmpeg version 0.10.15 Copyright (c) 2000-2014 the FFmpeg developers built on Aug 30 2014 15:49:19 with gcc 4.4.7 20120313 (Red Hat 4.4.7-3) Obviously there is no fun with FFmpeg if you don’t have anything to convert.</description></item><item><title>PHP 5.4.x on CentOS 6.5</title><link>https://www.spidersoft.com.au/2014/php-5-4-x-on-centos-6-5/</link><pubDate>Tue, 07 Oct 2014 04:22:38 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/php-5-4-x-on-centos-6-5/</guid><description>Quick copy and paste list of commands to get PHP 5.4 on CentOS boxes
-wget http://dl.fedoraproject.org/pub/epel/6/x86_64/epel-release-6-8.noarch.rpm wget http://rpms.famillecollet.com/enterprise/remi-release-6.rpm sudo rpm -Uvh remi-release-6*.rpm epel-release-6*.rpm Enable remi repo
-sudo nano /etc/yum.repos.d/remi.repo
-Update
-sudo yum update sudo yum info php Loaded plugins: fastestmirror, refresh-packagekit, security Loading mirror speeds from cached hostfile * base: mirror.optus.net * epel: fedora.mirror.serversaustralia.com.au * extras: ftp.swin.edu.au * remi: remi.kazukioishi.net * updates: ftp.swin.edu.au Available Packages Name : php Arch : x86_64 Version : 5.</description></item><item><title>Sending emails from commandline</title><link>https://www.spidersoft.com.au/2014/sending-emails-from-commandline/</link><pubDate>Tue, 26 Aug 2014 04:41:08 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/sending-emails-from-commandline/</guid><description>&lt;p>Pretty easy but annoying task. Especially when you want to send email using specific SMTP server, or from GMAIL using SSL or add some attachment, or send RAW emails. Solution is there – 
+&lt;p>What you can learn from it? How to install Apache 2.4 and PHP 7, how to enable and opcache, and how to install HTTPS on your server, with purchasing SSL certificate.&lt;/p></description></item><item><title>How to show line numbers in nano</title><link>https://www.spidersoft.com.au/2017/how-to-show-line-numbers-in-nano/</link><pubDate>Mon, 06 Feb 2017 09:16:33 +0000</pubDate><guid>https://www.spidersoft.com.au/2017/how-to-show-line-numbers-in-nano/</guid><description>&lt;p>You can just open file with &lt;code>nano -c filename&lt;/code> to make it permanent: &lt;code>nano ~/.nanorc&lt;/code> and drop there &lt;code>set const&lt;/code> save it… and you are done.&lt;/p></description></item><item><title>When you are running out of space on your server</title><link>https://www.spidersoft.com.au/2017/when-you-are-running-out-of-space-on-your-server/</link><pubDate>Wed, 18 Jan 2017 10:46:01 +0000</pubDate><guid>https://www.spidersoft.com.au/2017/when-you-are-running-out-of-space-on-your-server/</guid><description>&lt;p>…in most cases you have 2 options. Because we are living in Cloud and VPS era – it’s not a big deal. You can always bump up your volume and after while you can enjoy bigger more expensive instance with more space. But sometimes you need just a space for a while or… just something for a backup ? You can always use 
+ 
+ 
+ 
+ 
+ &lt;a href="http://s3tools.org/s3cmd">s3cmd&lt;/a>
+ , 
+ 
+ 
+ 
+ 
+ &lt;a href="https://cloud.google.com/storage/docs/gsutil">gsutil&lt;/a>
+ or another tool. Imagine that you have just regular folder on your drive, with almost unlimited space. Sounds good ? If so checkout –  
+ 
+ 
+ 
+ 
+ &lt;a href="https://github.com/s3fs-fuse/s3fs-fuse">s3fs-fuse&lt;/a>
+ . Nice tool, which allows you to bind external storage as a director in your system.&lt;/p></description></item><item><title>FFmpeg on AMI Linux and CentOS the easy way</title><link>https://www.spidersoft.com.au/2014/ffmpeg-on-ami-linux-and-centos-the-easy-way/</link><pubDate>Tue, 28 Oct 2014 02:12:32 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/ffmpeg-on-ami-linux-and-centos-the-easy-way/</guid><description>&lt;p> 
+ 
+ 
+ 
+ 
+ &lt;a href="https://www.ffmpeg.org/">FFmpeg&lt;/a>
+ is a complete, cross-platform solution to record, convert and stream audio and video.&lt;/p>
+&lt;p>All you need to do is just install one more repository:&lt;br>
+ 
+ 
+ 
+ 
+ 
+ &lt;a href="http://rpmfusion.org/Configuration">http://rpmfusion.org/Configuration&lt;/a>
+ &lt;/p>
+&lt;pre tabindex="0">&lt;code>wget http://download1.rpmfusion.org/free/el/updates/6/i386/rpmfusion-free-release-6-1.noarch.rpm
+sudo rpm -Uhv rpmfusion-free-release-6-1.noarch.rpm
+wget http://download1.rpmfusion.org/nonfree/el/updates/6/i386/rpmfusion-nonfree-release-6-1.noarch.rpm
+sudo rpm -Uhv rpmfusion-nonfree-release-6-1.noarch.rpm
+sudo yum install ffmpeg
+&lt;/code>&lt;/pre>&lt;p>Done.&lt;br>
+&lt;code>ffmpeg version 0.10.15 Copyright (c) 2000-2014 the FFmpeg developers built on Aug 30 2014 15:49:19 with gcc 4.4.7 20120313 (Red Hat 4.4.7-3) &lt;/code>&lt;/p>
+&lt;p>Obviously there is no fun with FFmpeg if you don’t have anything to convert. I needed to crop vertical videos from iPad to square – 
+ 
+ 
+ 
+ 
+ &lt;a href="https://itunes.apple.com/au/app/vine/id592447445?mt=8">Vine&lt;/a>
+ like format.&lt;/p></description></item><item><title>PHP 5.4.x on CentOS 6.5</title><link>https://www.spidersoft.com.au/2014/php-5-4-x-on-centos-6-5/</link><pubDate>Tue, 07 Oct 2014 04:22:38 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/php-5-4-x-on-centos-6-5/</guid><description>&lt;p>Quick copy and paste list of commands to get PHP 5.4 on CentOS boxes&lt;/p>
+&lt;pre tabindex="0">&lt;code>wget http://dl.fedoraproject.org/pub/epel/6/x86_64/epel-release-6-8.noarch.rpm
+wget http://rpms.famillecollet.com/enterprise/remi-release-6.rpm
+sudo rpm -Uvh remi-release-6*.rpm epel-release-6*.rpm
+&lt;/code>&lt;/pre>&lt;p>Enable remi repo&lt;/p>
+&lt;p>&lt;code>sudo nano /etc/yum.repos.d/remi.repo&lt;/code>&lt;/p>
+&lt;p>Update&lt;/p>
+&lt;pre tabindex="0">&lt;code>sudo yum update
+sudo yum info php
+Loaded plugins: fastestmirror, refresh-packagekit, security
+Loading mirror speeds from cached hostfile
+ * base: mirror.optus.net
+ * epel: fedora.mirror.serversaustralia.com.au
+ * extras: ftp.swin.edu.au
+ * remi: remi.kazukioishi.net
+ * updates: ftp.swin.edu.au
+Available Packages
+Name : php
+Arch : x86_64
+Version : 5.4.33
+Release : 2.el6.remi
+Size : 2.7 M
+Repo : remi
+&lt;/code>&lt;/pre>&lt;p>done…&lt;/p></description></item><item><title>Sending emails from commandline</title><link>https://www.spidersoft.com.au/2014/sending-emails-from-commandline/</link><pubDate>Tue, 26 Aug 2014 04:41:08 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/sending-emails-from-commandline/</guid><description>&lt;p>Pretty easy but annoying task. Especially when you want to send email using specific SMTP server, or from GMAIL using SSL or add some attachment, or send RAW emails. Solution is there – 
  
  
  
  
  &lt;a href="https://github.com/muquit/mailsend/">mailsend&lt;/a>
- . Extremely simple command line tool for Linux, Mac OS X and even Windows ;). Compile / download binary and you can enjoy freedom of sending emails from command line.&lt;/p></description></item><item><title>CentoOS 7 NFS support</title><link>https://www.spidersoft.com.au/2014/centoos-7-nfs-support/</link><pubDate>Wed, 13 Aug 2014 06:45:44 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/centoos-7-nfs-support/</guid><description>CentOS is pretty new, and some default stuff is just missing. Like NFS suport out of the box.
-We have to install package called nfs-utils
-yum -y install nfs-utils we can mount using standard mount 192.168.1.15:/c/share
-mount -a to make it parmament
-edit /etc/fstab
-192.168.1.15:/c/share /mnt/nfs nfs defaults 0 0</description></item><item><title>Apache 2.4, PHP 5.4 on EC2 instance</title><link>https://www.spidersoft.com.au/2014/apache-2-4-php-5-4-on-ec2-instance/</link><pubDate>Tue, 27 May 2014 04:04:19 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/apache-2-4-php-5-4-on-ec2-instance/</guid><description>&lt;p>This tutorial just updated version of my 
+ . Extremely simple command line tool for Linux, Mac OS X and even Windows ;). Compile / download binary and you can enjoy freedom of sending emails from command line.&lt;/p></description></item><item><title>CentoOS 7 NFS support</title><link>https://www.spidersoft.com.au/2014/centoos-7-nfs-support/</link><pubDate>Wed, 13 Aug 2014 06:45:44 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/centoos-7-nfs-support/</guid><description>&lt;p>CentOS is pretty new, and some default stuff is just missing. Like NFS suport out of the box.&lt;/p>
+&lt;p>We have to install package called &lt;code>nfs-utils&lt;/code>&lt;/p>
+&lt;pre tabindex="0">&lt;code>yum -y install nfs-utils
+&lt;/code>&lt;/pre>&lt;p>we can mount using standard &lt;code>mount 192.168.1.15:/c/share&lt;/code>&lt;/p>
+&lt;pre tabindex="0">&lt;code>mount -a 
+&lt;/code>&lt;/pre>&lt;p>to make it parmament&lt;/p>
+&lt;p>edit &lt;code>/etc/fstab&lt;/code>&lt;/p>
+&lt;pre tabindex="0">&lt;code>192.168.1.15:/c/share /mnt/nfs nfs defaults 0 0
+&lt;/code>&lt;/pre></description></item><item><title>Apache 2.4, PHP 5.4 on EC2 instance</title><link>https://www.spidersoft.com.au/2014/apache-2-4-php-5-4-on-ec2-instance/</link><pubDate>Tue, 27 May 2014 04:04:19 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/apache-2-4-php-5-4-on-ec2-instance/</guid><description>&lt;p>This tutorial just updated version of my 
  
  
  &lt;a href="https://www.spidersoft.com.au/2013/apache-php-config-boilerplate/" title="Amazon EC2 – Installing Apache and PHP boilerplate" target="_blank" rel="noopener">previous one&lt;/a>
@@ -41,9 +106,23 @@ edit /etc/fstab
  
  &lt;a href="http://global.shuttle.com/main/productsDetail?productId=1487">XS35 V2&lt;/a>
   device to have something “seperate” for my web development work. Right now this awesome fan less device has many purposes. Works as full web dev stack, with Apache, PHP, MySQL, mongoDB, and even Jenkins machine.&lt;/p>
-&lt;p>Recently I realised that this small ugly device got also WiFi cart into it. Because I’m running out of cables and space in my apartment i figure out, that I could move it easily without plugging into it more cables.&lt;/p></description></item><item><title>Utilizing multi core for tar+gzip/bzip compression/decompression</title><link>https://www.spidersoft.com.au/2013/utilizing-multi-core-for-targzipbzip-compressiondecompression/</link><pubDate>Thu, 05 Dec 2013 03:03:14 +0000</pubDate><guid>https://www.spidersoft.com.au/2013/utilizing-multi-core-for-targzipbzip-compressiondecompression/</guid><description>We have couple options: pigz and pbzip2 .
-tar -c --use-compress-program=pigz -f my_archive.tar.gz /home/archive The other trick useful trick is that you can exclude some directories or files
-tar -zcvf my_archive.tar.gz --exclude=&amp;#39;cache&amp;#39; --exclude=&amp;#39;.git&amp;#39; /home/archive</description></item><item><title>EC2 Instance and SWAP space</title><link>https://www.spidersoft.com.au/2013/ec2-instance-and-swap-space/</link><pubDate>Thu, 04 Jul 2013 23:07:23 +0000</pubDate><guid>https://www.spidersoft.com.au/2013/ec2-instance-and-swap-space/</guid><description>&lt;p>EC2 Instances on Amazon out of the box, does not contain any 
+&lt;p>Recently I realised that this small ugly device got also WiFi cart into it. Because I’m running out of cables and space in my apartment i figure out, that I could move it easily without plugging into it more cables.&lt;/p></description></item><item><title>Utilizing multi core for tar+gzip/bzip compression/decompression</title><link>https://www.spidersoft.com.au/2013/utilizing-multi-core-for-targzipbzip-compressiondecompression/</link><pubDate>Thu, 05 Dec 2013 03:03:14 +0000</pubDate><guid>https://www.spidersoft.com.au/2013/utilizing-multi-core-for-targzipbzip-compressiondecompression/</guid><description>&lt;p>We have couple options: 
+ 
+ 
+ 
+ 
+ &lt;a href="http://www.zlib.net/pigz/">pigz&lt;/a>
+  and 
+ 
+ 
+ 
+ 
+ &lt;a href="http://compression.ca/pbzip2/">pbzip2&lt;/a>
+ .&lt;/p>
+&lt;pre tabindex="0">&lt;code>tar -c --use-compress-program=pigz -f my_archive.tar.gz /home/archive 
+&lt;/code>&lt;/pre>&lt;p>The other trick useful trick is that you can exclude some directories or files&lt;/p>
+&lt;pre tabindex="0">&lt;code>tar -zcvf my_archive.tar.gz --exclude=&amp;#39;cache&amp;#39; --exclude=&amp;#39;.git&amp;#39; /home/archive
+&lt;/code>&lt;/pre></description></item><item><title>EC2 Instance and SWAP space</title><link>https://www.spidersoft.com.au/2013/ec2-instance-and-swap-space/</link><pubDate>Thu, 04 Jul 2013 23:07:23 +0000</pubDate><guid>https://www.spidersoft.com.au/2013/ec2-instance-and-swap-space/</guid><description>&lt;p>EC2 Instances on Amazon out of the box, does not contain any 
  
  
  
@@ -69,10 +148,10 @@ tar -zcvf my_archive.tar.gz --exclude=&amp;#39;cache&amp;#39; --exclude=&amp;#39
  
  
  &lt;a href="http://httpd.apache.org/">Apache&lt;/a>
- . For me – “the best” thing in lighttpd is support for keeping vhost names in MySQL database. I don’t have to use any config files, I can just put record into MySQL database with virtual host server name, path to document root and it’s done. But – I can do the same witch Apache! How? With third party modules, below you can find short tutorial “how to”.&lt;/p></description></item><item><title>Posftix Permission denied problem</title><link>https://www.spidersoft.com.au/2011/posftix-permission-denied-problem/</link><pubDate>Tue, 23 Aug 2011 02:18:47 +0000</pubDate><guid>https://www.spidersoft.com.au/2011/posftix-permission-denied-problem/</guid><description>Recently I stuck with WordPress installation which was unable to send emails using build in wp_mail function.
-After investigation tail -f /var/log/messages I founded a pleasant line of code with really nice explanation:
-sendmail: fatal: chdir /var/spool/postfix: Permission denied
-In theory this should be a problem for sysadmin, but – I wanted to find faster solution.
-After short adventure with Google I found a clue:
-/usr/sbin/getsebool httpd_can_sendmail
-My result was obvious:</description></item></channel></rss>
+ . For me – “the best” thing in lighttpd is support for keeping vhost names in MySQL database. I don’t have to use any config files, I can just put record into MySQL database with virtual host server name, path to document root and it’s done. But – I can do the same witch Apache! How? With third party modules, below you can find short tutorial “how to”.&lt;/p></description></item><item><title>Posftix Permission denied problem</title><link>https://www.spidersoft.com.au/2011/posftix-permission-denied-problem/</link><pubDate>Tue, 23 Aug 2011 02:18:47 +0000</pubDate><guid>https://www.spidersoft.com.au/2011/posftix-permission-denied-problem/</guid><description>&lt;p>Recently I stuck with WordPress installation which was unable to send emails using build in &lt;code>wp_mail&lt;/code> function.&lt;/p>
+&lt;p>After investigation &lt;code>tail -f /var/log/messages&lt;/code> I founded a pleasant line of code with really nice explanation:&lt;/p>
+&lt;p>&lt;code>sendmail: fatal: chdir /var/spool/postfix: Permission denied&lt;/code>&lt;/p>
+&lt;p>In theory this should be a problem for sysadmin, but – I wanted to find faster solution.&lt;/p>
+&lt;p>After short adventure with Google I found a clue:&lt;/p>
+&lt;p>&lt;code>/usr/sbin/getsebool httpd_can_sendmail&lt;/code>&lt;/p>
+&lt;p>My result was obvious:&lt;/p></description></item></channel></rss>

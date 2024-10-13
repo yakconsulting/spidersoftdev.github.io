@@ -1,10 +1,34 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Phpunit on SpiderSoft</title><link>https://www.spidersoft.com.au/tags/phpunit/</link><description>Recent content in Phpunit on SpiderSoft</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 02 Apr 2015 22:00:22 +0000</lastBuildDate><atom:link href="https://www.spidersoft.com.au/tags/phpunit/index.xml" rel="self" type="application/rss+xml"/><item><title>PHPUnit and CodeIgniter 3.0</title><link>https://www.spidersoft.com.au/2015/phpunit-and-codeigniter-3-0/</link><pubDate>Thu, 02 Apr 2015 22:00:22 +0000</pubDate><guid>https://www.spidersoft.com.au/2015/phpunit-and-codeigniter-3-0/</guid><description>Quick tutorial how to setup proper unit testing with PHPUnit and CodeIgniter 3.0.
-We need couple elements
-CodeIgniter – we are working with version 3.0rc3 PHPUnit – latest one If you don’t have phpunit installed globally, you can go with composer, just add section to your composer.json
-{ &amp;#34;require-dev&amp;#34;: { &amp;#34;phpunit/phpunit&amp;#34;: &amp;#34;4.1.*&amp;#34; } } and then
-composer.phar install
-and after while we have
-./vendor/bin/phpunit
-working phpunit.
-let’s create phpunit.xml.dist
-next step will require create separate bootstrap file for PHPUnit.</description></item><item><title>PHPUnit and PEAR install on MacOS</title><link>https://www.spidersoft.com.au/2013/phpunit-and-pear-install-on-macos/</link><pubDate>Thu, 19 Dec 2013 00:28:41 +0000</pubDate><guid>https://www.spidersoft.com.au/2013/phpunit-and-pear-install-on-macos/</guid><description>&lt;p>There is a plenty of tutorials how to install PEAR and  PHP, but there is always something “missing” in this configuration. So this time, i’m going to “sing the same song again”.&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Phpunit on SpiderSoft</title><link>https://www.spidersoft.com.au/tags/phpunit/</link><description>Recent content in Phpunit on SpiderSoft</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 02 Apr 2015 22:00:22 +0000</lastBuildDate><atom:link href="https://www.spidersoft.com.au/tags/phpunit/index.xml" rel="self" type="application/rss+xml"/><item><title>PHPUnit and CodeIgniter 3.0</title><link>https://www.spidersoft.com.au/2015/phpunit-and-codeigniter-3-0/</link><pubDate>Thu, 02 Apr 2015 22:00:22 +0000</pubDate><guid>https://www.spidersoft.com.au/2015/phpunit-and-codeigniter-3-0/</guid><description>&lt;p>Quick tutorial how to setup proper unit testing with PHPUnit and CodeIgniter 3.0.&lt;br>
+We need couple elements&lt;/p>
+&lt;ol>
+&lt;li> 
+ 
+ 
+ 
+ 
+ &lt;a href="http://www.codeigniter.com">CodeIgniter&lt;/a>
+ – we are working with version 3.0rc3&lt;/li>
+&lt;li> 
+ 
+ 
+ 
+ 
+ &lt;a href="https://phpunit.de">PHPUnit&lt;/a>
+  – latest one&lt;/li>
+&lt;/ol>
+&lt;p>If you don’t have phpunit installed globally, you can go with composer, just add section to your &lt;code>composer.json&lt;/code>&lt;/p>
+&lt;pre tabindex="0">&lt;code>{
+ &amp;#34;require-dev&amp;#34;: {
+ &amp;#34;phpunit/phpunit&amp;#34;: &amp;#34;4.1.*&amp;#34;
+ }
+}
+&lt;/code>&lt;/pre>&lt;p>and then&lt;br>
+&lt;code>composer.phar install&lt;/code>&lt;br>
+and after while we have&lt;br>
+&lt;code>./vendor/bin/phpunit&lt;/code>&lt;br>
+working phpunit.&lt;/p>
+&lt;p>let’s create &lt;code>phpunit.xml.dist&lt;/code>&lt;/p>
+&lt;script src="https://gist.github.com/slav123/554d0a4ce91c8a0a68fe.js">&lt;/script>
+
+&lt;p>next step will require create separate bootstrap file for PHPUnit. Just copy &lt;code>cp index.php tests/Bootstrap.php&lt;/code>&lt;br>
+We have to make 2 small amends.&lt;/p></description></item><item><title>PHPUnit and PEAR install on MacOS</title><link>https://www.spidersoft.com.au/2013/phpunit-and-pear-install-on-macos/</link><pubDate>Thu, 19 Dec 2013 00:28:41 +0000</pubDate><guid>https://www.spidersoft.com.au/2013/phpunit-and-pear-install-on-macos/</guid><description>&lt;p>There is a plenty of tutorials how to install PEAR and  PHP, but there is always something “missing” in this configuration. So this time, i’m going to “sing the same song again”.&lt;/p></description></item></channel></rss>

@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Javascript on SpiderSoft</title><link>https://www.spidersoft.com.au/tags/javascript/</link><description>Recent content in Javascript on SpiderSoft</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 14 Jan 2019 10:58:34 +0000</lastBuildDate><atom:link href="https://www.spidersoft.com.au/tags/javascript/index.xml" rel="self" type="application/rss+xml"/><item><title>HTML5 Video tag, and webm</title><link>https://www.spidersoft.com.au/2019/html5-video-tag-and-webm/</link><pubDate>Mon, 14 Jan 2019 10:58:34 +0000</pubDate><guid>https://www.spidersoft.com.au/2019/html5-video-tag-and-webm/</guid><description>In ancient times, when youtube was born, we didn’t have a VIDEO tag. We used to have Flash. To play video on the website, we had to convert it to weird Flash video format, leave mp4 for safety and hope that everything would work fine. Later on, when HTML5 became an industry standard, our lives became much easier.
-In theory, VIDEO tag solves all our issues. When the browser can handle webm (Chrome family) we play webm.</description></item><item><title>Australian postcode to state conversion</title><link>https://www.spidersoft.com.au/2018/australian-postcode-to-state-conversion/</link><pubDate>Tue, 24 Jul 2018 10:59:44 +0000</pubDate><guid>https://www.spidersoft.com.au/2018/australian-postcode-to-state-conversion/</guid><description>&lt;p>I recently worked on a project with a super dull address form. I figured out that we need to help poor users fill tedious forms, so I made a little code snippet/function which gets the postcode and returns the state. I took postcode ranges from 
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Javascript on SpiderSoft</title><link>https://www.spidersoft.com.au/tags/javascript/</link><description>Recent content in Javascript on SpiderSoft</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 14 Jan 2019 10:58:34 +0000</lastBuildDate><atom:link href="https://www.spidersoft.com.au/tags/javascript/index.xml" rel="self" type="application/rss+xml"/><item><title>HTML5 Video tag, and webm</title><link>https://www.spidersoft.com.au/2019/html5-video-tag-and-webm/</link><pubDate>Mon, 14 Jan 2019 10:58:34 +0000</pubDate><guid>https://www.spidersoft.com.au/2019/html5-video-tag-and-webm/</guid><description>&lt;p>In ancient times, when youtube was born, we didn’t have a VIDEO tag. We used to have Flash. To play video on the website, we had to convert it to weird Flash video format, leave mp4 for safety and hope that everything would work fine. Later on, when HTML5 became an industry standard, our lives became much easier.&lt;/p>
+&lt;p>In theory, VIDEO tag solves all our issues. When the browser can handle webm (Chrome family) we play webm. If we deal with other browsers – mp4 should work for us. So let’s test our theory.&lt;/p></description></item><item><title>Australian postcode to state conversion</title><link>https://www.spidersoft.com.au/2018/australian-postcode-to-state-conversion/</link><pubDate>Tue, 24 Jul 2018 10:59:44 +0000</pubDate><guid>https://www.spidersoft.com.au/2018/australian-postcode-to-state-conversion/</guid><description>&lt;p>I recently worked on a project with a super dull address form. I figured out that we need to help poor users fill tedious forms, so I made a little code snippet/function which gets the postcode and returns the state. I took postcode ranges from 
  
  
  
@@ -41,10 +41,73 @@ In theory, VIDEO tag solves all our issues. When the browser can handle webm (Ch
  
  
  &lt;a href="http://zeptojs.com">Zepto.js&lt;/a>
- and… we can use pure JavaScript which isn’t especially convenient in larger  projects. But definitely it’s much more but… it’s faster.&lt;/p></description></item><item><title>Web Dev libraries – week 21</title><link>https://www.spidersoft.com.au/2014/this-week-findings-in-webdev-21/</link><pubDate>Fri, 23 May 2014 00:48:31 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/this-week-findings-in-webdev-21/</guid><description>I’m consuming enormous amount of news each day. These is list of my findings from just only these week.
-Envision.js is a library for creating fast, dynamic and interactive HTML5 visualisations.
-Apy is a simple client-side library for making rest api ajax calls.
-Sitespeed.io is an open source tool that helps you analyse your website speed and performance based on performance best practices and metrics. It collects data from multiple pages on your website, analyze the pages using the rules and output the result as HTML or JUnit XML.</description></item><item><title>node.js run with root privileges on MacOS on start</title><link>https://www.spidersoft.com.au/2014/node-js-run-with-root-privileges-on-macos-on-start/</link><pubDate>Thu, 16 Jan 2014 08:37:58 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/node-js-run-with-root-privileges-on-macos-on-start/</guid><description>&lt;p>How long it’s quite easy to setup init.d services on linux boxes, same task on Max OS machines is pretty hard. Especially if you need to run it with root privileges.&lt;/p></description></item><item><title>Latest discoveries</title><link>https://www.spidersoft.com.au/2013/latest-discoveries/</link><pubDate>Tue, 15 Oct 2013 22:08:54 +0000</pubDate><guid>https://www.spidersoft.com.au/2013/latest-discoveries/</guid><description>Codeception Modern PHP testing for everyone codeception.com FileAPI FileAPI — a set of javascript tools for working with files. Multiupload, drag’n’drop and chunked file upload. Images: crop, resize and auto orientation by EXIF github.com/mailru/FileAPI RainLoop FREE, MODERN &amp;amp; FAST WEB-BASED EMAIL CLIENT rainloop.net ANIMATED CHECKBOXES ANIMATED CHECKBOXES AND RADIO BUTTONS WITH SVG tympanus.net Odometer TRANSITION NUMBERS WITH EASE github.hubspot.com/odometer/docs/welcome/</description></item><item><title>Serialize form to object – jQuery</title><link>https://www.spidersoft.com.au/2013/serialize-form-to-object-jquery/</link><pubDate>Sun, 15 Sep 2013 11:35:24 +0000</pubDate><guid>https://www.spidersoft.com.au/2013/serialize-form-to-object-jquery/</guid><description>&lt;p>It’s pretty easy to serialise form using jQuery –&lt;/p>
+ and… we can use pure JavaScript which isn’t especially convenient in larger  projects. But definitely it’s much more but… it’s faster.&lt;/p></description></item><item><title>Web Dev libraries – week 21</title><link>https://www.spidersoft.com.au/2014/this-week-findings-in-webdev-21/</link><pubDate>Fri, 23 May 2014 00:48:31 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/this-week-findings-in-webdev-21/</guid><description>&lt;p>I’m consuming enormous amount of news each day. These is list of my findings from just only these week.&lt;/p>
+&lt;p> 
+ 
+ 
+ 
+ 
+ &lt;a href="https://www.humblesoftware.com/envision">Envision.js&lt;/a>
+ is a library for creating fast, dynamic and interactive HTML5 visualisations.&lt;/p>
+&lt;p> 
+ 
+ 
+ 
+ 
+ &lt;a href="https://github.com/goschevski/apy">Apy&lt;/a>
+ is a simple client-side library for making rest api ajax calls.&lt;/p>
+&lt;p> 
+ 
+ 
+ 
+ 
+ &lt;a href="https://www.sitespeed.io/">Sitespeed.io&lt;/a>
+ is an open source tool that helps you analyse your website &lt;em>speed&lt;/em> and &lt;em>performance&lt;/em> based on &lt;em>performance best practices&lt;/em> and &lt;em>metrics&lt;/em>. It collects data from multiple pages on your website, analyze the pages using the  
+ 
+ 
+ 
+ 
+ &lt;a href="https://www.sitespeed.io/rules/">rules&lt;/a>
+  and output the result as HTML or JUnit XML.&lt;/p></description></item><item><title>node.js run with root privileges on MacOS on start</title><link>https://www.spidersoft.com.au/2014/node-js-run-with-root-privileges-on-macos-on-start/</link><pubDate>Thu, 16 Jan 2014 08:37:58 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/node-js-run-with-root-privileges-on-macos-on-start/</guid><description>&lt;p>How long it’s quite easy to setup init.d services on linux boxes, same task on Max OS machines is pretty hard. Especially if you need to run it with root privileges.&lt;/p></description></item><item><title>Latest discoveries</title><link>https://www.spidersoft.com.au/2013/latest-discoveries/</link><pubDate>Tue, 15 Oct 2013 22:08:54 +0000</pubDate><guid>https://www.spidersoft.com.au/2013/latest-discoveries/</guid><description>&lt;h2 id="codeception">Codeception&lt;/h2>
+&lt;p>Modern PHP testing for everyone  
+ 
+ 
+ 
+ 
+ &lt;a href="http://codeception.com/">codeception.com&lt;/a>
+ &lt;/p>
+&lt;h2 id="fileapi">FileAPI&lt;/h2>
+&lt;p>FileAPI — a set of javascript tools for working with files. Multiupload, drag’n’drop and chunked file upload. Images: crop, resize and auto orientation by EXIF  
+ 
+ 
+ 
+ 
+ &lt;a href="https://github.com/mailru/FileAPI">github.com/mailru/FileAPI&lt;/a>
+ &lt;/p>
+&lt;h2 id="rainloop">RainLoop&lt;/h2>
+&lt;p>FREE, MODERN &amp;amp; FAST WEB-BASED EMAIL CLIENT  
+ 
+ 
+ 
+ 
+ &lt;a href="http://rainloop.net/">rainloop.net&lt;/a>
+ &lt;/p>
+&lt;h2 id="animated-checkboxes">ANIMATED CHECKBOXES&lt;/h2>
+&lt;p>ANIMATED CHECKBOXES AND RADIO BUTTONS WITH SVG 
+ 
+ 
+ 
+ 
+ &lt;a href="http://tympanus.net/codrops/2013/10/15/animated-checkboxes-and-radio-buttons-with-svg/">tympanus.net&lt;/a>
+ &lt;/p>
+&lt;h2 id="odometer">Odometer&lt;/h2>
+&lt;p>TRANSITION NUMBERS WITH EASE   
+ 
+ 
+ 
+ 
+ &lt;a href="http://github.hubspot.com/odometer/docs/welcome/">github.hubspot.com/odometer/docs/welcome/&lt;/a>
+ &lt;/p></description></item><item><title>Serialize form to object – jQuery</title><link>https://www.spidersoft.com.au/2013/serialize-form-to-object-jquery/</link><pubDate>Sun, 15 Sep 2013 11:35:24 +0000</pubDate><guid>https://www.spidersoft.com.au/2013/serialize-form-to-object-jquery/</guid><description>&lt;p>It’s pretty easy to serialise form using jQuery –&lt;/p>
 &lt;pre tabindex="0">&lt;code>$(&amp;#39;#formid&amp;#39;).serialize();
 &lt;/code>&lt;/pre>&lt;p>or by&lt;/p>
 &lt;pre tabindex="0">&lt;code>$(&amp;#39;#formid&amp;#39;).serializeArray();
@@ -54,5 +117,17 @@ Sitespeed.io is an open source tool that helps you analyse your website speed 
  
  
  &lt;a href="http://angularjs.org/">AngularJS&lt;/a>
- . Made by Google engineers – but super nice and sleek.&lt;/p></description></item><item><title>iBrowser and TinyMCE</title><link>https://www.spidersoft.com.au/2012/ibrowser-and-tinymce/</link><pubDate>Sat, 11 Feb 2012 12:18:17 +0000</pubDate><guid>https://www.spidersoft.com.au/2012/ibrowser-and-tinymce/</guid><description>&lt;p>You can find plenty of tutorials how to setup tinyMCE and iBrowser, but non of them mention about common problems, like “error building image list!”, or how to bind regular image browser to iBrowser. Here you can find full instructions.&lt;/p></description></item><item><title>Desktop Closure Compiler beta release</title><link>https://www.spidersoft.com.au/2011/desktop-closure-compiler-beta-release/</link><pubDate>Thu, 20 Jan 2011 03:16:24 +0000</pubDate><guid>https://www.spidersoft.com.au/2011/desktop-closure-compiler-beta-release/</guid><description>The Closure Compiler is a tool for making JavaScript download and run faster. It is a true compiler for JavaScript. Instead of compiling from a source language to machine code, it compiles from JavaScript to better JavaScript. It parses your JavaScript, analyzes it, removes dead code and rewrites and minimizes what’s left. It also checks syntax, variable references, and types, and warns about common JavaScript pitfalls.
-Google provides Closure Compiler Service which is web application to compile JavaScript, you can also use Java application or REST API.</description></item></channel></rss>
+ . Made by Google engineers – but super nice and sleek.&lt;/p></description></item><item><title>iBrowser and TinyMCE</title><link>https://www.spidersoft.com.au/2012/ibrowser-and-tinymce/</link><pubDate>Sat, 11 Feb 2012 12:18:17 +0000</pubDate><guid>https://www.spidersoft.com.au/2012/ibrowser-and-tinymce/</guid><description>&lt;p>You can find plenty of tutorials how to setup tinyMCE and iBrowser, but non of them mention about common problems, like “error building image list!”, or how to bind regular image browser to iBrowser. Here you can find full instructions.&lt;/p></description></item><item><title>Desktop Closure Compiler beta release</title><link>https://www.spidersoft.com.au/2011/desktop-closure-compiler-beta-release/</link><pubDate>Thu, 20 Jan 2011 03:16:24 +0000</pubDate><guid>https://www.spidersoft.com.au/2011/desktop-closure-compiler-beta-release/</guid><description>&lt;p>The 
+ 
+ 
+ 
+ 
+ &lt;a href="http://code.google.com/closure/compiler/">Closure Compiler&lt;/a>
+ is a tool for making JavaScript download and run faster. It is a true compiler for JavaScript. Instead of compiling from a source language to machine code, it compiles from JavaScript to better JavaScript. It parses your JavaScript, analyzes it, removes dead code and rewrites and minimizes what’s left. It also checks syntax, variable references, and types, and warns about common JavaScript pitfalls.&lt;/p>
+&lt;p>Google provides  
+ 
+ 
+ 
+ 
+ &lt;a href="http://closure-compiler.appspot.com/home">Closure Compiler Service&lt;/a>
+ which is web application to compile JavaScript, you can also use Java application or REST API. For your convenience we created simple app to use Closure Compiler on your desktop.&lt;/p></description></item></channel></rss>

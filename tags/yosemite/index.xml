@@ -1,9 +1,8 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Yosemite on SpiderSoft</title><link>https://www.spidersoft.com.au/tags/yosemite/</link><description>Recent content in Yosemite on SpiderSoft</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 29 Oct 2014 03:27:31 +0000</lastBuildDate><atom:link href="https://www.spidersoft.com.au/tags/yosemite/index.xml" rel="self" type="application/rss+xml"/><item><title>Apache and PHP on OS X Yosemite</title><link>https://www.spidersoft.com.au/2014/apache-and-php-on-os-x-yosemite/</link><pubDate>Wed, 29 Oct 2014 03:27:31 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/apache-and-php-on-os-x-yosemite/</guid><description>It’s just a short instructions how to run Apache and PHP on OS X Yosemite.
-PHP and Apache are already there – just need to run Apache and enable PHP. Video showing up whole process is available here:
-Here you can check out exact changes.
-Firsting first – we have to run Apache
-sudo apachectl start
-Then make some changes in httpd.conf file
-sudo nano /etc/apache2/httpd.conf
-Find two lines
-LoadModule rewrite_module libexec/apache2/mod_rewrite.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Yosemite on SpiderSoft</title><link>https://www.spidersoft.com.au/tags/yosemite/</link><description>Recent content in Yosemite on SpiderSoft</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 29 Oct 2014 03:27:31 +0000</lastBuildDate><atom:link href="https://www.spidersoft.com.au/tags/yosemite/index.xml" rel="self" type="application/rss+xml"/><item><title>Apache and PHP on OS X Yosemite</title><link>https://www.spidersoft.com.au/2014/apache-and-php-on-os-x-yosemite/</link><pubDate>Wed, 29 Oct 2014 03:27:31 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/apache-and-php-on-os-x-yosemite/</guid><description>&lt;p>It’s just a short instructions how to run Apache and PHP on OS X Yosemite.&lt;/p>
+&lt;p>PHP and Apache are already there – just need to run Apache and enable PHP. Video showing up whole process is available here:&lt;/p>
+&lt;!-- raw HTML omitted -->
+&lt;p>Here you can check out exact changes.&lt;/p>
+&lt;p>Firsting first – we have to run Apache&lt;/p>
+&lt;p>&lt;code>sudo apachectl start&lt;/code>&lt;/p>
+&lt;p>Then make some changes in httpd.conf file&lt;/p>
+&lt;p>&lt;code>sudo nano /etc/apache2/httpd.conf&lt;/code>&lt;/p></description></item></channel></rss>

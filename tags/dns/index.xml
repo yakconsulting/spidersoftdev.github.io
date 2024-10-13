@@ -1,3 +1,67 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dns on SpiderSoft</title><link>https://www.spidersoft.com.au/tags/dns/</link><description>Recent content in Dns on SpiderSoft</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 04 Aug 2024 14:30:00 +0100</lastBuildDate><atom:link href="https://www.spidersoft.com.au/tags/dns/index.xml" rel="self" type="application/rss+xml"/><item><title>How to force clean cached DNS records</title><link>https://www.spidersoft.com.au/2021/how-to-clean-cached-dns-records/</link><pubDate>Sun, 18 Jul 2021 07:19:08 +0000</pubDate><guid>https://www.spidersoft.com.au/2021/how-to-clean-cached-dns-records/</guid><description>Dealing with DNS changes can be annoying and frustrating. Changes are not visible straight away, you have to wait to see them. Thet are not even. Here you can find links to clear cached records in popular public DNS servers:
-Flushing DNS cache Flush Google Public DNS Cache Purge Cloudflare Public DNS Cache Checking results You can check results here:
-IntoDNS Refresh OpenDNS Cache DNSSEC Tools DNSViz. A DNS Visualization Tool DNS Check DNSSEC Analyzer SIDN DNSSEC Test</description></item><item><title>powerDNS with SQLite backend as a slave for BIND</title><link>https://www.spidersoft.com.au/2016/powerdns-with-sqlite-backend-as-a-slave-for-bind/</link><pubDate>Sun, 21 Aug 2016 07:01:15 +0000</pubDate><guid>https://www.spidersoft.com.au/2016/powerdns-with-sqlite-backend-as-a-slave-for-bind/</guid><description>&lt;p>(powerDNS)[https://www.powerdns.com] it’s a great alternative for large and complex BIND setup. Light footprint, and quick setup made that server as my obvious choice for slave server for primary BIND server. So let’s config begins:&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dns on SpiderSoft</title><link>https://www.spidersoft.com.au/tags/dns/</link><description>Recent content in Dns on SpiderSoft</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 04 Aug 2024 14:30:00 +0100</lastBuildDate><atom:link href="https://www.spidersoft.com.au/tags/dns/index.xml" rel="self" type="application/rss+xml"/><item><title>How to force clean cached DNS records</title><link>https://www.spidersoft.com.au/2021/how-to-clean-cached-dns-records/</link><pubDate>Sun, 18 Jul 2021 07:19:08 +0000</pubDate><guid>https://www.spidersoft.com.au/2021/how-to-clean-cached-dns-records/</guid><description>&lt;p>Dealing with DNS changes can be annoying and frustrating. Changes are not visible straight away, you have to wait to see them. Thet are not even. Here you can find links to clear cached records in popular public DNS servers:&lt;/p>
+&lt;h2 id="flushing-dns-cache">Flushing DNS cache&lt;/h2>
+&lt;ul>
+&lt;li> 
+ 
+ 
+ 
+ 
+ &lt;a href="https://developers.google.com/speed/public-dns/cache">Flush Google Public DNS Cache&lt;/a>
+ &lt;/li>
+&lt;li> 
+ 
+ 
+ 
+ 
+ &lt;a href="https://1.1.1.1/purge-cache/">Purge Cloudflare Public DNS Cache&lt;/a>
+ &lt;/li>
+&lt;/ul>
+&lt;h2 id="checking-results">Checking results&lt;/h2>
+&lt;p>You can check results here:&lt;/p>
+&lt;ul>
+&lt;li> 
+ 
+ 
+ 
+ 
+ &lt;a href="https://intodns.com/">IntoDNS&lt;/a>
+ &lt;/li>
+&lt;li> 
+ 
+ 
+ 
+ 
+ &lt;a href="https://cachecheck.opendns.com/">Refresh OpenDNS Cache&lt;/a>
+ &lt;/li>
+&lt;/ul>
+&lt;h2 id="dnssec-tools">DNSSEC Tools&lt;/h2>
+&lt;ul>
+&lt;li>DNSViz. A 
+ 
+ 
+ 
+ 
+ &lt;a href="https://dnsviz.net/">DNS Visualization Tool&lt;/a>
+ &lt;/li>
+&lt;li> 
+ 
+ 
+ 
+ 
+ &lt;a href="https://dnscheck.iis.se/" title="Domain Name System">DNS Check&lt;/a>
+ &lt;/li>
+&lt;li> 
+ 
+ 
+ 
+ 
+ &lt;a href="https://dnssec-debugger.verisignlabs.com/">DNSSEC Analyzer&lt;/a>
+ &lt;/li>
+&lt;li> 
+ 
+ 
+ 
+ 
+ &lt;a href="https://dnssectest.sidn.nl/">SIDN DNSSEC Test&lt;/a>
+ &lt;/li>
+&lt;/ul></description></item><item><title>powerDNS with SQLite backend as a slave for BIND</title><link>https://www.spidersoft.com.au/2016/powerdns-with-sqlite-backend-as-a-slave-for-bind/</link><pubDate>Sun, 21 Aug 2016 07:01:15 +0000</pubDate><guid>https://www.spidersoft.com.au/2016/powerdns-with-sqlite-backend-as-a-slave-for-bind/</guid><description>&lt;p>(powerDNS)[https://www.powerdns.com] it’s a great alternative for large and complex BIND setup. Light footprint, and quick setup made that server as my obvious choice for slave server for primary BIND server. So let’s config begins:&lt;/p></description></item></channel></rss>

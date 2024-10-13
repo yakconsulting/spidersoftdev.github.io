@@ -4,6 +4,16 @@
  
  
  &lt;a href="https://github.com/tesseract-ocr/tesseract">Tesseract&lt;/a>
- it’s a great library Open Source library to supply free OCR solutions for multiple libraries. You can use it directly from command line, or in your own software using supplied libraries.&lt;/p></description></item><item><title>CodeIgniter IMG – thumbnails on the fly</title><link>https://www.spidersoft.com.au/2011/codeigniter-img-thumbnails-on-the-fly/</link><pubDate>Sun, 03 Jul 2011 20:19:57 +0000</pubDate><guid>https://www.spidersoft.com.au/2011/codeigniter-img-thumbnails-on-the-fly/</guid><description>CodeIgniter library to generate high quality thumbnails
-Library is based on excellent * Smarty plugin “Thumb” * created in 2005 by Christoph Erdmann. This version is a little different, we are using core from Thumb, and some modification which gives more flexibility to work with it.
-Features thumbnails are generated “on the fly” no additional actions required, cache for generated thumbnails, clear structure for generated thumbnails, thumbnails sharpening function, cropping function, fill space function Usage You need to upload file img.</description></item></channel></rss>
+ it’s a great library Open Source library to supply free OCR solutions for multiple libraries. You can use it directly from command line, or in your own software using supplied libraries.&lt;/p></description></item><item><title>CodeIgniter IMG – thumbnails on the fly</title><link>https://www.spidersoft.com.au/2011/codeigniter-img-thumbnails-on-the-fly/</link><pubDate>Sun, 03 Jul 2011 20:19:57 +0000</pubDate><guid>https://www.spidersoft.com.au/2011/codeigniter-img-thumbnails-on-the-fly/</guid><description>&lt;p>CodeIgniter library to generate high quality thumbnails&lt;/p>
+&lt;p>Library is based on excellent * Smarty plugin “Thumb” * created in 2005 by Christoph Erdmann. This version is a little different, we are using core from Thumb, and some modification which gives more flexibility to work with it.&lt;/p>
+&lt;h2 id="features">Features&lt;/h2>
+&lt;ul>
+&lt;li>thumbnails are generated “on the fly” no additional actions required,&lt;/li>
+&lt;li>cache for generated thumbnails,&lt;/li>
+&lt;li>clear structure for generated thumbnails,&lt;/li>
+&lt;li>thumbnails sharpening function,&lt;/li>
+&lt;li>cropping function,&lt;/li>
+&lt;li>fill space function&lt;/li>
+&lt;/ul>
+&lt;h2 id="usage">Usage&lt;/h2>
+&lt;p>You need to upload file &lt;code>img.php&lt;/code> into directory &lt;code>application/libraries&lt;/code>. In controller, you need to load library:&lt;/p></description></item></channel></rss>

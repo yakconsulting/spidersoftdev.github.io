@@ -5,9 +5,21 @@
  
  &lt;a href="https://developer.apple.com/swift/">Apple Swift&lt;/a>
  language. It’s pretty simple but very power full language. Learning curve is hard – because it’s pretty new language, but from the other hand it’s good – because there is a lot of freshmen questions on StackOverflow and plenty of articles .&lt;/p>
-&lt;p>Because most of the stuff is related with REST communication with APIs core of my software works with JSON objects. In general we are looking also something for HTTP communication, uploading files and so on.&lt;/p></description></item><item><title>How to test and capture REST API calls</title><link>https://www.spidersoft.com.au/2014/how-to-test-test-and-capture-rest-api-calls/</link><pubDate>Wed, 24 Sep 2014 03:21:37 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/how-to-test-test-and-capture-rest-api-calls/</guid><description>Just bunch of very useful tools to help us with testing and building REST API.
-requestb.in – just bin for your API calls. Very easy to capture and test calls from APPS
-www.runscope.com – older brother, or actually mother of requestb.in – full featured serivce to test APIs</description></item><item><title>Phalcon – super simple REST API example</title><link>https://www.spidersoft.com.au/2014/phalcon-simple-rest-api-example/</link><pubDate>Thu, 10 Jul 2014 04:24:38 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/phalcon-simple-rest-api-example/</guid><description>&lt;p>Throughout this first tutorial, i’ll walk you through the creation of an application with a simple REST API from the ground up. I assume you have 
+&lt;p>Because most of the stuff is related with REST communication with APIs core of my software works with JSON objects. In general we are looking also something for HTTP communication, uploading files and so on.&lt;/p></description></item><item><title>How to test and capture REST API calls</title><link>https://www.spidersoft.com.au/2014/how-to-test-test-and-capture-rest-api-calls/</link><pubDate>Wed, 24 Sep 2014 03:21:37 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/how-to-test-test-and-capture-rest-api-calls/</guid><description>&lt;p>Just bunch of very useful tools to help us with testing and building REST API.&lt;/p>
+&lt;p> 
+ 
+ 
+ 
+ 
+ &lt;a href="http://requestb.in/">requestb.in&lt;/a>
+  – just bin for your API calls. Very easy to capture and test calls from APPS&lt;/p>
+&lt;p> 
+ 
+ 
+ 
+ 
+ &lt;a href="https://www.runscope.com/">www.runscope.com&lt;/a>
+  – older brother, or actually mother of requestb.in – full featured serivce to test APIs&lt;/p></description></item><item><title>Phalcon – super simple REST API example</title><link>https://www.spidersoft.com.au/2014/phalcon-simple-rest-api-example/</link><pubDate>Thu, 10 Jul 2014 04:24:38 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/phalcon-simple-rest-api-example/</guid><description>&lt;p>Throughout this first tutorial, i’ll walk you through the creation of an application with a simple REST API from the ground up. I assume you have 
  
  
  

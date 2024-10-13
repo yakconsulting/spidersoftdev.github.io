@@ -4,5 +4,23 @@
  
  
  &lt;a href="https://gohugo.io">Hugo&lt;/a>
- . You have to pull multiple git repositories to compile the entire project during the build process. Because begging is always challenging, it&amp;rsquo;s always trial and error, and I ended up having many sub-repositories missing. I&amp;rsquo;m now going to show the whole journey how to solve &amp;ldquo;the issue&amp;rdquo;.&lt;/p></description></item><item><title>Easy deployment from GIT to FTP</title><link>https://www.spidersoft.com.au/2015/easy-deployment-from-git-to-ftp/</link><pubDate>Tue, 10 Nov 2015 13:17:00 +0000</pubDate><guid>https://www.spidersoft.com.au/2015/easy-deployment-from-git-to-ftp/</guid><description>I’m huge fan of Continuous Integration and all possible automation which can save me any time during development process. I’m using plenty of different tools in my daily work, but there is always place for something new.
-Basically each decent IDE has FTP client build in, but sometimes you don’t have access to your IDE but obviously you got your code in GIT repository. If you are using Bitbucket or Github you are lucky – you can use FTPloy .</description></item></channel></rss>
+ . You have to pull multiple git repositories to compile the entire project during the build process. Because begging is always challenging, it&amp;rsquo;s always trial and error, and I ended up having many sub-repositories missing. I&amp;rsquo;m now going to show the whole journey how to solve &amp;ldquo;the issue&amp;rdquo;.&lt;/p></description></item><item><title>Easy deployment from GIT to FTP</title><link>https://www.spidersoft.com.au/2015/easy-deployment-from-git-to-ftp/</link><pubDate>Tue, 10 Nov 2015 13:17:00 +0000</pubDate><guid>https://www.spidersoft.com.au/2015/easy-deployment-from-git-to-ftp/</guid><description>&lt;p>I’m huge fan of Continuous Integration and all possible automation which can save me any time during development process. I’m using plenty of different tools in my daily work, but there is always place for something new.&lt;/p>
+&lt;p>Basically each decent IDE has FTP client build in, but sometimes you don’t have access to your IDE but obviously you got your code in GIT repository. If you are using 
+ 
+ 
+ 
+ 
+ &lt;a href="https://bitbucket.org">Bitbucket&lt;/a>
+ or 
+ 
+ 
+ 
+ 
+ &lt;a href="https://github.com">Github&lt;/a>
+ you are lucky – you can use 
+ 
+ 
+ 
+ 
+ &lt;a href="https://github.com/rasshofer/ftploy">FTPloy&lt;/a>
+  . It’s super simple service, which gives you option to bind your repository with FTP server. After change is made – it deploys your files on the server. Nothing more, nothing less.&lt;/p></description></item></channel></rss>
