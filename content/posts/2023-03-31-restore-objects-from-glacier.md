@@ -5,7 +5,7 @@ type: post
 date: 2023-03-31T08:00:00+00:00
 url: /2023/how-to-restore-objects-from-glacier-with-a-script/
 thumbnail: /images/2023/03/glacier.jpg
-description: Amazon S3 storage is a popular cloud storage service that provides scalable object storage for data backup, archive, and disaster recovery. One of the storage options available on Amazon S3 is Amazon Glacier, which provides a low-cost, long-term storage solution for data archiving and backup. However, retrieving data from Amazon Glacier can be time-consuming and expensive. In this tutorial, we'll show you how to restore files from Glacier on Amazon S3 storage using a Bash script.
+description: Restore files from Amazon Glacier using a Bash script
 categories:
 - Technologies
 - DevOps

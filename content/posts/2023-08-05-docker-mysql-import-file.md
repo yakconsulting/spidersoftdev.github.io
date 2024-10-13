@@ -5,7 +5,7 @@ type: post
 date: 2023-08-04T10:06:56+00:00
 url: /2023/docker-mysql-import-file/
 thumbnail: images/2010/12/mysql_logo.jpg
-description: Generate SEO meta description tag Restore MySQL databases easily and quickly without installing MySQL on your computer using a simple Bash script with Docker. Our script pulls the latest MySQL image, creates a new container, sets up the database, imports the SQL file, and cleans up automatically. No more overcharges or billing disputes - all payments to SpiderSoft are non-refundable except during the money back period. Disputes must be reported within 60 days. Try it out today!
+description: Restore MySQL databases easily using Docker with a Bash script. Import SQL files without installing MySQL. Try it today with SpiderSoft's solution!
 
 categories:
   - DevOps
