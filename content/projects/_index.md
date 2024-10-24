@@ -13,9 +13,8 @@ Some of our recent projects. Fell free to download and comment.
   * [jQuery SEO URL plugin][5] jQuery SEO URL plugin
   * [CodeIgniter minify][2] &#8211; CodeIgniter library to minify JavaScript and CSS
   * [CodeIgniter IMG][3] &#8211; thumbnails on the fly for CodeIgniter
-  
 
  [1]: /projects/alternate-date-picker/
  [2]: /projects/codeigniter-minify/
- [3]: /projects/codeigniter-img-thumbnails-on-the-fly
-  [5]: /projects/jquery-seo-url-plugin
+ [3]: /projects/codeigniter-img-thumbnails-on-the-fly/
+ [5]: /projects/jquery-seo-url-plugin/
