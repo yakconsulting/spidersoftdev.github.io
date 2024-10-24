@@ -54,7 +54,7 @@
  
  
  
- &lt;a href="http://demo.spidersoft.com.au/jqseourl/index.html">demo.spidersoft.com.au/jqseourl/&lt;/a>
+ &lt;a href="https://demo.spidersoft.com.au/jqseourl/index.html">demo.spidersoft.com.au/jqseourl/&lt;/a>
  &lt;/p></description></item><item><title>CodeIgniter IMG – thumbnails</title><link>https://www.spidersoft.com.au/projects/codeigniter-img-thumbnails-on-the-fly/</link><pubDate>Wed, 10 Aug 2011 04:20:02 +0000</pubDate><guid>https://www.spidersoft.com.au/projects/codeigniter-img-thumbnails-on-the-fly/</guid><description>&lt;h2 id="codeigniter-library-to-generate-high-quality-thumbnails">CodeIgniter library to generate high-quality thumbnails&lt;/h2>
 &lt;p>A library is based on excellent * Smarty plugin “Thumb” * created in 2005 by Christoph Erdmann. This version is a little bit different, we are using the core from Thumb, and some modification which gives more flexibility to work with it.&lt;/p>
 &lt;h2 id="features">Features&lt;/h2>
@@ -73,22 +73,10 @@
  
  
  &lt;a href="http://code.google.com/closure/compiler/">Closure Compiler&lt;/a>
- . CSS minifcation is based on 
+ . CSS minification is based on 
  
  
  
  
  &lt;a href="http://code.google.com/p/minify/">minify library&lt;/a>
- . Addtionaly all CSS scripts and JavaScript scripts are marget into single files.&lt;/p></description></item><item><title>XCache driver CodeIgniter</title><link>https://www.spidersoft.com.au/projects/xcache-driver-codeigniter/</link><pubDate>Wed, 10 Aug 2011 03:51:44 +0000</pubDate><guid>https://www.spidersoft.com.au/projects/xcache-driver-codeigniter/</guid><description>&lt;p>Here is a missing 
- 
- 
- 
- 
- &lt;a href="http://xcache.lighttpd.net/">XCache&lt;/a>
- driver for 
- 
- 
- 
- 
- &lt;a href="http://codeigniter.com/user_guide/libraries/caching.html">CodeIgniter Caching Class&lt;/a>
- . All You need to do is to modify &lt;code>/system/libraries/Cache/Cache.php&lt;/code> library and add additional Cache driver to drivers list:&lt;/p></description></item></channel></rss>
+ . Additionally all CSS scripts and JavaScript scripts are marget into single files.&lt;/p></description></item></channel></rss>
