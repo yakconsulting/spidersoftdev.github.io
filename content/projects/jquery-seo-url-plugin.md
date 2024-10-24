@@ -20,4 +20,4 @@ Sources available on github: [github.com/slav123/jquery-seo-url](https://github
 
 Demo it&#8217;s available here: [demo.spidersoft.com.au/jqseourl/][1]
 
- [1]: http://demo.spidersoft.com.au/jqseourl/index.html
+ [1]: https://demo.spidersoft.com.au/jqseourl/index.html

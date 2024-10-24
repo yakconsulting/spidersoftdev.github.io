@@ -56,6 +56,6 @@ Documentation is located at [https://github.com/slav123/CodeIgniter-Img/wiki](ht
 
 ## Installation
 
-Just put img.php file in libraries path.
+Just put `img.php` file in libraries path.
 
 [Download CodeIgniter IMG](https://github.com/slav123/CodeIgniter-Img)

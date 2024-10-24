@@ -5,20 +5,6 @@ type: post
 date: 2013-08-14T01:58:30+00:00
 url: /2013/a-clipboard-manager-for-mac-os-x/
 thumbnail: images/2013/08/clipmenu.png
-layout:
-  - default
-hide_post_title:
-  - default
-unlink_post_title:
-  - default
-hide_post_meta:
-  - default
-hide_post_date:
-  - default
-hide_post_image:
-  - default
-unlink_post_image:
-  - default
 dsq_thread_id:
   - 1604719123
 categories:

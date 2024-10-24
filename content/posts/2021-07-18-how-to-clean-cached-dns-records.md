@@ -4,12 +4,10 @@ author: admin
 type: post
 date: 2021-07-18T07:19:08+00:00
 url: 2021/how-to-clean-cached-dns-records
-description: "Links to websites, where you can clear cached records in popular public DNS servers."
+description: Find direct links to clear DNS cache in Google and Cloudflare public DNS servers. Plus useful tools for DNS checking, visualization, and DNSSEC analysis.
 categories:
   - "Software"
   - DevOps
-tags:
-  - "dns"
 lead: "links to clear cached records in popular public DNS servers:" # Lead text
 ---
 

@@ -4,8 +4,7 @@ author: slav
 type: post
 date: 2024-10-11T10:06:56+00:00
 url: /2024/trim-column-sql/
-description: Trim newline characters from text fields in SQL database using trim() and replace() functions.
-
+description: Learn how to remove unwanted newline characters from SQL database columns using trim() and replace() functions. Handles both Unix and Windows line endings.
 categories:
   - Software
 ---

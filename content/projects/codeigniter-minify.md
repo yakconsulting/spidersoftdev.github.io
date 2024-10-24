@@ -4,37 +4,16 @@ author: admin
 type: page
 date: 2011-08-10T04:08:44+00:00
 thumbnail: images/2011/07/CodeIgniter.jpg
+description: Simple library to minify JavaScript & CSS in CodeIgniter. JavaScript minification is based on [Closure Compiler](http://code.google.com/closure/compiler/). CSS minification is based on [minify library](http://code.google.com/p/minify/). Additionally all CSS scripts and JavaScript scripts are marget into single files.
 layout:
   - list-post
-page_layout:
-  - default
-hide_page_title:
-  - default
-section_categories:
-  - default
-display_content:
-  - excerpt
-hide_title:
-  - default
-hide_date:
-  - default
-hide_meta:
-  - default
-hide_image:
-  - default
-hide_navigation:
-  - default
-unlink_title:
-  - default
-unlink_image:
-  - default
 dsq_thread_id:
   - 1159353688
 
 
 
 ---
-Simple library to minify JavaScript & CSS in CodeIgniter. JavaScript minification is based on [Closure Compiler](http://code.google.com/closure/compiler/). CSS minifcation is based on [minify library](http://code.google.com/p/minify/). Addtionaly all CSS scripts and JavaScript scripts are marget into single files.
+Simple library to minify JavaScript & CSS in CodeIgniter. JavaScript minification is based on [Closure Compiler](http://code.google.com/closure/compiler/). CSS minification is based on [minify library](http://code.google.com/p/minify/). Additionally all CSS scripts and JavaScript scripts are marget into single files.
 
 <!--more-->
 

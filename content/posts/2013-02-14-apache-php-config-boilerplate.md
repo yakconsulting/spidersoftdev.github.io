@@ -17,7 +17,6 @@ tags:
   - apache
   - aws
   - php
-  - xcache
 
 ---
 In this extremely simply tutorial I&#8217;m going to show, how you can deploy basic LAMP stack on EC2 instance. Instruction are pretty basic, without extra comments. You can just copy and paste command to get working stack in lest then 15 minutes.

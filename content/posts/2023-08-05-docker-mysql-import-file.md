@@ -1,5 +1,5 @@
 ---
-title: How to quickly create a docker image with mysql and import sql file
+title: How to quickly create a docker image with MySQL and import sql file
 author: slav
 type: post
 date: 2023-08-04T10:06:56+00:00
