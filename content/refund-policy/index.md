@@ -3,7 +3,7 @@ title: Refund Policy
 author: admin
 type: page
 date: 2015-05-07T00:33:04+00:00
-description: "SpiderSoft's Money Back Guarantee: Up to 10 days refund for Dedicated, VPS, or hosting service orders of quarterly subscription or greater duration. Refund policies and dispute resolution procedures explained. No cancellation fees except in cases where ordered services cannot be provided. Customer data removal upon successful cancellation. SpiderSoft reserves the right to cancel hosting services for Terms of Service or AUP breaches without prior notice."
+description: "SpiderSoft Money Back Guarantee: Up to 10-day refund for quarterly+ subscriptions, no cancellation fees except breach cases. Refund & data removal policies explained."
 
 ---
 ## 1. REFUNDS, DISPUTES AND CANCELLATIONS

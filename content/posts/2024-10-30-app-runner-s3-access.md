@@ -4,7 +4,7 @@ author: admin
 type: post
 date: 2024-10-30T08:30:00+00:00
 url: /2024/app-runner-s3-access
-description: Step-by-step guide to set up secure S3 bucket access for AWS App Runner services using IAM roles, policies, and VPC endpoints. Includes CLI commands and security best practices.
+description: Set up secure S3 bucket access for AWS App Runner with IAM roles, policies & VPC endpoints
 categories:
 - Technologies
 - DevOps

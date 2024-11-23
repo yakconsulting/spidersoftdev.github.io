@@ -7,7 +7,7 @@ date: 2022-11-04T08:00:00+00:00
 url: /2022/how-to-host-static-website-on-aws-cloudfront
 categories:
 - Technologies
-description: Learn how to host static websites using AWS CloudFront and S3, including two methods to handle index.html files in subdirectories. A practical guide with CloudFront Functions
+description: Host static websites on AWS using CloudFront & S3, handling index.html files in subdirs with a practical guide and CloudFront Functions.
 tags:
 - aws
 - cloudfront

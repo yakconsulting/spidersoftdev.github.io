@@ -5,7 +5,7 @@ type: post
 date: 2023-03-31T08:00:00+00:00
 url: /2023/how-to-restore-objects-from-glacier-with-a-script/
 thumbnail: /images/2023/03/glacier.jpg
-description: Learn how to automate Amazon S3 Glacier file restoration using a simple Bash script. Step-by-step guide to efficiently retrieve archived data from AWS Glacier storage.
+description: Restore objects from Amazon S3 Glacier with this simple Bash script, efficiently retrieving archived data from AWS Glacier storage
 categories:
 - Technologies
 - DevOps

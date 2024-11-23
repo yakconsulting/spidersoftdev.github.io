@@ -10,7 +10,7 @@ categories:
 - Go Lang
 tags:
 - aws
-description: Learn how to test Golang AWS Lambda functions locally without Docker or dependencies. A simple guide to using awslambdarpc for lightweight, hassle-free Lambda testing.
+description: Test Golang AWS Lambda locally with awslambdarpc a lightweight solution for stress-free testing.
 ---
 For a while I was looking for an easy we to test my lambda functions written in golang locally. We have awesome tools like [LocalStack](https://localstack.cloud/) but this is not what I was looking for. I wanted to test my lambda function locally, without any dependencies. Something lighter without [Docker](https://www.docker.com/). I will show you how to do that.
 
