@@ -54,5 +54,3 @@ Definetly the most ugly website from whole list. But it works, API is really sim
 [http://www.emailyak.com/](http://www.emailyak.com/)
 
 Finally &#8211; if you are looking for more &#8211; please check this website:  [ProgrammableWeb](http://www.programmableweb.com/) is more than a directory and community, it&#8217;s programmable.
-
-<em id="__mceDel">Our <strong>&#8220;API for APIs&#8221;</strong> gives you a simple and structured way to access the powerful registry and repository capabilities of PW</em>

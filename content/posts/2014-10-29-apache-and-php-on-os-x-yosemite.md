@@ -21,8 +21,6 @@ It&#8217;s just a short instructions how to run Apache and PHP on OS X Yosemite.
 
 PHP and Apache are already there &#8211; just need to run Apache and enable PHP. Video showing up whole process is available here:
 
-<div class="video-container">
-</div>
 
 Here you can check out exact changes.
 

@@ -19,7 +19,8 @@ We'll achieve this by:
 3. Setting up networking components (if using a VPC) to ensure connectivity
 
 By following these steps, you'll enable your App Runner service to securely read from and write to S3 buckets, allowing for seamless integration of S3 storage in your application.
-<!-- more --> 
+
+
 ## Steps
 
 ### 1. Create an IAM Role

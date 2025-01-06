@@ -19,23 +19,19 @@ Yes… we have ongoing problem with that really simple function. So – what’s
 
 !["facebook-mobile-error"](images/2013/03/facebook-mobile-error.png)
 
-> &#8220;The page you requested was not found.&#8221;
+`&#8220;The page you requested was not found.&#8221;`
 
 If there is any workaround? Yes it is! Couple of them. One of them is to use vanity URL’s for sharing, which is kind of workaround. But, second one is also tricky. Instead of using URL showed above you can use something a little bit different: [http://www.facebook.com/spidersoftau?sk=app\_334933569956732&ref=ts](http://www.facebook.com/spidersoftau?sk=app_334933569956732&ref=ts) which is basically running Desktop version of you Page TAB, but in the mobile. So – what next?
+ 
+You can actually leave the frame using a piece of JavaScript inside `head` section of your HTML page:
 
-<!--more-->
-
-  
-You can actually leave the frame using a piece of JavaScript inside <head> section of your HTML page:
-
-```
-<script>
+```javascript
   isInIFrame = (window.location != window.parent.location) ? true : false;
     if (isInIFrame)
       {
         window.top.location = 'http://spidersoft.com.au/facebook';
       }
-</script>
+
 ```
 
 Where `http://spidersoft.com.au/facebook` it&#8217;s a mobile friendly version of your tab.

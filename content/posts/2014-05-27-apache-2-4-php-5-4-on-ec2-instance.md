@@ -119,7 +119,7 @@ You are looking for section starting:
 # Further relax access to the default document root:
 <Directory "/var/www/html">
 ```
-```
+
 And just change  
 
 `AllowOverride None`  
@@ -132,9 +132,7 @@ to enable .htaccess
 
 To disable showing up directory content update
 
-```
-Options Indexes FollowSymLinks
-```
+`Options Indexes FollowSymLinks`
 
 to
 

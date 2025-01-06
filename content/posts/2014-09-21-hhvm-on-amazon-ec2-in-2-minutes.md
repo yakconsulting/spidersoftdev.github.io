@@ -7,8 +7,6 @@ url: /2014/hhvm-on-amazon-ec2-in-2-minutes/
 thumbnail: images/2014/09/hhvm.png
 dsq_thread_id:
   - 3037758859
-
-
 categories:
   - DevOps
   - PHP
@@ -39,8 +37,6 @@ yum install hhvm
 
 Because i&#8217;m huge fan of speed I decided to give it a try, and run some benchmark. As for today the biggest issue with HHVM is compilation process. It takes ages to compile. If you follow [these instructions] (https://github.com/facebook/hhvm/wiki/Building-and-installing-HHVM-on-Amazon-Linux-2014.03) it takes around 30-45 minutes even if you use  c3.4xlarge instance. So&#8230; I compiled it once, and you can utilise my AMI to give it a try. AMI which i created has id `ami-355f3c0f`.
 
-<div class="video-container">
-</div>
 
 Instructions are pretty basic &#8211; if you are lost, leave comment here.
 

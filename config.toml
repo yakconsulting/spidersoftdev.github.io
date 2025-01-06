@@ -1,15 +1,16 @@
 baseurl = "https://www.spidersoft.com.au"
 title = "SpiderSoft"
 languageCode = "en-us"
-paginate = "5" # Number of posts per page
 theme = "mainroad"
 disqusShortname = "spidersoft" # Enable Disqus comments by entering your Disqus shortname
 googleAnalytics = "UA-629893-49" # Enable Google Analytics by entering your tracking id
 assetDir = "assets"
 comments = true
 
-[menu]
+[pagination]
+  pagerSize = 5
 
+[menu]
 [[menu.main]]
 identifier = 'about'
 name = 'About Us'
