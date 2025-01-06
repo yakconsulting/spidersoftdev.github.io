@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Rackspace on SpiderSoft</title><link>https://www.spidersoft.com.au/tags/rackspace/</link><description>Recent content in Rackspace on SpiderSoft</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 27 Sep 2013 23:28:00 +0000</lastBuildDate><atom:link href="https://www.spidersoft.com.au/tags/rackspace/index.xml" rel="self" type="application/rss+xml"/><item><title>Why AWS is better than Rackspace</title><link>https://www.spidersoft.com.au/2013/why-aws-is-better-than-rackspace/</link><pubDate>Fri, 27 Sep 2013 23:28:00 +0000</pubDate><guid>https://www.spidersoft.com.au/2013/why-aws-is-better-than-rackspace/</guid><description>&lt;p>I’m huge fan of 
- 
- 
- 
- 
- &lt;a href="http://aws.amazon.com">AWS&lt;/a>
- services. It just works – don’t need any kind of support, prices are really good. No issues whatsoever. But – of course my nature ask me to check out other options. For example 
- 
- 
- 
- 
- &lt;a href="http://www.rackspace.com.au/">Rackspace&lt;/a>
- . So I registered account, filled out my business and credit details. Just to give a small background – got registered business since 2011 in Australia. I filled out my CC details, phone number and so on. Pretty standard process. I logged in, and start playing with their interface (pretty slow, but I shouldn’t complain yet). The best is about to come…&lt;/p></description></item><item><title>Why I don’t recommend mailgun…</title><link>https://www.spidersoft.com.au/2013/why-i-dont-recommend-mailgun/</link><pubDate>Mon, 23 Sep 2013 23:26:49 +0000</pubDate><guid>https://www.spidersoft.com.au/2013/why-i-dont-recommend-mailgun/</guid><description>&lt;p>Couple months ago I listed  services having  
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Rackspace on SpiderSoft</title><link>https://www.spidersoft.com.au/tags/rackspace/</link><description>Recent content in Rackspace on SpiderSoft</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 23 Sep 2013 23:26:49 +0000</lastBuildDate><atom:link href="https://www.spidersoft.com.au/tags/rackspace/index.xml" rel="self" type="application/rss+xml"/><item><title>Why I don’t recommend mailgun…</title><link>https://www.spidersoft.com.au/2013/why-i-dont-recommend-mailgun/</link><pubDate>Mon, 23 Sep 2013 23:26:49 +0000</pubDate><guid>https://www.spidersoft.com.au/2013/why-i-dont-recommend-mailgun/</guid><description>&lt;p>Couple months ago I listed  services having  
  
  
  &lt;a href="https://www.spidersoft.com.au/2013/send-and-receive-emails-via-api/" title="Send and receive emails via API" target="_blank" rel="noopener">API for sending and receiving emails&lt;/a>

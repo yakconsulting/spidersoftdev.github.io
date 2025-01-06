@@ -1,4 +1,10 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on SpiderSoft</title><link>https://www.spidersoft.com.au/posts/</link><description>Recent content in Posts on SpiderSoft</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 30 Oct 2024 08:30:00 +0000</lastBuildDate><atom:link href="https://www.spidersoft.com.au/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>How to Configure S3 Access for AWS App Runner A Complete IAM and VPC Setup Guide</title><link>https://www.spidersoft.com.au/2024/app-runner-s3-access/</link><pubDate>Wed, 30 Oct 2024 08:30:00 +0000</pubDate><guid>https://www.spidersoft.com.au/2024/app-runner-s3-access/</guid><description>&lt;h2 id="introduction">Introduction&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on SpiderSoft</title><link>https://www.spidersoft.com.au/posts/</link><description>Recent content in Posts on SpiderSoft</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 06 Jan 2025 02:11:06 +0000</lastBuildDate><atom:link href="https://www.spidersoft.com.au/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Streamline Your Web Content Extraction with Readability</title><link>https://www.spidersoft.com.au/posts/2015-06-01-readability/</link><pubDate>Mon, 06 Jan 2025 02:11:06 +0000</pubDate><guid>https://www.spidersoft.com.au/posts/2015-06-01-readability/</guid><description>&lt;p>If you&amp;rsquo;re building content aggregation systems or need to extract clean content from web pages programmatically, you&amp;rsquo;ll want to check out 
+ 
+ 
+ &lt;a href="https://www.spidersoft.com.au/projects/readability/" target="_blank" rel="noopener">Readability&lt;/a>
+ . This powerful utility has caught my attention for its straightforward approach to web scraping and content extraction.&lt;/p>
+&lt;h2 id="why-readability-stands-out">Why Readability Stands Out&lt;/h2>
+&lt;p>What makes Readability particularly impressive is its no-nonsense approach to content extraction. Instead of overwhelming you with configuration options, it focuses on doing two things exceptionally well:&lt;/p></description></item><item><title>How to Configure S3 Access for AWS App Runner A Complete IAM and VPC Setup Guide</title><link>https://www.spidersoft.com.au/2024/app-runner-s3-access/</link><pubDate>Wed, 30 Oct 2024 08:30:00 +0000</pubDate><guid>https://www.spidersoft.com.au/2024/app-runner-s3-access/</guid><description>&lt;h2 id="introduction">Introduction&lt;/h2>
 &lt;p>When deploying applications on AWS App Runner, you may need to access S3 buckets to store or retrieve data. However, by default, App Runner services don&amp;rsquo;t have permission to interact with S3. This guide aims to solve that problem by walking you through the process of granting your App Runner service secure access to S3 buckets.&lt;/p>
 &lt;p>We&amp;rsquo;ll achieve this by:&lt;/p>
 &lt;ol>
@@ -612,12 +618,16 @@ We have to make 2 small amends.&lt;/p></description></item><item><title>PHP 5.5 
  &lt;a href="http://zeptojs.com">Zepto.js&lt;/a>
  and… we can use pure JavaScript which isn’t especially convenient in larger  projects. But definitely it’s much more but… it’s faster.&lt;/p></description></item><item><title>iOS Device Screen Sizes</title><link>https://www.spidersoft.com.au/2014/ios-device-screen-sizes/</link><pubDate>Sun, 30 Nov 2014 05:24:06 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/ios-device-screen-sizes/</guid><description>&lt;h2 id="cheat-sheet-with-ios-device-screen-sizes">Cheat sheet with iOS Device Screen Sizes&lt;/h2></description></item><item><title>Apache and PHP on OS X Yosemite</title><link>https://www.spidersoft.com.au/2014/apache-and-php-on-os-x-yosemite/</link><pubDate>Wed, 29 Oct 2014 03:27:31 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/apache-and-php-on-os-x-yosemite/</guid><description>&lt;p>It’s just a short instructions how to run Apache and PHP on OS X Yosemite.&lt;/p>
 &lt;p>PHP and Apache are already there – just need to run Apache and enable PHP. Video showing up whole process is available here:&lt;/p>
-&lt;!-- raw HTML omitted -->
 &lt;p>Here you can check out exact changes.&lt;/p>
 &lt;p>Firsting first – we have to run Apache&lt;/p>
 &lt;p>&lt;code>sudo apachectl start&lt;/code>&lt;/p>
 &lt;p>Then make some changes in httpd.conf file&lt;/p>
-&lt;p>&lt;code>sudo nano /etc/apache2/httpd.conf&lt;/code>&lt;/p></description></item><item><title>FFmpeg on AMI Linux and CentOS the easy way</title><link>https://www.spidersoft.com.au/2014/ffmpeg-on-ami-linux-and-centos-the-easy-way/</link><pubDate>Tue, 28 Oct 2014 02:12:32 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/ffmpeg-on-ami-linux-and-centos-the-easy-way/</guid><description>&lt;p> 
+&lt;p>&lt;code>sudo nano /etc/apache2/httpd.conf&lt;/code>&lt;/p>
+&lt;p>Find two lines&lt;/p>
+&lt;pre tabindex="0">&lt;code>LoadModule rewrite_module libexec/apache2/mod_rewrite.so
+LoadModule php5_module libexec/apache2/libphp5.so
+&lt;/code>&lt;/pre>&lt;p>and uncomment them. To enable PHP and mod_rewrite.&lt;br>
+And then restart Apache –&lt;/p></description></item><item><title>FFmpeg on AMI Linux and CentOS the easy way</title><link>https://www.spidersoft.com.au/2014/ffmpeg-on-ami-linux-and-centos-the-easy-way/</link><pubDate>Tue, 28 Oct 2014 02:12:32 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/ffmpeg-on-ami-linux-and-centos-the-easy-way/</guid><description>&lt;p> 
  
  
  
