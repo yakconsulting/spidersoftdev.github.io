@@ -59,3 +59,5 @@ The utility returns a JSON object containing:
 - Content analysis tools
 
 The tool's focused approach and JSON output make it particularly suitable for integration into larger content processing pipelines and automated data collection systems.
+
+Check it out on [RapidPI](https://rapidapi.com/slav123/api/readability) website. We have also dockered it.
