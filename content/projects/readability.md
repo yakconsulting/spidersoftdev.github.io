@@ -30,6 +30,8 @@ Primary image detection uses a straightforward size-based approach:
 3. Identifies the image with the largest dimensions
 4. Returns the URL and size information of the largest image
 
+Currently tools is able to read dimensions from images in PNG, JPEG, GIF, SVG and WebP formats. Doesn't work with images in CSS. 
+
 ## Output Format
 
 The utility returns a JSON object containing:
@@ -39,6 +41,7 @@ The utility returns a JSON object containing:
   "title": "Page title",
   "success": true,
   "message": "Content extracted successfully",
+  "description": "meta description",
   "date_published": "",
   "last_modified": "GMT formatted date",
   "lead_image_url": "URL of the primary image",
@@ -60,4 +63,8 @@ The utility returns a JSON object containing:
 
 The tool's focused approach and JSON output make it particularly suitable for integration into larger content processing pipelines and automated data collection systems.
 
-Check it out on [RapidPI](https://rapidapi.com/slav123/api/readability) website. We have also dockered it.
+Check it out on [RapidPI](https://rapidapi.com/slav123/api/readability) website. 
+
+## What Next?
+
+I'm for ideas - if you have any please drop me a line. There is a docker version available.
