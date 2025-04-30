@@ -24,6 +24,5 @@
  
  
  &lt;a href="http://php.net/">PHP&lt;/a>
- . HHVM uses a just-in-time (JIT) compilation approach to achieve superior performance while maintaining the development flexibility that PHP provides.&lt;/p>
-&lt;/blockquote>
+ . HHVM uses a just-in-time (JIT) compilation approach to achieve superior performance while maintaining the development flexibility that PHP provides.&lt;/p>&lt;/blockquote>
 &lt;p>Using simple terms – HHVM allows you run scripts written in PHP but much, much more faster. Obviously you the main purpose of HHVM is to run HACK language, but it works pretty good with PHP itself.&lt;/p></description></item></channel></rss>

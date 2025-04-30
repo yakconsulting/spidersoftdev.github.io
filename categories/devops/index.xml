@@ -284,8 +284,7 @@ Repo : remi
  
  
  &lt;a href="http://php.net/">PHP&lt;/a>
- . HHVM uses a just-in-time (JIT) compilation approach to achieve superior performance while maintaining the development flexibility that PHP provides.&lt;/p>
-&lt;/blockquote>
+ . HHVM uses a just-in-time (JIT) compilation approach to achieve superior performance while maintaining the development flexibility that PHP provides.&lt;/p>&lt;/blockquote>
 &lt;p>Using simple terms – HHVM allows you run scripts written in PHP but much, much more faster. Obviously you the main purpose of HHVM is to run HACK language, but it works pretty good with PHP itself.&lt;/p></description></item><item><title>MongoDB vs MySQL using golang</title><link>https://www.spidersoft.com.au/2014/mongodb-vs-mysql-using-golang/</link><pubDate>Mon, 01 Sep 2014 04:48:36 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/mongodb-vs-mysql-using-golang/</guid><description>&lt;p>I’m the guy who like to test. Benchmark is my… middle name. You can find dozens articles about speed one or other solution. I mean 
  
  

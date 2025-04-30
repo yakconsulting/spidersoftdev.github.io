@@ -127,8 +127,7 @@ And then restart Apache –&lt;/p></description></item><item><title>HHVM on Amaz
  
  
  &lt;a href="http://php.net/">PHP&lt;/a>
- . HHVM uses a just-in-time (JIT) compilation approach to achieve superior performance while maintaining the development flexibility that PHP provides.&lt;/p>
-&lt;/blockquote>
+ . HHVM uses a just-in-time (JIT) compilation approach to achieve superior performance while maintaining the development flexibility that PHP provides.&lt;/p>&lt;/blockquote>
 &lt;p>Using simple terms – HHVM allows you run scripts written in PHP but much, much more faster. Obviously you the main purpose of HHVM is to run HACK language, but it works pretty good with PHP itself.&lt;/p></description></item><item><title>PHP, work queues</title><link>https://www.spidersoft.com.au/2014/php-work-queues/</link><pubDate>Thu, 21 Aug 2014 04:30:27 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/php-work-queues/</guid><description>&lt;p>Biggest pain point in PHP is lack of asynchronous calls. The only reasonable way is to use some kind of “backend” processing and task list to execute. Some people use cron to run given script each n-minutes and execute tasks. But there is a little bit more “professional” approach.  
  
  

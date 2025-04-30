@@ -152,8 +152,7 @@
  
  
  &lt;a href="http://documentation.mailgun.com/razor.html">http://documentation.mailgun.com/razor.html&lt;/a>
-  Reference: #rzr01.&lt;/p>
-&lt;/blockquote>
+  Reference: #rzr01.&lt;/p>&lt;/blockquote>
 &lt;p>Because I know exactly what emails are being sent using my accounts (I keep track of each email coming out from the system) I was really interested how it could happen. Who reported message as a SPAM, and which one was that.&lt;/p></description></item><item><title>EC2 Instance and SWAP space</title><link>https://www.spidersoft.com.au/2013/ec2-instance-and-swap-space/</link><pubDate>Thu, 04 Jul 2013 23:07:23 +0000</pubDate><guid>https://www.spidersoft.com.au/2013/ec2-instance-and-swap-space/</guid><description>&lt;p>EC2 Instances on Amazon out of the box, does not contain any 
  
  

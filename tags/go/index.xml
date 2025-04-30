@@ -44,6 +44,5 @@ Today I spend some time creating simple not ever crawler, but website fetcher.&
  &lt;a href="http://golang.org/">The Go Language&lt;/a>
   which is advertised as&lt;/p>
 &lt;blockquote>
-&lt;p>Go is an open source programming language that makes it easy to build simple, reliable, and efficient software.&lt;/p>
-&lt;/blockquote>
+&lt;p>Go is an open source programming language that makes it easy to build simple, reliable, and efficient software.&lt;/p>&lt;/blockquote>
 &lt;p>Because google is a creator of this langauge documentation sucks. Plenty of random documents of everwhere, no clean how to documentation.&lt;/p></description></item></channel></rss>
