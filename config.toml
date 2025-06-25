@@ -3,7 +3,7 @@ title = "SpiderSoft"
 languageCode = "en-us"
 theme = "mainroad"
 disqusShortname = "spidersoft" # Enable Disqus comments by entering your Disqus shortname
-googleAnalytics = "UA-629893-49" # Enable Google Analytics by entering your tracking id
+googleAnalytics = "G-B2WJVSLMP7" # Enable Google Analytics by entering your tracking id
 assetDir = "assets"
 comments = true
 
