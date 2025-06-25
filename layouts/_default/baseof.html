@@ -35,9 +35,7 @@
 	{{- end }}
 
 	<link rel="shortcut icon" href="{{ "favicon.ico" | relURL }}">
-	{{- if eq hugo.Environment "production" -}}
-		{{ template "_internal/google_analytics.html" . }}
-	{{- end -}}
+	{{ template "_internal/google_analytics.html" . }}
 </head>
 <body class="body">
 	<div class="container container--outer">
