@@ -1,3 +1,5 @@
-/resources/
-/.idea/
+resources/
+.idea/
 public
+.idea/php.xml
+.idea/vcs.xml

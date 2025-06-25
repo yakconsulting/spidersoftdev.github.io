@@ -133,9 +133,6 @@ twitter = "slavomirj"
 linkedin = "slawomirjasinski"
 #email = "info@spidersoft.com.au"
 
-#[[Params.widgets.social.custom]]
-#title = "SpiderSoft Poland"
-#url = "https://www.spidersoft.pl/"
 
 [taxonomies]
 category = 'categories'
@@ -151,7 +148,6 @@ weight = 100
 [[related.indices]]
 name = 'date'
 weight = 10
-
 
 
 

@@ -42,7 +42,7 @@ Examples of **website changes** which we can do for you:
   * product changes and additions,
   * add breaking news or upcoming events to keep your site up to date
   * add photos, graphics, graphs and charts to keep you site fresh
-  * add analytics codes so you can track your sites metrics (with Google Analytics or [Piwik][1])
+  * add analytics codes so you can track your sites metrics (with Google Analytics)
 
 ##  What about CMS?
 
