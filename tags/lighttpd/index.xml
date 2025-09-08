@@ -1,25 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Lighttpd on SpiderSoft</title><link>https://www.spidersoft.com.au/tags/lighttpd/</link><description>Recent content in Lighttpd on SpiderSoft</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 27 Aug 2011 03:39:40 +0000</lastBuildDate><atom:link href="https://www.spidersoft.com.au/tags/lighttpd/index.xml" rel="self" type="application/rss+xml"/><item><title>Lighttpd and mod_expire</title><link>https://www.spidersoft.com.au/2011/lighttpd-and-mod_expire/</link><pubDate>Sat, 27 Aug 2011 03:39:40 +0000</pubDate><guid>https://www.spidersoft.com.au/2011/lighttpd-and-mod_expire/</guid><description>&lt;p>Google 
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Lighttpd on SpiderSoft</title><link>https://www.spidersoft.com.au/tags/lighttpd/</link><description>Recent content in Lighttpd on SpiderSoft</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 27 Aug 2011 03:39:40 +0000</lastBuildDate><atom:link href="https://www.spidersoft.com.au/tags/lighttpd/index.xml" rel="self" type="application/rss+xml"/><item><title>Lighttpd and mod_expire</title><link>https://www.spidersoft.com.au/2011/lighttpd-and-mod_expire/</link><pubDate>Sat, 27 Aug 2011 03:39:40 +0000</pubDate><guid>https://www.spidersoft.com.au/2011/lighttpd-and-mod_expire/</guid><description>&lt;p&gt;Google 
  
  
  
  
- &lt;a href="http://pagespeed.googlelabs.com/">Page Speed Online&lt;/a>
+ &lt;a href="http://pagespeed.googlelabs.com/"&gt;Page Speed Online&lt;/a&gt;
  is really good service for measuring and optimising your website. After deep analysis we get a lot if clues how to improve speed of your website. But how to 
  
  
  
  
- &lt;a href="http://code.google.com/speed/page-speed/docs/caching.html#LeverageBrowserCaching">Leverage browser caching&lt;/a>
+ &lt;a href="http://code.google.com/speed/page-speed/docs/caching.html#LeverageBrowserCaching"&gt;Leverage browser caching&lt;/a&gt;
  if we have 
  
  
  
  
- &lt;a href="http://www.lighttpd.net/">Lighttpd&lt;/a>
+ &lt;a href="http://www.lighttpd.net/"&gt;Lighttpd&lt;/a&gt;
   instead default Apache? We need to use 
  
  
  
  
- &lt;a href="http://redmine.lighttpd.net/wiki/lighttpd/Docs:ModExpire">mod_expire&lt;/a>
- .&lt;/p></description></item><item><title>Drupal and lighttpd mod_rewrite settings</title><link>https://www.spidersoft.com.au/2011/drupal-and-lighttpd-mod_rewrite-settings/</link><pubDate>Thu, 25 Aug 2011 03:38:54 +0000</pubDate><guid>https://www.spidersoft.com.au/2011/drupal-and-lighttpd-mod_rewrite-settings/</guid><description>&lt;p>Lighttpd is awesome and very fast webserver. But has one big disadvantage – is not reading apache .htaccess files with rewrite settings. Unfortunatley you need to create them manually in config file. How? Examples are below:&lt;/p></description></item></channel></rss>
+ &lt;a href="http://redmine.lighttpd.net/wiki/lighttpd/Docs:ModExpire"&gt;mod_expire&lt;/a&gt;
+ .&lt;/p&gt;</description></item><item><title>Drupal and lighttpd mod_rewrite settings</title><link>https://www.spidersoft.com.au/2011/drupal-and-lighttpd-mod_rewrite-settings/</link><pubDate>Thu, 25 Aug 2011 03:38:54 +0000</pubDate><guid>https://www.spidersoft.com.au/2011/drupal-and-lighttpd-mod_rewrite-settings/</guid><description>&lt;p&gt;Lighttpd is awesome and very fast webserver. But has one big disadvantage – is not reading apache .htaccess files with rewrite settings. Unfortunatley you need to create them manually in config file. How? Examples are below:&lt;/p&gt;</description></item></channel></rss>

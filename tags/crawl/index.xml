@@ -1,35 +1,35 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Crawl on SpiderSoft</title><link>https://www.spidersoft.com.au/tags/crawl/</link><description>Recent content in Crawl on SpiderSoft</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 13 Aug 2014 06:16:24 +0000</lastBuildDate><atom:link href="https://www.spidersoft.com.au/tags/crawl/index.xml" rel="self" type="application/rss+xml"/><item><title>Fetch page with proxy using The Go language</title><link>https://www.spidersoft.com.au/2014/fetch-page-with-proxy-using-the-go-language/</link><pubDate>Wed, 13 Aug 2014 06:16:24 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/fetch-page-with-proxy-using-the-go-language/</guid><description>&lt;p>For a while i’m playing with 
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Crawl on SpiderSoft</title><link>https://www.spidersoft.com.au/tags/crawl/</link><description>Recent content in Crawl on SpiderSoft</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 13 Aug 2014 06:16:24 +0000</lastBuildDate><atom:link href="https://www.spidersoft.com.au/tags/crawl/index.xml" rel="self" type="application/rss+xml"/><item><title>Fetch page with proxy using The Go language</title><link>https://www.spidersoft.com.au/2014/fetch-page-with-proxy-using-the-go-language/</link><pubDate>Wed, 13 Aug 2014 06:16:24 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/fetch-page-with-proxy-using-the-go-language/</guid><description>&lt;p&gt;For a while i’m playing with 
  
  
  
  
- &lt;a href="http://golang.org/">The Go Programming Language&lt;/a>
- – so far I loved it. I figure out that I’ll push some code snippets from time to time.&lt;br>
-Today I spend some time creating simple not ever crawler, but website fetcher.&lt;/p>
-&lt;p>Idea is very simple – download page, run xpath query on it and spit out results. I was looking for decent xpath library for Go and couldn’t find any. I tried to use 
+ &lt;a href="http://golang.org/"&gt;The Go Programming Language&lt;/a&gt;
+ – so far I loved it. I figure out that I’ll push some code snippets from time to time.&lt;br&gt;
+Today I spend some time creating simple not ever crawler, but website fetcher.&lt;/p&gt;
+&lt;p&gt;Idea is very simple – download page, run xpath query on it and spit out results. I was looking for decent xpath library for Go and couldn’t find any. I tried to use 
  
  
  
  
- &lt;a href="http://gopkg.in/xmlpath.v2">xmlpath&lt;/a>
- but it sucks. I couldn’t even run queries like &lt;code>id('product-details')/div[@class='product-price']&amp;quot;&lt;/code> Then I found something nicer – 
+ &lt;a href="http://gopkg.in/xmlpath.v2"&gt;xmlpath&lt;/a&gt;
+ but it sucks. I couldn’t even run queries like &lt;code&gt;id('product-details')/div[@class='product-price']&amp;quot;&lt;/code&gt; Then I found something nicer – 
  
  
  
  
- &lt;a href="https://github.com/moovweb/gokogiri">Gokogiri&lt;/a>
+ &lt;a href="https://github.com/moovweb/gokogiri"&gt;Gokogiri&lt;/a&gt;
  – which works pretty nicely, but – couldn’t find any examples except this 
  
  
  
  
- &lt;a href="https://www.moovweb.com/blog/gokogiri-the-best-way-to-parse-xml-in-go/">small article&lt;/a>
- .&lt;/p>
-&lt;p>The only problem with running Gokogiri is that it uses &lt;code>libxml2&lt;/code> which is not a huge problem on Linux based systems, but on Mac OS X you have to install it via 
+ &lt;a href="https://www.moovweb.com/blog/gokogiri-the-best-way-to-parse-xml-in-go/"&gt;small article&lt;/a&gt;
+ .&lt;/p&gt;
+&lt;p&gt;The only problem with running Gokogiri is that it uses &lt;code&gt;libxml2&lt;/code&gt; which is not a huge problem on Linux based systems, but on Mac OS X you have to install it via 
  
  
  
  
- &lt;a href="http://brew.sh/">homebrew&lt;/a>
- &lt;br>
-&lt;code>brew install libxml2&lt;/code>&lt;/p></description></item></channel></rss>
+ &lt;a href="http://brew.sh/"&gt;homebrew&lt;/a&gt;
+ &lt;br&gt;
+&lt;code&gt;brew install libxml2&lt;/code&gt;&lt;/p&gt;</description></item></channel></rss>

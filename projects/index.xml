@@ -1,87 +1,87 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Projects on SpiderSoft</title><link>https://www.spidersoft.com.au/projects/</link><description>Recent content in Projects on SpiderSoft</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 06 Jan 2025 02:11:06 +0000</lastBuildDate><atom:link href="https://www.spidersoft.com.au/projects/index.xml" rel="self" type="application/rss+xml"/><item><title>Readability</title><link>https://www.spidersoft.com.au/projects/readability/</link><pubDate>Mon, 06 Jan 2025 02:11:06 +0000</pubDate><guid>https://www.spidersoft.com.au/projects/readability/</guid><description>&lt;h1 id="web-content-extraction-utility">Web Content Extraction Utility&lt;/h1>
-&lt;p>A streamlined web scraping utility that extracts clean article content and automatically detects the primary image through dimensional analysis. The tool processes web pages into structured JSON output, making it ideal for content aggregation and analysis pipelines.&lt;/p>
-&lt;h2 id="how-it-works">How It Works&lt;/h2>
-&lt;p>The utility employs a two-step process to extract and structure web content:&lt;/p>
-&lt;h3 id="content-extraction">Content Extraction&lt;/h3>
-&lt;p>Analyzes webpage DOM structure to identify and extract the main article content, stripping away navigation elements, sidebars, and other non-essential components. The extraction process preserves the semantic structure of the content while removing clutter.&lt;/p></description></item><item><title>JavaScript date picker</title><link>https://www.spidersoft.com.au/projects/alternate-date-picker/</link><pubDate>Thu, 28 May 2015 02:11:06 +0000</pubDate><guid>https://www.spidersoft.com.au/projects/alternate-date-picker/</guid><description>&lt;p>It’s a very simple prototype of alternative approach to date picker. The goal is to provide easiest way to pick date from very wide range of dates (1800-2099).&lt;/p>
-&lt;p>Written in pure JavaScript – no dependencies.&lt;/p>
-&lt;p> 
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Projects on SpiderSoft</title><link>https://www.spidersoft.com.au/projects/</link><description>Recent content in Projects on SpiderSoft</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 06 Jan 2025 02:11:06 +0000</lastBuildDate><atom:link href="https://www.spidersoft.com.au/projects/index.xml" rel="self" type="application/rss+xml"/><item><title>Readability</title><link>https://www.spidersoft.com.au/projects/readability/</link><pubDate>Mon, 06 Jan 2025 02:11:06 +0000</pubDate><guid>https://www.spidersoft.com.au/projects/readability/</guid><description>&lt;h1 id="web-content-extraction-utility"&gt;Web Content Extraction Utility&lt;/h1&gt;
+&lt;p&gt;A streamlined web scraping utility that extracts clean article content and automatically detects the primary image through dimensional analysis. The tool processes web pages into structured JSON output, making it ideal for content aggregation and analysis pipelines.&lt;/p&gt;
+&lt;h2 id="how-it-works"&gt;How It Works&lt;/h2&gt;
+&lt;p&gt;The utility employs a two-step process to extract and structure web content:&lt;/p&gt;
+&lt;h3 id="content-extraction"&gt;Content Extraction&lt;/h3&gt;
+&lt;p&gt;Analyzes webpage DOM structure to identify and extract the main article content, stripping away navigation elements, sidebars, and other non-essential components. The extraction process preserves the semantic structure of the content while removing clutter.&lt;/p&gt;</description></item><item><title>JavaScript date picker</title><link>https://www.spidersoft.com.au/projects/alternate-date-picker/</link><pubDate>Thu, 28 May 2015 02:11:06 +0000</pubDate><guid>https://www.spidersoft.com.au/projects/alternate-date-picker/</guid><description>&lt;p&gt;It’s a very simple prototype of alternative approach to date picker. The goal is to provide easiest way to pick date from very wide range of dates (1800-2099).&lt;/p&gt;
+&lt;p&gt;Written in pure JavaScript – no dependencies.&lt;/p&gt;
+&lt;p&gt; 
  
  
  
  
- &lt;a href="https://demo.spidersoft.com.au/dp/index.html">demo.spidersoft.com.au/dp/&lt;/a>
- &lt;/p>
-&lt;p>
+ &lt;a href="https://demo.spidersoft.com.au/dp/index.html"&gt;demo.spidersoft.com.au/dp/&lt;/a&gt;
+ &lt;/p&gt;
+&lt;p&gt;
 
 
 
 
 
 
-&lt;figure>
-	&lt;img src="https://www.spidersoft.com.au/images/2015/05/date-picker.jpg" alt="Date Picker" width="324" height="601" title="/images/2015/05/date-picker.jpg" />
-	&lt;figcaption>&lt;/figcaption>
-&lt;/figure>
+&lt;figure&gt;
+	&lt;img src="https://www.spidersoft.com.au/images/2015/05/date-picker.jpg" alt="Date Picker" width="324" height="601" title="/images/2015/05/date-picker.jpg" /&gt;
+	&lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
 
-&lt;/p></description></item><item><title>Phalcon cheat sheet</title><link>https://www.spidersoft.com.au/projects/phalcon-cheat-sheet/</link><pubDate>Fri, 27 Jun 2014 02:02:41 +0000</pubDate><guid>https://www.spidersoft.com.au/projects/phalcon-cheat-sheet/</guid><description>&lt;h2 id="disable-view">Disable view&lt;/h2>
-&lt;p>&lt;code>$this-&amp;gt;view-&amp;gt;disable();&lt;/code>&lt;/p>
-&lt;h2 id="change-main-view">Change main view&lt;/h2>
-&lt;p>&lt;code>$this-&amp;gt;view-&amp;gt;setMainView('public');&lt;/code>&lt;/p>
-&lt;h2 id="set-headears">Set headears&lt;/h2>
-&lt;p>&lt;code>$this-&amp;gt;response-&amp;gt;setContentType('text/plain')-&amp;gt;sendHeaders();&lt;/code>&lt;/p>
-&lt;p> &lt;/p>
-&lt;h2 id="links-to-documentation">Links to documentation&lt;/h2>
-&lt;p> 
+&lt;/p&gt;</description></item><item><title>Phalcon cheat sheet</title><link>https://www.spidersoft.com.au/projects/phalcon-cheat-sheet/</link><pubDate>Fri, 27 Jun 2014 02:02:41 +0000</pubDate><guid>https://www.spidersoft.com.au/projects/phalcon-cheat-sheet/</guid><description>&lt;h2 id="disable-view"&gt;Disable view&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;$this-&amp;gt;view-&amp;gt;disable();&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id="change-main-view"&gt;Change main view&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;$this-&amp;gt;view-&amp;gt;setMainView('public');&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id="set-headears"&gt;Set headears&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;$this-&amp;gt;response-&amp;gt;setContentType('text/plain')-&amp;gt;sendHeaders();&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;h2 id="links-to-documentation"&gt;Links to documentation&lt;/h2&gt;
+&lt;p&gt; 
  
  
  
  
- &lt;a href="http://docs.phalconphp.com/en/latest/reference/routing.html#registering-router-instance">Registering Router instance&lt;/a>
- &lt;/p>
-&lt;h2 id="404-on-micro-application">404 on Micro application&lt;/h2>
-&lt;pre tabindex="0">&lt;code>$app-&amp;gt;notFound(
+ &lt;a href="http://docs.phalconphp.com/en/latest/reference/routing.html#registering-router-instance"&gt;Registering Router instance&lt;/a&gt;
+ &lt;/p&gt;
+&lt;h2 id="404-on-micro-application"&gt;404 on Micro application&lt;/h2&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;$app-&amp;gt;notFound(
  function () use ($app) {
  $app-&amp;gt;response-&amp;gt;setStatusCode(404, &amp;#34;Not Found&amp;#34;)-&amp;gt;sendHeaders();
  echo &amp;#39;This is crazy, but this page was not found!&amp;#39;;
  }
 );
-&lt;/code>&lt;/pre></description></item><item><title>jQuery SEO URL plugin</title><link>https://www.spidersoft.com.au/projects/jquery-seo-url-plugin/</link><pubDate>Sat, 27 Apr 2013 13:09:51 +0000</pubDate><guid>https://www.spidersoft.com.au/projects/jquery-seo-url-plugin/</guid><description>&lt;p>It’s just a landing page for my jQuery SEO URL plugin.&lt;/p>
-&lt;p>Sources available on github:  
+&lt;/code&gt;&lt;/pre&gt;</description></item><item><title>jQuery SEO URL plugin</title><link>https://www.spidersoft.com.au/projects/jquery-seo-url-plugin/</link><pubDate>Sat, 27 Apr 2013 13:09:51 +0000</pubDate><guid>https://www.spidersoft.com.au/projects/jquery-seo-url-plugin/</guid><description>&lt;p&gt;It’s just a landing page for my jQuery SEO URL plugin.&lt;/p&gt;
+&lt;p&gt;Sources available on github:  
  
  
  
  
- &lt;a href="https://github.com/slav123/jquery-seo-url">github.com/slav123/jquery-seo-url&lt;/a>
- &lt;/p>
-&lt;p>Demo it’s available here: 
+ &lt;a href="https://github.com/slav123/jquery-seo-url"&gt;github.com/slav123/jquery-seo-url&lt;/a&gt;
+ &lt;/p&gt;
+&lt;p&gt;Demo it’s available here: 
  
  
  
  
- &lt;a href="https://demo.spidersoft.com.au/jqseourl/index.html">demo.spidersoft.com.au/jqseourl/&lt;/a>
- &lt;/p></description></item><item><title>CodeIgniter IMG – thumbnails</title><link>https://www.spidersoft.com.au/projects/codeigniter-img-thumbnails-on-the-fly/</link><pubDate>Wed, 10 Aug 2011 04:20:02 +0000</pubDate><guid>https://www.spidersoft.com.au/projects/codeigniter-img-thumbnails-on-the-fly/</guid><description>&lt;h2 id="codeigniter-library-to-generate-high-quality-thumbnails">CodeIgniter library to generate high-quality thumbnails&lt;/h2>
-&lt;p>A library is based on excellent * Smarty plugin “Thumb” * created in 2005 by Christoph Erdmann. This version is a little bit different, we are using the core from Thumb, and some modification which gives more flexibility to work with it.&lt;/p>
-&lt;h2 id="features">Features&lt;/h2>
-&lt;ul>
-&lt;li>thumbnails are generated “on the fly” no additional actions required,&lt;/li>
-&lt;li>cache for generated thumbnails,&lt;/li>
-&lt;li>a clear structure for generated thumbnails,&lt;/li>
-&lt;li>thumbnails sharpening function,&lt;/li>
-&lt;li>cropping function,&lt;/li>
-&lt;li>fill space function&lt;/li>
-&lt;/ul>
-&lt;h2 id="usage">Usage&lt;/h2>
-&lt;p>You need to upload a file &lt;code>img.php&lt;/code> into directory: &lt;code>application/libraries&lt;/code> In controller, you need to load library:&lt;/p></description></item><item><title>CodeIgniter minify</title><link>https://www.spidersoft.com.au/projects/codeigniter-minify/</link><pubDate>Wed, 10 Aug 2011 04:08:44 +0000</pubDate><guid>https://www.spidersoft.com.au/projects/codeigniter-minify/</guid><description>&lt;p>Simple library to minify JavaScript &amp;amp; CSS in CodeIgniter. JavaScript minification is based on 
+ &lt;a href="https://demo.spidersoft.com.au/jqseourl/index.html"&gt;demo.spidersoft.com.au/jqseourl/&lt;/a&gt;
+ &lt;/p&gt;</description></item><item><title>CodeIgniter IMG – thumbnails</title><link>https://www.spidersoft.com.au/projects/codeigniter-img-thumbnails-on-the-fly/</link><pubDate>Wed, 10 Aug 2011 04:20:02 +0000</pubDate><guid>https://www.spidersoft.com.au/projects/codeigniter-img-thumbnails-on-the-fly/</guid><description>&lt;h2 id="codeigniter-library-to-generate-high-quality-thumbnails"&gt;CodeIgniter library to generate high-quality thumbnails&lt;/h2&gt;
+&lt;p&gt;A library is based on excellent * Smarty plugin “Thumb” * created in 2005 by Christoph Erdmann. This version is a little bit different, we are using the core from Thumb, and some modification which gives more flexibility to work with it.&lt;/p&gt;
+&lt;h2 id="features"&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;thumbnails are generated “on the fly” no additional actions required,&lt;/li&gt;
+&lt;li&gt;cache for generated thumbnails,&lt;/li&gt;
+&lt;li&gt;a clear structure for generated thumbnails,&lt;/li&gt;
+&lt;li&gt;thumbnails sharpening function,&lt;/li&gt;
+&lt;li&gt;cropping function,&lt;/li&gt;
+&lt;li&gt;fill space function&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="usage"&gt;Usage&lt;/h2&gt;
+&lt;p&gt;You need to upload a file &lt;code&gt;img.php&lt;/code&gt; into directory: &lt;code&gt;application/libraries&lt;/code&gt; In controller, you need to load library:&lt;/p&gt;</description></item><item><title>CodeIgniter minify</title><link>https://www.spidersoft.com.au/projects/codeigniter-minify/</link><pubDate>Wed, 10 Aug 2011 04:08:44 +0000</pubDate><guid>https://www.spidersoft.com.au/projects/codeigniter-minify/</guid><description>&lt;p&gt;Simple library to minify JavaScript &amp;amp; CSS in CodeIgniter. JavaScript minification is based on 
  
  
  
  
- &lt;a href="http://code.google.com/closure/compiler/">Closure Compiler&lt;/a>
+ &lt;a href="http://code.google.com/closure/compiler/"&gt;Closure Compiler&lt;/a&gt;
  . CSS minification is based on 
  
  
  
  
- &lt;a href="http://code.google.com/p/minify/">minify library&lt;/a>
- . Additionally, all CSS scripts and JavaScript scripts are marget into single files.&lt;/p></description></item></channel></rss>
+ &lt;a href="http://code.google.com/p/minify/"&gt;minify library&lt;/a&gt;
+ . Additionally, all CSS scripts and JavaScript scripts are marget into single files.&lt;/p&gt;</description></item></channel></rss>

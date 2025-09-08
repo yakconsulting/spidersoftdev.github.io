@@ -1,19 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Mac Os X on SpiderSoft</title><link>https://www.spidersoft.com.au/tags/mac-os-x/</link><description>Recent content in Mac Os X on SpiderSoft</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 29 Oct 2014 03:27:31 +0000</lastBuildDate><atom:link href="https://www.spidersoft.com.au/tags/mac-os-x/index.xml" rel="self" type="application/rss+xml"/><item><title>Apache and PHP on OS X Yosemite</title><link>https://www.spidersoft.com.au/2014/apache-and-php-on-os-x-yosemite/</link><pubDate>Wed, 29 Oct 2014 03:27:31 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/apache-and-php-on-os-x-yosemite/</guid><description>&lt;p>It’s just a short instructions how to run Apache and PHP on OS X Yosemite.&lt;/p>
-&lt;p>PHP and Apache are already there – just need to run Apache and enable PHP. Video showing up whole process is available here:&lt;/p>
-&lt;p>Here you can check out exact changes.&lt;/p>
-&lt;p>Firsting first – we have to run Apache&lt;/p>
-&lt;p>&lt;code>sudo apachectl start&lt;/code>&lt;/p>
-&lt;p>Then make some changes in httpd.conf file&lt;/p>
-&lt;p>&lt;code>sudo nano /etc/apache2/httpd.conf&lt;/code>&lt;/p>
-&lt;p>Find two lines&lt;/p>
-&lt;pre tabindex="0">&lt;code>LoadModule rewrite_module libexec/apache2/mod_rewrite.so
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Mac Os X on SpiderSoft</title><link>https://www.spidersoft.com.au/tags/mac-os-x/</link><description>Recent content in Mac Os X on SpiderSoft</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 29 Oct 2014 03:27:31 +0000</lastBuildDate><atom:link href="https://www.spidersoft.com.au/tags/mac-os-x/index.xml" rel="self" type="application/rss+xml"/><item><title>Apache and PHP on OS X Yosemite</title><link>https://www.spidersoft.com.au/2014/apache-and-php-on-os-x-yosemite/</link><pubDate>Wed, 29 Oct 2014 03:27:31 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/apache-and-php-on-os-x-yosemite/</guid><description>&lt;p&gt;It’s just a short instructions how to run Apache and PHP on OS X Yosemite.&lt;/p&gt;
+&lt;p&gt;PHP and Apache are already there – just need to run Apache and enable PHP. Video showing up whole process is available here:&lt;/p&gt;
+&lt;p&gt;Here you can check out exact changes.&lt;/p&gt;
+&lt;p&gt;Firsting first – we have to run Apache&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;sudo apachectl start&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Then make some changes in httpd.conf file&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;sudo nano /etc/apache2/httpd.conf&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Find two lines&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;LoadModule rewrite_module libexec/apache2/mod_rewrite.so
 LoadModule php5_module libexec/apache2/libphp5.so
-&lt;/code>&lt;/pre>&lt;p>and uncomment them. To enable PHP and mod_rewrite.&lt;br>
-And then restart Apache –&lt;/p></description></item><item><title>A clipboard manager for Mac OS X</title><link>https://www.spidersoft.com.au/2013/a-clipboard-manager-for-mac-os-x/</link><pubDate>Wed, 14 Aug 2013 01:58:30 +0000</pubDate><guid>https://www.spidersoft.com.au/2013/a-clipboard-manager-for-mac-os-x/</guid><description>&lt;p>Really tiny but useful program.  
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;and uncomment them. To enable PHP and mod_rewrite.&lt;br&gt;
+And then restart Apache –&lt;/p&gt;</description></item><item><title>A clipboard manager for Mac OS X</title><link>https://www.spidersoft.com.au/2013/a-clipboard-manager-for-mac-os-x/</link><pubDate>Wed, 14 Aug 2013 01:58:30 +0000</pubDate><guid>https://www.spidersoft.com.au/2013/a-clipboard-manager-for-mac-os-x/</guid><description>&lt;p&gt;Really tiny but useful program.  
  
  
  
  
- &lt;a href="http://www.clipmenu.com/">ClipMenu&lt;/a>
- can manage clipboard history. You can record 8 clipboard types, from plain text to image. To paste a recorded item, you just pop up menu by invoking the shortcut key, and select a menu item from the menu.&lt;/p>
-&lt;p>There is also snippet function – you can also register texts you frequently use, like e-mail addresses, user IDs and so on. You can paste these snippets from the menu, too.&lt;/p></description></item><item><title>Mac OS X Window Manager</title><link>https://www.spidersoft.com.au/2012/mac-os-x-window-manager/</link><pubDate>Fri, 27 Apr 2012 08:08:09 +0000</pubDate><guid>https://www.spidersoft.com.au/2012/mac-os-x-window-manager/</guid><description>&lt;p>I was looking for some kind of easy to use Window Manager for Mac OS X. Usually I’m working on multiple screen with multiple application open (usually it’s between 4-8). It’s really hard to organise everything in proper order and placement. Arranging windows it’s slow, especially when you need to compare or see results on multiple window at once.&lt;/p></description></item></channel></rss>
+ &lt;a href="http://www.clipmenu.com/"&gt;ClipMenu&lt;/a&gt;
+ can manage clipboard history. You can record 8 clipboard types, from plain text to image. To paste a recorded item, you just pop up menu by invoking the shortcut key, and select a menu item from the menu.&lt;/p&gt;
+&lt;p&gt;There is also snippet function – you can also register texts you frequently use, like e-mail addresses, user IDs and so on. You can paste these snippets from the menu, too.&lt;/p&gt;</description></item><item><title>Mac OS X Window Manager</title><link>https://www.spidersoft.com.au/2012/mac-os-x-window-manager/</link><pubDate>Fri, 27 Apr 2012 08:08:09 +0000</pubDate><guid>https://www.spidersoft.com.au/2012/mac-os-x-window-manager/</guid><description>&lt;p&gt;I was looking for some kind of easy to use Window Manager for Mac OS X. Usually I’m working on multiple screen with multiple application open (usually it’s between 4-8). It’s really hard to organise everything in proper order and placement. Arranging windows it’s slow, especially when you need to compare or see results on multiple window at once.&lt;/p&gt;</description></item></channel></rss>

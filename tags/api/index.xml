@@ -1,78 +1,78 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Api on SpiderSoft</title><link>https://www.spidersoft.com.au/tags/api/</link><description>Recent content in Api on SpiderSoft</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 23 Oct 2022 08:30:00 +0000</lastBuildDate><atom:link href="https://www.spidersoft.com.au/tags/api/index.xml" rel="self" type="application/rss+xml"/><item><title>How to test mod_rewrite in Apache</title><link>https://www.spidersoft.com.au/2022/how-to-test-mod-htaccess-mod-rewrite/</link><pubDate>Sun, 23 Oct 2022 08:30:00 +0000</pubDate><guid>https://www.spidersoft.com.au/2022/how-to-test-mod-htaccess-mod-rewrite/</guid><description>&lt;p>Documentation for 
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Api on SpiderSoft</title><link>https://www.spidersoft.com.au/tags/api/</link><description>Recent content in Api on SpiderSoft</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 23 Oct 2022 08:30:00 +0000</lastBuildDate><atom:link href="https://www.spidersoft.com.au/tags/api/index.xml" rel="self" type="application/rss+xml"/><item><title>How to test mod_rewrite in Apache</title><link>https://www.spidersoft.com.au/2022/how-to-test-mod-htaccess-mod-rewrite/</link><pubDate>Sun, 23 Oct 2022 08:30:00 +0000</pubDate><guid>https://www.spidersoft.com.au/2022/how-to-test-mod-htaccess-mod-rewrite/</guid><description>&lt;p&gt;Documentation for 
  
  
  
  
- &lt;a href="https://httpd.apache.org/docs/current/mod/mod_rewrite.html">mod_rewrite&lt;/a>
- is pretty good, but it is not always easy to test your rules. This is a simple way to test your rules. I found this tool very useful when I was working on a project that required a lot of htaccess rules.&lt;/p>
-&lt;p> 
+ &lt;a href="https://httpd.apache.org/docs/current/mod/mod_rewrite.html"&gt;mod_rewrite&lt;/a&gt;
+ is pretty good, but it is not always easy to test your rules. This is a simple way to test your rules. I found this tool very useful when I was working on a project that required a lot of htaccess rules.&lt;/p&gt;
+&lt;p&gt; 
  
  
  
  
- &lt;a href="https://htaccess.madewithlove.com">htaccess.madewithlove.com&lt;/a>
- &lt;/p></description></item><item><title>How to create AWS Signature on GET POST request</title><link>https://www.spidersoft.com.au/2022/aws-signature-request/</link><pubDate>Sun, 28 Aug 2022 08:30:00 +0000</pubDate><guid>https://www.spidersoft.com.au/2022/aws-signature-request/</guid><description>&lt;p>Postman, it&amp;rsquo;s a great tool for debuging, testing and other activities performed by us - developers. It has a build in option to sign requestes with 
+ &lt;a href="https://htaccess.madewithlove.com"&gt;htaccess.madewithlove.com&lt;/a&gt;
+ &lt;/p&gt;</description></item><item><title>How to create AWS Signature on GET POST request</title><link>https://www.spidersoft.com.au/2022/aws-signature-request/</link><pubDate>Sun, 28 Aug 2022 08:30:00 +0000</pubDate><guid>https://www.spidersoft.com.au/2022/aws-signature-request/</guid><description>&lt;p&gt;Postman, it&amp;rsquo;s a great tool for debuging, testing and other activities performed by us - developers. It has a build in option to sign requestes with 
  
  
  
  
- &lt;a href="https://learning.postman.com/docs/sending-requests/authorization/#aws-signature">AWS Signature&lt;/a>
+ &lt;a href="https://learning.postman.com/docs/sending-requests/authorization/#aws-signature"&gt;AWS Signature&lt;/a&gt;
  . We do have 
  
  
  
  
- &lt;a href="https://github.com/aws/aws-sdk-go-v2">AWS SDK for Go v2&lt;/a>
+ &lt;a href="https://github.com/aws/aws-sdk-go-v2"&gt;AWS SDK for Go v2&lt;/a&gt;
  , but I couldn&amp;rsquo;t find any good examples except a 
  
  
  
  
- &lt;a href="https://github.com/aws/aws-sdk-go-v2/blob/main/aws/signer/v4/v4_test.go">test file&lt;/a>
+ &lt;a href="https://github.com/aws/aws-sdk-go-v2/blob/main/aws/signer/v4/v4_test.go"&gt;test file&lt;/a&gt;
  . The other useful file will be 
  
  
  
  
- &lt;a href="https://github.com/aws/aws-sdk-go-v2/blob/main/aws/signer/internal/v4/const.go">const.go&lt;/a>
- where we can find a couple of interesting variables.&lt;/p></description></item><item><title>Useful libraries for SWIFT beginners</title><link>https://www.spidersoft.com.au/2015/useful-libraries-for-swift-beginners/</link><pubDate>Mon, 11 May 2015 06:45:01 +0000</pubDate><guid>https://www.spidersoft.com.au/2015/useful-libraries-for-swift-beginners/</guid><description>&lt;p>Recently we started working with 
+ &lt;a href="https://github.com/aws/aws-sdk-go-v2/blob/main/aws/signer/internal/v4/const.go"&gt;const.go&lt;/a&gt;
+ where we can find a couple of interesting variables.&lt;/p&gt;</description></item><item><title>Useful libraries for SWIFT beginners</title><link>https://www.spidersoft.com.au/2015/useful-libraries-for-swift-beginners/</link><pubDate>Mon, 11 May 2015 06:45:01 +0000</pubDate><guid>https://www.spidersoft.com.au/2015/useful-libraries-for-swift-beginners/</guid><description>&lt;p&gt;Recently we started working with 
  
  
  
  
- &lt;a href="https://developer.apple.com/swift/">Apple Swift&lt;/a>
- language. It’s pretty simple but very power full language. Learning curve is hard – because it’s pretty new language, but from the other hand it’s good – because there is a lot of freshmen questions on StackOverflow and plenty of articles .&lt;/p>
-&lt;p>Because most of the stuff is related with REST communication with APIs core of my software works with JSON objects. In general we are looking also something for HTTP communication, uploading files and so on.&lt;/p></description></item><item><title>How to test and capture REST API calls</title><link>https://www.spidersoft.com.au/2014/how-to-test-test-and-capture-rest-api-calls/</link><pubDate>Wed, 24 Sep 2014 03:21:37 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/how-to-test-test-and-capture-rest-api-calls/</guid><description>&lt;p>Just bunch of very useful tools to help us with testing and building REST API.&lt;/p>
-&lt;p> 
+ &lt;a href="https://developer.apple.com/swift/"&gt;Apple Swift&lt;/a&gt;
+ language. It’s pretty simple but very power full language. Learning curve is hard – because it’s pretty new language, but from the other hand it’s good – because there is a lot of freshmen questions on StackOverflow and plenty of articles .&lt;/p&gt;
+&lt;p&gt;Because most of the stuff is related with REST communication with APIs core of my software works with JSON objects. In general we are looking also something for HTTP communication, uploading files and so on.&lt;/p&gt;</description></item><item><title>How to test and capture REST API calls</title><link>https://www.spidersoft.com.au/2014/how-to-test-test-and-capture-rest-api-calls/</link><pubDate>Wed, 24 Sep 2014 03:21:37 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/how-to-test-test-and-capture-rest-api-calls/</guid><description>&lt;p&gt;Just bunch of very useful tools to help us with testing and building REST API.&lt;/p&gt;
+&lt;p&gt; 
  
  
  
  
- &lt;a href="http://requestb.in/">requestb.in&lt;/a>
-  – just bin for your API calls. Very easy to capture and test calls from APPS&lt;/p>
-&lt;p> 
+ &lt;a href="http://requestb.in/"&gt;requestb.in&lt;/a&gt;
+  – just bin for your API calls. Very easy to capture and test calls from APPS&lt;/p&gt;
+&lt;p&gt; 
  
  
  
  
- &lt;a href="https://www.runscope.com/">www.runscope.com&lt;/a>
-  – older brother, or actually mother of requestb.in – full featured serivce to test APIs&lt;/p></description></item><item><title>Phalcon – super simple REST API example</title><link>https://www.spidersoft.com.au/2014/phalcon-simple-rest-api-example/</link><pubDate>Thu, 10 Jul 2014 04:24:38 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/phalcon-simple-rest-api-example/</guid><description>&lt;p>Throughout this first tutorial, i’ll walk you through the creation of an application with a simple REST API from the ground up. I assume you have 
+ &lt;a href="https://www.runscope.com/"&gt;www.runscope.com&lt;/a&gt;
+  – older brother, or actually mother of requestb.in – full featured serivce to test APIs&lt;/p&gt;</description></item><item><title>Phalcon – super simple REST API example</title><link>https://www.spidersoft.com.au/2014/phalcon-simple-rest-api-example/</link><pubDate>Thu, 10 Jul 2014 04:24:38 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/phalcon-simple-rest-api-example/</guid><description>&lt;p&gt;Throughout this first tutorial, i’ll walk you through the creation of an application with a simple REST API from the ground up. I assume you have 
  
  
  
  
- &lt;a href="http://phalconphp.com/en/">Phalcon&lt;/a>
- . installed already.&lt;/p></description></item><item><title>Send and receive emails via API</title><link>https://www.spidersoft.com.au/2013/send-and-receive-emails-via-api/</link><pubDate>Mon, 25 Mar 2013 03:39:56 +0000</pubDate><guid>https://www.spidersoft.com.au/2013/send-and-receive-emails-via-api/</guid><description>&lt;p>It’s coming with experience. On the beginning you always trying to do everything by your self. No frameworks, no libraries – bare bone solutions written from the scratch. Later – you realising than your time is to expensive, and start using some libraries. After another period of time you are getting to the point, that you are willing to use as many existing solutions as it’s possible.&lt;/p>
-&lt;p>Really typical problem – sending and receiving emails from the apps. Of course – you can send emails using simple 
+ &lt;a href="http://phalconphp.com/en/"&gt;Phalcon&lt;/a&gt;
+ . installed already.&lt;/p&gt;</description></item><item><title>Send and receive emails via API</title><link>https://www.spidersoft.com.au/2013/send-and-receive-emails-via-api/</link><pubDate>Mon, 25 Mar 2013 03:39:56 +0000</pubDate><guid>https://www.spidersoft.com.au/2013/send-and-receive-emails-via-api/</guid><description>&lt;p&gt;It’s coming with experience. On the beginning you always trying to do everything by your self. No frameworks, no libraries – bare bone solutions written from the scratch. Later – you realising than your time is to expensive, and start using some libraries. After another period of time you are getting to the point, that you are willing to use as many existing solutions as it’s possible.&lt;/p&gt;
+&lt;p&gt;Really typical problem – sending and receiving emails from the apps. Of course – you can send emails using simple 
  
  
  
  
- &lt;a href="http://www.php.net/manual/en/function.mail.php" title="PHP mail">mail&lt;/a>
+ &lt;a href="http://www.php.net/manual/en/function.mail.php" title="PHP mail"&gt;mail&lt;/a&gt;
  () command or using more sophisticated libraries like 
  
  
  
  
- &lt;a href="http://swiftmailer.org/">Swiftmailer&lt;/a>
- but… if there is an option to use API, you can chose from couples:&lt;/p></description></item></channel></rss>
+ &lt;a href="http://swiftmailer.org/"&gt;Swiftmailer&lt;/a&gt;
+ but… if there is an option to use API, you can chose from couples:&lt;/p&gt;</description></item></channel></rss>

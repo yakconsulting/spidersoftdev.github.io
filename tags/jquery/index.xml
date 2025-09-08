@@ -1,17 +1,17 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Jquery on SpiderSoft</title><link>https://www.spidersoft.com.au/tags/jquery/</link><description>Recent content in Jquery on SpiderSoft</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 02 Mar 2015 05:45:54 +0000</lastBuildDate><atom:link href="https://www.spidersoft.com.au/tags/jquery/index.xml" rel="self" type="application/rss+xml"/><item><title>interesting jQuery alternative – laroux.js</title><link>https://www.spidersoft.com.au/2015/interesting-jquery-alternative-laroux-js/</link><pubDate>Mon, 02 Mar 2015 05:45:54 +0000</pubDate><guid>https://www.spidersoft.com.au/2015/interesting-jquery-alternative-laroux-js/</guid><description>&lt;p>If we are talking about 
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Jquery on SpiderSoft</title><link>https://www.spidersoft.com.au/tags/jquery/</link><description>Recent content in Jquery on SpiderSoft</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 02 Mar 2015 05:45:54 +0000</lastBuildDate><atom:link href="https://www.spidersoft.com.au/tags/jquery/index.xml" rel="self" type="application/rss+xml"/><item><title>interesting jQuery alternative – laroux.js</title><link>https://www.spidersoft.com.au/2015/interesting-jquery-alternative-laroux-js/</link><pubDate>Mon, 02 Mar 2015 05:45:54 +0000</pubDate><guid>https://www.spidersoft.com.au/2015/interesting-jquery-alternative-laroux-js/</guid><description>&lt;p&gt;If we are talking about 
  
  
  
  
- &lt;a href="http://jquery.com">jQuery&lt;/a>
+ &lt;a href="http://jquery.com"&gt;jQuery&lt;/a&gt;
  alternatives there is not much on the market. With age jQuery put a little bit on weight, not mentioning it’s speed. If we are talking about weight and speed we have 
  
  
  
  
- &lt;a href="http://zeptojs.com">Zepto.js&lt;/a>
- and… we can use pure JavaScript which isn’t especially convenient in larger  projects. But definitely it’s much more but… it’s faster.&lt;/p></description></item><item><title>How to force jQuery version on WordPress</title><link>https://www.spidersoft.com.au/2013/how-to-force-jquery-version-on-wordpress/</link><pubDate>Fri, 20 Sep 2013 11:35:28 +0000</pubDate><guid>https://www.spidersoft.com.au/2013/how-to-force-jquery-version-on-wordpress/</guid><description>&lt;p>Another really simple code snippet. This time, we are trying to force particular version of jQuery injecting into WordPress.&lt;/p></description></item><item><title>Serialize form to object – jQuery</title><link>https://www.spidersoft.com.au/2013/serialize-form-to-object-jquery/</link><pubDate>Sun, 15 Sep 2013 11:35:24 +0000</pubDate><guid>https://www.spidersoft.com.au/2013/serialize-form-to-object-jquery/</guid><description>&lt;p>It’s pretty easy to serialise form using jQuery –&lt;/p>
-&lt;pre tabindex="0">&lt;code>$(&amp;#39;#formid&amp;#39;).serialize();
-&lt;/code>&lt;/pre>&lt;p>or by&lt;/p>
-&lt;pre tabindex="0">&lt;code>$(&amp;#39;#formid&amp;#39;).serializeArray();
-&lt;/code>&lt;/pre>&lt;p>But neither of them it’s easy to modify. Really useful snippet – serialise form to object.&lt;/p></description></item></channel></rss>
+ &lt;a href="http://zeptojs.com"&gt;Zepto.js&lt;/a&gt;
+ and… we can use pure JavaScript which isn’t especially convenient in larger  projects. But definitely it’s much more but… it’s faster.&lt;/p&gt;</description></item><item><title>How to force jQuery version on WordPress</title><link>https://www.spidersoft.com.au/2013/how-to-force-jquery-version-on-wordpress/</link><pubDate>Fri, 20 Sep 2013 11:35:28 +0000</pubDate><guid>https://www.spidersoft.com.au/2013/how-to-force-jquery-version-on-wordpress/</guid><description>&lt;p&gt;Another really simple code snippet. This time, we are trying to force particular version of jQuery injecting into WordPress.&lt;/p&gt;</description></item><item><title>Serialize form to object – jQuery</title><link>https://www.spidersoft.com.au/2013/serialize-form-to-object-jquery/</link><pubDate>Sun, 15 Sep 2013 11:35:24 +0000</pubDate><guid>https://www.spidersoft.com.au/2013/serialize-form-to-object-jquery/</guid><description>&lt;p&gt;It’s pretty easy to serialise form using jQuery –&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;$(&amp;#39;#formid&amp;#39;).serialize();
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;or by&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;$(&amp;#39;#formid&amp;#39;).serializeArray();
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;But neither of them it’s easy to modify. Really useful snippet – serialise form to object.&lt;/p&gt;</description></item></channel></rss>

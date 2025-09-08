@@ -1,133 +1,133 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Javascript on SpiderSoft</title><link>https://www.spidersoft.com.au/tags/javascript/</link><description>Recent content in Javascript on SpiderSoft</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 14 Jan 2019 10:58:34 +0000</lastBuildDate><atom:link href="https://www.spidersoft.com.au/tags/javascript/index.xml" rel="self" type="application/rss+xml"/><item><title>HTML5 Video tag, and webm</title><link>https://www.spidersoft.com.au/2019/html5-video-tag-and-webm/</link><pubDate>Mon, 14 Jan 2019 10:58:34 +0000</pubDate><guid>https://www.spidersoft.com.au/2019/html5-video-tag-and-webm/</guid><description>&lt;p>In ancient times, when youtube was born, we didn’t have a VIDEO tag. We used to have Flash. To play video on the website, we had to convert it to weird Flash video format, leave mp4 for safety and hope that everything would work fine. Later on, when HTML5 became an industry standard, our lives became much easier.&lt;/p>
-&lt;p>In theory, VIDEO tag solves all our issues. When the browser can handle webm (Chrome family) we play webm. If we deal with other browsers – mp4 should work for us. So let’s test our theory.&lt;/p></description></item><item><title>Australian postcode to state conversion</title><link>https://www.spidersoft.com.au/2018/australian-postcode-to-state-conversion/</link><pubDate>Tue, 24 Jul 2018 10:59:44 +0000</pubDate><guid>https://www.spidersoft.com.au/2018/australian-postcode-to-state-conversion/</guid><description>&lt;p>I recently worked on a project with a super dull address form. I figured out that we need to help poor users fill tedious forms, so I made a little code snippet/function which gets the postcode and returns the state. I took postcode ranges from 
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Javascript on SpiderSoft</title><link>https://www.spidersoft.com.au/tags/javascript/</link><description>Recent content in Javascript on SpiderSoft</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 14 Jan 2019 10:58:34 +0000</lastBuildDate><atom:link href="https://www.spidersoft.com.au/tags/javascript/index.xml" rel="self" type="application/rss+xml"/><item><title>HTML5 Video tag, and webm</title><link>https://www.spidersoft.com.au/2019/html5-video-tag-and-webm/</link><pubDate>Mon, 14 Jan 2019 10:58:34 +0000</pubDate><guid>https://www.spidersoft.com.au/2019/html5-video-tag-and-webm/</guid><description>&lt;p&gt;In ancient times, when youtube was born, we didn’t have a VIDEO tag. We used to have Flash. To play video on the website, we had to convert it to weird Flash video format, leave mp4 for safety and hope that everything would work fine. Later on, when HTML5 became an industry standard, our lives became much easier.&lt;/p&gt;
+&lt;p&gt;In theory, VIDEO tag solves all our issues. When the browser can handle webm (Chrome family) we play webm. If we deal with other browsers – mp4 should work for us. So let’s test our theory.&lt;/p&gt;</description></item><item><title>Australian postcode to state conversion</title><link>https://www.spidersoft.com.au/2018/australian-postcode-to-state-conversion/</link><pubDate>Tue, 24 Jul 2018 10:59:44 +0000</pubDate><guid>https://www.spidersoft.com.au/2018/australian-postcode-to-state-conversion/</guid><description>&lt;p&gt;I recently worked on a project with a super dull address form. I figured out that we need to help poor users fill tedious forms, so I made a little code snippet/function which gets the postcode and returns the state. I took postcode ranges from 
  
  
  
  
- &lt;a href="https://en.wikipedia.org/wiki/Postcodes_in_Australia">wikipedia&lt;/a>
- , so blame them if something isn’t working as expected.&lt;/p></description></item><item><title>How to handle max_input_vars restriction.</title><link>https://www.spidersoft.com.au/2016/how-to-handle-max_input_vars-restriction/</link><pubDate>Fri, 22 Jan 2016 20:47:04 +0000</pubDate><guid>https://www.spidersoft.com.au/2016/how-to-handle-max_input_vars-restriction/</guid><description>&lt;p>From time to time we could breach  
+ &lt;a href="https://en.wikipedia.org/wiki/Postcodes_in_Australia"&gt;wikipedia&lt;/a&gt;
+ , so blame them if something isn’t working as expected.&lt;/p&gt;</description></item><item><title>How to handle max_input_vars restriction.</title><link>https://www.spidersoft.com.au/2016/how-to-handle-max_input_vars-restriction/</link><pubDate>Fri, 22 Jan 2016 20:47:04 +0000</pubDate><guid>https://www.spidersoft.com.au/2016/how-to-handle-max_input_vars-restriction/</guid><description>&lt;p&gt;From time to time we could breach  
  
  
  
  
- &lt;a href="http://php.net/manual/en/info.configuration.php#ini.max-input-vars">max_input_vars&lt;/a>
- restriction. Which basically limitation for server which allows only limited number of input server to reach out server. Usually this number is around 1000. In this short tutorial I will describe, how to easily avoid this problem.&lt;/p></description></item><item><title>What about angular alternatives</title><link>https://www.spidersoft.com.au/2015/what-about-angular-alternatives/</link><pubDate>Fri, 20 Mar 2015 05:56:58 +0000</pubDate><guid>https://www.spidersoft.com.au/2015/what-about-angular-alternatives/</guid><description>&lt;p>It’s my third post in “alternatives” series – this time i looked for something nicer then 
+ &lt;a href="http://php.net/manual/en/info.configuration.php#ini.max-input-vars"&gt;max_input_vars&lt;/a&gt;
+ restriction. Which basically limitation for server which allows only limited number of input server to reach out server. Usually this number is around 1000. In this short tutorial I will describe, how to easily avoid this problem.&lt;/p&gt;</description></item><item><title>What about angular alternatives</title><link>https://www.spidersoft.com.au/2015/what-about-angular-alternatives/</link><pubDate>Fri, 20 Mar 2015 05:56:58 +0000</pubDate><guid>https://www.spidersoft.com.au/2015/what-about-angular-alternatives/</guid><description>&lt;p&gt;It’s my third post in “alternatives” series – this time i looked for something nicer then 
  
  
  
  
- &lt;a href="https://angularjs.org">Angular&lt;/a>
- . Apparently Angular went the same path like all good and slim solutions. It’s getting slower and bigger. With this type of framework we have at least couple of options:&lt;/p></description></item><item><title>Riot.js – nice React alternative</title><link>https://www.spidersoft.com.au/2015/riot-js-nice-react-alternative/</link><pubDate>Fri, 06 Mar 2015 05:46:55 +0000</pubDate><guid>https://www.spidersoft.com.au/2015/riot-js-nice-react-alternative/</guid><description>&lt;p>Recently I’m looking for easier versions of popular libraries. There is a lot of buzz around Facebook 
+ &lt;a href="https://angularjs.org"&gt;Angular&lt;/a&gt;
+ . Apparently Angular went the same path like all good and slim solutions. It’s getting slower and bigger. With this type of framework we have at least couple of options:&lt;/p&gt;</description></item><item><title>Riot.js – nice React alternative</title><link>https://www.spidersoft.com.au/2015/riot-js-nice-react-alternative/</link><pubDate>Fri, 06 Mar 2015 05:46:55 +0000</pubDate><guid>https://www.spidersoft.com.au/2015/riot-js-nice-react-alternative/</guid><description>&lt;p&gt;Recently I’m looking for easier versions of popular libraries. There is a lot of buzz around Facebook 
  
  
  
  
- &lt;a href="http://facebook.github.io/react/">React.js&lt;/a>
+ &lt;a href="http://facebook.github.io/react/"&gt;React.js&lt;/a&gt;
  library, but i found it not especially user / developer friendly – at least at first glitch. Obviously some people says that it’s not so complicated, but… there is something super simple and super light – 
  
  
  
  
- &lt;a href="https://muut.com/riotjs/">Riot.js&lt;/a>
- .&lt;/p></description></item><item><title>interesting jQuery alternative – laroux.js</title><link>https://www.spidersoft.com.au/2015/interesting-jquery-alternative-laroux-js/</link><pubDate>Mon, 02 Mar 2015 05:45:54 +0000</pubDate><guid>https://www.spidersoft.com.au/2015/interesting-jquery-alternative-laroux-js/</guid><description>&lt;p>If we are talking about 
+ &lt;a href="https://muut.com/riotjs/"&gt;Riot.js&lt;/a&gt;
+ .&lt;/p&gt;</description></item><item><title>interesting jQuery alternative – laroux.js</title><link>https://www.spidersoft.com.au/2015/interesting-jquery-alternative-laroux-js/</link><pubDate>Mon, 02 Mar 2015 05:45:54 +0000</pubDate><guid>https://www.spidersoft.com.au/2015/interesting-jquery-alternative-laroux-js/</guid><description>&lt;p&gt;If we are talking about 
  
  
  
  
- &lt;a href="http://jquery.com">jQuery&lt;/a>
+ &lt;a href="http://jquery.com"&gt;jQuery&lt;/a&gt;
  alternatives there is not much on the market. With age jQuery put a little bit on weight, not mentioning it’s speed. If we are talking about weight and speed we have 
  
  
  
  
- &lt;a href="http://zeptojs.com">Zepto.js&lt;/a>
- and… we can use pure JavaScript which isn’t especially convenient in larger  projects. But definitely it’s much more but… it’s faster.&lt;/p></description></item><item><title>Web Dev libraries – week 21</title><link>https://www.spidersoft.com.au/2014/this-week-findings-in-webdev-21/</link><pubDate>Fri, 23 May 2014 00:48:31 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/this-week-findings-in-webdev-21/</guid><description>&lt;p>I’m consuming enormous amount of news each day. These is list of my findings from just only these week.&lt;/p>
-&lt;p> 
+ &lt;a href="http://zeptojs.com"&gt;Zepto.js&lt;/a&gt;
+ and… we can use pure JavaScript which isn’t especially convenient in larger  projects. But definitely it’s much more but… it’s faster.&lt;/p&gt;</description></item><item><title>Web Dev libraries – week 21</title><link>https://www.spidersoft.com.au/2014/this-week-findings-in-webdev-21/</link><pubDate>Fri, 23 May 2014 00:48:31 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/this-week-findings-in-webdev-21/</guid><description>&lt;p&gt;I’m consuming enormous amount of news each day. These is list of my findings from just only these week.&lt;/p&gt;
+&lt;p&gt; 
  
  
  
  
- &lt;a href="https://www.humblesoftware.com/envision">Envision.js&lt;/a>
- is a library for creating fast, dynamic and interactive HTML5 visualisations.&lt;/p>
-&lt;p> 
+ &lt;a href="https://www.humblesoftware.com/envision"&gt;Envision.js&lt;/a&gt;
+ is a library for creating fast, dynamic and interactive HTML5 visualisations.&lt;/p&gt;
+&lt;p&gt; 
  
  
  
  
- &lt;a href="https://github.com/goschevski/apy">Apy&lt;/a>
- is a simple client-side library for making rest api ajax calls.&lt;/p>
-&lt;p> 
+ &lt;a href="https://github.com/goschevski/apy"&gt;Apy&lt;/a&gt;
+ is a simple client-side library for making rest api ajax calls.&lt;/p&gt;
+&lt;p&gt; 
  
  
  
  
- &lt;a href="https://www.sitespeed.io/">Sitespeed.io&lt;/a>
- is an open source tool that helps you analyse your website &lt;em>speed&lt;/em> and &lt;em>performance&lt;/em> based on &lt;em>performance best practices&lt;/em> and &lt;em>metrics&lt;/em>. It collects data from multiple pages on your website, analyze the pages using the  
+ &lt;a href="https://www.sitespeed.io/"&gt;Sitespeed.io&lt;/a&gt;
+ is an open source tool that helps you analyse your website &lt;em&gt;speed&lt;/em&gt; and &lt;em&gt;performance&lt;/em&gt; based on &lt;em&gt;performance best practices&lt;/em&gt; and &lt;em&gt;metrics&lt;/em&gt;. It collects data from multiple pages on your website, analyze the pages using the  
  
  
  
  
- &lt;a href="https://www.sitespeed.io/rules/">rules&lt;/a>
-  and output the result as HTML or JUnit XML.&lt;/p></description></item><item><title>node.js run with root privileges on MacOS on start</title><link>https://www.spidersoft.com.au/2014/node-js-run-with-root-privileges-on-macos-on-start/</link><pubDate>Thu, 16 Jan 2014 08:37:58 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/node-js-run-with-root-privileges-on-macos-on-start/</guid><description>&lt;p>How long it’s quite easy to setup init.d services on linux boxes, same task on Max OS machines is pretty hard. Especially if you need to run it with root privileges.&lt;/p></description></item><item><title>Latest discoveries</title><link>https://www.spidersoft.com.au/2013/latest-discoveries/</link><pubDate>Tue, 15 Oct 2013 22:08:54 +0000</pubDate><guid>https://www.spidersoft.com.au/2013/latest-discoveries/</guid><description>&lt;h2 id="codeception">Codeception&lt;/h2>
-&lt;p>Modern PHP testing for everyone  
+ &lt;a href="https://www.sitespeed.io/rules/"&gt;rules&lt;/a&gt;
+  and output the result as HTML or JUnit XML.&lt;/p&gt;</description></item><item><title>node.js run with root privileges on MacOS on start</title><link>https://www.spidersoft.com.au/2014/node-js-run-with-root-privileges-on-macos-on-start/</link><pubDate>Thu, 16 Jan 2014 08:37:58 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/node-js-run-with-root-privileges-on-macos-on-start/</guid><description>&lt;p&gt;How long it’s quite easy to setup init.d services on linux boxes, same task on Max OS machines is pretty hard. Especially if you need to run it with root privileges.&lt;/p&gt;</description></item><item><title>Latest discoveries</title><link>https://www.spidersoft.com.au/2013/latest-discoveries/</link><pubDate>Tue, 15 Oct 2013 22:08:54 +0000</pubDate><guid>https://www.spidersoft.com.au/2013/latest-discoveries/</guid><description>&lt;h2 id="codeception"&gt;Codeception&lt;/h2&gt;
+&lt;p&gt;Modern PHP testing for everyone  
  
  
  
  
- &lt;a href="http://codeception.com/">codeception.com&lt;/a>
- &lt;/p>
-&lt;h2 id="fileapi">FileAPI&lt;/h2>
-&lt;p>FileAPI — a set of javascript tools for working with files. Multiupload, drag’n’drop and chunked file upload. Images: crop, resize and auto orientation by EXIF  
+ &lt;a href="http://codeception.com/"&gt;codeception.com&lt;/a&gt;
+ &lt;/p&gt;
+&lt;h2 id="fileapi"&gt;FileAPI&lt;/h2&gt;
+&lt;p&gt;FileAPI — a set of javascript tools for working with files. Multiupload, drag’n’drop and chunked file upload. Images: crop, resize and auto orientation by EXIF  
  
  
  
  
- &lt;a href="https://github.com/mailru/FileAPI">github.com/mailru/FileAPI&lt;/a>
- &lt;/p>
-&lt;h2 id="rainloop">RainLoop&lt;/h2>
-&lt;p>FREE, MODERN &amp;amp; FAST WEB-BASED EMAIL CLIENT  
+ &lt;a href="https://github.com/mailru/FileAPI"&gt;github.com/mailru/FileAPI&lt;/a&gt;
+ &lt;/p&gt;
+&lt;h2 id="rainloop"&gt;RainLoop&lt;/h2&gt;
+&lt;p&gt;FREE, MODERN &amp;amp; FAST WEB-BASED EMAIL CLIENT  
  
  
  
  
- &lt;a href="http://rainloop.net/">rainloop.net&lt;/a>
- &lt;/p>
-&lt;h2 id="animated-checkboxes">ANIMATED CHECKBOXES&lt;/h2>
-&lt;p>ANIMATED CHECKBOXES AND RADIO BUTTONS WITH SVG 
+ &lt;a href="http://rainloop.net/"&gt;rainloop.net&lt;/a&gt;
+ &lt;/p&gt;
+&lt;h2 id="animated-checkboxes"&gt;ANIMATED CHECKBOXES&lt;/h2&gt;
+&lt;p&gt;ANIMATED CHECKBOXES AND RADIO BUTTONS WITH SVG 
  
  
  
  
- &lt;a href="http://tympanus.net/codrops/2013/10/15/animated-checkboxes-and-radio-buttons-with-svg/">tympanus.net&lt;/a>
- &lt;/p>
-&lt;h2 id="odometer">Odometer&lt;/h2>
-&lt;p>TRANSITION NUMBERS WITH EASE   
+ &lt;a href="http://tympanus.net/codrops/2013/10/15/animated-checkboxes-and-radio-buttons-with-svg/"&gt;tympanus.net&lt;/a&gt;
+ &lt;/p&gt;
+&lt;h2 id="odometer"&gt;Odometer&lt;/h2&gt;
+&lt;p&gt;TRANSITION NUMBERS WITH EASE   
  
  
  
  
- &lt;a href="http://github.hubspot.com/odometer/docs/welcome/">github.hubspot.com/odometer/docs/welcome/&lt;/a>
- &lt;/p></description></item><item><title>Serialize form to object – jQuery</title><link>https://www.spidersoft.com.au/2013/serialize-form-to-object-jquery/</link><pubDate>Sun, 15 Sep 2013 11:35:24 +0000</pubDate><guid>https://www.spidersoft.com.au/2013/serialize-form-to-object-jquery/</guid><description>&lt;p>It’s pretty easy to serialise form using jQuery –&lt;/p>
-&lt;pre tabindex="0">&lt;code>$(&amp;#39;#formid&amp;#39;).serialize();
-&lt;/code>&lt;/pre>&lt;p>or by&lt;/p>
-&lt;pre tabindex="0">&lt;code>$(&amp;#39;#formid&amp;#39;).serializeArray();
-&lt;/code>&lt;/pre>&lt;p>But neither of them it’s easy to modify. Really useful snippet – serialise form to object.&lt;/p></description></item><item><title>AngularJS awesome JavaScript framework</title><link>https://www.spidersoft.com.au/2012/angularjs-awesome-javascript-framework/</link><pubDate>Sun, 08 Jul 2012 11:27:19 +0000</pubDate><guid>https://www.spidersoft.com.au/2012/angularjs-awesome-javascript-framework/</guid><description>&lt;p>I was looking for easy and nice solution to maintain my growing JavaScript. I tried Backbone.js which is my opinion a little bit “to” complicated. Of course – you can do everything, but.. it was to much hassle with coding in details. Second approach was to KnockoutJS – this one is really nice but from the other hand – I didn’t have much on control on my code and details, but everything was really nice and sleek. So… Quite similar like with choosing PHP Framework. I wanted something which will do some job for me, but I also wanted to have control on everything. That’s why I chose CodeIgniter which was perfect for me. But… with JavaScript – Finally i funded: 
+ &lt;a href="http://github.hubspot.com/odometer/docs/welcome/"&gt;github.hubspot.com/odometer/docs/welcome/&lt;/a&gt;
+ &lt;/p&gt;</description></item><item><title>Serialize form to object – jQuery</title><link>https://www.spidersoft.com.au/2013/serialize-form-to-object-jquery/</link><pubDate>Sun, 15 Sep 2013 11:35:24 +0000</pubDate><guid>https://www.spidersoft.com.au/2013/serialize-form-to-object-jquery/</guid><description>&lt;p&gt;It’s pretty easy to serialise form using jQuery –&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;$(&amp;#39;#formid&amp;#39;).serialize();
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;or by&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;$(&amp;#39;#formid&amp;#39;).serializeArray();
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;But neither of them it’s easy to modify. Really useful snippet – serialise form to object.&lt;/p&gt;</description></item><item><title>AngularJS awesome JavaScript framework</title><link>https://www.spidersoft.com.au/2012/angularjs-awesome-javascript-framework/</link><pubDate>Sun, 08 Jul 2012 11:27:19 +0000</pubDate><guid>https://www.spidersoft.com.au/2012/angularjs-awesome-javascript-framework/</guid><description>&lt;p&gt;I was looking for easy and nice solution to maintain my growing JavaScript. I tried Backbone.js which is my opinion a little bit “to” complicated. Of course – you can do everything, but.. it was to much hassle with coding in details. Second approach was to KnockoutJS – this one is really nice but from the other hand – I didn’t have much on control on my code and details, but everything was really nice and sleek. So… Quite similar like with choosing PHP Framework. I wanted something which will do some job for me, but I also wanted to have control on everything. That’s why I chose CodeIgniter which was perfect for me. But… with JavaScript – Finally i funded: 
  
  
  
  
- &lt;a href="http://angularjs.org/">AngularJS&lt;/a>
- . Made by Google engineers – but super nice and sleek.&lt;/p></description></item><item><title>iBrowser and TinyMCE</title><link>https://www.spidersoft.com.au/2012/ibrowser-and-tinymce/</link><pubDate>Sat, 11 Feb 2012 12:18:17 +0000</pubDate><guid>https://www.spidersoft.com.au/2012/ibrowser-and-tinymce/</guid><description>&lt;p>You can find plenty of tutorials how to setup tinyMCE and iBrowser, but non of them mention about common problems, like “error building image list!”, or how to bind regular image browser to iBrowser. Here you can find full instructions.&lt;/p></description></item><item><title>Desktop Closure Compiler beta release</title><link>https://www.spidersoft.com.au/2011/desktop-closure-compiler-beta-release/</link><pubDate>Thu, 20 Jan 2011 03:16:24 +0000</pubDate><guid>https://www.spidersoft.com.au/2011/desktop-closure-compiler-beta-release/</guid><description>&lt;p>The 
+ &lt;a href="http://angularjs.org/"&gt;AngularJS&lt;/a&gt;
+ . Made by Google engineers – but super nice and sleek.&lt;/p&gt;</description></item><item><title>iBrowser and TinyMCE</title><link>https://www.spidersoft.com.au/2012/ibrowser-and-tinymce/</link><pubDate>Sat, 11 Feb 2012 12:18:17 +0000</pubDate><guid>https://www.spidersoft.com.au/2012/ibrowser-and-tinymce/</guid><description>&lt;p&gt;You can find plenty of tutorials how to setup tinyMCE and iBrowser, but non of them mention about common problems, like “error building image list!”, or how to bind regular image browser to iBrowser. Here you can find full instructions.&lt;/p&gt;</description></item><item><title>Desktop Closure Compiler beta release</title><link>https://www.spidersoft.com.au/2011/desktop-closure-compiler-beta-release/</link><pubDate>Thu, 20 Jan 2011 03:16:24 +0000</pubDate><guid>https://www.spidersoft.com.au/2011/desktop-closure-compiler-beta-release/</guid><description>&lt;p&gt;The 
  
  
  
  
- &lt;a href="http://code.google.com/closure/compiler/">Closure Compiler&lt;/a>
- is a tool for making JavaScript download and run faster. It is a true compiler for JavaScript. Instead of compiling from a source language to machine code, it compiles from JavaScript to better JavaScript. It parses your JavaScript, analyzes it, removes dead code and rewrites and minimizes what’s left. It also checks syntax, variable references, and types, and warns about common JavaScript pitfalls.&lt;/p>
-&lt;p>Google provides  
+ &lt;a href="http://code.google.com/closure/compiler/"&gt;Closure Compiler&lt;/a&gt;
+ is a tool for making JavaScript download and run faster. It is a true compiler for JavaScript. Instead of compiling from a source language to machine code, it compiles from JavaScript to better JavaScript. It parses your JavaScript, analyzes it, removes dead code and rewrites and minimizes what’s left. It also checks syntax, variable references, and types, and warns about common JavaScript pitfalls.&lt;/p&gt;
+&lt;p&gt;Google provides  
  
  
  
  
- &lt;a href="http://closure-compiler.appspot.com/home">Closure Compiler Service&lt;/a>
- which is web application to compile JavaScript, you can also use Java application or REST API. For your convenience we created simple app to use Closure Compiler on your desktop.&lt;/p></description></item></channel></rss>
+ &lt;a href="http://closure-compiler.appspot.com/home"&gt;Closure Compiler Service&lt;/a&gt;
+ which is web application to compile JavaScript, you can also use Java application or REST API. For your convenience we created simple app to use Closure Compiler on your desktop.&lt;/p&gt;</description></item></channel></rss>

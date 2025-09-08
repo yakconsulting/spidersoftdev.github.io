@@ -1,14 +1,14 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Fo on SpiderSoft</title><link>https://www.spidersoft.com.au/tags/fo/</link><description>Recent content in Fo on SpiderSoft</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 01 Sep 2014 04:48:36 +0000</lastBuildDate><atom:link href="https://www.spidersoft.com.au/tags/fo/index.xml" rel="self" type="application/rss+xml"/><item><title>MongoDB vs MySQL using golang</title><link>https://www.spidersoft.com.au/2014/mongodb-vs-mysql-using-golang/</link><pubDate>Mon, 01 Sep 2014 04:48:36 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/mongodb-vs-mysql-using-golang/</guid><description>&lt;p>I’m the guy who like to test. Benchmark is my… middle name. You can find dozens articles about speed one or other solution. I mean 
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Fo on SpiderSoft</title><link>https://www.spidersoft.com.au/tags/fo/</link><description>Recent content in Fo on SpiderSoft</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 01 Sep 2014 04:48:36 +0000</lastBuildDate><atom:link href="https://www.spidersoft.com.au/tags/fo/index.xml" rel="self" type="application/rss+xml"/><item><title>MongoDB vs MySQL using golang</title><link>https://www.spidersoft.com.au/2014/mongodb-vs-mysql-using-golang/</link><pubDate>Mon, 01 Sep 2014 04:48:36 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/mongodb-vs-mysql-using-golang/</guid><description>&lt;p&gt;I’m the guy who like to test. Benchmark is my… middle name. You can find dozens articles about speed one or other solution. I mean 
  
  
  
  
- &lt;a href="http://www.mongodb.org/">MongoDB&lt;/a>
+ &lt;a href="http://www.mongodb.org/"&gt;MongoDB&lt;/a&gt;
  and 
  
  
  
  
- &lt;a href="http://www.mysql.com/">MySQL&lt;/a>
- . I tried MongoDB couple times, and each time I wasn’t  moved by it speed. Got project coming in, when I have to deal with large amount of concurrent connection. It’s not very big, but bigger then casual MySQL load.&lt;/p>
-&lt;p>So… how did I test – very dump way. Got 2 tables, one around 11k records, second one close to 200k record. Not much. Fields were indexed in both MySQL and MongoDB. And then i run benchmarks. First one had string fields, second one numeric.&lt;/p></description></item></channel></rss>
+ &lt;a href="http://www.mysql.com/"&gt;MySQL&lt;/a&gt;
+ . I tried MongoDB couple times, and each time I wasn’t  moved by it speed. Got project coming in, when I have to deal with large amount of concurrent connection. It’s not very big, but bigger then casual MySQL load.&lt;/p&gt;
+&lt;p&gt;So… how did I test – very dump way. Got 2 tables, one around 11k records, second one close to 200k record. Not much. Fields were indexed in both MySQL and MongoDB. And then i run benchmarks. First one had string fields, second one numeric.&lt;/p&gt;</description></item></channel></rss>

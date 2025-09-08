@@ -1,64 +1,64 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cloud on SpiderSoft</title><link>https://www.spidersoft.com.au/tags/cloud/</link><description>Recent content in Cloud on SpiderSoft</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 18 Jan 2017 10:46:01 +0000</lastBuildDate><atom:link href="https://www.spidersoft.com.au/tags/cloud/index.xml" rel="self" type="application/rss+xml"/><item><title>When you are running out of space on your server</title><link>https://www.spidersoft.com.au/2017/when-you-are-running-out-of-space-on-your-server/</link><pubDate>Wed, 18 Jan 2017 10:46:01 +0000</pubDate><guid>https://www.spidersoft.com.au/2017/when-you-are-running-out-of-space-on-your-server/</guid><description>&lt;p>…in most cases you have 2 options. Because we are living in Cloud and VPS era – it’s not a big deal. You can always bump up your volume and after while you can enjoy bigger more expensive instance with more space. But sometimes you need just a space for a while or… just something for a backup ? You can always use 
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cloud on SpiderSoft</title><link>https://www.spidersoft.com.au/tags/cloud/</link><description>Recent content in Cloud on SpiderSoft</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 18 Jan 2017 10:46:01 +0000</lastBuildDate><atom:link href="https://www.spidersoft.com.au/tags/cloud/index.xml" rel="self" type="application/rss+xml"/><item><title>When you are running out of space on your server</title><link>https://www.spidersoft.com.au/2017/when-you-are-running-out-of-space-on-your-server/</link><pubDate>Wed, 18 Jan 2017 10:46:01 +0000</pubDate><guid>https://www.spidersoft.com.au/2017/when-you-are-running-out-of-space-on-your-server/</guid><description>&lt;p&gt;…in most cases you have 2 options. Because we are living in Cloud and VPS era – it’s not a big deal. You can always bump up your volume and after while you can enjoy bigger more expensive instance with more space. But sometimes you need just a space for a while or… just something for a backup ? You can always use 
  
  
  
  
- &lt;a href="http://s3tools.org/s3cmd">s3cmd&lt;/a>
+ &lt;a href="http://s3tools.org/s3cmd"&gt;s3cmd&lt;/a&gt;
  , 
  
  
  
  
- &lt;a href="https://cloud.google.com/storage/docs/gsutil">gsutil&lt;/a>
+ &lt;a href="https://cloud.google.com/storage/docs/gsutil"&gt;gsutil&lt;/a&gt;
  or another tool. Imagine that you have just regular folder on your drive, with almost unlimited space. Sounds good ? If so checkout –  
  
  
  
  
- &lt;a href="https://github.com/s3fs-fuse/s3fs-fuse">s3fs-fuse&lt;/a>
- . Nice tool, which allows you to bind external storage as a director in your system.&lt;/p></description></item><item><title>Free virtual machines with Internet Explorer</title><link>https://www.spidersoft.com.au/2013/free-virtual-machines-with-internet-explorer/</link><pubDate>Thu, 28 Nov 2013 05:22:57 +0000</pubDate><guid>https://www.spidersoft.com.au/2013/free-virtual-machines-with-internet-explorer/</guid><description>&lt;p> 
+ &lt;a href="https://github.com/s3fs-fuse/s3fs-fuse"&gt;s3fs-fuse&lt;/a&gt;
+ . Nice tool, which allows you to bind external storage as a director in your system.&lt;/p&gt;</description></item><item><title>Free virtual machines with Internet Explorer</title><link>https://www.spidersoft.com.au/2013/free-virtual-machines-with-internet-explorer/</link><pubDate>Thu, 28 Nov 2013 05:22:57 +0000</pubDate><guid>https://www.spidersoft.com.au/2013/free-virtual-machines-with-internet-explorer/</guid><description>&lt;p&gt; 
  
  
  
  
- &lt;a href="http://www.browserstack.com/">BrowserStack&lt;/a>
- is well known service which provides awesome tools to test your website against different browsers and operating systems. It’s very handy when it comes to professional QA testing.&lt;/p>
-&lt;p>Not everyone knows, that from that place  you can also download virtual machines for free. On this page 
+ &lt;a href="http://www.browserstack.com/"&gt;BrowserStack&lt;/a&gt;
+ is well known service which provides awesome tools to test your website against different browsers and operating systems. It’s very handy when it comes to professional QA testing.&lt;/p&gt;
+&lt;p&gt;Not everyone knows, that from that place  you can also download virtual machines for free. On this page 
  
  
  
  
- &lt;a href="http://www.modern.ie/en-us/virtualization-tools#downloads">Virtual Machine&lt;/a>
-  you can pull multiple VM images with IE8 / IE 9 and different versions of windows.&lt;/p>
-&lt;p> &lt;/p></description></item><item><title>Why AWS is better than Rackspace</title><link>https://www.spidersoft.com.au/2013/why-aws-is-better-than-rackspace/</link><pubDate>Fri, 27 Sep 2013 23:28:00 +0000</pubDate><guid>https://www.spidersoft.com.au/2013/why-aws-is-better-than-rackspace/</guid><description>&lt;p>I’m huge fan of 
+ &lt;a href="http://www.modern.ie/en-us/virtualization-tools#downloads"&gt;Virtual Machine&lt;/a&gt;
+  you can pull multiple VM images with IE8 / IE 9 and different versions of windows.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;</description></item><item><title>Why AWS is better than Rackspace</title><link>https://www.spidersoft.com.au/2013/why-aws-is-better-than-rackspace/</link><pubDate>Fri, 27 Sep 2013 23:28:00 +0000</pubDate><guid>https://www.spidersoft.com.au/2013/why-aws-is-better-than-rackspace/</guid><description>&lt;p&gt;I’m huge fan of 
  
  
  
  
- &lt;a href="http://aws.amazon.com">AWS&lt;/a>
+ &lt;a href="http://aws.amazon.com"&gt;AWS&lt;/a&gt;
  services. It just works – don’t need any kind of support, prices are really good. No issues whatsoever. But – of course my nature ask me to check out other options. For example 
  
  
  
  
- &lt;a href="http://www.rackspace.com.au/">Rackspace&lt;/a>
- . So I registered account, filled out my business and credit details. Just to give a small background – got registered business since 2011 in Australia. I filled out my CC details, phone number and so on. Pretty standard process. I logged in, and start playing with their interface (pretty slow, but I shouldn’t complain yet). The best is about to come…&lt;/p></description></item><item><title>Why I don’t recommend mailgun…</title><link>https://www.spidersoft.com.au/2013/why-i-dont-recommend-mailgun/</link><pubDate>Mon, 23 Sep 2013 23:26:49 +0000</pubDate><guid>https://www.spidersoft.com.au/2013/why-i-dont-recommend-mailgun/</guid><description>&lt;p>Couple months ago I listed  services having  
+ &lt;a href="http://www.rackspace.com.au/"&gt;Rackspace&lt;/a&gt;
+ . So I registered account, filled out my business and credit details. Just to give a small background – got registered business since 2011 in Australia. I filled out my CC details, phone number and so on. Pretty standard process. I logged in, and start playing with their interface (pretty slow, but I shouldn’t complain yet). The best is about to come…&lt;/p&gt;</description></item><item><title>Why I don’t recommend mailgun…</title><link>https://www.spidersoft.com.au/2013/why-i-dont-recommend-mailgun/</link><pubDate>Mon, 23 Sep 2013 23:26:49 +0000</pubDate><guid>https://www.spidersoft.com.au/2013/why-i-dont-recommend-mailgun/</guid><description>&lt;p&gt;Couple months ago I listed  services having  
  
  
- &lt;a href="https://www.spidersoft.com.au/2013/send-and-receive-emails-via-api/" title="Send and receive emails via API" target="_blank" rel="noopener">API for sending and receiving emails&lt;/a>
+ &lt;a href="https://www.spidersoft.com.au/2013/send-and-receive-emails-via-api/" title="Send and receive emails via API" target="_blank" rel="noopener"&gt;API for sending and receiving emails&lt;/a&gt;
  . One of them was 
  
  
  
  
- &lt;a href="http://www.mailgun.com/">mailgun&lt;/a>
- – I was using it for a while since… yesterday. My account was locked without any valid reason. Something related with SPAM:&lt;/p>
-&lt;blockquote>
-&lt;p> 
+ &lt;a href="http://www.mailgun.com/"&gt;mailgun&lt;/a&gt;
+ – I was using it for a while since… yesterday. My account was locked without any valid reason. Something related with SPAM:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt; 
  
  
  
  
- &lt;a href="http://documentation.mailgun.com/razor.html">http://documentation.mailgun.com/razor.html&lt;/a>
-  Reference: #rzr01.&lt;/p>&lt;/blockquote>
-&lt;p>Because I know exactly what emails are being sent using my accounts (I keep track of each email coming out from the system) I was really interested how it could happen. Who reported message as a SPAM, and which one was that.&lt;/p></description></item></channel></rss>
+ &lt;a href="http://documentation.mailgun.com/razor.html"&gt;http://documentation.mailgun.com/razor.html&lt;/a&gt;
+  Reference: #rzr01.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;Because I know exactly what emails are being sent using my accounts (I keep track of each email coming out from the system) I was really interested how it could happen. Who reported message as a SPAM, and which one was that.&lt;/p&gt;</description></item></channel></rss>

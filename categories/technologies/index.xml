@@ -1,176 +1,176 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Technologies on SpiderSoft</title><link>https://www.spidersoft.com.au/categories/technologies/</link><description>Recent content in Technologies on SpiderSoft</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 30 Oct 2024 08:30:00 +0000</lastBuildDate><atom:link href="https://www.spidersoft.com.au/categories/technologies/index.xml" rel="self" type="application/rss+xml"/><item><title>How to Configure S3 Access for AWS App Runner A Complete IAM and VPC Setup Guide</title><link>https://www.spidersoft.com.au/2024/app-runner-s3-access/</link><pubDate>Wed, 30 Oct 2024 08:30:00 +0000</pubDate><guid>https://www.spidersoft.com.au/2024/app-runner-s3-access/</guid><description>&lt;h2 id="introduction">Introduction&lt;/h2>
-&lt;p>When deploying applications on AWS App Runner, you may need to access S3 buckets to store or retrieve data. However, by default, App Runner services don&amp;rsquo;t have permission to interact with S3. This guide aims to solve that problem by walking you through the process of granting your App Runner service secure access to S3 buckets.&lt;/p>
-&lt;p>We&amp;rsquo;ll achieve this by:&lt;/p>
-&lt;ol>
-&lt;li>Creating an IAM role with the necessary S3 permissions&lt;/li>
-&lt;li>Configuring your App Runner service to use this role&lt;/li>
-&lt;li>Setting up networking components (if using a VPC) to ensure connectivity&lt;/li>
-&lt;/ol>
-&lt;p>By following these steps, you&amp;rsquo;ll enable your App Runner service to securely read from and write to S3 buckets, allowing for seamless integration of S3 storage in your application.&lt;/p></description></item><item><title>How to Restore Files from Glacier on Amazon S3 Storage using Bash Script</title><link>https://www.spidersoft.com.au/2023/how-to-restore-objects-from-glacier-with-a-script/</link><pubDate>Fri, 31 Mar 2023 08:00:00 +0000</pubDate><guid>https://www.spidersoft.com.au/2023/how-to-restore-objects-from-glacier-with-a-script/</guid><description>&lt;p>Amazon S3 storage is a popular cloud storage service that provides scalable object storage for data backup, archive, and disaster recovery. One of the storage options available on Amazon S3 is Amazon Glacier, which provides a low-cost, long-term storage solution for data archiving and backup. However, retrieving data from Amazon Glacier can be time-consuming and expensive. In this tutorial, we&amp;rsquo;ll show you how to restore files from Glacier on Amazon S3 storage using a Bash script.&lt;/p></description></item><item><title>How to scrape page source with Go and chromedp</title><link>https://www.spidersoft.com.au/2023/scraping-pages-with-go-and-chromedp/</link><pubDate>Mon, 13 Feb 2023 08:00:00 +0000</pubDate><guid>https://www.spidersoft.com.au/2023/scraping-pages-with-go-and-chromedp/</guid><description>&lt;p>It&amp;rsquo;s clear what we are trying to achieve, so let&amp;rsquo;s consider the requirements. Firstly, we need a tool to render web pages since JavaScript is commonly used nowadays. Secondly, we require an API to communicate with the headless browser. Lastly, saving the result can be challenging as browsers are designed to interact with rendered results rather than directly with the source code.&lt;/p>
-&lt;h2 id="headless-browser">Headless browser&lt;/h2>
-&lt;p>So we are looking for a headless browser. We are going to use 
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Technologies on SpiderSoft</title><link>https://www.spidersoft.com.au/categories/technologies/</link><description>Recent content in Technologies on SpiderSoft</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 30 Oct 2024 08:30:00 +0000</lastBuildDate><atom:link href="https://www.spidersoft.com.au/categories/technologies/index.xml" rel="self" type="application/rss+xml"/><item><title>How to Configure S3 Access for AWS App Runner A Complete IAM and VPC Setup Guide</title><link>https://www.spidersoft.com.au/2024/app-runner-s3-access/</link><pubDate>Wed, 30 Oct 2024 08:30:00 +0000</pubDate><guid>https://www.spidersoft.com.au/2024/app-runner-s3-access/</guid><description>&lt;h2 id="introduction"&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;When deploying applications on AWS App Runner, you may need to access S3 buckets to store or retrieve data. However, by default, App Runner services don&amp;rsquo;t have permission to interact with S3. This guide aims to solve that problem by walking you through the process of granting your App Runner service secure access to S3 buckets.&lt;/p&gt;
+&lt;p&gt;We&amp;rsquo;ll achieve this by:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Creating an IAM role with the necessary S3 permissions&lt;/li&gt;
+&lt;li&gt;Configuring your App Runner service to use this role&lt;/li&gt;
+&lt;li&gt;Setting up networking components (if using a VPC) to ensure connectivity&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;By following these steps, you&amp;rsquo;ll enable your App Runner service to securely read from and write to S3 buckets, allowing for seamless integration of S3 storage in your application.&lt;/p&gt;</description></item><item><title>How to Restore Files from Glacier on Amazon S3 Storage using Bash Script</title><link>https://www.spidersoft.com.au/2023/how-to-restore-objects-from-glacier-with-a-script/</link><pubDate>Fri, 31 Mar 2023 08:00:00 +0000</pubDate><guid>https://www.spidersoft.com.au/2023/how-to-restore-objects-from-glacier-with-a-script/</guid><description>&lt;p&gt;Amazon S3 storage is a popular cloud storage service that provides scalable object storage for data backup, archive, and disaster recovery. One of the storage options available on Amazon S3 is Amazon Glacier, which provides a low-cost, long-term storage solution for data archiving and backup. However, retrieving data from Amazon Glacier can be time-consuming and expensive. In this tutorial, we&amp;rsquo;ll show you how to restore files from Glacier on Amazon S3 storage using a Bash script.&lt;/p&gt;</description></item><item><title>How to scrape page source with Go and chromedp</title><link>https://www.spidersoft.com.au/2023/scraping-pages-with-go-and-chromedp/</link><pubDate>Mon, 13 Feb 2023 08:00:00 +0000</pubDate><guid>https://www.spidersoft.com.au/2023/scraping-pages-with-go-and-chromedp/</guid><description>&lt;p&gt;It&amp;rsquo;s clear what we are trying to achieve, so let&amp;rsquo;s consider the requirements. Firstly, we need a tool to render web pages since JavaScript is commonly used nowadays. Secondly, we require an API to communicate with the headless browser. Lastly, saving the result can be challenging as browsers are designed to interact with rendered results rather than directly with the source code.&lt;/p&gt;
+&lt;h2 id="headless-browser"&gt;Headless browser&lt;/h2&gt;
+&lt;p&gt;So we are looking for a headless browser. We are going to use 
  
  
  
  
- &lt;a href="https://github.com/chromedp/docker-headless-shell">Chrome’s headless-shell&lt;/a>
+ &lt;a href="https://github.com/chromedp/docker-headless-shell"&gt;Chrome’s headless-shell&lt;/a&gt;
  because it&amp;rsquo;s easy to use, and it&amp;rsquo;s based on 
  
  
  
  
- &lt;a href="https://www.chromium.org/Home">Chromium&lt;/a>
- . The most significant advantage is docker image, which we can efficiently run on our local machine or anywhere in the cloud.&lt;/p></description></item><item><title>How to test golang written lambda function locally</title><link>https://www.spidersoft.com.au/2022/how-to-test-lambda-function-locally/</link><pubDate>Mon, 07 Nov 2022 08:00:00 +0000</pubDate><guid>https://www.spidersoft.com.au/2022/how-to-test-lambda-function-locally/</guid><description>&lt;p>For a while I was looking for an easy we to test my lambda functions written in golang locally. We have awesome tools like 
+ &lt;a href="https://www.chromium.org/Home"&gt;Chromium&lt;/a&gt;
+ . The most significant advantage is docker image, which we can efficiently run on our local machine or anywhere in the cloud.&lt;/p&gt;</description></item><item><title>How to test golang written lambda function locally</title><link>https://www.spidersoft.com.au/2022/how-to-test-lambda-function-locally/</link><pubDate>Mon, 07 Nov 2022 08:00:00 +0000</pubDate><guid>https://www.spidersoft.com.au/2022/how-to-test-lambda-function-locally/</guid><description>&lt;p&gt;For a while I was looking for an easy we to test my lambda functions written in golang locally. We have awesome tools like 
  
  
  
  
- &lt;a href="https://localstack.cloud/">LocalStack&lt;/a>
+ &lt;a href="https://localstack.cloud/"&gt;LocalStack&lt;/a&gt;
  but this is not what I was looking for. I wanted to test my lambda function locally, without any dependencies. Something lighter without 
  
  
  
  
- &lt;a href="https://www.docker.com/">Docker&lt;/a>
- . I will show you how to do that.&lt;/p></description></item><item><title>How to host static website on AWS CloudFront</title><link>https://www.spidersoft.com.au/2022/how-to-host-static-website-on-aws-cloudfront/</link><pubDate>Fri, 04 Nov 2022 08:00:00 +0000</pubDate><guid>https://www.spidersoft.com.au/2022/how-to-host-static-website-on-aws-cloudfront/</guid><description>&lt;p>I was looking for a way to host a static website on AWS. I found a couple of ways to do that. I decided to use CloudFront as a CDN and S3 as an origin. I will show you how to do that.&lt;/p></description></item><item><title>Golang and DynamoDB</title><link>https://www.spidersoft.com.au/2022/how-to-populate-dynamodb-with-golang/</link><pubDate>Thu, 03 Nov 2022 08:30:00 +0000</pubDate><guid>https://www.spidersoft.com.au/2022/how-to-populate-dynamodb-with-golang/</guid><description>&lt;p>I have been avoiding 
+ &lt;a href="https://www.docker.com/"&gt;Docker&lt;/a&gt;
+ . I will show you how to do that.&lt;/p&gt;</description></item><item><title>How to host static website on AWS CloudFront</title><link>https://www.spidersoft.com.au/2022/how-to-host-static-website-on-aws-cloudfront/</link><pubDate>Fri, 04 Nov 2022 08:00:00 +0000</pubDate><guid>https://www.spidersoft.com.au/2022/how-to-host-static-website-on-aws-cloudfront/</guid><description>&lt;p&gt;I was looking for a way to host a static website on AWS. I found a couple of ways to do that. I decided to use CloudFront as a CDN and S3 as an origin. I will show you how to do that.&lt;/p&gt;</description></item><item><title>Golang and DynamoDB</title><link>https://www.spidersoft.com.au/2022/how-to-populate-dynamodb-with-golang/</link><pubDate>Thu, 03 Nov 2022 08:30:00 +0000</pubDate><guid>https://www.spidersoft.com.au/2022/how-to-populate-dynamodb-with-golang/</guid><description>&lt;p&gt;I have been avoiding 
  
  
  
  
- &lt;a href="https://aws.amazon.com/dynamodb/">Amazon DynamoDB&lt;/a>
+ &lt;a href="https://aws.amazon.com/dynamodb/"&gt;Amazon DynamoDB&lt;/a&gt;
  for a long time. Each time I tried to use it, either with PHP or GoLang always gave up very quickly.
-A while ago, I built up a solution storing a lot of JSON files on S3 buckets, and the costs of this solution (number of GET requests) started to escalate very quickly. I decided to try to migrate data to DynamoDB, and this time I was successful. I will try to explain how I did it and what I learned along the way.&lt;/p></description></item><item><title>How to test mod_rewrite in Apache</title><link>https://www.spidersoft.com.au/2022/how-to-test-mod-htaccess-mod-rewrite/</link><pubDate>Sun, 23 Oct 2022 08:30:00 +0000</pubDate><guid>https://www.spidersoft.com.au/2022/how-to-test-mod-htaccess-mod-rewrite/</guid><description>&lt;p>Documentation for 
+A while ago, I built up a solution storing a lot of JSON files on S3 buckets, and the costs of this solution (number of GET requests) started to escalate very quickly. I decided to try to migrate data to DynamoDB, and this time I was successful. I will try to explain how I did it and what I learned along the way.&lt;/p&gt;</description></item><item><title>How to test mod_rewrite in Apache</title><link>https://www.spidersoft.com.au/2022/how-to-test-mod-htaccess-mod-rewrite/</link><pubDate>Sun, 23 Oct 2022 08:30:00 +0000</pubDate><guid>https://www.spidersoft.com.au/2022/how-to-test-mod-htaccess-mod-rewrite/</guid><description>&lt;p&gt;Documentation for 
  
  
  
  
- &lt;a href="https://httpd.apache.org/docs/current/mod/mod_rewrite.html">mod_rewrite&lt;/a>
- is pretty good, but it is not always easy to test your rules. This is a simple way to test your rules. I found this tool very useful when I was working on a project that required a lot of htaccess rules.&lt;/p>
-&lt;p> 
+ &lt;a href="https://httpd.apache.org/docs/current/mod/mod_rewrite.html"&gt;mod_rewrite&lt;/a&gt;
+ is pretty good, but it is not always easy to test your rules. This is a simple way to test your rules. I found this tool very useful when I was working on a project that required a lot of htaccess rules.&lt;/p&gt;
+&lt;p&gt; 
  
  
  
  
- &lt;a href="https://htaccess.madewithlove.com">htaccess.madewithlove.com&lt;/a>
- &lt;/p></description></item><item><title>How to create AWS Signature on GET POST request</title><link>https://www.spidersoft.com.au/2022/aws-signature-request/</link><pubDate>Sun, 28 Aug 2022 08:30:00 +0000</pubDate><guid>https://www.spidersoft.com.au/2022/aws-signature-request/</guid><description>&lt;p>Postman, it&amp;rsquo;s a great tool for debuging, testing and other activities performed by us - developers. It has a build in option to sign requestes with 
+ &lt;a href="https://htaccess.madewithlove.com"&gt;htaccess.madewithlove.com&lt;/a&gt;
+ &lt;/p&gt;</description></item><item><title>How to create AWS Signature on GET POST request</title><link>https://www.spidersoft.com.au/2022/aws-signature-request/</link><pubDate>Sun, 28 Aug 2022 08:30:00 +0000</pubDate><guid>https://www.spidersoft.com.au/2022/aws-signature-request/</guid><description>&lt;p&gt;Postman, it&amp;rsquo;s a great tool for debuging, testing and other activities performed by us - developers. It has a build in option to sign requestes with 
  
  
  
  
- &lt;a href="https://learning.postman.com/docs/sending-requests/authorization/#aws-signature">AWS Signature&lt;/a>
+ &lt;a href="https://learning.postman.com/docs/sending-requests/authorization/#aws-signature"&gt;AWS Signature&lt;/a&gt;
  . We do have 
  
  
  
  
- &lt;a href="https://github.com/aws/aws-sdk-go-v2">AWS SDK for Go v2&lt;/a>
+ &lt;a href="https://github.com/aws/aws-sdk-go-v2"&gt;AWS SDK for Go v2&lt;/a&gt;
  , but I couldn&amp;rsquo;t find any good examples except a 
  
  
  
  
- &lt;a href="https://github.com/aws/aws-sdk-go-v2/blob/main/aws/signer/v4/v4_test.go">test file&lt;/a>
+ &lt;a href="https://github.com/aws/aws-sdk-go-v2/blob/main/aws/signer/v4/v4_test.go"&gt;test file&lt;/a&gt;
  . The other useful file will be 
  
  
  
  
- &lt;a href="https://github.com/aws/aws-sdk-go-v2/blob/main/aws/signer/internal/v4/const.go">const.go&lt;/a>
- where we can find a couple of interesting variables.&lt;/p></description></item><item><title>How to implement timeout in go routines</title><link>https://www.spidersoft.com.au/2022/go-lang-simple-workers-with-timeout-using-context/</link><pubDate>Fri, 29 Jul 2022 08:30:00 +0000</pubDate><guid>https://www.spidersoft.com.au/2022/go-lang-simple-workers-with-timeout-using-context/</guid><description>&lt;p>I wanted to implement a timeout in go routines. There are a couple o ways doing that. We could use &lt;code>context.WithTimeout()&lt;/code> or we go with classical &lt;code>sync.WaitGroup&lt;/code> group with a trick.&lt;/p>
-&lt;p>Let&amp;rsquo;s start with the first one.&lt;/p></description></item><item><title>How to set up public bucket policy on Object Storage</title><link>https://www.spidersoft.com.au/2022/setup-public-bucket-policy-digitalocean-spaces/</link><pubDate>Mon, 25 Jul 2022 08:30:00 +0000</pubDate><guid>https://www.spidersoft.com.au/2022/setup-public-bucket-policy-digitalocean-spaces/</guid><description>&lt;p>This one is really quick and easy to set up public bucket policy on 
+ &lt;a href="https://github.com/aws/aws-sdk-go-v2/blob/main/aws/signer/internal/v4/const.go"&gt;const.go&lt;/a&gt;
+ where we can find a couple of interesting variables.&lt;/p&gt;</description></item><item><title>How to implement timeout in go routines</title><link>https://www.spidersoft.com.au/2022/go-lang-simple-workers-with-timeout-using-context/</link><pubDate>Fri, 29 Jul 2022 08:30:00 +0000</pubDate><guid>https://www.spidersoft.com.au/2022/go-lang-simple-workers-with-timeout-using-context/</guid><description>&lt;p&gt;I wanted to implement a timeout in go routines. There are a couple o ways doing that. We could use &lt;code&gt;context.WithTimeout()&lt;/code&gt; or we go with classical &lt;code&gt;sync.WaitGroup&lt;/code&gt; group with a trick.&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s start with the first one.&lt;/p&gt;</description></item><item><title>How to set up public bucket policy on Object Storage</title><link>https://www.spidersoft.com.au/2022/setup-public-bucket-policy-digitalocean-spaces/</link><pubDate>Mon, 25 Jul 2022 08:30:00 +0000</pubDate><guid>https://www.spidersoft.com.au/2022/setup-public-bucket-policy-digitalocean-spaces/</guid><description>&lt;p&gt;This one is really quick and easy to set up public bucket policy on 
  
  
  
  
- &lt;a href="https://www.digitalocean.com/products/spaces">DigitalOcean Spaces&lt;/a>
+ &lt;a href="https://www.digitalocean.com/products/spaces"&gt;DigitalOcean Spaces&lt;/a&gt;
  . Spaces are S3 type object storage, you can check out about it 
  
  
  
  
- &lt;a href="https://docs.digitalocean.com/reference/api/spaces-api/">here&lt;/a>
- .&lt;/p></description></item><item><title>Setting up Prometheus to collect Caddy metrics</title><link>https://www.spidersoft.com.au/2022/setting-up-prometheus-to-collect-caddy-metrics/</link><pubDate>Sat, 23 Jul 2022 08:30:00 +0000</pubDate><guid>https://www.spidersoft.com.au/2022/setting-up-prometheus-to-collect-caddy-metrics/</guid><description>&lt;p>This is a simple example of how to setup Prometheus to collect Caddy metrics.&lt;/p></description></item><item><title>How to send form using GO</title><link>https://www.spidersoft.com.au/2022/send-post-form/</link><pubDate>Tue, 05 Jul 2022 08:30:00 +0000</pubDate><guid>https://www.spidersoft.com.au/2022/send-post-form/</guid><description>&lt;p>This time really simple solution to submit form using GO.
-This example allows you to submit form with fields, and also attach file&lt;/p></description></item><item><title>How to upload to S3 with presigned URL</title><link>https://www.spidersoft.com.au/2022/upload-with-presigned-url-to-bucket/</link><pubDate>Thu, 23 Jun 2022 08:30:00 +0000</pubDate><guid>https://www.spidersoft.com.au/2022/upload-with-presigned-url-to-bucket/</guid><description>&lt;p>Object storage is getting more and more popular. AWS started, but nowadays, almost every provider has it. Recently 
+ &lt;a href="https://docs.digitalocean.com/reference/api/spaces-api/"&gt;here&lt;/a&gt;
+ .&lt;/p&gt;</description></item><item><title>Setting up Prometheus to collect Caddy metrics</title><link>https://www.spidersoft.com.au/2022/setting-up-prometheus-to-collect-caddy-metrics/</link><pubDate>Sat, 23 Jul 2022 08:30:00 +0000</pubDate><guid>https://www.spidersoft.com.au/2022/setting-up-prometheus-to-collect-caddy-metrics/</guid><description>&lt;p&gt;This is a simple example of how to setup Prometheus to collect Caddy metrics.&lt;/p&gt;</description></item><item><title>How to send form using GO</title><link>https://www.spidersoft.com.au/2022/send-post-form/</link><pubDate>Tue, 05 Jul 2022 08:30:00 +0000</pubDate><guid>https://www.spidersoft.com.au/2022/send-post-form/</guid><description>&lt;p&gt;This time really simple solution to submit form using GO.
+This example allows you to submit form with fields, and also attach file&lt;/p&gt;</description></item><item><title>How to upload to S3 with presigned URL</title><link>https://www.spidersoft.com.au/2022/upload-with-presigned-url-to-bucket/</link><pubDate>Thu, 23 Jun 2022 08:30:00 +0000</pubDate><guid>https://www.spidersoft.com.au/2022/upload-with-presigned-url-to-bucket/</guid><description>&lt;p&gt;Object storage is getting more and more popular. AWS started, but nowadays, almost every provider has it. Recently 
  
  
  
  
- &lt;a href="https://blog.cloudflare.com/introducing-r2-object-storage/">Cloudflare&lt;/a>
+ &lt;a href="https://blog.cloudflare.com/introducing-r2-object-storage/"&gt;Cloudflare&lt;/a&gt;
  announced its availability. 
  
  
  
  
- &lt;a href="https://www.digitalocean.com/products/spaces">DigitalOcean&lt;/a>
- call them Spaces.&lt;/p>
-&lt;p>So today, we are trying to upload a file to an S3 type of storage with a presigned URL.&lt;/p>
-&lt;p>TL;DR: how to generate the correct URL and upload data into it.&lt;/p></description></item><item><title>Caddy &amp; Error code SEC_ERROR_REVOKED_CERTIFICATE</title><link>https://www.spidersoft.com.au/2022/caddy-ssl-error/</link><pubDate>Mon, 31 Jan 2022 08:30:00 +0000</pubDate><guid>https://www.spidersoft.com.au/2022/caddy-ssl-error/</guid><description>&lt;p>Recently I had a problem with my 
+ &lt;a href="https://www.digitalocean.com/products/spaces"&gt;DigitalOcean&lt;/a&gt;
+ call them Spaces.&lt;/p&gt;
+&lt;p&gt;So today, we are trying to upload a file to an S3 type of storage with a presigned URL.&lt;/p&gt;
+&lt;p&gt;TL;DR: how to generate the correct URL and upload data into it.&lt;/p&gt;</description></item><item><title>Caddy &amp; Error code SEC_ERROR_REVOKED_CERTIFICATE</title><link>https://www.spidersoft.com.au/2022/caddy-ssl-error/</link><pubDate>Mon, 31 Jan 2022 08:30:00 +0000</pubDate><guid>https://www.spidersoft.com.au/2022/caddy-ssl-error/</guid><description>&lt;p&gt;Recently I had a problem with my 
  
  
  
  
- &lt;a href="https://caddyserver.com/">Caddy server&lt;/a>
- . I wasn&amp;rsquo;t aware that it&amp;rsquo;s related to Caddy - the initial thought was that something went wrong with the SSL certificate. But I was wrong. The message was pretty &amp;ldquo;platonic&amp;rdquo;&lt;/p>
-&lt;p>&lt;code>Error code: SEC_ERROR_REVOKED_CERTIFICATE&lt;/code>&lt;/p></description></item><item><title>How to pass ENV variables to PHP</title><link>https://www.spidersoft.com.au/2021/export-env-variables-to-php/</link><pubDate>Sun, 23 Jan 2022 08:30:00 +0000</pubDate><guid>https://www.spidersoft.com.au/2021/export-env-variables-to-php/</guid><description>&lt;p>It&amp;rsquo;s not a good practice to store your password in the code. It is a well-known fact, and on multiple occasions, people get hacked because they share their code (and passwords) accidentally with others.&lt;/p>
-&lt;p>Many bots are just browsing GitHub for lost &lt;code>AWS_SECRET_ACCESS_KEY&lt;/code> or &lt;code>GCE&lt;/code> credentials. I&amp;rsquo;m going to show you how to pass your &lt;code>AWS_SECRET_ACCESS_KEY&lt;/code> to PHP.&lt;/p></description></item><item><title>Inline date edit with nojQuery</title><link>https://www.spidersoft.com.au/2021/html5-datepicker-nojquery/</link><pubDate>Fri, 24 Sep 2021 08:30:00 +0000</pubDate><guid>https://www.spidersoft.com.au/2021/html5-datepicker-nojquery/</guid><description>&lt;p>I do write a lot of front-end code, despite being born to be a back-end guy. Long story short - we do have many inline editing features, especially elements like dates, which are pretty painful. HTML5 Introduced 
+ &lt;a href="https://caddyserver.com/"&gt;Caddy server&lt;/a&gt;
+ . I wasn&amp;rsquo;t aware that it&amp;rsquo;s related to Caddy - the initial thought was that something went wrong with the SSL certificate. But I was wrong. The message was pretty &amp;ldquo;platonic&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Error code: SEC_ERROR_REVOKED_CERTIFICATE&lt;/code&gt;&lt;/p&gt;</description></item><item><title>How to pass ENV variables to PHP</title><link>https://www.spidersoft.com.au/2021/export-env-variables-to-php/</link><pubDate>Sun, 23 Jan 2022 08:30:00 +0000</pubDate><guid>https://www.spidersoft.com.au/2021/export-env-variables-to-php/</guid><description>&lt;p&gt;It&amp;rsquo;s not a good practice to store your password in the code. It is a well-known fact, and on multiple occasions, people get hacked because they share their code (and passwords) accidentally with others.&lt;/p&gt;
+&lt;p&gt;Many bots are just browsing GitHub for lost &lt;code&gt;AWS_SECRET_ACCESS_KEY&lt;/code&gt; or &lt;code&gt;GCE&lt;/code&gt; credentials. I&amp;rsquo;m going to show you how to pass your &lt;code&gt;AWS_SECRET_ACCESS_KEY&lt;/code&gt; to PHP.&lt;/p&gt;</description></item><item><title>Inline date edit with nojQuery</title><link>https://www.spidersoft.com.au/2021/html5-datepicker-nojquery/</link><pubDate>Fri, 24 Sep 2021 08:30:00 +0000</pubDate><guid>https://www.spidersoft.com.au/2021/html5-datepicker-nojquery/</guid><description>&lt;p&gt;I do write a lot of front-end code, despite being born to be a back-end guy. Long story short - we do have many inline editing features, especially elements like dates, which are pretty painful. HTML5 Introduced 
  
  
  
  
- &lt;a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/date">input type=date&lt;/a>
- , which is good enough to cover most of the cases, and we no longer need ugly and slow &lt;code>.datepicker()&lt;/code> component from jQuery od 3rd party suppliers.&lt;/p>
-&lt;p>So if you do have &lt;em>edit&lt;/em> you can use &lt;code>&amp;lt;input type=&amp;quot;date&amp;quot; value=&amp;quot;yyyy-mm-dd&amp;quot;&amp;gt;&lt;/code> field, and a nice calendar will pop up. But we are looking for &lt;em>inline&lt;/em> solution.&lt;/p></description></item><item><title>Never use file_get_contents to make URL queries</title><link>https://www.spidersoft.com.au/2021/never-use-file-get-contents/</link><pubDate>Fri, 17 Sep 2021 11:16:00 +0000</pubDate><guid>https://www.spidersoft.com.au/2021/never-use-file-get-contents/</guid><description>&lt;p>As each programmer by nature, I&amp;rsquo;m lazy. I try to accomplish as much as possible with minimum effort.&lt;/p>
-&lt;p>So whenever I use PHP to fetch something, I use &lt;code>file_get_contents&lt;/code> to make queries and pull data from other services. So basically, my favourite snippet is this guy here:&lt;/p></description></item><item><title>How to replace all links in html to markup</title><link>https://www.spidersoft.com.au/2021/how-to-replace-all-links-in-html-to-markup/</link><pubDate>Fri, 03 Sep 2021 13:06:00 +0000</pubDate><guid>https://www.spidersoft.com.au/2021/how-to-replace-all-links-in-html-to-markup/</guid><description>&lt;p>I recently moved my blog from WordPress to 
+ &lt;a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/date"&gt;input type=date&lt;/a&gt;
+ , which is good enough to cover most of the cases, and we no longer need ugly and slow &lt;code&gt;.datepicker()&lt;/code&gt; component from jQuery od 3rd party suppliers.&lt;/p&gt;
+&lt;p&gt;So if you do have &lt;em&gt;edit&lt;/em&gt; you can use &lt;code&gt;&amp;lt;input type=&amp;quot;date&amp;quot; value=&amp;quot;yyyy-mm-dd&amp;quot;&amp;gt;&lt;/code&gt; field, and a nice calendar will pop up. But we are looking for &lt;em&gt;inline&lt;/em&gt; solution.&lt;/p&gt;</description></item><item><title>Never use file_get_contents to make URL queries</title><link>https://www.spidersoft.com.au/2021/never-use-file-get-contents/</link><pubDate>Fri, 17 Sep 2021 11:16:00 +0000</pubDate><guid>https://www.spidersoft.com.au/2021/never-use-file-get-contents/</guid><description>&lt;p&gt;As each programmer by nature, I&amp;rsquo;m lazy. I try to accomplish as much as possible with minimum effort.&lt;/p&gt;
+&lt;p&gt;So whenever I use PHP to fetch something, I use &lt;code&gt;file_get_contents&lt;/code&gt; to make queries and pull data from other services. So basically, my favourite snippet is this guy here:&lt;/p&gt;</description></item><item><title>How to replace all links in html to markup</title><link>https://www.spidersoft.com.au/2021/how-to-replace-all-links-in-html-to-markup/</link><pubDate>Fri, 03 Sep 2021 13:06:00 +0000</pubDate><guid>https://www.spidersoft.com.au/2021/how-to-replace-all-links-in-html-to-markup/</guid><description>&lt;p&gt;I recently moved my blog from WordPress to 
  
  
  
  
- &lt;a href="https://gohugo.io">Hugo&lt;/a>
- , which involved a lot of content fixing. One of the problems was that not all HTML code was correctly transferred to markup during the export. So I needed fix (replace) all pending &lt;code>&amp;lt;a href=&amp;quot;https://spidersoft.com.au&amp;quot;&amp;gt;spidersoft&amp;lt;/a&amp;gt;&lt;/code> to &lt;code>[spidersoft](https://spidersoft.com.au)&lt;/code>.&lt;/p>
-&lt;p>What we need are just two simple regular expressions.&lt;/p>
-&lt;p>One to find links
-&lt;code>&amp;lt;a.*?href=&amp;quot;(.+?)&amp;quot;.*?&amp;gt;(.+?)&amp;lt;/a&amp;gt;&lt;/code>&lt;/p>
-&lt;p>Second one to replace them in reverse order
-&lt;code>[$2]($1)&lt;/code>&lt;/p>
-&lt;p>You can run this in basically any IDE - 
+ &lt;a href="https://gohugo.io"&gt;Hugo&lt;/a&gt;
+ , which involved a lot of content fixing. One of the problems was that not all HTML code was correctly transferred to markup during the export. So I needed fix (replace) all pending &lt;code&gt;&amp;lt;a href=&amp;quot;https://spidersoft.com.au&amp;quot;&amp;gt;spidersoft&amp;lt;/a&amp;gt;&lt;/code&gt; to &lt;code&gt;[spidersoft](https://spidersoft.com.au)&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;What we need are just two simple regular expressions.&lt;/p&gt;
+&lt;p&gt;One to find links
+&lt;code&gt;&amp;lt;a.*?href=&amp;quot;(.+?)&amp;quot;.*?&amp;gt;(.+?)&amp;lt;/a&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Second one to replace them in reverse order
+&lt;code&gt;[$2]($1)&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;You can run this in basically any IDE - 
  
  
  
  
- &lt;a href="https://www.sublimetext.com">Sublime&lt;/a>
- will do the job, I was using PHPStorm&lt;/p></description></item><item><title>Docker, GO and CGO application build</title><link>https://www.spidersoft.com.au/2021/docker-go-cgo/</link><pubDate>Fri, 23 Jul 2021 06:16:24 +0000</pubDate><guid>https://www.spidersoft.com.au/2021/docker-go-cgo/</guid><description>&lt;p>I’ve been avoiding Docker for a very long time. I started as a sysadmin setting up servers running FreeBSD and early versions of Debian on bare-bone servers. As soon as “cloud” came into the market, I switched to AWS and GCE and have used them since then. EC2 was my always goto choice to deploy something on the internet quickly. But Docker — for some reason, I was avoiding it until this two years ago, when I started using it. Without too much trust.&lt;/p>
-&lt;p>But today, history is not about my love &amp;amp; hate relationship with Docker, but about deploying the GO application and VIPS library. A couple of problems appeared during the process, and it’s worth mentioning them for future generations because I could find much help around my issues.&lt;/p></description></item><item><title>PrestaShop margin size on delivery slips</title><link>https://www.spidersoft.com.au/2021/prestashop-margin-size-on-delivery-slips/</link><pubDate>Wed, 20 Jan 2021 13:02:23 +0000</pubDate><guid>https://www.spidersoft.com.au/2021/prestashop-margin-size-on-delivery-slips/</guid><description>&lt;p>Recently one of my clients contacted me asking if I could make a change. The task was to shrink huge margins on PDF delivery slips. The mission wasn&amp;rsquo;t easy because the settings were hidden in the files. You can change font size and amend or remove elements from the printout by modifying templates. Unfortunately, you can&amp;rsquo;t decrease the margin on PDF printouts.&lt;/p></description></item><item><title>CURL to GO</title><link>https://www.spidersoft.com.au/2019/curl-to-go/</link><pubDate>Fri, 12 Jul 2019 06:44:56 +0000</pubDate><guid>https://www.spidersoft.com.au/2019/curl-to-go/</guid><description>&lt;p>Quite often we are looking for a quick way to make a request in GO, and we have working query tested in CURL. Sometimes it’s problematic to “move” all queries to GO, and build up whole query using client, protocol and so on.&lt;/p>
-&lt;p>From the author of my beloved 
+ &lt;a href="https://www.sublimetext.com"&gt;Sublime&lt;/a&gt;
+ will do the job, I was using PHPStorm&lt;/p&gt;</description></item><item><title>Docker, GO and CGO application build</title><link>https://www.spidersoft.com.au/2021/docker-go-cgo/</link><pubDate>Fri, 23 Jul 2021 06:16:24 +0000</pubDate><guid>https://www.spidersoft.com.au/2021/docker-go-cgo/</guid><description>&lt;p&gt;I’ve been avoiding Docker for a very long time. I started as a sysadmin setting up servers running FreeBSD and early versions of Debian on bare-bone servers. As soon as “cloud” came into the market, I switched to AWS and GCE and have used them since then. EC2 was my always goto choice to deploy something on the internet quickly. But Docker — for some reason, I was avoiding it until this two years ago, when I started using it. Without too much trust.&lt;/p&gt;
+&lt;p&gt;But today, history is not about my love &amp;amp; hate relationship with Docker, but about deploying the GO application and VIPS library. A couple of problems appeared during the process, and it’s worth mentioning them for future generations because I could find much help around my issues.&lt;/p&gt;</description></item><item><title>PrestaShop margin size on delivery slips</title><link>https://www.spidersoft.com.au/2021/prestashop-margin-size-on-delivery-slips/</link><pubDate>Wed, 20 Jan 2021 13:02:23 +0000</pubDate><guid>https://www.spidersoft.com.au/2021/prestashop-margin-size-on-delivery-slips/</guid><description>&lt;p&gt;Recently one of my clients contacted me asking if I could make a change. The task was to shrink huge margins on PDF delivery slips. The mission wasn&amp;rsquo;t easy because the settings were hidden in the files. You can change font size and amend or remove elements from the printout by modifying templates. Unfortunately, you can&amp;rsquo;t decrease the margin on PDF printouts.&lt;/p&gt;</description></item><item><title>CURL to GO</title><link>https://www.spidersoft.com.au/2019/curl-to-go/</link><pubDate>Fri, 12 Jul 2019 06:44:56 +0000</pubDate><guid>https://www.spidersoft.com.au/2019/curl-to-go/</guid><description>&lt;p&gt;Quite often we are looking for a quick way to make a request in GO, and we have working query tested in CURL. Sometimes it’s problematic to “move” all queries to GO, and build up whole query using client, protocol and so on.&lt;/p&gt;
+&lt;p&gt;From the author of my beloved 
  
  
  
  
- &lt;a href="https://caddyserver.com">Caddy&lt;/a>
+ &lt;a href="https://caddyserver.com"&gt;Caddy&lt;/a&gt;
  server there is a tool called 
  
  
  
  
- &lt;a href="https://mholt.github.io/curl-to-go/">curl-to-Go&lt;/a>
- which basically does what is says. Just paste your CURL request and GO lang code to implement that.&lt;/p></description></item><item><title>Web Server on AMI Linux 2</title><link>https://www.spidersoft.com.au/2019/web-server-on-ami-linux-2/</link><pubDate>Mon, 28 Jan 2019 09:46:20 +0000</pubDate><guid>https://www.spidersoft.com.au/2019/web-server-on-ami-linux-2/</guid><description>&lt;p>Welcome in 2019 – it’s time to upgrade out outdated LAMP stack series articles, with new “How To” setup basic web server for our stack.&lt;/p></description></item><item><title>HTML5 Video tag, and webm</title><link>https://www.spidersoft.com.au/2019/html5-video-tag-and-webm/</link><pubDate>Mon, 14 Jan 2019 10:58:34 +0000</pubDate><guid>https://www.spidersoft.com.au/2019/html5-video-tag-and-webm/</guid><description>&lt;p>In ancient times, when youtube was born, we didn’t have a VIDEO tag. We used to have Flash. To play video on the website, we had to convert it to weird Flash video format, leave mp4 for safety and hope that everything would work fine. Later on, when HTML5 became an industry standard, our lives became much easier.&lt;/p>
-&lt;p>In theory, VIDEO tag solves all our issues. When the browser can handle webm (Chrome family) we play webm. If we deal with other browsers – mp4 should work for us. So let’s test our theory.&lt;/p></description></item><item><title>PHP returning wrong date</title><link>https://www.spidersoft.com.au/2019/php-returning-wrong-date/</link><pubDate>Mon, 07 Jan 2019 10:56:37 +0000</pubDate><guid>https://www.spidersoft.com.au/2019/php-returning-wrong-date/</guid><description>&lt;p>From time to time we are working on small campaigns, where competition starts at given time. Because in Australia we have “so many” timezones, it’s critical to set things correctly according to the time zone.&lt;/p></description></item><item><title>iframe won’t display content..</title><link>https://www.spidersoft.com.au/2018/iframe-wont-display-content/</link><pubDate>Thu, 29 Nov 2018 09:40:18 +0000</pubDate><guid>https://www.spidersoft.com.au/2018/iframe-wont-display-content/</guid><description>&lt;p>There is a website, with iframe. I frame source is correct, but won’t display content of the website. No visible errors. There only small detail in the console:&lt;/p>
-&lt;p>&lt;code>Load denied by X-Frame-Options: https://... does not permit cross-origin framing. &lt;/code>&lt;/p>
-&lt;p>Some crazy admin figure out that it&amp;rsquo;s going to be better… and put some crazy code into headers:&lt;/p>
-&lt;p>&lt;code>X-Frame-Options: SAMEORIGINX-XSS-Protection: 1; mode=blockX-Content-Type-Options: nosniff&lt;/code>&lt;/p>
-&lt;p>Solution: talk to the hand, because admin won&amp;rsquo;t listen ;P&lt;/p></description></item><item><title>Australian postcode to state conversion</title><link>https://www.spidersoft.com.au/2018/australian-postcode-to-state-conversion/</link><pubDate>Tue, 24 Jul 2018 10:59:44 +0000</pubDate><guid>https://www.spidersoft.com.au/2018/australian-postcode-to-state-conversion/</guid><description>&lt;p>I recently worked on a project with a super dull address form. I figured out that we need to help poor users fill tedious forms, so I made a little code snippet/function which gets the postcode and returns the state. I took postcode ranges from 
+ &lt;a href="https://mholt.github.io/curl-to-go/"&gt;curl-to-Go&lt;/a&gt;
+ which basically does what is says. Just paste your CURL request and GO lang code to implement that.&lt;/p&gt;</description></item><item><title>Web Server on AMI Linux 2</title><link>https://www.spidersoft.com.au/2019/web-server-on-ami-linux-2/</link><pubDate>Mon, 28 Jan 2019 09:46:20 +0000</pubDate><guid>https://www.spidersoft.com.au/2019/web-server-on-ami-linux-2/</guid><description>&lt;p&gt;Welcome in 2019 – it’s time to upgrade out outdated LAMP stack series articles, with new “How To” setup basic web server for our stack.&lt;/p&gt;</description></item><item><title>HTML5 Video tag, and webm</title><link>https://www.spidersoft.com.au/2019/html5-video-tag-and-webm/</link><pubDate>Mon, 14 Jan 2019 10:58:34 +0000</pubDate><guid>https://www.spidersoft.com.au/2019/html5-video-tag-and-webm/</guid><description>&lt;p&gt;In ancient times, when youtube was born, we didn’t have a VIDEO tag. We used to have Flash. To play video on the website, we had to convert it to weird Flash video format, leave mp4 for safety and hope that everything would work fine. Later on, when HTML5 became an industry standard, our lives became much easier.&lt;/p&gt;
+&lt;p&gt;In theory, VIDEO tag solves all our issues. When the browser can handle webm (Chrome family) we play webm. If we deal with other browsers – mp4 should work for us. So let’s test our theory.&lt;/p&gt;</description></item><item><title>PHP returning wrong date</title><link>https://www.spidersoft.com.au/2019/php-returning-wrong-date/</link><pubDate>Mon, 07 Jan 2019 10:56:37 +0000</pubDate><guid>https://www.spidersoft.com.au/2019/php-returning-wrong-date/</guid><description>&lt;p&gt;From time to time we are working on small campaigns, where competition starts at given time. Because in Australia we have “so many” timezones, it’s critical to set things correctly according to the time zone.&lt;/p&gt;</description></item><item><title>iframe won’t display content..</title><link>https://www.spidersoft.com.au/2018/iframe-wont-display-content/</link><pubDate>Thu, 29 Nov 2018 09:40:18 +0000</pubDate><guid>https://www.spidersoft.com.au/2018/iframe-wont-display-content/</guid><description>&lt;p&gt;There is a website, with iframe. I frame source is correct, but won’t display content of the website. No visible errors. There only small detail in the console:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Load denied by X-Frame-Options: https://... does not permit cross-origin framing. &lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Some crazy admin figure out that it&amp;rsquo;s going to be better… and put some crazy code into headers:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;X-Frame-Options: SAMEORIGINX-XSS-Protection: 1; mode=blockX-Content-Type-Options: nosniff&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Solution: talk to the hand, because admin won&amp;rsquo;t listen ;P&lt;/p&gt;</description></item><item><title>Australian postcode to state conversion</title><link>https://www.spidersoft.com.au/2018/australian-postcode-to-state-conversion/</link><pubDate>Tue, 24 Jul 2018 10:59:44 +0000</pubDate><guid>https://www.spidersoft.com.au/2018/australian-postcode-to-state-conversion/</guid><description>&lt;p&gt;I recently worked on a project with a super dull address form. I figured out that we need to help poor users fill tedious forms, so I made a little code snippet/function which gets the postcode and returns the state. I took postcode ranges from 
  
  
  
  
- &lt;a href="https://en.wikipedia.org/wiki/Postcodes_in_Australia">wikipedia&lt;/a>
- , so blame them if something isn’t working as expected.&lt;/p></description></item><item><title>Binary compression still alive – golang binary compression.</title><link>https://www.spidersoft.com.au/2018/binary-compression-still-alive-golang-binary-compression/</link><pubDate>Wed, 07 Mar 2018 14:34:57 +0000</pubDate><guid>https://www.spidersoft.com.au/2018/binary-compression-still-alive-golang-binary-compression/</guid><description>&lt;p>In the ancient times, when I was coding mostly in Pascal – size did matter. People were using RAR to shave couple kilobytes from archives, and having 2mb executable was better then having 4mb executable file. In that beautiful time we used  
+ &lt;a href="https://en.wikipedia.org/wiki/Postcodes_in_Australia"&gt;wikipedia&lt;/a&gt;
+ , so blame them if something isn’t working as expected.&lt;/p&gt;</description></item><item><title>Binary compression still alive – golang binary compression.</title><link>https://www.spidersoft.com.au/2018/binary-compression-still-alive-golang-binary-compression/</link><pubDate>Wed, 07 Mar 2018 14:34:57 +0000</pubDate><guid>https://www.spidersoft.com.au/2018/binary-compression-still-alive-golang-binary-compression/</guid><description>&lt;p&gt;In the ancient times, when I was coding mostly in Pascal – size did matter. People were using RAR to shave couple kilobytes from archives, and having 2mb executable was better then having 4mb executable file. In that beautiful time we used  
  
  
  
  
- &lt;a href="https://upx.github.io/">UPX&lt;/a>
- – I wasn’t aware that this project is still alive, and works nicely with binaries create bo go lang.&lt;/p>
-&lt;pre tabindex="0">&lt;code>Ultimate Packer for eXecutables
+ &lt;a href="https://upx.github.io/"&gt;UPX&lt;/a&gt;
+ – I wasn’t aware that this project is still alive, and works nicely with binaries create bo go lang.&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;Ultimate Packer for eXecutables
 Copyright (C) 1996 - 2017
 UPX 3.94 Markus Oberhumer, Laszlo Molnar &amp;amp; John Reiser May 12th 2017
 
@@ -179,22 +179,22 @@ File size Ratio Format Name
 11512772 -&amp;gt; 3547792 30.82% macho/amd64 main
 
 Packed 1 file.
-&lt;/code>&lt;/pre></description></item><item><title>How to choose the right technology for your next project</title><link>https://www.spidersoft.com.au/2017/how-to-choose-the-right-technology-for-your-next-project/</link><pubDate>Fri, 31 Mar 2017 06:41:56 +0000</pubDate><guid>https://www.spidersoft.com.au/2017/how-to-choose-the-right-technology-for-your-next-project/</guid><description>&lt;p>People quite often asking me about &lt;em>technology stack&lt;/em>, and where to go with next big project. The answer isn’t simple – it depends. Usually, we have couple components which are critical for the whole system. If we are talking about a web-based solution or any API we have to decide about DATABASE, then we have STORAGE, moving on – some BACKEND service language.&lt;/p></description></item><item><title>Magento 2.1 installation issues</title><link>https://www.spidersoft.com.au/2016/magento-2-1-installation-issues/</link><pubDate>Fri, 23 Dec 2016 11:15:28 +0000</pubDate><guid>https://www.spidersoft.com.au/2016/magento-2-1-installation-issues/</guid><description>&lt;p>I’ve been recently trying to install the latest Magento and was experiencing some issues with Magento installer unable to detect PHP version. My message was pretty weird:&lt;/p>
-&lt;p>&lt;code>Your PHP version is . The required PHP version is&lt;/code>&lt;/p>
-&lt;p>also found couple 500 errors in XHR requests.&lt;/p></description></item><item><title>Dynamic PickerView in Swift 3</title><link>https://www.spidersoft.com.au/2016/dynamic-pickerview-in-swift-3/</link><pubDate>Wed, 30 Nov 2016 09:30:43 +0000</pubDate><guid>https://www.spidersoft.com.au/2016/dynamic-pickerview-in-swift-3/</guid><description>&lt;p>Quick and easy dynamic picker view in Swift 3.&lt;/p></description></item><item><title>Caddy rewrite and CodeIgniter</title><link>https://www.spidersoft.com.au/2016/caddy-rewrite-and-codeigniter/</link><pubDate>Mon, 25 Jul 2016 15:19:54 +0000</pubDate><guid>https://www.spidersoft.com.au/2016/caddy-rewrite-and-codeigniter/</guid><description>&lt;p> 
+&lt;/code&gt;&lt;/pre&gt;</description></item><item><title>How to choose the right technology for your next project</title><link>https://www.spidersoft.com.au/2017/how-to-choose-the-right-technology-for-your-next-project/</link><pubDate>Fri, 31 Mar 2017 06:41:56 +0000</pubDate><guid>https://www.spidersoft.com.au/2017/how-to-choose-the-right-technology-for-your-next-project/</guid><description>&lt;p&gt;People quite often asking me about &lt;em&gt;technology stack&lt;/em&gt;, and where to go with next big project. The answer isn’t simple – it depends. Usually, we have couple components which are critical for the whole system. If we are talking about a web-based solution or any API we have to decide about DATABASE, then we have STORAGE, moving on – some BACKEND service language.&lt;/p&gt;</description></item><item><title>Magento 2.1 installation issues</title><link>https://www.spidersoft.com.au/2016/magento-2-1-installation-issues/</link><pubDate>Fri, 23 Dec 2016 11:15:28 +0000</pubDate><guid>https://www.spidersoft.com.au/2016/magento-2-1-installation-issues/</guid><description>&lt;p&gt;I’ve been recently trying to install the latest Magento and was experiencing some issues with Magento installer unable to detect PHP version. My message was pretty weird:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Your PHP version is . The required PHP version is&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;also found couple 500 errors in XHR requests.&lt;/p&gt;</description></item><item><title>Dynamic PickerView in Swift 3</title><link>https://www.spidersoft.com.au/2016/dynamic-pickerview-in-swift-3/</link><pubDate>Wed, 30 Nov 2016 09:30:43 +0000</pubDate><guid>https://www.spidersoft.com.au/2016/dynamic-pickerview-in-swift-3/</guid><description>&lt;p&gt;Quick and easy dynamic picker view in Swift 3.&lt;/p&gt;</description></item><item><title>Caddy rewrite and CodeIgniter</title><link>https://www.spidersoft.com.au/2016/caddy-rewrite-and-codeigniter/</link><pubDate>Mon, 25 Jul 2016 15:19:54 +0000</pubDate><guid>https://www.spidersoft.com.au/2016/caddy-rewrite-and-codeigniter/</guid><description>&lt;p&gt; 
  
  
  
  
- &lt;a href="https://caddyserver.com/">Caddy&lt;/a>
+ &lt;a href="https://caddyserver.com/"&gt;Caddy&lt;/a&gt;
  it’s a new kid in the block in category super light web servers. Personally – I love it. Same love I feel to 
  
  
  
  
- &lt;a href="https://codeigniter.com/">CodeIgniter&lt;/a>
- . To marge both of them, we need only basic rewrite rule to drop into caddyfile.&lt;/p>
-&lt;pre tabindex="0">&lt;code>api.spidersoft.com.au {
+ &lt;a href="https://codeigniter.com/"&gt;CodeIgniter&lt;/a&gt;
+ . To marge both of them, we need only basic rewrite rule to drop into caddyfile.&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;api.spidersoft.com.au {
  root /var/www/html/spidersoft.com.au
  gzip
  rewrite {
@@ -202,77 +202,77 @@ Packed 1 file.
  }
  fastcgi / /var/run/php-sock php
 }
-&lt;/code>&lt;/pre></description></item><item><title>JSON objects in PHP</title><link>https://www.spidersoft.com.au/2016/json-objects-in-php/</link><pubDate>Mon, 25 Jul 2016 15:05:22 +0000</pubDate><guid>https://www.spidersoft.com.au/2016/json-objects-in-php/</guid><description>&lt;p>PHP is easy. You don’t have to know type of variable, before you use it. But sometimes it’s very problematic especially when we are dealing with JSON.&lt;/p></description></item><item><title>Send email using mailgun API without any libraries</title><link>https://www.spidersoft.com.au/2016/send-email-using-mailgun-api-without-any-libraries/</link><pubDate>Fri, 11 Mar 2016 10:39:09 +0000</pubDate><guid>https://www.spidersoft.com.au/2016/send-email-using-mailgun-api-without-any-libraries/</guid><description>&lt;p>Mailgun is well known service provider which allows you send emails via their API or just using regular SMTP servers. SMTP protocol is bit slower, but it’s so common that you can use it everywhere. Each modern application allows you define your own SMTP server to send emails. But… we love speed, SMTP from it’s nature it’s bit slower then regular API call.&lt;/p></description></item><item><title>How slow is FOUND_ROWS function in MySQL</title><link>https://www.spidersoft.com.au/2016/how-slow-is-found_rows-function-in-mysql/</link><pubDate>Mon, 25 Jan 2016 04:15:16 +0000</pubDate><guid>https://www.spidersoft.com.au/2016/how-slow-is-found_rows-function-in-mysql/</guid><description>&lt;p>From many reasons I was always using  
+&lt;/code&gt;&lt;/pre&gt;</description></item><item><title>JSON objects in PHP</title><link>https://www.spidersoft.com.au/2016/json-objects-in-php/</link><pubDate>Mon, 25 Jul 2016 15:05:22 +0000</pubDate><guid>https://www.spidersoft.com.au/2016/json-objects-in-php/</guid><description>&lt;p&gt;PHP is easy. You don’t have to know type of variable, before you use it. But sometimes it’s very problematic especially when we are dealing with JSON.&lt;/p&gt;</description></item><item><title>Send email using mailgun API without any libraries</title><link>https://www.spidersoft.com.au/2016/send-email-using-mailgun-api-without-any-libraries/</link><pubDate>Fri, 11 Mar 2016 10:39:09 +0000</pubDate><guid>https://www.spidersoft.com.au/2016/send-email-using-mailgun-api-without-any-libraries/</guid><description>&lt;p&gt;Mailgun is well known service provider which allows you send emails via their API or just using regular SMTP servers. SMTP protocol is bit slower, but it’s so common that you can use it everywhere. Each modern application allows you define your own SMTP server to send emails. But… we love speed, SMTP from it’s nature it’s bit slower then regular API call.&lt;/p&gt;</description></item><item><title>How slow is FOUND_ROWS function in MySQL</title><link>https://www.spidersoft.com.au/2016/how-slow-is-found_rows-function-in-mysql/</link><pubDate>Mon, 25 Jan 2016 04:15:16 +0000</pubDate><guid>https://www.spidersoft.com.au/2016/how-slow-is-found_rows-function-in-mysql/</guid><description>&lt;p&gt;From many reasons I was always using  
  
  
  
  
- &lt;a href="http://dev.mysql.com/doc/refman/5.7/en/information-functions.html#function_found-rows">SQL_CALC_FOUND_ROWS&lt;/a>
+ &lt;a href="http://dev.mysql.com/doc/refman/5.7/en/information-functions.html#function_found-rows"&gt;SQL_CALC_FOUND_ROWS&lt;/a&gt;
  to get total number of records, when I was running limited query. Never especially thought about it, until i had some super performance issues with one of my projects. Obviously after quick profiling and googling  i found 
  
  
  
  
- &lt;a href="http://stackoverflow.com/questions/186588/which-is-fastest-select-sql-calc-found-rows-from-table-or-select-count">people complaining about FOUND_ROWS() low performance&lt;/a>
- . I was not aware how big impact it was until I tested.&lt;/p></description></item><item><title>How to handle max_input_vars restriction.</title><link>https://www.spidersoft.com.au/2016/how-to-handle-max_input_vars-restriction/</link><pubDate>Fri, 22 Jan 2016 20:47:04 +0000</pubDate><guid>https://www.spidersoft.com.au/2016/how-to-handle-max_input_vars-restriction/</guid><description>&lt;p>From time to time we could breach  
+ &lt;a href="http://stackoverflow.com/questions/186588/which-is-fastest-select-sql-calc-found-rows-from-table-or-select-count"&gt;people complaining about FOUND_ROWS() low performance&lt;/a&gt;
+ . I was not aware how big impact it was until I tested.&lt;/p&gt;</description></item><item><title>How to handle max_input_vars restriction.</title><link>https://www.spidersoft.com.au/2016/how-to-handle-max_input_vars-restriction/</link><pubDate>Fri, 22 Jan 2016 20:47:04 +0000</pubDate><guid>https://www.spidersoft.com.au/2016/how-to-handle-max_input_vars-restriction/</guid><description>&lt;p&gt;From time to time we could breach  
  
  
  
  
- &lt;a href="http://php.net/manual/en/info.configuration.php#ini.max-input-vars">max_input_vars&lt;/a>
- restriction. Which basically limitation for server which allows only limited number of input server to reach out server. Usually this number is around 1000. In this short tutorial I will describe, how to easily avoid this problem.&lt;/p></description></item><item><title>Using Google Cloud storage with AWS libraries in GO LANG</title><link>https://www.spidersoft.com.au/2015/google-cloud-storage-with-aws-libraries-go-lang/</link><pubDate>Fri, 15 May 2015 01:08:15 +0000</pubDate><guid>https://www.spidersoft.com.au/2015/google-cloud-storage-with-aws-libraries-go-lang/</guid><description>&lt;p> 
+ &lt;a href="http://php.net/manual/en/info.configuration.php#ini.max-input-vars"&gt;max_input_vars&lt;/a&gt;
+ restriction. Which basically limitation for server which allows only limited number of input server to reach out server. Usually this number is around 1000. In this short tutorial I will describe, how to easily avoid this problem.&lt;/p&gt;</description></item><item><title>Using Google Cloud storage with AWS libraries in GO LANG</title><link>https://www.spidersoft.com.au/2015/google-cloud-storage-with-aws-libraries-go-lang/</link><pubDate>Fri, 15 May 2015 01:08:15 +0000</pubDate><guid>https://www.spidersoft.com.au/2015/google-cloud-storage-with-aws-libraries-go-lang/</guid><description>&lt;p&gt; 
  
  
  
  
- &lt;a href="https://cloud.google.com/storage/docs/overview">Google Cloud storage&lt;/a>
+ &lt;a href="https://cloud.google.com/storage/docs/overview"&gt;Google Cloud storage&lt;/a&gt;
   it’s Google answer to [Amazon S3][1] service. As long one of them is very popular 😉 Second wasn’t so successful amongst developers due to quite complex processes around service. Amazon is super simple, and developer friendly – Google… well not so easy. So the questions – why you may consider using GS instead of well documented, and super easy S3. Not many people realise but Google Cloud Storage is 
  
  
  
  
- &lt;a href="http://www.cloudberrylab.com/blog/amazon-s3-azure-and-google-cloud-prices-compare/">actually cheaper&lt;/a>
- . The other reason to use Google Storage is having different provider as a backup solution. Anyway – let’s show how easy is to use GS with existing S3 libraries.&lt;/p></description></item><item><title>How update Go library</title><link>https://www.spidersoft.com.au/2015/how-update-go-library/</link><pubDate>Tue, 05 May 2015 04:49:24 +0000</pubDate><guid>https://www.spidersoft.com.au/2015/how-update-go-library/</guid><description>&lt;p>Installation of go library is pretty simple:
-&lt;code>go get github.com/garyburd/redigo/redis&lt;/code>&lt;/p>
-&lt;p>From time to time, you want to get fresh version of it. If you run that command again it will NOT update the library – because it’s already there. To update it you need to use the &lt;code>-u&lt;/code> switch:&lt;/p>
-&lt;p>&lt;code>go get -u github.com/garyburd/redigo/redis&lt;/code>&lt;/p></description></item><item><title>What about angular alternatives</title><link>https://www.spidersoft.com.au/2015/what-about-angular-alternatives/</link><pubDate>Fri, 20 Mar 2015 05:56:58 +0000</pubDate><guid>https://www.spidersoft.com.au/2015/what-about-angular-alternatives/</guid><description>&lt;p>It’s my third post in “alternatives” series – this time i looked for something nicer then 
+ &lt;a href="http://www.cloudberrylab.com/blog/amazon-s3-azure-and-google-cloud-prices-compare/"&gt;actually cheaper&lt;/a&gt;
+ . The other reason to use Google Storage is having different provider as a backup solution. Anyway – let’s show how easy is to use GS with existing S3 libraries.&lt;/p&gt;</description></item><item><title>How update Go library</title><link>https://www.spidersoft.com.au/2015/how-update-go-library/</link><pubDate>Tue, 05 May 2015 04:49:24 +0000</pubDate><guid>https://www.spidersoft.com.au/2015/how-update-go-library/</guid><description>&lt;p&gt;Installation of go library is pretty simple:
+&lt;code&gt;go get github.com/garyburd/redigo/redis&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;From time to time, you want to get fresh version of it. If you run that command again it will NOT update the library – because it’s already there. To update it you need to use the &lt;code&gt;-u&lt;/code&gt; switch:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;go get -u github.com/garyburd/redigo/redis&lt;/code&gt;&lt;/p&gt;</description></item><item><title>What about angular alternatives</title><link>https://www.spidersoft.com.au/2015/what-about-angular-alternatives/</link><pubDate>Fri, 20 Mar 2015 05:56:58 +0000</pubDate><guid>https://www.spidersoft.com.au/2015/what-about-angular-alternatives/</guid><description>&lt;p&gt;It’s my third post in “alternatives” series – this time i looked for something nicer then 
  
  
  
  
- &lt;a href="https://angularjs.org">Angular&lt;/a>
- . Apparently Angular went the same path like all good and slim solutions. It’s getting slower and bigger. With this type of framework we have at least couple of options:&lt;/p></description></item><item><title>iOS Device Screen Sizes</title><link>https://www.spidersoft.com.au/2014/ios-device-screen-sizes/</link><pubDate>Sun, 30 Nov 2014 05:24:06 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/ios-device-screen-sizes/</guid><description>&lt;h2 id="cheat-sheet-with-ios-device-screen-sizes">Cheat sheet with iOS Device Screen Sizes&lt;/h2></description></item><item><title>Fetch page with proxy using The Go language</title><link>https://www.spidersoft.com.au/2014/fetch-page-with-proxy-using-the-go-language/</link><pubDate>Wed, 13 Aug 2014 06:16:24 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/fetch-page-with-proxy-using-the-go-language/</guid><description>&lt;p>For a while i’m playing with 
+ &lt;a href="https://angularjs.org"&gt;Angular&lt;/a&gt;
+ . Apparently Angular went the same path like all good and slim solutions. It’s getting slower and bigger. With this type of framework we have at least couple of options:&lt;/p&gt;</description></item><item><title>iOS Device Screen Sizes</title><link>https://www.spidersoft.com.au/2014/ios-device-screen-sizes/</link><pubDate>Sun, 30 Nov 2014 05:24:06 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/ios-device-screen-sizes/</guid><description>&lt;h2 id="cheat-sheet-with-ios-device-screen-sizes"&gt;Cheat sheet with iOS Device Screen Sizes&lt;/h2&gt;</description></item><item><title>Fetch page with proxy using The Go language</title><link>https://www.spidersoft.com.au/2014/fetch-page-with-proxy-using-the-go-language/</link><pubDate>Wed, 13 Aug 2014 06:16:24 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/fetch-page-with-proxy-using-the-go-language/</guid><description>&lt;p&gt;For a while i’m playing with 
  
  
  
  
- &lt;a href="http://golang.org/">The Go Programming Language&lt;/a>
- – so far I loved it. I figure out that I’ll push some code snippets from time to time.&lt;br>
-Today I spend some time creating simple not ever crawler, but website fetcher.&lt;/p>
-&lt;p>Idea is very simple – download page, run xpath query on it and spit out results. I was looking for decent xpath library for Go and couldn’t find any. I tried to use 
+ &lt;a href="http://golang.org/"&gt;The Go Programming Language&lt;/a&gt;
+ – so far I loved it. I figure out that I’ll push some code snippets from time to time.&lt;br&gt;
+Today I spend some time creating simple not ever crawler, but website fetcher.&lt;/p&gt;
+&lt;p&gt;Idea is very simple – download page, run xpath query on it and spit out results. I was looking for decent xpath library for Go and couldn’t find any. I tried to use 
  
  
  
  
- &lt;a href="http://gopkg.in/xmlpath.v2">xmlpath&lt;/a>
- but it sucks. I couldn’t even run queries like &lt;code>id('product-details')/div[@class='product-price']&amp;quot;&lt;/code> Then I found something nicer – 
+ &lt;a href="http://gopkg.in/xmlpath.v2"&gt;xmlpath&lt;/a&gt;
+ but it sucks. I couldn’t even run queries like &lt;code&gt;id('product-details')/div[@class='product-price']&amp;quot;&lt;/code&gt; Then I found something nicer – 
  
  
  
  
- &lt;a href="https://github.com/moovweb/gokogiri">Gokogiri&lt;/a>
+ &lt;a href="https://github.com/moovweb/gokogiri"&gt;Gokogiri&lt;/a&gt;
  – which works pretty nicely, but – couldn’t find any examples except this 
  
  
  
  
- &lt;a href="https://www.moovweb.com/blog/gokogiri-the-best-way-to-parse-xml-in-go/">small article&lt;/a>
- .&lt;/p>
-&lt;p>The only problem with running Gokogiri is that it uses &lt;code>libxml2&lt;/code> which is not a huge problem on Linux based systems, but on Mac OS X you have to install it via 
+ &lt;a href="https://www.moovweb.com/blog/gokogiri-the-best-way-to-parse-xml-in-go/"&gt;small article&lt;/a&gt;
+ .&lt;/p&gt;
+&lt;p&gt;The only problem with running Gokogiri is that it uses &lt;code&gt;libxml2&lt;/code&gt; which is not a huge problem on Linux based systems, but on Mac OS X you have to install it via 
  
  
  
  
- &lt;a href="http://brew.sh/">homebrew&lt;/a>
- &lt;br>
-&lt;code>brew install libxml2&lt;/code>&lt;/p></description></item></channel></rss>
+ &lt;a href="http://brew.sh/"&gt;homebrew&lt;/a&gt;
+ &lt;br&gt;
+&lt;code&gt;brew install libxml2&lt;/code&gt;&lt;/p&gt;</description></item></channel></rss>

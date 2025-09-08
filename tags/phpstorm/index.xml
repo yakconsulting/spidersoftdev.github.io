@@ -1,19 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Phpstorm on SpiderSoft</title><link>https://www.spidersoft.com.au/tags/phpstorm/</link><description>Recent content in Phpstorm on SpiderSoft</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 03 Sep 2021 13:06:00 +0000</lastBuildDate><atom:link href="https://www.spidersoft.com.au/tags/phpstorm/index.xml" rel="self" type="application/rss+xml"/><item><title>How to replace all links in html to markup</title><link>https://www.spidersoft.com.au/2021/how-to-replace-all-links-in-html-to-markup/</link><pubDate>Fri, 03 Sep 2021 13:06:00 +0000</pubDate><guid>https://www.spidersoft.com.au/2021/how-to-replace-all-links-in-html-to-markup/</guid><description>&lt;p>I recently moved my blog from WordPress to 
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Phpstorm on SpiderSoft</title><link>https://www.spidersoft.com.au/tags/phpstorm/</link><description>Recent content in Phpstorm on SpiderSoft</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 03 Sep 2021 13:06:00 +0000</lastBuildDate><atom:link href="https://www.spidersoft.com.au/tags/phpstorm/index.xml" rel="self" type="application/rss+xml"/><item><title>How to replace all links in html to markup</title><link>https://www.spidersoft.com.au/2021/how-to-replace-all-links-in-html-to-markup/</link><pubDate>Fri, 03 Sep 2021 13:06:00 +0000</pubDate><guid>https://www.spidersoft.com.au/2021/how-to-replace-all-links-in-html-to-markup/</guid><description>&lt;p&gt;I recently moved my blog from WordPress to 
  
  
  
  
- &lt;a href="https://gohugo.io">Hugo&lt;/a>
- , which involved a lot of content fixing. One of the problems was that not all HTML code was correctly transferred to markup during the export. So I needed fix (replace) all pending &lt;code>&amp;lt;a href=&amp;quot;https://spidersoft.com.au&amp;quot;&amp;gt;spidersoft&amp;lt;/a&amp;gt;&lt;/code> to &lt;code>[spidersoft](https://spidersoft.com.au)&lt;/code>.&lt;/p>
-&lt;p>What we need are just two simple regular expressions.&lt;/p>
-&lt;p>One to find links
-&lt;code>&amp;lt;a.*?href=&amp;quot;(.+?)&amp;quot;.*?&amp;gt;(.+?)&amp;lt;/a&amp;gt;&lt;/code>&lt;/p>
-&lt;p>Second one to replace them in reverse order
-&lt;code>[$2]($1)&lt;/code>&lt;/p>
-&lt;p>You can run this in basically any IDE - 
+ &lt;a href="https://gohugo.io"&gt;Hugo&lt;/a&gt;
+ , which involved a lot of content fixing. One of the problems was that not all HTML code was correctly transferred to markup during the export. So I needed fix (replace) all pending &lt;code&gt;&amp;lt;a href=&amp;quot;https://spidersoft.com.au&amp;quot;&amp;gt;spidersoft&amp;lt;/a&amp;gt;&lt;/code&gt; to &lt;code&gt;[spidersoft](https://spidersoft.com.au)&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;What we need are just two simple regular expressions.&lt;/p&gt;
+&lt;p&gt;One to find links
+&lt;code&gt;&amp;lt;a.*?href=&amp;quot;(.+?)&amp;quot;.*?&amp;gt;(.+?)&amp;lt;/a&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Second one to replace them in reverse order
+&lt;code&gt;[$2]($1)&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;You can run this in basically any IDE - 
  
  
  
  
- &lt;a href="https://www.sublimetext.com">Sublime&lt;/a>
- will do the job, I was using PHPStorm&lt;/p></description></item></channel></rss>
+ &lt;a href="https://www.sublimetext.com"&gt;Sublime&lt;/a&gt;
+ will do the job, I was using PHPStorm&lt;/p&gt;</description></item></channel></rss>

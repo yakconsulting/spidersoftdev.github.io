@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Yosemite on SpiderSoft</title><link>https://www.spidersoft.com.au/tags/yosemite/</link><description>Recent content in Yosemite on SpiderSoft</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 29 Oct 2014 03:27:31 +0000</lastBuildDate><atom:link href="https://www.spidersoft.com.au/tags/yosemite/index.xml" rel="self" type="application/rss+xml"/><item><title>Apache and PHP on OS X Yosemite</title><link>https://www.spidersoft.com.au/2014/apache-and-php-on-os-x-yosemite/</link><pubDate>Wed, 29 Oct 2014 03:27:31 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/apache-and-php-on-os-x-yosemite/</guid><description>&lt;p>It’s just a short instructions how to run Apache and PHP on OS X Yosemite.&lt;/p>
-&lt;p>PHP and Apache are already there – just need to run Apache and enable PHP. Video showing up whole process is available here:&lt;/p>
-&lt;p>Here you can check out exact changes.&lt;/p>
-&lt;p>Firsting first – we have to run Apache&lt;/p>
-&lt;p>&lt;code>sudo apachectl start&lt;/code>&lt;/p>
-&lt;p>Then make some changes in httpd.conf file&lt;/p>
-&lt;p>&lt;code>sudo nano /etc/apache2/httpd.conf&lt;/code>&lt;/p>
-&lt;p>Find two lines&lt;/p>
-&lt;pre tabindex="0">&lt;code>LoadModule rewrite_module libexec/apache2/mod_rewrite.so
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Yosemite on SpiderSoft</title><link>https://www.spidersoft.com.au/tags/yosemite/</link><description>Recent content in Yosemite on SpiderSoft</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 29 Oct 2014 03:27:31 +0000</lastBuildDate><atom:link href="https://www.spidersoft.com.au/tags/yosemite/index.xml" rel="self" type="application/rss+xml"/><item><title>Apache and PHP on OS X Yosemite</title><link>https://www.spidersoft.com.au/2014/apache-and-php-on-os-x-yosemite/</link><pubDate>Wed, 29 Oct 2014 03:27:31 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/apache-and-php-on-os-x-yosemite/</guid><description>&lt;p&gt;It’s just a short instructions how to run Apache and PHP on OS X Yosemite.&lt;/p&gt;
+&lt;p&gt;PHP and Apache are already there – just need to run Apache and enable PHP. Video showing up whole process is available here:&lt;/p&gt;
+&lt;p&gt;Here you can check out exact changes.&lt;/p&gt;
+&lt;p&gt;Firsting first – we have to run Apache&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;sudo apachectl start&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Then make some changes in httpd.conf file&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;sudo nano /etc/apache2/httpd.conf&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Find two lines&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;LoadModule rewrite_module libexec/apache2/mod_rewrite.so
 LoadModule php5_module libexec/apache2/libphp5.so
-&lt;/code>&lt;/pre>&lt;p>and uncomment them. To enable PHP and mod_rewrite.&lt;br>
-And then restart Apache –&lt;/p></description></item></channel></rss>
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;and uncomment them. To enable PHP and mod_rewrite.&lt;br&gt;
+And then restart Apache –&lt;/p&gt;</description></item></channel></rss>

@@ -1,254 +1,257 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Web Development on SpiderSoft</title><link>https://www.spidersoft.com.au/categories/web-development/</link><description>Recent content in Web Development on SpiderSoft</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 30 Apr 2025 11:35:59 +0200</lastBuildDate><atom:link href="https://www.spidersoft.com.au/categories/web-development/index.xml" rel="self" type="application/rss+xml"/><item><title>Level Up Your Go Web Server: Mastering Advanced Routing with net/http</title><link>https://www.spidersoft.com.au/posts/2025-04-30-golang-http/</link><pubDate>Wed, 30 Apr 2025 11:35:59 +0200</pubDate><guid>https://www.spidersoft.com.au/posts/2025-04-30-golang-http/</guid><description>&lt;h1 id="level-up-your-go-web-server-mastering-advanced-routing-with-nethttp">Level Up Your Go Web Server: Mastering Advanced Routing with &lt;code>net/http&lt;/code>&lt;/h1>
-&lt;p>Building robust and maintainable web applications in Go often hinges on how effectively you manage incoming HTTP requests. While Go&amp;rsquo;s built-in &lt;code>net/http&lt;/code> package provides foundational tools, its advanced routing features empower you to create sophisticated and organized application logic. This article will guide you through practical code examples for path parameters, HTTP method constraints, host-based routing, middleware, sub-routing, and context-elevating your Go web server development.&lt;/p></description></item><item><title>Setting Up Cloudflare Tunnel: A Modern Alternative to Ngrok</title><link>https://www.spidersoft.com.au/posts/2025-01-16-ngrok-alternative/</link><pubDate>Thu, 16 Jan 2025 10:00:00 +0000</pubDate><guid>https://www.spidersoft.com.au/posts/2025-01-16-ngrok-alternative/</guid><description>&lt;h1 id="quick-and-free-way-to-share-your-local-docker-service-with-clients">Quick and Free Way to Share Your Local Docker Service with Clients&lt;/h1>
-&lt;p>Ever been in that situation where you&amp;rsquo;ve built something cool in Docker and want to quickly show it to your client? Yeah, me too. Recently, I was wrapping up a database admin panel project and needed a way to let my client review it before the final deployment.&lt;/p>
-&lt;p>My go-to solution used to be Ngrok. It works, but the free tier gives you random URLs that look like &lt;code>8f4d-192-158-1-38.ngrok.io&lt;/code>. Not very professional when sending to clients, right? Plus, these URLs change every time you restart the tunnel.&lt;/p></description></item><item><title>Streamline Your Web Content Extraction with Readability</title><link>https://www.spidersoft.com.au/posts/2025-01-06-readability/</link><pubDate>Mon, 06 Jan 2025 02:11:06 +0000</pubDate><guid>https://www.spidersoft.com.au/posts/2025-01-06-readability/</guid><description>&lt;p>I&amp;rsquo;d like to share 
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Web Development on SpiderSoft</title><link>https://www.spidersoft.com.au/categories/web-development/</link><description>Recent content in Web Development on SpiderSoft</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 08 Sep 2025 10:00:00 +0200</lastBuildDate><atom:link href="https://www.spidersoft.com.au/categories/web-development/index.xml" rel="self" type="application/rss+xml"/><item><title>How to Get Real Client IPs in Fiber When Using a Reverse Proxy</title><link>https://www.spidersoft.com.au/posts/2025-08-09-fiber-proxy/</link><pubDate>Mon, 08 Sep 2025 10:00:00 +0200</pubDate><guid>https://www.spidersoft.com.au/posts/2025-08-09-fiber-proxy/</guid><description>&lt;h1 id="getting-real-client-ips-in-fiber-behind-a-proxy"&gt;Getting Real Client IPs in Fiber Behind a Proxy&lt;/h1&gt;
+&lt;p&gt;When your Fiber application runs behind a reverse proxy like Caddy, Nginx, or Cloudflare, you&amp;rsquo;ll notice that &lt;code&gt;c.IP()&lt;/code&gt; returns the proxy&amp;rsquo;s IP address instead of your actual visitor&amp;rsquo;s IP. This happens because Fiber sees the direct connection, which is from the proxy server, not the original client.&lt;/p&gt;
+&lt;h2 id="why-this-happens"&gt;Why This Happens&lt;/h2&gt;
+&lt;p&gt;By default, Fiber reads the IP from the direct TCP connection for security reasons. Without proper configuration, it doesn&amp;rsquo;t know there&amp;rsquo;s a trusted proxy in front of it passing along the real client information in HTTP headers.&lt;/p&gt;</description></item><item><title>Level Up Your Go Web Server: Mastering Advanced Routing with net/http</title><link>https://www.spidersoft.com.au/posts/2025-04-30-golang-http/</link><pubDate>Wed, 30 Apr 2025 11:35:59 +0200</pubDate><guid>https://www.spidersoft.com.au/posts/2025-04-30-golang-http/</guid><description>&lt;h1 id="level-up-your-go-web-server-mastering-advanced-routing-with-nethttp"&gt;Level Up Your Go Web Server: Mastering Advanced Routing with &lt;code&gt;net/http&lt;/code&gt;&lt;/h1&gt;
+&lt;p&gt;Building robust and maintainable web applications in Go often hinges on how effectively you manage incoming HTTP requests. While Go&amp;rsquo;s built-in &lt;code&gt;net/http&lt;/code&gt; package provides foundational tools, its advanced routing features empower you to create sophisticated and organized application logic. This article will guide you through practical code examples for path parameters, HTTP method constraints, host-based routing, middleware, sub-routing, and context-elevating your Go web server development.&lt;/p&gt;</description></item><item><title>Setting Up Cloudflare Tunnel: A Modern Alternative to Ngrok</title><link>https://www.spidersoft.com.au/posts/2025-01-16-ngrok-alternative/</link><pubDate>Thu, 16 Jan 2025 10:00:00 +0000</pubDate><guid>https://www.spidersoft.com.au/posts/2025-01-16-ngrok-alternative/</guid><description>&lt;h1 id="quick-and-free-way-to-share-your-local-docker-service-with-clients"&gt;Quick and Free Way to Share Your Local Docker Service with Clients&lt;/h1&gt;
+&lt;p&gt;Ever been in that situation where you&amp;rsquo;ve built something cool in Docker and want to quickly show it to your client? Yeah, me too. Recently, I was wrapping up a database admin panel project and needed a way to let my client review it before the final deployment.&lt;/p&gt;
+&lt;p&gt;My go-to solution used to be Ngrok. It works, but the free tier gives you random URLs that look like &lt;code&gt;8f4d-192-158-1-38.ngrok.io&lt;/code&gt;. Not very professional when sending to clients, right? Plus, these URLs change every time you restart the tunnel.&lt;/p&gt;</description></item><item><title>Streamline Your Web Content Extraction with Readability</title><link>https://www.spidersoft.com.au/posts/2025-01-06-readability/</link><pubDate>Mon, 06 Jan 2025 02:11:06 +0000</pubDate><guid>https://www.spidersoft.com.au/posts/2025-01-06-readability/</guid><description>&lt;p&gt;I&amp;rsquo;d like to share 
  
  
- &lt;a href="https://www.spidersoft.com.au/projects/readability/" target="_blank" rel="noopener">Readability&lt;/a>
- , a tool I&amp;rsquo;ve developed and refined over time. Its primary focus has always been straightforward: find the most prominent image on any webpage while keeping the overhead minimal.&lt;/p>
-&lt;h2 id="core-focus-image-detection">Core Focus: Image Detection&lt;/h2>
-&lt;p>The main strength of Readability lies in its image detection capabilities. While many similar tools try to do everything, I focused on solving one specific problem really well: finding the most prominent image on a page through dimensional analysis. The approach is simple yet effective:&lt;/p></description></item><item><title>Caddy &amp; Error code SEC_ERROR_REVOKED_CERTIFICATE</title><link>https://www.spidersoft.com.au/2022/caddy-ssl-error/</link><pubDate>Mon, 31 Jan 2022 08:30:00 +0000</pubDate><guid>https://www.spidersoft.com.au/2022/caddy-ssl-error/</guid><description>&lt;p>Recently I had a problem with my 
- 
- 
- 
- 
- &lt;a href="https://caddyserver.com/">Caddy server&lt;/a>
- . I wasn&amp;rsquo;t aware that it&amp;rsquo;s related to Caddy - the initial thought was that something went wrong with the SSL certificate. But I was wrong. The message was pretty &amp;ldquo;platonic&amp;rdquo;&lt;/p>
-&lt;p>&lt;code>Error code: SEC_ERROR_REVOKED_CERTIFICATE&lt;/code>&lt;/p></description></item><item><title>Web Server on AMI Linux 2</title><link>https://www.spidersoft.com.au/2019/web-server-on-ami-linux-2/</link><pubDate>Mon, 28 Jan 2019 09:46:20 +0000</pubDate><guid>https://www.spidersoft.com.au/2019/web-server-on-ami-linux-2/</guid><description>&lt;p>Welcome in 2019 – it’s time to upgrade out outdated LAMP stack series articles, with new “How To” setup basic web server for our stack.&lt;/p></description></item><item><title>HTML5 Video tag, and webm</title><link>https://www.spidersoft.com.au/2019/html5-video-tag-and-webm/</link><pubDate>Mon, 14 Jan 2019 10:58:34 +0000</pubDate><guid>https://www.spidersoft.com.au/2019/html5-video-tag-and-webm/</guid><description>&lt;p>In ancient times, when youtube was born, we didn’t have a VIDEO tag. We used to have Flash. To play video on the website, we had to convert it to weird Flash video format, leave mp4 for safety and hope that everything would work fine. Later on, when HTML5 became an industry standard, our lives became much easier.&lt;/p>
-&lt;p>In theory, VIDEO tag solves all our issues. When the browser can handle webm (Chrome family) we play webm. If we deal with other browsers – mp4 should work for us. So let’s test our theory.&lt;/p></description></item><item><title>iframe won’t display content..</title><link>https://www.spidersoft.com.au/2018/iframe-wont-display-content/</link><pubDate>Thu, 29 Nov 2018 09:40:18 +0000</pubDate><guid>https://www.spidersoft.com.au/2018/iframe-wont-display-content/</guid><description>&lt;p>There is a website, with iframe. I frame source is correct, but won’t display content of the website. No visible errors. There only small detail in the console:&lt;/p>
-&lt;p>&lt;code>Load denied by X-Frame-Options: https://... does not permit cross-origin framing. &lt;/code>&lt;/p>
-&lt;p>Some crazy admin figure out that it&amp;rsquo;s going to be better… and put some crazy code into headers:&lt;/p>
-&lt;p>&lt;code>X-Frame-Options: SAMEORIGINX-XSS-Protection: 1; mode=blockX-Content-Type-Options: nosniff&lt;/code>&lt;/p>
-&lt;p>Solution: talk to the hand, because admin won&amp;rsquo;t listen ;P&lt;/p></description></item><item><title>How to run cross browser testing cheaply</title><link>https://www.spidersoft.com.au/2018/how-to-run-cross-browser-testing-cheaply/</link><pubDate>Wed, 30 May 2018 10:35:59 +0000</pubDate><guid>https://www.spidersoft.com.au/2018/how-to-run-cross-browser-testing-cheaply/</guid><description>&lt;p>Cross browser testing is a standard part of the testing process. No matter what you build – small page, online form or huge service. It’s really important to test it across multiple browsers.&lt;/p></description></item><item><title>Setting up caddy server for wordpress</title><link>https://www.spidersoft.com.au/2016/setting-up-caddy-server-for-wordpress/</link><pubDate>Mon, 08 Feb 2016 09:03:34 +0000</pubDate><guid>https://www.spidersoft.com.au/2016/setting-up-caddy-server-for-wordpress/</guid><description>&lt;p> 
+ &lt;a href="https://www.spidersoft.com.au/projects/readability/" target="_blank" rel="noopener"&gt;Readability&lt;/a&gt;
+ , a tool I&amp;rsquo;ve developed and refined over time. Its primary focus has always been straightforward: find the most prominent image on any webpage while keeping the overhead minimal.&lt;/p&gt;
+&lt;h2 id="core-focus-image-detection"&gt;Core Focus: Image Detection&lt;/h2&gt;
+&lt;p&gt;The main strength of Readability lies in its image detection capabilities. While many similar tools try to do everything, I focused on solving one specific problem really well: finding the most prominent image on a page through dimensional analysis. The approach is simple yet effective:&lt;/p&gt;</description></item><item><title>Caddy &amp; Error code SEC_ERROR_REVOKED_CERTIFICATE</title><link>https://www.spidersoft.com.au/2022/caddy-ssl-error/</link><pubDate>Mon, 31 Jan 2022 08:30:00 +0000</pubDate><guid>https://www.spidersoft.com.au/2022/caddy-ssl-error/</guid><description>&lt;p&gt;Recently I had a problem with my 
  
  
  
  
- &lt;a href="https://caddyserver.com">Caddy&lt;/a>
+ &lt;a href="https://caddyserver.com/"&gt;Caddy server&lt;/a&gt;
+ . I wasn&amp;rsquo;t aware that it&amp;rsquo;s related to Caddy - the initial thought was that something went wrong with the SSL certificate. But I was wrong. The message was pretty &amp;ldquo;platonic&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Error code: SEC_ERROR_REVOKED_CERTIFICATE&lt;/code&gt;&lt;/p&gt;</description></item><item><title>Web Server on AMI Linux 2</title><link>https://www.spidersoft.com.au/2019/web-server-on-ami-linux-2/</link><pubDate>Mon, 28 Jan 2019 09:46:20 +0000</pubDate><guid>https://www.spidersoft.com.au/2019/web-server-on-ami-linux-2/</guid><description>&lt;p&gt;Welcome in 2019 – it’s time to upgrade out outdated LAMP stack series articles, with new “How To” setup basic web server for our stack.&lt;/p&gt;</description></item><item><title>HTML5 Video tag, and webm</title><link>https://www.spidersoft.com.au/2019/html5-video-tag-and-webm/</link><pubDate>Mon, 14 Jan 2019 10:58:34 +0000</pubDate><guid>https://www.spidersoft.com.au/2019/html5-video-tag-and-webm/</guid><description>&lt;p&gt;In ancient times, when youtube was born, we didn’t have a VIDEO tag. We used to have Flash. To play video on the website, we had to convert it to weird Flash video format, leave mp4 for safety and hope that everything would work fine. Later on, when HTML5 became an industry standard, our lives became much easier.&lt;/p&gt;
+&lt;p&gt;In theory, VIDEO tag solves all our issues. When the browser can handle webm (Chrome family) we play webm. If we deal with other browsers – mp4 should work for us. So let’s test our theory.&lt;/p&gt;</description></item><item><title>iframe won’t display content..</title><link>https://www.spidersoft.com.au/2018/iframe-wont-display-content/</link><pubDate>Thu, 29 Nov 2018 09:40:18 +0000</pubDate><guid>https://www.spidersoft.com.au/2018/iframe-wont-display-content/</guid><description>&lt;p&gt;There is a website, with iframe. I frame source is correct, but won’t display content of the website. No visible errors. There only small detail in the console:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Load denied by X-Frame-Options: https://... does not permit cross-origin framing. &lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Some crazy admin figure out that it&amp;rsquo;s going to be better… and put some crazy code into headers:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;X-Frame-Options: SAMEORIGINX-XSS-Protection: 1; mode=blockX-Content-Type-Options: nosniff&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Solution: talk to the hand, because admin won&amp;rsquo;t listen ;P&lt;/p&gt;</description></item><item><title>How to run cross browser testing cheaply</title><link>https://www.spidersoft.com.au/2018/how-to-run-cross-browser-testing-cheaply/</link><pubDate>Wed, 30 May 2018 10:35:59 +0000</pubDate><guid>https://www.spidersoft.com.au/2018/how-to-run-cross-browser-testing-cheaply/</guid><description>&lt;p&gt;Cross browser testing is a standard part of the testing process. No matter what you build – small page, online form or huge service. It’s really important to test it across multiple browsers.&lt;/p&gt;</description></item><item><title>Setting up caddy server for wordpress</title><link>https://www.spidersoft.com.au/2016/setting-up-caddy-server-for-wordpress/</link><pubDate>Mon, 08 Feb 2016 09:03:34 +0000</pubDate><guid>https://www.spidersoft.com.au/2016/setting-up-caddy-server-for-wordpress/</guid><description>&lt;p&gt; 
+ 
+ 
+ 
+ 
+ &lt;a href="https://caddyserver.com"&gt;Caddy&lt;/a&gt;
  is a another alternative to 
  
  
  
  
- &lt;a href="https://httpd.apache.org">Apache&lt;/a>
+ &lt;a href="https://httpd.apache.org"&gt;Apache&lt;/a&gt;
  or 
  
  
  
  
- &lt;a href="http://nginx.org">nginx&lt;/a>
- . For me the biggest advantage is that it’s only one binary file to work with. It’s easy to run, setup and just “works”. It’s super modern – handles HTTP2 and automatic HTTPS encryption using let’s encrypt certificates. Obviously it has plenty of other features but we focus only on speed of deployment.&lt;/p></description></item><item><title>iOS Device Screen Sizes</title><link>https://www.spidersoft.com.au/2014/ios-device-screen-sizes/</link><pubDate>Sun, 30 Nov 2014 05:24:06 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/ios-device-screen-sizes/</guid><description>&lt;h2 id="cheat-sheet-with-ios-device-screen-sizes">Cheat sheet with iOS Device Screen Sizes&lt;/h2></description></item><item><title>Phalcon is a new PHP Framework of my choice</title><link>https://www.spidersoft.com.au/2014/phalcon-is-a-new-php-framework-of-my-choice/</link><pubDate>Fri, 27 Jun 2014 07:11:17 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/phalcon-is-a-new-php-framework-of-my-choice/</guid><description>&lt;p>I’m working on multiple PHP based projects. Most of them using 
+ &lt;a href="http://nginx.org"&gt;nginx&lt;/a&gt;
+ . For me the biggest advantage is that it’s only one binary file to work with. It’s easy to run, setup and just “works”. It’s super modern – handles HTTP2 and automatic HTTPS encryption using let’s encrypt certificates. Obviously it has plenty of other features but we focus only on speed of deployment.&lt;/p&gt;</description></item><item><title>iOS Device Screen Sizes</title><link>https://www.spidersoft.com.au/2014/ios-device-screen-sizes/</link><pubDate>Sun, 30 Nov 2014 05:24:06 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/ios-device-screen-sizes/</guid><description>&lt;h2 id="cheat-sheet-with-ios-device-screen-sizes"&gt;Cheat sheet with iOS Device Screen Sizes&lt;/h2&gt;</description></item><item><title>Phalcon is a new PHP Framework of my choice</title><link>https://www.spidersoft.com.au/2014/phalcon-is-a-new-php-framework-of-my-choice/</link><pubDate>Fri, 27 Jun 2014 07:11:17 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/phalcon-is-a-new-php-framework-of-my-choice/</guid><description>&lt;p&gt;I’m working on multiple PHP based projects. Most of them using 
  
  
  
  
- &lt;a href="http://ellislab.com/codeigniter">CodeIgniter&lt;/a>
+ &lt;a href="http://ellislab.com/codeigniter"&gt;CodeIgniter&lt;/a&gt;
  as a base framework. I mastered it into stage, where has no secrets for me. The problem is that I also know disadvantages of this bit outdated framework. Recently core 
  
  
  
  
- &lt;a href="http://ellislab.com/blog/entry/ellislab-seeking-new-owner-for-codeigniter">team announced&lt;/a>
- that they are dropping future development so it means that CI is dead. Doesn’t mean that I don’t like it anymore. I just started looking for something new.&lt;/p>
-&lt;p>I like CI because I got control over everything. Modern PHP frameworks trying to solve all problems for you. It’s amazing, but lack of control is what you don’t need in when you developing projects. What do you need it’s this easy flow during development process. Full control over your MVC structure, but also a lot of “help” from framework itself.&lt;/p></description></item><item><title>Top Screen Resolutions</title><link>https://www.spidersoft.com.au/2013/top-screen-resolutions/</link><pubDate>Tue, 03 Dec 2013 06:20:01 +0000</pubDate><guid>https://www.spidersoft.com.au/2013/top-screen-resolutions/</guid><description>&lt;p>Quite often we are asking this simple question. Where we can answer for that ? On this website:  
+ &lt;a href="http://ellislab.com/blog/entry/ellislab-seeking-new-owner-for-codeigniter"&gt;team announced&lt;/a&gt;
+ that they are dropping future development so it means that CI is dead. Doesn’t mean that I don’t like it anymore. I just started looking for something new.&lt;/p&gt;
+&lt;p&gt;I like CI because I got control over everything. Modern PHP frameworks trying to solve all problems for you. It’s amazing, but lack of control is what you don’t need in when you developing projects. What do you need it’s this easy flow during development process. Full control over your MVC structure, but also a lot of “help” from framework itself.&lt;/p&gt;</description></item><item><title>Top Screen Resolutions</title><link>https://www.spidersoft.com.au/2013/top-screen-resolutions/</link><pubDate>Tue, 03 Dec 2013 06:20:01 +0000</pubDate><guid>https://www.spidersoft.com.au/2013/top-screen-resolutions/</guid><description>&lt;p&gt;Quite often we are asking this simple question. Where we can answer for that ? On this website:  
  
  
  
  
- &lt;a href="http://gs.statcounter.com/">gs.statcounter.com&lt;/a>
- &lt;/p></description></item><item><title>Latest discoveries</title><link>https://www.spidersoft.com.au/2013/latest-discoveries/</link><pubDate>Tue, 15 Oct 2013 22:08:54 +0000</pubDate><guid>https://www.spidersoft.com.au/2013/latest-discoveries/</guid><description>&lt;h2 id="codeception">Codeception&lt;/h2>
-&lt;p>Modern PHP testing for everyone  
+ &lt;a href="http://gs.statcounter.com/"&gt;gs.statcounter.com&lt;/a&gt;
+ &lt;/p&gt;</description></item><item><title>Latest discoveries</title><link>https://www.spidersoft.com.au/2013/latest-discoveries/</link><pubDate>Tue, 15 Oct 2013 22:08:54 +0000</pubDate><guid>https://www.spidersoft.com.au/2013/latest-discoveries/</guid><description>&lt;h2 id="codeception"&gt;Codeception&lt;/h2&gt;
+&lt;p&gt;Modern PHP testing for everyone  
  
  
  
  
- &lt;a href="http://codeception.com/">codeception.com&lt;/a>
- &lt;/p>
-&lt;h2 id="fileapi">FileAPI&lt;/h2>
-&lt;p>FileAPI — a set of javascript tools for working with files. Multiupload, drag’n’drop and chunked file upload. Images: crop, resize and auto orientation by EXIF  
+ &lt;a href="http://codeception.com/"&gt;codeception.com&lt;/a&gt;
+ &lt;/p&gt;
+&lt;h2 id="fileapi"&gt;FileAPI&lt;/h2&gt;
+&lt;p&gt;FileAPI — a set of javascript tools for working with files. Multiupload, drag’n’drop and chunked file upload. Images: crop, resize and auto orientation by EXIF  
  
  
  
  
- &lt;a href="https://github.com/mailru/FileAPI">github.com/mailru/FileAPI&lt;/a>
- &lt;/p>
-&lt;h2 id="rainloop">RainLoop&lt;/h2>
-&lt;p>FREE, MODERN &amp;amp; FAST WEB-BASED EMAIL CLIENT  
+ &lt;a href="https://github.com/mailru/FileAPI"&gt;github.com/mailru/FileAPI&lt;/a&gt;
+ &lt;/p&gt;
+&lt;h2 id="rainloop"&gt;RainLoop&lt;/h2&gt;
+&lt;p&gt;FREE, MODERN &amp;amp; FAST WEB-BASED EMAIL CLIENT  
  
  
  
  
- &lt;a href="http://rainloop.net/">rainloop.net&lt;/a>
- &lt;/p>
-&lt;h2 id="animated-checkboxes">ANIMATED CHECKBOXES&lt;/h2>
-&lt;p>ANIMATED CHECKBOXES AND RADIO BUTTONS WITH SVG 
+ &lt;a href="http://rainloop.net/"&gt;rainloop.net&lt;/a&gt;
+ &lt;/p&gt;
+&lt;h2 id="animated-checkboxes"&gt;ANIMATED CHECKBOXES&lt;/h2&gt;
+&lt;p&gt;ANIMATED CHECKBOXES AND RADIO BUTTONS WITH SVG 
  
  
  
  
- &lt;a href="http://tympanus.net/codrops/2013/10/15/animated-checkboxes-and-radio-buttons-with-svg/">tympanus.net&lt;/a>
- &lt;/p>
-&lt;h2 id="odometer">Odometer&lt;/h2>
-&lt;p>TRANSITION NUMBERS WITH EASE   
+ &lt;a href="http://tympanus.net/codrops/2013/10/15/animated-checkboxes-and-radio-buttons-with-svg/"&gt;tympanus.net&lt;/a&gt;
+ &lt;/p&gt;
+&lt;h2 id="odometer"&gt;Odometer&lt;/h2&gt;
+&lt;p&gt;TRANSITION NUMBERS WITH EASE   
  
  
  
  
- &lt;a href="http://github.hubspot.com/odometer/docs/welcome/">github.hubspot.com/odometer/docs/welcome/&lt;/a>
- &lt;/p></description></item><item><title>Image Maps</title><link>https://www.spidersoft.com.au/2013/image-maps/</link><pubDate>Sat, 20 Apr 2013 00:17:29 +0000</pubDate><guid>https://www.spidersoft.com.au/2013/image-maps/</guid><description>&lt;p> 
+ &lt;a href="http://github.hubspot.com/odometer/docs/welcome/"&gt;github.hubspot.com/odometer/docs/welcome/&lt;/a&gt;
+ &lt;/p&gt;</description></item><item><title>Image Maps</title><link>https://www.spidersoft.com.au/2013/image-maps/</link><pubDate>Sat, 20 Apr 2013 00:17:29 +0000</pubDate><guid>https://www.spidersoft.com.au/2013/image-maps/</guid><description>&lt;p&gt; 
  
  
  
  
- &lt;a href="http://en.wikipedia.org/wiki/Image_maps">Image Maps&lt;/a>
- is quite ancient technology (1993!) to create “clickable” areas on images. Sometimes there is just no other way to handle some some images. Recently I found quite useful tool to create them.&lt;/p></description></item><item><title>Send and receive emails via API</title><link>https://www.spidersoft.com.au/2013/send-and-receive-emails-via-api/</link><pubDate>Mon, 25 Mar 2013 03:39:56 +0000</pubDate><guid>https://www.spidersoft.com.au/2013/send-and-receive-emails-via-api/</guid><description>&lt;p>It’s coming with experience. On the beginning you always trying to do everything by your self. No frameworks, no libraries – bare bone solutions written from the scratch. Later – you realising than your time is to expensive, and start using some libraries. After another period of time you are getting to the point, that you are willing to use as many existing solutions as it’s possible.&lt;/p>
-&lt;p>Really typical problem – sending and receiving emails from the apps. Of course – you can send emails using simple 
+ &lt;a href="http://en.wikipedia.org/wiki/Image_maps"&gt;Image Maps&lt;/a&gt;
+ is quite ancient technology (1993!) to create “clickable” areas on images. Sometimes there is just no other way to handle some some images. Recently I found quite useful tool to create them.&lt;/p&gt;</description></item><item><title>Send and receive emails via API</title><link>https://www.spidersoft.com.au/2013/send-and-receive-emails-via-api/</link><pubDate>Mon, 25 Mar 2013 03:39:56 +0000</pubDate><guid>https://www.spidersoft.com.au/2013/send-and-receive-emails-via-api/</guid><description>&lt;p&gt;It’s coming with experience. On the beginning you always trying to do everything by your self. No frameworks, no libraries – bare bone solutions written from the scratch. Later – you realising than your time is to expensive, and start using some libraries. After another period of time you are getting to the point, that you are willing to use as many existing solutions as it’s possible.&lt;/p&gt;
+&lt;p&gt;Really typical problem – sending and receiving emails from the apps. Of course – you can send emails using simple 
  
  
  
  
- &lt;a href="http://www.php.net/manual/en/function.mail.php" title="PHP mail">mail&lt;/a>
+ &lt;a href="http://www.php.net/manual/en/function.mail.php" title="PHP mail"&gt;mail&lt;/a&gt;
  () command or using more sophisticated libraries like 
  
  
  
  
- &lt;a href="http://swiftmailer.org/">Swiftmailer&lt;/a>
- but… if there is an option to use API, you can chose from couples:&lt;/p></description></item><item><title>CSS Sprites online tools</title><link>https://www.spidersoft.com.au/2013/css-sprites-online-tools/</link><pubDate>Sun, 17 Mar 2013 10:26:01 +0000</pubDate><guid>https://www.spidersoft.com.au/2013/css-sprites-online-tools/</guid><description>&lt;p> 
+ &lt;a href="http://swiftmailer.org/"&gt;Swiftmailer&lt;/a&gt;
+ but… if there is an option to use API, you can chose from couples:&lt;/p&gt;</description></item><item><title>CSS Sprites online tools</title><link>https://www.spidersoft.com.au/2013/css-sprites-online-tools/</link><pubDate>Sun, 17 Mar 2013 10:26:01 +0000</pubDate><guid>https://www.spidersoft.com.au/2013/css-sprites-online-tools/</guid><description>&lt;p&gt; 
  
  
  
  
- &lt;a href="http://en.wikipedia.org/wiki/Sprite_%28computer_graphics%29#Sprites_by_CSS">CSS Sprites&lt;/a>
-  it was a very popular technique for a long time. Biggest benefit from it: reduce number of the requestes to the server, and speedup whole website / loading image assets. Working with CSS slides is really painful  Usually you are starting from PSD then you have to decouple them to separate images, then merge them again to one image, and then mark position of each element in the CSS file.&lt;/p>
-&lt;p>Couple useful tools to work with:&lt;/p></description></item><item><title>Facebook Page TAB mobile redirection problem</title><link>https://www.spidersoft.com.au/2013/facebook-page-tab-mobile-redirection-problem/</link><pubDate>Wed, 06 Mar 2013 08:16:21 +0000</pubDate><guid>https://www.spidersoft.com.au/2013/facebook-page-tab-mobile-redirection-problem/</guid><description>&lt;p>Yes… we have ongoing problem with that really simple function. So – what’s happening. Let’s assume that we have really simple Page Tab existing inside out Facebook Page. URL usually looks like that:  
+ &lt;a href="http://en.wikipedia.org/wiki/Sprite_%28computer_graphics%29#Sprites_by_CSS"&gt;CSS Sprites&lt;/a&gt;
+  it was a very popular technique for a long time. Biggest benefit from it: reduce number of the requestes to the server, and speedup whole website / loading image assets. Working with CSS slides is really painful  Usually you are starting from PSD then you have to decouple them to separate images, then merge them again to one image, and then mark position of each element in the CSS file.&lt;/p&gt;
+&lt;p&gt;Couple useful tools to work with:&lt;/p&gt;</description></item><item><title>Facebook Page TAB mobile redirection problem</title><link>https://www.spidersoft.com.au/2013/facebook-page-tab-mobile-redirection-problem/</link><pubDate>Wed, 06 Mar 2013 08:16:21 +0000</pubDate><guid>https://www.spidersoft.com.au/2013/facebook-page-tab-mobile-redirection-problem/</guid><description>&lt;p&gt;Yes… we have ongoing problem with that really simple function. So – what’s happening. Let’s assume that we have really simple Page Tab existing inside out Facebook Page. URL usually looks like that:  
  
  
  
  
- &lt;a href="http://www.facebook.com/spidersoftau/app_334933569956732">http://www.facebook.com/spidersoftau/app_334933569956732&lt;/a>
-  – works perfectly on Desktop browser, but if you would like to open this on mobile, you will get nasty error&lt;/p></description></item><item><title>AUSTRALIA WIDE POSTCODE BREAKDOWN</title><link>https://www.spidersoft.com.au/2013/australia-wide-postcode-breakdown/</link><pubDate>Tue, 12 Feb 2013 23:14:01 +0000</pubDate><guid>https://www.spidersoft.com.au/2013/australia-wide-postcode-breakdown/</guid><description>&lt;p>Don’t know how accurate it is. I was working on a project that needed something like that, so… maybe someone else will use it.&lt;/p></description></item><item><title>Bootstrap modals via JavaScript</title><link>https://www.spidersoft.com.au/2013/bootstrap-modals-via-javascript/</link><pubDate>Thu, 24 Jan 2013 00:58:47 +0000</pubDate><guid>https://www.spidersoft.com.au/2013/bootstrap-modals-via-javascript/</guid><description>&lt;p>My recent discovery is quite simple, but really usefull. 
+ &lt;a href="http://www.facebook.com/spidersoftau/app_334933569956732"&gt;http://www.facebook.com/spidersoftau/app_334933569956732&lt;/a&gt;
+  – works perfectly on Desktop browser, but if you would like to open this on mobile, you will get nasty error&lt;/p&gt;</description></item><item><title>AUSTRALIA WIDE POSTCODE BREAKDOWN</title><link>https://www.spidersoft.com.au/2013/australia-wide-postcode-breakdown/</link><pubDate>Tue, 12 Feb 2013 23:14:01 +0000</pubDate><guid>https://www.spidersoft.com.au/2013/australia-wide-postcode-breakdown/</guid><description>&lt;p&gt;Don’t know how accurate it is. I was working on a project that needed something like that, so… maybe someone else will use it.&lt;/p&gt;</description></item><item><title>Bootstrap modals via JavaScript</title><link>https://www.spidersoft.com.au/2013/bootstrap-modals-via-javascript/</link><pubDate>Thu, 24 Jan 2013 00:58:47 +0000</pubDate><guid>https://www.spidersoft.com.au/2013/bootstrap-modals-via-javascript/</guid><description>&lt;p&gt;My recent discovery is quite simple, but really usefull. 
  
  
  
  
- &lt;a href="http://bootboxjs.com/">Bootbox.js&lt;/a>
- is a small JavaScript library which allows you to create programmatic dialog boxes using Twitter’s Bootstrap modals, without having to worry about creating, managing or removing any of the required DOM elements or JS event handlers.&lt;/p></description></item><item><title>Twitter Bootstrap add ons and extensions</title><link>https://www.spidersoft.com.au/2012/twitter-bootstrap-add-ons-and-extensions/</link><pubDate>Fri, 05 Oct 2012 05:08:40 +0000</pubDate><guid>https://www.spidersoft.com.au/2012/twitter-bootstrap-add-ons-and-extensions/</guid><description>&lt;p>My collection of 
+ &lt;a href="http://bootboxjs.com/"&gt;Bootbox.js&lt;/a&gt;
+ is a small JavaScript library which allows you to create programmatic dialog boxes using Twitter’s Bootstrap modals, without having to worry about creating, managing or removing any of the required DOM elements or JS event handlers.&lt;/p&gt;</description></item><item><title>Twitter Bootstrap add ons and extensions</title><link>https://www.spidersoft.com.au/2012/twitter-bootstrap-add-ons-and-extensions/</link><pubDate>Fri, 05 Oct 2012 05:08:40 +0000</pubDate><guid>https://www.spidersoft.com.au/2012/twitter-bootstrap-add-ons-and-extensions/</guid><description>&lt;p&gt;My collection of 
  
  
  
  
- &lt;a href="http://twitter.github.com/bootstrap/">Twitter Bootstrap&lt;/a>
- addons is growin each day. As at today we have&lt;/p>
-&lt;ul>
-&lt;li>&lt;strong>Bootstrap From Builder&lt;/strong> – really usefool tool for building bootstrap forms. It works based on rag and drop interface,&lt;/li>
-&lt;li>&lt;strong>Time Picker&lt;/strong> – a very cool widget to easily select a time for a text input using your mouse or arrow keys.,&lt;/li>
-&lt;li>&lt;strong>Date Picker&lt;/strong>,&lt;/li>
-&lt;li>&lt;strong>Font Awesome&lt;/strong>,&lt;/li>
-&lt;li>&lt;strong>snippets&lt;/strong> for Bootstrap 
+ &lt;a href="http://twitter.github.com/bootstrap/"&gt;Twitter Bootstrap&lt;/a&gt;
+ addons is growin each day. As at today we have&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Bootstrap From Builder&lt;/strong&gt; – really usefool tool for building bootstrap forms. It works based on rag and drop interface,&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Time Picker&lt;/strong&gt; – a very cool widget to easily select a time for a text input using your mouse or arrow keys.,&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Date Picker&lt;/strong&gt;,&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Font Awesome&lt;/strong&gt;,&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;snippets&lt;/strong&gt; for Bootstrap 
  
  
  
  
- &lt;a href="http://bootsnipp.com/">bootsnipp.com&lt;/a>
- &lt;/li>
-&lt;li>golderBootstrap – 
+ &lt;a href="http://bootsnipp.com/"&gt;bootsnipp.com&lt;/a&gt;
+ &lt;/li&gt;
+&lt;li&gt;golderBootstrap – 
  
  
  
  
- &lt;a href="http://phildionne.github.com/golden-bootstrap/#goldenBootstrap">phildionne.github.com/golden-bootstrap/#goldenBootstrap&lt;/a>
- &lt;/li>
-&lt;li>&lt;strong>BootStrap Notify&lt;/strong> –  
+ &lt;a href="http://phildionne.github.com/golden-bootstrap/#goldenBootstrap"&gt;phildionne.github.com/golden-bootstrap/#goldenBootstrap&lt;/a&gt;
+ &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;BootStrap Notify&lt;/strong&gt; –  
  
  
  
  
- &lt;a href="http://nijikokun.github.com/bootstrap-notify/">nijikokun.github.com/bootstrap-notify/&lt;/a>
- &lt;/li>
-&lt;li>&lt;strong>Pivot.js&lt;/strong> is a simple way to summarize large data sets on the fly,&lt;/li>
-&lt;/ul></description></item><item><title>AngularJS awesome JavaScript framework</title><link>https://www.spidersoft.com.au/2012/angularjs-awesome-javascript-framework/</link><pubDate>Sun, 08 Jul 2012 11:27:19 +0000</pubDate><guid>https://www.spidersoft.com.au/2012/angularjs-awesome-javascript-framework/</guid><description>&lt;p>I was looking for easy and nice solution to maintain my growing JavaScript. I tried Backbone.js which is my opinion a little bit “to” complicated. Of course – you can do everything, but.. it was to much hassle with coding in details. Second approach was to KnockoutJS – this one is really nice but from the other hand – I didn’t have much on control on my code and details, but everything was really nice and sleek. So… Quite similar like with choosing PHP Framework. I wanted something which will do some job for me, but I also wanted to have control on everything. That’s why I chose CodeIgniter which was perfect for me. But… with JavaScript – Finally i funded: 
+ &lt;a href="http://nijikokun.github.com/bootstrap-notify/"&gt;nijikokun.github.com/bootstrap-notify/&lt;/a&gt;
+ &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pivot.js&lt;/strong&gt; is a simple way to summarize large data sets on the fly,&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>AngularJS awesome JavaScript framework</title><link>https://www.spidersoft.com.au/2012/angularjs-awesome-javascript-framework/</link><pubDate>Sun, 08 Jul 2012 11:27:19 +0000</pubDate><guid>https://www.spidersoft.com.au/2012/angularjs-awesome-javascript-framework/</guid><description>&lt;p&gt;I was looking for easy and nice solution to maintain my growing JavaScript. I tried Backbone.js which is my opinion a little bit “to” complicated. Of course – you can do everything, but.. it was to much hassle with coding in details. Second approach was to KnockoutJS – this one is really nice but from the other hand – I didn’t have much on control on my code and details, but everything was really nice and sleek. So… Quite similar like with choosing PHP Framework. I wanted something which will do some job for me, but I also wanted to have control on everything. That’s why I chose CodeIgniter which was perfect for me. But… with JavaScript – Finally i funded: 
  
  
  
  
- &lt;a href="http://angularjs.org/">AngularJS&lt;/a>
- . Made by Google engineers – but super nice and sleek.&lt;/p></description></item><item><title>Dedicated Content Management System for kindergarten</title><link>https://www.spidersoft.com.au/2010/dedicated-cms-system/</link><pubDate>Wed, 29 Dec 2010 03:54:31 +0000</pubDate><guid>https://www.spidersoft.com.au/2010/dedicated-cms-system/</guid><description>&lt;p>Recently we finished dedicated content management system for bilingual kindergarten and school. Whole project includes intranet for parents, where they can find recent information about theirs children’s, information about upcoming events and photo galleries from past events. Some screenshots below.&lt;/p>
-&lt;p>
+ &lt;a href="http://angularjs.org/"&gt;AngularJS&lt;/a&gt;
+ . Made by Google engineers – but super nice and sleek.&lt;/p&gt;</description></item><item><title>Dedicated Content Management System for kindergarten</title><link>https://www.spidersoft.com.au/2010/dedicated-cms-system/</link><pubDate>Wed, 29 Dec 2010 03:54:31 +0000</pubDate><guid>https://www.spidersoft.com.au/2010/dedicated-cms-system/</guid><description>&lt;p&gt;Recently we finished dedicated content management system for bilingual kindergarten and school. Whole project includes intranet for parents, where they can find recent information about theirs children’s, information about upcoming events and photo galleries from past events. Some screenshots below.&lt;/p&gt;
+&lt;p&gt;
 
 
 
 
 
 
-&lt;figure>
-	&lt;img src="https://www.spidersoft.com.au/images/2010/12/teczowy.jpg" alt="teczowy" width="600" height="502" title="/images/2010/12/teczowy.jpg" />
-	&lt;figcaption>&lt;/figcaption>
-&lt;/figure>
+&lt;figure&gt;
+	&lt;img src="https://www.spidersoft.com.au/images/2010/12/teczowy.jpg" alt="teczowy" width="600" height="502" title="/images/2010/12/teczowy.jpg" /&gt;
+	&lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
 
-&lt;/p>
-&lt;p>
-
-
-
-
-
-
-&lt;figure>
-	&lt;img src="https://www.spidersoft.com.au/images/2010/12/to2.jpg" alt="to2" width="1010" height="657" title="/images/2010/12/to2.jpg" />
-	&lt;figcaption>&lt;/figcaption>
-&lt;/figure>
-
-&lt;/p>
-&lt;p>
+&lt;/p&gt;
+&lt;p&gt;
 
 
 
 
 
 
-&lt;figure>
-	&lt;img src="https://www.spidersoft.com.au/images/2010/12/to4.jpg" alt="to4" width="800" height="457" title="/images/2010/12/to4.jpg" />
-	&lt;figcaption>&lt;/figcaption>
-&lt;/figure>
+&lt;figure&gt;
+	&lt;img src="https://www.spidersoft.com.au/images/2010/12/to2.jpg" alt="to2" width="1010" height="657" title="/images/2010/12/to2.jpg" /&gt;
+	&lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
 
-&lt;/p>
-&lt;p>
-
-
-
-
-
-
-&lt;figure>
-	&lt;img src="https://www.spidersoft.com.au/images/2010/12/to3.jpg" alt="to3" width="657" height="327" title="/images/2010/12/to3.jpg" />
-	&lt;figcaption>&lt;/figcaption>
-&lt;/figure>
-
-&lt;/p>
-&lt;p>
+&lt;/p&gt;
+&lt;p&gt;
 
 
 
 
 
 
-&lt;figure>
-	&lt;img src="https://www.spidersoft.com.au/images/2010/12/to5.png" alt="to5" width="193" height="309" title="/images/2010/12/to5.png" />
-	&lt;figcaption>&lt;/figcaption>
-&lt;/figure>
+&lt;figure&gt;
+	&lt;img src="https://www.spidersoft.com.au/images/2010/12/to4.jpg" alt="to4" width="800" height="457" title="/images/2010/12/to4.jpg" /&gt;
+	&lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
 
-&lt;/p>
-&lt;p>
-
-
+&lt;/p&gt;
+&lt;p&gt;
 
 
 
 
-&lt;figure>
-	&lt;img src="https://www.spidersoft.com.au/images/2010/12/to1.png" alt="to1" width="751" height="165" title="/images/2010/12/to1.png" />
-	&lt;figcaption>&lt;/figcaption>
-&lt;/figure>
 
-&lt;/p></description></item><item><title>Classified Ad System</title><link>https://www.spidersoft.com.au/2010/classified-ad-system/</link><pubDate>Fri, 03 Dec 2010 17:18:35 +0000</pubDate><guid>https://www.spidersoft.com.au/2010/classified-ad-system/</guid><description>&lt;p>Classified Ad System is web application which allows you to create unlimited classified ad website. Easy to deploy and use, SEO ready. Users can post their advertisement with images and description.&lt;/p></description></item></channel></rss>
+
+&lt;figure&gt;
+	&lt;img src="https://www.spidersoft.com.au/images/2010/12/to3.jpg" alt="to3" width="657" height="327" title="/images/2010/12/to3.jpg" /&gt;
+	&lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+&lt;figure&gt;
+	&lt;img src="https://www.spidersoft.com.au/images/2010/12/to5.png" alt="to5" width="193" height="309" title="/images/2010/12/to5.png" /&gt;
+	&lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+&lt;figure&gt;
+	&lt;img src="https://www.spidersoft.com.au/images/2010/12/to1.png" alt="to1" width="751" height="165" title="/images/2010/12/to1.png" /&gt;
+	&lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;/p&gt;</description></item><item><title>Classified Ad System</title><link>https://www.spidersoft.com.au/2010/classified-ad-system/</link><pubDate>Fri, 03 Dec 2010 17:18:35 +0000</pubDate><guid>https://www.spidersoft.com.au/2010/classified-ad-system/</guid><description>&lt;p&gt;Classified Ad System is web application which allows you to create unlimited classified ad website. Easy to deploy and use, SEO ready. Users can post their advertisement with images and description.&lt;/p&gt;</description></item></channel></rss>

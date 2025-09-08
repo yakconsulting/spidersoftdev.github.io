@@ -1,81 +1,81 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Css on SpiderSoft</title><link>https://www.spidersoft.com.au/tags/css/</link><description>Recent content in Css on SpiderSoft</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 23 May 2014 00:48:31 +0000</lastBuildDate><atom:link href="https://www.spidersoft.com.au/tags/css/index.xml" rel="self" type="application/rss+xml"/><item><title>Web Dev libraries – week 21</title><link>https://www.spidersoft.com.au/2014/this-week-findings-in-webdev-21/</link><pubDate>Fri, 23 May 2014 00:48:31 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/this-week-findings-in-webdev-21/</guid><description>&lt;p>I’m consuming enormous amount of news each day. These is list of my findings from just only these week.&lt;/p>
-&lt;p> 
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Css on SpiderSoft</title><link>https://www.spidersoft.com.au/tags/css/</link><description>Recent content in Css on SpiderSoft</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 23 May 2014 00:48:31 +0000</lastBuildDate><atom:link href="https://www.spidersoft.com.au/tags/css/index.xml" rel="self" type="application/rss+xml"/><item><title>Web Dev libraries – week 21</title><link>https://www.spidersoft.com.au/2014/this-week-findings-in-webdev-21/</link><pubDate>Fri, 23 May 2014 00:48:31 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/this-week-findings-in-webdev-21/</guid><description>&lt;p&gt;I’m consuming enormous amount of news each day. These is list of my findings from just only these week.&lt;/p&gt;
+&lt;p&gt; 
  
  
  
  
- &lt;a href="https://www.humblesoftware.com/envision">Envision.js&lt;/a>
- is a library for creating fast, dynamic and interactive HTML5 visualisations.&lt;/p>
-&lt;p> 
+ &lt;a href="https://www.humblesoftware.com/envision"&gt;Envision.js&lt;/a&gt;
+ is a library for creating fast, dynamic and interactive HTML5 visualisations.&lt;/p&gt;
+&lt;p&gt; 
  
  
  
  
- &lt;a href="https://github.com/goschevski/apy">Apy&lt;/a>
- is a simple client-side library for making rest api ajax calls.&lt;/p>
-&lt;p> 
+ &lt;a href="https://github.com/goschevski/apy"&gt;Apy&lt;/a&gt;
+ is a simple client-side library for making rest api ajax calls.&lt;/p&gt;
+&lt;p&gt; 
  
  
  
  
- &lt;a href="https://www.sitespeed.io/">Sitespeed.io&lt;/a>
- is an open source tool that helps you analyse your website &lt;em>speed&lt;/em> and &lt;em>performance&lt;/em> based on &lt;em>performance best practices&lt;/em> and &lt;em>metrics&lt;/em>. It collects data from multiple pages on your website, analyze the pages using the  
+ &lt;a href="https://www.sitespeed.io/"&gt;Sitespeed.io&lt;/a&gt;
+ is an open source tool that helps you analyse your website &lt;em&gt;speed&lt;/em&gt; and &lt;em&gt;performance&lt;/em&gt; based on &lt;em&gt;performance best practices&lt;/em&gt; and &lt;em&gt;metrics&lt;/em&gt;. It collects data from multiple pages on your website, analyze the pages using the  
  
  
  
  
- &lt;a href="https://www.sitespeed.io/rules/">rules&lt;/a>
-  and output the result as HTML or JUnit XML.&lt;/p></description></item><item><title>CodeIgniter-minify update</title><link>https://www.spidersoft.com.au/2014/codeigniter-minify-update/</link><pubDate>Fri, 23 May 2014 00:05:52 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/codeigniter-minify-update/</guid><description>&lt;p>Just introduce some new options to my quite popular library CodeIgniter-minify. From now one you can choose CSS compression engine (cssmin || minify), also FORCE rewrite CSS files. Some speed improvements were also made.&lt;/p>
-&lt;p>Please feel to check out library on GitGub – 
+ &lt;a href="https://www.sitespeed.io/rules/"&gt;rules&lt;/a&gt;
+  and output the result as HTML or JUnit XML.&lt;/p&gt;</description></item><item><title>CodeIgniter-minify update</title><link>https://www.spidersoft.com.au/2014/codeigniter-minify-update/</link><pubDate>Fri, 23 May 2014 00:05:52 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/codeigniter-minify-update/</guid><description>&lt;p&gt;Just introduce some new options to my quite popular library CodeIgniter-minify. From now one you can choose CSS compression engine (cssmin || minify), also FORCE rewrite CSS files. Some speed improvements were also made.&lt;/p&gt;
+&lt;p&gt;Please feel to check out library on GitGub – 
  
  
  
  
- &lt;a href="https://github.com/slav123/CodeIgniter-minify">CodeIgniter-minify&lt;/a>
- &lt;/p></description></item><item><title>Latest discoveries</title><link>https://www.spidersoft.com.au/2013/latest-discoveries/</link><pubDate>Tue, 15 Oct 2013 22:08:54 +0000</pubDate><guid>https://www.spidersoft.com.au/2013/latest-discoveries/</guid><description>&lt;h2 id="codeception">Codeception&lt;/h2>
-&lt;p>Modern PHP testing for everyone  
+ &lt;a href="https://github.com/slav123/CodeIgniter-minify"&gt;CodeIgniter-minify&lt;/a&gt;
+ &lt;/p&gt;</description></item><item><title>Latest discoveries</title><link>https://www.spidersoft.com.au/2013/latest-discoveries/</link><pubDate>Tue, 15 Oct 2013 22:08:54 +0000</pubDate><guid>https://www.spidersoft.com.au/2013/latest-discoveries/</guid><description>&lt;h2 id="codeception"&gt;Codeception&lt;/h2&gt;
+&lt;p&gt;Modern PHP testing for everyone  
  
  
  
  
- &lt;a href="http://codeception.com/">codeception.com&lt;/a>
- &lt;/p>
-&lt;h2 id="fileapi">FileAPI&lt;/h2>
-&lt;p>FileAPI — a set of javascript tools for working with files. Multiupload, drag’n’drop and chunked file upload. Images: crop, resize and auto orientation by EXIF  
+ &lt;a href="http://codeception.com/"&gt;codeception.com&lt;/a&gt;
+ &lt;/p&gt;
+&lt;h2 id="fileapi"&gt;FileAPI&lt;/h2&gt;
+&lt;p&gt;FileAPI — a set of javascript tools for working with files. Multiupload, drag’n’drop and chunked file upload. Images: crop, resize and auto orientation by EXIF  
  
  
  
  
- &lt;a href="https://github.com/mailru/FileAPI">github.com/mailru/FileAPI&lt;/a>
- &lt;/p>
-&lt;h2 id="rainloop">RainLoop&lt;/h2>
-&lt;p>FREE, MODERN &amp;amp; FAST WEB-BASED EMAIL CLIENT  
+ &lt;a href="https://github.com/mailru/FileAPI"&gt;github.com/mailru/FileAPI&lt;/a&gt;
+ &lt;/p&gt;
+&lt;h2 id="rainloop"&gt;RainLoop&lt;/h2&gt;
+&lt;p&gt;FREE, MODERN &amp;amp; FAST WEB-BASED EMAIL CLIENT  
  
  
  
  
- &lt;a href="http://rainloop.net/">rainloop.net&lt;/a>
- &lt;/p>
-&lt;h2 id="animated-checkboxes">ANIMATED CHECKBOXES&lt;/h2>
-&lt;p>ANIMATED CHECKBOXES AND RADIO BUTTONS WITH SVG 
+ &lt;a href="http://rainloop.net/"&gt;rainloop.net&lt;/a&gt;
+ &lt;/p&gt;
+&lt;h2 id="animated-checkboxes"&gt;ANIMATED CHECKBOXES&lt;/h2&gt;
+&lt;p&gt;ANIMATED CHECKBOXES AND RADIO BUTTONS WITH SVG 
  
  
  
  
- &lt;a href="http://tympanus.net/codrops/2013/10/15/animated-checkboxes-and-radio-buttons-with-svg/">tympanus.net&lt;/a>
- &lt;/p>
-&lt;h2 id="odometer">Odometer&lt;/h2>
-&lt;p>TRANSITION NUMBERS WITH EASE   
+ &lt;a href="http://tympanus.net/codrops/2013/10/15/animated-checkboxes-and-radio-buttons-with-svg/"&gt;tympanus.net&lt;/a&gt;
+ &lt;/p&gt;
+&lt;h2 id="odometer"&gt;Odometer&lt;/h2&gt;
+&lt;p&gt;TRANSITION NUMBERS WITH EASE   
  
  
  
  
- &lt;a href="http://github.hubspot.com/odometer/docs/welcome/">github.hubspot.com/odometer/docs/welcome/&lt;/a>
- &lt;/p></description></item><item><title>CSS Sprites online tools</title><link>https://www.spidersoft.com.au/2013/css-sprites-online-tools/</link><pubDate>Sun, 17 Mar 2013 10:26:01 +0000</pubDate><guid>https://www.spidersoft.com.au/2013/css-sprites-online-tools/</guid><description>&lt;p> 
+ &lt;a href="http://github.hubspot.com/odometer/docs/welcome/"&gt;github.hubspot.com/odometer/docs/welcome/&lt;/a&gt;
+ &lt;/p&gt;</description></item><item><title>CSS Sprites online tools</title><link>https://www.spidersoft.com.au/2013/css-sprites-online-tools/</link><pubDate>Sun, 17 Mar 2013 10:26:01 +0000</pubDate><guid>https://www.spidersoft.com.au/2013/css-sprites-online-tools/</guid><description>&lt;p&gt; 
  
  
  
  
- &lt;a href="http://en.wikipedia.org/wiki/Sprite_%28computer_graphics%29#Sprites_by_CSS">CSS Sprites&lt;/a>
-  it was a very popular technique for a long time. Biggest benefit from it: reduce number of the requestes to the server, and speedup whole website / loading image assets. Working with CSS slides is really painful  Usually you are starting from PSD then you have to decouple them to separate images, then merge them again to one image, and then mark position of each element in the CSS file.&lt;/p>
-&lt;p>Couple useful tools to work with:&lt;/p></description></item></channel></rss>
+ &lt;a href="http://en.wikipedia.org/wiki/Sprite_%28computer_graphics%29#Sprites_by_CSS"&gt;CSS Sprites&lt;/a&gt;
+  it was a very popular technique for a long time. Biggest benefit from it: reduce number of the requestes to the server, and speedup whole website / loading image assets. Working with CSS slides is really painful  Usually you are starting from PSD then you have to decouple them to separate images, then merge them again to one image, and then mark position of each element in the CSS file.&lt;/p&gt;
+&lt;p&gt;Couple useful tools to work with:&lt;/p&gt;</description></item></channel></rss>

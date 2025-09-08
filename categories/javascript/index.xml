@@ -1,81 +1,81 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>JavaScript on SpiderSoft</title><link>https://www.spidersoft.com.au/categories/javascript/</link><description>Recent content in JavaScript on SpiderSoft</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 24 Sep 2021 08:30:00 +0000</lastBuildDate><atom:link href="https://www.spidersoft.com.au/categories/javascript/index.xml" rel="self" type="application/rss+xml"/><item><title>Inline date edit with nojQuery</title><link>https://www.spidersoft.com.au/2021/html5-datepicker-nojquery/</link><pubDate>Fri, 24 Sep 2021 08:30:00 +0000</pubDate><guid>https://www.spidersoft.com.au/2021/html5-datepicker-nojquery/</guid><description>&lt;p>I do write a lot of front-end code, despite being born to be a back-end guy. Long story short - we do have many inline editing features, especially elements like dates, which are pretty painful. HTML5 Introduced 
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>JavaScript on SpiderSoft</title><link>https://www.spidersoft.com.au/categories/javascript/</link><description>Recent content in JavaScript on SpiderSoft</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 24 Sep 2021 08:30:00 +0000</lastBuildDate><atom:link href="https://www.spidersoft.com.au/categories/javascript/index.xml" rel="self" type="application/rss+xml"/><item><title>Inline date edit with nojQuery</title><link>https://www.spidersoft.com.au/2021/html5-datepicker-nojquery/</link><pubDate>Fri, 24 Sep 2021 08:30:00 +0000</pubDate><guid>https://www.spidersoft.com.au/2021/html5-datepicker-nojquery/</guid><description>&lt;p&gt;I do write a lot of front-end code, despite being born to be a back-end guy. Long story short - we do have many inline editing features, especially elements like dates, which are pretty painful. HTML5 Introduced 
  
  
  
  
- &lt;a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/date">input type=date&lt;/a>
- , which is good enough to cover most of the cases, and we no longer need ugly and slow &lt;code>.datepicker()&lt;/code> component from jQuery od 3rd party suppliers.&lt;/p>
-&lt;p>So if you do have &lt;em>edit&lt;/em> you can use &lt;code>&amp;lt;input type=&amp;quot;date&amp;quot; value=&amp;quot;yyyy-mm-dd&amp;quot;&amp;gt;&lt;/code> field, and a nice calendar will pop up. But we are looking for &lt;em>inline&lt;/em> solution.&lt;/p></description></item><item><title>Australian postcode to state conversion</title><link>https://www.spidersoft.com.au/2018/australian-postcode-to-state-conversion/</link><pubDate>Tue, 24 Jul 2018 10:59:44 +0000</pubDate><guid>https://www.spidersoft.com.au/2018/australian-postcode-to-state-conversion/</guid><description>&lt;p>I recently worked on a project with a super dull address form. I figured out that we need to help poor users fill tedious forms, so I made a little code snippet/function which gets the postcode and returns the state. I took postcode ranges from 
+ &lt;a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/date"&gt;input type=date&lt;/a&gt;
+ , which is good enough to cover most of the cases, and we no longer need ugly and slow &lt;code&gt;.datepicker()&lt;/code&gt; component from jQuery od 3rd party suppliers.&lt;/p&gt;
+&lt;p&gt;So if you do have &lt;em&gt;edit&lt;/em&gt; you can use &lt;code&gt;&amp;lt;input type=&amp;quot;date&amp;quot; value=&amp;quot;yyyy-mm-dd&amp;quot;&amp;gt;&lt;/code&gt; field, and a nice calendar will pop up. But we are looking for &lt;em&gt;inline&lt;/em&gt; solution.&lt;/p&gt;</description></item><item><title>Australian postcode to state conversion</title><link>https://www.spidersoft.com.au/2018/australian-postcode-to-state-conversion/</link><pubDate>Tue, 24 Jul 2018 10:59:44 +0000</pubDate><guid>https://www.spidersoft.com.au/2018/australian-postcode-to-state-conversion/</guid><description>&lt;p&gt;I recently worked on a project with a super dull address form. I figured out that we need to help poor users fill tedious forms, so I made a little code snippet/function which gets the postcode and returns the state. I took postcode ranges from 
  
  
  
  
- &lt;a href="https://en.wikipedia.org/wiki/Postcodes_in_Australia">wikipedia&lt;/a>
- , so blame them if something isn’t working as expected.&lt;/p></description></item><item><title>What about angular alternatives</title><link>https://www.spidersoft.com.au/2015/what-about-angular-alternatives/</link><pubDate>Fri, 20 Mar 2015 05:56:58 +0000</pubDate><guid>https://www.spidersoft.com.au/2015/what-about-angular-alternatives/</guid><description>&lt;p>It’s my third post in “alternatives” series – this time i looked for something nicer then 
+ &lt;a href="https://en.wikipedia.org/wiki/Postcodes_in_Australia"&gt;wikipedia&lt;/a&gt;
+ , so blame them if something isn’t working as expected.&lt;/p&gt;</description></item><item><title>What about angular alternatives</title><link>https://www.spidersoft.com.au/2015/what-about-angular-alternatives/</link><pubDate>Fri, 20 Mar 2015 05:56:58 +0000</pubDate><guid>https://www.spidersoft.com.au/2015/what-about-angular-alternatives/</guid><description>&lt;p&gt;It’s my third post in “alternatives” series – this time i looked for something nicer then 
  
  
  
  
- &lt;a href="https://angularjs.org">Angular&lt;/a>
- . Apparently Angular went the same path like all good and slim solutions. It’s getting slower and bigger. With this type of framework we have at least couple of options:&lt;/p></description></item><item><title>Riot.js – nice React alternative</title><link>https://www.spidersoft.com.au/2015/riot-js-nice-react-alternative/</link><pubDate>Fri, 06 Mar 2015 05:46:55 +0000</pubDate><guid>https://www.spidersoft.com.au/2015/riot-js-nice-react-alternative/</guid><description>&lt;p>Recently I’m looking for easier versions of popular libraries. There is a lot of buzz around Facebook 
+ &lt;a href="https://angularjs.org"&gt;Angular&lt;/a&gt;
+ . Apparently Angular went the same path like all good and slim solutions. It’s getting slower and bigger. With this type of framework we have at least couple of options:&lt;/p&gt;</description></item><item><title>Riot.js – nice React alternative</title><link>https://www.spidersoft.com.au/2015/riot-js-nice-react-alternative/</link><pubDate>Fri, 06 Mar 2015 05:46:55 +0000</pubDate><guid>https://www.spidersoft.com.au/2015/riot-js-nice-react-alternative/</guid><description>&lt;p&gt;Recently I’m looking for easier versions of popular libraries. There is a lot of buzz around Facebook 
  
  
  
  
- &lt;a href="http://facebook.github.io/react/">React.js&lt;/a>
+ &lt;a href="http://facebook.github.io/react/"&gt;React.js&lt;/a&gt;
  library, but i found it not especially user / developer friendly – at least at first glitch. Obviously some people says that it’s not so complicated, but… there is something super simple and super light – 
  
  
  
  
- &lt;a href="https://muut.com/riotjs/">Riot.js&lt;/a>
- .&lt;/p></description></item><item><title>interesting jQuery alternative – laroux.js</title><link>https://www.spidersoft.com.au/2015/interesting-jquery-alternative-laroux-js/</link><pubDate>Mon, 02 Mar 2015 05:45:54 +0000</pubDate><guid>https://www.spidersoft.com.au/2015/interesting-jquery-alternative-laroux-js/</guid><description>&lt;p>If we are talking about 
+ &lt;a href="https://muut.com/riotjs/"&gt;Riot.js&lt;/a&gt;
+ .&lt;/p&gt;</description></item><item><title>interesting jQuery alternative – laroux.js</title><link>https://www.spidersoft.com.au/2015/interesting-jquery-alternative-laroux-js/</link><pubDate>Mon, 02 Mar 2015 05:45:54 +0000</pubDate><guid>https://www.spidersoft.com.au/2015/interesting-jquery-alternative-laroux-js/</guid><description>&lt;p&gt;If we are talking about 
  
  
  
  
- &lt;a href="http://jquery.com">jQuery&lt;/a>
+ &lt;a href="http://jquery.com"&gt;jQuery&lt;/a&gt;
  alternatives there is not much on the market. With age jQuery put a little bit on weight, not mentioning it’s speed. If we are talking about weight and speed we have 
  
  
  
  
- &lt;a href="http://zeptojs.com">Zepto.js&lt;/a>
- and… we can use pure JavaScript which isn’t especially convenient in larger  projects. But definitely it’s much more but… it’s faster.&lt;/p></description></item><item><title>Web Dev libraries – week 21</title><link>https://www.spidersoft.com.au/2014/this-week-findings-in-webdev-21/</link><pubDate>Fri, 23 May 2014 00:48:31 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/this-week-findings-in-webdev-21/</guid><description>&lt;p>I’m consuming enormous amount of news each day. These is list of my findings from just only these week.&lt;/p>
-&lt;p> 
+ &lt;a href="http://zeptojs.com"&gt;Zepto.js&lt;/a&gt;
+ and… we can use pure JavaScript which isn’t especially convenient in larger  projects. But definitely it’s much more but… it’s faster.&lt;/p&gt;</description></item><item><title>Web Dev libraries – week 21</title><link>https://www.spidersoft.com.au/2014/this-week-findings-in-webdev-21/</link><pubDate>Fri, 23 May 2014 00:48:31 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/this-week-findings-in-webdev-21/</guid><description>&lt;p&gt;I’m consuming enormous amount of news each day. These is list of my findings from just only these week.&lt;/p&gt;
+&lt;p&gt; 
  
  
  
  
- &lt;a href="https://www.humblesoftware.com/envision">Envision.js&lt;/a>
- is a library for creating fast, dynamic and interactive HTML5 visualisations.&lt;/p>
-&lt;p> 
+ &lt;a href="https://www.humblesoftware.com/envision"&gt;Envision.js&lt;/a&gt;
+ is a library for creating fast, dynamic and interactive HTML5 visualisations.&lt;/p&gt;
+&lt;p&gt; 
  
  
  
  
- &lt;a href="https://github.com/goschevski/apy">Apy&lt;/a>
- is a simple client-side library for making rest api ajax calls.&lt;/p>
-&lt;p> 
+ &lt;a href="https://github.com/goschevski/apy"&gt;Apy&lt;/a&gt;
+ is a simple client-side library for making rest api ajax calls.&lt;/p&gt;
+&lt;p&gt; 
  
  
  
  
- &lt;a href="https://www.sitespeed.io/">Sitespeed.io&lt;/a>
- is an open source tool that helps you analyse your website &lt;em>speed&lt;/em> and &lt;em>performance&lt;/em> based on &lt;em>performance best practices&lt;/em> and &lt;em>metrics&lt;/em>. It collects data from multiple pages on your website, analyze the pages using the  
+ &lt;a href="https://www.sitespeed.io/"&gt;Sitespeed.io&lt;/a&gt;
+ is an open source tool that helps you analyse your website &lt;em&gt;speed&lt;/em&gt; and &lt;em&gt;performance&lt;/em&gt; based on &lt;em&gt;performance best practices&lt;/em&gt; and &lt;em&gt;metrics&lt;/em&gt;. It collects data from multiple pages on your website, analyze the pages using the  
  
  
  
  
- &lt;a href="https://www.sitespeed.io/rules/">rules&lt;/a>
-  and output the result as HTML or JUnit XML.&lt;/p></description></item><item><title>node.js run with root privileges on MacOS on start</title><link>https://www.spidersoft.com.au/2014/node-js-run-with-root-privileges-on-macos-on-start/</link><pubDate>Thu, 16 Jan 2014 08:37:58 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/node-js-run-with-root-privileges-on-macos-on-start/</guid><description>&lt;p>How long it’s quite easy to setup init.d services on linux boxes, same task on Max OS machines is pretty hard. Especially if you need to run it with root privileges.&lt;/p></description></item><item><title>Serialize form to object – jQuery</title><link>https://www.spidersoft.com.au/2013/serialize-form-to-object-jquery/</link><pubDate>Sun, 15 Sep 2013 11:35:24 +0000</pubDate><guid>https://www.spidersoft.com.au/2013/serialize-form-to-object-jquery/</guid><description>&lt;p>It’s pretty easy to serialise form using jQuery –&lt;/p>
-&lt;pre tabindex="0">&lt;code>$(&amp;#39;#formid&amp;#39;).serialize();
-&lt;/code>&lt;/pre>&lt;p>or by&lt;/p>
-&lt;pre tabindex="0">&lt;code>$(&amp;#39;#formid&amp;#39;).serializeArray();
-&lt;/code>&lt;/pre>&lt;p>But neither of them it’s easy to modify. Really useful snippet – serialise form to object.&lt;/p></description></item><item><title>AngularJS awesome JavaScript framework</title><link>https://www.spidersoft.com.au/2012/angularjs-awesome-javascript-framework/</link><pubDate>Sun, 08 Jul 2012 11:27:19 +0000</pubDate><guid>https://www.spidersoft.com.au/2012/angularjs-awesome-javascript-framework/</guid><description>&lt;p>I was looking for easy and nice solution to maintain my growing JavaScript. I tried Backbone.js which is my opinion a little bit “to” complicated. Of course – you can do everything, but.. it was to much hassle with coding in details. Second approach was to KnockoutJS – this one is really nice but from the other hand – I didn’t have much on control on my code and details, but everything was really nice and sleek. So… Quite similar like with choosing PHP Framework. I wanted something which will do some job for me, but I also wanted to have control on everything. That’s why I chose CodeIgniter which was perfect for me. But… with JavaScript – Finally i funded: 
+ &lt;a href="https://www.sitespeed.io/rules/"&gt;rules&lt;/a&gt;
+  and output the result as HTML or JUnit XML.&lt;/p&gt;</description></item><item><title>node.js run with root privileges on MacOS on start</title><link>https://www.spidersoft.com.au/2014/node-js-run-with-root-privileges-on-macos-on-start/</link><pubDate>Thu, 16 Jan 2014 08:37:58 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/node-js-run-with-root-privileges-on-macos-on-start/</guid><description>&lt;p&gt;How long it’s quite easy to setup init.d services on linux boxes, same task on Max OS machines is pretty hard. Especially if you need to run it with root privileges.&lt;/p&gt;</description></item><item><title>Serialize form to object – jQuery</title><link>https://www.spidersoft.com.au/2013/serialize-form-to-object-jquery/</link><pubDate>Sun, 15 Sep 2013 11:35:24 +0000</pubDate><guid>https://www.spidersoft.com.au/2013/serialize-form-to-object-jquery/</guid><description>&lt;p&gt;It’s pretty easy to serialise form using jQuery –&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;$(&amp;#39;#formid&amp;#39;).serialize();
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;or by&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;$(&amp;#39;#formid&amp;#39;).serializeArray();
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;But neither of them it’s easy to modify. Really useful snippet – serialise form to object.&lt;/p&gt;</description></item><item><title>AngularJS awesome JavaScript framework</title><link>https://www.spidersoft.com.au/2012/angularjs-awesome-javascript-framework/</link><pubDate>Sun, 08 Jul 2012 11:27:19 +0000</pubDate><guid>https://www.spidersoft.com.au/2012/angularjs-awesome-javascript-framework/</guid><description>&lt;p&gt;I was looking for easy and nice solution to maintain my growing JavaScript. I tried Backbone.js which is my opinion a little bit “to” complicated. Of course – you can do everything, but.. it was to much hassle with coding in details. Second approach was to KnockoutJS – this one is really nice but from the other hand – I didn’t have much on control on my code and details, but everything was really nice and sleek. So… Quite similar like with choosing PHP Framework. I wanted something which will do some job for me, but I also wanted to have control on everything. That’s why I chose CodeIgniter which was perfect for me. But… with JavaScript – Finally i funded: 
  
  
  
  
- &lt;a href="http://angularjs.org/">AngularJS&lt;/a>
- . Made by Google engineers – but super nice and sleek.&lt;/p></description></item></channel></rss>
+ &lt;a href="http://angularjs.org/"&gt;AngularJS&lt;/a&gt;
+ . Made by Google engineers – but super nice and sleek.&lt;/p&gt;</description></item></channel></rss>

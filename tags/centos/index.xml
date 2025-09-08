@@ -1,46 +1,46 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Centos on SpiderSoft</title><link>https://www.spidersoft.com.au/tags/centos/</link><description>Recent content in Centos on SpiderSoft</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 05 Sep 2017 03:45:48 +0000</lastBuildDate><atom:link href="https://www.spidersoft.com.au/tags/centos/index.xml" rel="self" type="application/rss+xml"/><item><title>Centos PHP 7 LAMP boilerplate</title><link>https://www.spidersoft.com.au/2017/centos-php-7-lamp-boilerplate/</link><pubDate>Tue, 05 Sep 2017 03:45:48 +0000</pubDate><guid>https://www.spidersoft.com.au/2017/centos-php-7-lamp-boilerplate/</guid><description>&lt;p>This time we are going to cook Apache (httpd 2.4), PHP 7.0 as a 
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Centos on SpiderSoft</title><link>https://www.spidersoft.com.au/tags/centos/</link><description>Recent content in Centos on SpiderSoft</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 05 Sep 2017 03:45:48 +0000</lastBuildDate><atom:link href="https://www.spidersoft.com.au/tags/centos/index.xml" rel="self" type="application/rss+xml"/><item><title>Centos PHP 7 LAMP boilerplate</title><link>https://www.spidersoft.com.au/2017/centos-php-7-lamp-boilerplate/</link><pubDate>Tue, 05 Sep 2017 03:45:48 +0000</pubDate><guid>https://www.spidersoft.com.au/2017/centos-php-7-lamp-boilerplate/</guid><description>&lt;p&gt;This time we are going to cook Apache (httpd 2.4), PHP 7.0 as a 
  
  
  
  
- &lt;a href="http://wiki.apache.org/httpd/PHP-FPM">PHP-FPM&lt;/a>
- . Instructions are pretty simple. You can just copy and paste command to get working stack in less then 15 minutes.&lt;/p>
-&lt;p>What you can learn from it? How to install Apache 2.4 and PHP 7, how to enable and opcache, and how to install HTTPS on your server, with purchasing SSL certificate.&lt;/p></description></item><item><title>FFmpeg on AMI Linux and CentOS the easy way</title><link>https://www.spidersoft.com.au/2014/ffmpeg-on-ami-linux-and-centos-the-easy-way/</link><pubDate>Tue, 28 Oct 2014 02:12:32 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/ffmpeg-on-ami-linux-and-centos-the-easy-way/</guid><description>&lt;p> 
+ &lt;a href="http://wiki.apache.org/httpd/PHP-FPM"&gt;PHP-FPM&lt;/a&gt;
+ . Instructions are pretty simple. You can just copy and paste command to get working stack in less then 15 minutes.&lt;/p&gt;
+&lt;p&gt;What you can learn from it? How to install Apache 2.4 and PHP 7, how to enable and opcache, and how to install HTTPS on your server, with purchasing SSL certificate.&lt;/p&gt;</description></item><item><title>FFmpeg on AMI Linux and CentOS the easy way</title><link>https://www.spidersoft.com.au/2014/ffmpeg-on-ami-linux-and-centos-the-easy-way/</link><pubDate>Tue, 28 Oct 2014 02:12:32 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/ffmpeg-on-ami-linux-and-centos-the-easy-way/</guid><description>&lt;p&gt; 
  
  
  
  
- &lt;a href="https://www.ffmpeg.org/">FFmpeg&lt;/a>
- is a complete, cross-platform solution to record, convert and stream audio and video.&lt;/p>
-&lt;p>All you need to do is just install one more repository:&lt;br>
+ &lt;a href="https://www.ffmpeg.org/"&gt;FFmpeg&lt;/a&gt;
+ is a complete, cross-platform solution to record, convert and stream audio and video.&lt;/p&gt;
+&lt;p&gt;All you need to do is just install one more repository:&lt;br&gt;
  
  
  
  
  
- &lt;a href="http://rpmfusion.org/Configuration">http://rpmfusion.org/Configuration&lt;/a>
- &lt;/p>
-&lt;pre tabindex="0">&lt;code>wget http://download1.rpmfusion.org/free/el/updates/6/i386/rpmfusion-free-release-6-1.noarch.rpm
+ &lt;a href="http://rpmfusion.org/Configuration"&gt;http://rpmfusion.org/Configuration&lt;/a&gt;
+ &lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;wget http://download1.rpmfusion.org/free/el/updates/6/i386/rpmfusion-free-release-6-1.noarch.rpm
 sudo rpm -Uhv rpmfusion-free-release-6-1.noarch.rpm
 wget http://download1.rpmfusion.org/nonfree/el/updates/6/i386/rpmfusion-nonfree-release-6-1.noarch.rpm
 sudo rpm -Uhv rpmfusion-nonfree-release-6-1.noarch.rpm
 sudo yum install ffmpeg
-&lt;/code>&lt;/pre>&lt;p>Done.&lt;br>
-&lt;code>ffmpeg version 0.10.15 Copyright (c) 2000-2014 the FFmpeg developers built on Aug 30 2014 15:49:19 with gcc 4.4.7 20120313 (Red Hat 4.4.7-3) &lt;/code>&lt;/p>
-&lt;p>Obviously there is no fun with FFmpeg if you don’t have anything to convert. I needed to crop vertical videos from iPad to square – 
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Done.&lt;br&gt;
+&lt;code&gt;ffmpeg version 0.10.15 Copyright (c) 2000-2014 the FFmpeg developers built on Aug 30 2014 15:49:19 with gcc 4.4.7 20120313 (Red Hat 4.4.7-3) &lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Obviously there is no fun with FFmpeg if you don’t have anything to convert. I needed to crop vertical videos from iPad to square – 
  
  
  
  
- &lt;a href="https://itunes.apple.com/au/app/vine/id592447445?mt=8">Vine&lt;/a>
- like format.&lt;/p></description></item><item><title>PHP 5.4.x on CentOS 6.5</title><link>https://www.spidersoft.com.au/2014/php-5-4-x-on-centos-6-5/</link><pubDate>Tue, 07 Oct 2014 04:22:38 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/php-5-4-x-on-centos-6-5/</guid><description>&lt;p>Quick copy and paste list of commands to get PHP 5.4 on CentOS boxes&lt;/p>
-&lt;pre tabindex="0">&lt;code>wget http://dl.fedoraproject.org/pub/epel/6/x86_64/epel-release-6-8.noarch.rpm
+ &lt;a href="https://itunes.apple.com/au/app/vine/id592447445?mt=8"&gt;Vine&lt;/a&gt;
+ like format.&lt;/p&gt;</description></item><item><title>PHP 5.4.x on CentOS 6.5</title><link>https://www.spidersoft.com.au/2014/php-5-4-x-on-centos-6-5/</link><pubDate>Tue, 07 Oct 2014 04:22:38 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/php-5-4-x-on-centos-6-5/</guid><description>&lt;p&gt;Quick copy and paste list of commands to get PHP 5.4 on CentOS boxes&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;wget http://dl.fedoraproject.org/pub/epel/6/x86_64/epel-release-6-8.noarch.rpm
 wget http://rpms.famillecollet.com/enterprise/remi-release-6.rpm
 sudo rpm -Uvh remi-release-6*.rpm epel-release-6*.rpm
-&lt;/code>&lt;/pre>&lt;p>Enable remi repo&lt;/p>
-&lt;p>&lt;code>sudo nano /etc/yum.repos.d/remi.repo&lt;/code>&lt;/p>
-&lt;p>Update&lt;/p>
-&lt;pre tabindex="0">&lt;code>sudo yum update
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Enable remi repo&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;sudo nano /etc/yum.repos.d/remi.repo&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Update&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;sudo yum update
 sudo yum info php
 Loaded plugins: fastestmirror, refresh-packagekit, security
 Loading mirror speeds from cached hostfile
@@ -56,51 +56,51 @@ Version : 5.4.33
 Release : 2.el6.remi
 Size : 2.7 M
 Repo : remi
-&lt;/code>&lt;/pre>&lt;p>done…&lt;/p></description></item><item><title>CentoOS 7 NFS support</title><link>https://www.spidersoft.com.au/2014/centoos-7-nfs-support/</link><pubDate>Wed, 13 Aug 2014 06:45:44 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/centoos-7-nfs-support/</guid><description>&lt;p>CentOS is pretty new, and some default stuff is just missing. Like NFS suport out of the box.&lt;/p>
-&lt;p>We have to install package called &lt;code>nfs-utils&lt;/code>&lt;/p>
-&lt;pre tabindex="0">&lt;code>yum -y install nfs-utils
-&lt;/code>&lt;/pre>&lt;p>we can mount using standard &lt;code>mount 192.168.1.15:/c/share&lt;/code>&lt;/p>
-&lt;pre tabindex="0">&lt;code>mount -a 
-&lt;/code>&lt;/pre>&lt;p>to make it parmament&lt;/p>
-&lt;p>edit &lt;code>/etc/fstab&lt;/code>&lt;/p>
-&lt;pre tabindex="0">&lt;code>192.168.1.15:/c/share /mnt/nfs nfs defaults 0 0
-&lt;/code>&lt;/pre></description></item><item><title>Shuttle XS35 V2 and CentOs drivers</title><link>https://www.spidersoft.com.au/2013/shuttle-xs35-v2-and-centos-drivers/</link><pubDate>Mon, 23 Dec 2013 10:43:40 +0000</pubDate><guid>https://www.spidersoft.com.au/2013/shuttle-xs35-v2-and-centos-drivers/</guid><description>&lt;p>Some time ago I bought extremely quiet Shuttle 
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;done…&lt;/p&gt;</description></item><item><title>CentoOS 7 NFS support</title><link>https://www.spidersoft.com.au/2014/centoos-7-nfs-support/</link><pubDate>Wed, 13 Aug 2014 06:45:44 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/centoos-7-nfs-support/</guid><description>&lt;p&gt;CentOS is pretty new, and some default stuff is just missing. Like NFS suport out of the box.&lt;/p&gt;
+&lt;p&gt;We have to install package called &lt;code&gt;nfs-utils&lt;/code&gt;&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;yum -y install nfs-utils
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;we can mount using standard &lt;code&gt;mount 192.168.1.15:/c/share&lt;/code&gt;&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;mount -a 
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;to make it parmament&lt;/p&gt;
+&lt;p&gt;edit &lt;code&gt;/etc/fstab&lt;/code&gt;&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;192.168.1.15:/c/share /mnt/nfs nfs defaults 0 0
+&lt;/code&gt;&lt;/pre&gt;</description></item><item><title>Shuttle XS35 V2 and CentOs drivers</title><link>https://www.spidersoft.com.au/2013/shuttle-xs35-v2-and-centos-drivers/</link><pubDate>Mon, 23 Dec 2013 10:43:40 +0000</pubDate><guid>https://www.spidersoft.com.au/2013/shuttle-xs35-v2-and-centos-drivers/</guid><description>&lt;p&gt;Some time ago I bought extremely quiet Shuttle 
  
  
  
  
- &lt;a href="http://global.shuttle.com/main/productsDetail?productId=1487">XS35 V2&lt;/a>
-  device to have something “seperate” for my web development work. Right now this awesome fan less device has many purposes. Works as full web dev stack, with Apache, PHP, MySQL, mongoDB, and even Jenkins machine.&lt;/p>
-&lt;p>Recently I realised that this small ugly device got also WiFi cart into it. Because I’m running out of cables and space in my apartment i figure out, that I could move it easily without plugging into it more cables.&lt;/p></description></item><item><title>How to Install GeoIP extension on CentOS</title><link>https://www.spidersoft.com.au/2012/how-to-install-geoip-extension-on-centos/</link><pubDate>Tue, 23 Oct 2012 02:32:56 +0000</pubDate><guid>https://www.spidersoft.com.au/2012/how-to-install-geoip-extension-on-centos/</guid><description>&lt;p>Small 2019 update – Please check out this library – 
+ &lt;a href="http://global.shuttle.com/main/productsDetail?productId=1487"&gt;XS35 V2&lt;/a&gt;
+  device to have something “seperate” for my web development work. Right now this awesome fan less device has many purposes. Works as full web dev stack, with Apache, PHP, MySQL, mongoDB, and even Jenkins machine.&lt;/p&gt;
+&lt;p&gt;Recently I realised that this small ugly device got also WiFi cart into it. Because I’m running out of cables and space in my apartment i figure out, that I could move it easily without plugging into it more cables.&lt;/p&gt;</description></item><item><title>How to Install GeoIP extension on CentOS</title><link>https://www.spidersoft.com.au/2012/how-to-install-geoip-extension-on-centos/</link><pubDate>Tue, 23 Oct 2012 02:32:56 +0000</pubDate><guid>https://www.spidersoft.com.au/2012/how-to-install-geoip-extension-on-centos/</guid><description>&lt;p&gt;Small 2019 update – Please check out this library – 
  
  
  
  
- &lt;a href="https://github.com/maxmind/MaxMind-DB-Reader-php">github.com/maxmind/MaxMind-DB-Reader-php&lt;/a>
- . It’s a straight replacement of PHP module.&lt;/p>
-&lt;p> 
+ &lt;a href="https://github.com/maxmind/MaxMind-DB-Reader-php"&gt;github.com/maxmind/MaxMind-DB-Reader-php&lt;/a&gt;
+ . It’s a straight replacement of PHP module.&lt;/p&gt;
+&lt;p&gt; 
  
  
  
  
- &lt;a href="http://pecl.php.net/package/geoip">GeoIP from PECL&lt;/a>
+ &lt;a href="http://pecl.php.net/package/geoip"&gt;GeoIP from PECL&lt;/a&gt;
  is powerful extension used to determine geographical locations of IP addresses and domain names. This is useful if you want to set a language or redirection based on location of your visitor. Check out the PHP docs for a full list of 
  
  
  
  
- &lt;a href="http://www.php.net/manual/en/ref.geoip.php">GeoIP functions&lt;/a>
- .&lt;/p></description></item><item><title>How to install Phing on CentOS</title><link>https://www.spidersoft.com.au/2012/how-to-install-phing-on-centos/</link><pubDate>Fri, 24 Aug 2012 07:45:34 +0000</pubDate><guid>https://www.spidersoft.com.au/2012/how-to-install-phing-on-centos/</guid><description>&lt;p> 
+ &lt;a href="http://www.php.net/manual/en/ref.geoip.php"&gt;GeoIP functions&lt;/a&gt;
+ .&lt;/p&gt;</description></item><item><title>How to install Phing on CentOS</title><link>https://www.spidersoft.com.au/2012/how-to-install-phing-on-centos/</link><pubDate>Fri, 24 Aug 2012 07:45:34 +0000</pubDate><guid>https://www.spidersoft.com.au/2012/how-to-install-phing-on-centos/</guid><description>&lt;p&gt; 
  
  
  
  
- &lt;a href="http://phing.info/trac/">PHing&lt;/a>
-  &lt;strong>I&lt;/strong>s &lt;strong>N&lt;/strong>ot &lt;strong>G&lt;/strong>NU make; it’s a PHP project build system or build tool based on  
+ &lt;a href="http://phing.info/trac/"&gt;PHing&lt;/a&gt;
+  &lt;strong&gt;I&lt;/strong&gt;s &lt;strong&gt;N&lt;/strong&gt;ot &lt;strong&gt;G&lt;/strong&gt;NU make; it’s a PHP project build system or build tool based on  
  
  
  
  
- &lt;a href="http://ant.apache.org/"> Apache Ant&lt;/a>
- . You can do anything with it that you could do with a traditional build system like GNU make, and its use of simple XML build files and extensible PHP “task” classes make it an easy-to-use and highly flexible build framework.&lt;/p>
-&lt;p>This build tool ensures that the process of creating your  web application from source code happens in a proper and repeatable way. This is the best way to reduce the possibility of errors caused by manual uploads via FTP or SSH using desktop client.&lt;/p></description></item></channel></rss>
+ &lt;a href="http://ant.apache.org/"&gt; Apache Ant&lt;/a&gt;
+ . You can do anything with it that you could do with a traditional build system like GNU make, and its use of simple XML build files and extensible PHP “task” classes make it an easy-to-use and highly flexible build framework.&lt;/p&gt;
+&lt;p&gt;This build tool ensures that the process of creating your  web application from source code happens in a proper and repeatable way. This is the best way to reduce the possibility of errors caused by manual uploads via FTP or SSH using desktop client.&lt;/p&gt;</description></item></channel></rss>

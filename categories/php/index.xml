@@ -1,69 +1,69 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>PHP on SpiderSoft</title><link>https://www.spidersoft.com.au/categories/php/</link><description>Recent content in PHP on SpiderSoft</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 16 May 2022 09:11:50 +0000</lastBuildDate><atom:link href="https://www.spidersoft.com.au/categories/php/index.xml" rel="self" type="application/rss+xml"/><item><title>How to pass ENV variables to PHP</title><link>https://www.spidersoft.com.au/2021/export-env-variables-to-php/</link><pubDate>Sun, 23 Jan 2022 08:30:00 +0000</pubDate><guid>https://www.spidersoft.com.au/2021/export-env-variables-to-php/</guid><description>&lt;p>It&amp;rsquo;s not a good practice to store your password in the code. It is a well-known fact, and on multiple occasions, people get hacked because they share their code (and passwords) accidentally with others.&lt;/p>
-&lt;p>Many bots are just browsing GitHub for lost &lt;code>AWS_SECRET_ACCESS_KEY&lt;/code> or &lt;code>GCE&lt;/code> credentials. I&amp;rsquo;m going to show you how to pass your &lt;code>AWS_SECRET_ACCESS_KEY&lt;/code> to PHP.&lt;/p></description></item><item><title>Never use file_get_contents to make URL queries</title><link>https://www.spidersoft.com.au/2021/never-use-file-get-contents/</link><pubDate>Fri, 17 Sep 2021 11:16:00 +0000</pubDate><guid>https://www.spidersoft.com.au/2021/never-use-file-get-contents/</guid><description>&lt;p>As each programmer by nature, I&amp;rsquo;m lazy. I try to accomplish as much as possible with minimum effort.&lt;/p>
-&lt;p>So whenever I use PHP to fetch something, I use &lt;code>file_get_contents&lt;/code> to make queries and pull data from other services. So basically, my favourite snippet is this guy here:&lt;/p></description></item><item><title>PrestaShop margin size on delivery slips</title><link>https://www.spidersoft.com.au/2021/prestashop-margin-size-on-delivery-slips/</link><pubDate>Wed, 20 Jan 2021 13:02:23 +0000</pubDate><guid>https://www.spidersoft.com.au/2021/prestashop-margin-size-on-delivery-slips/</guid><description>&lt;p>Recently one of my clients contacted me asking if I could make a change. The task was to shrink huge margins on PDF delivery slips. The mission wasn&amp;rsquo;t easy because the settings were hidden in the files. You can change font size and amend or remove elements from the printout by modifying templates. Unfortunately, you can&amp;rsquo;t decrease the margin on PDF printouts.&lt;/p></description></item><item><title>Web Server on AMI Linux 2</title><link>https://www.spidersoft.com.au/2019/web-server-on-ami-linux-2/</link><pubDate>Mon, 28 Jan 2019 09:46:20 +0000</pubDate><guid>https://www.spidersoft.com.au/2019/web-server-on-ami-linux-2/</guid><description>&lt;p>Welcome in 2019 – it’s time to upgrade out outdated LAMP stack series articles, with new “How To” setup basic web server for our stack.&lt;/p></description></item><item><title>PHP returning wrong date</title><link>https://www.spidersoft.com.au/2019/php-returning-wrong-date/</link><pubDate>Mon, 07 Jan 2019 10:56:37 +0000</pubDate><guid>https://www.spidersoft.com.au/2019/php-returning-wrong-date/</guid><description>&lt;p>From time to time we are working on small campaigns, where competition starts at given time. Because in Australia we have “so many” timezones, it’s critical to set things correctly according to the time zone.&lt;/p></description></item><item><title>GeoIP extension PHP 7.x + AMI / Redhat / CentOs Linux</title><link>https://www.spidersoft.com.au/2018/geoip-extension-php-7-x-ami-redhat-centos-linux/</link><pubDate>Mon, 16 Jul 2018 09:53:42 +0000</pubDate><guid>https://www.spidersoft.com.au/2018/geoip-extension-php-7-x-ami-redhat-centos-linux/</guid><description>&lt;p>Small 2019 update – Please check out this library – 
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>PHP on SpiderSoft</title><link>https://www.spidersoft.com.au/categories/php/</link><description>Recent content in PHP on SpiderSoft</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 16 May 2022 09:11:50 +0000</lastBuildDate><atom:link href="https://www.spidersoft.com.au/categories/php/index.xml" rel="self" type="application/rss+xml"/><item><title>How to pass ENV variables to PHP</title><link>https://www.spidersoft.com.au/2021/export-env-variables-to-php/</link><pubDate>Sun, 23 Jan 2022 08:30:00 +0000</pubDate><guid>https://www.spidersoft.com.au/2021/export-env-variables-to-php/</guid><description>&lt;p&gt;It&amp;rsquo;s not a good practice to store your password in the code. It is a well-known fact, and on multiple occasions, people get hacked because they share their code (and passwords) accidentally with others.&lt;/p&gt;
+&lt;p&gt;Many bots are just browsing GitHub for lost &lt;code&gt;AWS_SECRET_ACCESS_KEY&lt;/code&gt; or &lt;code&gt;GCE&lt;/code&gt; credentials. I&amp;rsquo;m going to show you how to pass your &lt;code&gt;AWS_SECRET_ACCESS_KEY&lt;/code&gt; to PHP.&lt;/p&gt;</description></item><item><title>Never use file_get_contents to make URL queries</title><link>https://www.spidersoft.com.au/2021/never-use-file-get-contents/</link><pubDate>Fri, 17 Sep 2021 11:16:00 +0000</pubDate><guid>https://www.spidersoft.com.au/2021/never-use-file-get-contents/</guid><description>&lt;p&gt;As each programmer by nature, I&amp;rsquo;m lazy. I try to accomplish as much as possible with minimum effort.&lt;/p&gt;
+&lt;p&gt;So whenever I use PHP to fetch something, I use &lt;code&gt;file_get_contents&lt;/code&gt; to make queries and pull data from other services. So basically, my favourite snippet is this guy here:&lt;/p&gt;</description></item><item><title>PrestaShop margin size on delivery slips</title><link>https://www.spidersoft.com.au/2021/prestashop-margin-size-on-delivery-slips/</link><pubDate>Wed, 20 Jan 2021 13:02:23 +0000</pubDate><guid>https://www.spidersoft.com.au/2021/prestashop-margin-size-on-delivery-slips/</guid><description>&lt;p&gt;Recently one of my clients contacted me asking if I could make a change. The task was to shrink huge margins on PDF delivery slips. The mission wasn&amp;rsquo;t easy because the settings were hidden in the files. You can change font size and amend or remove elements from the printout by modifying templates. Unfortunately, you can&amp;rsquo;t decrease the margin on PDF printouts.&lt;/p&gt;</description></item><item><title>Web Server on AMI Linux 2</title><link>https://www.spidersoft.com.au/2019/web-server-on-ami-linux-2/</link><pubDate>Mon, 28 Jan 2019 09:46:20 +0000</pubDate><guid>https://www.spidersoft.com.au/2019/web-server-on-ami-linux-2/</guid><description>&lt;p&gt;Welcome in 2019 – it’s time to upgrade out outdated LAMP stack series articles, with new “How To” setup basic web server for our stack.&lt;/p&gt;</description></item><item><title>PHP returning wrong date</title><link>https://www.spidersoft.com.au/2019/php-returning-wrong-date/</link><pubDate>Mon, 07 Jan 2019 10:56:37 +0000</pubDate><guid>https://www.spidersoft.com.au/2019/php-returning-wrong-date/</guid><description>&lt;p&gt;From time to time we are working on small campaigns, where competition starts at given time. Because in Australia we have “so many” timezones, it’s critical to set things correctly according to the time zone.&lt;/p&gt;</description></item><item><title>GeoIP extension PHP 7.x + AMI / Redhat / CentOs Linux</title><link>https://www.spidersoft.com.au/2018/geoip-extension-php-7-x-ami-redhat-centos-linux/</link><pubDate>Mon, 16 Jul 2018 09:53:42 +0000</pubDate><guid>https://www.spidersoft.com.au/2018/geoip-extension-php-7-x-ami-redhat-centos-linux/</guid><description>&lt;p&gt;Small 2019 update – Please check out this library – 
  
  
  
  
- &lt;a href="https://github.com/maxmind/MaxMind-DB-Reader-php">github.com/maxmind/MaxMind-DB-Reader-php&lt;/a>
- &lt;/p>
-&lt;p>It’s a straight replacement of PHP module.&lt;/p>
-&lt;hr>
-&lt;p>GeoIP extensions is quite use-full, but it requires some server – side magic. If you are looking for something simpler, just go with  
+ &lt;a href="https://github.com/maxmind/MaxMind-DB-Reader-php"&gt;github.com/maxmind/MaxMind-DB-Reader-php&lt;/a&gt;
+ &lt;/p&gt;
+&lt;p&gt;It’s a straight replacement of PHP module.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;GeoIP extensions is quite use-full, but it requires some server – side magic. If you are looking for something simpler, just go with  
  
  
  
  
- &lt;a href="https://ipstack.com">ipstack.com&lt;/a>
+ &lt;a href="https://ipstack.com"&gt;ipstack.com&lt;/a&gt;
  or something similar – 
  
  
  
  
- &lt;a href="https://geoip.gex.pl">GeoIP&lt;/a>
- .&lt;/p>
-&lt;p>Otherwise:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-shell" data-lang="shell">&lt;span style="display:flex;">&lt;span>wget http://pear.php.net/go-pear.phar
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>php go-pear.phar
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>We need geoip-devel libraries:&lt;/p>
-&lt;p>&lt;code>yum install geoip-devel&lt;/code>&lt;/p>
-&lt;p>And newest (not stable) version of geoip:&lt;/p>
-&lt;p>&lt;code>sudo ./pecl install geoip-1.1.1&lt;/code>&lt;/p>
-&lt;p>Don’t forget to add &lt;code>extension=geoip.so&lt;/code> to your php.ini file.&lt;/p></description></item><item><title>Centos PHP 7 LAMP boilerplate</title><link>https://www.spidersoft.com.au/2017/centos-php-7-lamp-boilerplate/</link><pubDate>Tue, 05 Sep 2017 03:45:48 +0000</pubDate><guid>https://www.spidersoft.com.au/2017/centos-php-7-lamp-boilerplate/</guid><description>&lt;p>This time we are going to cook Apache (httpd 2.4), PHP 7.0 as a 
+ &lt;a href="https://geoip.gex.pl"&gt;GeoIP&lt;/a&gt;
+ .&lt;/p&gt;
+&lt;p&gt;Otherwise:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-shell" data-lang="shell"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;wget http://pear.php.net/go-pear.phar
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;php go-pear.phar
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;We need geoip-devel libraries:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;yum install geoip-devel&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;And newest (not stable) version of geoip:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;sudo ./pecl install geoip-1.1.1&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Don’t forget to add &lt;code&gt;extension=geoip.so&lt;/code&gt; to your php.ini file.&lt;/p&gt;</description></item><item><title>Centos PHP 7 LAMP boilerplate</title><link>https://www.spidersoft.com.au/2017/centos-php-7-lamp-boilerplate/</link><pubDate>Tue, 05 Sep 2017 03:45:48 +0000</pubDate><guid>https://www.spidersoft.com.au/2017/centos-php-7-lamp-boilerplate/</guid><description>&lt;p&gt;This time we are going to cook Apache (httpd 2.4), PHP 7.0 as a 
  
  
  
  
- &lt;a href="http://wiki.apache.org/httpd/PHP-FPM">PHP-FPM&lt;/a>
- . Instructions are pretty simple. You can just copy and paste command to get working stack in less then 15 minutes.&lt;/p>
-&lt;p>What you can learn from it? How to install Apache 2.4 and PHP 7, how to enable and opcache, and how to install HTTPS on your server, with purchasing SSL certificate.&lt;/p></description></item><item><title>DirectAdmin enable PUT and DELETE requests</title><link>https://www.spidersoft.com.au/2017/directadmin-enable-put-and-delete-requests/</link><pubDate>Fri, 13 Jan 2017 17:12:30 +0000</pubDate><guid>https://www.spidersoft.com.au/2017/directadmin-enable-put-and-delete-requests/</guid><description>&lt;p>Recently I realised that my 
+ &lt;a href="http://wiki.apache.org/httpd/PHP-FPM"&gt;PHP-FPM&lt;/a&gt;
+ . Instructions are pretty simple. You can just copy and paste command to get working stack in less then 15 minutes.&lt;/p&gt;
+&lt;p&gt;What you can learn from it? How to install Apache 2.4 and PHP 7, how to enable and opcache, and how to install HTTPS on your server, with purchasing SSL certificate.&lt;/p&gt;</description></item><item><title>DirectAdmin enable PUT and DELETE requests</title><link>https://www.spidersoft.com.au/2017/directadmin-enable-put-and-delete-requests/</link><pubDate>Fri, 13 Jan 2017 17:12:30 +0000</pubDate><guid>https://www.spidersoft.com.au/2017/directadmin-enable-put-and-delete-requests/</guid><description>&lt;p&gt;Recently I realised that my 
  
  
  
  
- &lt;a href="https://www.directadmin.com">DirectAdmin&lt;/a>
+ &lt;a href="https://www.directadmin.com"&gt;DirectAdmin&lt;/a&gt;
  hosting doesn’t support PUT and DELETE requests by default. Apparently it’s necessary to make requests to my recent 
  
  
  
  
- &lt;a href="https://www.prestashop.com/en/">PrestaShop&lt;/a>
- API adventures. As usually quick and dirty solution below. All you need to do, just to drop it to custom configuration.&lt;/p></description></item><item><title>Magento 2.1 installation issues</title><link>https://www.spidersoft.com.au/2016/magento-2-1-installation-issues/</link><pubDate>Fri, 23 Dec 2016 11:15:28 +0000</pubDate><guid>https://www.spidersoft.com.au/2016/magento-2-1-installation-issues/</guid><description>&lt;p>I’ve been recently trying to install the latest Magento and was experiencing some issues with Magento installer unable to detect PHP version. My message was pretty weird:&lt;/p>
-&lt;p>&lt;code>Your PHP version is . The required PHP version is&lt;/code>&lt;/p>
-&lt;p>also found couple 500 errors in XHR requests.&lt;/p></description></item><item><title>Caddy rewrite and CodeIgniter</title><link>https://www.spidersoft.com.au/2016/caddy-rewrite-and-codeigniter/</link><pubDate>Mon, 25 Jul 2016 15:19:54 +0000</pubDate><guid>https://www.spidersoft.com.au/2016/caddy-rewrite-and-codeigniter/</guid><description>&lt;p> 
+ &lt;a href="https://www.prestashop.com/en/"&gt;PrestaShop&lt;/a&gt;
+ API adventures. As usually quick and dirty solution below. All you need to do, just to drop it to custom configuration.&lt;/p&gt;</description></item><item><title>Magento 2.1 installation issues</title><link>https://www.spidersoft.com.au/2016/magento-2-1-installation-issues/</link><pubDate>Fri, 23 Dec 2016 11:15:28 +0000</pubDate><guid>https://www.spidersoft.com.au/2016/magento-2-1-installation-issues/</guid><description>&lt;p&gt;I’ve been recently trying to install the latest Magento and was experiencing some issues with Magento installer unable to detect PHP version. My message was pretty weird:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Your PHP version is . The required PHP version is&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;also found couple 500 errors in XHR requests.&lt;/p&gt;</description></item><item><title>Caddy rewrite and CodeIgniter</title><link>https://www.spidersoft.com.au/2016/caddy-rewrite-and-codeigniter/</link><pubDate>Mon, 25 Jul 2016 15:19:54 +0000</pubDate><guid>https://www.spidersoft.com.au/2016/caddy-rewrite-and-codeigniter/</guid><description>&lt;p&gt; 
  
  
  
  
- &lt;a href="https://caddyserver.com/">Caddy&lt;/a>
+ &lt;a href="https://caddyserver.com/"&gt;Caddy&lt;/a&gt;
  it’s a new kid in the block in category super light web servers. Personally – I love it. Same love I feel to 
  
  
  
  
- &lt;a href="https://codeigniter.com/">CodeIgniter&lt;/a>
- . To marge both of them, we need only basic rewrite rule to drop into caddyfile.&lt;/p>
-&lt;pre tabindex="0">&lt;code>api.spidersoft.com.au {
+ &lt;a href="https://codeigniter.com/"&gt;CodeIgniter&lt;/a&gt;
+ . To marge both of them, we need only basic rewrite rule to drop into caddyfile.&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;api.spidersoft.com.au {
  root /var/www/html/spidersoft.com.au
  gzip
  rewrite {
@@ -71,197 +71,197 @@
  }
  fastcgi / /var/run/php-sock php
 }
-&lt;/code>&lt;/pre></description></item><item><title>JSON objects in PHP</title><link>https://www.spidersoft.com.au/2016/json-objects-in-php/</link><pubDate>Mon, 25 Jul 2016 15:05:22 +0000</pubDate><guid>https://www.spidersoft.com.au/2016/json-objects-in-php/</guid><description>&lt;p>PHP is easy. You don’t have to know type of variable, before you use it. But sometimes it’s very problematic especially when we are dealing with JSON.&lt;/p></description></item><item><title>Send email using mailgun API without any libraries</title><link>https://www.spidersoft.com.au/2016/send-email-using-mailgun-api-without-any-libraries/</link><pubDate>Fri, 11 Mar 2016 10:39:09 +0000</pubDate><guid>https://www.spidersoft.com.au/2016/send-email-using-mailgun-api-without-any-libraries/</guid><description>&lt;p>Mailgun is well known service provider which allows you send emails via their API or just using regular SMTP servers. SMTP protocol is bit slower, but it’s so common that you can use it everywhere. Each modern application allows you define your own SMTP server to send emails. But… we love speed, SMTP from it’s nature it’s bit slower then regular API call.&lt;/p></description></item><item><title>How slow is FOUND_ROWS function in MySQL</title><link>https://www.spidersoft.com.au/2016/how-slow-is-found_rows-function-in-mysql/</link><pubDate>Mon, 25 Jan 2016 04:15:16 +0000</pubDate><guid>https://www.spidersoft.com.au/2016/how-slow-is-found_rows-function-in-mysql/</guid><description>&lt;p>From many reasons I was always using  
+&lt;/code&gt;&lt;/pre&gt;</description></item><item><title>JSON objects in PHP</title><link>https://www.spidersoft.com.au/2016/json-objects-in-php/</link><pubDate>Mon, 25 Jul 2016 15:05:22 +0000</pubDate><guid>https://www.spidersoft.com.au/2016/json-objects-in-php/</guid><description>&lt;p&gt;PHP is easy. You don’t have to know type of variable, before you use it. But sometimes it’s very problematic especially when we are dealing with JSON.&lt;/p&gt;</description></item><item><title>Send email using mailgun API without any libraries</title><link>https://www.spidersoft.com.au/2016/send-email-using-mailgun-api-without-any-libraries/</link><pubDate>Fri, 11 Mar 2016 10:39:09 +0000</pubDate><guid>https://www.spidersoft.com.au/2016/send-email-using-mailgun-api-without-any-libraries/</guid><description>&lt;p&gt;Mailgun is well known service provider which allows you send emails via their API or just using regular SMTP servers. SMTP protocol is bit slower, but it’s so common that you can use it everywhere. Each modern application allows you define your own SMTP server to send emails. But… we love speed, SMTP from it’s nature it’s bit slower then regular API call.&lt;/p&gt;</description></item><item><title>How slow is FOUND_ROWS function in MySQL</title><link>https://www.spidersoft.com.au/2016/how-slow-is-found_rows-function-in-mysql/</link><pubDate>Mon, 25 Jan 2016 04:15:16 +0000</pubDate><guid>https://www.spidersoft.com.au/2016/how-slow-is-found_rows-function-in-mysql/</guid><description>&lt;p&gt;From many reasons I was always using  
  
  
  
  
- &lt;a href="http://dev.mysql.com/doc/refman/5.7/en/information-functions.html#function_found-rows">SQL_CALC_FOUND_ROWS&lt;/a>
+ &lt;a href="http://dev.mysql.com/doc/refman/5.7/en/information-functions.html#function_found-rows"&gt;SQL_CALC_FOUND_ROWS&lt;/a&gt;
  to get total number of records, when I was running limited query. Never especially thought about it, until i had some super performance issues with one of my projects. Obviously after quick profiling and googling  i found 
  
  
  
  
- &lt;a href="http://stackoverflow.com/questions/186588/which-is-fastest-select-sql-calc-found-rows-from-table-or-select-count">people complaining about FOUND_ROWS() low performance&lt;/a>
- . I was not aware how big impact it was until I tested.&lt;/p></description></item><item><title>How to handle max_input_vars restriction.</title><link>https://www.spidersoft.com.au/2016/how-to-handle-max_input_vars-restriction/</link><pubDate>Fri, 22 Jan 2016 20:47:04 +0000</pubDate><guid>https://www.spidersoft.com.au/2016/how-to-handle-max_input_vars-restriction/</guid><description>&lt;p>From time to time we could breach  
+ &lt;a href="http://stackoverflow.com/questions/186588/which-is-fastest-select-sql-calc-found-rows-from-table-or-select-count"&gt;people complaining about FOUND_ROWS() low performance&lt;/a&gt;
+ . I was not aware how big impact it was until I tested.&lt;/p&gt;</description></item><item><title>How to handle max_input_vars restriction.</title><link>https://www.spidersoft.com.au/2016/how-to-handle-max_input_vars-restriction/</link><pubDate>Fri, 22 Jan 2016 20:47:04 +0000</pubDate><guid>https://www.spidersoft.com.au/2016/how-to-handle-max_input_vars-restriction/</guid><description>&lt;p&gt;From time to time we could breach  
  
  
  
  
- &lt;a href="http://php.net/manual/en/info.configuration.php#ini.max-input-vars">max_input_vars&lt;/a>
- restriction. Which basically limitation for server which allows only limited number of input server to reach out server. Usually this number is around 1000. In this short tutorial I will describe, how to easily avoid this problem.&lt;/p></description></item><item><title>PHP 7 on AMI Linux (EC2)</title><link>https://www.spidersoft.com.au/2015/php-7-on-ami-linux-ec2/</link><pubDate>Thu, 10 Dec 2015 14:34:11 +0000</pubDate><guid>https://www.spidersoft.com.au/2015/php-7-on-ami-linux-ec2/</guid><description>&lt;p>PHP 7.0 it&amp;rsquo;s already a while on the market. Let’s install it on EC2 instance.  Here you can find a quick recipe:&lt;/p></description></item><item><title>PhpStorm PHPCodeSniffer and… CodeIgniter style guide</title><link>https://www.spidersoft.com.au/2015/phpstorm-phpcodesniffer-and-codeigniter-style-guide/</link><pubDate>Fri, 10 Jul 2015 01:26:14 +0000</pubDate><guid>https://www.spidersoft.com.au/2015/phpstorm-phpcodesniffer-and-codeigniter-style-guide/</guid><description>&lt;p>This article is related to my previous one about setting up 
+ &lt;a href="http://php.net/manual/en/info.configuration.php#ini.max-input-vars"&gt;max_input_vars&lt;/a&gt;
+ restriction. Which basically limitation for server which allows only limited number of input server to reach out server. Usually this number is around 1000. In this short tutorial I will describe, how to easily avoid this problem.&lt;/p&gt;</description></item><item><title>PHP 7 on AMI Linux (EC2)</title><link>https://www.spidersoft.com.au/2015/php-7-on-ami-linux-ec2/</link><pubDate>Thu, 10 Dec 2015 14:34:11 +0000</pubDate><guid>https://www.spidersoft.com.au/2015/php-7-on-ami-linux-ec2/</guid><description>&lt;p&gt;PHP 7.0 it&amp;rsquo;s already a while on the market. Let’s install it on EC2 instance.  Here you can find a quick recipe:&lt;/p&gt;</description></item><item><title>PhpStorm PHPCodeSniffer and… CodeIgniter style guide</title><link>https://www.spidersoft.com.au/2015/phpstorm-phpcodesniffer-and-codeigniter-style-guide/</link><pubDate>Fri, 10 Jul 2015 01:26:14 +0000</pubDate><guid>https://www.spidersoft.com.au/2015/phpstorm-phpcodesniffer-and-codeigniter-style-guide/</guid><description>&lt;p&gt;This article is related to my previous one about setting up 
  
  
- &lt;a href="https://www.spidersoft.com.au/2012/codeigniter-and-php_codesniffer/" title="CodeIgniter and PHP_CodeSniffer" target="_blank" rel="noopener">PHPCodeSniffer with CodeIgniter&lt;/a>
- coding standards.&lt;/p>
-&lt;p>Installation on Linux boxes is pretty yeasy:&lt;/p>
-&lt;pre tabindex="0">&lt;code>sudo pear channel-update pear.php.net
+ &lt;a href="https://www.spidersoft.com.au/2012/codeigniter-and-php_codesniffer/" title="CodeIgniter and PHP_CodeSniffer" target="_blank" rel="noopener"&gt;PHPCodeSniffer with CodeIgniter&lt;/a&gt;
+ coding standards.&lt;/p&gt;
+&lt;p&gt;Installation on Linux boxes is pretty yeasy:&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;sudo pear channel-update pear.php.net
 yum install php-pear-PHP-CodeSniffer php-phpunit-phpcpd
-&lt;/code>&lt;/pre>&lt;p>On Mac OS X you have couple options. Pear or Homebrew:&lt;/p>
-&lt;p>&lt;code>brew install php-code-sniffer&lt;/code>&lt;/p>
-&lt;p>And following that, on regular boxes CodeSniffer will be here:&lt;/p>
-&lt;p>&lt;code>/usr/share/pear/PHP/CodeSniffer/Standards&lt;/code>&lt;/p>
-&lt;p>on Mac OS CodeSniffer will be located here:&lt;/p>
-&lt;p>&lt;code>/usr/lib/php/pear/PHP/CodeSniffer/Standards&lt;/code> or… &lt;code>/usr/local/Cellar/php-code-sniffer/1.5.6/CodeSniffer/Standards&lt;/code>&lt;/p>
-&lt;p>CodeIgniter standard can be downloaded from this location  
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;On Mac OS X you have couple options. Pear or Homebrew:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;brew install php-code-sniffer&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;And following that, on regular boxes CodeSniffer will be here:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;/usr/share/pear/PHP/CodeSniffer/Standards&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;on Mac OS CodeSniffer will be located here:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;/usr/lib/php/pear/PHP/CodeSniffer/Standards&lt;/code&gt; or… &lt;code&gt;/usr/local/Cellar/php-code-sniffer/1.5.6/CodeSniffer/Standards&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;CodeIgniter standard can be downloaded from this location  
  
  
  
  
- &lt;a href="https://github.com/thomas-ernest/CodeIgniter-for-PHP_CodeSniffer" title="https://github.com/thomas-ernest/CodeIgniter-for-PHP_CodeSniffer">https://github.com/thomas-ernest/CodeIgniter-for-PHP_CodeSniffer&lt;/a>
- &lt;/p></description></item><item><title>PHPUnit and CodeIgniter 3.0</title><link>https://www.spidersoft.com.au/2015/phpunit-and-codeigniter-3-0/</link><pubDate>Thu, 02 Apr 2015 22:00:22 +0000</pubDate><guid>https://www.spidersoft.com.au/2015/phpunit-and-codeigniter-3-0/</guid><description>&lt;p>Quick tutorial how to setup proper unit testing with PHPUnit and CodeIgniter 3.0.&lt;br>
-We need couple elements&lt;/p>
-&lt;ol>
-&lt;li> 
+ &lt;a href="https://github.com/thomas-ernest/CodeIgniter-for-PHP_CodeSniffer" title="https://github.com/thomas-ernest/CodeIgniter-for-PHP_CodeSniffer"&gt;https://github.com/thomas-ernest/CodeIgniter-for-PHP_CodeSniffer&lt;/a&gt;
+ &lt;/p&gt;</description></item><item><title>PHPUnit and CodeIgniter 3.0</title><link>https://www.spidersoft.com.au/2015/phpunit-and-codeigniter-3-0/</link><pubDate>Thu, 02 Apr 2015 22:00:22 +0000</pubDate><guid>https://www.spidersoft.com.au/2015/phpunit-and-codeigniter-3-0/</guid><description>&lt;p&gt;Quick tutorial how to setup proper unit testing with PHPUnit and CodeIgniter 3.0.&lt;br&gt;
+We need couple elements&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt; 
  
  
  
  
- &lt;a href="http://www.codeigniter.com">CodeIgniter&lt;/a>
- – we are working with version 3.0rc3&lt;/li>
-&lt;li> 
+ &lt;a href="http://www.codeigniter.com"&gt;CodeIgniter&lt;/a&gt;
+ – we are working with version 3.0rc3&lt;/li&gt;
+&lt;li&gt; 
  
  
  
  
- &lt;a href="https://phpunit.de">PHPUnit&lt;/a>
-  – latest one&lt;/li>
-&lt;/ol>
-&lt;p>If you don’t have phpunit installed globally, you can go with composer, just add section to your &lt;code>composer.json&lt;/code>&lt;/p>
-&lt;pre tabindex="0">&lt;code>{
+ &lt;a href="https://phpunit.de"&gt;PHPUnit&lt;/a&gt;
+  – latest one&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;If you don’t have phpunit installed globally, you can go with composer, just add section to your &lt;code&gt;composer.json&lt;/code&gt;&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;{
  &amp;#34;require-dev&amp;#34;: {
  &amp;#34;phpunit/phpunit&amp;#34;: &amp;#34;4.1.*&amp;#34;
  }
 }
-&lt;/code>&lt;/pre>&lt;p>and then&lt;br>
-&lt;code>composer.phar install&lt;/code>&lt;br>
-and after while we have&lt;br>
-&lt;code>./vendor/bin/phpunit&lt;/code>&lt;br>
-working phpunit.&lt;/p>
-&lt;p>let’s create &lt;code>phpunit.xml.dist&lt;/code>&lt;/p>
-&lt;script src="https://gist.github.com/slav123/554d0a4ce91c8a0a68fe.js">&lt;/script>
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;and then&lt;br&gt;
+&lt;code&gt;composer.phar install&lt;/code&gt;&lt;br&gt;
+and after while we have&lt;br&gt;
+&lt;code&gt;./vendor/bin/phpunit&lt;/code&gt;&lt;br&gt;
+working phpunit.&lt;/p&gt;
+&lt;p&gt;let’s create &lt;code&gt;phpunit.xml.dist&lt;/code&gt;&lt;/p&gt;
+&lt;script src="https://gist.github.com/slav123/554d0a4ce91c8a0a68fe.js"&gt;&lt;/script&gt;
 
-&lt;p>next step will require create separate bootstrap file for PHPUnit. Just copy &lt;code>cp index.php tests/Bootstrap.php&lt;/code>&lt;br>
-We have to make 2 small amends.&lt;/p></description></item><item><title>Apache and PHP on OS X Yosemite</title><link>https://www.spidersoft.com.au/2014/apache-and-php-on-os-x-yosemite/</link><pubDate>Wed, 29 Oct 2014 03:27:31 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/apache-and-php-on-os-x-yosemite/</guid><description>&lt;p>It’s just a short instructions how to run Apache and PHP on OS X Yosemite.&lt;/p>
-&lt;p>PHP and Apache are already there – just need to run Apache and enable PHP. Video showing up whole process is available here:&lt;/p>
-&lt;p>Here you can check out exact changes.&lt;/p>
-&lt;p>Firsting first – we have to run Apache&lt;/p>
-&lt;p>&lt;code>sudo apachectl start&lt;/code>&lt;/p>
-&lt;p>Then make some changes in httpd.conf file&lt;/p>
-&lt;p>&lt;code>sudo nano /etc/apache2/httpd.conf&lt;/code>&lt;/p>
-&lt;p>Find two lines&lt;/p>
-&lt;pre tabindex="0">&lt;code>LoadModule rewrite_module libexec/apache2/mod_rewrite.so
+&lt;p&gt;next step will require create separate bootstrap file for PHPUnit. Just copy &lt;code&gt;cp index.php tests/Bootstrap.php&lt;/code&gt;&lt;br&gt;
+We have to make 2 small amends.&lt;/p&gt;</description></item><item><title>Apache and PHP on OS X Yosemite</title><link>https://www.spidersoft.com.au/2014/apache-and-php-on-os-x-yosemite/</link><pubDate>Wed, 29 Oct 2014 03:27:31 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/apache-and-php-on-os-x-yosemite/</guid><description>&lt;p&gt;It’s just a short instructions how to run Apache and PHP on OS X Yosemite.&lt;/p&gt;
+&lt;p&gt;PHP and Apache are already there – just need to run Apache and enable PHP. Video showing up whole process is available here:&lt;/p&gt;
+&lt;p&gt;Here you can check out exact changes.&lt;/p&gt;
+&lt;p&gt;Firsting first – we have to run Apache&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;sudo apachectl start&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Then make some changes in httpd.conf file&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;sudo nano /etc/apache2/httpd.conf&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Find two lines&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;LoadModule rewrite_module libexec/apache2/mod_rewrite.so
 LoadModule php5_module libexec/apache2/libphp5.so
-&lt;/code>&lt;/pre>&lt;p>and uncomment them. To enable PHP and mod_rewrite.&lt;br>
-And then restart Apache –&lt;/p></description></item><item><title>HHVM on Amazon EC2 in 2 minutes</title><link>https://www.spidersoft.com.au/2014/hhvm-on-amazon-ec2-in-2-minutes/</link><pubDate>Sat, 20 Sep 2014 23:18:54 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/hhvm-on-amazon-ec2-in-2-minutes/</guid><description>&lt;p>Probably you already heard about  
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;and uncomment them. To enable PHP and mod_rewrite.&lt;br&gt;
+And then restart Apache –&lt;/p&gt;</description></item><item><title>HHVM on Amazon EC2 in 2 minutes</title><link>https://www.spidersoft.com.au/2014/hhvm-on-amazon-ec2-in-2-minutes/</link><pubDate>Sat, 20 Sep 2014 23:18:54 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/hhvm-on-amazon-ec2-in-2-minutes/</guid><description>&lt;p&gt;Probably you already heard about  
  
  
  
  
- &lt;a href="http://hhvm.com/">HHVM&lt;/a>
- . As on their website:&lt;/p>
-&lt;blockquote>
-&lt;p>HHVM is an 
+ &lt;a href="http://hhvm.com/"&gt;HHVM&lt;/a&gt;
+ . As on their website:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;HHVM is an 
  
  
  
  
- &lt;a href="http://github.com/facebook/hhvm">open-source&lt;/a>
+ &lt;a href="http://github.com/facebook/hhvm"&gt;open-source&lt;/a&gt;
  virtual machine designed for executing programs written in 
  
  
  
  
- &lt;a href="http://hacklang.org/">Hack&lt;/a>
+ &lt;a href="http://hacklang.org/"&gt;Hack&lt;/a&gt;
   and 
  
  
  
  
- &lt;a href="http://php.net/">PHP&lt;/a>
- . HHVM uses a just-in-time (JIT) compilation approach to achieve superior performance while maintaining the development flexibility that PHP provides.&lt;/p>&lt;/blockquote>
-&lt;p>Using simple terms – HHVM allows you run scripts written in PHP but much, much more faster. Obviously you the main purpose of HHVM is to run HACK language, but it works pretty good with PHP itself.&lt;/p></description></item><item><title>PHP, work queues</title><link>https://www.spidersoft.com.au/2014/php-work-queues/</link><pubDate>Thu, 21 Aug 2014 04:30:27 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/php-work-queues/</guid><description>&lt;p>Biggest pain point in PHP is lack of asynchronous calls. The only reasonable way is to use some kind of “backend” processing and task list to execute. Some people use cron to run given script each n-minutes and execute tasks. But there is a little bit more “professional” approach.  
+ &lt;a href="http://php.net/"&gt;PHP&lt;/a&gt;
+ . HHVM uses a just-in-time (JIT) compilation approach to achieve superior performance while maintaining the development flexibility that PHP provides.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;Using simple terms – HHVM allows you run scripts written in PHP but much, much more faster. Obviously you the main purpose of HHVM is to run HACK language, but it works pretty good with PHP itself.&lt;/p&gt;</description></item><item><title>PHP, work queues</title><link>https://www.spidersoft.com.au/2014/php-work-queues/</link><pubDate>Thu, 21 Aug 2014 04:30:27 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/php-work-queues/</guid><description>&lt;p&gt;Biggest pain point in PHP is lack of asynchronous calls. The only reasonable way is to use some kind of “backend” processing and task list to execute. Some people use cron to run given script each n-minutes and execute tasks. But there is a little bit more “professional” approach.  
  
  
  
  
- &lt;a href="http://kr.github.io/beanstalkd/">Beanstalk&lt;/a>
- is a simple, fast work queue. Idea is pretty simple – you can just throw tasks into queue and then have background worker which is pulling data from pipe and executes task.&lt;/p>
-&lt;p>Couple ideas: sending emails, processing images, making heavy queries into database. But the best part of it – you don’t have to use PHP for back processing. It could be anything, because protocol us universal and worker and client doesn’t have to be in the same language. So you can schedule task in PHP, and run it in Go. I’m not going too much into details. Just run some examples.&lt;/p></description></item><item><title>Phalcon – super simple REST API example</title><link>https://www.spidersoft.com.au/2014/phalcon-simple-rest-api-example/</link><pubDate>Thu, 10 Jul 2014 04:24:38 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/phalcon-simple-rest-api-example/</guid><description>&lt;p>Throughout this first tutorial, i’ll walk you through the creation of an application with a simple REST API from the ground up. I assume you have 
+ &lt;a href="http://kr.github.io/beanstalkd/"&gt;Beanstalk&lt;/a&gt;
+ is a simple, fast work queue. Idea is pretty simple – you can just throw tasks into queue and then have background worker which is pulling data from pipe and executes task.&lt;/p&gt;
+&lt;p&gt;Couple ideas: sending emails, processing images, making heavy queries into database. But the best part of it – you don’t have to use PHP for back processing. It could be anything, because protocol us universal and worker and client doesn’t have to be in the same language. So you can schedule task in PHP, and run it in Go. I’m not going too much into details. Just run some examples.&lt;/p&gt;</description></item><item><title>Phalcon – super simple REST API example</title><link>https://www.spidersoft.com.au/2014/phalcon-simple-rest-api-example/</link><pubDate>Thu, 10 Jul 2014 04:24:38 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/phalcon-simple-rest-api-example/</guid><description>&lt;p&gt;Throughout this first tutorial, i’ll walk you through the creation of an application with a simple REST API from the ground up. I assume you have 
  
  
  
  
- &lt;a href="http://phalconphp.com/en/">Phalcon&lt;/a>
- . installed already.&lt;/p></description></item><item><title>Phalcon is a new PHP Framework of my choice</title><link>https://www.spidersoft.com.au/2014/phalcon-is-a-new-php-framework-of-my-choice/</link><pubDate>Fri, 27 Jun 2014 07:11:17 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/phalcon-is-a-new-php-framework-of-my-choice/</guid><description>&lt;p>I’m working on multiple PHP based projects. Most of them using 
+ &lt;a href="http://phalconphp.com/en/"&gt;Phalcon&lt;/a&gt;
+ . installed already.&lt;/p&gt;</description></item><item><title>Phalcon is a new PHP Framework of my choice</title><link>https://www.spidersoft.com.au/2014/phalcon-is-a-new-php-framework-of-my-choice/</link><pubDate>Fri, 27 Jun 2014 07:11:17 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/phalcon-is-a-new-php-framework-of-my-choice/</guid><description>&lt;p&gt;I’m working on multiple PHP based projects. Most of them using 
  
  
  
  
- &lt;a href="http://ellislab.com/codeigniter">CodeIgniter&lt;/a>
+ &lt;a href="http://ellislab.com/codeigniter"&gt;CodeIgniter&lt;/a&gt;
  as a base framework. I mastered it into stage, where has no secrets for me. The problem is that I also know disadvantages of this bit outdated framework. Recently core 
  
  
  
  
- &lt;a href="http://ellislab.com/blog/entry/ellislab-seeking-new-owner-for-codeigniter">team announced&lt;/a>
- that they are dropping future development so it means that CI is dead. Doesn’t mean that I don’t like it anymore. I just started looking for something new.&lt;/p>
-&lt;p>I like CI because I got control over everything. Modern PHP frameworks trying to solve all problems for you. It’s amazing, but lack of control is what you don’t need in when you developing projects. What do you need it’s this easy flow during development process. Full control over your MVC structure, but also a lot of “help” from framework itself.&lt;/p></description></item><item><title>Apache 2.4, PHP 5.4 on EC2 instance</title><link>https://www.spidersoft.com.au/2014/apache-2-4-php-5-4-on-ec2-instance/</link><pubDate>Tue, 27 May 2014 04:04:19 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/apache-2-4-php-5-4-on-ec2-instance/</guid><description>&lt;p>This tutorial just updated version of my 
+ &lt;a href="http://ellislab.com/blog/entry/ellislab-seeking-new-owner-for-codeigniter"&gt;team announced&lt;/a&gt;
+ that they are dropping future development so it means that CI is dead. Doesn’t mean that I don’t like it anymore. I just started looking for something new.&lt;/p&gt;
+&lt;p&gt;I like CI because I got control over everything. Modern PHP frameworks trying to solve all problems for you. It’s amazing, but lack of control is what you don’t need in when you developing projects. What do you need it’s this easy flow during development process. Full control over your MVC structure, but also a lot of “help” from framework itself.&lt;/p&gt;</description></item><item><title>Apache 2.4, PHP 5.4 on EC2 instance</title><link>https://www.spidersoft.com.au/2014/apache-2-4-php-5-4-on-ec2-instance/</link><pubDate>Tue, 27 May 2014 04:04:19 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/apache-2-4-php-5-4-on-ec2-instance/</guid><description>&lt;p&gt;This tutorial just updated version of my 
  
  
- &lt;a href="https://www.spidersoft.com.au/2013/apache-php-config-boilerplate/" title="Amazon EC2 – Installing Apache and PHP boilerplate" target="_blank" rel="noopener">previous one&lt;/a>
+ &lt;a href="https://www.spidersoft.com.au/2013/apache-php-config-boilerplate/" title="Amazon EC2 – Installing Apache and PHP boilerplate" target="_blank" rel="noopener"&gt;previous one&lt;/a&gt;
  . This time we are going to install newer version of apache (httpd 2.4), PHP 5.4 but as a 
  
  
  
  
- &lt;a href="https://wiki.apache.org/httpd/PHP-FPM">PHP-FPM&lt;/a>
- . Instructions are pretty simple. You can just copy and paste command to get working stack in less then 15 minutes.&lt;/p>
-&lt;p>What you can learn from it? How to install Apache 2.4 and PHP 5.4, how to enable and APC, and how to install HTTPS on your server, with purchasing SSL certificate.&lt;/p></description></item><item><title>Amazon EC2 – Installing Apache and PHP boilerplate</title><link>https://www.spidersoft.com.au/2013/apache-php-config-boilerplate/</link><pubDate>Thu, 14 Feb 2013 05:22:55 +0000</pubDate><guid>https://www.spidersoft.com.au/2013/apache-php-config-boilerplate/</guid><description>&lt;p>In this extremely simply tutorial I’m going to show, how you can deploy basic LAMP stack on EC2 instance. Instruction are pretty basic, without extra comments. You can just copy and paste command to get working stack in lest then 15 minutes.&lt;/p>
-&lt;p>What you can learn from it? How to install Apache and PHP, how to enable and run XCache accelerator, and how to run HTTPS on your server, with purchasing SSL certificate.&lt;/p></description></item><item><title>How to Install GeoIP extension on CentOS</title><link>https://www.spidersoft.com.au/2012/how-to-install-geoip-extension-on-centos/</link><pubDate>Tue, 23 Oct 2012 02:32:56 +0000</pubDate><guid>https://www.spidersoft.com.au/2012/how-to-install-geoip-extension-on-centos/</guid><description>&lt;p>Small 2019 update – Please check out this library – 
+ &lt;a href="https://wiki.apache.org/httpd/PHP-FPM"&gt;PHP-FPM&lt;/a&gt;
+ . Instructions are pretty simple. You can just copy and paste command to get working stack in less then 15 minutes.&lt;/p&gt;
+&lt;p&gt;What you can learn from it? How to install Apache 2.4 and PHP 5.4, how to enable and APC, and how to install HTTPS on your server, with purchasing SSL certificate.&lt;/p&gt;</description></item><item><title>Amazon EC2 – Installing Apache and PHP boilerplate</title><link>https://www.spidersoft.com.au/2013/apache-php-config-boilerplate/</link><pubDate>Thu, 14 Feb 2013 05:22:55 +0000</pubDate><guid>https://www.spidersoft.com.au/2013/apache-php-config-boilerplate/</guid><description>&lt;p&gt;In this extremely simply tutorial I’m going to show, how you can deploy basic LAMP stack on EC2 instance. Instruction are pretty basic, without extra comments. You can just copy and paste command to get working stack in lest then 15 minutes.&lt;/p&gt;
+&lt;p&gt;What you can learn from it? How to install Apache and PHP, how to enable and run XCache accelerator, and how to run HTTPS on your server, with purchasing SSL certificate.&lt;/p&gt;</description></item><item><title>How to Install GeoIP extension on CentOS</title><link>https://www.spidersoft.com.au/2012/how-to-install-geoip-extension-on-centos/</link><pubDate>Tue, 23 Oct 2012 02:32:56 +0000</pubDate><guid>https://www.spidersoft.com.au/2012/how-to-install-geoip-extension-on-centos/</guid><description>&lt;p&gt;Small 2019 update – Please check out this library – 
  
  
  
  
- &lt;a href="https://github.com/maxmind/MaxMind-DB-Reader-php">github.com/maxmind/MaxMind-DB-Reader-php&lt;/a>
- . It’s a straight replacement of PHP module.&lt;/p>
-&lt;p> 
+ &lt;a href="https://github.com/maxmind/MaxMind-DB-Reader-php"&gt;github.com/maxmind/MaxMind-DB-Reader-php&lt;/a&gt;
+ . It’s a straight replacement of PHP module.&lt;/p&gt;
+&lt;p&gt; 
  
  
  
  
- &lt;a href="http://pecl.php.net/package/geoip">GeoIP from PECL&lt;/a>
+ &lt;a href="http://pecl.php.net/package/geoip"&gt;GeoIP from PECL&lt;/a&gt;
  is powerful extension used to determine geographical locations of IP addresses and domain names. This is useful if you want to set a language or redirection based on location of your visitor. Check out the PHP docs for a full list of 
  
  
  
  
- &lt;a href="http://www.php.net/manual/en/ref.geoip.php">GeoIP functions&lt;/a>
- .&lt;/p></description></item><item><title>CodeIgniter and PHP_CodeSniffer</title><link>https://www.spidersoft.com.au/2012/codeigniter-and-php_codesniffer/</link><pubDate>Wed, 07 Mar 2012 08:28:40 +0000</pubDate><guid>https://www.spidersoft.com.au/2012/codeigniter-and-php_codesniffer/</guid><description>&lt;p> 
+ &lt;a href="http://www.php.net/manual/en/ref.geoip.php"&gt;GeoIP functions&lt;/a&gt;
+ .&lt;/p&gt;</description></item><item><title>CodeIgniter and PHP_CodeSniffer</title><link>https://www.spidersoft.com.au/2012/codeigniter-and-php_codesniffer/</link><pubDate>Wed, 07 Mar 2012 08:28:40 +0000</pubDate><guid>https://www.spidersoft.com.au/2012/codeigniter-and-php_codesniffer/</guid><description>&lt;p&gt; 
  
  
  
  
- &lt;a href="http://codeigniter.com/">CodeIgniter&lt;/a>
+ &lt;a href="http://codeigniter.com/"&gt;CodeIgniter&lt;/a&gt;
  is the king 😉 But if we want to create good quality code, we should be aware about 
  
  
  
  
- &lt;a href="http://codeigniter.com/user_guide/general/styleguide.html">CodeIgniter style guide&lt;/a>
+ &lt;a href="http://codeigniter.com/user_guide/general/styleguide.html"&gt;CodeIgniter style guide&lt;/a&gt;
  standards. What can be better than 
  
  
  
  
- &lt;a href="http://pear.php.net/package/PHP_CodeSniffer/">PHP_CodeSniffer&lt;/a>
- for keeping our code consistent and clean as much as it possible.&lt;/p>
-&lt;p>Unfortunately standard rules from PHP_CodeSniffer doesn’t apply for CodeIgniter. You have to install additional set of rules – you can download them from here: 
+ &lt;a href="http://pear.php.net/package/PHP_CodeSniffer/"&gt;PHP_CodeSniffer&lt;/a&gt;
+ for keeping our code consistent and clean as much as it possible.&lt;/p&gt;
+&lt;p&gt;Unfortunately standard rules from PHP_CodeSniffer doesn’t apply for CodeIgniter. You have to install additional set of rules – you can download them from here: 
  
  
  
  
- &lt;a href="https://github.com/thomas-ernest/CodeIgniter-for-PHP_CodeSniffer">PHP_CodeSniffer rules for CI&lt;/a>
- .&lt;/p></description></item><item><title>Attribute value in Magento</title><link>https://www.spidersoft.com.au/2011/attribute-value-in-magento/</link><pubDate>Mon, 15 Aug 2011 02:37:29 +0000</pubDate><guid>https://www.spidersoft.com.au/2011/attribute-value-in-magento/</guid><description>&lt;p>Some useful function for managing attribute values in Magento.&lt;/p></description></item><item><title>Piwik as a alternative to Google Analytics</title><link>https://www.spidersoft.com.au/2010/piwik-as-a-alternative-to-google-analytics/</link><pubDate>Thu, 02 Dec 2010 21:41:50 +0000</pubDate><guid>https://www.spidersoft.com.au/2010/piwik-as-a-alternative-to-google-analytics/</guid><description>&lt;p>Piwik is a downloadable, open source (GPL licensed) real time web analytics software program. It provides you with detailed reports on your website visitors: the search engines and keywords they used, the language they speak, your popular pages… and so much more.&lt;br>
-It’s great free open source alternative for Google Analytics. It’s easier and more readably for regular user to understand traffic on your website.&lt;/p>
-&lt;p>What makes Piwik unique from the competition:&lt;/p></description></item></channel></rss>
+ &lt;a href="https://github.com/thomas-ernest/CodeIgniter-for-PHP_CodeSniffer"&gt;PHP_CodeSniffer rules for CI&lt;/a&gt;
+ .&lt;/p&gt;</description></item><item><title>Attribute value in Magento</title><link>https://www.spidersoft.com.au/2011/attribute-value-in-magento/</link><pubDate>Mon, 15 Aug 2011 02:37:29 +0000</pubDate><guid>https://www.spidersoft.com.au/2011/attribute-value-in-magento/</guid><description>&lt;p&gt;Some useful function for managing attribute values in Magento.&lt;/p&gt;</description></item><item><title>Piwik as a alternative to Google Analytics</title><link>https://www.spidersoft.com.au/2010/piwik-as-a-alternative-to-google-analytics/</link><pubDate>Thu, 02 Dec 2010 21:41:50 +0000</pubDate><guid>https://www.spidersoft.com.au/2010/piwik-as-a-alternative-to-google-analytics/</guid><description>&lt;p&gt;Piwik is a downloadable, open source (GPL licensed) real time web analytics software program. It provides you with detailed reports on your website visitors: the search engines and keywords they used, the language they speak, your popular pages… and so much more.&lt;br&gt;
+It’s great free open source alternative for Google Analytics. It’s easier and more readably for regular user to understand traffic on your website.&lt;/p&gt;
+&lt;p&gt;What makes Piwik unique from the competition:&lt;/p&gt;</description></item></channel></rss>

@@ -1,49 +1,49 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Geoip on SpiderSoft</title><link>https://www.spidersoft.com.au/tags/geoip/</link><description>Recent content in Geoip on SpiderSoft</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 16 Jun 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://www.spidersoft.com.au/tags/geoip/index.xml" rel="self" type="application/rss+xml"/><item><title>GeoIP extension PHP 7.x + AMI / Redhat / CentOs Linux</title><link>https://www.spidersoft.com.au/2018/geoip-extension-php-7-x-ami-redhat-centos-linux/</link><pubDate>Mon, 16 Jul 2018 09:53:42 +0000</pubDate><guid>https://www.spidersoft.com.au/2018/geoip-extension-php-7-x-ami-redhat-centos-linux/</guid><description>&lt;p>Small 2019 update – Please check out this library – 
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Geoip on SpiderSoft</title><link>https://www.spidersoft.com.au/tags/geoip/</link><description>Recent content in Geoip on SpiderSoft</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 16 Jun 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://www.spidersoft.com.au/tags/geoip/index.xml" rel="self" type="application/rss+xml"/><item><title>GeoIP extension PHP 7.x + AMI / Redhat / CentOs Linux</title><link>https://www.spidersoft.com.au/2018/geoip-extension-php-7-x-ami-redhat-centos-linux/</link><pubDate>Mon, 16 Jul 2018 09:53:42 +0000</pubDate><guid>https://www.spidersoft.com.au/2018/geoip-extension-php-7-x-ami-redhat-centos-linux/</guid><description>&lt;p&gt;Small 2019 update – Please check out this library – 
  
  
  
  
- &lt;a href="https://github.com/maxmind/MaxMind-DB-Reader-php">github.com/maxmind/MaxMind-DB-Reader-php&lt;/a>
- &lt;/p>
-&lt;p>It’s a straight replacement of PHP module.&lt;/p>
-&lt;hr>
-&lt;p>GeoIP extensions is quite use-full, but it requires some server – side magic. If you are looking for something simpler, just go with  
+ &lt;a href="https://github.com/maxmind/MaxMind-DB-Reader-php"&gt;github.com/maxmind/MaxMind-DB-Reader-php&lt;/a&gt;
+ &lt;/p&gt;
+&lt;p&gt;It’s a straight replacement of PHP module.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;GeoIP extensions is quite use-full, but it requires some server – side magic. If you are looking for something simpler, just go with  
  
  
  
  
- &lt;a href="https://ipstack.com">ipstack.com&lt;/a>
+ &lt;a href="https://ipstack.com"&gt;ipstack.com&lt;/a&gt;
  or something similar – 
  
  
  
  
- &lt;a href="https://geoip.gex.pl">GeoIP&lt;/a>
- .&lt;/p>
-&lt;p>Otherwise:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-shell" data-lang="shell">&lt;span style="display:flex;">&lt;span>wget http://pear.php.net/go-pear.phar
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>php go-pear.phar
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>We need geoip-devel libraries:&lt;/p>
-&lt;p>&lt;code>yum install geoip-devel&lt;/code>&lt;/p>
-&lt;p>And newest (not stable) version of geoip:&lt;/p>
-&lt;p>&lt;code>sudo ./pecl install geoip-1.1.1&lt;/code>&lt;/p>
-&lt;p>Don’t forget to add &lt;code>extension=geoip.so&lt;/code> to your php.ini file.&lt;/p></description></item><item><title>How to Install GeoIP extension on CentOS</title><link>https://www.spidersoft.com.au/2012/how-to-install-geoip-extension-on-centos/</link><pubDate>Tue, 23 Oct 2012 02:32:56 +0000</pubDate><guid>https://www.spidersoft.com.au/2012/how-to-install-geoip-extension-on-centos/</guid><description>&lt;p>Small 2019 update – Please check out this library – 
+ &lt;a href="https://geoip.gex.pl"&gt;GeoIP&lt;/a&gt;
+ .&lt;/p&gt;
+&lt;p&gt;Otherwise:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-shell" data-lang="shell"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;wget http://pear.php.net/go-pear.phar
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;php go-pear.phar
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;We need geoip-devel libraries:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;yum install geoip-devel&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;And newest (not stable) version of geoip:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;sudo ./pecl install geoip-1.1.1&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Don’t forget to add &lt;code&gt;extension=geoip.so&lt;/code&gt; to your php.ini file.&lt;/p&gt;</description></item><item><title>How to Install GeoIP extension on CentOS</title><link>https://www.spidersoft.com.au/2012/how-to-install-geoip-extension-on-centos/</link><pubDate>Tue, 23 Oct 2012 02:32:56 +0000</pubDate><guid>https://www.spidersoft.com.au/2012/how-to-install-geoip-extension-on-centos/</guid><description>&lt;p&gt;Small 2019 update – Please check out this library – 
  
  
  
  
- &lt;a href="https://github.com/maxmind/MaxMind-DB-Reader-php">github.com/maxmind/MaxMind-DB-Reader-php&lt;/a>
- . It’s a straight replacement of PHP module.&lt;/p>
-&lt;p> 
+ &lt;a href="https://github.com/maxmind/MaxMind-DB-Reader-php"&gt;github.com/maxmind/MaxMind-DB-Reader-php&lt;/a&gt;
+ . It’s a straight replacement of PHP module.&lt;/p&gt;
+&lt;p&gt; 
  
  
  
  
- &lt;a href="http://pecl.php.net/package/geoip">GeoIP from PECL&lt;/a>
+ &lt;a href="http://pecl.php.net/package/geoip"&gt;GeoIP from PECL&lt;/a&gt;
  is powerful extension used to determine geographical locations of IP addresses and domain names. This is useful if you want to set a language or redirection based on location of your visitor. Check out the PHP docs for a full list of 
  
  
  
  
- &lt;a href="http://www.php.net/manual/en/ref.geoip.php">GeoIP functions&lt;/a>
- .&lt;/p></description></item></channel></rss>
+ &lt;a href="http://www.php.net/manual/en/ref.geoip.php"&gt;GeoIP functions&lt;/a&gt;
+ .&lt;/p&gt;</description></item></channel></rss>

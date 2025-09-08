@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Setup on SpiderSoft</title><link>https://www.spidersoft.com.au/tags/setup/</link><description>Recent content in Setup on SpiderSoft</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 13 Jul 2014 06:42:43 +0000</lastBuildDate><atom:link href="https://www.spidersoft.com.au/tags/setup/index.xml" rel="self" type="application/rss+xml"/><item><title>Getting started with go language on Mac OS X</title><link>https://www.spidersoft.com.au/2014/getting-started-with-go-language-on-mac-os-x/</link><pubDate>Sun, 13 Jul 2014 06:42:43 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/getting-started-with-go-language-on-mac-os-x/</guid><description>&lt;p>Node.js is like space shuttle – very sophisticated, very fast but one simple mistake and… it goes down.&lt;/p>
-&lt;p>So recently i tried 
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Setup on SpiderSoft</title><link>https://www.spidersoft.com.au/tags/setup/</link><description>Recent content in Setup on SpiderSoft</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 13 Jul 2014 06:42:43 +0000</lastBuildDate><atom:link href="https://www.spidersoft.com.au/tags/setup/index.xml" rel="self" type="application/rss+xml"/><item><title>Getting started with go language on Mac OS X</title><link>https://www.spidersoft.com.au/2014/getting-started-with-go-language-on-mac-os-x/</link><pubDate>Sun, 13 Jul 2014 06:42:43 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/getting-started-with-go-language-on-mac-os-x/</guid><description>&lt;p&gt;Node.js is like space shuttle – very sophisticated, very fast but one simple mistake and… it goes down.&lt;/p&gt;
+&lt;p&gt;So recently i tried 
  
  
  
  
- &lt;a href="http://golang.org/">The Go Language&lt;/a>
-  which is advertised as&lt;/p>
-&lt;blockquote>
-&lt;p>Go is an open source programming language that makes it easy to build simple, reliable, and efficient software.&lt;/p>&lt;/blockquote>
-&lt;p>Because google is a creator of this langauge documentation sucks. Plenty of random documents of everwhere, no clean how to documentation.&lt;/p></description></item></channel></rss>
+ &lt;a href="http://golang.org/"&gt;The Go Language&lt;/a&gt;
+  which is advertised as&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Go is an open source programming language that makes it easy to build simple, reliable, and efficient software.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;Because google is a creator of this langauge documentation sucks. Plenty of random documents of everwhere, no clean how to documentation.&lt;/p&gt;</description></item></channel></rss>

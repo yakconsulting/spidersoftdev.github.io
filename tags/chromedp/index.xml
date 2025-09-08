@@ -1,15 +1,15 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Chromedp on SpiderSoft</title><link>https://www.spidersoft.com.au/tags/chromedp/</link><description>Recent content in Chromedp on SpiderSoft</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 13 Feb 2023 08:00:00 +0000</lastBuildDate><atom:link href="https://www.spidersoft.com.au/tags/chromedp/index.xml" rel="self" type="application/rss+xml"/><item><title>How to scrape page source with Go and chromedp</title><link>https://www.spidersoft.com.au/2023/scraping-pages-with-go-and-chromedp/</link><pubDate>Mon, 13 Feb 2023 08:00:00 +0000</pubDate><guid>https://www.spidersoft.com.au/2023/scraping-pages-with-go-and-chromedp/</guid><description>&lt;p>It&amp;rsquo;s clear what we are trying to achieve, so let&amp;rsquo;s consider the requirements. Firstly, we need a tool to render web pages since JavaScript is commonly used nowadays. Secondly, we require an API to communicate with the headless browser. Lastly, saving the result can be challenging as browsers are designed to interact with rendered results rather than directly with the source code.&lt;/p>
-&lt;h2 id="headless-browser">Headless browser&lt;/h2>
-&lt;p>So we are looking for a headless browser. We are going to use 
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Chromedp on SpiderSoft</title><link>https://www.spidersoft.com.au/tags/chromedp/</link><description>Recent content in Chromedp on SpiderSoft</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 13 Feb 2023 08:00:00 +0000</lastBuildDate><atom:link href="https://www.spidersoft.com.au/tags/chromedp/index.xml" rel="self" type="application/rss+xml"/><item><title>How to scrape page source with Go and chromedp</title><link>https://www.spidersoft.com.au/2023/scraping-pages-with-go-and-chromedp/</link><pubDate>Mon, 13 Feb 2023 08:00:00 +0000</pubDate><guid>https://www.spidersoft.com.au/2023/scraping-pages-with-go-and-chromedp/</guid><description>&lt;p&gt;It&amp;rsquo;s clear what we are trying to achieve, so let&amp;rsquo;s consider the requirements. Firstly, we need a tool to render web pages since JavaScript is commonly used nowadays. Secondly, we require an API to communicate with the headless browser. Lastly, saving the result can be challenging as browsers are designed to interact with rendered results rather than directly with the source code.&lt;/p&gt;
+&lt;h2 id="headless-browser"&gt;Headless browser&lt;/h2&gt;
+&lt;p&gt;So we are looking for a headless browser. We are going to use 
  
  
  
  
- &lt;a href="https://github.com/chromedp/docker-headless-shell">Chrome’s headless-shell&lt;/a>
+ &lt;a href="https://github.com/chromedp/docker-headless-shell"&gt;Chrome’s headless-shell&lt;/a&gt;
  because it&amp;rsquo;s easy to use, and it&amp;rsquo;s based on 
  
  
  
  
- &lt;a href="https://www.chromium.org/Home">Chromium&lt;/a>
- . The most significant advantage is docker image, which we can efficiently run on our local machine or anywhere in the cloud.&lt;/p></description></item></channel></rss>
+ &lt;a href="https://www.chromium.org/Home"&gt;Chromium&lt;/a&gt;
+ . The most significant advantage is docker image, which we can efficiently run on our local machine or anywhere in the cloud.&lt;/p&gt;</description></item></channel></rss>

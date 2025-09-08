@@ -1,38 +1,38 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Google on SpiderSoft</title><link>https://www.spidersoft.com.au/tags/google/</link><description>Recent content in Google on SpiderSoft</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 15 May 2015 01:08:15 +0000</lastBuildDate><atom:link href="https://www.spidersoft.com.au/tags/google/index.xml" rel="self" type="application/rss+xml"/><item><title>Using Google Cloud storage with AWS libraries in GO LANG</title><link>https://www.spidersoft.com.au/2015/google-cloud-storage-with-aws-libraries-go-lang/</link><pubDate>Fri, 15 May 2015 01:08:15 +0000</pubDate><guid>https://www.spidersoft.com.au/2015/google-cloud-storage-with-aws-libraries-go-lang/</guid><description>&lt;p> 
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Google on SpiderSoft</title><link>https://www.spidersoft.com.au/tags/google/</link><description>Recent content in Google on SpiderSoft</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 15 May 2015 01:08:15 +0000</lastBuildDate><atom:link href="https://www.spidersoft.com.au/tags/google/index.xml" rel="self" type="application/rss+xml"/><item><title>Using Google Cloud storage with AWS libraries in GO LANG</title><link>https://www.spidersoft.com.au/2015/google-cloud-storage-with-aws-libraries-go-lang/</link><pubDate>Fri, 15 May 2015 01:08:15 +0000</pubDate><guid>https://www.spidersoft.com.au/2015/google-cloud-storage-with-aws-libraries-go-lang/</guid><description>&lt;p&gt; 
  
  
  
  
- &lt;a href="https://cloud.google.com/storage/docs/overview">Google Cloud storage&lt;/a>
+ &lt;a href="https://cloud.google.com/storage/docs/overview"&gt;Google Cloud storage&lt;/a&gt;
   it’s Google answer to [Amazon S3][1] service. As long one of them is very popular 😉 Second wasn’t so successful amongst developers due to quite complex processes around service. Amazon is super simple, and developer friendly – Google… well not so easy. So the questions – why you may consider using GS instead of well documented, and super easy S3. Not many people realise but Google Cloud Storage is 
  
  
  
  
- &lt;a href="http://www.cloudberrylab.com/blog/amazon-s3-azure-and-google-cloud-prices-compare/">actually cheaper&lt;/a>
- . The other reason to use Google Storage is having different provider as a backup solution. Anyway – let’s show how easy is to use GS with existing S3 libraries.&lt;/p></description></item><item><title>Google Storage for Developers vs Amazon S3</title><link>https://www.spidersoft.com.au/2011/google-storage-for-developers-vs-amazon-s3/</link><pubDate>Tue, 01 Mar 2011 18:35:40 +0000</pubDate><guid>https://www.spidersoft.com.au/2011/google-storage-for-developers-vs-amazon-s3/</guid><description>&lt;p>I just got activation for 
+ &lt;a href="http://www.cloudberrylab.com/blog/amazon-s3-azure-and-google-cloud-prices-compare/"&gt;actually cheaper&lt;/a&gt;
+ . The other reason to use Google Storage is having different provider as a backup solution. Anyway – let’s show how easy is to use GS with existing S3 libraries.&lt;/p&gt;</description></item><item><title>Google Storage for Developers vs Amazon S3</title><link>https://www.spidersoft.com.au/2011/google-storage-for-developers-vs-amazon-s3/</link><pubDate>Tue, 01 Mar 2011 18:35:40 +0000</pubDate><guid>https://www.spidersoft.com.au/2011/google-storage-for-developers-vs-amazon-s3/</guid><description>&lt;p&gt;I just got activation for 
  
  
  
  
- &lt;a href="http://code.google.com/apis/storage/">Google Storage for Developers&lt;/a>
+ &lt;a href="http://code.google.com/apis/storage/"&gt;Google Storage for Developers&lt;/a&gt;
  . Service is similar to 
  
  
  
  
- &lt;a href="http://aws.amazon.com/s3/">Amazon S3&lt;/a>
- but it’s served by Google and it’s still in beta mode – that’s mean that you can’t just register and use, and you have limited warranty about quality and uptime.&lt;/p></description></item><item><title>Desktop Closure Compiler beta release</title><link>https://www.spidersoft.com.au/2011/desktop-closure-compiler-beta-release/</link><pubDate>Thu, 20 Jan 2011 03:16:24 +0000</pubDate><guid>https://www.spidersoft.com.au/2011/desktop-closure-compiler-beta-release/</guid><description>&lt;p>The 
+ &lt;a href="http://aws.amazon.com/s3/"&gt;Amazon S3&lt;/a&gt;
+ but it’s served by Google and it’s still in beta mode – that’s mean that you can’t just register and use, and you have limited warranty about quality and uptime.&lt;/p&gt;</description></item><item><title>Desktop Closure Compiler beta release</title><link>https://www.spidersoft.com.au/2011/desktop-closure-compiler-beta-release/</link><pubDate>Thu, 20 Jan 2011 03:16:24 +0000</pubDate><guid>https://www.spidersoft.com.au/2011/desktop-closure-compiler-beta-release/</guid><description>&lt;p&gt;The 
  
  
  
  
- &lt;a href="http://code.google.com/closure/compiler/">Closure Compiler&lt;/a>
- is a tool for making JavaScript download and run faster. It is a true compiler for JavaScript. Instead of compiling from a source language to machine code, it compiles from JavaScript to better JavaScript. It parses your JavaScript, analyzes it, removes dead code and rewrites and minimizes what’s left. It also checks syntax, variable references, and types, and warns about common JavaScript pitfalls.&lt;/p>
-&lt;p>Google provides  
+ &lt;a href="http://code.google.com/closure/compiler/"&gt;Closure Compiler&lt;/a&gt;
+ is a tool for making JavaScript download and run faster. It is a true compiler for JavaScript. Instead of compiling from a source language to machine code, it compiles from JavaScript to better JavaScript. It parses your JavaScript, analyzes it, removes dead code and rewrites and minimizes what’s left. It also checks syntax, variable references, and types, and warns about common JavaScript pitfalls.&lt;/p&gt;
+&lt;p&gt;Google provides  
  
  
  
  
- &lt;a href="http://closure-compiler.appspot.com/home">Closure Compiler Service&lt;/a>
- which is web application to compile JavaScript, you can also use Java application or REST API. For your convenience we created simple app to use Closure Compiler on your desktop.&lt;/p></description></item></channel></rss>
+ &lt;a href="http://closure-compiler.appspot.com/home"&gt;Closure Compiler Service&lt;/a&gt;
+ which is web application to compile JavaScript, you can also use Java application or REST API. For your convenience we created simple app to use Closure Compiler on your desktop.&lt;/p&gt;</description></item></channel></rss>

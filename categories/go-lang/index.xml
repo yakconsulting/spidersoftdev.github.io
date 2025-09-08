@@ -1,122 +1,125 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Go Lang on SpiderSoft</title><link>https://www.spidersoft.com.au/categories/go-lang/</link><description>Recent content in Go Lang on SpiderSoft</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 30 Apr 2025 11:35:59 +0200</lastBuildDate><atom:link href="https://www.spidersoft.com.au/categories/go-lang/index.xml" rel="self" type="application/rss+xml"/><item><title>Level Up Your Go Web Server: Mastering Advanced Routing with net/http</title><link>https://www.spidersoft.com.au/posts/2025-04-30-golang-http/</link><pubDate>Wed, 30 Apr 2025 11:35:59 +0200</pubDate><guid>https://www.spidersoft.com.au/posts/2025-04-30-golang-http/</guid><description>&lt;h1 id="level-up-your-go-web-server-mastering-advanced-routing-with-nethttp">Level Up Your Go Web Server: Mastering Advanced Routing with &lt;code>net/http&lt;/code>&lt;/h1>
-&lt;p>Building robust and maintainable web applications in Go often hinges on how effectively you manage incoming HTTP requests. While Go&amp;rsquo;s built-in &lt;code>net/http&lt;/code> package provides foundational tools, its advanced routing features empower you to create sophisticated and organized application logic. This article will guide you through practical code examples for path parameters, HTTP method constraints, host-based routing, middleware, sub-routing, and context-elevating your Go web server development.&lt;/p></description></item><item><title>How to scrape page source with Go and chromedp</title><link>https://www.spidersoft.com.au/2023/scraping-pages-with-go-and-chromedp/</link><pubDate>Mon, 13 Feb 2023 08:00:00 +0000</pubDate><guid>https://www.spidersoft.com.au/2023/scraping-pages-with-go-and-chromedp/</guid><description>&lt;p>It&amp;rsquo;s clear what we are trying to achieve, so let&amp;rsquo;s consider the requirements. Firstly, we need a tool to render web pages since JavaScript is commonly used nowadays. Secondly, we require an API to communicate with the headless browser. Lastly, saving the result can be challenging as browsers are designed to interact with rendered results rather than directly with the source code.&lt;/p>
-&lt;h2 id="headless-browser">Headless browser&lt;/h2>
-&lt;p>So we are looking for a headless browser. We are going to use 
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Go Lang on SpiderSoft</title><link>https://www.spidersoft.com.au/categories/go-lang/</link><description>Recent content in Go Lang on SpiderSoft</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 08 Sep 2025 10:00:00 +0200</lastBuildDate><atom:link href="https://www.spidersoft.com.au/categories/go-lang/index.xml" rel="self" type="application/rss+xml"/><item><title>How to Get Real Client IPs in Fiber When Using a Reverse Proxy</title><link>https://www.spidersoft.com.au/posts/2025-08-09-fiber-proxy/</link><pubDate>Mon, 08 Sep 2025 10:00:00 +0200</pubDate><guid>https://www.spidersoft.com.au/posts/2025-08-09-fiber-proxy/</guid><description>&lt;h1 id="getting-real-client-ips-in-fiber-behind-a-proxy"&gt;Getting Real Client IPs in Fiber Behind a Proxy&lt;/h1&gt;
+&lt;p&gt;When your Fiber application runs behind a reverse proxy like Caddy, Nginx, or Cloudflare, you&amp;rsquo;ll notice that &lt;code&gt;c.IP()&lt;/code&gt; returns the proxy&amp;rsquo;s IP address instead of your actual visitor&amp;rsquo;s IP. This happens because Fiber sees the direct connection, which is from the proxy server, not the original client.&lt;/p&gt;
+&lt;h2 id="why-this-happens"&gt;Why This Happens&lt;/h2&gt;
+&lt;p&gt;By default, Fiber reads the IP from the direct TCP connection for security reasons. Without proper configuration, it doesn&amp;rsquo;t know there&amp;rsquo;s a trusted proxy in front of it passing along the real client information in HTTP headers.&lt;/p&gt;</description></item><item><title>Level Up Your Go Web Server: Mastering Advanced Routing with net/http</title><link>https://www.spidersoft.com.au/posts/2025-04-30-golang-http/</link><pubDate>Wed, 30 Apr 2025 11:35:59 +0200</pubDate><guid>https://www.spidersoft.com.au/posts/2025-04-30-golang-http/</guid><description>&lt;h1 id="level-up-your-go-web-server-mastering-advanced-routing-with-nethttp"&gt;Level Up Your Go Web Server: Mastering Advanced Routing with &lt;code&gt;net/http&lt;/code&gt;&lt;/h1&gt;
+&lt;p&gt;Building robust and maintainable web applications in Go often hinges on how effectively you manage incoming HTTP requests. While Go&amp;rsquo;s built-in &lt;code&gt;net/http&lt;/code&gt; package provides foundational tools, its advanced routing features empower you to create sophisticated and organized application logic. This article will guide you through practical code examples for path parameters, HTTP method constraints, host-based routing, middleware, sub-routing, and context-elevating your Go web server development.&lt;/p&gt;</description></item><item><title>How to scrape page source with Go and chromedp</title><link>https://www.spidersoft.com.au/2023/scraping-pages-with-go-and-chromedp/</link><pubDate>Mon, 13 Feb 2023 08:00:00 +0000</pubDate><guid>https://www.spidersoft.com.au/2023/scraping-pages-with-go-and-chromedp/</guid><description>&lt;p&gt;It&amp;rsquo;s clear what we are trying to achieve, so let&amp;rsquo;s consider the requirements. Firstly, we need a tool to render web pages since JavaScript is commonly used nowadays. Secondly, we require an API to communicate with the headless browser. Lastly, saving the result can be challenging as browsers are designed to interact with rendered results rather than directly with the source code.&lt;/p&gt;
+&lt;h2 id="headless-browser"&gt;Headless browser&lt;/h2&gt;
+&lt;p&gt;So we are looking for a headless browser. We are going to use 
  
  
  
  
- &lt;a href="https://github.com/chromedp/docker-headless-shell">Chrome’s headless-shell&lt;/a>
+ &lt;a href="https://github.com/chromedp/docker-headless-shell"&gt;Chrome’s headless-shell&lt;/a&gt;
  because it&amp;rsquo;s easy to use, and it&amp;rsquo;s based on 
  
  
  
  
- &lt;a href="https://www.chromium.org/Home">Chromium&lt;/a>
- . The most significant advantage is docker image, which we can efficiently run on our local machine or anywhere in the cloud.&lt;/p></description></item><item><title>How to test golang written lambda function locally</title><link>https://www.spidersoft.com.au/2022/how-to-test-lambda-function-locally/</link><pubDate>Mon, 07 Nov 2022 08:00:00 +0000</pubDate><guid>https://www.spidersoft.com.au/2022/how-to-test-lambda-function-locally/</guid><description>&lt;p>For a while I was looking for an easy we to test my lambda functions written in golang locally. We have awesome tools like 
+ &lt;a href="https://www.chromium.org/Home"&gt;Chromium&lt;/a&gt;
+ . The most significant advantage is docker image, which we can efficiently run on our local machine or anywhere in the cloud.&lt;/p&gt;</description></item><item><title>How to test golang written lambda function locally</title><link>https://www.spidersoft.com.au/2022/how-to-test-lambda-function-locally/</link><pubDate>Mon, 07 Nov 2022 08:00:00 +0000</pubDate><guid>https://www.spidersoft.com.au/2022/how-to-test-lambda-function-locally/</guid><description>&lt;p&gt;For a while I was looking for an easy we to test my lambda functions written in golang locally. We have awesome tools like 
  
  
  
  
- &lt;a href="https://localstack.cloud/">LocalStack&lt;/a>
+ &lt;a href="https://localstack.cloud/"&gt;LocalStack&lt;/a&gt;
  but this is not what I was looking for. I wanted to test my lambda function locally, without any dependencies. Something lighter without 
  
  
  
  
- &lt;a href="https://www.docker.com/">Docker&lt;/a>
- . I will show you how to do that.&lt;/p></description></item><item><title>Golang and DynamoDB</title><link>https://www.spidersoft.com.au/2022/how-to-populate-dynamodb-with-golang/</link><pubDate>Thu, 03 Nov 2022 08:30:00 +0000</pubDate><guid>https://www.spidersoft.com.au/2022/how-to-populate-dynamodb-with-golang/</guid><description>&lt;p>I have been avoiding 
+ &lt;a href="https://www.docker.com/"&gt;Docker&lt;/a&gt;
+ . I will show you how to do that.&lt;/p&gt;</description></item><item><title>Golang and DynamoDB</title><link>https://www.spidersoft.com.au/2022/how-to-populate-dynamodb-with-golang/</link><pubDate>Thu, 03 Nov 2022 08:30:00 +0000</pubDate><guid>https://www.spidersoft.com.au/2022/how-to-populate-dynamodb-with-golang/</guid><description>&lt;p&gt;I have been avoiding 
  
  
  
  
- &lt;a href="https://aws.amazon.com/dynamodb/">Amazon DynamoDB&lt;/a>
+ &lt;a href="https://aws.amazon.com/dynamodb/"&gt;Amazon DynamoDB&lt;/a&gt;
  for a long time. Each time I tried to use it, either with PHP or GoLang always gave up very quickly.
-A while ago, I built up a solution storing a lot of JSON files on S3 buckets, and the costs of this solution (number of GET requests) started to escalate very quickly. I decided to try to migrate data to DynamoDB, and this time I was successful. I will try to explain how I did it and what I learned along the way.&lt;/p></description></item><item><title>How to create AWS Signature on GET POST request</title><link>https://www.spidersoft.com.au/2022/aws-signature-request/</link><pubDate>Sun, 28 Aug 2022 08:30:00 +0000</pubDate><guid>https://www.spidersoft.com.au/2022/aws-signature-request/</guid><description>&lt;p>Postman, it&amp;rsquo;s a great tool for debuging, testing and other activities performed by us - developers. It has a build in option to sign requestes with 
+A while ago, I built up a solution storing a lot of JSON files on S3 buckets, and the costs of this solution (number of GET requests) started to escalate very quickly. I decided to try to migrate data to DynamoDB, and this time I was successful. I will try to explain how I did it and what I learned along the way.&lt;/p&gt;</description></item><item><title>How to create AWS Signature on GET POST request</title><link>https://www.spidersoft.com.au/2022/aws-signature-request/</link><pubDate>Sun, 28 Aug 2022 08:30:00 +0000</pubDate><guid>https://www.spidersoft.com.au/2022/aws-signature-request/</guid><description>&lt;p&gt;Postman, it&amp;rsquo;s a great tool for debuging, testing and other activities performed by us - developers. It has a build in option to sign requestes with 
  
  
  
  
- &lt;a href="https://learning.postman.com/docs/sending-requests/authorization/#aws-signature">AWS Signature&lt;/a>
+ &lt;a href="https://learning.postman.com/docs/sending-requests/authorization/#aws-signature"&gt;AWS Signature&lt;/a&gt;
  . We do have 
  
  
  
  
- &lt;a href="https://github.com/aws/aws-sdk-go-v2">AWS SDK for Go v2&lt;/a>
+ &lt;a href="https://github.com/aws/aws-sdk-go-v2"&gt;AWS SDK for Go v2&lt;/a&gt;
  , but I couldn&amp;rsquo;t find any good examples except a 
  
  
  
  
- &lt;a href="https://github.com/aws/aws-sdk-go-v2/blob/main/aws/signer/v4/v4_test.go">test file&lt;/a>
+ &lt;a href="https://github.com/aws/aws-sdk-go-v2/blob/main/aws/signer/v4/v4_test.go"&gt;test file&lt;/a&gt;
  . The other useful file will be 
  
  
  
  
- &lt;a href="https://github.com/aws/aws-sdk-go-v2/blob/main/aws/signer/internal/v4/const.go">const.go&lt;/a>
- where we can find a couple of interesting variables.&lt;/p></description></item><item><title>How to implement timeout in go routines</title><link>https://www.spidersoft.com.au/2022/go-lang-simple-workers-with-timeout-using-context/</link><pubDate>Fri, 29 Jul 2022 08:30:00 +0000</pubDate><guid>https://www.spidersoft.com.au/2022/go-lang-simple-workers-with-timeout-using-context/</guid><description>&lt;p>I wanted to implement a timeout in go routines. There are a couple o ways doing that. We could use &lt;code>context.WithTimeout()&lt;/code> or we go with classical &lt;code>sync.WaitGroup&lt;/code> group with a trick.&lt;/p>
-&lt;p>Let&amp;rsquo;s start with the first one.&lt;/p></description></item><item><title>Setting up Prometheus to collect Caddy metrics</title><link>https://www.spidersoft.com.au/2022/setting-up-prometheus-to-collect-caddy-metrics/</link><pubDate>Sat, 23 Jul 2022 08:30:00 +0000</pubDate><guid>https://www.spidersoft.com.au/2022/setting-up-prometheus-to-collect-caddy-metrics/</guid><description>&lt;p>This is a simple example of how to setup Prometheus to collect Caddy metrics.&lt;/p></description></item><item><title>How to send form using GO</title><link>https://www.spidersoft.com.au/2022/send-post-form/</link><pubDate>Tue, 05 Jul 2022 08:30:00 +0000</pubDate><guid>https://www.spidersoft.com.au/2022/send-post-form/</guid><description>&lt;p>This time really simple solution to submit form using GO.
-This example allows you to submit form with fields, and also attach file&lt;/p></description></item><item><title>How to upload to S3 with presigned URL</title><link>https://www.spidersoft.com.au/2022/upload-with-presigned-url-to-bucket/</link><pubDate>Thu, 23 Jun 2022 08:30:00 +0000</pubDate><guid>https://www.spidersoft.com.au/2022/upload-with-presigned-url-to-bucket/</guid><description>&lt;p>Object storage is getting more and more popular. AWS started, but nowadays, almost every provider has it. Recently 
+ &lt;a href="https://github.com/aws/aws-sdk-go-v2/blob/main/aws/signer/internal/v4/const.go"&gt;const.go&lt;/a&gt;
+ where we can find a couple of interesting variables.&lt;/p&gt;</description></item><item><title>How to implement timeout in go routines</title><link>https://www.spidersoft.com.au/2022/go-lang-simple-workers-with-timeout-using-context/</link><pubDate>Fri, 29 Jul 2022 08:30:00 +0000</pubDate><guid>https://www.spidersoft.com.au/2022/go-lang-simple-workers-with-timeout-using-context/</guid><description>&lt;p&gt;I wanted to implement a timeout in go routines. There are a couple o ways doing that. We could use &lt;code&gt;context.WithTimeout()&lt;/code&gt; or we go with classical &lt;code&gt;sync.WaitGroup&lt;/code&gt; group with a trick.&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s start with the first one.&lt;/p&gt;</description></item><item><title>Setting up Prometheus to collect Caddy metrics</title><link>https://www.spidersoft.com.au/2022/setting-up-prometheus-to-collect-caddy-metrics/</link><pubDate>Sat, 23 Jul 2022 08:30:00 +0000</pubDate><guid>https://www.spidersoft.com.au/2022/setting-up-prometheus-to-collect-caddy-metrics/</guid><description>&lt;p&gt;This is a simple example of how to setup Prometheus to collect Caddy metrics.&lt;/p&gt;</description></item><item><title>How to send form using GO</title><link>https://www.spidersoft.com.au/2022/send-post-form/</link><pubDate>Tue, 05 Jul 2022 08:30:00 +0000</pubDate><guid>https://www.spidersoft.com.au/2022/send-post-form/</guid><description>&lt;p&gt;This time really simple solution to submit form using GO.
+This example allows you to submit form with fields, and also attach file&lt;/p&gt;</description></item><item><title>How to upload to S3 with presigned URL</title><link>https://www.spidersoft.com.au/2022/upload-with-presigned-url-to-bucket/</link><pubDate>Thu, 23 Jun 2022 08:30:00 +0000</pubDate><guid>https://www.spidersoft.com.au/2022/upload-with-presigned-url-to-bucket/</guid><description>&lt;p&gt;Object storage is getting more and more popular. AWS started, but nowadays, almost every provider has it. Recently 
  
  
  
  
- &lt;a href="https://blog.cloudflare.com/introducing-r2-object-storage/">Cloudflare&lt;/a>
+ &lt;a href="https://blog.cloudflare.com/introducing-r2-object-storage/"&gt;Cloudflare&lt;/a&gt;
  announced its availability. 
  
  
  
  
- &lt;a href="https://www.digitalocean.com/products/spaces">DigitalOcean&lt;/a>
- call them Spaces.&lt;/p>
-&lt;p>So today, we are trying to upload a file to an S3 type of storage with a presigned URL.&lt;/p>
-&lt;p>TL;DR: how to generate the correct URL and upload data into it.&lt;/p></description></item><item><title>Docker, GO and CGO application build</title><link>https://www.spidersoft.com.au/2021/docker-go-cgo/</link><pubDate>Fri, 23 Jul 2021 06:16:24 +0000</pubDate><guid>https://www.spidersoft.com.au/2021/docker-go-cgo/</guid><description>&lt;p>I’ve been avoiding Docker for a very long time. I started as a sysadmin setting up servers running FreeBSD and early versions of Debian on bare-bone servers. As soon as “cloud” came into the market, I switched to AWS and GCE and have used them since then. EC2 was my always goto choice to deploy something on the internet quickly. But Docker — for some reason, I was avoiding it until this two years ago, when I started using it. Without too much trust.&lt;/p>
-&lt;p>But today, history is not about my love &amp;amp; hate relationship with Docker, but about deploying the GO application and VIPS library. A couple of problems appeared during the process, and it’s worth mentioning them for future generations because I could find much help around my issues.&lt;/p></description></item><item><title>Why VIPS and Go it’s not a good match for production environment</title><link>https://www.spidersoft.com.au/posts/2020-07-14-vips-and-go-does-not-play-together/</link><pubDate>Wed, 14 Jul 2021 07:19:08 +0000</pubDate><guid>https://www.spidersoft.com.au/posts/2020-07-14-vips-and-go-does-not-play-together/</guid><description>&lt;p>I built a simple worker to do some magic with images by using Go &amp;amp; 
+ &lt;a href="https://www.digitalocean.com/products/spaces"&gt;DigitalOcean&lt;/a&gt;
+ call them Spaces.&lt;/p&gt;
+&lt;p&gt;So today, we are trying to upload a file to an S3 type of storage with a presigned URL.&lt;/p&gt;
+&lt;p&gt;TL;DR: how to generate the correct URL and upload data into it.&lt;/p&gt;</description></item><item><title>Docker, GO and CGO application build</title><link>https://www.spidersoft.com.au/2021/docker-go-cgo/</link><pubDate>Fri, 23 Jul 2021 06:16:24 +0000</pubDate><guid>https://www.spidersoft.com.au/2021/docker-go-cgo/</guid><description>&lt;p&gt;I’ve been avoiding Docker for a very long time. I started as a sysadmin setting up servers running FreeBSD and early versions of Debian on bare-bone servers. As soon as “cloud” came into the market, I switched to AWS and GCE and have used them since then. EC2 was my always goto choice to deploy something on the internet quickly. But Docker — for some reason, I was avoiding it until this two years ago, when I started using it. Without too much trust.&lt;/p&gt;
+&lt;p&gt;But today, history is not about my love &amp;amp; hate relationship with Docker, but about deploying the GO application and VIPS library. A couple of problems appeared during the process, and it’s worth mentioning them for future generations because I could find much help around my issues.&lt;/p&gt;</description></item><item><title>Why VIPS and Go it’s not a good match for production environment</title><link>https://www.spidersoft.com.au/posts/2020-07-14-vips-and-go-does-not-play-together/</link><pubDate>Wed, 14 Jul 2021 07:19:08 +0000</pubDate><guid>https://www.spidersoft.com.au/posts/2020-07-14-vips-and-go-does-not-play-together/</guid><description>&lt;p&gt;I built a simple worker to do some magic with images by using Go &amp;amp; 
  
  
  
  
- &lt;a href="https://github.com/libvips/libvips">VIPS&lt;/a>
+ &lt;a href="https://github.com/libvips/libvips"&gt;VIPS&lt;/a&gt;
  . I chose VIPS because it is 
  
  
  
  
- &lt;a href="https://github.com/fawick/speedtest-resize">blazing fast&lt;/a>
- compared to other Go image processing libraries. So this is the story about what went wrong.&lt;/p>
-&lt;p>Because my DEV setup is Apple MacBook Pro with M1 Apple Silicon, it’s always tricky to compile something to the proper architecture. Installing VIPS on my machine, it’s pretty straightforward:&lt;/p>
-&lt;p>&lt;code>brew install vips&lt;/code>&lt;/p></description></item><item><title>Quickest in-house HTML to PDF solution</title><link>https://www.spidersoft.com.au/2021/quickest-in-house-html-to-pdf-solution/</link><pubDate>Fri, 22 Jan 2021 12:44:18 +0000</pubDate><guid>https://www.spidersoft.com.au/2021/quickest-in-house-html-to-pdf-solution/</guid><description>&lt;p>You can find some online APIs and use the free tier to test them, but you can make them your own. So without any further instructions, here is a recipe.&lt;/p></description></item><item><title>CURL to GO</title><link>https://www.spidersoft.com.au/2019/curl-to-go/</link><pubDate>Fri, 12 Jul 2019 06:44:56 +0000</pubDate><guid>https://www.spidersoft.com.au/2019/curl-to-go/</guid><description>&lt;p>Quite often we are looking for a quick way to make a request in GO, and we have working query tested in CURL. Sometimes it’s problematic to “move” all queries to GO, and build up whole query using client, protocol and so on.&lt;/p>
-&lt;p>From the author of my beloved 
+ &lt;a href="https://github.com/fawick/speedtest-resize"&gt;blazing fast&lt;/a&gt;
+ compared to other Go image processing libraries. So this is the story about what went wrong.&lt;/p&gt;
+&lt;p&gt;Because my DEV setup is Apple MacBook Pro with M1 Apple Silicon, it’s always tricky to compile something to the proper architecture. Installing VIPS on my machine, it’s pretty straightforward:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;brew install vips&lt;/code&gt;&lt;/p&gt;</description></item><item><title>Quickest in-house HTML to PDF solution</title><link>https://www.spidersoft.com.au/2021/quickest-in-house-html-to-pdf-solution/</link><pubDate>Fri, 22 Jan 2021 12:44:18 +0000</pubDate><guid>https://www.spidersoft.com.au/2021/quickest-in-house-html-to-pdf-solution/</guid><description>&lt;p&gt;You can find some online APIs and use the free tier to test them, but you can make them your own. So without any further instructions, here is a recipe.&lt;/p&gt;</description></item><item><title>CURL to GO</title><link>https://www.spidersoft.com.au/2019/curl-to-go/</link><pubDate>Fri, 12 Jul 2019 06:44:56 +0000</pubDate><guid>https://www.spidersoft.com.au/2019/curl-to-go/</guid><description>&lt;p&gt;Quite often we are looking for a quick way to make a request in GO, and we have working query tested in CURL. Sometimes it’s problematic to “move” all queries to GO, and build up whole query using client, protocol and so on.&lt;/p&gt;
+&lt;p&gt;From the author of my beloved 
  
  
  
  
- &lt;a href="https://caddyserver.com">Caddy&lt;/a>
+ &lt;a href="https://caddyserver.com"&gt;Caddy&lt;/a&gt;
  server there is a tool called 
  
  
  
  
- &lt;a href="https://mholt.github.io/curl-to-go/">curl-to-Go&lt;/a>
- which basically does what is says. Just paste your CURL request and GO lang code to implement that.&lt;/p></description></item><item><title>Automated email parser</title><link>https://www.spidersoft.com.au/2019/automated-email-parser/</link><pubDate>Wed, 27 Mar 2019 08:43:27 +0000</pubDate><guid>https://www.spidersoft.com.au/2019/automated-email-parser/</guid><description>&lt;p>It&amp;rsquo;s a simple mechanic to decompose emails into valuable parts, like some markup (to push emails directly into internal systems), create file attachments and extract inline images.&lt;/p>
-&lt;p>Flow is pretty simple, but we have a couple of components.&lt;/p>
-&lt;ol>
-&lt;li>We need something to “receive” emails. The easiest way is to use Amazon SES or mailgun or… something else. There are a couple of SASS solutions for that.&lt;/li>
-&lt;li>Next step is to be notified when the email arrives, so we don’t have overhead with checking email every couple of minutes&lt;/li>
-&lt;li>We have to “decompose” – decode email from it’s raw format to text, and attachments. We can achieve that using couple of existing libraries, but you get the idea&lt;/li>
-&lt;li>We have to save all data and expose it to public&lt;/li>
-&lt;/ol>
-&lt;p>So we know what to do and roughly how to do the whole process. Points 1 and 2 are pretty straightforward for anyone who uses AWS and their services.&lt;/p></description></item><item><title>How to make email work better email2issue</title><link>https://www.spidersoft.com.au/2018/how-to-make-email-work-better-email2issue/</link><pubDate>Fri, 16 Mar 2018 09:02:56 +0000</pubDate><guid>https://www.spidersoft.com.au/2018/how-to-make-email-work-better-email2issue/</guid><description>&lt;h2 id="the-problem">The problem:&lt;/h2>
-&lt;p>We are using a bug tracking system, like most software development companies. Creating an issue is quite simple. Open bug tracking system, fill some inputs, upload attachments – done. The issue is created. Sometimes an issue is described with multiple attachments (screenshots). A bug tracking system allows us to embed images into a description. All issues come from users in the form of an email.&lt;/p></description></item><item><title>Binary compression still alive – golang binary compression.</title><link>https://www.spidersoft.com.au/2018/binary-compression-still-alive-golang-binary-compression/</link><pubDate>Wed, 07 Mar 2018 14:34:57 +0000</pubDate><guid>https://www.spidersoft.com.au/2018/binary-compression-still-alive-golang-binary-compression/</guid><description>&lt;p>In the ancient times, when I was coding mostly in Pascal – size did matter. People were using RAR to shave couple kilobytes from archives, and having 2mb executable was better then having 4mb executable file. In that beautiful time we used  
+ &lt;a href="https://mholt.github.io/curl-to-go/"&gt;curl-to-Go&lt;/a&gt;
+ which basically does what is says. Just paste your CURL request and GO lang code to implement that.&lt;/p&gt;</description></item><item><title>Automated email parser</title><link>https://www.spidersoft.com.au/2019/automated-email-parser/</link><pubDate>Wed, 27 Mar 2019 08:43:27 +0000</pubDate><guid>https://www.spidersoft.com.au/2019/automated-email-parser/</guid><description>&lt;p&gt;It&amp;rsquo;s a simple mechanic to decompose emails into valuable parts, like some markup (to push emails directly into internal systems), create file attachments and extract inline images.&lt;/p&gt;
+&lt;p&gt;Flow is pretty simple, but we have a couple of components.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;We need something to “receive” emails. The easiest way is to use Amazon SES or mailgun or… something else. There are a couple of SASS solutions for that.&lt;/li&gt;
+&lt;li&gt;Next step is to be notified when the email arrives, so we don’t have overhead with checking email every couple of minutes&lt;/li&gt;
+&lt;li&gt;We have to “decompose” – decode email from it’s raw format to text, and attachments. We can achieve that using couple of existing libraries, but you get the idea&lt;/li&gt;
+&lt;li&gt;We have to save all data and expose it to public&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;So we know what to do and roughly how to do the whole process. Points 1 and 2 are pretty straightforward for anyone who uses AWS and their services.&lt;/p&gt;</description></item><item><title>How to make email work better email2issue</title><link>https://www.spidersoft.com.au/2018/how-to-make-email-work-better-email2issue/</link><pubDate>Fri, 16 Mar 2018 09:02:56 +0000</pubDate><guid>https://www.spidersoft.com.au/2018/how-to-make-email-work-better-email2issue/</guid><description>&lt;h2 id="the-problem"&gt;The problem:&lt;/h2&gt;
+&lt;p&gt;We are using a bug tracking system, like most software development companies. Creating an issue is quite simple. Open bug tracking system, fill some inputs, upload attachments – done. The issue is created. Sometimes an issue is described with multiple attachments (screenshots). A bug tracking system allows us to embed images into a description. All issues come from users in the form of an email.&lt;/p&gt;</description></item><item><title>Binary compression still alive – golang binary compression.</title><link>https://www.spidersoft.com.au/2018/binary-compression-still-alive-golang-binary-compression/</link><pubDate>Wed, 07 Mar 2018 14:34:57 +0000</pubDate><guid>https://www.spidersoft.com.au/2018/binary-compression-still-alive-golang-binary-compression/</guid><description>&lt;p&gt;In the ancient times, when I was coding mostly in Pascal – size did matter. People were using RAR to shave couple kilobytes from archives, and having 2mb executable was better then having 4mb executable file. In that beautiful time we used  
  
  
  
  
- &lt;a href="https://upx.github.io/">UPX&lt;/a>
- – I wasn’t aware that this project is still alive, and works nicely with binaries create bo go lang.&lt;/p>
-&lt;pre tabindex="0">&lt;code>Ultimate Packer for eXecutables
+ &lt;a href="https://upx.github.io/"&gt;UPX&lt;/a&gt;
+ – I wasn’t aware that this project is still alive, and works nicely with binaries create bo go lang.&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;Ultimate Packer for eXecutables
 Copyright (C) 1996 - 2017
 UPX 3.94 Markus Oberhumer, Laszlo Molnar &amp;amp; John Reiser May 12th 2017
 
@@ -125,88 +128,88 @@ File size Ratio Format Name
 11512772 -&amp;gt; 3547792 30.82% macho/amd64 main
 
 Packed 1 file.
-&lt;/code>&lt;/pre></description></item><item><title>Checking JPEG image dimension from partial headers</title><link>https://www.spidersoft.com.au/2017/checking-jpeg-image-dimension-from-partial-headers/</link><pubDate>Wed, 13 Dec 2017 07:43:11 +0000</pubDate><guid>https://www.spidersoft.com.au/2017/checking-jpeg-image-dimension-from-partial-headers/</guid><description>&lt;p>The goal was to read image dimensions from an image file. Pretty easy task with standard “ 
+&lt;/code&gt;&lt;/pre&gt;</description></item><item><title>Checking JPEG image dimension from partial headers</title><link>https://www.spidersoft.com.au/2017/checking-jpeg-image-dimension-from-partial-headers/</link><pubDate>Wed, 13 Dec 2017 07:43:11 +0000</pubDate><guid>https://www.spidersoft.com.au/2017/checking-jpeg-image-dimension-from-partial-headers/</guid><description>&lt;p&gt;The goal was to read image dimensions from an image file. Pretty easy task with standard “ 
  
  
  
  
- &lt;a href="https://golang.org/pkg/image/#DecodeConfig">image&lt;/a>
- ” library and DecodeConfig. The tricky part was – the file wasn&amp;rsquo;t completed – I had only the beginning of the file. I tried to decode headers by myself. I didn&amp;rsquo;t find an exact recipe in GO and found many people looking for correct answers in many languages.&lt;/p></description></item><item><title>Using Google Cloud storage with AWS libraries in GO LANG</title><link>https://www.spidersoft.com.au/2015/google-cloud-storage-with-aws-libraries-go-lang/</link><pubDate>Fri, 15 May 2015 01:08:15 +0000</pubDate><guid>https://www.spidersoft.com.au/2015/google-cloud-storage-with-aws-libraries-go-lang/</guid><description>&lt;p> 
+ &lt;a href="https://golang.org/pkg/image/#DecodeConfig"&gt;image&lt;/a&gt;
+ ” library and DecodeConfig. The tricky part was – the file wasn&amp;rsquo;t completed – I had only the beginning of the file. I tried to decode headers by myself. I didn&amp;rsquo;t find an exact recipe in GO and found many people looking for correct answers in many languages.&lt;/p&gt;</description></item><item><title>Using Google Cloud storage with AWS libraries in GO LANG</title><link>https://www.spidersoft.com.au/2015/google-cloud-storage-with-aws-libraries-go-lang/</link><pubDate>Fri, 15 May 2015 01:08:15 +0000</pubDate><guid>https://www.spidersoft.com.au/2015/google-cloud-storage-with-aws-libraries-go-lang/</guid><description>&lt;p&gt; 
  
  
  
  
- &lt;a href="https://cloud.google.com/storage/docs/overview">Google Cloud storage&lt;/a>
+ &lt;a href="https://cloud.google.com/storage/docs/overview"&gt;Google Cloud storage&lt;/a&gt;
   it’s Google answer to [Amazon S3][1] service. As long one of them is very popular 😉 Second wasn’t so successful amongst developers due to quite complex processes around service. Amazon is super simple, and developer friendly – Google… well not so easy. So the questions – why you may consider using GS instead of well documented, and super easy S3. Not many people realise but Google Cloud Storage is 
  
  
  
  
- &lt;a href="http://www.cloudberrylab.com/blog/amazon-s3-azure-and-google-cloud-prices-compare/">actually cheaper&lt;/a>
- . The other reason to use Google Storage is having different provider as a backup solution. Anyway – let’s show how easy is to use GS with existing S3 libraries.&lt;/p></description></item><item><title>How update Go library</title><link>https://www.spidersoft.com.au/2015/how-update-go-library/</link><pubDate>Tue, 05 May 2015 04:49:24 +0000</pubDate><guid>https://www.spidersoft.com.au/2015/how-update-go-library/</guid><description>&lt;p>Installation of go library is pretty simple:
-&lt;code>go get github.com/garyburd/redigo/redis&lt;/code>&lt;/p>
-&lt;p>From time to time, you want to get fresh version of it. If you run that command again it will NOT update the library – because it’s already there. To update it you need to use the &lt;code>-u&lt;/code> switch:&lt;/p>
-&lt;p>&lt;code>go get -u github.com/garyburd/redigo/redis&lt;/code>&lt;/p></description></item><item><title>MongoDB vs MySQL using golang</title><link>https://www.spidersoft.com.au/2014/mongodb-vs-mysql-using-golang/</link><pubDate>Mon, 01 Sep 2014 04:48:36 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/mongodb-vs-mysql-using-golang/</guid><description>&lt;p>I’m the guy who like to test. Benchmark is my… middle name. You can find dozens articles about speed one or other solution. I mean 
+ &lt;a href="http://www.cloudberrylab.com/blog/amazon-s3-azure-and-google-cloud-prices-compare/"&gt;actually cheaper&lt;/a&gt;
+ . The other reason to use Google Storage is having different provider as a backup solution. Anyway – let’s show how easy is to use GS with existing S3 libraries.&lt;/p&gt;</description></item><item><title>How update Go library</title><link>https://www.spidersoft.com.au/2015/how-update-go-library/</link><pubDate>Tue, 05 May 2015 04:49:24 +0000</pubDate><guid>https://www.spidersoft.com.au/2015/how-update-go-library/</guid><description>&lt;p&gt;Installation of go library is pretty simple:
+&lt;code&gt;go get github.com/garyburd/redigo/redis&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;From time to time, you want to get fresh version of it. If you run that command again it will NOT update the library – because it’s already there. To update it you need to use the &lt;code&gt;-u&lt;/code&gt; switch:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;go get -u github.com/garyburd/redigo/redis&lt;/code&gt;&lt;/p&gt;</description></item><item><title>MongoDB vs MySQL using golang</title><link>https://www.spidersoft.com.au/2014/mongodb-vs-mysql-using-golang/</link><pubDate>Mon, 01 Sep 2014 04:48:36 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/mongodb-vs-mysql-using-golang/</guid><description>&lt;p&gt;I’m the guy who like to test. Benchmark is my… middle name. You can find dozens articles about speed one or other solution. I mean 
  
  
  
  
- &lt;a href="http://www.mongodb.org/">MongoDB&lt;/a>
+ &lt;a href="http://www.mongodb.org/"&gt;MongoDB&lt;/a&gt;
  and 
  
  
  
  
- &lt;a href="http://www.mysql.com/">MySQL&lt;/a>
- . I tried MongoDB couple times, and each time I wasn’t  moved by it speed. Got project coming in, when I have to deal with large amount of concurrent connection. It’s not very big, but bigger then casual MySQL load.&lt;/p>
-&lt;p>So… how did I test – very dump way. Got 2 tables, one around 11k records, second one close to 200k record. Not much. Fields were indexed in both MySQL and MongoDB. And then i run benchmarks. First one had string fields, second one numeric.&lt;/p></description></item><item><title>Live code reload in golang</title><link>https://www.spidersoft.com.au/2014/live-code-reload-in-golang/</link><pubDate>Mon, 25 Aug 2014 04:46:44 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/live-code-reload-in-golang/</guid><description>&lt;p>Recompiling 
+ &lt;a href="http://www.mysql.com/"&gt;MySQL&lt;/a&gt;
+ . I tried MongoDB couple times, and each time I wasn’t  moved by it speed. Got project coming in, when I have to deal with large amount of concurrent connection. It’s not very big, but bigger then casual MySQL load.&lt;/p&gt;
+&lt;p&gt;So… how did I test – very dump way. Got 2 tables, one around 11k records, second one close to 200k record. Not much. Fields were indexed in both MySQL and MongoDB. And then i run benchmarks. First one had string fields, second one numeric.&lt;/p&gt;</description></item><item><title>Live code reload in golang</title><link>https://www.spidersoft.com.au/2014/live-code-reload-in-golang/</link><pubDate>Mon, 25 Aug 2014 04:46:44 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/live-code-reload-in-golang/</guid><description>&lt;p&gt;Recompiling 
  
  
  
  
- &lt;a href="http://golang.org/">go language&lt;/a>
-  code during development is bit annoying task. But there is an package for that. Actually I found at least 3:&lt;/p></description></item><item><title>Reading unknown JSON object in go language</title><link>https://www.spidersoft.com.au/2014/reading-unknown-json-object-in-go-language/</link><pubDate>Mon, 18 Aug 2014 07:19:08 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/reading-unknown-json-object-in-go-language/</guid><description>&lt;p>Exploring [The Go Language][1] is so much fun. Everything is brand new, and different then any other language. This time I’m going to show quick snippet which shows how to read JSON object with unknown structure, and map elements to something like hash table.&lt;/p></description></item><item><title>Fetch page with proxy using The Go language</title><link>https://www.spidersoft.com.au/2014/fetch-page-with-proxy-using-the-go-language/</link><pubDate>Wed, 13 Aug 2014 06:16:24 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/fetch-page-with-proxy-using-the-go-language/</guid><description>&lt;p>For a while i’m playing with 
+ &lt;a href="http://golang.org/"&gt;go language&lt;/a&gt;
+  code during development is bit annoying task. But there is an package for that. Actually I found at least 3:&lt;/p&gt;</description></item><item><title>Reading unknown JSON object in go language</title><link>https://www.spidersoft.com.au/2014/reading-unknown-json-object-in-go-language/</link><pubDate>Mon, 18 Aug 2014 07:19:08 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/reading-unknown-json-object-in-go-language/</guid><description>&lt;p&gt;Exploring [The Go Language][1] is so much fun. Everything is brand new, and different then any other language. This time I’m going to show quick snippet which shows how to read JSON object with unknown structure, and map elements to something like hash table.&lt;/p&gt;</description></item><item><title>Fetch page with proxy using The Go language</title><link>https://www.spidersoft.com.au/2014/fetch-page-with-proxy-using-the-go-language/</link><pubDate>Wed, 13 Aug 2014 06:16:24 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/fetch-page-with-proxy-using-the-go-language/</guid><description>&lt;p&gt;For a while i’m playing with 
  
  
  
  
- &lt;a href="http://golang.org/">The Go Programming Language&lt;/a>
- – so far I loved it. I figure out that I’ll push some code snippets from time to time.&lt;br>
-Today I spend some time creating simple not ever crawler, but website fetcher.&lt;/p>
-&lt;p>Idea is very simple – download page, run xpath query on it and spit out results. I was looking for decent xpath library for Go and couldn’t find any. I tried to use 
+ &lt;a href="http://golang.org/"&gt;The Go Programming Language&lt;/a&gt;
+ – so far I loved it. I figure out that I’ll push some code snippets from time to time.&lt;br&gt;
+Today I spend some time creating simple not ever crawler, but website fetcher.&lt;/p&gt;
+&lt;p&gt;Idea is very simple – download page, run xpath query on it and spit out results. I was looking for decent xpath library for Go and couldn’t find any. I tried to use 
  
  
  
  
- &lt;a href="http://gopkg.in/xmlpath.v2">xmlpath&lt;/a>
- but it sucks. I couldn’t even run queries like &lt;code>id('product-details')/div[@class='product-price']&amp;quot;&lt;/code> Then I found something nicer – 
+ &lt;a href="http://gopkg.in/xmlpath.v2"&gt;xmlpath&lt;/a&gt;
+ but it sucks. I couldn’t even run queries like &lt;code&gt;id('product-details')/div[@class='product-price']&amp;quot;&lt;/code&gt; Then I found something nicer – 
  
  
  
  
- &lt;a href="https://github.com/moovweb/gokogiri">Gokogiri&lt;/a>
+ &lt;a href="https://github.com/moovweb/gokogiri"&gt;Gokogiri&lt;/a&gt;
  – which works pretty nicely, but – couldn’t find any examples except this 
  
  
  
  
- &lt;a href="https://www.moovweb.com/blog/gokogiri-the-best-way-to-parse-xml-in-go/">small article&lt;/a>
- .&lt;/p>
-&lt;p>The only problem with running Gokogiri is that it uses &lt;code>libxml2&lt;/code> which is not a huge problem on Linux based systems, but on Mac OS X you have to install it via 
+ &lt;a href="https://www.moovweb.com/blog/gokogiri-the-best-way-to-parse-xml-in-go/"&gt;small article&lt;/a&gt;
+ .&lt;/p&gt;
+&lt;p&gt;The only problem with running Gokogiri is that it uses &lt;code&gt;libxml2&lt;/code&gt; which is not a huge problem on Linux based systems, but on Mac OS X you have to install it via 
  
  
  
  
- &lt;a href="http://brew.sh/">homebrew&lt;/a>
- &lt;br>
-&lt;code>brew install libxml2&lt;/code>&lt;/p></description></item><item><title>Getting started with go language on Mac OS X</title><link>https://www.spidersoft.com.au/2014/getting-started-with-go-language-on-mac-os-x/</link><pubDate>Sun, 13 Jul 2014 06:42:43 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/getting-started-with-go-language-on-mac-os-x/</guid><description>&lt;p>Node.js is like space shuttle – very sophisticated, very fast but one simple mistake and… it goes down.&lt;/p>
-&lt;p>So recently i tried 
+ &lt;a href="http://brew.sh/"&gt;homebrew&lt;/a&gt;
+ &lt;br&gt;
+&lt;code&gt;brew install libxml2&lt;/code&gt;&lt;/p&gt;</description></item><item><title>Getting started with go language on Mac OS X</title><link>https://www.spidersoft.com.au/2014/getting-started-with-go-language-on-mac-os-x/</link><pubDate>Sun, 13 Jul 2014 06:42:43 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/getting-started-with-go-language-on-mac-os-x/</guid><description>&lt;p&gt;Node.js is like space shuttle – very sophisticated, very fast but one simple mistake and… it goes down.&lt;/p&gt;
+&lt;p&gt;So recently i tried 
  
  
  
  
- &lt;a href="http://golang.org/">The Go Language&lt;/a>
-  which is advertised as&lt;/p>
-&lt;blockquote>
-&lt;p>Go is an open source programming language that makes it easy to build simple, reliable, and efficient software.&lt;/p>&lt;/blockquote>
-&lt;p>Because google is a creator of this langauge documentation sucks. Plenty of random documents of everwhere, no clean how to documentation.&lt;/p></description></item></channel></rss>
+ &lt;a href="http://golang.org/"&gt;The Go Language&lt;/a&gt;
+  which is advertised as&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Go is an open source programming language that makes it easy to build simple, reliable, and efficient software.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;Because google is a creator of this langauge documentation sucks. Plenty of random documents of everwhere, no clean how to documentation.&lt;/p&gt;</description></item></channel></rss>
