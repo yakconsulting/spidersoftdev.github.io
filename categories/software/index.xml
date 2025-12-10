@@ -176,7 +176,8 @@ And then restart Apache –&lt;/p&gt;</description></item><item><title>Getting s
  &lt;a href="http://golang.org/"&gt;The Go Language&lt;/a&gt;
   which is advertised as&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Go is an open source programming language that makes it easy to build simple, reliable, and efficient software.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;Go is an open source programming language that makes it easy to build simple, reliable, and efficient software.&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;Because google is a creator of this langauge documentation sucks. Plenty of random documents of everwhere, no clean how to documentation.&lt;/p&gt;</description></item><item><title>Phalcon – super simple REST API example</title><link>https://www.spidersoft.com.au/2014/phalcon-simple-rest-api-example/</link><pubDate>Thu, 10 Jul 2014 04:24:38 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/phalcon-simple-rest-api-example/</guid><description>&lt;p&gt;Throughout this first tutorial, i’ll walk you through the creation of an application with a simple REST API from the ground up. I assume you have 
  
  
@@ -201,7 +202,8 @@ And then restart Apache –&lt;/p&gt;</description></item><item><title>Getting s
  
  
  &lt;a href="http://documentation.mailgun.com/razor.html"&gt;http://documentation.mailgun.com/razor.html&lt;/a&gt;
-  Reference: #rzr01.&lt;/p&gt;&lt;/blockquote&gt;
+  Reference: #rzr01.&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;Because I know exactly what emails are being sent using my accounts (I keep track of each email coming out from the system) I was really interested how it could happen. Who reported message as a SPAM, and which one was that.&lt;/p&gt;</description></item><item><title>A clipboard manager for Mac OS X</title><link>https://www.spidersoft.com.au/2013/a-clipboard-manager-for-mac-os-x/</link><pubDate>Wed, 14 Aug 2013 01:58:30 +0000</pubDate><guid>https://www.spidersoft.com.au/2013/a-clipboard-manager-for-mac-os-x/</guid><description>&lt;p&gt;Really tiny but useful program.  
  
  

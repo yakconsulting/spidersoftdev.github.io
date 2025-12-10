@@ -212,12 +212,12 @@
  
  &lt;a href="http://rpmfusion.org/Configuration"&gt;http://rpmfusion.org/Configuration&lt;/a&gt;
  &lt;/p&gt;
-&lt;pre tabindex="0"&gt;&lt;code&gt;wget http://download1.rpmfusion.org/free/el/updates/6/i386/rpmfusion-free-release-6-1.noarch.rpm
-sudo rpm -Uhv rpmfusion-free-release-6-1.noarch.rpm
-wget http://download1.rpmfusion.org/nonfree/el/updates/6/i386/rpmfusion-nonfree-release-6-1.noarch.rpm
-sudo rpm -Uhv rpmfusion-nonfree-release-6-1.noarch.rpm
-sudo yum install ffmpeg
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Done.&lt;br&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-BASH" data-lang="BASH"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;wget http://download1.rpmfusion.org/free/el/updates/6/i386/rpmfusion-free-release-6-1.noarch.rpm
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;sudo rpm -Uhv rpmfusion-free-release-6-1.noarch.rpm
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;wget http://download1.rpmfusion.org/nonfree/el/updates/6/i386/rpmfusion-nonfree-release-6-1.noarch.rpm
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;sudo rpm -Uhv rpmfusion-nonfree-release-6-1.noarch.rpm
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;sudo yum install ffmpeg
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Done.&lt;br&gt;
 &lt;code&gt;ffmpeg version 0.10.15 Copyright (c) 2000-2014 the FFmpeg developers built on Aug 30 2014 15:49:19 with gcc 4.4.7 20120313 (Red Hat 4.4.7-3) &lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;Obviously there is no fun with FFmpeg if you don’t have anything to convert. I needed to crop vertical videos from iPad to square – 
  
@@ -284,7 +284,8 @@ Repo : remi
  
  
  &lt;a href="http://php.net/"&gt;PHP&lt;/a&gt;
- . HHVM uses a just-in-time (JIT) compilation approach to achieve superior performance while maintaining the development flexibility that PHP provides.&lt;/p&gt;&lt;/blockquote&gt;
+ . HHVM uses a just-in-time (JIT) compilation approach to achieve superior performance while maintaining the development flexibility that PHP provides.&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;Using simple terms – HHVM allows you run scripts written in PHP but much, much more faster. Obviously you the main purpose of HHVM is to run HACK language, but it works pretty good with PHP itself.&lt;/p&gt;</description></item><item><title>MongoDB vs MySQL using golang</title><link>https://www.spidersoft.com.au/2014/mongodb-vs-mysql-using-golang/</link><pubDate>Mon, 01 Sep 2014 04:48:36 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/mongodb-vs-mysql-using-golang/</guid><description>&lt;p&gt;I’m the guy who like to test. Benchmark is my… middle name. You can find dozens articles about speed one or other solution. I mean 
  
  

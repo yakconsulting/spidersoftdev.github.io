@@ -4,23 +4,4 @@
 &lt;p&gt;In theory this should be a problem for sysadmin, but – I wanted to find faster solution.&lt;/p&gt;
 &lt;p&gt;After short adventure with Google I found a clue:&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;/usr/sbin/getsebool httpd_can_sendmail&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;My result was obvious:&lt;/p&gt;</description></item><item><title>How to create Screen Cast on Mac OS X</title><link>https://www.spidersoft.com.au/2011/how-to-create-screen-cast-under-mac-os-x/</link><pubDate>Fri, 04 Mar 2011 18:37:20 +0000</pubDate><guid>https://www.spidersoft.com.au/2011/how-to-create-screen-cast-under-mac-os-x/</guid><description>&lt;p&gt;Sometimes you can’t create only description. Sometimes you need to record a screen cast on your Mac OS X. Under Windows environment I used excelent simple program called 
- 
- 
- 
- 
- &lt;a href="https://www.debugmode.com/wink/"&gt;WINK&lt;/a&gt;
- . It is really simple, fast and efficient solution for creating screen cast using Windows. Unfortunately I didn’t found any similar solution for Mac until now… It’s also really simple and it called:   
- 
- 
- 
- 
- &lt;a href="http://www.techsmith.com/jing/"&gt;Jing&lt;/a&gt;
- .&lt;/p&gt;</description></item><item><title>MySQL on Mac OS X with preference panel</title><link>https://www.spidersoft.com.au/2010/mysql-on-mac-os-x-with-preference-panel/</link><pubDate>Wed, 22 Dec 2010 10:06:56 +0000</pubDate><guid>https://www.spidersoft.com.au/2010/mysql-on-mac-os-x-with-preference-panel/</guid><description>&lt;p&gt;In my daily work I really suffered because MySQL wasn’t work after fresh installation. Preference panel just didn’t start MySQL on system startup neither using it into Preferences.&lt;br&gt;
-After a lot of google research I found many solutions but only 
- 
- 
- 
- 
- &lt;a href="http://www.angry-fly.com/post.cfm/getting-mysql-preference-pane-to-work-in-leopard"&gt;Angry Fly&lt;/a&gt;
- gives me some clues how to find proper fix.&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;My result was obvious:&lt;/p&gt;</description></item></channel></rss>

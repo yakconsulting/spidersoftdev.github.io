@@ -5,35 +5,7 @@
  
  &lt;a href="http://wiki.apache.org/httpd/PHP-FPM"&gt;PHP-FPM&lt;/a&gt;
  . Instructions are pretty simple. You can just copy and paste command to get working stack in less then 15 minutes.&lt;/p&gt;
-&lt;p&gt;What you can learn from it? How to install Apache 2.4 and PHP 7, how to enable and opcache, and how to install HTTPS on your server, with purchasing SSL certificate.&lt;/p&gt;</description></item><item><title>FFmpeg on AMI Linux and CentOS the easy way</title><link>https://www.spidersoft.com.au/2014/ffmpeg-on-ami-linux-and-centos-the-easy-way/</link><pubDate>Tue, 28 Oct 2014 02:12:32 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/ffmpeg-on-ami-linux-and-centos-the-easy-way/</guid><description>&lt;p&gt; 
- 
- 
- 
- 
- &lt;a href="https://www.ffmpeg.org/"&gt;FFmpeg&lt;/a&gt;
- is a complete, cross-platform solution to record, convert and stream audio and video.&lt;/p&gt;
-&lt;p&gt;All you need to do is just install one more repository:&lt;br&gt;
- 
- 
- 
- 
- 
- &lt;a href="http://rpmfusion.org/Configuration"&gt;http://rpmfusion.org/Configuration&lt;/a&gt;
- &lt;/p&gt;
-&lt;pre tabindex="0"&gt;&lt;code&gt;wget http://download1.rpmfusion.org/free/el/updates/6/i386/rpmfusion-free-release-6-1.noarch.rpm
-sudo rpm -Uhv rpmfusion-free-release-6-1.noarch.rpm
-wget http://download1.rpmfusion.org/nonfree/el/updates/6/i386/rpmfusion-nonfree-release-6-1.noarch.rpm
-sudo rpm -Uhv rpmfusion-nonfree-release-6-1.noarch.rpm
-sudo yum install ffmpeg
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Done.&lt;br&gt;
-&lt;code&gt;ffmpeg version 0.10.15 Copyright (c) 2000-2014 the FFmpeg developers built on Aug 30 2014 15:49:19 with gcc 4.4.7 20120313 (Red Hat 4.4.7-3) &lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;Obviously there is no fun with FFmpeg if you don’t have anything to convert. I needed to crop vertical videos from iPad to square – 
- 
- 
- 
- 
- &lt;a href="https://itunes.apple.com/au/app/vine/id592447445?mt=8"&gt;Vine&lt;/a&gt;
- like format.&lt;/p&gt;</description></item><item><title>PHP 5.4.x on CentOS 6.5</title><link>https://www.spidersoft.com.au/2014/php-5-4-x-on-centos-6-5/</link><pubDate>Tue, 07 Oct 2014 04:22:38 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/php-5-4-x-on-centos-6-5/</guid><description>&lt;p&gt;Quick copy and paste list of commands to get PHP 5.4 on CentOS boxes&lt;/p&gt;
+&lt;p&gt;What you can learn from it? How to install Apache 2.4 and PHP 7, how to enable and opcache, and how to install HTTPS on your server, with purchasing SSL certificate.&lt;/p&gt;</description></item><item><title>PHP 5.4.x on CentOS 6.5</title><link>https://www.spidersoft.com.au/2014/php-5-4-x-on-centos-6-5/</link><pubDate>Tue, 07 Oct 2014 04:22:38 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/php-5-4-x-on-centos-6-5/</guid><description>&lt;p&gt;Quick copy and paste list of commands to get PHP 5.4 on CentOS boxes&lt;/p&gt;
 &lt;pre tabindex="0"&gt;&lt;code&gt;wget http://dl.fedoraproject.org/pub/epel/6/x86_64/epel-release-6-8.noarch.rpm
 wget http://rpms.famillecollet.com/enterprise/remi-release-6.rpm
 sudo rpm -Uvh remi-release-6*.rpm epel-release-6*.rpm

@@ -680,12 +680,12 @@ And then restart Apache –&lt;/p&gt;</description></item><item><title>FFmpeg on
  
  &lt;a href="http://rpmfusion.org/Configuration"&gt;http://rpmfusion.org/Configuration&lt;/a&gt;
  &lt;/p&gt;
-&lt;pre tabindex="0"&gt;&lt;code&gt;wget http://download1.rpmfusion.org/free/el/updates/6/i386/rpmfusion-free-release-6-1.noarch.rpm
-sudo rpm -Uhv rpmfusion-free-release-6-1.noarch.rpm
-wget http://download1.rpmfusion.org/nonfree/el/updates/6/i386/rpmfusion-nonfree-release-6-1.noarch.rpm
-sudo rpm -Uhv rpmfusion-nonfree-release-6-1.noarch.rpm
-sudo yum install ffmpeg
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Done.&lt;br&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-BASH" data-lang="BASH"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;wget http://download1.rpmfusion.org/free/el/updates/6/i386/rpmfusion-free-release-6-1.noarch.rpm
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;sudo rpm -Uhv rpmfusion-free-release-6-1.noarch.rpm
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;wget http://download1.rpmfusion.org/nonfree/el/updates/6/i386/rpmfusion-nonfree-release-6-1.noarch.rpm
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;sudo rpm -Uhv rpmfusion-nonfree-release-6-1.noarch.rpm
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;sudo yum install ffmpeg
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Done.&lt;br&gt;
 &lt;code&gt;ffmpeg version 0.10.15 Copyright (c) 2000-2014 the FFmpeg developers built on Aug 30 2014 15:49:19 with gcc 4.4.7 20120313 (Red Hat 4.4.7-3) &lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;Obviously there is no fun with FFmpeg if you don’t have anything to convert. I needed to crop vertical videos from iPad to square – 
  
@@ -766,7 +766,8 @@ Repo : remi
  
  
  &lt;a href="http://php.net/"&gt;PHP&lt;/a&gt;
- . HHVM uses a just-in-time (JIT) compilation approach to achieve superior performance while maintaining the development flexibility that PHP provides.&lt;/p&gt;&lt;/blockquote&gt;
+ . HHVM uses a just-in-time (JIT) compilation approach to achieve superior performance while maintaining the development flexibility that PHP provides.&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;Using simple terms – HHVM allows you run scripts written in PHP but much, much more faster. Obviously you the main purpose of HHVM is to run HACK language, but it works pretty good with PHP itself.&lt;/p&gt;</description></item><item><title>MongoDB vs MySQL using golang</title><link>https://www.spidersoft.com.au/2014/mongodb-vs-mysql-using-golang/</link><pubDate>Mon, 01 Sep 2014 04:48:36 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/mongodb-vs-mysql-using-golang/</guid><description>&lt;p&gt;I’m the guy who like to test. Benchmark is my… middle name. You can find dozens articles about speed one or other solution. I mean 
  
  
@@ -798,13 +799,7 @@ Repo : remi
  
  
  &lt;a href="https://github.com/muquit/mailsend/"&gt;mailsend&lt;/a&gt;
- . Extremely simple command line tool for Linux, Mac OS X and even Windows ;). Compile / download binary and you can enjoy freedom of sending emails from command line.&lt;/p&gt;</description></item><item><title>Live code reload in golang</title><link>https://www.spidersoft.com.au/2014/live-code-reload-in-golang/</link><pubDate>Mon, 25 Aug 2014 04:46:44 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/live-code-reload-in-golang/</guid><description>&lt;p&gt;Recompiling 
- 
- 
- 
- 
- &lt;a href="http://golang.org/"&gt;go language&lt;/a&gt;
-  code during development is bit annoying task. But there is an package for that. Actually I found at least 3:&lt;/p&gt;</description></item><item><title>PHP, work queues</title><link>https://www.spidersoft.com.au/2014/php-work-queues/</link><pubDate>Thu, 21 Aug 2014 04:30:27 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/php-work-queues/</guid><description>&lt;p&gt;Biggest pain point in PHP is lack of asynchronous calls. The only reasonable way is to use some kind of “backend” processing and task list to execute. Some people use cron to run given script each n-minutes and execute tasks. But there is a little bit more “professional” approach.  
+ . Extremely simple command line tool for Linux, Mac OS X and even Windows ;). Compile / download binary and you can enjoy freedom of sending emails from command line.&lt;/p&gt;</description></item><item><title>PHP, work queues</title><link>https://www.spidersoft.com.au/2014/php-work-queues/</link><pubDate>Thu, 21 Aug 2014 04:30:27 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/php-work-queues/</guid><description>&lt;p&gt;Biggest pain point in PHP is lack of asynchronous calls. The only reasonable way is to use some kind of “backend” processing and task list to execute. Some people use cron to run given script each n-minutes and execute tasks. But there is a little bit more “professional” approach.  
  
  
  
@@ -862,7 +857,8 @@ Today I spend some time creating simple not ever crawler, but website fetcher.&
  &lt;a href="http://golang.org/"&gt;The Go Language&lt;/a&gt;
   which is advertised as&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Go is an open source programming language that makes it easy to build simple, reliable, and efficient software.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;Go is an open source programming language that makes it easy to build simple, reliable, and efficient software.&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;Because google is a creator of this langauge documentation sucks. Plenty of random documents of everwhere, no clean how to documentation.&lt;/p&gt;</description></item><item><title>Phalcon – super simple REST API example</title><link>https://www.spidersoft.com.au/2014/phalcon-simple-rest-api-example/</link><pubDate>Thu, 10 Jul 2014 04:24:38 +0000</pubDate><guid>https://www.spidersoft.com.au/2014/phalcon-simple-rest-api-example/</guid><description>&lt;p&gt;Throughout this first tutorial, i’ll walk you through the creation of an application with a simple REST API from the ground up. I assume you have 
  
  
@@ -1079,7 +1075,8 @@ Today I spend some time creating simple not ever crawler, but website fetcher.&
  
  
  &lt;a href="http://documentation.mailgun.com/razor.html"&gt;http://documentation.mailgun.com/razor.html&lt;/a&gt;
-  Reference: #rzr01.&lt;/p&gt;&lt;/blockquote&gt;
+  Reference: #rzr01.&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;Because I know exactly what emails are being sent using my accounts (I keep track of each email coming out from the system) I was really interested how it could happen. Who reported message as a SPAM, and which one was that.&lt;/p&gt;</description></item><item><title>How to force jQuery version on WordPress</title><link>https://www.spidersoft.com.au/2013/how-to-force-jquery-version-on-wordpress/</link><pubDate>Fri, 20 Sep 2013 11:35:28 +0000</pubDate><guid>https://www.spidersoft.com.au/2013/how-to-force-jquery-version-on-wordpress/</guid><description>&lt;p&gt;Another really simple code snippet. This time, we are trying to force particular version of jQuery injecting into WordPress.&lt;/p&gt;</description></item><item><title>Serialize form to object – jQuery</title><link>https://www.spidersoft.com.au/2013/serialize-form-to-object-jquery/</link><pubDate>Sun, 15 Sep 2013 11:35:24 +0000</pubDate><guid>https://www.spidersoft.com.au/2013/serialize-form-to-object-jquery/</guid><description>&lt;p&gt;It’s pretty easy to serialise form using jQuery –&lt;/p&gt;
 &lt;pre tabindex="0"&gt;&lt;code&gt;$(&amp;#39;#formid&amp;#39;).serialize();
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;or by&lt;/p&gt;
@@ -1362,19 +1359,7 @@ but… if we do this in two steps:&lt;/p&gt;</description></item><item><title>Li
 &lt;li&gt;fill space function&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="usage"&gt;Usage&lt;/h2&gt;
-&lt;p&gt;You need to upload file &lt;code&gt;img.php&lt;/code&gt; into directory &lt;code&gt;application/libraries&lt;/code&gt;. In controller, you need to load library:&lt;/p&gt;</description></item><item><title>How to create Screen Cast on Mac OS X</title><link>https://www.spidersoft.com.au/2011/how-to-create-screen-cast-under-mac-os-x/</link><pubDate>Fri, 04 Mar 2011 18:37:20 +0000</pubDate><guid>https://www.spidersoft.com.au/2011/how-to-create-screen-cast-under-mac-os-x/</guid><description>&lt;p&gt;Sometimes you can’t create only description. Sometimes you need to record a screen cast on your Mac OS X. Under Windows environment I used excelent simple program called 
- 
- 
- 
- 
- &lt;a href="https://www.debugmode.com/wink/"&gt;WINK&lt;/a&gt;
- . It is really simple, fast and efficient solution for creating screen cast using Windows. Unfortunately I didn’t found any similar solution for Mac until now… It’s also really simple and it called:   
- 
- 
- 
- 
- &lt;a href="http://www.techsmith.com/jing/"&gt;Jing&lt;/a&gt;
- .&lt;/p&gt;</description></item><item><title>Google Storage for Developers vs Amazon S3</title><link>https://www.spidersoft.com.au/2011/google-storage-for-developers-vs-amazon-s3/</link><pubDate>Tue, 01 Mar 2011 18:35:40 +0000</pubDate><guid>https://www.spidersoft.com.au/2011/google-storage-for-developers-vs-amazon-s3/</guid><description>&lt;p&gt;I just got activation for 
+&lt;p&gt;You need to upload file &lt;code&gt;img.php&lt;/code&gt; into directory &lt;code&gt;application/libraries&lt;/code&gt;. In controller, you need to load library:&lt;/p&gt;</description></item><item><title>Google Storage for Developers vs Amazon S3</title><link>https://www.spidersoft.com.au/2011/google-storage-for-developers-vs-amazon-s3/</link><pubDate>Tue, 01 Mar 2011 18:35:40 +0000</pubDate><guid>https://www.spidersoft.com.au/2011/google-storage-for-developers-vs-amazon-s3/</guid><description>&lt;p&gt;I just got activation for 
  
  
  
@@ -1488,14 +1473,7 @@ but… if we do this in two steps:&lt;/p&gt;</description></item><item><title>Li
 	&lt;figcaption&gt;&lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;/p&gt;</description></item><item><title>MySQL on Mac OS X with preference panel</title><link>https://www.spidersoft.com.au/2010/mysql-on-mac-os-x-with-preference-panel/</link><pubDate>Wed, 22 Dec 2010 10:06:56 +0000</pubDate><guid>https://www.spidersoft.com.au/2010/mysql-on-mac-os-x-with-preference-panel/</guid><description>&lt;p&gt;In my daily work I really suffered because MySQL wasn’t work after fresh installation. Preference panel just didn’t start MySQL on system startup neither using it into Preferences.&lt;br&gt;
-After a lot of google research I found many solutions but only 
- 
- 
- 
- 
- &lt;a href="http://www.angry-fly.com/post.cfm/getting-mysql-preference-pane-to-work-in-leopard"&gt;Angry Fly&lt;/a&gt;
- gives me some clues how to find proper fix.&lt;/p&gt;</description></item><item><title>Content Management Systems</title><link>https://www.spidersoft.com.au/services/web-content-management-system/</link><pubDate>Sat, 04 Dec 2010 05:05:11 +0000</pubDate><guid>https://www.spidersoft.com.au/services/web-content-management-system/</guid><description>&lt;p&gt;A &lt;strong&gt;Web Content Management System&lt;/strong&gt; (WCMS) is a software system which provides website authoring and administration tools designed to allow users with little knowledge of web programming languages or markup languages to create and manage the site’s content with relative ease.&lt;/p&gt;
+&lt;/p&gt;</description></item><item><title>Content Management Systems</title><link>https://www.spidersoft.com.au/services/web-content-management-system/</link><pubDate>Sat, 04 Dec 2010 05:05:11 +0000</pubDate><guid>https://www.spidersoft.com.au/services/web-content-management-system/</guid><description>&lt;p&gt;A &lt;strong&gt;Web Content Management System&lt;/strong&gt; (WCMS) is a software system which provides website authoring and administration tools designed to allow users with little knowledge of web programming languages or markup languages to create and manage the site’s content with relative ease.&lt;/p&gt;
 &lt;p&gt;In most cases system use a database to store content, but this not a rule. Sometimes if website is simple CMS allows you only change content od static HTML files.&lt;/p&gt;</description></item><item><title>About Us</title><link>https://www.spidersoft.com.au/about/</link><pubDate>Sat, 04 Dec 2010 02:05:55 +0000</pubDate><guid>https://www.spidersoft.com.au/about/</guid><description>&lt;p&gt;SpiderSoft is an Australian software development company. We have a presence in Sydney and offshore offices in Poland. We specialize in custom software solutions.&lt;/p&gt;
 &lt;p&gt;With a development methodology refined over ten years, SpiderSoft can provide fully supported custom software. Please take advantage of our expertise in building web, desktop, and mobile applications.&lt;/p&gt;
 &lt;p&gt;Areas where are specialized in:&lt;/p&gt;
