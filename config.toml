@@ -53,8 +53,8 @@ url = 'https://db.tt/ijgUW8i1'
 
 [[menu.side]]
 identifier = 'digitalocean'
-name = 'DigitalOcean'
-url = 'https://m.do.co/c/4d3f8f5c4118'
+name = 'Hetzner Cloud'
+url = 'https://hetzner.cloud/?ref=gJwTT1VzZwcJ'
 
 [[menu.footer]]
 name = 'Privacy Policy'

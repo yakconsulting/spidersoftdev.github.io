@@ -24,18 +24,18 @@ Sample usage:
 
 send email  with attachment and copy to given address:
 
-```
+```BASH
 mailsend -smtp localhost -t email@example.com -f test@otheraddress.com -attach attachment.zip -name from_name -M "bodycopy"
 ```
 
 let&#8217;s send email RAW email using GMAIL account:
 
-```
+```BASH
 mailsend -starttls -auth -smtp smtp.gmail.com -user myuser@gmail.com -pass mypass -t destintation@email.com -f myuser@gmail.com -attach test.zip,application/zip,a -name me -msg-body test.txt -sub email with attachment
 ```
 
 Send email using Amazon SES
 
-```
+```BASH
 mailsend -starttls -auth -smtp email-smtp.us-east-1.amazonaws.com -user KEY -pass PASS -t to@email.address -name me -f confimed@email.address -sub test -M "message"
 ```

@@ -31,7 +31,7 @@ Both of them running in the same machine &#8211; my Mac Book Pro with SSD drives
 
 Measuring code is pretty ugly:
 
-```
+```GO
 t0 := time.Now()
 for i := 0; i < loop; i++ {
 	getmongo()
@@ -42,7 +42,7 @@ fmt.Printf("The mongo 1 call took %v to run.\n\n", t1.Sub(t0))
 
 and for MongoDB
 
-```
+```GO
 t0 = time.Now()
 	for i := 0; i < loop; i++ {
 		getmysql()
@@ -55,7 +55,7 @@ Let&#8217;s see results:
 
 ## Running queries
 
-```
+```BASH
 The mongo 1 call took 2.230508ms to run.
 The mysql 1 call took 900.2us to run.
 ------------------
@@ -65,7 +65,7 @@ The mysql 2 call took 718.89us to run.
 
 Surprise surprise &#8211; MySQL is much more faster then MongoDB. Let&#8217;s run the same query 100 times.
 
-```
+```BASH
 The mongo 1 call took 85.661532ms to run.
 The mysql 1 call took 56.858658ms to run.
 ------------------
@@ -75,7 +75,7 @@ The mysql 2 call took 54.091382ms to run.
 
 Again &#8211; MySQL wins. So&#8230; where is the catch ? Let&#8217;s run the same query 500 times
 
-```
+```BASH
 The mongo 1 call took 396.514457ms to run.
 The mysql 1 call took 254.117612ms to run.
 ------------------
@@ -90,7 +90,7 @@ It&#8217;s even worse. MongoDB still far behind. Let&#8217;s go crazy, and run t
 We are going to modify out code to run them as [go routines][3]:
 
 
-```
+```GO
 t0 := time.Now()
     for i := 0; i < loop; i++ {
 	go getmongo()
@@ -101,7 +101,7 @@ fmt.Printf("The mongo 1 call took %v to run.\n\n", t1.Sub(t0))
 
 Let&#8217;s start with 100 in the same time:
 
-```
+```BASH
 The mongo 1 call took 250.5us to run.
 The mysql 1 call took 216.609us to run.
 ------------------
@@ -111,7 +111,7 @@ The mysql 2 call took 243.412us to run.
 
 And 500
 
-```
+```BASH
 The mongo 1 call took 1.153202ms to run.
 The mysql 1 call took 1.201624ms to run.
 ------------------

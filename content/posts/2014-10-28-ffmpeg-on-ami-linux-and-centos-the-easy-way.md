@@ -9,11 +9,7 @@ dsq_thread_id:
   - 3164530439
 categories:
   - DevOps
-tags:
-  - centos
-  - ec2
-  - ffmpeg
-  - DevOps
+
 
 ---
 [FFmpeg](https://www.ffmpeg.org/) is a complete, cross-platform solution to record, convert and stream audio and video.
@@ -21,7 +17,7 @@ tags:
 All you need to do is just install one more repository:  
 [http://rpmfusion.org/Configuration](http://rpmfusion.org/Configuration)
 
-```
+```BASH
 wget http://download1.rpmfusion.org/free/el/updates/6/i386/rpmfusion-free-release-6-1.noarch.rpm
 sudo rpm -Uhv rpmfusion-free-release-6-1.noarch.rpm
 wget http://download1.rpmfusion.org/nonfree/el/updates/6/i386/rpmfusion-nonfree-release-6-1.noarch.rpm
@@ -40,13 +36,13 @@ Initial size of video was 1280&#215;720 &#8211; I wanted to make them square, a
 
 Magical line for me was:
 
-```
+```BASH
 /usr/bin/ffmpeg -strict experimental -c:v h264 -i in.MOV -c:a copy -filter:v "crop=720:720:280:0" out.mp4
 ```
 
 Why i&#8217;m giving this example ? Because of couple issues. One of them was seeing ugly error:
 
-```
+```BASH
 [NULL @ 0x7ce340] Codec is experimental but experimental codecs are not enabled, see -strict -2
 ```
 
@@ -54,7 +50,7 @@ it was solved by `-strict experimental`.
 
 Second one was:
 
-```
+```BASH
 Error while opening encoder for output stream #0:1 - maybe incorrect parameters such as bit_rate, rate, width or height
 ```
 
@@ -62,6 +58,6 @@ and it took me a while to figure out, that FFmpeg can&#8217;t deal with audio co
 
 One more cool feature &#8211; you can rotate video if need &#8211;
 
-```
+```BASH
 /usr/bin/ffmpeg -strict experimental -c:v h264 -i in.MOV -c:a copy -filter:v "crop=720:720:280:0" -vf "transpose=1" out.mp4
 ```

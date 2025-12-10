@@ -11,7 +11,6 @@ categories:
   - PHP
 tags:
   - php
-  - samples
 
 ---
 Biggest pain point in PHP is lack of asynchronous calls. The only reasonable way is to use some kind of &#8220;backend&#8221; processing and task list to execute. Some people use cron to run given script each n-minutes and execute tasks. But there is a little bit more &#8220;professional&#8221; approach. [Beanstalk][1] is a simple, fast work queue. Idea is pretty simple &#8211; you can just throw tasks into queue and then have background worker which is pulling data from pipe and executes task.
@@ -26,8 +25,7 @@ For PHP Client i&#8217;m using [pheanstalk](https://github.com/pda/pheanstalk) w
 
 Code sample for creating task in PHP
 
-```
-<?php
+```PHP
    require_once('./vendor/pda/pheanstalk/pheanstalk_init.php'); // use it if you don't have autolader
    $pheanstalk = new Pheanstalk_Pheanstalk('127.0.0.1');
    $pheanstalk->useTube('core')->put('task name');
@@ -36,8 +34,7 @@ Code sample for creating task in PHP
 
 And worker:
 
-```
-<?php   
+```PHP
   $pheanstalk = new Pheanstalk_Pheanstalk("127.0.0.1");
 
   while ($job = $pheanstalk->watch('core')->ignore('default')->reserve()) {

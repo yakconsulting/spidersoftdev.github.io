@@ -25,7 +25,7 @@ Using simple terms &#8211; HHVM allows you run scripts written in PHP but much, 
 
 Update: 2 Dec 2014. You don&#8217;t have to use my image, you can install it from this repo:
 
-```
+```BASH
 wget http://www.hop5.in/yum/el6/hop5.repo -O /etc/yum.repos.d
 echo 'priority=9' >> hop5.repo
 echo 'includepkgs=glog,tbb' >> hop5.repo

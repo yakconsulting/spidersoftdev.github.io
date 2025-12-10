@@ -21,7 +21,7 @@ Recently I had a problem with my [Caddy server](https://caddyserver.com/). I was
 
 The issue was with the certificate, which didn't renew. I had to do a lot of research to find out what was wrong. I had not typical configuration: 
 
-```
+```JSON
 {
     on_demand_tls {
         ask      http://localhost:5555/check
@@ -35,7 +35,7 @@ Which means that you can point any domain to the server, and it will be served w
 
 After that I had also couple other services with standard like: 
 
-```
+```JSON
 domain.com {
     reverse_proxy 127.0.0.1:8085
 }
