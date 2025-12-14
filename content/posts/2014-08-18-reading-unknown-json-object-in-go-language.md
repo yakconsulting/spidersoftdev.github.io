@@ -22,7 +22,7 @@ Exploring [The Go Language][1] is so much fun. Everything is brand new, and diff
   
 Out JSON object looks pretty simple:
 
-```
+```JSON
 {
     "created_at": null,
     "name": "product name",
@@ -35,7 +35,7 @@ Out JSON object looks pretty simple:
 
 Let&#8217;s GO
 
-```
+```GO
 func getrecord() {
 	body := fetch("http://localhost/our.json")
 	var f interface{}
