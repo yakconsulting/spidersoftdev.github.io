@@ -52,7 +52,7 @@ name = 'Dropbox'
 url = 'https://db.tt/ijgUW8i1'
 
 [[menu.side]]
-identifier = 'digitalocean'
+identifier = 'hetzner'
 name = 'Hetzner Cloud'
 url = 'https://hetzner.cloud/?ref=gJwTT1VzZwcJ'
 
