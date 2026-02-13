@@ -23,7 +23,7 @@
  &lt;a href="https://geoip.gex.pl"&gt;GeoIP&lt;/a&gt;
  .&lt;/p&gt;
 &lt;p&gt;Otherwise:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-shell" data-lang="shell"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;wget http://pear.php.net/go-pear.phar
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-shell" data-lang="shell"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;wget http://pear.php.net/go-pear.phar
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;php go-pear.phar
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;We need geoip-devel libraries:&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;yum install geoip-devel&lt;/code&gt;&lt;/p&gt;
