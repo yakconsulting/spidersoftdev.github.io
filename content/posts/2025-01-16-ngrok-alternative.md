@@ -1,5 +1,5 @@
 ---
-title: "Setting Up Cloudflare Tunnel: A Modern Alternative to Ngrok"
+title: "Cloudflare Tunnel: A Modern Alternative to Ngrok"
 author: admin
 type: post
 date: 2025-01-16T10:00:00+00:00
