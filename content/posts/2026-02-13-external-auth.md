@@ -6,6 +6,7 @@ date: 2026-02-13T10:00:00+02:00
 lead: "Eliminate custom login code by offloading authentication to a reverse proxy that passes trusted identity headers directly to your Go or PHP apps."
 categories: ["DevOps"]
 description: "Secure your web applications without building login forms. Learn the external authorization pattern using reverse proxies (Caddy, Nginx, Traefik) to manage sessions and inject trusted user headers into your backend."
+thumbnail: /images/2026/external-auth.webp.webp
 ---
 You've got a Go API. Or a PHP app. Or both. And you need to protect them. The instinct is to reach for a library, bolt on JWT handling, wire up a database for sessions, and build yet another login form. But there's a better way — one that separates authentication from your application entirely.
 
