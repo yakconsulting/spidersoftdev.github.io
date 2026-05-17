@@ -6,6 +6,7 @@ date: 2025-12-17T10:00:00+02:00
 lead: "Configure dual-WAN failover and policy-based routing on MikroTik RouterOS v7 so your backup link takes over automatically and selected destinations always use a specific WAN."
 categories: ["DevOps"]
 description: "Step-by-step MikroTik RouterOS v7 CLI setup for dual WAN failover with route distances plus policy-based routing to force specific destinations via the secondary WAN."
+thumbnail: "/images/2026/mikrotik-failover.webp"
 ---
 
 # MikroTik RouterOS v7: Dual WAN Failover & Policy-Based Routing
