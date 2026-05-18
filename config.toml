@@ -42,11 +42,6 @@ url = '/contact-us/'
 weight = 50
 
 [[menu.side]]
-identifier = 'namecheap'
-name = 'Namecheap'
-url = 'http://www.namecheap.com?aff=9312'
-
-[[menu.side]]
 identifier = 'dropbox'
 name = 'Dropbox'
 url = 'https://db.tt/ijgUW8i1'
@@ -55,6 +50,11 @@ url = 'https://db.tt/ijgUW8i1'
 identifier = 'hetzner'
 name = 'Hetzner Cloud'
 url = 'https://hetzner.cloud/?ref=gJwTT1VzZwcJ'
+
+[[menu.side]]
+identifier = 'wise'
+name = 'Wise'
+url = 'https://wise.com/invite/u/slawomirj36'
 
 [[menu.footer]]
 name = 'Privacy Policy'
